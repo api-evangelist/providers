@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Incident Io Plans Pricing
   plan_count: 5
   slug: incident-io-plans-pricing
-random_paper: 63
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Incident Io Rate Limits
@@ -236,7 +236,7 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.0
@@ -244,7 +244,7 @@ score:
     discoverability: 53.7
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 45.2
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,8 +253,8 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/screenshots/incident-io-2026-06-20T183308.png
 security:
 - kind: authentication

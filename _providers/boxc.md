@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 80
+random_paper: 68
 scopes:
 - name: Boxc Scopes
   scope_count: 19
@@ -255,7 +255,7 @@ scopes:
 score:
   band: developing
   composite: 44.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 61.8
@@ -263,7 +263,7 @@ score:
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 44.8
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

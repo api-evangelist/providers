@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -146,7 +146,7 @@ plans:
 - name: Dify Plans Pricing
   plan_count: 3
   slug: dify-plans-pricing
-random_paper: 80
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Dify Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 52.2
@@ -162,7 +162,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 44.7
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:
 - kind: authentication

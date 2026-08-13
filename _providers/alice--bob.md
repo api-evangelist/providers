@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Health API from Alice Bob — 1 operation(s) for health.
@@ -164,11 +164,11 @@ plans:
 - name: Alice  Bob Plans
   plan_count: 3
   slug: alice--bob-plans
-random_paper: 95
+random_paper: 67
 score:
   band: developing
   composite: 51.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 50.7
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     conformance: derived
     contracts:
@@ -187,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:

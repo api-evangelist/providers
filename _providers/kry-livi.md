@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -123,11 +123,11 @@ overview: 'KRY | LIVI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   KRY | LIVI''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 11
+random_paper: 103
 score:
   band: emerging
   composite: 23.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -135,7 +135,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 23.9
+  previous_composite: 23.0
   provenance:
     conformance: first-party
   regulatory:
@@ -145,7 +145,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png
 security:

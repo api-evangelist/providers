@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,11 +158,11 @@ overview: 'Ketryx publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Ketryx''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 99
+random_paper: 79
 score:
   band: thin
   composite: 38.9
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 15.7
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 40.9
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

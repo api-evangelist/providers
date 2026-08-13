@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -468,7 +468,7 @@ press:
 - date: '2026-05-04'
   title: Stater Bros. Markets Signs New Agreement with NCR Voyix to Modernize POS and Payments on the Voyix Commerce Platform | NCR Voyix
   url: https://collections.ncrvoyix.com/newsroom/stater-bros-markets-signs-new-agreement-with-ncr-voyix-to-modernize-pos-and-payments-on-the-voyix-commerce-platform
-random_paper: 91
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Ncr Rate Limits
@@ -501,7 +501,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 23.5
@@ -509,7 +509,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 34.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -524,7 +524,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png
 security:

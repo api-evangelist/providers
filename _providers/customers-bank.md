@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -195,11 +195,11 @@ overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Customers Bank''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 62
+random_paper: 14
 score:
   band: developing
   composite: 42.9
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.6
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png
 security:

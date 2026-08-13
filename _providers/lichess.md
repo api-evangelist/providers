@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -441,7 +441,7 @@ plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 51
+random_paper: 27
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits
@@ -479,7 +479,7 @@ scopes:
 score:
   band: strong
   composite: 61.8
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 84.7
@@ -487,7 +487,7 @@ score:
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 61.7
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -496,7 +496,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:

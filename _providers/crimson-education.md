@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The backend API behind the Crimson App student and mentor platform. There is no provider-published OpenAPI or public developer portal; the surface is documented and exercised through the first-party T
@@ -118,7 +118,7 @@ overview: 'Crimson Education publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Crimson Education''s developer surface includes engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 24
+random_paper: 84
 score:
   band: emerging
   composite: 21.8
@@ -134,7 +134,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

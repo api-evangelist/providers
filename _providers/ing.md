@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The ING Developer Portal provides a marketplace of APIs covering Open Banking (PSD2 Account Information and Payment Initiation), payments, and bank-as-a-service capabilities. Third-party providers can
@@ -71,7 +71,7 @@ overview: 'ING publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ING''s developer surface includes developer portal and 5 more developer resources.'
-random_paper: 86
+random_paper: 78
 score:
   band: minimal
   composite: 8.2
@@ -91,7 +91,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ing/refs/heads/main/screenshots/ing-2026-06-20T183349.png
 security:

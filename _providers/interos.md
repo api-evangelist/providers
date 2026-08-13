@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'Interos publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Interos'' developer surface includes documentation, API reference, authentication, and 20 more developer resources.'
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Interos Rate Limits
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.6
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 44.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:

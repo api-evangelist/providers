@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The default API from Salad Transcription API — 2 operation(s) for default.
@@ -131,7 +131,7 @@ plans:
 - name: Salad Transcription Api Plans Pricing
   plan_count: 3
   slug: salad-transcription-api-plans-pricing
-random_paper: 25
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Salad Transcription Api Rate Limits
@@ -156,7 +156,7 @@ rules:
 score:
   band: developing
   composite: 43.1
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 59.0
@@ -164,7 +164,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 51.5
+  previous_composite: 43.1
   provenance:
     contracts:
       callable: 0.0
@@ -172,8 +172,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/screenshots/salad-transcription-api-2026-06-20T193339.png
 security:
 - kind: domain-security

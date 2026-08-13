@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Openssf Plans Pricing
   plan_count: 3
   slug: openssf-plans-pricing
-random_paper: 70
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Openssf Rate Limits
@@ -177,7 +177,7 @@ rules:
 score:
   band: thin
   composite: 40.6
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 66.1
@@ -185,7 +185,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 49.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
 security:
 - kind: domain-security

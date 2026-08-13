@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -5836,7 +5836,7 @@ plans:
 - name: Posthog Plans Pricing
   plan_count: 4
   slug: posthog-plans-pricing
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Posthog Rate Limits
@@ -5861,7 +5861,7 @@ rules:
 score:
   band: strong
   composite: 56.1
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 56.4
@@ -5869,7 +5869,7 @@ score:
     discoverability: 66.7
     governance: 41.7
     operational_transparency: 44.7
-  previous_composite: 63.7
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -5878,8 +5878,8 @@ score:
       marker_coverage: 0.0
       total: 131
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:
 - kind: authentication

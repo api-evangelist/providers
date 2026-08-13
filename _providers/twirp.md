@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Twirp is a simple RPC framework with protobuf service definitions. Define your service in a .proto file and Twirp generates servers and clients implementing the Twirp wire protocol. Services are expos
@@ -112,7 +112,7 @@ plans:
 - name: Twirp Plans Pricing
   plan_count: 3
   slug: twirp-plans-pricing
-random_paper: 102
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Twirp Rate Limits
@@ -129,7 +129,7 @@ rules:
 score:
   band: emerging
   composite: 23.7
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 8.1
@@ -137,10 +137,10 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 31.6
+  previous_composite: 23.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twirp/refs/heads/main/screenshots/twirp-2026-06-20T195851.png
 slug: twirp
 tags:

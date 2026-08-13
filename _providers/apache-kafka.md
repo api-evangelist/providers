@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -531,7 +531,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 5
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -564,7 +564,7 @@ rules:
 score:
   band: developing
   composite: 51.3
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 62.1
@@ -572,7 +572,7 @@ score:
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 39.5
-  previous_composite: 53.9
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -583,7 +583,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:

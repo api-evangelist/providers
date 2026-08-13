@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'ZenZap publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 84
+random_paper: 64
 scopes:
 - name: Zenzap Scopes
   scope_count: 12
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 73.1
@@ -224,7 +224,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 54.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

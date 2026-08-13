@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Pangea Plans Pricing
   plan_count: 3
   slug: pangea-plans-pricing
-random_paper: 40
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Pangea Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.2
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/screenshots/pangea-2026-06-20T191339.png
 security:

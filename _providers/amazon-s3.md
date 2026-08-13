@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -92,9 +92,6 @@ apis:
   name: Amazon S3 Tagging API
   slug: amazon-s3-tagging-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Initiate a multipart upload then abort it to release any staged storage.
   name: Amazon S3 Start and Abort a Multipart Upload
   slug: amazon-s3-abort-multipart-upload-workflow
@@ -155,7 +152,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 239
+artifact_total: 238
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -950,7 +947,7 @@ plans:
 - name: Amazon S3 Plans Pricing
   plan_count: 4
   slug: amazon-s3-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Amazon S3 Rate Limits
@@ -975,7 +972,7 @@ rules:
 score:
   band: exemplar
   composite: 69.5
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 80.2
@@ -983,7 +980,7 @@ score:
     discoverability: 85.2
     governance: 69.8
     operational_transparency: 55.3
-  previous_composite: 78.1
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -994,8 +991,8 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:
 - kind: authentication

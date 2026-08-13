@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
@@ -186,7 +186,7 @@ overview: 'Codesignal publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 5
+random_paper: 89
 scopes:
 - name: Codesignal Scopes
   scope_count: 1
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 59.7
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.1
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:

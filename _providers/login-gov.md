@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ plans:
 - name: Login Gov Plans Pricing
   plan_count: 2
   slug: login-gov-plans-pricing
-random_paper: 102
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Login Gov Rate Limits
@@ -262,7 +262,7 @@ rules:
 score:
   band: strong
   composite: 56.9
-  delta: 4.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.0
@@ -270,7 +270,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 52.3
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -285,7 +285,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

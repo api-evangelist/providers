@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ overview: 'Mirakl publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 60
+random_paper: 40
 scopes:
 - name: Mirakl Scopes
   scope_count: 0
@@ -258,7 +258,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.1
@@ -266,7 +266,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 58.2
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,7 +278,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Ezrentout Plans Pricing
   plan_count: 5
   slug: ezrentout-plans-pricing
-random_paper: 80
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Ezrentout Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 53.7
@@ -158,7 +158,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.3
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/screenshots/ezrentout-2026-07-25T214101.png
 security:

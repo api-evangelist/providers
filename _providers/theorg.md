@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for retrieving public company org charts, prospecting positions/people, and monitoring credit usage. Metered in credits; authenticated with an X-Api-Key header.
@@ -140,7 +140,7 @@ overview: 'The Org publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   The Org''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Theorg Rate Limits
@@ -162,7 +162,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

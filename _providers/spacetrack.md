@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 13
+random_paper: 97
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -183,7 +183,7 @@ rules:
 score:
   band: developing
   composite: 49.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 75.3
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 50.2
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -200,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/screenshots/spacetrack-2026-06-20T194237.png
 security:

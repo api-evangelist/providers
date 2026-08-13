@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Pagarme Plans Pricing
   plan_count: 3
   slug: pagarme-plans-pricing
-random_paper: 37
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Pagarme Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.7
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.9
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -166,7 +166,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagarme/refs/heads/main/screenshots/pagarme-2026-08-07T191256.png
 security:

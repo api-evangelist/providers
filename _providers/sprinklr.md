@@ -10,31 +10,36 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-11'
+  score: 54.5
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RESTful APIs for integrating with the Sprinklr Unified-CXM platform, covering social listening, publishing, reporting, user provisioning, digital asset management, and webhook subscriptions across 30+
   name: Sprinklr API
   slug: sprinklr-api
-artifact_total: 7
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Sprinklr Webhooks
+  slug: sprinklr-webhooks
 common:
 - group: auth
   title: ''
@@ -62,7 +67,7 @@ common:
   url: https://dev.sprinklr.com/getting-started
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/sprinklr-inc
 - group: company
   title: ''
@@ -72,10 +77,6 @@ common:
   title: ''
   type: Blog
   url: https://www.sprinklr.com/blog/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.sprinklr.com/pricing/
 - group: operate
   title: ''
   type: StatusPage
@@ -84,6 +85,114 @@ common:
   title: ''
   type: X
   url: https://x.com/sprinklr
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev.sprinklr.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dev.sprinklr.com/api2-0
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dev.sprinklr.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.sprinklr.com/help/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.sprinklr.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sprinklr.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sprinklr.com/privacy/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/sprinklr-api/sprinklr-public-api-collections/overview
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.sprinklr.com/responsible-disclosure/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.sprinklr.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sprinklr-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/sprinklr-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sprinklr-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sprinklr-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sprinklr-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/sprinklr-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sprinklr-mcp.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sprinklr-changelog.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sprinklr-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sprinklr-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sprinklr-authentication.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sprinklr-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sprinklr-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/sprinklr-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/sprinklr-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/sprinklr-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sprinklr-data-model.yml
 - group: commercial
   title: ''
   type: Plans
@@ -104,40 +213,51 @@ finops:
   slug: sprinklr-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sprinklr.png
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: sprinklr-mcp.yml
+  slug: sprinklr-mcpyml
+modified: '2026-08-12'
 name: Sprinklr
 nav: Providers
 network: true
 overview: 'Sprinklr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media Management, Customer Experience, Customer Service, Marketing, and Advertising.
 
 
-  Sprinklr''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 11 more developer resources.'
+  The Sprinklr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Sprinklr''s developer surface includes documentation, getting-started guide, engineering blog, API reference, signup flow, support, CLI, and 34 more developer resources.'
 plans:
 - name: Sprinklr Plans Pricing
   plan_count: 5
   slug: sprinklr-plans-pricing
-random_paper: 73
+random_paper: 45
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Sprinklr Rate Limits
   slug: sprinklr-rate-limits
 score:
-  band: emerging
-  composite: 25.5
-  delta: 0.0
+  band: exemplar
+  composite: 67.9
+  delta: 42.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 0.0
-    developer_ergonomics: 21.7
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 89.5
+    contract_quality: 51.6
+    developer_ergonomics: 84.8
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 76.3
   previous_composite: 25.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/screenshots/sprinklr-2026-06-20T194419.png
 security:
+- kind: authentication
+  name: Sprinklr Authentication
+  slug: sprinklr-authentication
+  summary_line: oauth2/apiKey/mutualTLS · 5 schemes
 - kind: domain-security
   name: Sprinklr Domain Security
   slug: sprinklr-domain-security

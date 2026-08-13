@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CXF provides Java APIs for building SOAP (JAX-WS) and REST (JAX-RS) web services with WSDL-first and code-first approaches, WS-* standards support, multiple data bindings (JAXB, Aegis, XMLBeans), plug
@@ -176,7 +176,7 @@ plans:
 - name: Apache Cxf Plans Pricing
   plan_count: 3
   slug: apache-cxf-plans-pricing
-random_paper: 48
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Apache Cxf Rate Limits
@@ -193,7 +193,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 29.0
@@ -201,10 +201,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 41.8
+  previous_composite: 35.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cxf/refs/heads/main/screenshots/apache-cxf-2026-06-20T172051.png
 security:
 - kind: domain-security

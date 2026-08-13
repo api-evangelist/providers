@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -135,7 +135,7 @@ overview: 'ELLKAY publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   ELLKAY''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, sandbox, and 13 more developer resources.'
-random_paper: 62
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Ellkay Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.2
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -151,7 +151,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 30.7
+  previous_composite: 29.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -162,7 +162,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -812,7 +812,7 @@ plans:
 - name: Vantage Plans Pricing
   plan_count: 3
   slug: vantage-plans-pricing
-random_paper: 46
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Vantage Rate Limits
@@ -837,7 +837,7 @@ rules:
 score:
   band: strong
   composite: 59.8
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 78.7
@@ -845,7 +845,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 67.6
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -854,8 +854,8 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:
 - kind: authentication

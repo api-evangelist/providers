@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Jotform Plans Pricing
   plan_count: 5
   slug: jotform-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 9
   name: Jotform Rate Limits
@@ -175,7 +175,7 @@ rules:
 score:
   band: thin
   composite: 39.5
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 61.9
@@ -183,7 +183,7 @@ score:
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 28.9
-  previous_composite: 47.9
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:
 - kind: authentication

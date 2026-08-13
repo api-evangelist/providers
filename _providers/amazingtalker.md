@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Pages API from AmazingTalker — 1 operation(s) for pages.
@@ -104,11 +104,11 @@ overview: 'AmazingTalker publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AmazingTalker''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
-random_paper: 110
+random_paper: 66
 score:
   band: thin
   composite: 28.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 45.5
@@ -116,7 +116,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 30.2
+  previous_composite: 28.6
   provenance:
     conformance: derived
     contracts:
@@ -127,7 +127,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
 security:

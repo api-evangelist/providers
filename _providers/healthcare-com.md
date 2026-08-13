@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,7 +106,7 @@ overview: 'Healthcare.com is profiled on the [APIs.io](https://apis.io/) network
 
 
   Healthcare.com''s developer surface includes support, engineering blog, and 16 more developer resources.'
-random_paper: 13
+random_paper: 85
 score:
   band: emerging
   composite: 14.3
@@ -126,7 +126,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthcare-com/refs/heads/main/screenshots/healthcare-com-2026-08-07T170028.png
 security:

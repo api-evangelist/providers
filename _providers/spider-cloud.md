@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
   slug: spider-cloud-plans-pricing
-random_paper: 67
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Spider Cloud Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.2
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 51.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'Zencoder publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 22 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: developing
   composite: 51.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.9
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

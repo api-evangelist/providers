@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Presidio Inc API provides access to platform services and data for enterprise integration and automation.
@@ -72,7 +72,7 @@ plans:
 - name: Presidio Plans Pricing
   plan_count: 1
   slug: presidio-plans-pricing
-random_paper: 51
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Presidio Rate Limits
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.7
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -88,10 +88,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.9
+  previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/presidio/refs/heads/main/screenshots/presidio-2026-06-20T192053.png
 security:
 - kind: domain-security

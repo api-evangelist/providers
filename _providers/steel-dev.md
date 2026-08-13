@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ plans:
 - name: Steel Dev Plans Pricing
   plan_count: 6
   slug: steel-dev-plans-pricing
-random_paper: 93
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Steel Dev Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.6
@@ -133,7 +133,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.7
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

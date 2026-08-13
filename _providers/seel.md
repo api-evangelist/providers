@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: The Bill API from Seel — 3 operation(s) for bill.
@@ -143,11 +143,11 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 11 more developer resources.'
-random_paper: 77
+random_paper: 65
 score:
   band: thin
   composite: 36.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 67.2
@@ -155,7 +155,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 36.8
   provenance:
     conformance: derived
     contracts:
@@ -172,7 +172,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

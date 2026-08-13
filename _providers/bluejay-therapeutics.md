@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Posts, pages and cross-content search.
@@ -142,11 +142,11 @@ overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 50
 score:
   band: emerging
   composite: 26.1
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 58.0
@@ -154,7 +154,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 27.7
+  previous_composite: 26.1
   provenance:
     conformance: derived
     contracts:
@@ -170,7 +170,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:

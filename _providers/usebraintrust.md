@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Public Braintrust network statistics.
@@ -131,11 +131,11 @@ overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://
 
 
   Braintrust (Talent Network)''s developer surface includes documentation, engineering blog, pricing, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 43
+random_paper: 115
 score:
   band: thin
   composite: 31.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 13.6
@@ -143,7 +143,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 32.7
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     contracts:
@@ -154,7 +154,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

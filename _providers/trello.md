@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Trello Plans Pricing
   plan_count: 4
   slug: trello-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Trello Rate Limits
@@ -255,7 +255,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 76.7
@@ -263,7 +263,7 @@ score:
     discoverability: 50.0
     governance: 52.1
     operational_transparency: 13.2
-  previous_composite: 47.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +272,8 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:
 - kind: authentication

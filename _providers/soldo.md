@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -313,7 +313,7 @@ overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 81
+random_paper: 65
 scopes:
 - name: Soldo Scopes
   scope_count: 59
@@ -322,7 +322,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 69.0
@@ -330,7 +330,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,7 +348,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

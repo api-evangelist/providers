@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -188,11 +188,11 @@ overview: 'Finite State publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Finite State''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 69
+random_paper: 29
 score:
   band: thin
   composite: 39.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -200,13 +200,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 38.9
+  previous_composite: 39.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

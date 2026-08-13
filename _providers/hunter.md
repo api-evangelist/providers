@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -578,7 +578,7 @@ plans:
 - name: Hunter Plans Pricing
   plan_count: 6
   slug: hunter-plans-pricing
-random_paper: 82
+random_paper: 62
 rate_limits:
 - limit_count: 15
   name: Hunter Rate Limits
@@ -603,7 +603,7 @@ rules:
 score:
   band: strong
   composite: 58.4
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.9
@@ -611,7 +611,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 66.9
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -620,8 +620,8 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:
 - kind: authentication

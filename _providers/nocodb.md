@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Nocodb Plans Pricing
   plan_count: 9
   slug: nocodb-plans-pricing
-random_paper: 49
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Nocodb Rate Limits
@@ -243,7 +243,7 @@ rules:
 score:
   band: strong
   composite: 57.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.4
@@ -251,7 +251,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 57.7
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -260,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/screenshots/nocodb-2026-06-20T190347.png
 security:

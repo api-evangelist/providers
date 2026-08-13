@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
@@ -148,7 +148,7 @@ overview: 'AWAKENS publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AWAKENS''s developer surface includes signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 50
+random_paper: 26
 scopes:
 - name: Awakens Scopes
   scope_count: 0
@@ -157,7 +157,7 @@ scopes:
 score:
   band: thin
   composite: 28.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -165,7 +165,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 29.3
+  previous_composite: 28.3
   provenance:
     conformance: derived
     mcp: derived
@@ -177,7 +177,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/screenshots/awakens-2026-07-25T202019.png
 security:

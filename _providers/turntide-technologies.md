@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ overview: 'Turntide Technologies publishes 15 APIs on the [APIs.io](https://apis
 
 
   Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 4
+random_paper: 48
 scopes:
 - name: Turntide Technologies Scopes
   scope_count: 1
@@ -228,7 +228,7 @@ scopes:
 score:
   band: thin
   composite: 35.6
-  delta: 4.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 14.4
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,7 +254,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

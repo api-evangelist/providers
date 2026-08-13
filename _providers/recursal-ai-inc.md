@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Recursal AI, Inc.''s developer surface includes documentation, API reference, getting-started guide, quickstart, pricing, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 79
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Recursal Ai Inc Rate Limits
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 59.7
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 49.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

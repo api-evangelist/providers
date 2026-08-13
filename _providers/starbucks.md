@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ press:
 - date: '2026-05-25'
   title: News Blog
   url: https://about.starbucks.com/press/news-blog/
-random_paper: 50
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Starbucks Rate Limits
@@ -223,7 +223,7 @@ rules:
 score:
   band: developing
   composite: 43.3
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.9
@@ -231,7 +231,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 49.1
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png
 security:
 - kind: authentication

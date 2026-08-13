@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Country-by-country travel advisories (Levels 1-4) issued by the Bureau of Consular Affairs, with RSS distribution.
@@ -112,7 +112,7 @@ plans:
 - name: Department Of State Plans Pricing
   plan_count: 3
   slug: department-of-state-plans-pricing
-random_paper: 68
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Department Of State Rate Limits
@@ -129,7 +129,7 @@ rules:
 score:
   band: emerging
   composite: 18.1
-  delta: -7.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 8.1
@@ -137,7 +137,7 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 13.2
-  previous_composite: 25.5
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: tags
@@ -145,8 +145,8 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Department Of State Domain Security

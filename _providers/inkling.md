@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Inkling is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Inkling''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: emerging
   composite: 16.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.7
+  previous_composite: 16.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inkling/refs/heads/main/screenshots/inkling-2026-07-25T222445.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Elliptic Plans
   plan_count: 1
   slug: elliptic-plans
-random_paper: 42
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Aml Api
@@ -198,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 43.6
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.7
@@ -206,7 +206,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/screenshots/elliptic-2026-06-20T180613.png
 security:

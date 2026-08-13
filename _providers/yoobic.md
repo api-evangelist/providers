@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 41
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
@@ -255,11 +255,11 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 65
+random_paper: 45
 score:
   band: developing
   composite: 44.5
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.1
@@ -267,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 45.4
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -278,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

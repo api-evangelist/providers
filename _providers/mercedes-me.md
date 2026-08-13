@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -254,7 +254,7 @@ plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
   slug: mercedes-me-plans-pricing
-random_paper: 51
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Mercedes Me Rate Limits
@@ -279,7 +279,7 @@ rules:
 score:
   band: developing
   composite: 46.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.8
@@ -287,7 +287,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 46.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -296,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:

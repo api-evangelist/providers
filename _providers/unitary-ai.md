@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The API Authentication API from Unitary AI — 1 operation(s) for api authentication.
@@ -163,11 +163,11 @@ overview: 'Unitary AI publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Unitary AI''s developer surface includes documentation, getting-started guide, API reference, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 99
+random_paper: 67
 score:
   band: thin
   composite: 39.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 60.4
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 41.2
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

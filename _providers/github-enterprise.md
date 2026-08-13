@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -131,11 +131,11 @@ overview: 'GitHub Enterprise publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   GitHub Enterprise''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 37
+random_paper: 97
 score:
   band: thin
   composite: 33.1
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -143,7 +143,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 30.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/screenshots/github-enterprise-2026-06-20T181846.png
 security:

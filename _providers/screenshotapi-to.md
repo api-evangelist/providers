@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Capture URLs or HTML as images or PDFs.
@@ -33,11 +33,11 @@ name: ScreenshotAPI
 nav: Providers
 network: true
 overview: 'ScreenshotAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Screenshots API. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.'
-random_paper: 48
+random_paper: 112
 score:
   band: emerging
   composite: 23.4
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 64.7
@@ -45,7 +45,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 23.4
   provenance:
     contracts:
       callable: 100.0
@@ -53,7 +53,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: screenshotapi-to
 tags:

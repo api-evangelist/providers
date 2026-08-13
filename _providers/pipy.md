@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Pipy exposes an Admin UI and administrative interface, accessible via the built-in repo-mode HTTP server (default port 6060). The administrative surface allows operators to manage Pipy repositories, c
@@ -92,7 +92,7 @@ plans:
 - name: Pipy Plans Pricing
   plan_count: 3
   slug: pipy-plans-pricing
-random_paper: 102
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Pipy Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.1
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -108,10 +108,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 23.0
+  previous_composite: 15.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Pipy Domain Security

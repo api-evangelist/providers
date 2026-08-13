@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments supported agent frameworks and LLM providers, suppo
@@ -178,7 +178,7 @@ plans:
 - name: Agentops Plans Pricing
   plan_count: 1
   slug: agentops-plans-pricing
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Agentops Rate Limits
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.3
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -194,9 +194,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 22.6
+  previous_composite: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/screenshots/agentops-2026-06-20T170038.png
 security:

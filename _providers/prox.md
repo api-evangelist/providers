@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted MCP server that lets AI assistants query a manufacturer's Prox workspace (products, knowledge trees, wiki nodes) grounded in their manuals and make attributed, version-controlled edits. OAuth 2
@@ -120,7 +120,7 @@ overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 109
+random_paper: 97
 scopes:
 - name: Prox Scopes
   scope_count: 4
@@ -141,7 +141,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

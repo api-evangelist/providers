@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Plain's Core GraphQL API — the same API the Plain product is built on. Manage customers, companies, tenants, threads, messaging, help center, labels, tiers/SLAs, snippets, tasks, events, and webhook t
@@ -184,7 +184,7 @@ overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 24 more developer resources.'
-random_paper: 68
+random_paper: 52
 score:
   band: strong
   composite: 56.1
@@ -202,7 +202,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

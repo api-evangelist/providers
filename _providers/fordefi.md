@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -238,11 +238,11 @@ overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fordefi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 24 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: developing
   composite: 54.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.7
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 55.5
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,7 +268,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:

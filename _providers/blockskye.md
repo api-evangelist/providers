@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Live production API host operated by Blockskye, discovered by probe. The host answers as a Fastify service behind AWS API Gateway: GET /health returns 200 with a JSON status/bootId payload, every othe'
@@ -117,7 +117,7 @@ overview: 'Blockskye publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Blockskye''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 39
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Blockskye Rate Limits
@@ -141,7 +141,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockskye/refs/heads/main/screenshots/blockskye-2026-08-07T162631.png
 security:

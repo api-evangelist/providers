@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -1404,7 +1404,7 @@ plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 26
+random_paper: 90
 rate_limits:
 - limit_count: 10
   name: Google Analytics Rate Limits
@@ -1434,7 +1434,7 @@ scopes:
 score:
   band: strong
   composite: 60.5
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 66.6
@@ -1442,7 +1442,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 64.6
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1451,7 +1451,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:

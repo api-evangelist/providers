@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Client organization information
@@ -179,11 +179,11 @@ overview: 'Confident Cannabis publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 90
+random_paper: 30
 score:
   band: developing
   composite: 46.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 65.1
@@ -191,7 +191,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 47.2
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     contracts:
@@ -208,7 +208,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
 security:

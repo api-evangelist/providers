@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Stockdata Plans Pricing
   plan_count: 5
   slug: stockdata-plans-pricing
-random_paper: 30
+random_paper: 118
 rate_limits:
 - limit_count: 6
   name: Stockdata Rate Limits
@@ -278,7 +278,7 @@ rules:
 score:
   band: strong
   composite: 64.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 64.9
@@ -286,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 65.8
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +304,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

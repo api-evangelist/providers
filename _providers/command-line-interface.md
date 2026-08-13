@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Command Line Interface
 nav: Providers
 network: true
-random_paper: 106
+random_paper: 34
 slug: command-line-interface
 tags:
 - Automation

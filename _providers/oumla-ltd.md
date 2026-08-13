@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
@@ -189,11 +189,11 @@ overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
-random_paper: 99
+random_paper: 71
 score:
   band: developing
   composite: 47.5
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 60.7
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 49.3
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     contracts:
@@ -218,7 +218,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

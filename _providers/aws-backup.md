@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -125,11 +125,11 @@ overview: 'AWS Backup publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AWS Backup''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 78
+random_paper: 46
 score:
   band: thin
   composite: 31.5
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -137,7 +137,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -146,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/screenshots/aws-backup-2026-06-20T172742.png
 security:

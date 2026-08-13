@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Pubchem Pug Rest
   plan_count: 1
   slug: pubchem-pug-rest
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Blast
@@ -257,7 +257,7 @@ rules:
 score:
   band: thin
   composite: 41.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.6
@@ -265,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -280,7 +280,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/screenshots/ncbi-2026-06-20T190109.png
 security:

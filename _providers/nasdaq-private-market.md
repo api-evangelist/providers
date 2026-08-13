@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Tape D is NPM's private-company pricing and valuation dataset — real-time private market pricing integrating primary round data, secondary market transactions, mutual fund marks and 409A valuations ac
@@ -146,7 +146,7 @@ overview: 'Nasdaq Private Market publishes 1 API on the [APIs.io](https://apis.i
 
 
   Nasdaq Private Market''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 41
+random_paper: 89
 scopes:
 - name: Nasdaq Private Market Scopes
   scope_count: 7
@@ -173,7 +173,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-private-market/refs/heads/main/screenshots/nasdaq-private-market-2026-08-07T184636.png
 security:

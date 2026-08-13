@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -835,7 +835,7 @@ rules:
 score:
   band: strong
   composite: 61.8
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 78.3
@@ -843,7 +843,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 69.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -852,8 +852,8 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -132,7 +132,7 @@ overview: 'Grips Intelligence publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Grips Intelligence''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 5
+random_paper: 61
 scopes:
 - name: Grips Intelligence Scopes
   scope_count: 1
@@ -153,7 +153,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/screenshots/grips-intelligence-2026-07-25T220333.png
 security:

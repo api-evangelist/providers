@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Maven Agi Plans Pricing
   plan_count: 2
   slug: maven-agi-plans-pricing
-random_paper: 73
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Maven Agi Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 53.7
@@ -156,7 +156,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.8
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -165,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/screenshots/maven-agi-2026-07-25T230432.png
 security:

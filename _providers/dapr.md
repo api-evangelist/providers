@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -251,7 +251,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 75
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -284,7 +284,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 71.0
@@ -292,7 +292,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -301,8 +301,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:
 - kind: domain-security

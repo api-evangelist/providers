@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -32,16 +32,13 @@ apis:
   name: Landcor Property API
   slug: landcor-property-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve a BC street address to a Landcor PID, then pull property detail, the AVM valuation range and the valuation history.
   name: Landcor — address to valuation
   slug: landcor-address-to-valuation
 - description: Run a proposed mortgage amount against Landcor's AVM value for a BC property and retrieve the password-protected PDF valuation report for the file.
   name: Landcor — loan-to-value check and valuation report
   slug: landcor-ltv-check-and-report
-artifact_total: 8
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -189,11 +186,11 @@ overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: thin
   composite: 41.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 55.2
@@ -201,14 +198,14 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 42.7
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

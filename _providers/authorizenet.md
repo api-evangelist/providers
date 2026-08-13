@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Payment gateway API for accepting credit card and eCheck.Net payments, storing customer payment profiles (CIM), recurring billing (ARB), hosted/tokenized card capture (Accept.js / Accept Hosted), tran
@@ -168,11 +168,11 @@ overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Authorize.net''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, sandbox, and 20 more developer resources.'
-random_paper: 38
+random_paper: 114
 score:
   band: developing
   composite: 45.6
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -180,7 +180,7 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 48.4
+  previous_composite: 45.6
   provenance:
     conformance: derived
     mcp: derived
@@ -191,7 +191,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/screenshots/authorizenet-2026-07-25T201810.png
 security:

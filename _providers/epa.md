@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -6613,7 +6613,7 @@ overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on th
 
 
   EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 78
+random_paper: 70
 rate_limits:
 - limit_count: 11
   name: Epa Rate Limits
@@ -6638,7 +6638,7 @@ rules:
 score:
   band: strong
   composite: 57.5
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 72.4
@@ -6646,7 +6646,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.3
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -6661,7 +6661,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

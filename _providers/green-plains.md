@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Green Plains Inc. (GPRE) reports earnings - Quartz
   url: https://qz.com/green-plains-inc-gpre-reports-earnings-1851758511
-random_paper: 61
+random_paper: 21
 score:
   band: minimal
   composite: 4.7
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-plains/refs/heads/main/screenshots/green-plains-2026-06-20T182351.png
 security:

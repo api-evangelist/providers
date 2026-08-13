@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,11 +99,11 @@ overview: 'AskSenti is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AskSenti''s developer surface includes changelog, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 54
+random_paper: 26
 score:
   band: emerging
   composite: 24.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -111,11 +111,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 25.2
+  previous_composite: 24.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asksenti/refs/heads/main/screenshots/asksenti-2026-07-25T201426.png
 security:

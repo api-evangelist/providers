@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Admin API from Boltz — 7 operation(s) for admin.
@@ -186,11 +186,11 @@ overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boltz''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, sandbox, and 22 more developer resources.'
-random_paper: 91
+random_paper: 75
 score:
   band: developing
   composite: 50.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 36.8
-  previous_composite: 52.2
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:

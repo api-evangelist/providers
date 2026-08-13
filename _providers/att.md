@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -1076,7 +1076,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 97
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits
@@ -1106,7 +1106,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 33.2
@@ -1114,7 +1114,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 50.5
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1129,7 +1129,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

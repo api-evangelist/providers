@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Telefonie Plans Pricing
   plan_count: 1
   slug: telefonie-plans-pricing
-random_paper: 27
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Telefonie Rate Limits
@@ -225,7 +225,7 @@ rules:
 score:
   band: developing
   composite: 51.4
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 66.4
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 56.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -248,7 +248,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:

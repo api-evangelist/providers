@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for programmatically creating and managing Qwilr pages (proposals, quotes, contracts, reports) from templates and saved blocks, managing quote taxes, listing payment gateways and users, and s
@@ -179,7 +179,7 @@ overview: 'Qwilr publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Qwilr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 95
+random_paper: 79
 scopes:
 - name: Qwilr Scopes
   scope_count: 1
@@ -201,7 +201,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

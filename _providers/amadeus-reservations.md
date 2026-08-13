@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -2445,7 +2445,7 @@ overview: 'Amadeus Reservations publishes 1 API on the [APIs.io](https://apis.io
 
 
   Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 10
+random_paper: 58
 rules:
 - name: Amadeus Reservations API Rules
   rule_count: 5
@@ -2466,7 +2466,7 @@ rules:
 score:
   band: developing
   composite: 54.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 55.0
@@ -2474,7 +2474,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 55.1
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2485,7 +2485,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:

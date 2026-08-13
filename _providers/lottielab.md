@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,11 +103,11 @@ overview: 'Lottielab is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lottielab''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: emerging
   composite: 22.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 23.8
+  previous_composite: 22.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lottielab/refs/heads/main/screenshots/lottielab-2026-07-25T225601.png
 security:

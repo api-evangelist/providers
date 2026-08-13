@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -335,7 +335,7 @@ plans:
 - name: Bentoml Plans Pricing
   plan_count: 3
   slug: bentoml-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 6
   name: Bentoml Rate Limits
@@ -352,7 +352,7 @@ rules:
 score:
   band: developing
   composite: 49.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.7
@@ -360,7 +360,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 49.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -369,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: The Admin API from Revyze — 2 operation(s) for admin.
@@ -130,11 +130,11 @@ overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Revyze''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 97
+random_paper: 77
 score:
   band: thin
   composite: 29.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.3
@@ -142,7 +142,7 @@ score:
     discoverability: 81.5
     governance: 8.3
     operational_transparency: 7.9
-  previous_composite: 31.0
+  previous_composite: 29.4
   provenance:
     contracts:
       callable: 0.0
@@ -150,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

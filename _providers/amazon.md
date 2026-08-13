@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -798,7 +798,7 @@ press:
 - date: '2026-05-25'
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
-random_paper: 66
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Amazon Rate Limits
@@ -823,7 +823,7 @@ rules:
 score:
   band: developing
   composite: 54.7
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.6
@@ -831,7 +831,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 59.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -846,7 +846,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -410,7 +410,7 @@ overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 15 more developer resources.'
-random_paper: 75
+random_paper: 63
 rules:
 - name: Clio API Rules
   rule_count: 10
@@ -423,7 +423,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 64.5
@@ -431,7 +431,7 @@ score:
     discoverability: 50.0
     governance: 27.1
     operational_transparency: 21.1
-  previous_composite: 48.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -440,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png
 security:

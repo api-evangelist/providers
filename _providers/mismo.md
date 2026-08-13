@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 12
 common:
@@ -124,7 +124,7 @@ overview: 'MISMO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   MISMO''s developer surface includes developer portal, documentation, product news, and 16 more developer resources.'
-random_paper: 85
+random_paper: 69
 score:
   band: minimal
   composite: 8.5
@@ -138,7 +138,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mismo/refs/heads/main/screenshots/mismo-2026-08-07T183743.png
 slug: mismo

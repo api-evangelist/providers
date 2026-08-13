@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -21711,7 +21711,7 @@ plans:
 - name: Adyen Plans Pricing
   plan_count: 2
   slug: adyen-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Adyen Rate Limits
@@ -21744,7 +21744,7 @@ rules:
 score:
   band: exemplar
   composite: 67.0
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 81.2
@@ -21752,7 +21752,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 72.3
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -21767,8 +21767,8 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:
 - kind: authentication

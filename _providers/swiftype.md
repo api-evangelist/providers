@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -116,7 +116,7 @@ overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Swiftype''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
-random_paper: 79
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Swiftype Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -132,12 +132,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 21.4
+  previous_composite: 20.3
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

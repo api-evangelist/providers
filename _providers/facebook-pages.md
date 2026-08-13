@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io
 
 
   Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 79
 scopes:
 - name: Facebook Pages Scopes
   scope_count: 7
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 31.9
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -153,7 +153,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/screenshots/facebook-pages-2026-06-20T181006.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Medusa Js Plans Pricing
   plan_count: 1
   slug: medusa-js-plans-pricing
-random_paper: 93
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Medusa Js Rate Limits
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.5
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.5
@@ -250,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 39.9
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

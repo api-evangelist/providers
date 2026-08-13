@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Angelic
 nav: Providers
 network: true
 overview: Angelic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Gaming, Video Games, and Strategy RPG.
-random_paper: 27
+random_paper: 3
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelic/refs/heads/main/screenshots/angelic-2026-07-25T200233.png
 security:

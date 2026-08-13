@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -238,7 +238,7 @@ overview: 'MINE publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 24 more developer resources.'
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Mine Rate Limits
@@ -246,7 +246,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 57.6
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 55.3
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,7 +266,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:

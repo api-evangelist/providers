@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -229,7 +229,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 52
+random_paper: 28
 scopes:
 - name: Viagogo Scopes
   scope_count: 17
@@ -238,7 +238,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.2
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 48.9
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -257,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

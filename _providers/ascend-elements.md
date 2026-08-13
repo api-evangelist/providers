@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -226,11 +226,11 @@ overview: 'Ascend Elements publishes 21 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ascend Elements'' developer surface includes engineering blog, privacy policy, YouTube channel, authentication, and 25 more developer resources.'
-random_paper: 20
+random_paper: 88
 score:
   band: emerging
   composite: 18.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 15.7
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 18.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

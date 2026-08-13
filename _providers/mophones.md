@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Shopify-native Universal Commerce Protocol (UCP) surface for the Mophones storefront — a published UCP merchant profile plus a UCP-over-MCP shopping endpoint that agents use to search the catalog,
@@ -76,11 +76,11 @@ name: Mophones
 nav: Providers
 network: true
 overview: Mophones publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Commerce, Agentic Commerce, and Universal Commerce Protocol.
-random_paper: 61
+random_paper: 33
 score:
   band: emerging
   composite: 13.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -88,11 +88,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 13.6
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mophones/refs/heads/main/screenshots/mophones-2026-08-07T184253.png
 security:

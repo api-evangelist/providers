@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Shazam Plans Pricing
   plan_count: 7
   slug: shazam-plans-pricing
-random_paper: 64
+random_paper: 44
 rate_limits:
 - limit_count: 11
   name: Shazam Rate Limits
@@ -169,7 +169,7 @@ rules:
 score:
   band: developing
   composite: 50.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.2
@@ -177,7 +177,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 50.1
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/screenshots/shazam-2026-06-20T193748.png
 security:

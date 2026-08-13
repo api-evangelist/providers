@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Commercial sound-effects generation API exposing the OptimizerAI text-to-sfx v2 model. Access is contract-based (annual pre-payment) across Ultra-Fast/Fast (dedicated) and Slow (shared) tiers, each wi
@@ -96,11 +96,11 @@ overview: 'OptimizerAI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   OptimizerAI''s developer surface includes documentation, pricing, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 37
+random_paper: 117
 score:
   band: emerging
   composite: 19.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -108,9 +108,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 19.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizerai/refs/heads/main/screenshots/optimizerai-2026-08-07T190813.png
 security:

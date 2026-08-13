@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: The Aspects API from Diaspora — 2 operation(s) for aspects.
@@ -231,7 +231,7 @@ overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 39
+random_paper: 11
 scopes:
 - name: Diaspora Scopes
   scope_count: 0
@@ -240,7 +240,7 @@ scopes:
 score:
   band: developing
   composite: 43.3
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.0
@@ -248,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 46.5
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:

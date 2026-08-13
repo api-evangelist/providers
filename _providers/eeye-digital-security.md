@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,11 +88,11 @@ overview: 'Eye Security is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Eye Security''s developer surface includes documentation, engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 48
+random_paper: 96
 score:
   band: emerging
   composite: 15.2
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.7
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
@@ -108,7 +108,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eeye-digital-security/refs/heads/main/screenshots/eeye-digital-security-2026-07-25T213128.png
 security:

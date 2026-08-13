@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 82
+random_paper: 66
 score:
   band: developing
   composite: 47.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 53.9
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 48.7
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,7 +227,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

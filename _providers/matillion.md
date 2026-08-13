@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Matillion Plans Pricing
   plan_count: 5
   slug: matillion-plans-pricing
-random_paper: 41
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Matillion Rate Limits
@@ -153,7 +153,7 @@ scopes:
 score:
   band: thin
   composite: 37.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.7
@@ -161,7 +161,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.6
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/screenshots/matillion-2026-07-25T230414.png
 security:

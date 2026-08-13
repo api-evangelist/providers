@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Mattoboard Announces Backing from Masco, Home Depot ...
   url: https://www.prnewswire.com/news-releases/mattoboard-announces-backing-from-masco-home-depot-ventures-and-top-vcs-around-the-globe-to-digitize-the-interior-design-studio-302373674.html
-random_paper: 67
+random_paper: 51
 score:
   band: minimal
   composite: 5.0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masco/refs/heads/main/screenshots/masco-2026-06-20T185011.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for full programmatic access to TrueContext (ProntoForms) forms, submissions, users, and dispatch, available on the Elite tier. Supports HTTP GET/POST for bidirectional data, webhooks to push
@@ -148,11 +148,11 @@ overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 61
+random_paper: 21
 score:
   band: thin
   composite: 35.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -160,11 +160,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 36.5
+  previous_composite: 35.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

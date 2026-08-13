@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'Yorkshire Building Society publishes 4 APIs on the [APIs.io](https://
 
 
   Yorkshire Building Society''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 24 more developer resources.'
-random_paper: 28
+random_paper: 56
 scopes:
 - name: Yorkshire Building Society Scopes
   scope_count: 4
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -205,7 +205,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 45.7
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,7 +223,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -383,7 +383,7 @@ plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
   slug: uniswap-plans-pricing
-random_paper: 79
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Uniswap Rate Limits
@@ -408,7 +408,7 @@ rules:
 score:
   band: developing
   composite: 49.7
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 72.8
@@ -416,7 +416,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 57.6
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -431,8 +431,8 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:
 - kind: authentication

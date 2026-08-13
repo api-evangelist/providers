@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,13 +66,10 @@ apis:
   name: Forum Positions API
   slug: forum-positions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'Check exchange status, list available attention-index markets, inspect one market, place a limit order (idempotent via clientOrderId), confirm the order, then read the resulting account and position. '
   name: Forum — discover a market and place an order
   slug: forum-place-order
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: 'Real-time market data and private account updates via WebSocket. ## Connection Connect to `wss://api.forum.market/ws/v1` to establish a WebSocket connection. You must send a `subscribe` command within'
   name: Forum WebSocket Feed
@@ -209,7 +206,7 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 89
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
@@ -217,7 +214,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 72.3
@@ -225,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 51.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,7 +240,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:

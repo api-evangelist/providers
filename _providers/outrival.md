@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -262,11 +262,11 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 74
+random_paper: 46
 score:
   band: developing
   composite: 48.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.3
@@ -274,7 +274,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 49.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,7 +292,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:

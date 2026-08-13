@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Franchise dashboards and dashboard types
@@ -121,11 +121,11 @@ overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modern''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 65
+random_paper: 45
 score:
   band: thin
   composite: 36.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.1
@@ -133,7 +133,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 37.7
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -144,7 +144,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:

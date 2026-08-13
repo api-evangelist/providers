@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Versioned REST API (v2) exposing Poggio account intelligence, context search, account digests, the superagent chat, Salesforce account-plan writeback, and third-party integration registration. Secured
@@ -148,7 +148,7 @@ overview: 'Poggio Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Poggio Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 17 more developer resources.'
-random_paper: 64
+random_paper: 28
 score:
   band: thin
   composite: 37.5
@@ -166,7 +166,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

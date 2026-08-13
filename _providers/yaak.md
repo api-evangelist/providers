@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast '
@@ -88,7 +88,7 @@ plans:
 - name: Yaak Plans Pricing
   plan_count: 3
   slug: yaak-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Yaak Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.7
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.8
+  previous_composite: 13.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/screenshots/yaak-2026-06-20T201717.png
 security:
 - kind: domain-security

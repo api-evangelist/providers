@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -251,7 +251,7 @@ plans:
 - name: Transcend Io Plans Pricing
   plan_count: 5
   slug: transcend-io-plans-pricing
-random_paper: 63
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Transcend Io Rate Limits
@@ -276,7 +276,7 @@ rules:
 score:
   band: strong
   composite: 56.2
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 67.4
@@ -284,7 +284,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 52.5
+  previous_composite: 56.2
   provenance:
     contracts:
       callable: 100.0
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/screenshots/transcend-io-2026-06-20T195548.png
 security:

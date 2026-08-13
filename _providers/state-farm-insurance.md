@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: State Farm Insurance Plans Pricing
   plan_count: 1
   slug: state-farm-insurance-plans-pricing
-random_paper: 53
+random_paper: 105
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Rate Limits
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.2
@@ -224,7 +224,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 48.7
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/screenshots/state-farm-insurance-2026-06-20T194522.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Enterprise data API for uni-directional data transfer into Everlance: create and update user profiles, apply user attributes (team/department/division tags), assign team structure and roles, and manag'
@@ -116,7 +116,7 @@ overview: 'Everlance publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Everlance''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 21
+random_paper: 109
 score:
   band: emerging
   composite: 27.3
@@ -130,7 +130,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/screenshots/everlance-2026-07-25T213731.png
 security:

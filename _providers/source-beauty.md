@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -99,7 +99,7 @@ overview: 'Source Beauty is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Source Beauty''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 76
+random_paper: 32
 scopes:
 - name: Source Beauty Scopes
   scope_count: 4
@@ -108,7 +108,7 @@ scopes:
 score:
   band: emerging
   composite: 16.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -116,12 +116,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 16.5
   provenance:
     agentic_access: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

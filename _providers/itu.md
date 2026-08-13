@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -141,11 +141,11 @@ overview: 'ITU publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data
 
 
   ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 106
+random_paper: 98
 score:
   band: thin
   composite: 35.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.9
@@ -153,7 +153,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 37.5
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -171,7 +171,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing contacts, lists, campaigns, automations, custom fields, sender profiles, tags, and custom integration events for e-commerce email and SMS marketing.
@@ -112,7 +112,7 @@ plans:
 - name: Sendlane Plans Pricing
   plan_count: 4
   slug: sendlane-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Sendlane Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:

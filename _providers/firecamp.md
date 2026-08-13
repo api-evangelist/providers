@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. The product itself does not publish a consumer-facing HTTP API; it is a d
@@ -120,7 +120,7 @@ plans:
 - name: Firecamp Plans Pricing
   plan_count: 3
   slug: firecamp-plans-pricing
-random_paper: 27
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Firecamp Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.0
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 22.9
+  previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png
 security:

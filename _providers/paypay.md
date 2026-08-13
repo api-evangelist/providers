@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   PayPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 80
+random_paper: 60
 score:
   band: developing
   composite: 42.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 58.6
@@ -193,7 +193,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 43.2
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +211,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

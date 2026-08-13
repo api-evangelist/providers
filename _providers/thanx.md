@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -531,7 +531,7 @@ plans:
 - name: Thanx Plans Pricing
   plan_count: 1
   slug: thanx-plans-pricing
-random_paper: 83
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Thanx Rate Limits
@@ -573,7 +573,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:

@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Paid, self-service product signup; no public API
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://socialsignin.com/go
+  - https://socialsignin.com/go/checkout/
   trial: false
   try_now: false
 agent_readiness:
@@ -22,15 +24,35 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/socialsignin-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/socialsignin-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/socialsignin-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/socialsignin-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/socialsignin-conformance.yml
 - group: company
   title: ''
   type: Website
@@ -39,10 +61,30 @@ common:
   title: ''
   type: About
   url: https://socialsignin.com/about
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://socialsigninwifi.zendesk.com/hc/en-us
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://socialsigninwifi.zendesk.com/hc/en-us/articles/47737919206427-FAQs
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://socialsignin.com/go
+- group: start
+  title: ''
+  type: SignUp
+  url: https://socialsignin.com/go/checkout/
 - group: company
   title: ''
   type: Blog
   url: https://socialsignin.com/articles
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://socialsign.in/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -59,34 +101,68 @@ common:
   title: ''
   type: Partners
   url: https://socialsignin.com/partners
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/socialsign-in
+coverage:
+  checked: '2026-08-12'
+  detail: 'SocialSign.in serves a live JSON API root at https://c.socialsign.in/api/ — it returns 200 with the placeholder body "API index" and every unknown child path answers application/json {"error": "page not found"} — but it sits inside the authenticated customer console at c.socialsign.in/client/, the 26-page public sitemap contains no developer or reference page, and the only programmatic capabilities the company names ("Advanced integrations", "Data mart") are features of the unpriced Enterprise tier.'
+  evidence:
+  - status: 200
+    url: https://c.socialsign.in/api/
+  - status: 404
+    url: https://c.socialsign.in/api/v1
+  - status: 200
+    url: https://c.socialsign.in/client/
+  - status: 404
+    url: https://socialsignin.com/openapi.json
+  - status: 200
+    url: https://socialsignin.com/sitemap-pages.xml
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
-description: SocialSign.in is a guest WiFi marketing platform that turns venue Wi-Fi login into a customer-acquisition and engagement channel. When guests connect to free Wi-Fi through branded splash pages, the platform captures opt-in contact data (email, phone, profile), measures visit frequency and dwell time, and syncs profiles to CRM and email/SMS marketing tools to trigger targeted campaigns across retail, hospitality, sports and entertainment, healthcare, and commercial real estate venues. The company exposes no public developer API, SDK, MCP server, or documentation surface as of this enrichment pass.
+description: 'SocialSign.in is a guest WiFi marketing platform that turns venue Wi-Fi login into a customer-acquisition and engagement channel. When guests connect to free Wi-Fi through branded splash pages, the platform captures opt-in contact data (email, phone, profile), measures visit frequency and dwell time, and syncs profiles to CRM and email/SMS marketing tools to trigger targeted campaigns across retail, hospitality, sports and entertainment, healthcare, and commercial real estate venues. It sells two products: the enterprise platform, sold through a contact-sales motion, and SocialSign.in Go, a self-serve packaged version with published per-location pricing. The company publishes no developer portal, no API reference, and no machine-readable specification of any kind; its product documentation lives in a public Zendesk help center covering portal setup and CRM/ESP connector configuration rather than any programmable interface. A JSON-emitting API root does exist at c.socialsign.in/api/
+  inside the authenticated customer console, and the Enterprise tier advertises "Advanced integrations" and a "Data mart", but neither is documented publicly.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/socialsignin.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: SocialSign.in
 nav: Providers
 network: true
 overview: 'SocialSign.in is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Guest WiFi, WiFi Marketing, Captive Portal, and Customer Data Platform.
 
 
-  SocialSign.in''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 7
+  SocialSign.in''s developer surface includes documentation, FAQ, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
+plans:
+- name: Socialsignin Plans Pricing
+  plan_count: 3
+  slug: socialsignin-plans-pricing
+random_paper: 83
+rate_limits:
+- limit_count: 0
+  name: Socialsignin Rate Limits
+  slug: socialsignin-rate-limits
 score:
-  band: minimal
-  composite: 11.0
-  delta: 0.0
+  band: emerging
+  composite: 27.1
+  delta: 16.1
   facets:
-    commercial_clarity: 23.7
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
+security:
+- kind: domain-security
+  name: Socialsignin Domain Security
+  slug: socialsignin-domain-security
+  summary_line: TLSv1.2 · HSTS · DMARC
 slug: socialsignin
 tags:
 - Company

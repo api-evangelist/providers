@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hapag-Lloyd''s API Portal exposes container shipping APIs covering container tracking and tracing, vessel schedules, point-to-point routings, booking submission, and shipment status events. APIs targe
@@ -67,7 +67,7 @@ overview: 'Hapag-Lloyd publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Hapag-Lloyd''s developer surface includes developer portal and 4 more developer resources.'
-random_paper: 62
+random_paper: 26
 score:
   band: minimal
   composite: 7.4
@@ -81,7 +81,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hapag-lloyd/refs/heads/main/screenshots/hapag-lloyd-2026-06-20T182512.png
 security:

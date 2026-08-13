@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,11 +74,11 @@ overview: 'Cargo X is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cargo X''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 64
+random_paper: 44
 score:
   band: minimal
   composite: 9.1
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -86,9 +86,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.3
+  previous_composite: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargox/refs/heads/main/screenshots/cargox-2026-08-07T163021.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 25
 apis:
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
@@ -274,7 +274,7 @@ overview: 'Cordial publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 31 more developer resources.'
-random_paper: 38
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits
@@ -287,7 +287,7 @@ scopes:
 score:
   band: strong
   composite: 60.4
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.5
@@ -295,7 +295,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 60.8
+  previous_composite: 60.4
   provenance:
     conformance: derived
     contracts:
@@ -312,7 +312,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:

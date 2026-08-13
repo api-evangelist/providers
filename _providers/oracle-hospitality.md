@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 135
 apis:
 - description: 'Oracle Hospitality Distribution ARI publication message specification for distribution partners to receive in real time property restrictions/availability, rate, and inventory schedules updates, also '
@@ -640,7 +640,7 @@ overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io
 
 
   Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 40 more developer resources.'
-random_paper: 29
+random_paper: 85
 rate_limits:
 - limit_count: 9
   name: Oracle Hospitality Rate Limits
@@ -653,7 +653,7 @@ scopes:
 score:
   band: strong
   composite: 60.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.9
@@ -661,7 +661,7 @@ score:
     discoverability: 66.7
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 61.7
+  previous_composite: 60.5
   provenance:
     conformance: first-party
     contracts:
@@ -672,7 +672,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:

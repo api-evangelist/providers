@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -239,11 +239,11 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 44
+random_paper: 0
 score:
   band: developing
   composite: 51.8
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.1
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 55.2
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,7 +269,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-07T185041.png
 security:

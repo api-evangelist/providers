@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: API for publishing streams of records to Kafka topics.
@@ -115,7 +115,7 @@ plans:
 - name: Kafka Plans Pricing
   plan_count: 3
   slug: kafka-plans-pricing
-random_paper: 46
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Kafka Rate Limits
@@ -132,7 +132,7 @@ rules:
 score:
   band: thin
   composite: 35.9
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 54.3
@@ -140,9 +140,9 @@ score:
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka/refs/heads/main/screenshots/kafka-2026-06-20T183849.png
 security:

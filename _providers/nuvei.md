@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ plans:
 - name: Nuvei Plans Pricing
   plan_count: 1
   slug: nuvei-plans-pricing
-random_paper: 87
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Nuvei Rate Limits
@@ -288,7 +288,7 @@ rules:
 score:
   band: thin
   composite: 36.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 71.6
@@ -296,7 +296,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 37.2
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -311,7 +311,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

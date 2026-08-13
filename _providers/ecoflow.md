@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -148,11 +148,11 @@ overview: 'EcoFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   EcoFlow''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: thin
   composite: 35.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 72.8
@@ -160,7 +160,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/screenshots/ecoflow-2026-07-25T212755.png
 security:

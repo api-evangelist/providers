@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Invoca's date-versioned REST developer platform covering call transactions, signal reporting, call ingestion, RingPool trackable-number allocation, network integration, and pre-call (PreSense) insight
@@ -156,11 +156,11 @@ overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: thin
   composite: 34.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -168,12 +168,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 35.8
+  previous_composite: 34.7
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:

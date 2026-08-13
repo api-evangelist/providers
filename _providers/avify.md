@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Avify's primary developer API. A GraphQL endpoint covering products, inventory, store locations, carts, orders and payment methods. Authenticated with the api-key header. A public GraphQL sandbox is a
@@ -178,11 +178,11 @@ overview: 'Avify publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 79
+random_paper: 63
 score:
   band: developing
   composite: 43.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -190,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 13.2
-  previous_composite: 44.2
+  previous_composite: 43.3
   provenance:
     conformance: derived
     mcp: derived
@@ -202,7 +202,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avify/refs/heads/main/screenshots/avify-2026-07-25T201935.png
 security:

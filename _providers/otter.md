@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -3024,7 +3024,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 94
+random_paper: 78
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits
@@ -3054,7 +3054,7 @@ scopes:
 score:
   band: thin
   composite: 41.9
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 27.5
@@ -3062,7 +3062,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 42.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -3071,7 +3071,7 @@ score:
       marker_coverage: 100.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

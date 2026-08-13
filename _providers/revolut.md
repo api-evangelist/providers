@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -325,11 +325,11 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 25 more developer resources.'
-random_paper: 89
+random_paper: 65
 score:
   band: developing
   composite: 48.6
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 73.4
@@ -337,7 +337,7 @@ score:
     discoverability: 74.1
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 51.1
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,7 +355,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

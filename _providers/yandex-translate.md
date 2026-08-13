@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Yandex Translate Plans Pricing
   plan_count: 2
   slug: yandex-translate-plans-pricing
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 8
   name: Yandex Translate Rate Limits
@@ -196,7 +196,7 @@ rules:
 score:
   band: developing
   composite: 50.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.9
@@ -204,7 +204,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 51.1
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/screenshots/yandex-translate-2026-06-20T201724.png
 security:

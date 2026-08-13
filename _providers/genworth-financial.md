@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Genworth Financial Announces First Quarter 2026 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1056/genworth-financial-announces-first-quarter-2026-results
-random_paper: 0
+random_paper: 56
 score:
   band: minimal
   composite: 5.2
@@ -103,7 +103,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genworth-financial/refs/heads/main/screenshots/genworth-financial-2026-06-20T181741.png
 security:

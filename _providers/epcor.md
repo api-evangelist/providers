@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,11 +173,11 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
-random_paper: 73
+random_paper: 57
 score:
   band: thin
   composite: 35.5
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -185,7 +185,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 40.1
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:

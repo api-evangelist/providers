@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,11 +167,11 @@ overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ma
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: thin
   composite: 35.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 16.4
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 36.2
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,7 +197,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png
 security:

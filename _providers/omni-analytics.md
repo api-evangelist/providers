@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions; '
@@ -168,11 +168,11 @@ overview: 'Omni Analytics publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Omni Analytics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
-random_paper: 56
+random_paper: 8
 score:
   band: thin
   composite: 41.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -180,13 +180,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 42.4
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/screenshots/omni-analytics-2026-08-07T190150.png
 security:

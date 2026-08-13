@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -259,7 +259,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 89
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -272,7 +272,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.2
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 69.6
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 67.9
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

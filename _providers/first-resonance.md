@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The ION Factory OS GraphQL API. A single GraphQL endpoint for reading and writing manufacturing data in ION: Runs, Procedures, Parts, mBOM/aBOM, inventory, notifications, and webhook subscriptions. Au'
@@ -175,7 +175,7 @@ overview: 'First Resonance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   First Resonance''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 47
+random_paper: 115
 score:
   band: developing
   composite: 54.7
@@ -193,7 +193,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/screenshots/first-resonance-2026-07-25T214610.png
 security:

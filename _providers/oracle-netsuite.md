@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: REST Web Services API for creating, reading, updating, and deleting NetSuite records such as customers, vendors, sales orders, invoices, items, and journal entries. Authentication uses OAuth 2.0 (auth
@@ -106,7 +106,7 @@ overview: 'Oracle NetSuite publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Oracle NetSuite''s developer surface includes documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 48
+random_paper: 116
 score:
   band: emerging
   composite: 26.9
@@ -120,7 +120,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-netsuite/refs/heads/main/screenshots/oracle-netsuite-2026-06-20T191136.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Send messages to Poke programmatically.
@@ -152,11 +152,11 @@ overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io
 
 
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
-random_paper: 109
+random_paper: 105
 score:
   band: thin
   composite: 40.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 16.0
@@ -164,7 +164,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     conformance: derived
     contracts:
@@ -174,7 +174,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

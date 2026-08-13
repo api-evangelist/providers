@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -72,16 +72,13 @@ apis:
   name: CoinList Wallet Ownership API
   slug: coinlist-wallet-ownership-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Load an offer, check on-chain balance/allowance, prove and allow-list the wallet, then create and track a participation.
   name: CoinList Passage - Invest flow
   slug: coinlist-invest-flow
 - description: Start a Sumsub KYC session, read stored PII, and create a tax-document signing submission for a Passage user.
   name: CoinList Passage - KYC and document onboarding
   slug: coinlist-kyc-onboarding
-artifact_total: 19
+artifact_total: 18
 common:
 - group: other
   title: ''
@@ -227,7 +224,7 @@ overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 57
+random_paper: 29
 scopes:
 - name: Coinlist Scopes
   scope_count: 0
@@ -236,7 +233,7 @@ scopes:
 score:
   band: developing
   composite: 48.3
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.3
@@ -244,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 47.0
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +259,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

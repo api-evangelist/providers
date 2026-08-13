@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Teikametrics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Teikametrics'' developer surface includes documentation, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 9
+random_paper: 85
 score:
   band: emerging
   composite: 19.5
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

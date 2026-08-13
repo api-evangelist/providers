@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -149,9 +149,6 @@ apis:
   name: Youtube Videos API
   slug: youtube-videos-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Read a channel, list the comment threads on its discussion, and reply to the first thread.
   name: YouTube Channel Comment Threads and Reply
   slug: youtube-channel-comment-threads-reply-workflow
@@ -209,7 +206,7 @@ arazzos:
 - description: Pull a video's statistics, its top comment thread, and the replies under that thread's top comment.
   name: YouTube Video Engagement Report
   slug: youtube-video-engagement-report-workflow
-artifact_total: 417
+artifact_total: 416
 collections:
 - collection_type: postman
   name: YouTube Analytics API
@@ -1580,7 +1577,7 @@ plans:
 - name: Youtube Plans Pricing
   plan_count: 3
   slug: youtube-plans-pricing
-random_paper: 85
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Youtube Rate Limits
@@ -1610,7 +1607,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.7
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 80.7
@@ -1618,7 +1615,7 @@ score:
     discoverability: 68.5
     governance: 80.2
     operational_transparency: 42.1
-  previous_composite: 71.1
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1629,7 +1626,7 @@ score:
       total: 24
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

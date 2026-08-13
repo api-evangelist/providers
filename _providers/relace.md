@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -183,11 +183,11 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Relace''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 40
+random_paper: 20
 score:
   band: developing
   composite: 50.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.2
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 52.3
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

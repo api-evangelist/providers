@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 2
@@ -279,11 +279,11 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spotnana''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 56
+random_paper: 28
 score:
   band: developing
   composite: 46.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 68.4
@@ -291,7 +291,7 @@ score:
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 47.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,7 +309,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

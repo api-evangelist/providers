@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Gigya / SAP Customer Data Cloud REST API for accounts, identity, social login, consent, and profile data. Endpoints are data-center scoped under {service}.{dc}.gigya.com (e.g. accounts.us1.gigya.com) '
@@ -100,11 +100,11 @@ overview: 'Gigya publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gigya''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: emerging
   composite: 19.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -112,11 +112,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 20.8
+  previous_composite: 19.7
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigya/refs/heads/main/screenshots/gigya-2026-07-25T215815.png
 security:

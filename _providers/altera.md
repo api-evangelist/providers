@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Altera
 nav: Providers
 network: true
 overview: Altera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine Learning, and Multi-Agent Systems.
-random_paper: 53
+random_paper: 33
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: altera
 tags:

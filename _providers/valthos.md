@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 9
 common:
@@ -84,11 +84,11 @@ overview: 'Valthos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Valthos'' developer surface includes engineering blog, product news, and 6 more developer resources.'
-random_paper: 73
+random_paper: 49
 score:
   band: minimal
   composite: 6.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -96,7 +96,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.3
+  previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: tags
@@ -104,7 +104,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

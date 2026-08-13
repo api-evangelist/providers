@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ plans:
 - name: Akamai Technologies Plans Pricing
   plan_count: 4
   slug: akamai-technologies-plans-pricing
-random_paper: 85
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Akamai Technologies Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.3
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 55.2
@@ -117,7 +117,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 35.7
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -126,8 +126,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png
 security:
 - kind: authentication

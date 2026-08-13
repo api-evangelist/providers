@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Academic Bibliography (Biblio) provides programmatic access to UGent research publication metadata via a REST search API (JSON/JSONP), an OAI-PMH 2.0 harvesting endpoint, an SRU 1.1 search service
@@ -112,7 +112,7 @@ plans:
 - name: Ghent Plans Pricing
   plan_count: 2
   slug: ghent-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Ghent Rate Limits
@@ -136,7 +136,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/screenshots/ghent-2026-06-20T181815.png
 security:

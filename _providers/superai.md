@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 19
 apis:
 - description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
@@ -237,11 +237,11 @@ overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Super.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 24 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: developing
   composite: 54.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.5
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 55.4
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -260,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ plans:
 - name: Australia Post Plans Pricing
   plan_count: 4
   slug: australia-post-plans-pricing
-random_paper: 73
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Australia Post Rate Limits
@@ -247,7 +247,7 @@ rules:
 score:
   band: developing
   composite: 55.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 57.9
@@ -255,7 +255,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 56.1
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png
 security:

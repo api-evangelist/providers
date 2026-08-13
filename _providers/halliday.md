@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -192,11 +192,11 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: developing
   composite: 53.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 74.6
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 53.7
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +222,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:

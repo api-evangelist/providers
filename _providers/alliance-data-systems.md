@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ press:
 - date: '2026-05-25'
   title: 'Q2: Alliance Data Systems Bets On Conversant''s Pipeline'
   url: https://www.adexchanger.com/online-advertising/q2-alliance-data-systems-bets-on-coversants-pipeline/
-random_paper: 29
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Alliance Data Systems Rate Limits
@@ -334,7 +334,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.7
@@ -342,7 +342,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -357,7 +357,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

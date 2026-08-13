@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ plans:
 - name: Adafruit Io Plans Pricing
   plan_count: 3
   slug: adafruit-io-plans-pricing
-random_paper: 65
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Adafruit Io Rate Limits
@@ -423,7 +423,7 @@ rules:
 score:
   band: exemplar
   composite: 67.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 67.0
@@ -431,7 +431,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 67.6
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     contracts:
@@ -440,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:

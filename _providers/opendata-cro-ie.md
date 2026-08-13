@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CKAN Action API for Companies Registration Office Open Data, ~2 datasets. Base URL https://opendata.cro.ie/api/3/action/.
@@ -83,7 +83,7 @@ plans:
 - name: Opendata Cro Ie Plans Pricing
   plan_count: 0
   slug: opendata-cro-ie-plans-pricing
-random_paper: 72
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Opendata Cro Ie Rate Limits
@@ -107,7 +107,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-cro-ie/refs/heads/main/screenshots/opendata-cro-ie-2026-06-20T190935.png
 security:

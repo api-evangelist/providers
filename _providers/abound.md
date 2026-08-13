@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -78,9 +78,6 @@ apis:
   name: Abound W-9 API
   slug: abound-w-9-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a user, collect their Form W-9, then run and read back a real-time TIN verification against the IRS.
   name: Collect a W-9 and verify the payee TIN
   slug: abound-collect-w9-and-verify-tin.arazzo
@@ -90,7 +87,7 @@ arazzos:
 - description: Run the full 1099-NEC lifecycle - create the document, file it with federal and state authorities, then mail the payee copy.
   name: Create, file and mail a Form 1099-NEC
   slug: abound-file-1099-nec.arazzo
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: 'The Abound webhook event surface: 44 HMAC-signed events covering Users, TIN Verifications, Mailings, Form 1099-INT/K/MISC/NEC and Forms W-9, W-8BEN and W-8BEN-E. Derived from the first-party Fern API '
   name: Abound API v4 - Webhooks
@@ -203,11 +200,11 @@ overview: 'Abound publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Abound''s developer surface includes authentication, sandbox, and 20 more developer resources.'
-random_paper: 53
+random_paper: 33
 score:
   band: thin
   composite: 33.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 71.6
@@ -215,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 35.2
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,7 +230,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

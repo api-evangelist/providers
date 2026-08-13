@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: 'The TuneIn Platform API is a partner-facing REST API (OAuth 2.0) for embedding TuneIn''s full audio service into third-party devices and ecosystems. It exposes endpoints for categories, user profiles, '
@@ -115,7 +115,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 79
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.3
@@ -131,7 +131,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.4
+  previous_composite: 32.8
   provenance:
     contracts:
       callable: 100.0
@@ -139,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/screenshots/tunein-2026-06-20T195830.png
 security:

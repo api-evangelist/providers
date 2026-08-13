@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -474,7 +474,7 @@ plans:
 - name: Bringg Plans Pricing
   plan_count: 1
   slug: bringg-plans-pricing
-random_paper: 53
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Bringg Rate Limits
@@ -512,7 +512,7 @@ scopes:
 score:
   band: strong
   composite: 64.7
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 80.3
@@ -520,7 +520,7 @@ score:
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 76.3
-  previous_composite: 63.7
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -535,7 +535,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 65
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -200,7 +200,7 @@ rules:
 score:
   band: developing
   composite: 45.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.1
@@ -208,7 +208,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 46.3
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -223,7 +223,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/screenshots/payflex-2026-06-20T191458.png
 security:

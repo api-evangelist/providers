@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Cybrary publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Cybrary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 68
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Cybrary Rate Limits
@@ -188,7 +188,7 @@ scopes:
 score:
   band: thin
   composite: 38.5
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 16.4
@@ -196,7 +196,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 38.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
 security:

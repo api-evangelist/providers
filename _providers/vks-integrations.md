@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Access work instruction guidebooks and step-level content
@@ -113,7 +113,7 @@ plans:
 - name: Vks Integrations Plans Pricing
   plan_count: 3
   slug: vks-integrations-plans-pricing
-random_paper: 64
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Vks Integrations Rate Limits
@@ -138,7 +138,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 70.9
@@ -146,7 +146,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 48.1
+  previous_composite: 40.5
   provenance:
     contracts:
       callable: 100.0
@@ -154,8 +154,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:
 - kind: domain-security

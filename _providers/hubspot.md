@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -7921,7 +7921,7 @@ plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
   slug: hubspot-plans-pricing
-random_paper: 77
+random_paper: 53
 rate_limits:
 - limit_count: 6
   name: Hubspot Rate Limits
@@ -7959,7 +7959,7 @@ scopes:
 score:
   band: exemplar
   composite: 70.5
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 84.4
@@ -7967,7 +7967,7 @@ score:
     discoverability: 40.7
     governance: 47.9
     operational_transparency: 55.3
-  previous_composite: 77.6
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     contracts:
@@ -7976,8 +7976,8 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:
 - kind: authentication

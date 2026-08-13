@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Lecturio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lecturio''s developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 59
+random_paper: 31
 score:
   band: emerging
   composite: 20.0
@@ -124,7 +124,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lecturio/refs/heads/main/screenshots/lecturio-2026-08-07T182846.png
 security:

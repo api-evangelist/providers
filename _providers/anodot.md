@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Anodot Plans Pricing
   plan_count: 3
   slug: anodot-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Anodot Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 44.0
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.6
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/screenshots/anodot-2026-06-20T172012.png
 security:
 - kind: domain-security

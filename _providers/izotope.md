@@ -1,48 +1,156 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Public
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  pricing: free
+  public: true
+  source:
+  - https://www.izotope.com/api/ucp/mcp
+  - https://www.izotope.com/llms.txt
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 44.1
+  scored_at: '2026-08-12'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Izotope Agentic Access
+  operation_count: 13
+  slug: izotope-agentic-access
+  summary_line: 13 operations · 9 acting
+api_count: 2
+apis:
+- description: iZotope's agent-facing commerce API — an anonymous JSON-RPC 2.0 Model Context Protocol endpoint served on iZotope's own host implementing the Universal Commerce Protocol 2026-04-08. Thirteen tools cov
+  name: iZotope Commerce Agent API (UCP / MCP)
+  slug: izotope-commerce-agent-api-ucp-mcp
+- description: The read-only storefront endpoints iZotope documents for agents in its own llms.txt — product and collection JSON, product pages by handle, search, and the sitemap. No authentication, no key. Machine-
+  name: iZotope Storefront Product JSON
+  slug: izotope-storefront-product-json
+artifact_total: 9
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/izotope-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/izotope-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/izotope-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/izotope-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/izotope-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/izotope-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/izotope-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/izotope-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/izotope-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/izotope-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/izotope-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/izotope-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/izotope-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/izotope-data-model.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/izotope-agentic-access.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/izotope-packages.yml
 - group: company
   title: ''
   type: Website
   url: https://www.izotope.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.izotope.com/agents.md
 - group: other
   title: ''
   type: Products
   url: https://www.izotope.com/en/products.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.izotope.com/en/shop.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.izotope.com/account/register
+- group: start
+  title: ''
+  type: Login
+  url: https://www.izotope.com/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.izotope.com/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.izotope.com/policies/privacy-policy
+- group: other
+  title: ''
+  type: RefundPolicy
+  url: https://www.izotope.com/policies/refund-policy
 - group: other
   title: ''
   type: RX
@@ -70,7 +178,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.izotope.com/en/learn/blog.html
+  url: https://www.izotope.com/community/blog
 - group: operate
   title: ''
   type: Support
@@ -86,14 +194,10 @@ common:
 - group: other
   title: ''
   type: ParentCompany
-  url: https://www.native-instruments.com
-- group: other
-  title: ''
-  type: GroupOwner
-  url: https://www.soundwide.com
+  url: https://www.borisfx.com
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/izotope
 - group: learn
   title: ''
@@ -104,36 +208,58 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/izotope
 created: '2026-05-25'
-description: iZotope is a Cambridge, Massachusetts audio software company founded in 2001 that builds professional plugins for music production, audio repair, mixing, and mastering, with deep investments in AI-assisted and machine-learning-driven audio processing. Its flagship products include RX (audio restoration and dialogue repair widely used in film, TV, and podcast post-production), Ozone (mastering suite with Master Assistant), Neutron (mixing suite with Mix Assistant and Track Assistant), Nectar (vocal processing with Vocal Assistant), Tonal Balance Control (cross-session referencing), and the Music Production Suite bundle. iZotope's assistive technologies analyze incoming audio and propose starting-point chains, EQ curves, dynamics settings, and spectral repairs — historically among the first widely adopted AI features in the professional audio plugin market. iZotope was acquired by Native Instruments in 2024 and now sits inside Soundwide, the Francisco Partners- backed group that
-  also includes Native Instruments, Plugin Alliance, Brainworx, iZotope, and others. Distribution is via desktop plugin formats (VST3, AudioUnit, AAX) for DAWs such as Pro Tools, Logic, Ableton Live, Cubase, Studio One, and Reaper; there is no public REST/HTTP developer API or SaaS developer platform. iZotope does license its DSP and ML-based audio algorithms to OEM partners as embedded SDKs (historically delivered to partners like Sony, Adobe, and Microsoft) and ships a small set of public GitHub repositories that are primarily internal C++/Lua tooling, embedded Linux Yocto layers for iZotope hardware, and accompanying code for academic audio research papers rather than a developer API surface.
+description: 'iZotope is a Cambridge, Massachusetts audio software company founded in 2001 that builds professional plugins for music production, audio repair, mixing, and mastering, with deep investments in AI-assisted and machine-learning-driven audio processing. Its flagship products include RX (audio restoration and dialogue repair widely used in film, TV, and podcast post-production), Ozone (mastering suite with Master Assistant), Neutron (mixing suite with Mix Assistant and Track Assistant), Nectar (vocal processing with Vocal Assistant), Tonal Balance Control (cross-session referencing), and the Music Production Suite bundle. iZotope''s assistive technologies analyze incoming audio and propose starting-point chains, EQ curves, dynamics settings, and spectral repairs — historically among the first widely adopted AI features in the professional audio plugin market. iZotope announced on 2 July 2026 that it is joining Boris FX, leaving the Native Instruments / Soundwide group it had belonged
+  to since 2024; it now sits in the Boris FX Pro Audio division alongside Sound Forge, Acid Pro, Sequoia, Samplitude and CrumplePop. Product distribution is via desktop plugin formats (VST3, AudioUnit, AAX) for DAWs such as Pro Tools, Logic, Ableton Live, Cubase, Studio One, and Reaper. iZotope publishes no OpenAPI and runs no developer platform for its DSP or machine-learning audio algorithms — those are licensed to OEM partners as contract-gated embedded SDKs. What it does operate is a real, publicly reachable AGENT COMMERCE surface on its own domain: an anonymous Model Context Protocol endpoint at https://www.izotope.com/api/ucp/mcp implementing the Universal Commerce Protocol (UCP 2026-04-08) with 13 catalog, cart, checkout and order tools carrying real JSON Schema 2020-12 input contracts, discoverable through /llms.txt, /agents.md and /.well-known/ucp, with OAuth 2.0 / OpenID Connect customer accounts at account.izotope.com. The commerce API is the storefront for the software, not a
+  product in its own right.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/izotope.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: izotope-mcp.yml
+  slug: izotope-mcpyml
+modified: '2026-08-12'
 name: iZotope
 nav: Providers
 network: true
-overview: 'iZotope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Audio Software, Music Production, Mixing, and Mastering.
+overview: 'iZotope publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Audio Software, Music Production, Mixing, and Mastering.
 
 
-  iZotope''s developer surface includes engineering blog, support, GitHub presence, YouTube channel, and 14 more developer resources.'
-random_paper: 82
+  iZotope''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, YouTube channel, and 33 more developer resources.'
+plans:
+- name: Izotope Plans Pricing
+  plan_count: 0
+  slug: izotope-plans-pricing
+random_paper: 58
+rate_limits:
+- limit_count: 1
+  name: Izotope Rate Limits
+  slug: izotope-rate-limits
+scopes:
+- name: Izotope Scopes
+  scope_count: 4
+  slug: izotope-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 7.0
-  delta: 0.0
+  band: thin
+  composite: 30.8
+  delta: 23.8
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    developer_ergonomics: 41.3
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 26.3
   previous_composite: 7.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/screenshots/izotope-2026-08-07T170937.png
 security:
+- kind: authentication
+  name: Izotope Authentication
+  slug: izotope-authentication
+  summary_line: oauth2/openIdConnect · 1 scheme
 - kind: domain-security
   name: Izotope Domain Security
   slug: izotope-domain-security
@@ -156,7 +282,10 @@ tags:
 - AI Audio
 - Machine Learning Audio
 - Vocal Processing
-- Native Instruments
-- Soundwide
+- Agent Commerce
+- Universal Commerce Protocol
+- Model Context Protocol
+- Ecommerce
+- Boris FX
 website: https://www.izotope.com
 ---

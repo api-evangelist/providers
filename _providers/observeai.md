@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ overview: 'Observe.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Observe.AI''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: emerging
   composite: 17.8
@@ -109,7 +109,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:

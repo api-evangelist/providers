@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Registered types, taxonomies and statuses.
@@ -169,11 +169,11 @@ overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Strata Oncology''s developer surface includes engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 66
+random_paper: 14
 score:
   band: emerging
   composite: 24.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 14.4
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 26.0
+  previous_composite: 24.4
   provenance:
     conformance: derived
     contracts:
@@ -198,7 +198,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

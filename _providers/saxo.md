@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -325,7 +325,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 95
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -338,7 +338,7 @@ scopes:
 score:
   band: thin
   composite: 37.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.6
@@ -346,7 +346,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.7
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -361,7 +361,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/screenshots/saxo-2026-06-20T193446.png
 security:

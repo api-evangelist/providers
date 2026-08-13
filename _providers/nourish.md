@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Nourish is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nourish''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 80
+random_paper: 56
 score:
   band: minimal
   composite: 11.5
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nourish/refs/heads/main/screenshots/nourish-2026-08-07T185552.png
 security:

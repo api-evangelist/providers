@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -232,7 +232,7 @@ overview: 'Ntropy publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Ntropy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 104
+random_paper: 84
 rate_limits:
 - limit_count: 24
   name: Ntropy Rate Limits
@@ -240,7 +240,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.1
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 53.6
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:

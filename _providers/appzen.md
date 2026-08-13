@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 19
 apis:
 - description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
@@ -190,11 +190,11 @@ overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 14 more developer resources.'
-random_paper: 74
+random_paper: 54
 score:
   band: thin
   composite: 38.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 49.3
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -213,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/screenshots/appzen-2026-07-25T200859.png
 security:

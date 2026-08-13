@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -131,7 +131,7 @@ overview: 'Consola Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Consola Finance''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 12
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Consola Finance Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 60.5
   previous_composite: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png
 security:

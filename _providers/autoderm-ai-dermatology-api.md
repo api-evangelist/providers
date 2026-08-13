@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Autoderm Ai Dermatology Api Plans
   plan_count: 3
   slug: autoderm-ai-dermatology-api-plans
-random_paper: 39
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits
@@ -275,7 +275,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 57.1
@@ -283,7 +283,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 58.7
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,7 +301,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

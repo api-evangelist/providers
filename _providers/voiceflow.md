@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Voiceflow Plans Pricing
   plan_count: 3
   slug: voiceflow-plans-pricing
-random_paper: 46
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Voiceflow Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
-  delta: -6.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 57.1
@@ -148,7 +148,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 38.3
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/screenshots/voiceflow-2026-06-20T201125.png
 security:
 - kind: authentication

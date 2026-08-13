@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -173,11 +173,11 @@ overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 84
+random_paper: 64
 score:
   band: developing
   composite: 48.7
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 71.6
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 50.5
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

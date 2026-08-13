@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Sendpulse Plans Pricing
   plan_count: 8
   slug: sendpulse-plans-pricing
-random_paper: 51
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Sendpulse Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.0
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.8
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -166,7 +166,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

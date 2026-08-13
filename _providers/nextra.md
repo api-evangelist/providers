@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Nextra is the core Next.js plugin and library that provides MDX compilation, file-system page mapping, static image handling, search indexing, syntax highlighting, LaTeX support, and i18n utilities. I
@@ -124,7 +124,7 @@ plans:
 - name: Nextra Plans Pricing
   plan_count: 3
   slug: nextra-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Nextra Rate Limits
@@ -141,7 +141,7 @@ rules:
 score:
   band: thin
   composite: 30.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 22.6
@@ -149,10 +149,10 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 37.8
+  previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/screenshots/nextra-2026-06-20T190301.png
 security:
 - kind: domain-security

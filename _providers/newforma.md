@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Newforma publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 51
+random_paper: 23
 scopes:
 - name: Newforma Scopes
   scope_count: 14
@@ -181,7 +181,7 @@ scopes:
 score:
   band: thin
   composite: 41.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 47.8
@@ -189,7 +189,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 42.3
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,7 +201,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

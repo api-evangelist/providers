@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ name: Docura Health
 nav: Providers
 network: true
 overview: Docura Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Medical-Legal, and Medical Records.
-random_paper: 37
+random_paper: 113
 score:
   band: emerging
   composite: 16.3
@@ -104,7 +104,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docura-health/refs/heads/main/screenshots/docura-health-2026-07-25T212224.png
 security:

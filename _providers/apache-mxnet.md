@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API for imperative model building, Symbol/NDArray low-level APIs for '
@@ -148,7 +148,7 @@ plans:
 - name: Apache Mxnet Plans Pricing
   plan_count: 3
   slug: apache-mxnet-plans-pricing
-random_paper: 51
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apache Mxnet Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.1
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -164,9 +164,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 22.5
+  previous_composite: 18.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mxnet/refs/heads/main/screenshots/apache-mxnet-2026-06-20T172124.png
 security:

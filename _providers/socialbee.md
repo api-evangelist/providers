@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
@@ -108,7 +108,7 @@ plans:
 - name: Socialbee Plans Pricing
   plan_count: 6
   slug: socialbee-plans-pricing
-random_paper: 7
+random_paper: 95
 rate_limits:
 - limit_count: 6
   name: Socialbee Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/screenshots/socialbee-2026-06-20T194123.png
 security:

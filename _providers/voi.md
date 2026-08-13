@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -190,11 +190,11 @@ overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
-random_paper: 102
+random_paper: 94
 score:
   band: thin
   composite: 28.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -202,11 +202,11 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 29.5
+  previous_composite: 28.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:

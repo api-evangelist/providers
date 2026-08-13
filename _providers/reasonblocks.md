@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -171,11 +171,11 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ReasonBlocks'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 10
+random_paper: 86
 score:
   band: thin
   composite: 36.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.2
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 36.8
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

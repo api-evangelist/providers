@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -299,11 +299,11 @@ overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 61
+random_paper: 29
 score:
   band: strong
   composite: 59.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.8
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 60.6
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,7 +323,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

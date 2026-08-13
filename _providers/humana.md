@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: Humana Redefines the Member Experience with Agent ...
   url: https://www.prnewswire.com/news-releases/humana-redefines-the-member-experience-with-agent-assist-built-with-google-cloud-302677922.html
-random_paper: 54
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Humana Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.0
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 60.8
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 41.1
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png
 security:
 - kind: authentication

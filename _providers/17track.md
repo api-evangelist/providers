@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -179,7 +179,7 @@ rules:
 score:
   band: developing
   composite: 49.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.8
@@ -187,7 +187,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 50.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/screenshots/17track-2026-06-20T162321.png
 security:

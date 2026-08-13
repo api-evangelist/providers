@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -226,11 +226,11 @@ plans:
 - name: Akuity Plans
   plan_count: 3
   slug: akuity-plans
-random_paper: 83
+random_paper: 63
 score:
   band: exemplar
   composite: 66.5
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 65.7
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 66.8
+  previous_composite: 66.5
   provenance:
     conformance: first-party
     contracts:
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

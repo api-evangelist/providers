@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Martian Ai Plans Pricing
   plan_count: 3
   slug: martian-ai-plans-pricing
-random_paper: 67
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Martian Ai Rate Limits
@@ -210,7 +210,7 @@ rules:
 score:
   band: strong
   composite: 59.2
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 70.1
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 52.6
-  previous_composite: 62.3
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,7 +229,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
 security:

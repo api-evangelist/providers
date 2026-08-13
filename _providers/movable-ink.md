@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -9,16 +9,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-11'
+  score: 37.4
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: A write-only HTTP collector that ingests customer behavioral events in real time so Movable Ink Studio can use them for targeting and content generation. Callers POST Segment-shaped JSON events (type,
@@ -27,7 +27,11 @@ apis:
 - description: The OpenID Connect provider that fronts the Movable Ink Studio and Da Vinci web application at app.movableink.com. It publishes a full OIDC discovery document and an RFC 8414 authorization-server meta
   name: Movable Ink Platform Identity (OpenID Connect)
   slug: identity
-artifact_total: 7
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Movable Ink Webhooks
+  slug: movable-ink-webhooks
 common:
 - group: auth
   title: ''
@@ -100,7 +104,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: lifecycle/movable-ink-lifecycle.yml
+  url: https://status.movableink.com
 - group: operate
   title: ''
   type: ChangeLog
@@ -149,41 +153,68 @@ common:
   title: ''
   type: ErrorCatalog
   url: errors/movable-ink-problem-types.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/movable-ink-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/movable-ink-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/movable-ink-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/movable-ink-components.yml
 created: '2026-08-04'
 description: Movable Ink is a New York-headquartered marketing technology company that turns customer data into personalized content across email, mobile and web. Its two products are Studio, which generates composite images and interactive content at the moment a message is opened, and Da Vinci, an AI decisioning layer that chooses what content each customer sees. The integration surface is a write-only Customer Data API that streams behavioral events into Studio, a family of native and wrapper mobile SDKs (iOS, Android, React Native, Cordova, Flutter, Expo), a Studio app toolchain built around the `movable` CLI and the cropduster library, and dozens of ESP/CDP connectors. API reference material is customer-gated; no OpenAPI is published.
 image: https://cdn.prod.website-files.com/6601ecc67f6256b863e8143f/6655e1590788a6b11d9441a3_MovableInk-Share.jpeg
 layout: provider
-modified: '2026-08-04'
+modified: '2026-08-12'
 name: Movable Ink
 nav: Providers
 network: true
 overview: 'Movable Ink publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Personalization, Email, and Customer Data.
 
 
-  Movable Ink''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, CLI, and 23 more developer resources.'
-random_paper: 65
+  The Movable Ink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Movable Ink''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, changelog, CLI, and 27 more developer resources.'
+plans:
+- name: Movable Ink Plans Pricing
+  plan_count: 0
+  slug: movable-ink-plans-pricing
+random_paper: 29
+rate_limits:
+- limit_count: 0
+  name: Movable Ink Rate Limits
+  slug: movable-ink-rate-limits
 scopes:
 - name: Movable Ink Scopes
   scope_count: 0
   slug: movable-ink-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 37.0
-  delta: -1.1
+  band: developing
+  composite: 50.9
+  delta: 13.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
+    contract_quality: 51.6
     developer_ergonomics: 58.7
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 47.4
-  previous_composite: 38.1
+    operational_transparency: 55.3
+  previous_composite: 37.0
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/movable-ink/refs/heads/main/screenshots/movable-ink-2026-08-07T184344.png
 security:
 - kind: authentication

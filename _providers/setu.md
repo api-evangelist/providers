@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: End-to-end UPI product suite for merchants and aggregators - collect requests, deep-link / intent flows, UPI AutoPay mandates, payment verification, and settlement reporting on India's Unified Payment
@@ -109,7 +109,7 @@ plans:
 - name: Setu Plans Pricing
   plan_count: 1
   slug: setu-plans-pricing
-random_paper: 101
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Setu Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -125,9 +125,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.5
+  previous_composite: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setu/refs/heads/main/screenshots/setu-2026-06-20T193740.png
 security:

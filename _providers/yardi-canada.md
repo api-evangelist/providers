@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
-random_paper: 22
+random_paper: 102
 scopes:
 - name: Yardi Canada Scopes
   scope_count: 4
@@ -213,7 +213,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
@@ -221,7 +221,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 51.4
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,7 +239,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

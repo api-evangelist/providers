@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -283,11 +283,11 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 5
+random_paper: 89
 score:
   band: developing
   composite: 51.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.1
@@ -295,7 +295,7 @@ score:
     discoverability: 63.0
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 52.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,7 +313,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

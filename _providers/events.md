@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -206,7 +206,7 @@ overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Events'' developer surface includes developer portal and 8 more developer resources.'
-random_paper: 81
+random_paper: 61
 rules:
 - name: Events API Rules
   rule_count: 5
@@ -219,7 +219,7 @@ rules:
 score:
   band: emerging
   composite: 22.8
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
@@ -227,7 +227,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 20.6
+  previous_composite: 22.8
   regulatory:
     applies: true
     matched_via: weak_tags
@@ -235,7 +235,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:

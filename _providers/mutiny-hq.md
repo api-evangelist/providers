@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,7 +120,7 @@ overview: 'Mutiny HQ is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 12
+random_paper: 100
 scopes:
 - name: Mutiny Hq Scopes
   scope_count: 5
@@ -142,7 +142,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:

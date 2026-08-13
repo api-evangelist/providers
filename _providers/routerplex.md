@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Routerplex Plans
   plan_count: 4
   slug: routerplex-plans
-random_paper: 70
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Routerplex Rate Limits
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.1
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 59.1
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 60.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

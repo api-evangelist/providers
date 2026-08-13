@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 7
@@ -267,7 +267,7 @@ plans:
 - name: Ntnu Plans Pricing
   plan_count: 2
   slug: ntnu-plans-pricing
-random_paper: 105
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Ntnu Rate Limits
@@ -292,7 +292,7 @@ rules:
 score:
   band: thin
   composite: 40.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.0
@@ -300,7 +300,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 41.3
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -315,7 +315,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:

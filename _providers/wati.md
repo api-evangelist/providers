@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,11 +128,11 @@ overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Con
 
 
   WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 89
+random_paper: 77
 score:
   band: thin
   composite: 37.0
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 59.7
@@ -140,7 +140,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.6
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -149,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
 security:

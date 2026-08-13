@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 77
+random_paper: 61
 score:
   band: thin
   composite: 40.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 49.1
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:

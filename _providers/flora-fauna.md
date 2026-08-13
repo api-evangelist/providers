@@ -1,36 +1,145 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid API on a subscription plan
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
-  trial: false
+  public: true
+  source:
+  - https://developer.flora.ai/api
+  - https://docs.flora.ai/plans-and-billing/pricing
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: true
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 2
+  score: 67.1
+  scored_at: '2026-08-12'
+api_count: 2
+apis:
+- description: 'The Flora.ai public REST API (v1.6.0) exposes the FLORA creative canvas programmatically: discover and run saved Techniques, start one-off model generations, list the model catalog, manage workspaces '
+  name: Flora.ai API
+  slug: flora-api
+- description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
+  name: FLORA MCP Server
+  slug: flora-mcp
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Flora Fauna Webhooks
+  slug: flora-fauna-webhooks
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/flora-fauna-flora-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flora-fauna-flora-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/flora-fauna-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/flora-fauna-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/flora-fauna-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/flora-fauna-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/flora-fauna-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/flora-fauna-cli.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/flora-fauna-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/flora-fauna-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/flora-fauna-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/flora-fauna-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/flora-fauna-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/flora-fauna-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/flora-fauna-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/flora-fauna-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/flora-fauna-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/flora-fauna-changelog.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.flora.ai
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/flora-fauna-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/flora-fauna-trust-center.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/flora-fauna-well-known.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/flora-fauna-plans-pricing.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -39,6 +148,30 @@ common:
   title: ''
   type: DomainSecurity
   url: security/flora-fauna-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.flora.ai
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.flora.ai/reference/resources/techniques
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.flora.ai/api
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/florafauna-ai
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://flora.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.flora.ai
 - group: company
   title: ''
   type: Website
@@ -50,7 +183,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.florafauna.ai
+  url: https://docs.flora.ai
 - group: company
   title: ''
   type: Blog
@@ -82,7 +215,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://flora.ai/legal/privacy-policy
+  url: https://docs.flora.ai/legal/privacy-policy
 - group: commercial
   title: ''
   type: TermsOfService
@@ -104,36 +237,60 @@ common:
   type: FoundingAnnouncement
   url: https://flora.ai/blog/flora-raises-6-5m-to-build-the-world-s-most-powerful-creative-tool
 created: '2026-05-25'
-description: FLORA is a Brooklyn, New York-based applied AI / HCI company building a browser-based "infinite canvas" creative workspace for professional creators. Founded in 2024 by Weber Wong out of NYU's Interactive Telecommunications Program (ITP), FLORA unifies 50+ third-party text, image, and video AI models inside a single node-based visual workspace where designers, filmmakers, photographers, and creative agencies wire prompts, references, characters, and outputs into reusable generative workflows. The platform integrates leading image models (FLUX.2, FLUX Kontext, Stable Diffusion 3.5, Nano Banana, Recraft, Seedream, Minimax Hailuo) and video models (Veo 3, Sora 2, Runway Gen-4 Turbo / Gen-3 Alpha / Act-Two, Pika, Kling, Luma Ray 2, Seedance, Marey) alongside reasoning models such as Gemini 3 Pro and GPT-5.4, and ships a creative agent named FAUNA for ideation, iteration, and workflow scaffolding. FLORA is used at agencies and studios including Pentagram, Milk, and MSCHF; the company
-  raised a $6.5M seed led by Mike Volpi at Hanabi Capital with Menlo Ventures, a16z Games Speedrun, Long Journey Ventures, Company Ventures, Alumni Ventures, Embedding VC, and angels including Justin Kan (Twitch) and Gabe Whaley (MSCHF), and operates in-person from the Domino Refinery in Williamsburg. The product is sold direct to creative professionals via a free tier and paid subscription (Pro from ~$16/month); there is no public developer API, SDK, or open-source release — FLORA's surface area is the in-app canvas and FAUNA agent, with model access mediated by the platform rather than exposed to third-party developers.
+description: 'FLORA is a Brooklyn, New York-based applied AI / HCI company building a browser-based "infinite canvas" creative workspace for professional creators. Founded in 2024 by Weber Wong out of NYU''s Interactive Telecommunications Program (ITP), FLORA unifies 50+ third-party text, image, and video AI models inside a single node-based visual workspace where designers, filmmakers, photographers, and creative agencies wire prompts, references, characters, and outputs into reusable generative workflows called Techniques. The platform integrates leading image models (FLUX.2, FLUX Kontext, Stable Diffusion 3.5, Nano Banana, Recraft, Seedream, Minimax Hailuo) and video models (Veo 3, Sora 2, Runway Gen-4 Turbo / Gen-3 Alpha / Act-Two, Pika, Kling, Luma Ray 2, Seedance, Marey) alongside reasoning models such as Gemini 3 Pro and GPT-5.4, and ships a creative agent named FAUNA for ideation, iteration, and workflow scaffolding. FLORA is used at agencies and studios including Pentagram, Milk,
+  and MSCHF; the company raised a $6.5M seed led by Mike Volpi at Hanabi Capital with Menlo Ventures, a16z Games Speedrun, Long Journey Ventures, Company Ventures, Alumni Ventures, Embedding VC, and angels including Justin Kan (Twitch) and Gabe Whaley (MSCHF), and operates in-person from the Domino Refinery in Williamsburg. Beyond the canvas FLORA now ships a public developer surface: the Flora.ai REST API (OpenAPI 3.1.1, base https://app.flora.ai/api/v1) for running Techniques, one-off generations, assets, projects, canvas patches and actions programmatically; a hosted remote MCP server at https://agents.flora.ai/mcp exposing two tools (search_docs, execute) over OAuth 2.1 + PKCE; first-party TypeScript and Go SDKs and a Go CLI; signed HMAC-SHA256 run webhooks; idempotency keys; and a Stainless-generated developer portal at developer.flora.ai. API and MCP access begin on the paid Starter plan.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flora-fauna.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: flora-fauna-mcp.yml
+  slug: flora-fauna-mcpyml
+modified: '2026-08-12'
 name: FLORA
 nav: Providers
 network: true
-overview: 'FLORA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Creative AI, Generative AI, Infinite Canvas, Node-Based Workflows, and Creative Workspace.
+overview: 'FLORA publishes 1 API on the [APIs.io](https://apis.io/) network: Flora.ai API. Tagged areas include Creative AI, Generative AI, Infinite Canvas, Node-Based Workflows, and Creative Workspace.
 
 
-  FLORA''s developer surface includes documentation, engineering blog, status page, support, YouTube channel, and 13 more developer resources.'
-random_paper: 56
+  The FLORA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  FLORA''s developer surface includes CLI, authentication, changelog, API reference, getting-started guide, pricing, signup flow, and 41 more developer resources.'
+plans:
+- name: Flora Fauna Plans Pricing
+  plan_count: 5
+  slug: flora-fauna-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Flora Fauna Rate Limits
+  slug: flora-fauna-rate-limits
+scopes:
+- name: Flora Fauna Scopes
+  scope_count: 0
+  slug: flora-fauna-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 13.8
-  delta: 0.0
+  band: exemplar
+  composite: 68.5
+  delta: 54.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 92.1
+    contract_quality: 67.9
+    developer_ergonomics: 80.4
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 44.7
   previous_composite: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:
+- kind: authentication
+  name: Flora Fauna Authentication
+  slug: flora-fauna-authentication
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Flora Fauna Domain Security
   slug: flora-fauna-domain-security
@@ -141,7 +298,7 @@ security:
 - kind: trust-center
   name: Flora Fauna Trust Center
   slug: flora-fauna-trust-center
-  summary_line: SOC 2
+  summary_line: SOC 2, GDPR
 slug: flora-fauna
 tags:
 - Creative AI
@@ -166,5 +323,8 @@ tags:
 - Architecture
 - Motion Design
 - FAUNA
+- MCP
+- Agent Tools
+- Workflow Automation
 website: https://www.florafauna.ai
 ---

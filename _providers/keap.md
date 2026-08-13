@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ overview: 'Keap publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Keap''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 69
+random_paper: 57
 rules:
 - name: Keap API Rules
   rule_count: 6
@@ -156,7 +156,7 @@ scopes:
 score:
   band: thin
   composite: 38.8
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 62.1
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 0.0
-  previous_composite: 36.6
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:

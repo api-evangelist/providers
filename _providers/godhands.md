@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ overview: 'GodHands is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GodHands'' developer surface includes support and 4 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 6.6
@@ -78,7 +78,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godhands/refs/heads/main/screenshots/godhands-2026-07-25T220006.png
 security:

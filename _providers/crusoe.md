@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -400,11 +400,11 @@ overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Crusoe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 77
+random_paper: 57
 score:
   band: strong
   composite: 58.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.9
@@ -412,7 +412,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 59.0
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,7 +430,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Open Webui Plans Pricing
   plan_count: 1
   slug: open-webui-plans-pricing
-random_paper: 91
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Open Webui Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.5
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 49.3
@@ -137,7 +137,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.1
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -146,8 +146,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/screenshots/open-webui-2026-06-20T190859.png
 security:
 - kind: authentication

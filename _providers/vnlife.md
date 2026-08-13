@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The VNPAY-QR payment gateway (vpcpay) processes card, QR, ATM/bank-account and international-card payments via a browser redirect plus server-to-server IPN callback. Requests carry vnp_ parameters sig
@@ -132,11 +132,11 @@ overview: 'VNLIFE publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   VNLIFE''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, sandbox, authentication, and 13 more developer resources.'
-random_paper: 64
+random_paper: 44
 score:
   band: emerging
   composite: 26.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 27.3
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -155,7 +155,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

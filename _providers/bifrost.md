@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ plans:
 - name: Bifrost Plans Pricing
   plan_count: 2
   slug: bifrost-plans-pricing
-random_paper: 65
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Bifrost Rate Limits
@@ -311,7 +311,7 @@ rules:
 score:
   band: developing
   composite: 54.1
-  delta: 10.7
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 22.1
@@ -319,7 +319,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 43.4
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:
 - kind: authentication

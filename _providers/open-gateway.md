@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ overview: 'GSMA Open Gateway publishes 22 APIs on the [APIs.io](https://apis.io/
 
 
   GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 36 more developer resources.'
-random_paper: 73
+random_paper: 33
 scopes:
 - name: Open Gateway Scopes
   scope_count: 38
@@ -302,7 +302,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.5
@@ -310,7 +310,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.8
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,7 +328,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:

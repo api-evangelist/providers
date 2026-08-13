@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The NCUA publishes downloadable Call Report data, Financial Performance Reports, and a Research a Credit Union tool. There is no documented public REST API at this time; data is available as downloada
@@ -84,7 +84,7 @@ plans:
 - name: National Credit Union Administration Plans Pricing
   plan_count: 3
   slug: national-credit-union-administration-plans-pricing
-random_paper: 91
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: National Credit Union Administration Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.6
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.2
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
@@ -108,8 +108,8 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-credit-union-administration/refs/heads/main/screenshots/national-credit-union-administration-2026-06-20T190008.png
 security:
 - kind: domain-security

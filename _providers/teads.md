@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Server-side API for sending advertiser conversion events (Purchase, AddToCart, Lead, ViewContent, etc.) to Teads for measurement and optimization, using a Conversion API Token generated in Teads Ad Ma
@@ -135,11 +135,11 @@ overview: 'Teads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Teads'' developer surface includes authentication, changelog, documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: emerging
   composite: 21.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -147,12 +147,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 39.5
-  previous_composite: 22.9
+  previous_composite: 21.8
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

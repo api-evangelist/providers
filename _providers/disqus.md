@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Disqus publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Disqus'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 85
+random_paper: 65
 scopes:
 - name: Disqus Scopes
   scope_count: 3
@@ -156,7 +156,7 @@ scopes:
 score:
   band: thin
   composite: 36.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.0
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 37.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/screenshots/disqus-2026-06-20T180049.png
 security:

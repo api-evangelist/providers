@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -116,11 +116,11 @@ overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 66
+random_paper: 38
 score:
   band: emerging
   composite: 20.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -128,7 +128,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.0
+  previous_composite: 20.7
   provenance:
     skills: first-party
   regulatory:
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/screenshots/extropic-2026-08-07T165150.png
 security:

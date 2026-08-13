@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,7 +110,7 @@ overview: 'Bigfoot Biomedical is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bigfoot Biomedical''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 84
+random_paper: 24
 scopes:
 - name: Bigfoot Biomedical Scopes
   scope_count: 36
@@ -137,7 +137,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/screenshots/bigfoot-biomedical-2026-08-07T162422.png
 security:

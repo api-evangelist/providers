@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -239,7 +239,7 @@ overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis
 
 
   Sarj AI Developer API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 77
+random_paper: 9
 scopes:
 - name: Sarj Ai Developer Api Scopes
   scope_count: 1
@@ -248,7 +248,7 @@ scopes:
 score:
   band: developing
   composite: 43.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 56.1
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 44.0
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

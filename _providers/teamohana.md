@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'TeamOhana publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
-random_paper: 14
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Teamohana Rate Limits
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 52.0
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 47.2
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

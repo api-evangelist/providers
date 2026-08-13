@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ plans:
 - name: Lever Plans Pricing
   plan_count: 4
   slug: lever-plans-pricing
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Lever Rate Limits
@@ -298,7 +298,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.1
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 58.2
@@ -306,7 +306,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 53.4
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -315,8 +315,8 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/screenshots/lever-2026-06-20T184437.png
 security:
 - kind: authentication

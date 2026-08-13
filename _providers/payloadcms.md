@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Auto-generated RESTful API for managing collections, globals, media uploads, users, and preferences. Mounted at /api/{collection-slug} with full CRUD operations plus authentication endpoints.
@@ -110,7 +110,7 @@ plans:
 - name: Payloadcms Plans Pricing
   plan_count: 4
   slug: payloadcms-plans-pricing
-random_paper: 25
+random_paper: 109
 rate_limits:
 - limit_count: 4
   name: Payloadcms Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payloadcms/refs/heads/main/screenshots/payloadcms-2026-06-20T191501.png
 security:

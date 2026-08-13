@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The Insights API from ClearSlide — 1 operation(s) for insights.
@@ -167,7 +167,7 @@ overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 4
+random_paper: 88
 scopes:
 - name: Clearslide Scopes
   scope_count: 2
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 47.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 56.7
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -195,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:

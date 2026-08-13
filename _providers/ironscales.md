@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -214,7 +214,7 @@ overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 31
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Ironscales Rate Limits
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.0
@@ -230,7 +230,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 57.5
+  previous_composite: 57.0
   provenance:
     conformance: derived
     contracts:
@@ -241,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:

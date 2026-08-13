@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -163,11 +163,11 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 99
+random_paper: 83
 score:
   band: thin
   composite: 31.1
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 48.1
@@ -175,7 +175,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 34.1
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -129,16 +129,13 @@ apis:
   name: Cadana Virtual Accounts API
   slug: cadana-virtual-accounts-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Discover supported locations and required fields, then estimate and calculate tax.
   name: Cadana — discover and calculate payroll tax
   slug: cadana-calculate-tax
 - description: Onboard a contractor, create a contract, run payroll, and retrieve payslips.
   name: Cadana — pay a contractor end-to-end
   slug: cadana-pay-contractor
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Cadana Webhooks
@@ -291,11 +288,11 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: developing
   composite: 50.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 69.9
@@ -303,7 +300,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 51.5
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +318,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

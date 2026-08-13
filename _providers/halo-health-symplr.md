@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Halo Health (Symplr) is profiled on the [APIs.io](https://apis.io/) n
 
 
   Halo Health (Symplr)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 79
+random_paper: 19
 score:
   band: emerging
   composite: 17.4
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halo-health-symplr/refs/heads/main/screenshots/halo-health-symplr-2026-07-25T220551.png
 security:

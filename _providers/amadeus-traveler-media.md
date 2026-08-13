@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -573,7 +573,7 @@ overview: 'Amadeus Traveler Media publishes 5 APIs on the [APIs.io](https://apis
 
 
   Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
-random_paper: 3
+random_paper: 47
 rules:
 - name: Amadeus Traveler Media API Rules
   rule_count: 5
@@ -613,7 +613,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:

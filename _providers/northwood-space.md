@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ overview: 'Northwood Space is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Northwood Space''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 57
+random_paper: 5
 score:
   band: minimal
   composite: 7.5
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

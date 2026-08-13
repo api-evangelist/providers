@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: Alert configuration and monitoring
@@ -222,7 +222,7 @@ overview: 'Agnost AI publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 87
+random_paper: 59
 scopes:
 - name: Agnost Ai Scopes
   scope_count: 1
@@ -231,7 +231,7 @@ scopes:
 score:
   band: developing
   composite: 52.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.6
@@ -239,7 +239,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 53.2
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     contracts:
@@ -250,7 +250,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:

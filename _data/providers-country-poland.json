@@ -1,6 +1,6 @@
 {
- "total": 6,
- "shown": 6,
+ "total": 7,
+ "shown": 7,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -110,7 +110,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -143,6 +143,62 @@
    "open": true
   },
   {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "MODIVO",
+     "slug": "modivo",
+     "description": "MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group's retail-media platform spanning MODIVO and eobuwie.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 55.9,
+      "governance": 20.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
+    }
+   ],
+   "open": true
+  },
+  {
    "band": "emerging",
    "label": "Emerging",
    "range": "13 – 27.9",
@@ -165,44 +221,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
-     "name": "Oferteo",
-     "slug": "oferteo",
-     "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
-     "score": 14.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -223,9 +242,45 @@
       "dry_run_mode": false
      },
      "rank": 5
+    },
+    {
+     "name": "Oferteo",
+     "slug": "oferteo",
+     "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
+     "score": 14.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "minimal",
@@ -251,7 +306,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -278,7 +333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     }
    ]
   }

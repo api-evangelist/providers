@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Streaming APIs for orchestration, telemetry, device management, alerting, and analytics on Highway 9 private mobile networks. Resource areas include access and configuration (AccessConfig, Configure),
@@ -79,7 +79,7 @@ overview: 'Highway 9 Networks publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Highway 9 Networks'' developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 53
+random_paper: 113
 score:
   band: emerging
   composite: 13.3
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highway-9-networks/refs/heads/main/screenshots/highway-9-networks-2026-07-25T221213.png
 security:

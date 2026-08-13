@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -203,11 +203,11 @@ overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Skydance Media''s developer surface includes authentication, engineering blog, FAQ, YouTube channel, and 27 more developer resources.'
-random_paper: 15
+random_paper: 87
 score:
   band: emerging
   composite: 20.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.4
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 21.3
+  previous_composite: 20.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,7 +226,7 @@ score:
       total: 12
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

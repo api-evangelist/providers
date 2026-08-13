@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Tapfiliate Plans Pricing
   plan_count: 3
   slug: tapfiliate-plans-pricing
-random_paper: 15
+random_paper: 99
 rate_limits:
 - limit_count: 0
   name: Tapfiliate Rate Limits
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 49.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.2
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 50.2
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:

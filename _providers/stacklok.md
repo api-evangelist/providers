@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 8
@@ -101,11 +101,11 @@ name: Stacklok
 nav: Providers
 network: true
 overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open Source.
-random_paper: 48
+random_paper: 20
 score:
   band: emerging
   composite: 19.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.9
@@ -113,7 +113,7 @@ score:
     discoverability: 50.0
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 19.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -125,7 +125,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

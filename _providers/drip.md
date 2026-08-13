@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -137,11 +137,11 @@ overview: 'Drip publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Drip''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 83
+random_paper: 71
 score:
   band: thin
   composite: 31.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -149,7 +149,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.4
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -158,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/screenshots/drip-2026-06-20T180233.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ plans:
 - name: Inception Plans
   plan_count: 3
   slug: inception-plans
-random_paper: 41
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Inception Rate Limits
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.7
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 56.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

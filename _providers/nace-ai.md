@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Nace Ai''s developer surface includes authentication, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 74
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Nace Ai Rate Limits
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.7
@@ -154,7 +154,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 38.5
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -166,7 +166,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/screenshots/nace-ai-2026-08-07T184600.png
 security:

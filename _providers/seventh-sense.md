@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
@@ -136,11 +136,11 @@ overview: 'Seventh Sense publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Seventh Sense''s developer surface includes authentication, documentation, signup flow, and 15 more developer resources.'
-random_paper: 76
+random_paper: 32
 score:
   band: thin
   composite: 34.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 49.3
@@ -148,7 +148,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 35.4
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     contracts:
@@ -159,7 +159,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

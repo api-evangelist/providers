@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'SpAItial publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 43
+random_paper: 15
 scopes:
 - name: Spaitial Scopes
   scope_count: 0
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 51.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.1
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 52.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,7 +228,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Circle Community Plans Pricing
   plan_count: 4
   slug: circle-community-plans-pricing
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 4
   name: Circle Community Rate Limits
@@ -149,7 +149,7 @@ rules:
 score:
   band: developing
   composite: 43.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.7
@@ -157,7 +157,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 44.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -166,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -3439,7 +3439,7 @@ plans:
 - name: Mindbody Plans Pricing
   plan_count: 4
   slug: mindbody-plans-pricing
-random_paper: 42
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Mindbody Rate Limits
@@ -3469,7 +3469,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.1
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 73.2
@@ -3477,7 +3477,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.1
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     contracts:
@@ -3486,7 +3486,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:

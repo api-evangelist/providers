@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'Read-only REST API for real-time and historical market data: last quotes/trades, OHLCV aggregates, and snapshots for US and global stocks, forex, crypto, CFD indices and ETFs, plus fundamentals (finan'
@@ -187,7 +187,7 @@ plans:
 - name: Finage Plans
   plan_count: 23
   slug: finage-plans
-random_paper: 38
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Finage Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.6
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 67.3
@@ -203,7 +203,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 56.1
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -220,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

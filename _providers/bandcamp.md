@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Bandcamp Plans Pricing
   plan_count: 2
   slug: bandcamp-plans-pricing
-random_paper: 10
+random_paper: 102
 rate_limits:
 - limit_count: 2
   name: Bandcamp Rate Limits
@@ -143,7 +143,7 @@ scopes:
 score:
   band: emerging
   composite: 27.5
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 49.8
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.2
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/screenshots/bandcamp-2026-06-20T172941.png
 security:
 - kind: authentication

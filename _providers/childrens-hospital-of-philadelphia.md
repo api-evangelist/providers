@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io
 
 
   Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 61
+random_paper: 65
 rules:
 - name: Children's Hospital of Philadelphia API Rules
   rule_count: 5
@@ -236,7 +236,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.9
@@ -244,7 +244,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 46.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +259,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:

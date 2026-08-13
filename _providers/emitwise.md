@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Emitwise publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Emitwise''s developer surface includes authentication, documentation, privacy policy, engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 59
+random_paper: 31
 rules:
 - name: Emitwise API Rules
   rule_count: 5
@@ -160,7 +160,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 71.6
@@ -168,7 +168,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 41.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -183,7 +183,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/screenshots/emitwise-2026-06-20T180633.png
 security:

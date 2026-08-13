@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Credit-metered REST intelligence API exposing App Store and Google Play keyword rankings, app metadata, ad creatives, Apple Search Ads / CPP data, and dashboard resources. Authenticated with an accoun
@@ -136,11 +136,11 @@ overview: 'Mobile Action publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mobile Action''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 39
+random_paper: 115
 score:
   band: thin
   composite: 34.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -148,11 +148,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 35.5
+  previous_composite: 34.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobile-action/refs/heads/main/screenshots/mobile-action-2026-08-07T183845.png
 security:

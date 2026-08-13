@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -448,7 +448,7 @@ plans:
 - name: Deepgram Plans Pricing
   plan_count: 6
   slug: deepgram-plans-pricing
-random_paper: 25
+random_paper: 117
 rate_limits:
 - limit_count: 4
   name: Deepgram Rate Limits
@@ -497,7 +497,7 @@ rules:
 score:
   band: developing
   composite: 52.7
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 78.5
@@ -505,7 +505,7 @@ score:
     discoverability: 81.5
     governance: 52.1
     operational_transparency: 23.7
-  previous_composite: 60.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -514,8 +514,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:
 - kind: authentication

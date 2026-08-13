@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ plans:
 - name: Ghost Org Plans Pricing
   plan_count: 5
   slug: ghost-org-plans-pricing
-random_paper: 110
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Ghost Org Rate Limits
@@ -341,7 +341,7 @@ rules:
 score:
   band: developing
   composite: 55.3
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.9
@@ -349,7 +349,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 63.2
-  previous_composite: 51.7
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:

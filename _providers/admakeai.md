@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Admakeai Plans Pricing
   plan_count: 4
   slug: admakeai-plans-pricing
-random_paper: 1
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Admakeai Rate Limits
@@ -179,6 +179,7 @@ scopes:
 score:
   band: thin
   composite: 39.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -186,8 +187,10 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 21.1
+  previous_composite: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Admakeai Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -347,7 +347,7 @@ plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 90
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -380,7 +380,7 @@ rules:
 score:
   band: developing
   composite: 49.8
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.3
@@ -388,7 +388,7 @@ score:
     discoverability: 64.8
     governance: 62.5
     operational_transparency: 5.3
-  previous_composite: 49.6
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -397,7 +397,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:

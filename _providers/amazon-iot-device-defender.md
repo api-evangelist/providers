@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -2382,7 +2382,7 @@ plans:
 - name: Amazon Iot Device Defender Plans Pricing
   plan_count: 3
   slug: amazon-iot-device-defender-plans-pricing
-random_paper: 14
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Device Defender Rate Limits
@@ -2407,7 +2407,7 @@ rules:
 score:
   band: strong
   composite: 56.0
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.5
@@ -2415,7 +2415,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 64.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2424,8 +2424,8 @@ score:
       marker_coverage: 0.0
       total: 69
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/screenshots/amazon-iot-device-defender-2026-06-20T171707.png
 security:
 - kind: authentication

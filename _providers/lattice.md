@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 46
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits
@@ -231,7 +231,7 @@ rules:
 score:
   band: strong
   composite: 56.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 73.2
@@ -239,7 +239,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 56.7
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/screenshots/lattice-2026-06-20T184350.png
 security:

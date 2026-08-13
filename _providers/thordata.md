@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: 'Real-time search engine results as parsed JSON or raw HTML across Google, Bing, Yandex and DuckDuckGo, with per-country and per-language targeting, vertical selection (images, news, shopping, video), '
@@ -194,7 +194,7 @@ plans:
 - name: Thordata Plans Pricing
   plan_count: 0
   slug: thordata-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Thordata Rate Limits
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.8
-  delta: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.8
@@ -210,10 +210,10 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 5.9
+  previous_composite: 54.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Thordata Authentication

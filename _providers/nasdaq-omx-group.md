@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: Nasdaq and Wall Street Executives Testify on Artificial ...
   url: https://www.c-span.org/program/house-committee/nasdaq-and-wall-street-executives-testify-on-artificial-intelligence/670205
-random_paper: 111
+random_paper: 59
 rate_limits:
 - limit_count: 11
   name: Nasdaq Omx Group Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.7
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 53.0
@@ -141,7 +141,7 @@ score:
     discoverability: 88.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.1
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/screenshots/nasdaq-omx-group-2026-06-20T185958.png
 security:
 - kind: authentication

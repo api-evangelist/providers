@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,13 +60,10 @@ apis:
   name: Pred WebSocket API
   slug: pred-websocket-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: End-to-end signed-order trading flow on the Pred prediction exchange.
   name: PRED trading workflows
   slug: pred-trading
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: Real-time market and order data for the Pred prediction exchange, delivered over Ably WebSocket. Obtain an Ably token via POST /api/v1/auth/ably (use it as Ably authCallback). The private user channel
   name: PRED Real-Time API (Ably WebSocket)
@@ -207,11 +204,11 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 79
+random_paper: 67
 score:
   band: developing
   composite: 45.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.0
@@ -219,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +234,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

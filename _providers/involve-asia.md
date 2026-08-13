@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -57,16 +57,13 @@ apis:
   name: Involve Asia Shopee API
   slug: involve-asia-shopee-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, resolve an offer, and mint a trackable affiliate deeplink.
   name: Involve Asia Generate Deeplink
   slug: involve-asia-generate-deeplink-workflow
 - description: Authenticate and pull attributed conversions for a date range.
   name: Involve Asia Sync Conversions
   slug: involve-asia-sync-conversions-workflow
-artifact_total: 13
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -196,11 +193,11 @@ overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 70
+random_paper: 30
 score:
   band: developing
   composite: 46.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 59.7
@@ -208,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.1
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +217,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:

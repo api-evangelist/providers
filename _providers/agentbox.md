@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The production Agentbox (Reapit Sales) REST API used by approved integration partners to read and write agency CRM data - contacts, listings, properties, staff and offices. The host is live and fronte
@@ -198,7 +198,7 @@ overview: 'Agentbox publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Agentbox''s developer surface includes authentication, changelog, engineering blog, documentation, support, pricing, training material, and 30 more developer resources.'
-random_paper: 44
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Agentbox Rate Limits
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.8
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -214,11 +214,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 25.3
+  previous_composite: 23.8
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/screenshots/agentbox-2026-07-27T125332.png
 security:

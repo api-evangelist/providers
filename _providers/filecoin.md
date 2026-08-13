@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Public, load-balanced Lotus node endpoint hosted by Glif providing read-only access to the Filecoin mainnet JSON-RPC API, including all Filecoin and Ethereum-compatible RPC methods. Supports MPoolPush
@@ -131,7 +131,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 40.3
@@ -147,9 +147,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.9
+  previous_composite: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filecoin/refs/heads/main/screenshots/filecoin-2026-06-20T181204.png
 security:

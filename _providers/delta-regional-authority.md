@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -80,7 +80,7 @@ plans:
 - name: Delta Regional Authority Plans Pricing
   plan_count: 3
   slug: delta-regional-authority-plans-pricing
-random_paper: 26
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Delta Regional Authority Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.8
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -96,7 +96,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.4
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
@@ -104,8 +104,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-regional-authority/refs/heads/main/screenshots/delta-regional-authority-2026-06-20T175906.png
 security:
 - kind: domain-security

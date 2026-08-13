@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Transifex Plans Pricing
   plan_count: 3
   slug: transifex-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Transifex Rate Limits
@@ -226,7 +226,7 @@ rules:
 score:
   band: developing
   composite: 50.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.9
@@ -234,7 +234,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 50.6
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -243,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/screenshots/transifex-2026-06-20T195541.png
 security:

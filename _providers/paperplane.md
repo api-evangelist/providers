@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,11 +63,11 @@ overview: 'Paperplane is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Paperplane''s developer surface includes documentation, getting-started guide, and 3 more developer resources.'
-random_paper: 20
+random_paper: 104
 score:
   band: minimal
   composite: 9.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -75,9 +75,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.8
+  previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperplane/refs/heads/main/screenshots/paperplane-2026-08-07T191353.png
 security:

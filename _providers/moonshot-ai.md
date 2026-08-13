@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Moonshot Ai Plans Pricing
   plan_count: 2
   slug: moonshot-ai-plans-pricing
-random_paper: 90
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Moonshot Ai Rate Limits
@@ -147,7 +147,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 66.2
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 44.1
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +164,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/screenshots/moonshot-ai-2026-06-20T185801.png
 security:
 - kind: authentication

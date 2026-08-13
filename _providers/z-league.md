@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ apis:
   name: Z League Webhooks API
   slug: z-league-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Register a lead.created webhook, then create a lead. Real inserts fire the webhook so your endpoint is notified. Uses an Idempotency-Key so the create is retry-safe.
   name: MEGA CRM — capture lead and register webhook
   slug: z-league-capture-and-notify
 - description: 'Poll the MEGA CRM for leads with stable keyset cursor pagination: fetch the first page sorted by updated_at ascending, then follow next_cursor to fetch the next page.'
   name: MEGA CRM — incremental lead sync
   slug: z-league-incremental-lead-sync
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: Outbound webhook event surface for the MEGA public CRM Lead API. MEGA POSTs a signed `lead.created` event to a subscriber-registered public HTTPS endpoint whenever a genuine new lead is created. Deliv
   name: MEGA Public CRM Lead Webhooks
@@ -174,7 +171,7 @@ overview: 'Z League publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Z League''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 98
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Z League Rate Limits
@@ -182,7 +179,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.7
@@ -190,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.2
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

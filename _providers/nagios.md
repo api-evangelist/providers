@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ plans:
 - name: Nagios Plans Pricing
   plan_count: 4
   slug: nagios-plans-pricing
-random_paper: 61
+random_paper: 41
 rules:
 - name: Nagios API Rules
   rule_count: 5
@@ -309,7 +309,7 @@ rules:
 score:
   band: developing
   composite: 46.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.8
@@ -317,7 +317,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 47.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -326,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:

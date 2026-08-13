@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -467,7 +467,7 @@ plans:
 - name: Qlik Sense Enterprise Plans Pricing
   plan_count: 1
   slug: qlik-sense-enterprise-plans-pricing
-random_paper: 66
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Enterprise Rate Limits
@@ -484,7 +484,7 @@ rules:
 score:
   band: developing
   composite: 49.8
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 64.8
@@ -492,7 +492,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 55.6
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -501,8 +501,8 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/screenshots/qlik-sense-enterprise-2026-06-20T192341.png
 security:
 - kind: authentication

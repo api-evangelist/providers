@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 11 more developer resources.'
-random_paper: 25
+random_paper: 105
 scopes:
 - name: Microsoft 365 Scopes
   scope_count: 8
@@ -156,7 +156,7 @@ scopes:
 score:
   band: thin
   composite: 36.0
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.6
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:

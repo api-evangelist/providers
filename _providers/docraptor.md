@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Docraptor Plans Pricing
   plan_count: 9
   slug: docraptor-plans-pricing
-random_paper: 46
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Docraptor Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 52.2
@@ -134,7 +134,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +143,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/screenshots/docraptor-2026-06-20T180113.png
 security:
 - kind: authentication

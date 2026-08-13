@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
@@ -74,16 +74,13 @@ apis:
   name: Slope Software Users API
   slug: slope-software-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Kick off a workbook report, poll for completion, and fetch a download URL.
   name: Generate and download a SLOPE workbook report
   slug: slope-software-generate-report
 - description: Find a model, create a projection from a template, run it, and poll for completion.
   name: Run a SLOPE projection from a template
   slug: slope-software-run-projection
-artifact_total: 21
+artifact_total: 20
 common:
 - group: auth
   title: ''
@@ -201,11 +198,11 @@ overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 75
+random_paper: 27
 score:
   band: thin
   composite: 41.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.5
@@ -213,7 +210,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 42.0
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     contracts:
@@ -230,7 +227,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

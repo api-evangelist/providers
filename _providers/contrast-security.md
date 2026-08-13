@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,11 +134,11 @@ overview: 'Contrast Security publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Contrast Security''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 71
+random_paper: 11
 score:
   band: thin
   composite: 33.7
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 59.0
@@ -146,7 +146,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -155,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Orgs API from Rill Data — 17 operation(s) for orgs.
@@ -160,7 +160,7 @@ overview: 'Rill Data publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 78
+random_paper: 50
 scopes:
 - name: Rill Data Scopes
   scope_count: 1
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 47.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 39.6
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.2
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -188,7 +188,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 37
 apis:
 - description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
@@ -240,11 +240,11 @@ overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) 
 
 
   Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 16 more developer resources.'
-random_paper: 11
+random_paper: 79
 score:
   band: thin
   composite: 33.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.8
@@ -252,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 34.2
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -263,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
 security:

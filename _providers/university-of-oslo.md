@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)
@@ -60,7 +60,7 @@ name: University of Oslo
 nav: Providers
 network: true
 overview: University of Oslo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 14
+random_paper: 70
 score:
   band: minimal
   composite: 8.2
@@ -80,7 +80,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oslo/refs/heads/main/screenshots/university-of-oslo-2026-06-20T200211.png
 security:

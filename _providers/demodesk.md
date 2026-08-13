@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -166,7 +166,7 @@ overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 32
+random_paper: 4
 scopes:
 - name: Demodesk Scopes
   scope_count: 1
@@ -175,7 +175,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.0
@@ -183,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
@@ -194,7 +194,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:

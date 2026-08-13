@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Arena''s REST Platform API (V3) for programmatically managing engagement resources — Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation, Polls, and Q&A — mirroring the Arena Dashboard. '
@@ -139,7 +139,7 @@ overview: 'Arena publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Arena''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 55
+random_paper: 39
 score:
   band: thin
   composite: 40.7
@@ -153,7 +153,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 40.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/screenshots/arena-2026-07-25T201123.png
 security:

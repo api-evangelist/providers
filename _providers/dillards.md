@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,11 +72,11 @@ press:
 - date: '2026-05-25'
   title: Dillard's, Inc. Reports First Quarter Results | Thu, 05/14/2026
   url: https://investor.dillards.com/news-releases/news-release-details/dillards-inc-reports-first-quarter-results-6
-random_paper: 35
+random_paper: 7
 score:
   band: minimal
   composite: 5.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -84,9 +84,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dillards/refs/heads/main/screenshots/dillards-2026-06-20T180028.png
 security:

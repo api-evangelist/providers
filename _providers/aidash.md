@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The only public, unauthenticated, machine-readable API surface AiDASH exposes. It is the standard Atlassian Statuspage Status API v2 served from the AiDASH status page, returning JSON for overall stat
@@ -147,11 +147,11 @@ overview: 'AiDASH publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   AiDASH''s developer surface includes signup flow, support, engineering blog, product news, YouTube channel, and 22 more developer resources.'
-random_paper: 38
+random_paper: 18
 score:
   band: emerging
   composite: 24.5
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 25.5
+  previous_composite: 24.5
   provenance:
     conformance: first-party
   regulatory:
@@ -169,7 +169,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidash/refs/heads/main/screenshots/aidash-2026-08-07T161053.png
 security:

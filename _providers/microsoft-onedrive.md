@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ plans:
 - name: Microsoft Onedrive Plans Pricing
   plan_count: 3
   slug: microsoft-onedrive-plans-pricing
-random_paper: 31
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Microsoft Onedrive Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 52.2
@@ -141,7 +141,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/screenshots/microsoft-onedrive-2026-06-20T185515.png
 security:
 - kind: authentication

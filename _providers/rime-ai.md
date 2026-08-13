@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Rime Ai Plans Pricing
   plan_count: 4
   slug: rime-ai-plans-pricing
-random_paper: 96
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Rime Ai Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.1
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 50.7
@@ -127,7 +127,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.4
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     contracts:
@@ -136,8 +136,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/screenshots/rime-ai-2026-06-20T193201.png
 security:
 - kind: authentication

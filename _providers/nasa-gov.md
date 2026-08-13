@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -396,7 +396,7 @@ overview: 'NASA Open APIs publishes 34 APIs on the [APIs.io](https://apis.io/) n
 
 
   NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 28 more developer resources.'
-random_paper: 100
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Nasa Gov Rate Limits
@@ -413,7 +413,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.9
@@ -421,7 +421,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 42.5
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -436,7 +436,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

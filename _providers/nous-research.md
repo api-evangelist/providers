@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,11 +154,11 @@ overview: 'Nous Research publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Nous Research''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 67
+random_paper: 23
 score:
   band: emerging
   composite: 25.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 14.6
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 26.2
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/screenshots/nous-research-2026-08-07T185555.png
 security:

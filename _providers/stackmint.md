@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -121,11 +121,11 @@ overview: 'Stackmint publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stackmint''s developer surface includes authentication, documentation, API reference, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 46
+random_paper: 14
 score:
   band: thin
   composite: 31.2
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -133,7 +133,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/screenshots/stackmint-2026-06-20T194447.png
 security:

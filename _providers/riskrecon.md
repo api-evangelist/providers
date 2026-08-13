@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RiskRecon REST API for programmatic access to security ratings, portfolio and toe (target-of-evaluation) analyses, findings, and evidence. Authenticated with a JWT bearer token. Multiple version prefi
@@ -116,11 +116,11 @@ overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RiskRecon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 48
+random_paper: 16
 score:
   band: emerging
   composite: 24.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.0
+  previous_composite: 24.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

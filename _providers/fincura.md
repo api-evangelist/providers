@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -99,13 +99,10 @@ apis:
   name: Fincura Webhooks API
   slug: fincura-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Creates a borrower, uploads a financial document for automated spreading, retrieves the normalized data view, then runs a DSCR analysis and downloads it.
   name: Spread a borrower financial statement and run DSCR analysis
   slug: fincura-spread-and-analyze
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Fincura Webhooks
@@ -210,11 +207,11 @@ overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fincura''s developer surface includes authentication and 19 more developer resources.'
-random_paper: 48
+random_paper: 24
 score:
   band: thin
   composite: 31.9
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.4
@@ -222,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 33.3
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,7 +237,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:

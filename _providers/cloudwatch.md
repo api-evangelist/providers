@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -1104,7 +1104,7 @@ plans:
 - name: Cloudwatch Plans Pricing
   plan_count: 7
   slug: cloudwatch-plans-pricing
-random_paper: 26
+random_paper: 110
 rate_limits:
 - limit_count: 10
   name: Cloudwatch Rate Limits
@@ -1129,7 +1129,7 @@ rules:
 score:
   band: strong
   composite: 56.7
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 76.9
@@ -1137,7 +1137,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 65.3
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1146,8 +1146,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication

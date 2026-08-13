@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -211,7 +211,7 @@ overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   PassiveLogic''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, sandbox, and 20 more developer resources.'
-random_paper: 13
+random_paper: 89
 scopes:
 - name: Passivelogic Scopes
   scope_count: 13
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.1
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 14.1
     operational_transparency: 36.8
-  previous_composite: 47.0
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:

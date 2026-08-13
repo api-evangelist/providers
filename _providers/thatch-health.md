@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -190,11 +190,11 @@ overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 35
+random_paper: 111
 score:
   band: developing
   composite: 49.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.1
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 51.5
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -219,7 +219,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

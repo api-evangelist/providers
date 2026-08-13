@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -159,7 +159,7 @@ overview: 'Voyage Foods publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Voyage Foods'' developer surface includes documentation, authentication, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 75
+random_paper: 35
 scopes:
 - name: Voyage Foods Scopes
   scope_count: 4
@@ -168,7 +168,7 @@ scopes:
 score:
   band: thin
   composite: 36.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.1
@@ -176,14 +176,14 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 36.8
   provenance:
     agentic_access: first-party
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

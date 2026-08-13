@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -303,7 +303,7 @@ overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis
 
 
   Lone Wolf Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, and 49 more developer resources.'
-random_paper: 103
+random_paper: 75
 scopes:
 - name: Lone Wolf Scopes
   scope_count: 14
@@ -312,7 +312,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.2
@@ -320,7 +320,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,7 +338,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png
 security:

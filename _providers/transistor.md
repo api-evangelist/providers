@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Transistor Plans Pricing
   plan_count: 4
   slug: transistor-plans-pricing
-random_paper: 69
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Transistor Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.3
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.8
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

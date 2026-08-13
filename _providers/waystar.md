@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -118,7 +118,7 @@ plans:
 - name: Waystar Plans Pricing
   plan_count: 2
   slug: waystar-plans-pricing
-random_paper: 83
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Waystar Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -134,7 +134,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 20.7
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: tags
@@ -142,7 +142,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

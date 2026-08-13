@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -125,11 +125,11 @@ overview: 'Tailscale publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 18
+random_paper: 106
 score:
   band: thin
   composite: 32.6
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -137,7 +137,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.5
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -146,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/screenshots/tailscale-2026-06-20T194858.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 50
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Warpstream Rate Limits
@@ -199,7 +199,7 @@ rules:
 score:
   band: developing
   composite: 55.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 68.9
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.3
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -216,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/screenshots/warpstream-2026-06-20T201333.png
 security:

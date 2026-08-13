@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: Operations for managing account-level resources
@@ -179,11 +179,11 @@ overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 67
+random_paper: 55
 score:
   band: developing
   composite: 45.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.9
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 46.7
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

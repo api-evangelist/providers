@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 86
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -319,7 +319,7 @@ scopes:
 score:
   band: developing
   composite: 47.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.0
@@ -327,7 +327,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 48.1
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +342,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -250,7 +250,7 @@ plans:
 - name: Permit Io Plans Pricing
   plan_count: 3
   slug: permit-io-plans-pricing
-random_paper: 106
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Permit Io Rate Limits
@@ -258,7 +258,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.2
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 54.7
@@ -266,7 +266,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 44.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -281,7 +281,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/screenshots/permit-io-2026-06-20T191609.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) netw
 
 
   FlowAccount''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, changelog, and 19 more developer resources.'
-random_paper: 29
+random_paper: 109
 scopes:
 - name: Flowaccount Scopes
   scope_count: 1
@@ -233,7 +233,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.3
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 52.1
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:

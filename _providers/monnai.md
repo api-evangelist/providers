@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Real-time consumer-insights and decisioning API. Accepts consumer identifiers (phone, email, device, name, address) and returns enriched, AI-ready insights used for onboarding/KYC-AML, fraud and risk '
@@ -84,11 +84,11 @@ overview: 'Monnai publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Monnai''s developer surface includes developer portal, signup flow, authentication, and 6 more developer resources.'
-random_paper: 62
+random_paper: 42
 score:
   band: emerging
   composite: 15.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -96,11 +96,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 15.7
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/screenshots/monnai-2026-08-07T184208.png
 security:

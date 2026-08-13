@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -145,7 +145,7 @@ plans:
 - name: Revenuecat Plans Pricing
   plan_count: 4
   slug: revenuecat-plans-pricing
-random_paper: 30
+random_paper: 114
 rate_limits:
 - limit_count: 7
   name: Revenuecat Rate Limits
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.9
@@ -161,7 +161,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

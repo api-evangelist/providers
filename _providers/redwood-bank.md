@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The OpenID Connect member-authentication surface (OpenIddict) behind the Umbraco headless-CMS "Content Delivery API" that powers redwoodbank.co.uk. This is the only live, machine-readable API surface '
@@ -83,11 +83,11 @@ overview: 'Redwood Bank publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Redwood Bank''s developer surface includes authentication, engineering blog, support, legal docs, and 7 more developer resources.'
-random_paper: 53
+random_paper: 13
 score:
   band: emerging
   composite: 17.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -95,7 +95,7 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 18.4
+  previous_composite: 17.4
   provenance:
     conformance: derived
   regulatory:
@@ -105,7 +105,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

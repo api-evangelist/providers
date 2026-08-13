@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Solidity smart contracts that implement the EigenLayer restaking protocol - StrategyManager, DelegationManager, EigenPodManager, AVSDirectory, and the slasher. Operators register, stakers delegate, an
@@ -121,7 +121,7 @@ plans:
 - name: Eigenlayer Plans Pricing
   plan_count: 1
   slug: eigenlayer-plans-pricing
-random_paper: 17
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Eigenlayer Rate Limits
@@ -138,7 +138,7 @@ rules:
 score:
   band: thin
   composite: 39.9
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 49.4
@@ -146,9 +146,9 @@ score:
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 42.1
-  previous_composite: 37.0
+  previous_composite: 39.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/screenshots/eigenlayer-2026-06-20T180610.png
 security:

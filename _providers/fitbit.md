@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -347,7 +347,7 @@ plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 62
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits
@@ -377,7 +377,7 @@ scopes:
 score:
   band: strong
   composite: 64.2
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 81.9
@@ -385,7 +385,7 @@ score:
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 42.1
-  previous_composite: 62.6
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     contracts:
@@ -400,7 +400,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/screenshots/fitbit-2026-06-20T181253.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for the Ushur customer experience automation platform. Documented operations (per the official UshurNodeSDK) include logging in to a tenant instance, initiating campaign engagements with end '
@@ -108,11 +108,11 @@ overview: 'Ushur publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ushur''s developer surface includes engineering blog, documentation, support, authentication, and 11 more developer resources.'
-random_paper: 103
+random_paper: 87
 score:
   band: emerging
   composite: 24.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -120,7 +120,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 25.2
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -130,7 +130,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

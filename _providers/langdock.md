@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -292,7 +292,7 @@ overview: 'Langdock publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 23
+random_paper: 115
 rate_limits:
 - limit_count: 2
   name: Langdock Rate Limits
@@ -300,7 +300,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.4
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.0
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 64.2
+  previous_composite: 62.4
   provenance:
     conformance: derived
     contracts:
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

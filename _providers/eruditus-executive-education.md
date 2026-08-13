@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -164,11 +164,11 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 9
+random_paper: 29
 score:
   band: developing
   composite: 44.9
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.7
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 45.7
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:

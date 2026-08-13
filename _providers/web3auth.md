@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Threshold-key Auth Network nodes that issue and recover key shares anchored to OAuth/social/passkey identity providers. Accessed primarily through the Web3Auth client SDK rather than as a developer-fa
@@ -99,7 +99,7 @@ plans:
 - name: Web3Auth Plans Pricing
   plan_count: 4
   slug: web3auth-plans-pricing
-random_paper: 107
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Web3Auth Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.6
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -115,7 +115,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.2
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: tags
@@ -123,8 +123,8 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/web3auth/refs/heads/main/screenshots/web3auth-2026-06-20T201326.png
 security:
 - kind: domain-security

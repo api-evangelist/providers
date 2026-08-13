@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
@@ -152,11 +152,11 @@ overview: 'Prometheus Fuels publishes 12 APIs on the [APIs.io](https://apis.io/)
 
 
   Prometheus Fuels'' developer surface includes authentication, YouTube channel, and 17 more developer resources.'
-random_paper: 64
+random_paper: 8
 score:
   band: emerging
   composite: 26.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 57.5
@@ -164,7 +164,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 27.4
+  previous_composite: 26.9
   provenance:
     conformance: derived
     contracts:
@@ -181,7 +181,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

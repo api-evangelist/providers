@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'NIFT publishes 1 API on the [APIs.io](https://apis.io/) network: Cust
 
 
   NIFT''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 85
+random_paper: 73
 scopes:
 - name: Nift Scopes
   scope_count: 2
@@ -176,7 +176,7 @@ scopes:
 score:
   band: thin
   composite: 41.9
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.7
@@ -184,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.7
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
 security:

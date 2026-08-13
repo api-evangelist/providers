@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -36,9 +36,6 @@ apis:
   name: Aquant Conversation Platform (VoiceAI) API
   slug: acp-voiceai
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Confirm a symptom, predict the next symptom, then look up, detail and source the part.
   name: Diagnose an asset and source the right replacement part
   slug: aquant-diagnose-and-source-part
@@ -48,7 +45,7 @@ arazzos:
 - description: Health-check the service, generate the PM checklist for an asset, then produce the summary report.
   name: Run a preventive-maintenance visit and file the summary
   slug: aquant-preventive-maintenance-visit
-artifact_total: 13
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -222,7 +219,7 @@ overview: 'Aquant publishes 2 APIs on the [APIs.io](https://apis.io/) network: M
 
 
   Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 70
+random_paper: 50
 scopes:
 - name: Aquant Scopes
   scope_count: 7
@@ -231,7 +228,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.5
@@ -239,7 +236,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.5
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,7 +249,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

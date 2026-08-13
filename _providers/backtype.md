@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Backtype
 nav: Providers
 network: true
 overview: Backtype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Social Analytics, and Stream Processing.
-random_paper: 39
+random_paper: 11
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backtype/refs/heads/main/screenshots/backtype-2026-07-25T202235.png
 slug: backtype

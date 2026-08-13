@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,11 +65,11 @@ name: Symbiotic
 nav: Providers
 network: true
 overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company and Crypto Defi.'
-random_paper: 51
+random_paper: 19
 score:
   band: emerging
   composite: 15.9
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 37.3
@@ -77,7 +77,7 @@ score:
     discoverability: 44.4
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 15.5
+  previous_composite: 15.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -89,7 +89,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

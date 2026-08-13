@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 72
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -402,7 +402,7 @@ overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network
 
 
   GoFundMe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Gofundme Rate Limits
@@ -415,7 +415,7 @@ scopes:
 score:
   band: strong
   composite: 61.5
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.9
@@ -423,7 +423,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 63.4
+  previous_composite: 61.5
   provenance:
     conformance: derived
     contracts:
@@ -440,7 +440,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:

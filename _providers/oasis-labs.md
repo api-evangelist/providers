@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Parcel is Oasis Labs' data-governance API for uploading and tokenizing sensitive data, defining programmable access grants and permissions, running confidential compute jobs over that data, and managi
@@ -132,7 +132,7 @@ overview: 'Oasis Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Oasis Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, and 14 more developer resources.'
-random_paper: 78
+random_paper: 46
 scopes:
 - name: Oasis Labs Scopes
   scope_count: 7
@@ -141,7 +141,7 @@ scopes:
 score:
   band: emerging
   composite: 25.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -149,12 +149,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 26.2
+  previous_composite: 25.5
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oasis-labs/refs/heads/main/screenshots/oasis-labs-2026-08-07T185904.png
 security:

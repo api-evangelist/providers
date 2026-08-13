@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 33
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Deepdub Rate Limits
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.7
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 50.6
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:

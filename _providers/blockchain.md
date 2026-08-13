@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -829,7 +829,7 @@ plans:
 - name: Blockchain Plans Pricing
   plan_count: 3
   slug: blockchain-plans-pricing
-random_paper: 110
+random_paper: 78
 rate_limits:
 - limit_count: 7
   name: Blockchain Rate Limits
@@ -862,7 +862,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 29.3
@@ -870,7 +870,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 39.3
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -885,7 +885,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain/refs/heads/main/screenshots/blockchain-2026-06-20T173356.png
 security:

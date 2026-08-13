@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Modern REST API for managing contacts, companies, opportunities, tags, emails, appointments, notes, and tasks in Keap CRM. Authentication uses OAuth 2.0 with the authorization code and refresh token g
@@ -82,11 +82,11 @@ overview: 'Infusionsoft (Keap) publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Infusionsoft (Keap)''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 43
+random_paper: 119
 score:
   band: emerging
   composite: 14.0
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -94,9 +94,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.4
+  previous_composite: 14.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/screenshots/infusionsoft-2026-06-20T183345.png
 security:

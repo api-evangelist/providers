@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -202,7 +202,7 @@ plans:
 - name: Jpx Plans
   plan_count: 4
   slug: jpx-plans
-random_paper: 106
+random_paper: 98
 rate_limits:
 - limit_count: 8
   name: Jpx Rate Limits
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 76.3
-  previous_composite: 52.0
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/screenshots/jpx-2026-07-22T202441.png
 security:

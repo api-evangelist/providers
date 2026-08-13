@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Hokan is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hokan''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: emerging
   composite: 13.5
@@ -115,7 +115,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hokan/refs/heads/main/screenshots/hokan-2026-07-25T221315.png
 security:

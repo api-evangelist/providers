@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -387,7 +387,7 @@ plans:
 - name: Medplum Plans Pricing
   plan_count: 6
   slug: medplum-plans-pricing
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Medplum Rate Limits
@@ -412,7 +412,7 @@ rules:
 score:
   band: exemplar
   composite: 69.6
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 73.1
@@ -420,7 +420,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 67.3
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     contracts:
@@ -436,7 +436,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:

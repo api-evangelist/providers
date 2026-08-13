@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ plans:
 - name: Fathom Plans Pricing
   plan_count: 5
   slug: fathom-plans-pricing
-random_paper: 59
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Fathom Rate Limits
@@ -238,7 +238,7 @@ rules:
 score:
   band: strong
   composite: 60.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -246,7 +246,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 60.7
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/screenshots/fathom-2026-06-20T181055.png
 security:

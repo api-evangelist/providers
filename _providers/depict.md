@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 53
+random_paper: 33
 scopes:
 - name: Depict Scopes
   scope_count: 3
@@ -294,7 +294,7 @@ scopes:
 score:
   band: developing
   composite: 47.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.2
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +314,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/screenshots/depict-2026-07-25T211731.png
 security:

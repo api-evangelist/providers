@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -456,7 +456,7 @@ plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
   slug: red-hat-satellite-plans-pricing
-random_paper: 65
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Red Hat Satellite Rate Limits
@@ -486,7 +486,7 @@ scopes:
 score:
   band: developing
   composite: 50.7
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 67.0
@@ -494,7 +494,7 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.5
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -503,8 +503,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:
 - kind: authentication

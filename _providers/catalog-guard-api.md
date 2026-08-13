@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
@@ -131,7 +131,7 @@ overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 16 more developer resources.'
-random_paper: 42
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Catalog Guard Api Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 47.0
@@ -147,7 +147,7 @@ score:
     discoverability: 70.4
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.4
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -158,7 +158,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

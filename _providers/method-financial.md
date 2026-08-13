@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -355,7 +355,7 @@ overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/)
 
 
   Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 37 more developer resources.'
-random_paper: 111
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Method Financial Rate Limits
@@ -363,7 +363,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.9
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.2
@@ -371,7 +371,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 78.9
-  previous_composite: 65.1
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -389,7 +389,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:

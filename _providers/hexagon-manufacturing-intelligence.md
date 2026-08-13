@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The PC-DMIS API provides programmatic control over Hexagon CMM (coordinate measuring machine) measurement software, enabling automation of measurement programs, results extraction, and integration wit
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexagon-manufacturing-intelligence/refs/heads/main/screenshots/hexagon-manufacturing-intelligence-2026-06-20T182708.png
 security:

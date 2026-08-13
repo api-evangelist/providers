@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,13 +57,10 @@ apis:
   name: Bluecore Transactional API
   slug: bluecore-transactional-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, upsert a Customer Profile, opt them into marketing, send a transactional message with an idempotency key, and read its delivery status.
   name: Onboard a Bluecore customer and send a transactional message
   slug: bluecore-onboard-and-message.arazzo
-artifact_total: 16
+artifact_total: 15
 common:
 - group: other
   title: ''
@@ -217,7 +214,7 @@ overview: 'Bluecore publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Bluecore Rate Limits
@@ -230,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 54.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.7
@@ -238,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 55.9
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +253,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

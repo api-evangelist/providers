@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: CONVENTIONS.md
 nav: Providers
 network: true
-random_paper: 68
+random_paper: 20
 slug: conventions-md
 tags:
 - AI Coding

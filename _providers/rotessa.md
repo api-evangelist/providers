@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -183,11 +183,11 @@ overview: 'Rotessa publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 73
+random_paper: 49
 score:
   band: developing
   composite: 44.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

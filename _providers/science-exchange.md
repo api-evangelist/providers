@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 23
 apis:
 - description: Addresses resource.
@@ -226,11 +226,11 @@ overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 102
+random_paper: 50
 score:
   band: developing
   composite: 44.3
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.0
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 46.7
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     contracts:
@@ -255,7 +255,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ overview: 'NatWest Group publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 30 more developer resources.'
-random_paper: 78
+random_paper: 54
 scopes:
 - name: Natwest Scopes
   scope_count: 5
@@ -276,7 +276,7 @@ scopes:
 score:
   band: developing
   composite: 54.1
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.0
@@ -284,7 +284,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 55.7
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,7 +302,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Art Blocks Plans
   plan_count: 4
   slug: art-blocks-plans
-random_paper: 82
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Art Blocks Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.3
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.0
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 34.0
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/screenshots/art-blocks-2026-06-20T172442.png
 security:

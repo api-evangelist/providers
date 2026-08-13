@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 25
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De
@@ -184,7 +184,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.2
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 43.1
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

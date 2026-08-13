@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ plans:
 - name: Thanos Plans Pricing
   plan_count: 1
   slug: thanos-plans-pricing
-random_paper: 73
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Thanos Rate Limits
@@ -293,7 +293,7 @@ rules:
 score:
   band: thin
   composite: 39.7
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 65.4
@@ -301,7 +301,7 @@ score:
     discoverability: 63.0
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 44.9
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +310,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/screenshots/thanos-2026-06-20T195209.png
 security:
 - kind: domain-security

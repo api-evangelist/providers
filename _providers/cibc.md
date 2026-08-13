@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'CIBC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CIBC''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 53
+random_paper: 41
 score:
   band: emerging
   composite: 13.2
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cibc/refs/heads/main/screenshots/cibc-2026-07-25T205336.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -239,11 +239,11 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Opal Security''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
-random_paper: 85
+random_paper: 41
 score:
   band: strong
   composite: 59.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.3
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 60.5
+  previous_composite: 59.8
   provenance:
     conformance: derived
     contracts:
@@ -262,7 +262,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:

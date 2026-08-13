@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -160,7 +160,7 @@ overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 26
+random_paper: 102
 scopes:
 - name: Redefine Meat Scopes
   scope_count: 1
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 34.9
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.0
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     contracts:
@@ -188,7 +188,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

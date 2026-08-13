@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -164,7 +164,7 @@ plans:
 - name: Ory Plans Pricing
   plan_count: 4
   slug: ory-plans-pricing
-random_paper: 114
+random_paper: 106
 rate_limits:
 - limit_count: 8
   name: Ory Rate Limits
@@ -177,7 +177,7 @@ scopes:
 score:
   band: thin
   composite: 31.3
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 49.0
@@ -185,7 +185,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.5
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -2761,7 +2761,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits
@@ -2791,7 +2791,7 @@ scopes:
 score:
   band: strong
   composite: 64.3
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.4
@@ -2799,7 +2799,7 @@ score:
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 44.7
-  previous_composite: 70.2
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2810,8 +2810,8 @@ score:
       total: 64
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:
 - kind: authentication

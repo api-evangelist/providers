@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,11 +188,11 @@ overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wugen''s developer surface includes authentication, code examples, product news, support, and 27 more developer resources.'
-random_paper: 86
+random_paper: 70
 score:
   band: emerging
   composite: 27.2
-  delta: 7.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 45.0
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Wugen Authentication

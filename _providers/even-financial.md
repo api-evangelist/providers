@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,13 +58,10 @@ apis:
   name: Even Financial UI Utils API
   slug: even-financial-ui-utils-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Submit a consumer lead to Engine by MoneyLion and read back the resulting rate table of offers.
   name: Submit a lead and retrieve its rate table
   slug: even-financial-submit-lead-rate-table
-artifact_total: 13
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Even Financial Webhooks
@@ -201,11 +198,11 @@ overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Even Financial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 88
 score:
   band: developing
   composite: 48.5
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 72.4
@@ -213,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,7 +228,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:

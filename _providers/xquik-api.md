@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 95.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -304,7 +304,7 @@ plans:
 - name: Xquik Plans
   plan_count: 4
   slug: xquik-plans
-random_paper: 109
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Xquik Rate Limits
@@ -321,7 +321,7 @@ rules:
 score:
   band: exemplar
   composite: 89.7
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 82.1
@@ -329,7 +329,7 @@ score:
     discoverability: 100.0
     governance: 68.8
     operational_transparency: 84.2
-  previous_composite: 90.5
+  previous_composite: 89.7
   provenance:
     agentic_access: unknown
     conformance: unknown
@@ -341,7 +341,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: xquik-api
 tags:

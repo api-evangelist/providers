@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -853,7 +853,7 @@ plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 84
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits
@@ -883,7 +883,7 @@ scopes:
 score:
   band: strong
   composite: 57.6
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 68.8
@@ -891,7 +891,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 63.5
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -900,8 +900,8 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:
 - kind: authentication

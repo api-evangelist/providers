@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Enterprise REST API for the Storyclash influencer marketing platform. Token-based authentication over HTTPS returning structured JSON, with real-time webhooks for campaign updates and creator import s
@@ -115,11 +115,11 @@ overview: 'Storyclash publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 56
+random_paper: 20
 score:
   band: thin
   composite: 39.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -127,9 +127,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 40.6
+  previous_composite: 39.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

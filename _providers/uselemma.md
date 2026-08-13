@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Artifacts API from Lemma — 6 operation(s) for artifacts.
@@ -172,11 +172,11 @@ overview: 'Lemma publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: developing
   composite: 46.4
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 68.7
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 48.2
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -195,7 +195,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

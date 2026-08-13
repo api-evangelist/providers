@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for the Celo Layer 2 network, served over the public Forno endpoints. Supports the standard eth_* / net_* / web3_* method set for reading chain state, submitting trans
@@ -147,11 +147,11 @@ overview: 'Celo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Celo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, and 18 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: thin
   composite: 32.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 33.2
+  previous_composite: 32.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -170,7 +170,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/screenshots/celo-2026-07-25T204901.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -2635,7 +2635,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 32
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits
@@ -2660,7 +2660,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -6.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 64.3
@@ -2668,7 +2668,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2677,8 +2677,8 @@ score:
       marker_coverage: 0.0
       total: 139
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:
 - kind: domain-security

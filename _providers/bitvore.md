@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 19
 apis:
 - description: Alerts API
@@ -196,7 +196,7 @@ overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 67
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Bitvore Rate Limits
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 45.7
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.4
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 50.0
-  previous_composite: 45.5
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -234,7 +234,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
 security:

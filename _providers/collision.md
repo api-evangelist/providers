@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Collision (now Web Summit Vancouver) is profiled on the [APIs.io](htt
 
 
   Collision (now Web Summit Vancouver)''s developer surface includes product news, engineering blog, support, developer portal, and 10 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: minimal
   composite: 10.1
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/screenshots/collision-2026-06-20T174751.png
 security:

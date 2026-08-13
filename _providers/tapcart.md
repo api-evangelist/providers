@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -216,11 +216,11 @@ overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: strong
   composite: 59.0
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.3
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 58.0
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -239,7 +239,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

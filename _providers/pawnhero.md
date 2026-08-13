@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'PawnHero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PawnHero''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 56
+random_paper: 28
 score:
   band: minimal
   composite: 12.7
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pawnhero/refs/heads/main/screenshots/pawnhero-2026-08-07T191615.png
 security:

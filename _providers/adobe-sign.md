@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ overview: 'Adobe Acrobat Sign publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Adobe Acrobat Sign''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, and 8 more developer resources.'
-random_paper: 57
+random_paper: 25
 scopes:
 - name: Adobe Sign Scopes
   scope_count: 12
@@ -128,7 +128,7 @@ scopes:
 score:
   band: thin
   composite: 31.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 52.3
@@ -136,7 +136,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.3
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -145,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/screenshots/adobe-sign-2026-06-20T165020.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Low-latency online feature serving for model inference — read single or batched feature vectors, wildcard queries, and feature-service metadata. Authenticated with an Authorization Tecton-key header b
@@ -136,11 +136,11 @@ overview: 'Tecton publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tecton''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 16 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: emerging
   composite: 27.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -148,12 +148,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 28.2
+  previous_composite: 27.1
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: TransUnion's Global Developer Portal hosts API products for credit, identity verification, fraud prevention, and consumer risk decisioning. Access typically requires a business agreement with TransUni
@@ -87,7 +87,7 @@ overview: 'TransUnion publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   TransUnion''s developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 61
+random_paper: 25
 score:
   band: minimal
   composite: 7.3
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/screenshots/transunion-2026-06-20T195631.png
 security:

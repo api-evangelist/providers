@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Core Angular 14 framework APIs including components, directives, pipes, dependency injection, and change detection. Angular 14 introduced standalone components, protected component template members, t
@@ -133,7 +133,7 @@ plans:
 - name: Angular 14 Plans Pricing
   plan_count: 3
   slug: angular-14-plans-pricing
-random_paper: 80
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Angular 14 Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -149,10 +149,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 23.8
+  previous_composite: 16.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-14/refs/heads/main/screenshots/angular-14-2026-06-20T171954.png
 security:
 - kind: domain-security

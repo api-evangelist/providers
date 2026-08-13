@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
@@ -208,11 +208,11 @@ overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 54
+random_paper: 26
 score:
   band: developing
   composite: 48.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 55.4
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.5
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -230,7 +230,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

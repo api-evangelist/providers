@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -186,11 +186,11 @@ overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Sail''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 77
+random_paper: 65
 score:
   band: developing
   composite: 53.1
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 68.5
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,7 +210,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

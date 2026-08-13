@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Intel to Develop AI Infrastructure and Personal ...
   url: http://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Intel Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.3
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 57.5
@@ -134,7 +134,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.6
+  previous_composite: 24.3
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +143,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png
 security:
 - kind: domain-security

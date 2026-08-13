@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -35,9 +35,6 @@ apis:
   name: QBE Australia CTP Switch Service
   slug: qbe-ctp-switch-service-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Cancel an in-force QBE policy with a published cancellation reason code, confirm it, and attach the cancellation schedule.
   name: QBE policy cancellation
   slug: qbe-cancel-policy
@@ -47,7 +44,7 @@ arazzos:
 - description: Create a commercial quote with QBE Australia, amend it, then convert it into a bound policy.
   name: QBE quote to bound policy
   slug: qbe-quote-to-bind
-artifact_total: 11
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -190,11 +187,11 @@ overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
-random_paper: 80
+random_paper: 72
 score:
   band: thin
   composite: 35.7
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 14.0
@@ -202,7 +199,7 @@ score:
     discoverability: 75.9
     governance: 14.1
     operational_transparency: 15.8
-  previous_composite: 37.6
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +217,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

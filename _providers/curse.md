@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -189,11 +189,11 @@ overview: 'Curse publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Curse''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 82
+random_paper: 66
 score:
   band: developing
   composite: 43.8
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.3
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 45.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/screenshots/curse-2026-07-25T210958.png
 security:

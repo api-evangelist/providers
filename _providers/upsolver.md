@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'HTTP API behind the Upsolver SQLake platform, used by the first-party Python SDK (DB API 2.0), CLI, and dbt adapter to execute SQLake SQL statements (DDL, DML, continuous data loading). Authenticated '
@@ -92,11 +92,11 @@ overview: 'Upsolver publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Upsolver''s developer surface includes documentation, changelog, CLI, authentication, and 7 more developer resources.'
-random_paper: 84
+random_paper: 56
 score:
   band: emerging
   composite: 16.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -104,9 +104,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.0
+  previous_composite: 16.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

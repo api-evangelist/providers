@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Engine ML
 nav: Providers
 network: true
 overview: Engine ML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, MLOps, and Experiment Tracking.
-random_paper: 80
+random_paper: 52
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engine-ml/refs/heads/main/screenshots/engine-ml-2026-07-25T213354.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Runa Plans Pricing
   plan_count: 3
   slug: runa-plans-pricing
-random_paper: 90
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Runa Rate Limits
@@ -193,7 +193,7 @@ rules:
 score:
   band: developing
   composite: 51.6
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 72.6
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 56.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -216,7 +216,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:

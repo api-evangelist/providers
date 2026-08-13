@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 78
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits
@@ -342,7 +342,7 @@ scopes:
 score:
   band: strong
   composite: 57.9
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 59.0
@@ -350,7 +350,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 63.6
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/screenshots/workday-security-2026-06-20T201611.png
 security:
 - kind: authentication

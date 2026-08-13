@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Evolutionaryscale Plans Pricing
   plan_count: 4
   slug: evolutionaryscale-plans-pricing
-random_paper: 109
+random_paper: 49
 rate_limits:
 - limit_count: 7
   name: Evolutionaryscale Rate Limits
@@ -165,7 +165,7 @@ rules:
 score:
   band: developing
   composite: 44.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.9
@@ -173,7 +173,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 43.2
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/screenshots/evolutionaryscale-2026-06-20T180917.png
 security:

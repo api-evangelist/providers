@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -367,7 +367,7 @@ plans:
 - name: Vercel Plans Pricing
   plan_count: 3
   slug: vercel-plans-pricing
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Vercel Rate Limits
@@ -400,7 +400,7 @@ rules:
 score:
   band: strong
   composite: 62.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 73.9
@@ -408,7 +408,7 @@ score:
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 55.3
-  previous_composite: 70.8
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     contracts:
@@ -417,8 +417,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:
 - kind: authentication

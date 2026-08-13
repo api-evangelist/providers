@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -87,35 +87,73 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/latana-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/latana-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/latana-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/latana-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/latana-conformance.yml
+coverage:
+  checked: '2026-08-12'
+  detail: 'Latana ships brand tracking only as an end-user product — a dashboard, a CSV export and a Slack bot the Customer Success team provisions by email — with no developer program of any kind: /developers, /api and /integrations all 404, and the sitemap has no developer page. A private Rails backend does exist at back.latana.com and mounts an API reference at /api-docs, but it is protected by HTTP Basic authentication and is never offered, priced or documented as a customer-facing API, so it is an internal application backend rather than a withheld API product.'
+  evidence:
+  - status: 404
+    url: https://www.latana.com/developers
+  - status: 401
+    url: https://back.latana.com/api-docs
+  - status: 404
+    url: https://www.latana.com/llms.txt
+  - status: 404
+    url: https://www.latana.com/.well-known/api-catalog
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Latana is a Berlin-based brand tracking and consumer-insights platform that measures brand awareness, brand perception, purchase consideration and ad awareness for global consumer brands. Rather than buying responses from incentivized survey panels, Latana collects non-incentivized micro-surveys through advertising placements to reach everyday consumers, then applies Bayesian modelling and machine-learning quality assurance to project the sample onto real-world populations, including small and hard-to-reach markets. The product is delivered as a dashboard covering brand health tracking, competitor benchmarking, purchase funnel tracking and brand strategy planning, sold per market per year across Essential, Pro and Custom tiers. Customers include Unilever, Amazon, IKEA, Uber, PVH and Emma Sleep. Latana is backed by Balderton Capital. As of July 2026 Latana publishes no public API, developer portal, SDKs or machine-readable API description; delivery is through the app.latana.com
-  dashboard, dashboard data export and a Latana Slack app.
+description: Latana is a Berlin-based brand tracking and consumer-insights platform that measures brand awareness, brand perception, purchase consideration and ad awareness for global consumer brands. Rather than buying responses from incentivized survey panels, Latana collects non-incentivized micro-surveys through advertising placements to reach everyday consumers, then applies Bayesian modelling and machine-learning quality assurance to project the sample onto real-world populations, including small and hard-to-reach markets. The product is delivered as a dashboard covering brand health tracking, competitor benchmarking, purchase funnel tracking and brand strategy planning, sold per market per year across Essential, Pro and Custom tiers. Customers include Unilever, Amazon, IKEA, Uber, PVH and Emma Sleep. Latana is backed by Balderton Capital. As of August 2026 Latana publishes no public API, developer portal, SDKs or machine-readable API description; delivery is through the app.latana.com
+  dashboard, CSV export and a Latana Slack app whose access the Customer Success team provisions on request. A private Rails backend at back.latana.com serves the dashboard over /api/v2 and /api/v3 and mounts an API reference at /api-docs behind HTTP Basic authentication, and an LLM surface at llmagent.latana.com backs the in-product data assistant, but neither is documented, marketed or offered to customers as an API product.
 image: https://cdn.prod.website-files.com/6475c5eea8e20ed4cd6ee36e/647d9733ae633cba5002ee6b_Favicon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-12'
 name: Latana
 nav: Providers
 network: true
 overview: 'Latana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brand Tracking, Market Research, Consumer Insights, and Brand Awareness.
 
 
-  Latana''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
-random_paper: 45
+  Latana''s developer surface includes pricing, engineering blog, and 16 more developer resources.'
+plans:
+- name: Latana Plans Pricing
+  plan_count: 3
+  slug: latana-plans-pricing
+random_paper: 25
+rate_limits:
+- limit_count: 0
+  name: Latana Rate Limits
+  slug: latana-rate-limits
 score:
   band: emerging
-  composite: 15.1
-  delta: -1.1
+  composite: 22.9
+  delta: 7.8
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 57.4
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 15.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/latana/refs/heads/main/screenshots/latana-2026-07-25T224552.png
 security:
 - kind: domain-security

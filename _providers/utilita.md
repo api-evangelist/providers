@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Public, anonymous, read-only JSON API reporting the live operational state of Utilita Energy's services. Eight GET endpoints under https://status.utilita.co.uk/api/v2 return the page status indicator,
@@ -190,11 +190,11 @@ overview: 'Utilita publishes 1 API on the [APIs.io](https://apis.io/) network: S
 
 
   Utilita''s developer surface includes documentation, API reference, code examples, authentication, signup flow, pricing, support, and 24 more developer resources.'
-random_paper: 68
+random_paper: 44
 score:
   band: developing
   composite: 42.9
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.4
@@ -202,7 +202,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -218,7 +218,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,11 +127,11 @@ overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   dltHub''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 13 more developer resources.'
-random_paper: 63
+random_paper: 43
 score:
   band: thin
   composite: 30.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -139,11 +139,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
+  previous_composite: 30.0
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/screenshots/dlthub-2026-07-25T212147.png
 security:

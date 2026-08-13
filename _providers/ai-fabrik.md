@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,7 +105,7 @@ plans:
 - name: Ai Fabrik Plans Pricing
   plan_count: 0
   slug: ai-fabrik-plans-pricing
-random_paper: 58
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Ai Fabrik Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.3
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -121,9 +121,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 11.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/screenshots/ai-fabrik-2026-07-25T195336.png
 security:

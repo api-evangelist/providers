@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ plans:
 - name: Yoco Plans Pricing
   plan_count: 3
   slug: yoco-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Yoco Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.9
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.3
@@ -132,7 +132,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 26.0
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -147,7 +147,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -4758,7 +4758,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 11
+random_paper: 103
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits
@@ -4783,7 +4783,7 @@ rules:
 score:
   band: thin
   composite: 33.2
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.2
@@ -4791,7 +4791,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -4806,7 +4806,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:

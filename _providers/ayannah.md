@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ overview: 'Ayannah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ayannah''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 40
+random_paper: 16
 score:
   band: minimal
   composite: 8.7
@@ -80,7 +80,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ayannah/refs/heads/main/screenshots/ayannah-2026-07-25T202107.png
 security:

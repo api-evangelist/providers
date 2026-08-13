@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: JSON:API-flavored REST endpoints covering accounts, prospects, sequences, mailings, calls, opportunities and tasks.
@@ -109,7 +109,7 @@ plans:
 - name: Outreach Plans Pricing
   plan_count: 1
   slug: outreach-plans-pricing
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Outreach Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 50.6
@@ -125,9 +125,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.3
+  previous_composite: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/screenshots/outreach-2026-06-20T191233.png
 security:

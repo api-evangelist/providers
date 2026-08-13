@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Stormglass Plans Pricing
   plan_count: 3
   slug: stormglass-plans-pricing
-random_paper: 59
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Stormglass Rate Limits
@@ -217,7 +217,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.9
@@ -225,7 +225,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 58.8
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/screenshots/stormglass-2026-06-20T194607.png
 security:
 - kind: authentication

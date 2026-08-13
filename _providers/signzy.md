@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ plans:
 - name: Signzy Plans Pricing
   plan_count: 2
   slug: signzy-plans-pricing
-random_paper: 96
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Signzy Rate Limits
@@ -246,7 +246,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 60.1
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 63.5
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

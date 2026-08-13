@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -187,7 +187,7 @@ plans:
 - name: Ant Media Plans Pricing
   plan_count: 3
   slug: ant-media-plans-pricing
-random_paper: 68
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Ant Media Rate Limits
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 48.4
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 47.2
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 53.9
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:
 - kind: domain-security

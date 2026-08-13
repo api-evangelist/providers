@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Server-side Miri API (API-key authenticated) plus the React Native Component SDK for embedding Miri's chat, goal-tracking, measurement, and admin surfaces, with configurable webhooks. Currently in alp
@@ -115,11 +115,11 @@ overview: 'Miri publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Miri''s developer surface includes documentation, developer portal, support, authentication, and 11 more developer resources.'
-random_paper: 85
+random_paper: 73
 score:
   band: thin
   composite: 32.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -127,7 +127,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.2
+  previous_composite: 32.3
   regulatory:
     applies: true
     matched_via: tags
@@ -135,7 +135,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miri/refs/heads/main/screenshots/miri-2026-08-07T183724.png
 security:

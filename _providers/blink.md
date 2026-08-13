@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,11 +97,11 @@ overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blink Charging''s developer surface includes authentication, documentation, product news, and 6 more developer resources.'
-random_paper: 64
+random_paper: 48
 score:
   band: emerging
   composite: 25.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 59.0
@@ -109,7 +109,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.7
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     contracts:
@@ -124,7 +124,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/screenshots/blink-2026-07-25T203318.png
 security:

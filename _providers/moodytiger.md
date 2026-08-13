@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Agent-facing shopping surface for the moodytiger Shopify store implemented with the Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and transact (catalog search, ca
@@ -95,11 +95,11 @@ overview: 'moodytiger publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   moodytiger''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 47
+random_paper: 11
 score:
   band: emerging
   composite: 17.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,12 +107,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 17.9
   provenance:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/screenshots/moodytiger-2026-08-07T184237.png
 security:

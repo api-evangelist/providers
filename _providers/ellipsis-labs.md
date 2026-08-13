@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,11 +111,11 @@ overview: 'Ellipsis Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ellipsis Labs'' developer surface includes documentation, CLI, and 15 more developer resources.'
-random_paper: 56
+random_paper: 12
 score:
   band: emerging
   composite: 16.5
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 14.8
+  previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: tags
@@ -131,7 +131,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis-labs/refs/heads/main/screenshots/ellipsis-labs-2026-07-25T213147.png
 security:

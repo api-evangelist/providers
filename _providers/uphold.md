@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 25
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -298,7 +298,7 @@ overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 72
+random_paper: 52
 scopes:
 - name: Uphold Scopes
   scope_count: 64
@@ -307,7 +307,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.1
@@ -315,7 +315,7 @@ score:
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 66.3
+  previous_composite: 66.8
   provenance:
     conformance: first-party
     contracts:
@@ -332,7 +332,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

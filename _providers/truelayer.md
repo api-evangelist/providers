@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -206,7 +206,7 @@ plans:
 - name: Truelayer Plans Pricing
   plan_count: 3
   slug: truelayer-plans-pricing
-random_paper: 61
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Truelayer Rate Limits
@@ -231,7 +231,7 @@ rules:
 score:
   band: developing
   composite: 50.8
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 72.5
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 57.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:
 - kind: authentication

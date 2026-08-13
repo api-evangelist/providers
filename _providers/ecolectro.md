@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ overview: 'Ecolectro is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ecolectro''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: minimal
   composite: 9.2
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -83,7 +83,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
@@ -91,7 +91,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecolectro/refs/heads/main/screenshots/ecolectro-2026-07-25T212759.png
 security:

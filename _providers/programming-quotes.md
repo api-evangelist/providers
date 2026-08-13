@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Programming Quotes — JWT login / register exchange.
@@ -148,7 +148,7 @@ overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 49
+random_paper: 105
 rules:
 - name: Programming Quotes API Rules
   rule_count: 5
@@ -169,7 +169,7 @@ rules:
 score:
   band: emerging
   composite: 23.5
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 30.7
@@ -177,7 +177,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 23.6
+  previous_composite: 23.5
   provenance:
     contracts:
       callable: 100.0
@@ -185,7 +185,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:

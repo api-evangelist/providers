@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
@@ -196,7 +196,7 @@ overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 30
+random_paper: 2
 scopes:
 - name: Certifid Scopes
   scope_count: 12
@@ -205,7 +205,7 @@ scopes:
 score:
   band: developing
   composite: 44.5
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 41.5
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 45.8
+  previous_composite: 44.5
   provenance:
     conformance: first-party
     contracts:
@@ -230,7 +230,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

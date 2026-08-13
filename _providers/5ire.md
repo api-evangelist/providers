@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -157,11 +157,11 @@ overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 23.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -169,11 +169,11 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 26.3
-  previous_composite: 24.8
+  previous_composite: 23.7
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

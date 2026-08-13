@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 collections:
@@ -80,7 +80,7 @@ plans:
 - name: Defense Contract Management Agency Plans Pricing
   plan_count: 1
   slug: defense-contract-management-agency-plans-pricing
-random_paper: 47
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Defense Contract Management Agency Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.2
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -96,7 +96,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.5
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: tags
@@ -104,7 +104,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-contract-management-agency/refs/heads/main/screenshots/defense-contract-management-agency-2026-06-20T175824.png
 security:

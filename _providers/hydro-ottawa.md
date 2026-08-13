@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hydro Ottawa's mandated Green Button Connect My Data surface — the OAuth-authorized, machine-to-machine channel through which a customer can grant a third-party application ongoing access to their sma
@@ -157,7 +157,7 @@ overview: 'Hydro Ottawa publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Hydro Ottawa''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, YouTube channel, and 22 more developer resources.'
-random_paper: 91
+random_paper: 51
 scopes:
 - name: Hydro Ottawa Scopes
   scope_count: 0
@@ -166,7 +166,7 @@ scopes:
 score:
   band: thin
   composite: 35.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 11.8
@@ -174,7 +174,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 35.1
+  previous_composite: 35.0
   provenance:
     conformance: derived
     contracts:
@@ -190,7 +190,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/screenshots/hydro-ottawa-2026-08-07T170509.png
 security:

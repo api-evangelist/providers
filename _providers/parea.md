@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Parea Plans Pricing
   plan_count: 4
   slug: parea-plans-pricing
-random_paper: 57
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Parea Rate Limits
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.4
@@ -197,7 +197,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 50.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/screenshots/parea-2026-06-20T191406.png
 security:

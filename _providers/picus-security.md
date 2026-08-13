@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
-random_paper: 89
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits
@@ -232,7 +232,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.2
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.9
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 56.3
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

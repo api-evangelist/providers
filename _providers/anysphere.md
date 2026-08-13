@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ overview: 'Anysphere publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anysphere''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 47
+random_paper: 15
 rate_limits:
 - limit_count: 7
   name: Anysphere Rate Limits
@@ -239,7 +239,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.8
@@ -247,7 +247,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 62.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:

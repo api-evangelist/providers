@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Public open-source repositories from the Khalifa University Center for Autonomous Robotic Systems (KUCARS), covering autonomous robotics topics such as coverage path planning, soft manipulator dynamic
@@ -100,7 +100,7 @@ plans:
 - name: Khalifa Plans Pricing
   plan_count: 2
   slug: khalifa-plans-pricing
-random_paper: 24
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Khalifa Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/khalifa/refs/heads/main/screenshots/khalifa-2026-06-20T184031.png
 security:

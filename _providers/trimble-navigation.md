@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Builder business and will extend Trimble's ability to provide ...
   url: https://www.facebook.com/TrimbleCorporate/posts/more-big-news-happened-todaywe-are-so-excited-to-announce-the-newest-member-of-t/1919754298098753/
-random_paper: 12
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Trimble Navigation Rate Limits
@@ -187,7 +187,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 60.6
@@ -195,7 +195,7 @@ score:
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/screenshots/trimble-navigation-2026-06-20T195716.png
 security:
 - kind: authentication

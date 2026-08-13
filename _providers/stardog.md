@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 7
@@ -174,11 +174,11 @@ overview: 'Stardog publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Stardog''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 5 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: thin
   composite: 28.4
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 47.4
@@ -186,7 +186,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.3
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/screenshots/stardog-2026-06-20T194510.png
 security:

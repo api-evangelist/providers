@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -101,7 +101,7 @@ overview: 'Envisagenow is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Envisagenow''s developer surface includes engineering blog, support, developer portal, authentication, and 10 more developer resources.'
-random_paper: 30
+random_paper: 110
 scopes:
 - name: Envisagenow Scopes
   scope_count: 36
@@ -110,7 +110,7 @@ scopes:
 score:
   band: emerging
   composite: 26.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -118,7 +118,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 27.0
+  previous_composite: 26.1
   provenance:
     conformance: first-party
   regulatory:
@@ -128,7 +128,7 @@ score:
     regime_id: government
     score: 68.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envisagenow/refs/heads/main/screenshots/envisagenow-2026-07-25T213448.png
 security:

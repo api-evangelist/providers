@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -227,11 +227,11 @@ overview: 'Popsink publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Popsink''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 76
+random_paper: 52
 score:
   band: developing
   composite: 47.1
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.6
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 48.1
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

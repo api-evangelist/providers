@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: MSC Industrial Supply Co. to Webcast Review of Fiscal 2026 ...
   url: https://www.thepublicopinion.com/press-release/story/40988/msc-industrial-supply-co-to-webcast-review-of-fiscal-2026-second-quarter-results/
-random_paper: 47
+random_paper: 95
 score:
   band: minimal
   composite: 8.3
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/msc-industrial-direct/refs/heads/main/screenshots/msc-industrial-direct-2026-06-20T185850.png
 security:

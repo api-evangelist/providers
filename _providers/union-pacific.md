@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ press:
 - date: '2026-05-22'
   title: AI is Enhancing How Union Pacific Inspects Track
   url: https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522
-random_paper: 41
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Union Pacific Rate Limits
@@ -214,7 +214,7 @@ rules:
 score:
   band: emerging
   composite: 24.2
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 28.0
@@ -222,7 +222,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Union Pacific Domain Security

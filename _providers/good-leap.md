@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -93,13 +93,10 @@ apis:
   name: Good Leap Verify Loan Details API
   slug: good-leap-verify-loan-details-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, submit a loan application, then track its status and next actions.
   name: Originate and track a GoodLeap loan
   slug: good-leap-originate-and-track-loan
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: postman
   name: GoodLeap - Developer API
@@ -221,11 +218,11 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 76
+random_paper: 48
 score:
   band: thin
   composite: 41.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 55.0
@@ -233,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 41.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +248,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

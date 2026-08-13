@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -362,7 +362,7 @@ plans:
 - name: Ramp Plans Pricing
   plan_count: 3
   slug: ramp-plans-pricing
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Ramp Rate Limits
@@ -400,7 +400,7 @@ scopes:
 score:
   band: strong
   composite: 61.1
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 78.1
@@ -408,7 +408,7 @@ score:
     discoverability: 81.5
     governance: 52.1
     operational_transparency: 28.9
-  previous_composite: 64.3
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -423,7 +423,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

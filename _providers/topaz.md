@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Topaz Plans Pricing
   plan_count: 2
   slug: topaz-plans-pricing
-random_paper: 94
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Topaz Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.0
@@ -135,7 +135,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.1
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 slug: topaz
 tags:
 - Access Control

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -190,11 +190,11 @@ overview: 'VoiceGenie publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   VoiceGenie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 10
+random_paper: 94
 score:
   band: developing
   composite: 47.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.9
@@ -202,7 +202,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 47.8
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

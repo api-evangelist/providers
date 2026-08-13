@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for Act-On marketing automation — contacts and lists, segments, email messages and campaigns, media and creative assets, landing pages and forms, subscriptions, custom data, and rep
@@ -112,11 +112,11 @@ overview: 'Act-On publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Act-On''s developer surface includes documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 114
+random_paper: 98
 score:
   band: emerging
   composite: 19.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -124,12 +124,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 20.7
+  previous_composite: 19.6
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:

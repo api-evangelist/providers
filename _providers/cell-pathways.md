@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,7 +49,7 @@ name: Cell Pathways
 nav: Providers
 network: true
 overview: Cell Pathways is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Oncology, and Cancer Research.
-random_paper: 66
+random_paper: 22
 score:
   band: minimal
   composite: 4.3
@@ -69,7 +69,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cell-pathways/refs/heads/main/screenshots/cell-pathways-2026-07-25T204849.png
 slug: cell-pathways

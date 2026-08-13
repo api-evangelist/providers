@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Pixie Plans Pricing
   plan_count: 1
   slug: pixie-plans-pricing
-random_paper: 79
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Pixie Rate Limits
@@ -176,7 +176,7 @@ rules:
 score:
   band: thin
   composite: 41.4
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 69.9
@@ -184,7 +184,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 47.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/screenshots/pixie-2026-06-20T191740.png
 security:
 - kind: authentication

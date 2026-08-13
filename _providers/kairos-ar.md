@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -165,11 +165,11 @@ overview: 'Kairos AR publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kairos AR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 93
+random_paper: 65
 score:
   band: developing
   composite: 50.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-07-25T223414.png
 security:

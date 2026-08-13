@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -37,7 +37,7 @@ name: Apstal
 nav: Providers
 network: true
 overview: Apstal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include analytics, web-analytics, privacy, session-replay, and heatmaps.
-random_paper: 65
+random_paper: 45
 score:
   band: minimal
   composite: 5.9
@@ -51,7 +51,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 slug: apstal

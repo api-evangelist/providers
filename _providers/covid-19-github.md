@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Covid 19 cases, deaths and recovery per country
@@ -52,7 +52,7 @@ name: Covid-19
 nav: Providers
 network: true
 overview: Covid-19 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 96
+random_paper: 52
 score:
   band: minimal
   composite: 4.3
@@ -72,7 +72,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-github/refs/heads/main/screenshots/covid-19-github-2026-06-20T175130.png
 slug: covid-19-github

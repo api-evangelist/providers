@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Endpoints that return control data from building management systems (BMS)
@@ -175,7 +175,7 @@ overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://api
 
 
   Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 18 more developer resources.'
-random_paper: 100
+random_paper: 24
 scopes:
 - name: Verdigris Technologies Scopes
   scope_count: 0
@@ -184,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.7
@@ -192,7 +192,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 47.8
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

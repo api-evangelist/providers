@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -77,7 +77,7 @@ plans:
 - name: Shipengine Plans Pricing
   plan_count: 1
   slug: shipengine-plans-pricing
-random_paper: 22
+random_paper: 106
 rate_limits:
 - limit_count: 1
   name: Shipengine Rate Limits
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.1
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -93,7 +93,7 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.3
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: tags
@@ -101,8 +101,8 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipengine/refs/heads/main/screenshots/shipengine-2026-06-20T193812.png
 security:
 - kind: domain-security

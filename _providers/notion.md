@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -653,7 +653,7 @@ plans:
 - name: Notion Plans Pricing
   plan_count: 4
   slug: notion-plans-pricing
-random_paper: 83
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Notion Rate Limits
@@ -678,7 +678,7 @@ rules:
 score:
   band: exemplar
   composite: 70.6
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 84.3
@@ -686,7 +686,7 @@ score:
     discoverability: 77.8
     governance: 53.1
     operational_transparency: 63.2
-  previous_composite: 79.1
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -697,8 +697,8 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:
 - kind: authentication

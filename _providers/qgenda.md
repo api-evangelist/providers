@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 27
 apis:
 - description: The Company API from QGenda — 1 operation(s) for company.
@@ -242,11 +242,11 @@ overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 44
+random_paper: 24
 score:
   band: developing
   composite: 48.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.7
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 49.6
+  previous_composite: 48.1
   provenance:
     conformance: unknown
     contracts:
@@ -271,7 +271,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

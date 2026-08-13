@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: Create, list, retrieve, and manage orders — the top-level payment object in the Pagar.me Core API v5. Each order can contain one or more charges paid via credit card, debit card, Pix, boleto, voucher,
@@ -254,11 +254,11 @@ overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 20 more developer resources.'
-random_paper: 82
+random_paper: 58
 score:
   band: emerging
   composite: 26.3
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -266,7 +266,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.1
+  previous_composite: 26.3
   regulatory:
     applies: true
     matched_via: tags
@@ -274,7 +274,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
 security:

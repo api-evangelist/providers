@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -154,7 +154,7 @@ overview: 'Admiral Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Admiral Group''s developer surface includes support, engineering blog, and 25 more developer resources.'
-random_paper: 56
+random_paper: 12
 score:
   band: emerging
   composite: 18.4
@@ -174,7 +174,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admiral-group/refs/heads/main/screenshots/admiral-group-2026-07-25T181651.png
 security:

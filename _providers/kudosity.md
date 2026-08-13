@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ plans:
 - name: Kudosity Plans
   plan_count: 4
   slug: kudosity-plans
-random_paper: 80
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Kudosity Rate Limits
@@ -290,7 +290,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 61.4
@@ -298,7 +298,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 60.5
-  previous_composite: 62.4
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +311,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:

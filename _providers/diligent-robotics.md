@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,7 +108,7 @@ overview: 'Diligent Robotics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Diligent Robotics'' developer surface includes FAQ, engineering blog, and 14 more developer resources.'
-random_paper: 22
+random_paper: 82
 score:
   band: minimal
   composite: 11.4
@@ -128,7 +128,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent-robotics/refs/heads/main/screenshots/diligent-robotics-2026-06-20T180025.png
 security:

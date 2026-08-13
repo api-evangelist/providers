@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Federal Court Imposes Nearly $1 Billion in FCA Damages ...
   url: https://www.afslaw.com/perspectives/investigations-blog/federal-court-imposes-nearly-1-billion-fca-damages-and-penalties
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 4.6
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnicare/refs/heads/main/screenshots/omnicare-2026-06-20T190705.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -195,11 +195,11 @@ overview: 'Sendspark publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 43
+random_paper: 11
 score:
   band: developing
   composite: 52.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.2
@@ -207,7 +207,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.0
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

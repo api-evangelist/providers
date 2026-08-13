@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Gated REST API that lets financial institutions with their own KYC/onboarding process programmatically submit W-series forms, CRS self-certifications, and supporting documents for validation; receive '
@@ -98,7 +98,7 @@ overview: 'Taina publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Taina''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 61
+random_paper: 45
 score:
   band: thin
   composite: 30.8
@@ -114,7 +114,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

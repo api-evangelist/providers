@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Kakehashi is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kakehashi''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 9
+random_paper: 97
 score:
   band: minimal
   composite: 8.9
@@ -83,7 +83,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakehashi/refs/heads/main/screenshots/kakehashi-2026-07-25T223425.png
 security:

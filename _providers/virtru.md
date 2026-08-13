@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -234,11 +234,11 @@ overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Virtru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 27 more developer resources.'
-random_paper: 104
+random_paper: 84
 score:
   band: developing
   composite: 48.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 41.0
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 50.0
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: DeepEval is an open-source Python framework for evaluating LLM applications as unit tests. It ships with research-backed metrics including GEval, AnswerRelevancyMetric, FaithfulnessMetric, TaskComplet
@@ -178,7 +178,7 @@ plans:
 - name: Confident Ai Plans Pricing
   plan_count: 1
   slug: confident-ai-plans-pricing
-random_paper: 41
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Confident Ai Rate Limits
@@ -186,7 +186,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.1
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -194,9 +194,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 24.2
+  previous_composite: 27.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-ai/refs/heads/main/screenshots/confident-ai-2026-06-20T174857.png
 security:

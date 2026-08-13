@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: 'Gallop publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gallop''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 59
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Gallop Rate Limits
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 64.2
@@ -168,7 +168,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/screenshots/gallop-2026-07-25T215406.png
 security:

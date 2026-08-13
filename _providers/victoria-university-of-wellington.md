@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Victoria University Of Wellington Plans Pricing
   plan_count: 2
   slug: victoria-university-of-wellington-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Victoria University Of Wellington Rate Limits
@@ -161,7 +161,7 @@ rules:
 score:
   band: thin
   composite: 38.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.7
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/screenshots/victoria-university-of-wellington-2026-06-20T201017.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -280,11 +280,11 @@ overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Catchpoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 24 more developer resources.'
-random_paper: 25
+random_paper: 109
 score:
   band: developing
   composite: 53.8
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.3
@@ -292,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.9
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint/refs/heads/main/screenshots/catchpoint-2026-07-25T204806.png
 security:

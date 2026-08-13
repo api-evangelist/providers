@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -216,11 +216,11 @@ overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
 
 
   Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 95
+random_paper: 79
 score:
   band: strong
   composite: 56.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.5
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 58.2
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -240,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

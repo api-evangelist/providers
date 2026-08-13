@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: REST + WebSocket / MQTT integration surface exposed by Helium-compatible LoRaWAN Network Servers (e.g. Nova Labs Console) for provisioning IoT devices, managing organizations and labels, configuring i
@@ -116,7 +116,7 @@ plans:
 - name: Helium Network Plans Pricing
   plan_count: 1
   slug: helium-network-plans-pricing
-random_paper: 75
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Helium Network Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -132,9 +132,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 18.3
+  previous_composite: 22.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/screenshots/helium-network-2026-06-20T182625.png
 security:

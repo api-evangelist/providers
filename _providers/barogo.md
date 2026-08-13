@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Barogo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, product news, and 25 more developer resources.'
-random_paper: 54
+random_paper: 34
 score:
   band: developing
   composite: 51.5
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 74.0
@@ -209,7 +209,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.9
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -111,13 +111,10 @@ apis:
   name: Paraşüt Warehouses API
   slug: para-t-warehouses-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a contact, issue a sales invoice, officialize it as an e-Arşiv document, and poll the trackable job until done.
   name: Paraşüt — invoice a customer and officialize as e-Arşiv
   slug: para-t-invoice-and-officialize
-artifact_total: 31
+artifact_total: 30
 common:
 - group: start
   title: ''
@@ -247,7 +244,7 @@ overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 1
+random_paper: 101
 scopes:
 - name: Para T Scopes
   scope_count: 0
@@ -256,7 +253,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.9
@@ -264,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 46.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:

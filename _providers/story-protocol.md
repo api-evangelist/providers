@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -183,11 +183,11 @@ overview: 'Story Protocol publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   Story Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 112
+random_paper: 64
 score:
   band: thin
   composite: 38.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 53.7
@@ -195,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 39.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

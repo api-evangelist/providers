@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ overview: 'Atticus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atticus'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 69
+random_paper: 45
 score:
   band: minimal
   composite: 12.8
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -79,7 +79,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
@@ -87,7 +87,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atticus/refs/heads/main/screenshots/atticus-2026-07-25T201632.png
 security:

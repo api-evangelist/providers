@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -509,7 +509,7 @@ plans:
 - name: Sumup Plans Pricing
   plan_count: 5
   slug: sumup-plans-pricing
-random_paper: 106
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Sumup Rate Limits
@@ -531,7 +531,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.0
@@ -539,7 +539,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 50.9
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -554,7 +554,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:

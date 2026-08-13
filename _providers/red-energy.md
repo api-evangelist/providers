@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,13 +38,10 @@ apis:
   name: Red Energy CDR Energy Consumer Data API
   slug: red-energy-cdr-energy-consumer-data-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Check that Red Energy's CDR implementation is available, then list its published electricity plans and pull the full tariff detail for one of them. Every step is unauthenticated — no API key, no signu
   name: Compare Red Energy tariff plans
   slug: red-energy-compare-plans-workflow
-artifact_total: 18
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -229,7 +226,7 @@ overview: 'Red Energy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 29 more developer resources.'
-random_paper: 82
+random_paper: 50
 rate_limits:
 - limit_count: 15
   name: Red Energy Rate Limits
@@ -242,7 +239,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.2
@@ -250,7 +247,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 53.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,7 +265,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

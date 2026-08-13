@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: RESTful API exposed by the Geneos Gateway for retrieving monitoring data and managing dataviews, samplers, entities, and snooze states programmatically. Authenticated and typically deployed inside ent
@@ -117,7 +117,7 @@ plans:
 - name: Geneos Plans Pricing
   plan_count: 3
   slug: geneos-plans-pricing
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Geneos Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -133,10 +133,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 26.0
+  previous_composite: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/screenshots/geneos-2026-06-20T181719.png
 security:
 - kind: domain-security

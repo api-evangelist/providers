@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ plans:
 - name: Amazon Q Plans Pricing
   plan_count: 7
   slug: amazon-q-plans-pricing
-random_paper: 108
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Amazon Q Rate Limits
@@ -409,7 +409,7 @@ rules:
 score:
   band: strong
   composite: 61.0
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 61.9
@@ -417,7 +417,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 64.7
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -426,7 +426,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:

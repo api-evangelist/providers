@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -163,11 +163,11 @@ overview: 'Convelio publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Convelio''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 51
+random_paper: 23
 score:
   band: developing
   composite: 48.4
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 72.4
@@ -175,7 +175,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

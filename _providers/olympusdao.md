@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ overview: 'OlympusDAO publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OlympusDAO''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 57
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -139,7 +139,7 @@ rules:
 score:
   band: thin
   composite: 30.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 55.6
@@ -147,7 +147,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 31.1
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -156,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/screenshots/olympusdao-2026-06-20T190659.png
 security:

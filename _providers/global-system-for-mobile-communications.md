@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -273,7 +273,7 @@ plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
   slug: global-system-for-mobile-communications-plans-pricing
-random_paper: 10
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: Global System For Mobile Communications Rate Limits
@@ -281,7 +281,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 58.4
@@ -289,7 +289,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 39.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -304,8 +304,8 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:
 - kind: authentication

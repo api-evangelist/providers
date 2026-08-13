@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
@@ -143,11 +143,11 @@ overview: 'Chert publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chert''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: thin
   composite: 41.2
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -155,11 +155,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.2
+  previous_composite: 41.2
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/screenshots/chert-2026-07-25T205203.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -257,11 +257,11 @@ overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: developing
   composite: 45.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 60.7
@@ -269,7 +269,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 45.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -284,7 +284,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

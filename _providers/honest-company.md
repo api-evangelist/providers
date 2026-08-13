@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'Agent-native commerce surface for the honest.com Shopify storefront. Exposes a live Universal Commerce Protocol (UCP) shopping MCP endpoint for catalog search, cart, and buyer-approved checkout, plus '
@@ -111,7 +111,7 @@ overview: 'Honest Company publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Honest Company''s developer surface includes signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 69
+random_paper: 21
 scopes:
 - name: Honest Company Scopes
   scope_count: 4
@@ -120,7 +120,7 @@ scopes:
 score:
   band: emerging
   composite: 22.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -128,13 +128,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 22.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honest-company/refs/heads/main/screenshots/honest-company-2026-08-07T170253.png
 security:

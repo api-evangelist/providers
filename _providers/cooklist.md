@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -111,7 +111,7 @@ overview: 'Cooklist is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cooklist''s developer surface includes documentation, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 60
+random_paper: 32
 score:
   band: thin
   composite: 33.0
@@ -127,7 +127,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooklist/refs/heads/main/screenshots/cooklist-2026-07-25T210357.png
 security:

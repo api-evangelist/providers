@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 253
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ plans:
 - name: Subscan
   plan_count: 3
   slug: subscan
-random_paper: 50
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Subscan
@@ -304,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png
 security:

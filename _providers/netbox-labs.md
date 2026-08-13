@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
@@ -196,11 +196,11 @@ overview: 'NetBox Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NetBox Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 75
+random_paper: 39
 score:
   band: developing
   composite: 52.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.0
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 53.8
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png
 security:

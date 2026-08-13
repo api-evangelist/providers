@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Mixhalo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mixhalo''s developer surface includes support and 5 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: minimal
   composite: 10.1
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixhalo/refs/heads/main/screenshots/mixhalo-2026-08-07T183821.png
 security:

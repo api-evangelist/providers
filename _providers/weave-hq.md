@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: Weave Hq Plans Pricing
   plan_count: 4
   slug: weave-hq-plans-pricing
-random_paper: 102
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Weave Hq Rate Limits
@@ -154,7 +154,7 @@ scopes:
 score:
   band: developing
   composite: 42.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.2
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

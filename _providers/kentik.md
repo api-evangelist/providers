@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 3
@@ -284,11 +284,11 @@ overview: 'Kentik publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kentik''s developer surface includes documentation, API reference, developer portal, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 66
+random_paper: 46
 score:
   band: strong
   composite: 56.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.1
@@ -296,7 +296,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 58.4
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,7 +308,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/screenshots/kentik-2026-07-25T223629.png
 security:

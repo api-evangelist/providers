@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Access Bloomberg Tax data including tax rates, regulations, guidance, and compliance data for integration into enterprise tax technology systems and workflows. Covers federal, state, and international
@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Tax Btax Plans Pricing
   plan_count: 3
   slug: bloomberg-tax-btax-plans-pricing
-random_paper: 67
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tax Btax Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.5
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -116,7 +116,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.4
+  previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: tags
@@ -124,8 +124,8 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-tax-btax/refs/heads/main/screenshots/bloomberg-tax-btax-2026-06-20T173507.png
 security:
 - kind: domain-security

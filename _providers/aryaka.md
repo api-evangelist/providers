@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -150,11 +150,11 @@ overview: 'Aryaka is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aryaka''s developer surface includes documentation, getting-started guide, support, engineering blog, FAQ, legal docs, authentication, and 19 more developer resources.'
-random_paper: 53
+random_paper: 33
 score:
   band: thin
   composite: 39.9
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -162,7 +162,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 39.5
+  previous_composite: 39.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -173,7 +173,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aryaka/refs/heads/main/screenshots/aryaka-2026-08-07T161748.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: GraphQL API powered by The Graph that indexes all on-chain Squeeth events on Ethereum mainnet. Enables developers to query oSQTH positions, short vaults, vault collateral and debt, funding (mark/index
@@ -134,7 +134,7 @@ plans:
 - name: Opyn Plans Pricing
   plan_count: 2
   slug: opyn-plans-pricing
-random_paper: 106
+random_paper: 94
 rate_limits:
 - limit_count: 4
   name: Opyn Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.7
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 43.2
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 28.9
+  previous_composite: 29.7
   regulatory:
     applies: true
     matched_via: tags
@@ -158,7 +158,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/screenshots/opyn-2026-06-20T191115.png
 security:

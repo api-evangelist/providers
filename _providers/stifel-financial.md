@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Stifel CEO 'not comfortable' with AI replacing advisor ...
   url: https://www.investmentnews.com/independent-broker-dealers/stifel-ceo-not-comfortable-with-ai-replacing-advisor-judgement/266281
-random_paper: 1
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Stifel Financial Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.5
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 12.9
@@ -126,7 +126,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.0
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
@@ -134,7 +134,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/screenshots/stifel-financial-2026-06-20T194550.png
 security:

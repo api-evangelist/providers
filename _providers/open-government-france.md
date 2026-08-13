@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: French Government Open Data
@@ -56,7 +56,7 @@ name: Open Government, France
 nav: Providers
 network: true
 overview: Open Government, France publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 36
+random_paper: 80
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-government-france/refs/heads/main/screenshots/open-government-france-2026-06-20T190759.png
 security:

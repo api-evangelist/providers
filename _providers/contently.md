@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
@@ -155,7 +155,7 @@ overview: 'Contently publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Contently''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 64
+random_paper: 32
 score:
   band: developing
   composite: 50.1
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
 security:

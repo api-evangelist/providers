@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -255,11 +255,11 @@ overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 26 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: developing
   composite: 53.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.7
@@ -267,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 55.0
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:

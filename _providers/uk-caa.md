@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,13 +32,10 @@ apis:
   name: CAA Consultations API
   slug: caa-consultations-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Search the UK Civil Aviation Authority's published consultation activities, then pull the full detail record for the first match.
   name: Track UK CAA consultations
   slug: uk-caa-track-consultations
-artifact_total: 13
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -250,11 +247,11 @@ overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://
 
 
   UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 37 more developer resources.'
-random_paper: 98
+random_paper: 82
 score:
   band: thin
   composite: 41.7
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 64.9
@@ -262,7 +259,7 @@ score:
     discoverability: 87.0
     governance: 14.1
     operational_transparency: 26.3
-  previous_composite: 42.7
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,7 +277,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

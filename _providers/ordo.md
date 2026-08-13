@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -145,11 +145,11 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 88
+random_paper: 76
 score:
   band: thin
   composite: 38.0
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -157,7 +157,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.3
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -175,7 +175,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

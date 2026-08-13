@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -172,7 +172,7 @@ overview: 'Landis+Gyr is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Landis+Gyr''s developer surface includes signup flow, developer portal, documentation, training material, support, engineering blog, YouTube channel, and 27 more developer resources.'
-random_paper: 90
+random_paper: 58
 score:
   band: emerging
   composite: 25.6
@@ -194,7 +194,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landis-gyr/refs/heads/main/screenshots/landis-gyr-2026-08-07T171436.png
 security:

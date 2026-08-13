@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Inquiry-based student discussion product with built-in AI coaching that helps students ask better questions and write stronger responses, plus automated moderation for instructors. Accessed by student
@@ -102,7 +102,7 @@ plans:
 - name: Packback Plans Pricing
   plan_count: 3
   slug: packback-plans-pricing
-random_paper: 4
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Packback Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.6
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 30.6
@@ -118,9 +118,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.9
+  previous_composite: 27.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/screenshots/packback-2026-08-07T191240.png
 security:

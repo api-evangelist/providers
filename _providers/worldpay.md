@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 70
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -291,7 +291,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.4
-  delta: 10.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 63.7
@@ -299,7 +299,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.1
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +314,8 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Worldpay Authentication

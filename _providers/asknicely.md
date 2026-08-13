@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -197,7 +197,7 @@ overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 35
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Asknicely Rate Limits
@@ -210,7 +210,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 73.0
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 62.9
+  previous_composite: 63.1
   provenance:
     conformance: derived
     contracts:
@@ -235,7 +235,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:

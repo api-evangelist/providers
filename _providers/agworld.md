@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Cloud farm-management platform for growers, agronomists, and ag retailers. Covers the Agworld Basics core, Planning, Scheduling, Precision (spray records), Insights (financial and agronomic), and Comp
@@ -86,7 +86,7 @@ plans:
 - name: Agworld Plans Pricing
   plan_count: 1
   slug: agworld-plans-pricing
-random_paper: 56
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Agworld Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/screenshots/agworld-2026-06-20T170515.png
 security:

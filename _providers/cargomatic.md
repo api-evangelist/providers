@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Endpoints dealing with authenticating to the API
@@ -176,11 +176,11 @@ overview: 'Cargomatic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 6
+random_paper: 90
 score:
   band: thin
   composite: 41.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.0
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.9
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -199,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

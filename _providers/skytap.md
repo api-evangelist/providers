@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing Skytap environments (configurations), VMs, networks, templates, users, projects, assets and webhooks. v2 adds filtering, sorting and pagination; v1 remains for operations not yet
@@ -155,11 +155,11 @@ overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Skytap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 68
 score:
   band: thin
   composite: 40.3
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -167,7 +167,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 43.3
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

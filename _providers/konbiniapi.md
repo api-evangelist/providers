@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ plans:
 - name: Konbiniapi Plans Pricing
   plan_count: 5
   slug: konbiniapi-plans-pricing
-random_paper: 16
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Konbiniapi Rate Limits
@@ -405,7 +405,7 @@ rules:
 score:
   band: strong
   composite: 57.1
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 78.4
@@ -413,7 +413,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 55.5
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -428,7 +428,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 79
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -407,7 +407,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
-random_paper: 61
+random_paper: 37
 scopes:
 - name: Britive Scopes
   scope_count: 0
@@ -416,7 +416,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.1
@@ -424,7 +424,7 @@ score:
     discoverability: 57.4
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 48.8
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -435,7 +435,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

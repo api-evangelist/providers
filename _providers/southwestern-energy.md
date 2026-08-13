@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Southwestern Energy investor relations portal provides financial data, shareholder information, earnings summaries, SEC filings, and corporate governance information. The investor relations infras
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Chesapeake Energy Corp. is buying Southwestern ...
   url: https://www.facebook.com/Investopedia/posts/chesapeake-energy-corp-is-buying-southwestern-energy-co-to-become-the-largest-na/765851035566707/
-random_paper: 62
+random_paper: 114
 rate_limits:
 - limit_count: 1
   name: Southwestern Energy Rate Limits
@@ -148,7 +148,7 @@ rules:
 score:
   band: emerging
   composite: 22.5
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 27.4
@@ -156,7 +156,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 26.9
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: tags
@@ -164,7 +164,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/screenshots/southwestern-energy-2026-06-20T194233.png
 security:

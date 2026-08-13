@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic surface behind ManifestOS, gated by the Manifest Law OAuth 2.0 / OpenID Connect authorization server (issuer https://app.manifestlaw.com/api/auth, `api` scope).
@@ -80,7 +80,7 @@ overview: 'Manifest Law publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Manifest Law''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 64
+random_paper: 24
 scopes:
 - name: Manifest Law Scopes
   scope_count: 7
@@ -89,7 +89,7 @@ scopes:
 score:
   band: emerging
   composite: 13.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -97,11 +97,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 15.0
+  previous_composite: 13.9
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/screenshots/manifest-law-2026-07-25T230049.png
 security:

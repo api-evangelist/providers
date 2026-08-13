@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Skool's only official programmatic surface. This is a Zapier-mediated automation integration, not a public REST API. It is available on the paid Pro plan only (not Hobby) and is enabled via a per-grou
@@ -72,7 +72,7 @@ plans:
 - name: Skool Plans Pricing
   plan_count: 2
   slug: skool-plans-pricing
-random_paper: 88
+random_paper: 72
 score:
   band: minimal
   composite: 11.9
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -208,7 +208,7 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 59
+random_paper: 43
 scopes:
 - name: Sedna Scopes
   scope_count: 53
@@ -217,7 +217,7 @@ scopes:
 score:
   band: thin
   composite: 41.6
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.2
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 46.5
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

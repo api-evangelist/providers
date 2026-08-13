@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Eraser Plans Pricing
   plan_count: 4
   slug: eraser-plans-pricing
-random_paper: 62
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Eraser Rate Limits
@@ -180,7 +180,7 @@ rules:
 score:
   band: developing
   composite: 48.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.4
@@ -188,7 +188,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 48.8
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/screenshots/eraser-2026-06-20T180810.png
 security:

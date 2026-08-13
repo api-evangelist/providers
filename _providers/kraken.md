@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -113,9 +113,6 @@ apis:
   name: Kraken WebSocket API
   slug: kraken-websocket-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List open orders, amend one in place, then confirm the new terms.
   name: Kraken Amend an Open Order
   slug: kraken-amend-open-order-workflow
@@ -146,7 +143,7 @@ arazzos:
 - description: Check balance and withdrawal fees, withdraw to a saved address, then track status.
   name: Kraken Withdraw Funds with Fee Preview
   slug: kraken-withdraw-funds-workflow
-artifact_total: 389
+artifact_total: 388
 asyncapis:
 - description: 'Public WebSocket API for the Kraken cryptocurrency exchange (Spot v2). Provides real-time market data through subscribe/unsubscribe semantics over JSON. Channels documented here are restricted to the '
   name: Kraken Spot WebSocket API v2
@@ -1415,7 +1412,7 @@ plans:
 - name: Kraken Plans Pricing
   plan_count: 8
   slug: kraken-plans-pricing
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 16
   name: Kraken Rate Limits
@@ -1473,7 +1470,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: List, create, delete and merge branches
@@ -170,11 +170,11 @@ overview: 'Testim Io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Testim Io''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 18 more developer resources.'
-random_paper: 111
+random_paper: 83
 score:
   band: developing
   composite: 44.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 54.3
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 45.6
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -193,7 +193,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

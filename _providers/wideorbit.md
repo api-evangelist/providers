@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: high
+  label: Certified partner only
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - plans
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,23 +20,30 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-11'
-api_count: 1
+  score: 37.4
+  scored_at: '2026-08-12'
+api_count: 2
 apis:
 - description: 'Certified-partner API gateway for WideOrbit.io providing real-time, object-level interaction with WideOrbit Traffic, Network, and Omni systems. Access is restricted to authorized, WideOrbit-certified '
   name: WideOrbit.io API Gateway
   slug: wideorbitio-api-gateway
-artifact_total: 4
+- description: 'REST bulk-export service that provides access to WO Network, WO Traffic and WO Omni data "in a unified version agnostic manner". Every export is asynchronous: a submit call returns a RequestId and the'
+  name: WO Data API
+  slug: wo-data-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Wideorbit Webhooks
+  slug: wideorbit-webhooks
 common:
 - group: auth
   title: ''
@@ -96,46 +105,101 @@ common:
   title: ''
   type: Authentication
   url: authentication/wideorbit-authentication.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.wideorbit.com/wp-content/uploads/2022/07/WO-DATA-API-Guide-Version-421_New.pdf
+- group: build
+  title: ''
+  type: Packages
+  url: packages/wideorbit-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/wideorbit-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wideorbit-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wideorbit-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wideorbit-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wideorbit-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/wideorbit-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/wideorbit-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/wideorbit-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/wideorbit-rate-limits.yml
 created: '2026-07-17'
 description: WideOrbit is a premium ad management platform for the media industry, giving broadcast television, cable and broadcast networks, radio, and digital publishers a single system to sell, traffic, bill, and reconcile advertising across linear, digital, and cross-media campaigns. Its products span WO Traffic, WO Network, WO Omni, WO Media Sales, WO Programmatic, and the WO Aurora radio automation suite, all reached through the WO Central workspace. For integration partners, WideOrbit.io exposes a certified developer program and an OIDC-secured API gateway that offers real-time, object-level access to Traffic, Network, and Omni data, complemented by the WO Data Bridge cloud data warehouse. WideOrbit manages roughly $33 billion in annual ad revenue for 6,450+ stations and networks. It was surfaced as a portfolio company of Mayfield and enriched in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wideorbit.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: WideOrbit
 nav: Providers
 network: true
-overview: 'WideOrbit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Media, and Broadcasting.
+overview: 'WideOrbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Media, and Broadcasting.
 
 
-  WideOrbit''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 41
+  The WideOrbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  WideOrbit''s developer surface includes documentation, signup flow, support, engineering blog, authentication, API reference, sandbox, and 19 more developer resources.'
+plans:
+- name: Wideorbit Plans Pricing
+  plan_count: 0
+  slug: wideorbit-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Wideorbit Rate Limits
+  slug: wideorbit-rate-limits
 scopes:
 - name: Wideorbit Scopes
   scope_count: 0
   slug: wideorbit-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 22.8
-  delta: -1.1
+  band: thin
+  composite: 39.2
+  delta: 16.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 68.5
+    contract_quality: 51.6
+    developer_ergonomics: 47.8
+    discoverability: 66.7
     governance: 12.5
-    operational_transparency: 5.3
-  previous_composite: 23.9
+    operational_transparency: 13.2
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: authentication
   name: Wideorbit Authentication
   slug: wideorbit-authentication
-  summary_line: 1 scheme
+  summary_line: 3 schemes
 - kind: domain-security
   name: Wideorbit Domain Security
   slug: wideorbit-domain-security

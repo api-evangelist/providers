@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
@@ -124,11 +124,11 @@ overview: 'Tari publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tari''s developer surface includes documentation, getting-started guide, engineering blog, changelog, CLI, and 13 more developer resources.'
-random_paper: 84
+random_paper: 72
 score:
   band: emerging
   composite: 19.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 20.4
+  previous_composite: 19.4
   provenance:
     conformance: derived
     mcp: derived
@@ -147,7 +147,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

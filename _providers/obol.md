@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -239,11 +239,11 @@ overview: 'Obol publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Obol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 26 more developer resources.'
-random_paper: 80
+random_paper: 68
 score:
   band: developing
   composite: 50.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.5
@@ -251,7 +251,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 50.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/screenshots/obol-2026-08-07T185909.png
 security:

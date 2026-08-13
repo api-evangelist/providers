@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -196,11 +196,11 @@ overview: 'ActiveFence publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 23 more developer resources.'
-random_paper: 105
+random_paper: 69
 score:
   band: developing
   composite: 54.7
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 72.5
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 54.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:

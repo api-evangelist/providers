@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Ciro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ciro''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 81
+random_paper: 69
 score:
   band: emerging
   composite: 18.2
@@ -105,7 +105,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciro/refs/heads/main/screenshots/ciro-2026-07-25T205418.png
 security:

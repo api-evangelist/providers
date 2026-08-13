@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -351,7 +351,7 @@ plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 25
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -381,7 +381,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.4
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 73.9
@@ -389,7 +389,7 @@ score:
     discoverability: 83.3
     governance: 89.6
     operational_transparency: 39.5
-  previous_composite: 73.3
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,8 +407,8 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:
 - kind: authentication

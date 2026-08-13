@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ plans:
 - name: Practicepanther Plans Pricing
   plan_count: 4
   slug: practicepanther-plans-pricing
-random_paper: 89
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Practicepanther Rate Limits
@@ -337,7 +337,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.8
@@ -345,7 +345,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 45.1
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/screenshots/practicepanther-2026-06-20T192035.png
 security:

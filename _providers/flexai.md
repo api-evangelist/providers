@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ plans:
 - name: Flexai Plans
   plan_count: 3
   slug: flexai-plans
-random_paper: 53
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Flexai Rate Limits
@@ -228,7 +228,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 15.3
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 48.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

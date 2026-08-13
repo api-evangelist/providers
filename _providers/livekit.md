@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -134,7 +134,7 @@ plans:
 - name: Livekit Plans Pricing
   plan_count: 4
   slug: livekit-plans-pricing
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Livekit Rate Limits
@@ -151,7 +151,7 @@ rules:
 score:
   band: thin
   composite: 39.9
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.3
@@ -159,9 +159,9 @@ score:
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 13.2
-  previous_composite: 43.5
+  previous_composite: 39.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:

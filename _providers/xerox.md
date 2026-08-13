@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ press:
 - date: '2026-05-25'
   title: Xerox AI – the future's almost here!
   url: https://www.perfectcolours.com/blog/2018/11/22/xerox-ai-the-futures-almost-here/?srsltid=AfmBOoqAEnZunThO-KFMQdJFUucWJHvzFvh7hZCDOCpuORD4prbBzVA3
-random_paper: 102
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Xerox Rate Limits
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.7
@@ -172,7 +172,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.2
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png
 security:
 - kind: authentication

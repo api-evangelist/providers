@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1898,7 +1898,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 43
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1915,7 +1915,7 @@ rules:
 score:
   band: developing
   composite: 50.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.3
@@ -1923,7 +1923,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 51.1
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1938,7 +1938,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/screenshots/deribit-2026-06-20T175930.png
 security:

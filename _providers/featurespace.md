@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Featurespace is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Featurespace''s developer surface includes documentation, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 112
+random_paper: 72
 score:
   band: emerging
   composite: 15.2
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/featurespace/refs/heads/main/screenshots/featurespace-2026-07-25T214316.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: XAG's developer Open Platform (Chinese-language) integrating application management, device data authorization, secure data communication, and message subscription, offering APIs for retrieving device
@@ -95,7 +95,7 @@ overview: 'XAG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   XAG''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 88
+random_paper: 80
 score:
   band: emerging
   composite: 20.3
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

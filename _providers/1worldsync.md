@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,11 +179,11 @@ overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 23 more developer resources.'
-random_paper: 2
+random_paper: 86
 score:
   band: developing
   composite: 50.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.0
@@ -191,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 52.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Google Cloud Logging Plans Pricing
   plan_count: 3
   slug: google-cloud-logging-plans-pricing
-random_paper: 33
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Google Cloud Logging Rate Limits
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 50.6
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 52.4
@@ -217,7 +217,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 58.9
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-06-20T182118.png
 security:
 - kind: authentication

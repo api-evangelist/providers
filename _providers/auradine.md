@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Auradine (Velaura AI) is profiled on the [APIs.io](https://apis.io/) 
 
 
   Auradine (Velaura AI)''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 29
+random_paper: 1
 score:
   band: minimal
   composite: 9.8
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -91,7 +91,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.1
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
@@ -99,7 +99,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auradine/refs/heads/main/screenshots/auradine-2026-07-25T201736.png
 security:

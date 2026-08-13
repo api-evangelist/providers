@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require OAuth 2.1 bearer auth (observed HTTP 401 anonymously).
@@ -163,7 +163,7 @@ overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 63
+random_paper: 3
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1
@@ -172,7 +172,7 @@ scopes:
 score:
   band: thin
   composite: 38.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.5
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 38.6
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/screenshots/a2-biotherapeutics-2026-08-07T160729.png
 security:

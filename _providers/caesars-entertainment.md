@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Caesars Entertainment Defines & Measures ROI for Test ...
   url: https://www.parasoft.com/resources/case-studies/caesars-entertainment-defines-and-measures-roi-for-test-automation/
-random_paper: 101
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Caesars Entertainment Rate Limits
@@ -123,7 +123,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

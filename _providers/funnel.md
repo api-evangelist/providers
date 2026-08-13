@@ -1,40 +1,52 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Demo/sales required
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
   - authentication
+  - https://funnel.io/pricing
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-11'
-api_count: 1
+  score: 52.7
+  scored_at: '2026-08-12'
+api_count: 3
 apis:
 - description: 'The Funnel Control Plane API provides configuration-management operations for a Funnel subscription — workspaces, data sources, custom dimensions and metrics, and data exports to BigQuery, Snowflake, '
   name: Funnel Control Plane API
   slug: funnel-control-plane-api
-artifact_total: 4
+- description: Funnel MCP is Funnel's first-party hosted, remote Model Context Protocol server. It exposes a Funnel workspace's harmonized cross-channel marketing data, semantic field definitions and workspace conte
+  name: Funnel MCP
+  slug: funnel-mcp
+- description: The Funnel File Import Webhook API is a documented inbound HTTP endpoint that lets a customer hand Funnel links to data files for ingestion into a File Import data source. A per-source webhook URL and
+  name: Funnel File Import Webhook API
+  slug: funnel-file-import-webhook-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Funnel Webhooks
+  slug: funnel-webhooks
 common:
 - group: company
   title: ''
@@ -128,42 +140,107 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/funnel-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/funnel-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/funnel-mcp.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/funnel-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/funnel-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/funnel-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/funnel-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/funnel-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://help.funnel.io/en/articles/15014203-quick-start-guide-using-funnel-mcp
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.funnel.io/en/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.funnel.io/
 created: '2026-07-17'
-description: Funnel (funnel.io) is a marketing intelligence and marketing data hub that helps agencies and brands become more data-driven. It connects to hundreds of advertising, analytics, CRM, and social data platforms, then automatically collects, normalizes, and transforms that marketing data into a single, business-ready model. Funnel exports the harmonized data to cloud data warehouses (BigQuery, Snowflake), Google Cloud Storage, BI and visualization tools, and back to ad platforms, and layers on advanced marketing measurement (Marketing Mix Modeling and Multi-Touch Attribution) plus dashboards and reporting. Programmatic configuration is exposed through the Funnel Control Plane API, consumed via an official Terraform provider and an OAuth 2.0 client-credentials (Auth0) system-user flow, with regional US and EU data residency.
+description: Funnel (funnel.io) is a marketing intelligence and marketing data hub that helps agencies and brands become more data-driven. It connects to hundreds of advertising, analytics, CRM, and social data platforms, then automatically collects, normalizes, and transforms that marketing data into a single, business-ready model. Funnel exports the harmonized data to cloud data warehouses (BigQuery, Snowflake), Google Cloud Storage, BI and visualization tools, and back to ad platforms, and layers on advanced marketing measurement (Marketing Mix Modeling and Multi-Touch Attribution) plus dashboards and reporting. Programmatic configuration is exposed through the Funnel Control Plane API, consumed via an official Terraform provider and an OAuth 2.0 client-credentials (Auth0) system-user flow, with regional US and EU data residency. Funnel also ships a first-party hosted MCP server (Funnel MCP) that exposes six read-only tools over OAuth to Claude, ChatGPT, Cursor and other MCP clients,
+  plus a documented inbound file-import webhook API. Funnel publishes no OpenAPI or AsyncAPI for any of the three surfaces.
 image: https://funnel.io/hubfs/Blog%20images.006.jpeg
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: funnel-mcp.yml
+  slug: funnel-mcpyml
+modified: '2026-08-12'
 name: Funnel
 nav: Providers
 network: true
-overview: 'Funnel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Data, and Analytics.
+overview: 'Funnel publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Data, and Analytics.
 
 
-  Funnel''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 68
+  The Funnel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Funnel''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 27 more developer resources.'
+plans:
+- name: Funnel Plans Pricing
+  plan_count: 3
+  slug: funnel-plans-pricing
+random_paper: 48
+rate_limits:
+- limit_count: 0
+  name: Funnel Rate Limits
+  slug: funnel-rate-limits
+scopes:
+- name: Funnel Scopes
+  scope_count: 0
+  slug: funnel-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 33.8
-  delta: 0.0
+  band: strong
+  composite: 59.8
+  delta: 26.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 39.1
-    discoverability: 75.9
+    commercial_clarity: 92.1
+    contract_quality: 51.6
+    developer_ergonomics: 65.2
+    discoverability: 81.5
     governance: 12.5
-    operational_transparency: 36.8
+    operational_transparency: 44.7
   previous_composite: 33.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png
 security:
 - kind: authentication
   name: Funnel Authentication
   slug: funnel-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect/apiKey · 3 schemes
 - kind: domain-security
   name: Funnel Domain Security
   slug: funnel-domain-security
@@ -186,5 +263,8 @@ tags:
 - Attribution
 - Reporting
 - Business Intelligence
+- MCP
+- AI Agents
+- Marketing Mix Modeling
 website: https://funnel.io/
 ---

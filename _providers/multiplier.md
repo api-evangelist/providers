@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Token-authenticated synchronization of Multiplier members - employees and contractors - and their profile, employment, and status data with external HRIS platforms. Exposed through Multiplier's integr
@@ -108,7 +108,7 @@ plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
   slug: multiplier-plans-pricing
-random_paper: 51
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Multiplier Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.9
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 35.8
@@ -124,9 +124,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 30.0
+  previous_composite: 30.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/screenshots/multiplier-2026-08-07T184541.png
 security:

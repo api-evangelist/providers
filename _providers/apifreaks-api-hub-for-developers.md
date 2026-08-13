@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 27
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -285,7 +285,7 @@ plans:
 - name: Apifreaks Api Hub For Developers Plans
   plan_count: 5
   slug: apifreaks-api-hub-for-developers-plans
-random_paper: 39
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Apifreaks Api Hub For Developers Rate Limits
@@ -293,7 +293,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 69.0
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 72.3
@@ -301,7 +301,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 69.8
+  previous_composite: 69.0
   provenance:
     conformance: derived
     contracts:
@@ -312,7 +312,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

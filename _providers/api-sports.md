@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'API-Football provides real-time and historical football (soccer) data including fixtures, live scores, standings, player statistics, team information, injuries, transfers, and predictions across 900+ '
@@ -108,7 +108,7 @@ plans:
 - name: Api Sports Plans Pricing
   plan_count: 3
   slug: api-sports-plans-pricing
-random_paper: 114
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Api Sports Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.8
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -124,10 +124,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 25.6
+  previous_composite: 17.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Api Sports Domain Security

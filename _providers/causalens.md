@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -146,11 +146,11 @@ overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
-random_paper: 31
+random_paper: 119
 score:
   band: thin
   composite: 35.7
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -158,13 +158,13 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 35.2
+  previous_composite: 35.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

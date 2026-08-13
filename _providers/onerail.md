@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -402,7 +402,7 @@ overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OneRail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
-random_paper: 50
+random_paper: 26
 scopes:
 - name: Onerail Scopes
   scope_count: 0
@@ -411,7 +411,7 @@ scopes:
 score:
   band: developing
   composite: 49.9
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.1
@@ -419,7 +419,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 49.8
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -431,7 +431,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:

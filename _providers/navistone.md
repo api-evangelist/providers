@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -63,13 +63,10 @@ apis:
   name: NaviStone Segments API
   slug: navistone-segments-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Onboard a client, create a direct-mail campaign, add ZIP geo-targeting, and read output.
   name: NaviStone campaign launch
   slug: navistone-campaign-launch
-artifact_total: 14
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -167,11 +164,11 @@ overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 55
+random_paper: 23
 score:
   band: thin
   composite: 34.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 46.9
@@ -179,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
 security:

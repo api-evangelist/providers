@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ overview: 'ModMed publishes 43 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 93
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Modernizing Medicine Rate Limits
@@ -329,7 +329,7 @@ scopes:
 score:
   band: developing
   composite: 54.5
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 57.4
@@ -337,7 +337,7 @@ score:
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 58.4
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,7 +355,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:

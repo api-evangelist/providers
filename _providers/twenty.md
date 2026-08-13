@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Twenty Plans Pricing
   plan_count: 3
   slug: twenty-plans-pricing
-random_paper: 103
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Twenty Rate Limits
@@ -209,7 +209,7 @@ rules:
 score:
   band: developing
   composite: 50.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.0
@@ -217,7 +217,7 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:

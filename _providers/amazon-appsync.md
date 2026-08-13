@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -823,7 +823,7 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 65
+random_paper: 17
 rules:
 - name: Amazon AppSync API Rules
   rule_count: 6
@@ -844,7 +844,7 @@ rules:
 score:
   band: thin
   composite: 38.7
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 76.1
@@ -852,7 +852,7 @@ score:
     discoverability: 74.1
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 39.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -863,7 +863,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'zopa publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 24 more developer resources.'
-random_paper: 94
+random_paper: 82
 scopes:
 - name: Zopa Scopes
   scope_count: 2
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.0
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 49.4
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

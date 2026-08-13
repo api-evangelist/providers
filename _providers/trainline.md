@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Trainline Partner Solutions'' wholesale rail and coach distribution API, sold to travel sellers, OTAs, TMCs and corporate booking tools. Trainline publicly describes it as "a modern, intuitive RESTful '
@@ -167,11 +167,11 @@ overview: 'Trainline publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Trainline''s developer surface includes developer portal, documentation, support, engineering blog, and 27 more developer resources.'
-random_paper: 38
+random_paper: 6
 score:
   band: emerging
   composite: 21.7
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -179,11 +179,11 @@ score:
     discoverability: 57.4
     governance: 15.1
     operational_transparency: 15.8
-  previous_composite: 23.8
+  previous_composite: 21.7
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

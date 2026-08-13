@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 12
 common:
@@ -88,11 +88,11 @@ press:
 - date: '2026-05-25'
   title: Benchmark Electronics names Josh Hollin SVP and CTO
   url: https://www.stocktitan.net/news/BHE/benchmark-appoints-josh-hollin-as-senior-vice-president-and-chief-e4d0xujlp4o7.html
-random_paper: 75
+random_paper: 3
 score:
   band: minimal
   composite: 5.7
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-electronics/refs/heads/main/screenshots/benchmark-electronics-2026-06-20T173134.png
 security:

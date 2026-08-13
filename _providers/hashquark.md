@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Institutional staking API to onboard broker users, generate and track deposits, assign/exit validators, drive pooled staking and Babylon BTC staking across supported proof-of-stake protocols. Authenti
@@ -115,11 +115,11 @@ overview: 'HashKey Cloud (HashQuark) publishes 2 APIs on the [APIs.io](https://a
 
 
   HashKey Cloud (HashQuark)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 40
+random_paper: 8
 score:
   band: emerging
   composite: 21.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -127,11 +127,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 22.7
+  previous_composite: 21.6
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashquark/refs/heads/main/screenshots/hashquark-2026-07-25T220753.png
 security:

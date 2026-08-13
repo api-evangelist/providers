@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -199,7 +199,7 @@ overview: 'Fortanix publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 29 more developer resources.'
-random_paper: 63
+random_paper: 35
 scopes:
 - name: Fortanix Scopes
   scope_count: 0
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 54.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 55.8
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:

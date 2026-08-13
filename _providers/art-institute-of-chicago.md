@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ plans:
 - name: Art Institute Of Chicago Plans Pricing
   plan_count: 1
   slug: art-institute-of-chicago-plans-pricing
-random_paper: 74
+random_paper: 114
 rate_limits:
 - limit_count: 0
   name: Art Institute Of Chicago Rate Limits
@@ -299,7 +299,7 @@ rules:
 score:
   band: thin
   composite: 32.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 67.9
@@ -307,7 +307,7 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 32.8
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -322,7 +322,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:

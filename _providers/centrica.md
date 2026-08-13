@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
@@ -163,7 +163,7 @@ plans:
 - name: Centrica Plans
   plan_count: 2
   slug: centrica-plans
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Centrica Rate Limits
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 53.0
@@ -179,7 +179,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 50.5
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

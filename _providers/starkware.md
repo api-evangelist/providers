@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Starknet full-node JSON-RPC API (OpenRPC), covering read methods (blocks, transactions, state, classes, events, fees), write methods (add invoke/declare/deploy-account transactions), trace methods
@@ -168,11 +168,11 @@ overview: 'Starkware publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Starkware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 18 more developer resources.'
-random_paper: 52
+random_paper: 20
 score:
   band: thin
   composite: 41.7
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -180,13 +180,13 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 36.8
-  previous_composite: 42.9
+  previous_composite: 41.7
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

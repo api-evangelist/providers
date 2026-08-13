@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,11 +175,11 @@ overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 75
+random_paper: 23
 score:
   band: developing
   composite: 45.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.0
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 14.1
     operational_transparency: 15.8
-  previous_composite: 47.7
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/screenshots/cirrus-identity-2026-07-25T205419.png
 security:

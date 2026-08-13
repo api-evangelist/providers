@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -115,16 +115,13 @@ apis:
   name: Prewave Users - Roles API
   slug: prewave-users-roles-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Register an outbound product, request commodity origins, attach a DDS, and submit it.
   name: Submit an EUDR Due Diligence Statement
   slug: prewave-eudr-dds-submission
 - description: Create a supplier site, run validation and screening, then read its risk alerts.
   name: Onboard and monitor a supplier
   slug: prewave-onboard-and-monitor-supplier
-artifact_total: 33
+artifact_total: 32
 common:
 - group: other
   title: ''
@@ -246,11 +243,11 @@ overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 66
+random_paper: 42
 score:
   band: developing
   composite: 44.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -258,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 46.3
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

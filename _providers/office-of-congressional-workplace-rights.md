@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Office of Congressional Workplace Rights. The mission of the Office of Congressional Workplace Rights is to advance workplace rights, safety and health, and accessibility in the legislative branch. Su
@@ -61,7 +61,7 @@ plans:
 - name: Office Of Congressional Workplace Rights Plans Pricing
   plan_count: 3
   slug: office-of-congressional-workplace-rights-plans-pricing
-random_paper: 93
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Office Of Congressional Workplace Rights Rate Limits
@@ -69,7 +69,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.5
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -77,7 +77,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.0
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: tags
@@ -85,8 +85,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-congressional-workplace-rights/refs/heads/main/screenshots/office-of-congressional-workplace-rights-2026-06-20T190637.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Bhagavad Gita API in telugu and odia languages
@@ -56,7 +56,7 @@ name: Bhagavad Gita telugu
 nav: Providers
 network: true
 overview: Bhagavad Gita telugu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 15
+random_paper: 67
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bhagavad-gita-telugu/refs/heads/main/screenshots/bhagavad-gita-telugu-2026-06-20T173219.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Amazon Resilience Hub Plans Pricing
   plan_count: 3
   slug: amazon-resilience-hub-plans-pricing
-random_paper: 26
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Amazon Resilience Hub Rate Limits
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.1
-  delta: -8.0
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 16.0
@@ -171,7 +171,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 42.1
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:
 - kind: authentication

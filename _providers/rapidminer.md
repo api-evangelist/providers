@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,11 +96,11 @@ overview: 'Rapidminer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rapidminer''s developer surface includes documentation, changelog, authentication, and 10 more developer resources.'
-random_paper: 23
+random_paper: 107
 score:
   band: emerging
   composite: 15.4
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -108,9 +108,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 16.6
+  previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

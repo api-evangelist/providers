@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,7 +68,7 @@ name: Prudentia Sciences
 nav: Providers
 network: true
 overview: Prudentia Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, Biotech, and Mergers and Acquisitions.
-random_paper: 6
+random_paper: 62
 score:
   band: emerging
   composite: 14.1
@@ -88,7 +88,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

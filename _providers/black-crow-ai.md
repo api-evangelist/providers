@@ -9,27 +9,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 2
+  score: 18.5
+  scored_at: '2026-08-12'
+api_count: 2
+apis:
+- description: Live, versioned HTTP event-ingest API behind the Black Crow AI JavaScript tag. POST /v1/events/{event_name} accepts a JSON body identified by siteName, pageId and visitorId and carries the visit, purc
+  name: Black Crow AI Events API
+  slug: black-crow-ai-events-api
+- description: Client-side JavaScript API exposed by the Black Crow AI tag as window.blackcrow. Brands push a binding ({app_name 'audience', bind 'scores_update', callback}) to receive Black Crow's real-time visitor
+  name: Black Crow AI Global API
+  slug: black-crow-ai-global-api
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -55,6 +62,62 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/black-crow-ai-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/black-crow-ai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/black-crow-ai-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/black-crow-ai-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/black-crow-ai-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/black-crow-ai-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/black-crow-ai-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/black-crow-ai-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/black-crow-ai-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/black-crow-ai-components.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/black-crow-ai-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/black-crow-ai-plans-pricing.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://blackcrow.zendesk.com/hc/en-us
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://blackcrow.zendesk.com/hc/en-us/articles/46541281990043-Getting-Started-with-Black-Crow-Storefronts-Onboarding
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.blackcrow.ai/resources
 - group: operate
   title: ''
   type: Support
@@ -87,32 +150,44 @@ created: '2026-07-17'
 description: Black Crow AI is an ecommerce AI company that turns paid advertising traffic into predictable revenue using AI-generated post-click Storefronts. Storefronts are shopping experiences built specifically for paid ad traffic, kept aligned with ad creative and audience intent, generated in minutes through a no-code workflow, and optimized through structured split-test experimentation and continuous learning. Black Crow also exposes a script-based "Global API" callback that surfaces its real-time visitor prediction scores (delivered in under 20 milliseconds) so brands can ingest scores into any target platform. Surfaced as a portfolio company of Bloomberg Beta and enriched into the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/black-crow-ai.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-12'
 name: Black Crow AI
 nav: Providers
 network: true
-overview: 'Black Crow AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Artificial Intelligence, Machine Learning, and Marketing.
+overview: 'Black Crow AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Artificial Intelligence, Machine Learning, and Marketing.
 
 
-  Black Crow AI''s developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 84
+  Black Crow AI''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, signup flow, and 20 more developer resources.'
+plans:
+- name: Black Crow Ai Plans Pricing
+  plan_count: 0
+  slug: black-crow-ai-plans-pricing
+random_paper: 44
+rate_limits:
+- limit_count: 0
+  name: Black Crow Ai Rate Limits
+  slug: black-crow-ai-rate-limits
 score:
-  band: emerging
-  composite: 16.6
-  delta: 0.0
+  band: thin
+  composite: 29.1
+  delta: 12.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 16.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-crow-ai/refs/heads/main/screenshots/black-crow-ai-2026-07-25T203228.png
 security:
+- kind: authentication
+  name: Black Crow Ai Authentication
+  slug: black-crow-ai-authentication
+  summary_line: none/session · 3 schemes
 - kind: domain-security
   name: Black Crow Ai Domain Security
   slug: black-crow-ai-domain-security
@@ -120,7 +195,7 @@ security:
 - kind: vulnerability-disclosure
   name: Black Crow Ai Vulnerability Disclosure
   slug: black-crow-ai-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 slug: black-crow-ai
 tags:
 - Company
@@ -131,5 +206,9 @@ tags:
 - Advertising
 - Personalization
 - Conversion Optimization
+- Analytics
+- Event Ingest
+- Tag Management
+- Shopify
 website: https://www.blackcrow.ai/
 ---

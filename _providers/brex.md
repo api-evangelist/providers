@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ plans:
 - name: Brex Plans Pricing
   plan_count: 3
   slug: brex-plans-pricing
-random_paper: 85
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Brex Rate Limits
@@ -126,7 +126,7 @@ rules:
 score:
   band: thin
   composite: 32.7
-  delta: -10.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 63.4
@@ -134,7 +134,7 @@ score:
     discoverability: 72.2
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 42.7
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png
 security:
 - kind: authentication

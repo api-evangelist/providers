@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -39,6 +39,38 @@ common:
   title: ''
   type: DomainSecurity
   url: security/horizon-media-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/horizon-media-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.horizonmedia.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/horizon-media-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/horizon-media-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/horizon-media-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/horizon-media-llms.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.horizonmedia.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.horizonmedia.com/terms-of-use
 - group: company
   title: ''
   type: Website
@@ -187,35 +219,67 @@ common:
   title: Horizon Global red-ocean differentiation
   type: Press
   url: https://digiday.com/marketing/media-buying-briefing-how-horizon-and-havas-jv-aims-to-distinguish-itself-in-a-red-ocean/
+- group: company
+  title: Horizon Media launches agentic orchestration layer for real-time media decisioning (2026-06-18)
+  type: Press
+  url: https://www.prnewswire.com/news-releases/horizon-media-launches-agentic-orchestration-layer-for-real-time-media-decisioning-302803722.html
+- group: company
+  title: Smartly becomes first SaaS partner for Horizon's Blu audience API
+  type: Press
+  url: https://ppc.land/smartly-becomes-first-saas-partner-for-horizons-blu-audience-api/
+coverage:
+  checked: '2026-08-12'
+  detail: Horizon markets Blu audience APIs and MCP integration points to partners (2026-06-18 launch), but the only route to them is the corporate "interested" contact form — there is no developer subdomain (developer/api/docs/blu/partners.horizonmedia.com all fail to resolve), no reference, and no spec at any probed path.
+  evidence:
+  - status: 200
+    url: https://www.horizonmedia.com/interested
+  - status: 404
+    url: https://www.horizonmedia.com/openapi.json
+  - status: 404
+    url: https://www.horizonmedia.com/llms.txt
+  - status: 404
+    url: https://www.horizonmedia.com/.well-known/api-catalog
+  - status: 200
+    url: https://api.github.com/orgs/HorizonMedia/repos
+  reason: sales-gate
+  state: gated
 created: '2025-03-01'
-description: Horizon Media is the largest independent media agency in the United States, founded in 1989 by Bill Koenigsberg and headquartered at 75 Varick Street in New York with offices in Los Angeles and Toronto. The agency employs roughly 2,300+ people, is ranked the third largest US media agency by COMvergence, and manages an estimated $8.7 billion in billings. Horizon operates a portfolio of specialty units (Horizon Next for performance, Blue Hour Studios for social/creator, Night Market for retail media, Scout Sports for sponsorship via Horizon Sports & Experiences, and the WHY Group for cultural insights) and runs a proprietary data and AI stack anchored by the Blu platform. In 2025 Horizon formed Horizon Global, a 50/50 US joint venture with Havas positioned at roughly $20 billion in combined billings, merging Blu with Havas Converged into a shared platform branded BluConverged, and is also building Horizon OS (Open Sphere) as an orchestration layer over the programmatic ad-tech
-  stack. Horizon Media does not publish any public developer APIs, OpenAPI specifications, SDKs, or external developer portals, and its GitHub organization is private. All platforms documented here are internal/client-facing proprietary systems rather than open developer APIs.
+description: 'Horizon Media is the largest independent media agency in the United States, founded in 1989 by Bill Koenigsberg and headquartered at 75 Varick Street in New York with offices in Los Angeles and Toronto. The agency employs roughly 2,300+ people, is ranked the third largest US media agency by COMvergence, and manages an estimated $8.7 billion in billings. Horizon operates a portfolio of specialty units (Horizon Next for performance, Blue Hour Studios for social/creator, Night Market for retail media, Scout Sports for sponsorship via Horizon Sports & Experiences, and the WHY Group for cultural insights) and runs a proprietary data and AI stack anchored by the Blu platform. In 2025 Horizon formed Horizon Global, a 50/50 US joint venture with Havas positioned at roughly $20 billion in combined billings, merging Blu with Havas Converged into a shared platform branded BluConverged, and is also building Horizon OS (Open Sphere) as an orchestration layer over the programmatic ad-tech
+  stack. In June 2026 Horizon launched an agentic integration layer around Blu — a set of Blu audience APIs, MCP endpoints and agent-based integration points that ad-tech, media-owner and martech partners can build on — but that surface is partner-gated: Horizon publishes no developer portal, no API reference, no OpenAPI or other machine-readable contract, no SDKs in any public registry, and its GitHub organization has zero public repositories. The only route to the API is the corporate contact form. All platforms documented here are proprietary systems reachable through a commercial partnership rather than open developer APIs.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/horizon-media.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-12'
 name: Horizon Media
 nav: Providers
 network: true
 overview: 'Horizon Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Media Agency, Media Planning, Media Buying, and Programmatic.
 
 
-  Horizon Media''s developer surface includes GitHub presence and 38 more developer resources.'
-random_paper: 58
+  Horizon Media''s developer surface includes GitHub presence and 48 more developer resources.'
+plans:
+- name: Horizon Media Plans Pricing
+  plan_count: 0
+  slug: horizon-media-plans-pricing
+random_paper: 14
+rate_limits:
+- limit_count: 0
+  name: Horizon Media Rate Limits
+  slug: horizon-media-rate-limits
 score:
-  band: minimal
-  composite: 7.3
-  delta: 0.0
+  band: emerging
+  composite: 15.3
+  delta: 8.0
   facets:
-    commercial_clarity: 7.9
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Horizon Media Domain Security
@@ -224,7 +288,7 @@ security:
 - kind: trust-center
   name: Horizon Media Trust Center
   slug: horizon-media-trust-center
-  summary_line: SOC 2, ISO 27001, HIPAA
+  summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, HITRUST, HIPAA
 slug: horizon-media
 tags:
 - Advertising

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Real-time generative video platform. A REST token endpoint mints session-scoped JWTs; a WebRTC data channel carries the command/event interface that controls model generation and streams video frames '
@@ -171,11 +171,11 @@ overview: 'Reactor publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   Reactor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: developing
   composite: 48.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 49.4
@@ -183,13 +183,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 36.8
-  previous_composite: 49.1
+  previous_composite: 48.0
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

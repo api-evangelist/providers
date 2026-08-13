@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -160,7 +160,7 @@ overview: 'FANUC is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FANUC''s developer surface includes academy / training, GitHub presence, YouTube channel, and 24 more developer resources.'
-random_paper: 47
+random_paper: 119
 score:
   band: minimal
   composite: 10.1
@@ -174,7 +174,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fanuc-robotics/refs/heads/main/screenshots/fanuc-robotics-2026-06-20T181037.png
 security:

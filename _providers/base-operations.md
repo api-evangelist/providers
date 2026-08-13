@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The Analytics API from Base Operations — 2 operation(s) for analytics.
@@ -181,11 +181,11 @@ overview: 'Base Operations publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Base Operations'' developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 40
+random_paper: 108
 score:
   band: developing
   composite: 43.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 56.3
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.4
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

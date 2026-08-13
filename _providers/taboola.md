@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -411,7 +411,7 @@ plans:
 - name: Taboola Plans Pricing
   plan_count: 2
   slug: taboola-plans-pricing
-random_paper: 42
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Taboola Rate Limits
@@ -428,7 +428,7 @@ rules:
 score:
   band: strong
   composite: 59.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 72.0
@@ -436,7 +436,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 60.1
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -445,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:

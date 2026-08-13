@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ plans:
 - name: Archimate Plans Pricing
   plan_count: 3
   slug: archimate-plans-pricing
-random_paper: 14
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Archimate Rate Limits
@@ -265,7 +265,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: -8.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 24.2
@@ -273,7 +273,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 42.8
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -282,8 +282,8 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/screenshots/archimate-2026-06-20T172408.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Incus Plans Pricing
   plan_count: 3
   slug: incus-plans-pricing
-random_paper: 82
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Incus Rate Limits
@@ -206,7 +206,7 @@ rules:
 score:
   band: thin
   composite: 33.0
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 49.9
@@ -214,7 +214,7 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 34.2
-  previous_composite: 37.0
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -223,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incus/refs/heads/main/screenshots/incus-2026-06-20T183310.png
 security:

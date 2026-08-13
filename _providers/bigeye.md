@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -341,11 +341,11 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: strong
   composite: 56.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.7
@@ -353,7 +353,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,7 +365,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:

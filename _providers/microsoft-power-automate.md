@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -383,7 +383,7 @@ plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
   slug: microsoft-power-automate-plans-pricing
-random_paper: 57
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Automate Rate Limits
@@ -413,7 +413,7 @@ scopes:
 score:
   band: developing
   composite: 54.4
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 31.0
@@ -421,7 +421,7 @@ score:
     discoverability: 100.0
     governance: 80.2
     operational_transparency: 39.5
-  previous_composite: 59.5
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -438,8 +438,8 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
 security:
 - kind: authentication

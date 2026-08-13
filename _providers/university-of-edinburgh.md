@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: University Of Edinburgh Plans Pricing
   plan_count: 2
   slug: university-of-edinburgh-plans-pricing
-random_paper: 57
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: University Of Edinburgh Rate Limits
@@ -190,7 +190,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 62.0
@@ -198,7 +198,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 39.6
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -213,7 +213,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
 security:

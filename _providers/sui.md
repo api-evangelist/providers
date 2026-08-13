@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 105
+random_paper: 97
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -232,7 +232,7 @@ rules:
 score:
   band: developing
   composite: 48.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.2
@@ -240,7 +240,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 47.9
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -249,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/screenshots/sui-2026-06-20T194741.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Obtain an access token for calling the Open API.
@@ -149,11 +149,11 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
 
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 84
+random_paper: 116
 score:
   band: thin
   composite: 41.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.2
@@ -161,7 +161,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 43.0
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     contracts:
@@ -172,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

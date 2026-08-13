@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'BARK (BarkBox) is profiled on the [APIs.io](https://apis.io/) network
 
 
   BARK (BarkBox)''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 49
+random_paper: 25
 score:
   band: minimal
   composite: 11.2
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barkbox/refs/heads/main/screenshots/barkbox-2026-08-07T162144.png
 security:

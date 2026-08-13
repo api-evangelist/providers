@@ -27,10 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 2
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alphin-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alphin-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/alphin-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -51,35 +63,58 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.alphin.com/en/utility-pages/data-protection
+coverage:
+  checked: '2026-08-12'
+  detail: alphin ships only an end-user Business App — the Angular SPA at app.alphin.io talks to a private Express backend at api.alphin.io whose /v1 returns 401 and whose every documentation path (/openapi.json, /swagger.json, /api-docs, /docs, /graphql) returns "Cannot GET"; there is no developer portal, docs host (developer.alphin.com, docs.alphin.com and docs.alphin.io do not resolve), SDK on any package registry, or public GitHub organization.
+  evidence:
+  - status: 404
+    url: https://api.alphin.io/openapi.json
+  - status: 401
+    url: https://api.alphin.io/v1
+  - status: 404
+    url: https://www.alphin.com/llms.txt
+  - status: 404
+    url: https://www.alphin.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: alphin is a Berlin-based marketing platform for local small businesses, giving restaurants, cafes, salons, and similar SMBs an all-in-one app to manage and automate their online presence. Its product suite spans review collection (alphin Reviews), Instagram and social management (alphin Socials), professional photography (alphin Photos), local influencer marketing (alphin Local Influencers), targeted Instagram advertising (alphin Local Ads), and multi-platform profile management across Google, TripAdvisor, and Yelp (alphin Portals), consolidated into one dashboard with daily reporting and analytics. Founded in 2016 (as Freachly GmbH), alphin serves 1,000+ local businesses across Germany, Austria, the UK, and Israel, and is backed by HV Capital, Partech, Scale Capital, and Wille Finance. alphin publishes no public API, developer portal, or SDKs; the product is delivered through its web and mobile Business App.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphin.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: alphin
 nav: Providers
 network: true
 overview: 'alphin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Local Marketing, Small Business, and Social Media.
 
 
-  alphin''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 56
+  alphin''s developer surface includes engineering blog and 7 more developer resources.'
+plans:
+- name: Alphin Plans Pricing
+  plan_count: 0
+  slug: alphin-plans-pricing
+random_paper: 36
 score:
-  band: minimal
-  composite: 12.3
-  delta: 0.0
+  band: emerging
+  composite: 13.0
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphin/refs/heads/main/screenshots/alphin-2026-07-25T195801.png
+security:
+- kind: domain-security
+  name: Alphin Domain Security
+  slug: alphin-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: alphin
 tags:
 - Company

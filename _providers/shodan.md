@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -636,7 +636,7 @@ plans:
 - name: Shodan Plans Pricing
   plan_count: 6
   slug: shodan-plans-pricing
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 17
   name: Shodan Rate Limits
@@ -669,7 +669,7 @@ rules:
 score:
   band: exemplar
   composite: 72.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 79.5
@@ -677,7 +677,7 @@ score:
     discoverability: 57.4
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 73.3
+  previous_composite: 72.5
   provenance:
     agentic_access: derived
     contracts:
@@ -686,7 +686,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

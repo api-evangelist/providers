@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -2409,7 +2409,7 @@ plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 112
+random_paper: 104
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2434,7 +2434,7 @@ rules:
 score:
   band: strong
   composite: 65.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 62.5
@@ -2442,7 +2442,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 55.3
-  previous_composite: 63.1
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     contracts:
@@ -2451,7 +2451,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

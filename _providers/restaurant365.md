@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ plans:
 - name: Restaurant365 Plans Pricing
   plan_count: 4
   slug: restaurant365-plans-pricing
-random_paper: 95
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Restaurant365 Rate Limits
@@ -274,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
 security:

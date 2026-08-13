@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: OPEN FAU is the institutional open-access publication repository of FAU, built on DSpace 7.4. Its REST/HAL API exposes communities, collections, items, bitstreams, discovery/search and browse endpoint
@@ -118,7 +118,7 @@ plans:
 - name: Friedrich Alexander Universitat Erlangen Nurnberg Plans Pricing
   plan_count: 2
   slug: friedrich-alexander-universitat-erlangen-nurnberg-plans-pricing
-random_paper: 9
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Friedrich Alexander Universitat Erlangen Nurnberg Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/screenshots/friedrich-alexander-universitat-erlangen-nurnberg-2026-06-20T181545.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -159,11 +159,11 @@ overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chatwork''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: thin
   composite: 37.3
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.3
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -180,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/screenshots/chatwork-2026-06-20T174238.png
 security:

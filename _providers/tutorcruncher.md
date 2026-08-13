@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Tutorcruncher Plans Pricing
   plan_count: 3
   slug: tutorcruncher-plans-pricing
-random_paper: 40
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Tutorcruncher Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.5
@@ -155,7 +155,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.7
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -170,7 +170,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

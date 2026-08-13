@@ -1,35 +1,52 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Freemium · Self-serve signup
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
+  pricing: freemium
+  public: true
+  source:
+  - https://www.converted.in/pricing
+  - https://app.converted.in/register
+  - https://developer.converted.in/api-1/getting-started
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 41.0
+  scored_at: '2026-08-12'
+api_count: 3
+apis:
+- description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
+  name: Convertedin Webhook Ingest API
+  slug: convertedin-webhook-ingest-api
+- description: The contract a merchant on a custom e-commerce platform IMPLEMENTS so that Convertedin can pull its catalogue and customer data. Convertedin is the client here, not the server, which is why the base U
+  name: Convertedin Store Connector API
+  slug: convertedin-store-connector-api
+- description: A second merchant-implemented contract, aimed at loyalty and point-of-sale vendors. GET endpoints for /api/store-info, /api/products, /api/orders and /api/customers on the vendor's own host, authentic
+  name: Convertedin Loyalty & POS Integration API
+  slug: convertedin-loyalty-pos-integration-api
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Pinoffer Webhooks
+  slug: pinoffer-webhooks
 common:
 - group: company
   title: ''
@@ -51,42 +68,145 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/convertedin
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.converted.in
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.converted.in
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.converted.in/api-1/getting-started
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.converted.in/api-1/getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.converted.in/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.converted.in/register
+- group: start
+  title: ''
+  type: Login
+  url: https://app.converted.in/login
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.converted.in/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pinoffer-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pinoffer-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pinoffer-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pinoffer-problem-types.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pinoffer-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pinoffer-packages.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/pinoffer-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pinoffer-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pinoffer-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pinoffer-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pinoffer-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pinoffer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pinoffer-rate-limits.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/pinoffer-domain-security.yml
 created: '2026-07-17'
-description: Pinoffer is the API Evangelist network profile for Converted (convertedin.com), a MENA-focused adtech and martech "unified growth platform" operating across Egypt, Saudi Arabia, and the UAE. Founded by Mohamed Fergany, Mohamed Atef, and Mustafa Raslan, and backed by 500 Global, Converted helps 10,000+ businesses in emerging markets manage marketing data, ad payments, lead generation, and order intelligence across Google, Meta, TikTok, and other channels through a single interface. Its products include Converted Pay (ad credit, local invoicing, and spend policies), Flyerz, Leads, and Orders. Converted is a Google Premier Partner and a Deloitte Fast 50 company. As of this enrichment pass Converted publishes no public developer API, documentation portal, or SDK program; this profile is identity-and-domain-security only.
+description: 'Pinoffer is the API Evangelist network profile for Convertedin (converted.in / convertedin.com), the MENA-focused marketing operating system for e-commerce founded in Cairo in 2019 by Mohamed Fergany, Mohamed Atef and Mustafa Raslan. "PinOffer" is the company''s former name and is still the identifier used by 500 Global, Crunchbase, MAGNiTT and LinkedIn, which is why the network entry carries it. Backed by Merak Capital, 500 Global and MSAS, Convertedin operates across Egypt, Saudi Arabia, the UAE and Brazil, and sells a unified growth platform covering store analytics, a commerce pixel, segmentation, SMS and email automation, and multi-channel ad buying on Meta, TikTok, Snapchat and Google — plus the Converted Pay, Flyerz, Leads and Orders products. Convertedin DOES run a public developer program at developer.converted.in, contrary to the earlier enrichment pass on this repo: it publishes an llms.txt-indexed documentation set covering a live webhook ingest API at app.converted.in,
+  two merchant-implemented data-sync contracts (Store Connector and Loyalty/POS), a browser pixel SDK, first-party Android and iOS SDKs, and a Flyerz DSP iframe embed. What it does not publish is any machine-readable contract — no OpenAPI, AsyncAPI, GraphQL schema, MCP server or agent card exists on any Convertedin host.'
 image: https://framerusercontent.com/images/mru1tCz0BzvuFna3W9s3gStqS5A.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Pinoffer
 nav: Providers
 network: true
-overview: Pinoffer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising Technology, Marketing Technology, Lead Generation, and Payments.
-random_paper: 45
+overview: 'Pinoffer publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising Technology, Marketing Technology, E-commerce, and Marketing Automation.
+
+
+  The Pinoffer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Pinoffer''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: Pinoffer Plans Pricing
+  plan_count: 3
+  slug: pinoffer-plans-pricing
+random_paper: 17
+rate_limits:
+- limit_count: 0
+  name: Pinoffer Rate Limits
+  slug: pinoffer-rate-limits
 score:
-  band: minimal
-  composite: 11.7
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: 39.3
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 76.3
+    contract_quality: 51.6
+    developer_ergonomics: 52.2
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 28.9
   previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
+    score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Pinoffer Authentication
+  slug: pinoffer-authentication
+  summary_line: 5 schemes
 - kind: domain-security
   name: Pinoffer Domain Security
   slug: pinoffer-domain-security
@@ -96,10 +216,14 @@ tags:
 - Company
 - Advertising Technology
 - Marketing Technology
+- E-commerce
+- Marketing Automation
+- Customer Data
 - Lead Generation
 - Payments
 - Emerging Markets
 - MENA
 - Advertising
+- Webhooks
 website: https://convertedin.com
 ---

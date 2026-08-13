@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -192,7 +192,7 @@ overview: 'Fluence publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fluence''s developer surface includes documentation, API reference, getting-started guide, developer console, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 42
+random_paper: 18
 scopes:
 - name: Fluence Scopes
   scope_count: 34
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 44.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 50.7
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 44.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/screenshots/fluence-2026-07-25T214842.png
 security:

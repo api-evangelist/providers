@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: The Validate API from AsyncAPI — 1 operation(s) for validate.
   name: AsyncAPI Validate API
   slug: asyncapi-validate-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: AsyncAPI Server API
@@ -113,6 +113,9 @@ finops:
 - name: Asyncapi Finops
   service_category: API
   slug: asyncapi-finops
+- name: Asyncapi Funding
+  service_category: ''
+  slug: asyncapi-funding
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asyncapi.png
 integrations:
 - description: AsyncAPI supports defining Kafka-based event-driven APIs with topic, message schema, and broker configuration documentation.
@@ -134,7 +137,7 @@ plans:
 - name: Asyncapi Plans Pricing
   plan_count: 3
   slug: asyncapi-plans-pricing
-random_paper: 44
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Asyncapi Rate Limits
@@ -142,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 52.6
@@ -150,7 +153,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.5
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:

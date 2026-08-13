@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -123,7 +123,7 @@ plans:
 - name: Centrical Plans Pricing
   plan_count: 1
   slug: centrical-plans-pricing
-random_paper: 21
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Centrical Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.6
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 0.0
@@ -139,12 +139,12 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 20.9
+  previous_composite: 27.6
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Centrical Authentication

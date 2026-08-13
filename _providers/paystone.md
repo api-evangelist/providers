@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -162,11 +162,11 @@ overview: 'Paystone publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Paystone''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 71
+random_paper: 43
 score:
   band: developing
   composite: 46.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.9
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 47.9
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,7 +192,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/screenshots/paystone-2026-08-07T191657.png
 security:

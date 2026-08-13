@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Probe42 API provides programmatic access to curated intelligence on Indian companies — company profiles, financials, directors, and charges — for embedding due-diligence and business-intelligence '
@@ -87,11 +87,11 @@ overview: 'Probe Information publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Probe Information''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 31
+random_paper: 91
 score:
   band: emerging
   composite: 18.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -99,7 +99,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.0
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: tags
@@ -107,7 +107,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

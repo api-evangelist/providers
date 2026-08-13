@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -132,11 +132,11 @@ overview: 'Console Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Console Group''s developer surface includes changelog, pricing, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 81
+random_paper: 37
 score:
   band: emerging
   composite: 22.8
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 23.7
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -154,7 +154,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/console-group/refs/heads/main/screenshots/console-group-2026-07-27T125333.png
 security:

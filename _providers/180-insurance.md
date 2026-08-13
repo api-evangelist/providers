@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Single embedded-insurance API covering the full lifecycle — quotation, proposal, sale/policy issuance, endorsement, renewal, claims and webhooks.
@@ -159,7 +159,7 @@ overview: '180 Insurance publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   180 Insurance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 86
 score:
   band: developing
   composite: 45.7
@@ -183,7 +183,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/screenshots/180-insurance-2026-07-25T181107.png
 security:

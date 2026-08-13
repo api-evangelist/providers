@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ name: A Security
 nav: Providers
 network: true
 overview: A Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Penetration Testing.
-random_paper: 102
+random_paper: 70
 score:
   band: minimal
   composite: 11.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-security/refs/heads/main/screenshots/a-security-2026-07-25T181315.png
 security:

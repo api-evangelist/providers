@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'Continua is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Continua''s developer surface includes documentation, getting-started guide, signup flow, CLI, changelog, and 10 more developer resources.'
-random_paper: 53
+random_paper: 25
 score:
   band: emerging
   composite: 23.5
@@ -117,7 +117,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/screenshots/continua-2026-07-25T210328.png
 security:

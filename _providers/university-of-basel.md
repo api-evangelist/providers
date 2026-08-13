@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -172,7 +172,7 @@ plans:
 - name: University Of Basel Plans Pricing
   plan_count: 2
   slug: university-of-basel-plans-pricing
-random_paper: 88
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: University Of Basel Rate Limits
@@ -197,7 +197,7 @@ rules:
 score:
   band: developing
   composite: 42.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.4
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.0
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png
 security:

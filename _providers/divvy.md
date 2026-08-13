@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -155,7 +155,7 @@ overview: 'Divvy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Divvy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 98
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Divvy Rate Limits
@@ -179,7 +179,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/divvy/refs/heads/main/screenshots/divvy-2026-07-25T212135.png
 security:

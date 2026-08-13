@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1789,7 +1789,7 @@ plans:
 - name: Amazon Outposts Plans Pricing
   plan_count: 3
   slug: amazon-outposts-plans-pricing
-random_paper: 96
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Amazon Outposts Rate Limits
@@ -1814,7 +1814,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.8
@@ -1822,7 +1822,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 65.7
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1831,8 +1831,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/screenshots/amazon-outposts-2026-06-20T171754.png
 security:
 - kind: authentication

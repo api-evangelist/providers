@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: HTTP ingestion API for sending LLM/agent conversation events to Moda. Accepts batched events (conversation_id, role, message, plus token/model/trace metadata) over a single POST endpoint, authenticate
@@ -163,11 +163,11 @@ overview: 'Moda publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, support, and 20 more developer resources.'
-random_paper: 69
+random_paper: 57
 score:
   band: thin
   composite: 36.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -175,13 +175,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 38.0
+  previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moda/refs/heads/main/screenshots/moda-2026-08-07T183912.png
 security:

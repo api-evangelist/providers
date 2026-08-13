@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -38,7 +38,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: http://blog.promolta.com
+  url: https://blog.promolta.com
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.promolta.com/feed/
 - group: operate
   title: ''
   type: Support
@@ -50,42 +54,70 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.promolta.com/user/terms
+  url: https://www.promolta.com/user/privacy
 - group: start
   title: ''
   type: SignUp
   url: https://www.promolta.com/login
+- group: start
+  title: ''
+  type: Login
+  url: https://www.promolta.com/advertiser/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/promolta
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/promolta-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/promolta-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: Promolta ships an end-user self-service video-ad product only — every unknown path on www.promolta.com (/api, /graphql, /openapi.json, /docs, /developers, /.well-known/*) answers HTTP 200 with a ZERO-BYTE body from a catch-all, api./developer./docs.promolta.com do not resolve in DNS, the "Promolta Inc" GitHub org has zero public repositories, and npm, PyPI and RubyGems return no first-party packages.
+  evidence:
+  - status: 200
+    url: https://www.promolta.com/openapi.json
+  - status: 200
+    url: https://www.promolta.com/graphql
+  - status: 200
+    url: https://www.promolta.com/.well-known/agent-card.json
+  - status: 0
+    url: https://api.promolta.com/
+  - status: 200
+    url: https://api.github.com/orgs/promolta
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Promolta is a self-service video advertising platform that promotes YouTube and other videos across a network of blogs, websites, mobile apps, and social networks to grow views, subscribers, and engagement. Advertisers fund campaigns and target audiences, while publishers in the Promolta network earn by distributing sponsored video content. Promolta is a portfolio company of 500 Global. As of this enrichment pass the company publishes no public developer API, SDK, developer portal, or webhook surface — this profile captures its public web, legal, and domain-security footprint.
+description: Promolta is a self-service video advertising platform that promotes YouTube and other videos across a network of blogs, websites, mobile apps, and social networks to grow views, subscribers, and engagement. Advertisers fund campaigns and target audiences, while publishers in the Promolta network earn by distributing sponsored video content. Promolta is a portfolio company of 500 Global. Campaigns start at a $10 minimum budget, go live within 24 hours, and can be optimized for views, YouTube likes, YouTube subscribers, or mobile app installs, with targeting by age, gender, location, and keyword. As of the 2026-08-12 enrichment pass the company publishes no public developer API, SDK, OpenAPI/GraphQL contract, developer portal, or webhook surface — this profile captures its public web, legal, blog, and domain-security footprint.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/promolta.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Promolta
 nav: Providers
 network: true
 overview: 'Promolta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, YouTube, Advertising, and Marketing.
 
 
-  Promolta''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 66
+  Promolta''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
+random_paper: 38
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 14.6
+  delta: 1.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

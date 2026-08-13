@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: カスタム家族項目テンプレートを操作します
@@ -214,11 +214,11 @@ overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カ
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 95
+random_paper: 83
 score:
   band: developing
   composite: 53.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.7
@@ -226,7 +226,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 54.5
+  previous_composite: 53.1
   provenance:
     conformance: derived
     contracts:
@@ -243,7 +243,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png
 security:

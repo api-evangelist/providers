@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Qr Code Crafter Plans Pricing
   plan_count: 1
   slug: qr-code-crafter-plans-pricing
-random_paper: 79
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Qr Code Crafter Rate Limits
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.5
-  delta: 27.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 32.3
@@ -181,10 +181,10 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 15.7
+  previous_composite: 43.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Qr Code Crafter Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Baxter CIO Rusty Patel on Resilience and AI in Healthcare
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
-random_paper: 3
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Baxter International Rate Limits
@@ -165,7 +165,7 @@ rules:
 score:
   band: emerging
   composite: 24.0
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 12.9
@@ -173,7 +173,7 @@ score:
     discoverability: 59.3
     governance: 31.3
     operational_transparency: 15.8
-  previous_composite: 28.4
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: tags
@@ -181,7 +181,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:

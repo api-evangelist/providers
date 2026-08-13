@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -214,11 +214,11 @@ overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 79
+random_paper: 39
 score:
   band: developing
   composite: 44.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.1
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 46.0
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,7 +244,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

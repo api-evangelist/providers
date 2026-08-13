@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Nango Plans Pricing
   plan_count: 4
   slug: nango-plans-pricing
-random_paper: 67
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Nango Rate Limits
@@ -168,7 +168,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 52.2
@@ -176,7 +176,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 50.8
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-06-20T185934.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -287,7 +287,7 @@ plans:
 - name: Cisco Plans Pricing
   plan_count: 3
   slug: cisco-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Cisco Rate Limits
@@ -312,7 +312,7 @@ rules:
 score:
   band: developing
   composite: 54.7
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 53.1
@@ -320,13 +320,13 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 26.3
-  previous_composite: 61.5
+  previous_composite: 54.7
   provenance:
     conformance: derived
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:
 - kind: authentication

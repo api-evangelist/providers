@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -170,7 +170,7 @@ overview: 'ROLLER publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 76
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Roller Rate Limits
@@ -178,7 +178,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.9
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -186,7 +186,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 65.8
-  previous_composite: 55.7
+  previous_composite: 52.9
   provenance:
     conformance: first-party
   regulatory:
@@ -196,7 +196,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

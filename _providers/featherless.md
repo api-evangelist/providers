@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Featherless Plans Pricing
   plan_count: 4
   slug: featherless-plans-pricing
-random_paper: 14
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Featherless Rate Limits
@@ -145,7 +145,7 @@ rules:
 score:
   band: developing
   composite: 47.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.1
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 47.7
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/screenshots/featherless-2026-07-25T214310.png
 security:

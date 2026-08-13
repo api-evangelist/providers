@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Hutch Games is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hutch Games'' developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
-random_paper: 66
+random_paper: 30
 score:
   band: minimal
   composite: 10.5
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hutch-games/refs/heads/main/screenshots/hutch-games-2026-07-25T221749.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Loggi's REST integration platform for freight quotation, shipment creation (sync/async), label generation, package update/cancel, package details, real-time tracking, webhooks, integrator management a
@@ -147,11 +147,11 @@ overview: 'Loggi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Loggi''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 66
+random_paper: 50
 score:
   band: thin
   composite: 40.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -159,12 +159,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 41.3
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/screenshots/loggi-2026-07-25T225453.png
 security:

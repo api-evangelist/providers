@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ plans:
 - name: Ordway Plans Pricing
   plan_count: 1
   slug: ordway-plans-pricing
-random_paper: 82
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Ordway Rate Limits
@@ -230,7 +230,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 62.7
@@ -238,7 +238,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +253,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/screenshots/ordway-2026-06-20T191205.png
 security:

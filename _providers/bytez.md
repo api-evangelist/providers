@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,13 +42,10 @@ apis:
   name: Bytez Models API
   slug: bytez-models-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List models for a task, pick one, and run serverless inference.
   name: Discover and run a Bytez model
   slug: bytez-discover-and-run
-artifact_total: 8
+artifact_total: 7
 common:
 - group: other
   title: ''
@@ -166,7 +163,7 @@ overview: 'Bytez publishes 1 API on the [APIs.io](https://apis.io/) network: Mod
 
 
   Bytez''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 94
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Bytez Rate Limits
@@ -174,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 61.2
@@ -182,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 46.6
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:

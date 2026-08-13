@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -95,7 +95,7 @@ overview: 'Loftia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Loftia''s developer surface includes FAQ, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 59
+random_paper: 39
 score:
   band: minimal
   composite: 11.7
@@ -109,7 +109,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loftia/refs/heads/main/screenshots/loftia-2026-07-25T225452.png
 slug: loftia

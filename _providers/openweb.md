@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'JWT-authenticated REST API for publishers on the OpenWeb platform: request an API token, export comments/users/ranks (v2 and v4), retrieve top comments and trending articles, manage SSO users (registe'
@@ -159,11 +159,11 @@ overview: 'OpenWeb publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   OpenWeb''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: developing
   composite: 44.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 51.6
@@ -171,12 +171,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 45.5
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/screenshots/openweb-2026-08-07T190658.png
 security:

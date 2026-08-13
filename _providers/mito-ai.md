@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ overview: 'Mito Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mito Ai''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 8 more developer resources.'
-random_paper: 108
+random_paper: 88
 score:
   band: emerging
   composite: 23.2
@@ -123,7 +123,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mito-ai/refs/heads/main/screenshots/mito-ai-2026-08-07T183814.png
 security:

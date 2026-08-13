@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -40,6 +40,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/blobr-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/blobr-lifecycle.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -84,6 +88,22 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/blobr-vocabulary.yaml
+coverage:
+  checked: '2026-08-12'
+  detail: Every Blobr host is dark — www.blobr.io answers TLS but returns the Webflow "404 - Page not found" shell for the root and for /pricing, /blog, /robots.txt and /sitemap.xml alike (an unpublished Webflow project), docs.blobr.io still points at hosting.gitbook.io but fails the TLS handshake, and both blobr.ai and app.blobr.ai (the signup/login hosts in this profile) return DNS SERVFAIL while api.blobr.io is NXDOMAIN; the last Internet Archive capture of the site that returned 200 is 2026-05-10.
+  evidence:
+  - status: 404
+    url: https://www.blobr.io/
+  - status: 404
+    url: https://www.blobr.io/pricing
+  - status: 404
+    url: https://www.blobr.io/robots.txt
+  - status: 404
+    url: https://www.blobr.io/.well-known/agent-card.json
+  - status: 404
+    url: https://www.blobr.io/openapi.json
+  reason: defunct
+  state: none
 created: '2026-03-26'
 description: Blobr is an AI-powered Google Ads management platform that deploys specialized AI agents to automate campaign optimization, keyword management, ad copy improvement, and budget allocation. Originally founded as an API monetization and portal platform, Blobr has evolved into an AI teammate for Google Ads that helps agencies and advertisers automate the bulk of daily campaign management tasks. The platform features 50+ specialized AI agents that analyze accounts, generate recommendations, and implement approved changes directly to Google Ads.
 examples:
@@ -136,7 +156,7 @@ jsonld:
   property_count: 0
   slug: blobr-context
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-12'
 name: Blobr
 nav: Providers
 network: true
@@ -146,14 +166,14 @@ overview: 'Blobr publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Blobr catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blobr''s developer surface includes signup flow, pricing, engineering blog, and 9 more developer resources.'
+  Blobr''s developer surface includes signup flow, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Blobr Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: blobr-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Blobr Rate Limits
   slug: blobr-rate-limits
 rules:
@@ -175,19 +195,19 @@ rules:
   slug: blobr-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: -7.8
+  composite: 33.1
+  delta: -2.6
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 52.6
     contract_quality: 29.0
     developer_ergonomics: 2.2
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 13.2
-  previous_composite: 43.5
+    operational_transparency: 5.3
+  previous_composite: 35.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Blobr Domain Security

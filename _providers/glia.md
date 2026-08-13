@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Glia platform REST API. Serves operators, sites, engagements, queues and reporting resources over api.glia.com (US) and api.glia.eu (EU). Authentication is a bearer token minted from an API key id
@@ -188,11 +188,11 @@ overview: 'Glia publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glia''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, authentication, and 28 more developer resources.'
-random_paper: 65
+random_paper: 53
 score:
   band: thin
   composite: 41.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 42.9
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -211,7 +211,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia/refs/heads/main/screenshots/glia-2026-08-07T165740.png
 security:

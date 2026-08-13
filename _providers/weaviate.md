@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -1555,7 +1555,7 @@ plans:
 - name: Weaviate Plans Pricing
   plan_count: 3
   slug: weaviate-plans-pricing
-random_paper: 42
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Weaviate Rate Limits
@@ -1580,7 +1580,7 @@ rules:
 score:
   band: developing
   composite: 55.2
-  delta: -6.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.2
@@ -1588,7 +1588,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 61.5
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1597,8 +1597,8 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:
 - kind: authentication

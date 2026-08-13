@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -400,7 +400,7 @@ plans:
 - name: Wikimedia Enterprise
   plan_count: 2
   slug: wikimedia-enterprise
-random_paper: 20
+random_paper: 108
 rate_limits:
 - limit_count: 2
   name: Mediawiki Action Api
@@ -443,7 +443,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/screenshots/wikimedia-2026-06-20T201454.png
 security:

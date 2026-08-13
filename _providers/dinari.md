@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -69,16 +69,13 @@ apis:
   name: Dinari Withdrawals API
   slug: dinari-withdrawals-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Fetch a wallet-connection nonce, connect the wallet, fund the account via the sandbox faucet, and read the portfolio.
   name: Connect a wallet and fund an account
   slug: dinari-connect-wallet-and-fund
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
@@ -282,11 +279,11 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 51
+random_paper: 31
 score:
   band: strong
   composite: 57.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.6
@@ -294,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 57.9
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +309,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

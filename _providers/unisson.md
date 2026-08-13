@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -282,11 +282,11 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unisson''s developer surface includes authentication, support, and 19 more developer resources.'
-random_paper: 87
+random_paper: 63
 score:
   band: thin
   composite: 39.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.0
@@ -294,7 +294,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 41.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

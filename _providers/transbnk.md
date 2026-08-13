@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Transbnk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Transbnk''s developer surface includes engineering blog, support, product news, and 6 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: minimal
   composite: 10.8
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -91,7 +91,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: tags
@@ -99,7 +99,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

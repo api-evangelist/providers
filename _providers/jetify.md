@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Pkg API from Jetify — 1 operation(s) for pkg.
@@ -166,11 +166,11 @@ overview: 'Jetify publishes 3 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   Jetify''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: developing
   composite: 44.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.0
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 46.6
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetify/refs/heads/main/screenshots/jetify-2026-07-25T223137.png
 security:

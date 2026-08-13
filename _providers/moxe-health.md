@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -35,16 +35,13 @@ apis:
   name: Moxe Health Claim Management API
   slug: moxe-health-claim-management-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Initiate a claim-management request to retrieve the clinical chart supporting a specific claim, then poll the status endpoint with the returned moxeRequestId.
   name: Request a claim-supporting chart and poll for status
   slug: moxe-health-request-claim-chart
 - description: Initiate a release-of-information request for a patient's clinical chart, then poll the status endpoint with the returned moxeRequestId until Moxe delivers the chart via SFTP.
   name: Request a patient chart and poll for status
   slug: moxe-health-request-patient-chart
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   title: ''
@@ -211,7 +208,7 @@ overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 30 more developer resources.'
-random_paper: 72
+random_paper: 36
 scopes:
 - name: Moxe Health Scopes
   scope_count: 4
@@ -220,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 50.7
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.2
@@ -228,7 +225,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 53.2
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,7 +243,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:

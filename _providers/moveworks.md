@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -67,16 +67,13 @@ apis:
   name: Moveworks webhooks API
   slug: moveworks-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a conversation, request a response, then list the resulting messages.
   name: Moveworks — start an AI Assistant conversation and read the reply
   slug: moveworks-conversation
 - description: Mint an OAuth client-credentials token, verify it, then send an event-triggered message to employees.
   name: Moveworks — authenticate and notify employees for an event
   slug: moveworks-notify-employees
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Moveworks Webhooks
@@ -285,11 +282,11 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moveworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
-random_paper: 77
+random_paper: 45
 score:
   band: strong
   composite: 59.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 65.7
@@ -297,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 59.7
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,7 +306,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:

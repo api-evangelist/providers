@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Pool.com offers Web3 domain registration and distribution services with partner integration available to ICANN-accredited registrars through their API.
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: PoolPros.ai Launches AI-Powered National Marketplace ...
   url: https://www.kitsapsun.com/press-release/story/750387/poolpros-ai-launches-ai-powered-national-marketplace-for-pool-service-repair-remodeling-and-pool-builders/
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Pool Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.8
+  previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pool/refs/heads/main/screenshots/pool-2026-06-20T191917.png
 security:
 - kind: domain-security

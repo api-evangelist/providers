@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Chroniclingamerica Plans Pricing
   plan_count: 1
   slug: chroniclingamerica-plans-pricing
-random_paper: 34
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Chroniclingamerica Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.2
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/screenshots/chroniclingamerica-2026-07-25T205316.png
 security:

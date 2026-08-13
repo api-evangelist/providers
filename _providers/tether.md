@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The API Keys API from Tether — 2 operation(s) for api keys.
@@ -191,7 +191,7 @@ overview: 'Tether publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
-random_paper: 72
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 47.8
@@ -207,7 +207,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 53.9
+  previous_composite: 54.0
   provenance:
     conformance: derived
     contracts:
@@ -224,7 +224,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

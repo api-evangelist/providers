@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -260,11 +260,11 @@ overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https:/
 
 
   American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 32 more developer resources.'
-random_paper: 6
+random_paper: 106
 score:
   band: emerging
   composite: 20.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 15.1
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 20.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +290,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

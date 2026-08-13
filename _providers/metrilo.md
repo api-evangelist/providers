@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
@@ -169,11 +169,11 @@ overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 68
+random_paper: 44
 score:
   band: thin
   composite: 38.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 14.6
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 38.1
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     contracts:
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -239,10 +239,11 @@ overview: 'OpenSERP publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 37 more developer resources.'
-random_paper: 64
+random_paper: 36
 score:
   band: developing
   composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 53.9
@@ -250,6 +251,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 28.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,7 +263,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Openserp Authentication

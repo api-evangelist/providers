@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -151,11 +151,11 @@ overview: 'Freshsales publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Freshsales'' developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 28
+random_paper: 112
 score:
   band: thin
   composite: 34.5
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 54.2
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.3
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -172,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/screenshots/freshsales-2026-06-20T181548.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Versioned REST Content API for managing content, collections, ideas, initiatives, custom fields, tasks, users, and insights. HTTP Basic auth with a per-user API token (password ignored); JSON response
@@ -111,11 +111,11 @@ overview: 'Kapost publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kapost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 78
+random_paper: 58
 score:
   band: thin
   composite: 34.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 51.6
@@ -123,9 +123,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 35.7
+  previous_composite: 34.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/screenshots/kapost-2026-07-25T223456.png
 security:

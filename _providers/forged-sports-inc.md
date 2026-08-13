@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Forged Sports, Inc. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Forged Sports, Inc.''s developer surface includes support and 5 more developer resources.'
-random_paper: 94
+random_paper: 38
 score:
   band: minimal
   composite: 10.8
@@ -81,7 +81,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/screenshots/forged-sports-inc-2026-07-25T214938.png
 security:

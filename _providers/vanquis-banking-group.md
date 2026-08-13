@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 24 more developer resources.'
-random_paper: 64
+random_paper: 112
 scopes:
 - name: Vanquis Banking Group Scopes
   scope_count: 3
@@ -191,7 +191,7 @@ scopes:
 score:
   band: thin
   composite: 40.0
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 52.0
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 44.0
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,7 +217,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -109,11 +109,11 @@ overview: 'TaskCall publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TaskCall''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: thin
   composite: 33.5
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 57.5
@@ -121,7 +121,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -130,7 +130,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/screenshots/taskcall-2026-06-20T194924.png
 security:

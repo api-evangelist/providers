@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -131,7 +131,7 @@ overview: 'Dapta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dapta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 58
+random_paper: 42
 score:
   band: thin
   composite: 41.5
@@ -147,7 +147,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapta/refs/heads/main/screenshots/dapta-2026-07-25T211214.png
 security:

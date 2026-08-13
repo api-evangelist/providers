@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -197,11 +197,11 @@ overview: 'Qualio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qualio''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: developing
   composite: 48.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.5
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 49.4
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -223,7 +223,7 @@ overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
-random_paper: 46
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Applike Rate Limits
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.9
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 61.6
+  previous_composite: 60.9
   provenance:
     conformance: first-party
     contracts:
@@ -249,7 +249,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:

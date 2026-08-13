@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Garage is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Garage''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 35
+random_paper: 15
 score:
   band: emerging
   composite: 15.7
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -91,7 +91,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
@@ -99,7 +99,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garage/refs/heads/main/screenshots/garage-2026-07-25T215447.png
 security:

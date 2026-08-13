@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ overview: 'Rye publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 104
+random_paper: 96
 rate_limits:
 - limit_count: 5
   name: Rye Rate Limits
@@ -315,7 +315,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.7
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.3
@@ -323,7 +323,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 94.7
-  previous_composite: 68.1
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,7 +341,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

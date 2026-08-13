@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Moog to Share Innovations in Advanced Spacecraft ...
   url: https://www.moog.com/news/operating-group-news/2025/moog-advanced-space-computing-at-satellite-2025-conference.html
-random_paper: 86
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Moog Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.8
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -101,7 +101,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.2
+  previous_composite: 8.8
   regulatory:
     applies: true
     matched_via: tags
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png
 security:

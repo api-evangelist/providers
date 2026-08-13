@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RESTful API for the Incident IQ K-12 ITSM and asset management platform. Resources include tickets, assets, users, locations, views, and categories. Requests require SiteId, Authorization (bearer toke
@@ -143,11 +143,11 @@ overview: 'Incident IQ publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Incident IQ''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 65
+random_paper: 29
 score:
   band: developing
   composite: 45.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -155,9 +155,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 46.3
+  previous_composite: 45.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-iq/refs/heads/main/screenshots/incident-iq-2026-07-25T222224.png
 security:

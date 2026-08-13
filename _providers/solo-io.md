@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -430,7 +430,7 @@ plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
   slug: solo-io-plans-pricing
-random_paper: 10
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Solo Io Rate Limits
@@ -447,7 +447,7 @@ rules:
 score:
   band: exemplar
   composite: 73.7
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 69.5
@@ -455,7 +455,7 @@ score:
     discoverability: 81.5
     governance: 80.2
     operational_transparency: 55.3
-  previous_composite: 81.9
+  previous_composite: 73.7
   provenance:
     conformance: derived
     contracts:
@@ -466,8 +466,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication

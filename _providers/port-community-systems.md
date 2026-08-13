@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Port Community Systems Plans Pricing
   plan_count: 3
   slug: port-community-systems-plans-pricing
-random_paper: 12
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Port Community Systems Rate Limits
@@ -161,7 +161,7 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 82.1
@@ -169,7 +169,7 @@ score:
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 7.9
-  previous_composite: 50.9
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/screenshots/port-community-systems-2026-06-20T191927.png
 security:
 - kind: authentication

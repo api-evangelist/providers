@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'CloudChipr publishes a developer API Reference at docs.cloudchipr.com/reference covering the same multi-cloud cost-management capabilities as the web app: connecting cloud provider accounts, viewing i'
@@ -96,7 +96,7 @@ plans:
 - name: Cloudchipr Plans Pricing
   plan_count: 3
   slug: cloudchipr-plans-pricing
-random_paper: 25
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Cloudchipr Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.6
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -112,10 +112,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 24.6
+  previous_composite: 17.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/screenshots/cloudchipr-2026-06-20T174545.png
 security:
 - kind: domain-security

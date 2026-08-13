@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Dronamics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dronamics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: minimal
   composite: 10.9
@@ -91,7 +91,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dronamics/refs/heads/main/screenshots/dronamics-2026-07-25T212420.png
 security:

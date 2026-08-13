@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -72,16 +72,13 @@ apis:
   name: KolayIK Unit API
   slug: kolayik-unit-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve an employee, read their leave balances, check for overlapping leave in the window, create the leave record, and verify it.
   name: Check balances and book leave in Kolay İK
   slug: kolayik-book-leave
 - description: Discover the tenant's custom person fields and org tree, create the person, verify the stored record, and assign onboarding training.
   name: Onboard an employee in Kolay İK
   slug: kolayik-onboard-employee
-artifact_total: 19
+artifact_total: 18
 common:
 - group: other
   title: ''
@@ -263,11 +260,11 @@ overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 34 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: developing
   composite: 53.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 59.7
@@ -275,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 53.8
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:

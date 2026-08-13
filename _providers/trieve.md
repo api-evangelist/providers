@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Trieve Plans Pricing
   plan_count: 1
   slug: trieve-plans-pricing
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Trieve Rate Limits
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.6
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.1
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.4
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/screenshots/trieve-2026-06-20T195811.png
 security:

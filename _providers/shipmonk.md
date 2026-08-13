@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 61
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.6
@@ -262,7 +262,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 62.3
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

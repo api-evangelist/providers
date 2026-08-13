@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Igdb Plans Pricing
   plan_count: 3
   slug: igdb-plans-pricing
-random_paper: 58
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Igdb Rate Limits
@@ -137,7 +137,7 @@ rules:
 score:
   band: thin
   composite: 32.2
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 54.9
@@ -145,7 +145,7 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 7.9
-  previous_composite: 40.5
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/screenshots/igdb-2026-06-20T183218.png
 security:
 - kind: authentication

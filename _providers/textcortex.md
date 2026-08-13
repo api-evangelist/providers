@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,11 +160,11 @@ overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Textcortex''s developer surface includes authentication, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 70
+random_paper: 34
 score:
   band: developing
   composite: 42.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 59.7
@@ -172,7 +172,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 43.4
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

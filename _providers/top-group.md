@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 23
 apis:
 - description: The Accounts API from TOP Group (The Open Platform) — 22 operation(s) for accounts.
@@ -257,7 +257,7 @@ overview: 'TOP Group (The Open Platform) publishes 23 APIs on the [APIs.io](http
 
 
   TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 13
+random_paper: 101
 rate_limits:
 - limit_count: 2
   name: Top Group Rate Limits
@@ -265,7 +265,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.4
@@ -273,7 +273,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 50.5
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -290,7 +290,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

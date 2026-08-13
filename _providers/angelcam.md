@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -127,16 +127,13 @@ apis:
   name: AngelCam user API
   slug: angelcam-user-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: From a camera, list recordings, read a timeline, create a clip, and share it by email.
   name: Angelcam — create and share a clip
   slug: angelcam-create-and-share-clip
 - description: List cameras and retrieve the live-stream URLs for one.
   name: Angelcam — watch a live camera
   slug: angelcam-watch-live-camera
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Angelcam Webhooks
@@ -273,7 +270,7 @@ overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   AngelCam''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 12
+random_paper: 104
 rate_limits:
 - limit_count: 2
   name: Angelcam Rate Limits
@@ -286,7 +283,7 @@ scopes:
 score:
   band: developing
   composite: 50.8
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.1
@@ -294,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 50.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

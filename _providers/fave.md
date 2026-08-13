@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ apis:
   name: Fave Transactions API
   slug: fave-transactions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a QR-code charge, confirm it succeeded via transaction lookup, then issue a full refund. All operationIds are verified against the FavePay Omni OpenAPI.
   name: Accept a FavePay Omni payment and refund it
   slug: fave-accept-and-refund
 - description: Charge a customer via merchant scan, then list the outlet's recent transactions and acknowledge the new one. All operationIds are verified against the FavePay Omni OpenAPI.
   name: Merchant-scan charge and reconcile
   slug: fave-scan-and-reconcile
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: Webhook (callback) event surface for FavePay Omni. Fave POSTs the transaction object to the partner's callback_url whenever a transaction changes status. Each payload carries a `sign` (HMAC-SHA256) fi
   name: FavePay Omni Webhooks
@@ -194,11 +191,11 @@ overview: 'Fave publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pay
 
 
   Fave''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: developing
   composite: 43.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.4
@@ -206,7 +203,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 44.3
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,7 +221,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/screenshots/fave-2026-07-25T214253.png
 security:

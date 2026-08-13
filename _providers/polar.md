@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
-random_paper: 78
+random_paper: 62
 scopes:
 - name: Polar Scopes
   scope_count: 2
@@ -270,7 +270,7 @@ scopes:
 score:
   band: thin
   composite: 39.5
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.6
@@ -278,7 +278,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 37.6
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -293,7 +293,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:

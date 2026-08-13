@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,11 +48,11 @@ name: Kezaihui
 nav: Providers
 network: true
 overview: Kezaihui is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, SaaS, Local Commerce, and China.
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 5.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -60,7 +60,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
@@ -68,7 +68,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kezaihui/refs/heads/main/screenshots/kezaihui-2026-07-25T223708.png
 security:

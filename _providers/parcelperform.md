@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Parcelperform Plans Pricing
   plan_count: 1
   slug: parcelperform-plans-pricing
-random_paper: 2
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Parcelperform Rate Limits
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -146,7 +146,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.8
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -155,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/screenshots/parcelperform-2026-08-07T191537.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Narvar Plans Pricing
   plan_count: 3
   slug: narvar-plans-pricing
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Narvar Rate Limits
@@ -175,7 +175,7 @@ rules:
 score:
   band: developing
   composite: 52.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 73.9
@@ -183,7 +183,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 54.1
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 46.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/screenshots/narvar-2026-06-20T185948.png
 security:

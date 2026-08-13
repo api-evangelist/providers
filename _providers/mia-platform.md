@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Mia-Platform is an Internal Developer Platform that harmonizes infrastructure, applications, and data for intelligent engineering at scale, enabling teams to build and deploy cloud-native applications
@@ -92,7 +92,7 @@ plans:
 - name: Mia Platform Plans Pricing
   plan_count: 3
   slug: mia-platform-plans-pricing
-random_paper: 65
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Mia Platform Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.0
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -108,10 +108,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.1
+  previous_composite: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mia-platform/refs/heads/main/screenshots/mia-platform-2026-06-20T185328.png
 security:
 - kind: domain-security

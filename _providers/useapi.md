@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: REST API for Google Flow (Veo 3.1 video, Gemini Omni Flash audio-native video, Imagen 4 and Nano Banana image generation) driven through one or more linked Google accounts, with a captcha-solver pipel
@@ -236,11 +236,11 @@ overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 67
+random_paper: 47
 score:
   band: strong
   composite: 56.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 70.1
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 57.2
+  previous_composite: 56.6
   provenance:
     conformance: derived
     contracts:
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Graphiant Portal REST API is the machine-readable surface of the Graphiant NaaS platform. It exposes 525 operations across 460 paths on api.graphiant.com covering authentication and MSP tenant swi
@@ -262,11 +262,11 @@ overview: 'Graphiant publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 46 more developer resources.'
-random_paper: 30
+random_paper: 118
 score:
   band: developing
   composite: 50.4
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.9
@@ -274,7 +274,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 50.5
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -285,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:

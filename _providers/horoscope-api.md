@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ plans:
 - name: Horoscope Api Plans Pricing
   plan_count: 3
   slug: horoscope-api-plans-pricing
-random_paper: 61
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Horoscope Api Rate Limits
@@ -96,7 +96,7 @@ rules:
 score:
   band: emerging
   composite: 25.4
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 56.0
@@ -104,7 +104,7 @@ score:
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 7.9
-  previous_composite: 33.7
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     contracts:
@@ -113,8 +113,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/screenshots/horoscope-api-2026-06-20T182833.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -238,11 +238,11 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 
 
   The San Francisco Compute Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 51
+random_paper: 59
 score:
   band: strong
   composite: 56.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 60.0
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 57.2
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +262,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

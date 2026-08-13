@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
@@ -92,11 +92,11 @@ overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 99
+random_paper: 59
 score:
   band: thin
   composite: 29.2
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.7
@@ -104,7 +104,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.1
+  previous_composite: 29.2
   provenance:
     contracts:
       callable: 100.0
@@ -112,7 +112,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/screenshots/zoho-recruit-2026-06-20T201945.png
 security:

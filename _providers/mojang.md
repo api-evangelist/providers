@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -517,7 +517,7 @@ overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mojang''s developer surface includes authentication, documentation, and 19 more developer resources.'
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Mojang Rate Limits
@@ -542,7 +542,7 @@ rules:
 score:
   band: thin
   composite: 33.0
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 23.5
@@ -550,7 +550,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 31.2
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -559,7 +559,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/screenshots/mojang-2026-06-20T185707.png
 security:

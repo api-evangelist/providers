@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -729,7 +729,7 @@ plans:
 - name: 1Factory Plans Pricing
   plan_count: 3
   slug: 1factory-plans-pricing
-random_paper: 113
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: 1Factory Rate Limits
@@ -754,7 +754,7 @@ rules:
 score:
   band: developing
   composite: 46.7
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 74.6
@@ -762,7 +762,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 18.4
-  previous_composite: 55.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -771,8 +771,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
 security:
 - kind: authentication

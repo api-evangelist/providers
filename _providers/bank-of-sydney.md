@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ overview: 'Bank of Sydney publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bank of Sydney''s developer surface includes documentation, getting-started guide, API reference, authentication, and 15 more developer resources.'
-random_paper: 107
+random_paper: 63
 scopes:
 - name: Bank Of Sydney Scopes
   scope_count: 5
@@ -162,7 +162,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.2
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 36.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -188,7 +188,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
 security:

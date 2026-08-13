@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API exposed by the Zerto Virtual Manager / Zerto Cloud Appliance for programmatic disaster-recovery management — VPGs, failover, checkpoints, VRAs, peer sites, alerts, events, tasks, and long-ter
@@ -144,7 +144,7 @@ overview: 'Zerto publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zerto''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
-random_paper: 100
+random_paper: 84
 score:
   band: thin
   composite: 28.8
@@ -162,7 +162,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

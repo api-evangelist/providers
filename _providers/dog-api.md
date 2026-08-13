@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ plans:
 - name: Dog Api Plans Pricing
   plan_count: 3
   slug: dog-api-plans-pricing
-random_paper: 93
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Dog Api Rate Limits
@@ -242,7 +242,7 @@ rules:
 score:
   band: emerging
   composite: 25.5
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 25.1
@@ -250,7 +250,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 32.3
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/screenshots/dog-api-2026-06-20T180122.png
 security:
 - kind: domain-security

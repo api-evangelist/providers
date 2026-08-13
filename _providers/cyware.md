@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 35
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -284,7 +284,7 @@ overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Cyware Rate Limits
@@ -292,7 +292,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.8
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.5
@@ -300,7 +300,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 55.2
+  previous_composite: 55.8
   provenance:
     conformance: first-party
     contracts:
@@ -311,7 +311,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:

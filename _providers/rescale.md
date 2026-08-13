@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Rescale's token-authenticated REST API (v2) for creating, submitting, monitoring and managing simulation jobs, uploading and downloading files, listing available software (analyses) and hardware (core
@@ -151,11 +151,11 @@ overview: 'Rescale publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Rescale''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: thin
   composite: 32.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -163,12 +163,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 34.0
+  previous_composite: 32.9
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

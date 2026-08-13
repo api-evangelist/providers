@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -255,11 +255,11 @@ overview: 'Gencove publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gencove''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: developing
   composite: 49.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.4
@@ -267,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 50.4
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,7 +285,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Qoala''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 26 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: developing
   composite: 43.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 66.0
@@ -206,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 43.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,7 +224,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

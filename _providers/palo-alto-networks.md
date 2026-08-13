@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -6977,7 +6977,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 82.5
@@ -6985,7 +6985,7 @@ score:
     discoverability: 74.1
     governance: 62.5
     operational_transparency: 52.6
-  previous_composite: 67.7
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     contracts:
@@ -6994,7 +6994,7 @@ score:
       marker_coverage: 81.0
       total: 621
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:

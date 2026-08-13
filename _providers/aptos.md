@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -884,7 +884,7 @@ plans:
 - name: Aptos Plans Pricing
   plan_count: 3
   slug: aptos-plans-pricing
-random_paper: 87
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Aptos Rate Limits
@@ -901,7 +901,7 @@ rules:
 score:
   band: strong
   composite: 62.8
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 61.8
@@ -909,7 +909,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.7
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -918,7 +918,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/screenshots/aptos-2026-06-20T172345.png
 security:

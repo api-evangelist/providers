@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 6.8
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -39,30 +39,73 @@ common:
   title: ''
   type: Website
   url: https://shareroot.co
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ShareRoot
+- group: build
+  title: ''
+  type: Packages
+  url: packages/shareroot-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/shareroot-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shareroot-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shareroot-rate-limits.yml
+coverage:
+  checked: '2026-08-12'
+  detail: 'ShareRoot Ltd was renamed Opyl Limited (ASX: OPL) after its December 2019 AGM and the brand was wound down — ludomade.com 301-redirects to opyl.ai, thesocialscience.com.au no longer resolves, no api/developer/docs/app subdomain of shareroot.co exists in DNS, the ShareRoot GitHub organization has had no push since 2017, and shareroot.co itself is a stale legacy site whose last readable archived pages (2024) show a UGC marketing brochure with injected SEO-spam and no developer program anywhere on it.'
+  evidence:
+  - status: 202
+    url: https://shareroot.co/openapi.json
+  - status: 301
+    url: https://ludomade.com/
+  - status: 200
+    url: https://web.archive.org/web/20240713162126/https://www.shareroot.co/products/
+  - status: 200
+    url: https://api.github.com/orgs/ShareRoot/repos
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: 'ShareRoot is an Australian digital marketing and technology company based in St Kilda, Victoria, that helps brands understand market opportunities and engage audiences across digital channels. It operates through several subsidiary brands: the ShareRoot platform for user-generated content (UGC) and brand ambassador programs (social walls, contests, and e-commerce optimization), The Social Science marketing agency focused on Australia''s life sciences and health technology sectors, and Ludomade, which builds digital experiences spanning web design, mobile games, VR/AR, and experiential activations. ShareRoot publishes no public developer program, API documentation, or SDKs; this profile captures the company identity and a live domain-security probe for the API Evangelist network.'
+description: 'ShareRoot was a user-generated content (UGC) marketing platform and, as ShareRoot Ltd (ASX: SRO), an Australian listed group headquartered in St Kilda, Victoria. Its brands were the ShareRoot platform for legally acquiring, organising and displaying UGC and brand-ambassador content (social walls, Facebook tabs, contests, experiential galleries and UGC on product pages), The Social Science, a marketing agency for Australia''s life sciences and health technology sectors, and Ludomade, a digital-experience studio doing web design, mobile games, VR/AR and experiential activations. Shareholders approved a rename to Opyl Limited (ASX: OPL) at the December 2019 annual general meeting, and the group repositioned into artificial intelligence for clinical trials and digital health; ludomade.com now redirects to opyl.ai. ShareRoot never published a developer program, API documentation, machine-readable specification or client SDK, and shareroot.co is now a stale legacy site sitting behind
+  a bot challenge. This profile captures the company identity, a live domain-security probe, a recorded-absence well-known probe, and the two first-party open-source npm utilities the ShareRoot engineering team published in 2016.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shareroot.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: ShareRoot
 nav: Providers
 network: true
 overview: ShareRoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, User Generated Content, and Digital Experience.
-random_paper: 55
+plans:
+- name: Shareroot Plans Pricing
+  plan_count: 0
+  slug: shareroot-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Shareroot Rate Limits
+  slug: shareroot-rate-limits
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 7.5
+  delta: 2.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

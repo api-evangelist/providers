@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -293,7 +293,7 @@ plans:
 - name: Aiven Plans Pricing
   plan_count: 7
   slug: aiven-plans-pricing
-random_paper: 67
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Aiven Rate Limits
@@ -315,7 +315,7 @@ scopes:
 score:
   band: developing
   composite: 51.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.7
@@ -323,7 +323,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 52.3
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -332,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:

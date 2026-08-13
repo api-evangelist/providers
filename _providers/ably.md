@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -428,7 +428,7 @@ plans:
 - name: Ably Plans Pricing
   plan_count: 5
   slug: ably-plans-pricing
-random_paper: 76
+random_paper: 64
 rate_limits:
 - limit_count: 8
   name: Ably Rate Limits
@@ -453,7 +453,7 @@ rules:
 score:
   band: developing
   composite: 46.9
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.3
@@ -461,7 +461,7 @@ score:
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 28.9
-  previous_composite: 51.1
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -470,7 +470,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:

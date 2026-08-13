@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -218,7 +218,7 @@ overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 49
+random_paper: 21
 scopes:
 - name: Insforge Scopes
   scope_count: 11
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 54.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.3
@@ -235,7 +235,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 54.5
+  previous_composite: 54.1
   provenance:
     conformance: derived
     contracts:
@@ -252,7 +252,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

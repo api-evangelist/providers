@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ plans:
 - name: Mintlify Plans Pricing
   plan_count: 4
   slug: mintlify-plans-pricing
-random_paper: 64
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Mintlify Rate Limits
@@ -275,7 +275,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: -6.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 53.7
@@ -283,7 +283,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 55.3
-  previous_composite: 63.4
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/screenshots/mintlify-2026-06-20T185606.png
 security:
 - kind: authentication

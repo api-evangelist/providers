@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: BRINKER INTERNATIONAL REPORTS THIRD QUARTER ...
   url: https://www.prnewswire.com/news-releases/brinker-international-reports-third-quarter-of-fiscal-2026-results-and-updates-fiscal-2026-guidance-302756567.html
-random_paper: 106
+random_paper: 34
 score:
   band: minimal
   composite: 6.7
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brinker-international/refs/heads/main/screenshots/brinker-international-2026-06-20T173707.png
 security:

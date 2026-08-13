@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for managing the full subscription lifecycle in Maxio Advanced Billing (formerly Chargify): customers, products, components, subscriptions, invoices, transactions, coupons, and webhooks. Auth'
@@ -111,11 +111,11 @@ overview: 'Maxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Maxio''s developer surface includes sandbox, documentation, signup flow, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: emerging
   composite: 25.7
-  delta: 11.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 14.7
+  previous_composite: 25.7
   regulatory:
     applies: true
     matched_via: tags
@@ -131,8 +131,8 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxio/refs/heads/main/screenshots/maxio-2026-06-20T185049.png
 security:
 - kind: domain-security

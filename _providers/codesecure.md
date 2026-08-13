@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'CodeSecure is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CodeSecure''s developer surface includes developer portal, documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 14
+random_paper: 98
 score:
   band: minimal
   composite: 11.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -87,9 +87,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.3
+  previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesecure/refs/heads/main/screenshots/codesecure-2026-07-25T205925.png
 security:

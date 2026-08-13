@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Integration API from Flash App — 1 operation(s) for integration.
@@ -171,11 +171,11 @@ overview: 'Flash App publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flash App''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 80
+random_paper: 52
 score:
   band: developing
   composite: 46.7
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.2
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.1
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -200,7 +200,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

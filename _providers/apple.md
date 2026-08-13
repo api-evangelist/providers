@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -608,7 +608,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 66
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits
@@ -633,7 +633,7 @@ rules:
 score:
   band: strong
   composite: 59.3
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 77.0
@@ -641,7 +641,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 64.1
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -650,7 +650,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -993,7 +993,7 @@ plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits
@@ -1018,7 +1018,7 @@ rules:
 score:
   band: developing
   composite: 54.6
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.5
@@ -1026,7 +1026,7 @@ score:
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.5
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1035,8 +1035,8 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:
 - kind: authentication

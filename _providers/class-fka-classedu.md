@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'Class (fka ClassEDU) publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
-random_paper: 42
+random_paper: 102
 score:
   band: developing
   composite: 42.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 58.8
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 43.2
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
 security:

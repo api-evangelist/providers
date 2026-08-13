@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ press:
 - date: '2026-05-25'
   title: Oracle must stop kicking the Cerner can down the road— ...
   url: https://www.hfsresearch.com/research/oracle-kicking-cerner-decisive/
-random_paper: 59
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Cerner Rate Limits
@@ -204,7 +204,7 @@ scopes:
 score:
   band: thin
   composite: 35.9
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.0
@@ -212,7 +212,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 43.0
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -227,8 +227,8 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
 - kind: authentication

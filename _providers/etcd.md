@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -424,7 +424,7 @@ plans:
 - name: Etcd Plans Pricing
   plan_count: 1
   slug: etcd-plans-pricing
-random_paper: 68
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Etcd Rate Limits
@@ -441,7 +441,7 @@ rules:
 score:
   band: developing
   composite: 45.1
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 62.7
@@ -449,7 +449,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 39.5
-  previous_composite: 51.9
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -458,8 +458,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:
 - kind: authentication

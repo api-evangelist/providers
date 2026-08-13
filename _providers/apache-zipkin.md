@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Apache Zipkin Plans Pricing
   plan_count: 3
   slug: apache-zipkin-plans-pricing
-random_paper: 40
+random_paper: 116
 rate_limits:
 - limit_count: 5
   name: Apache Zipkin Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 47.0
@@ -178,7 +178,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 42.7
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/screenshots/apache-zipkin-2026-06-20T172158.png
 security:
 - kind: domain-security

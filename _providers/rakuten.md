@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Rakuten Plans Pricing
   plan_count: 1
   slug: rakuten-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Rakuten Rate Limits
@@ -244,7 +244,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 57.5
@@ -252,7 +252,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -267,7 +267,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png
 security:

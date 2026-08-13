@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -196,11 +196,11 @@ overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 86
+random_paper: 62
 score:
   band: thin
   composite: 39.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 58.9
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 41.2
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

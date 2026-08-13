@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -185,7 +185,7 @@ plans:
 - name: Refitter Plans Pricing
   plan_count: 3
   slug: refitter-plans-pricing
-random_paper: 57
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Refitter Rate Limits
@@ -202,7 +202,7 @@ rules:
 score:
   band: thin
   composite: 38.3
-  delta: -8.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -210,13 +210,13 @@ score:
     discoverability: 66.7
     governance: 81.3
     operational_transparency: 42.1
-  previous_composite: 47.2
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/screenshots/refitter-2026-06-20T192745.png
 security:
 - kind: vulnerability-disclosure

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 109
 scopes:
 - name: Vts Scopes
   scope_count: 4
@@ -277,7 +277,7 @@ scopes:
 score:
   band: developing
   composite: 49.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.5
@@ -285,7 +285,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,7 +297,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

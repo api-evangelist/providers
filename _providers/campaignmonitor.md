@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -128,7 +128,7 @@ plans:
 - name: Campaignmonitor Plans Pricing
   plan_count: 5
   slug: campaignmonitor-plans-pricing
-random_paper: 100
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Campaignmonitor Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 45.2
@@ -144,7 +144,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.5
+  previous_composite: 35.6
   regulatory:
     applies: true
     matched_via: tags
@@ -152,7 +152,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:

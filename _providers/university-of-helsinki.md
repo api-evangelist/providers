@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Public REST API for Helda, the open institutional repository of the University of Helsinki, powered by DSpace 7.6.2. Provides programmatic access to research publications, dissertations, theses, and o
@@ -110,7 +110,7 @@ plans:
 - name: University Of Helsinki Plans Pricing
   plan_count: 2
   slug: university-of-helsinki-plans-pricing
-random_paper: 76
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Helsinki Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png
 security:

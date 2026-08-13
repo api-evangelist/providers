@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The EVgo Inside partner integration API allows third-party apps — including automaker head units, fleet management platforms, and mobile apps — to embed EVgo's full charging workflow. Capabilities inc
@@ -123,7 +123,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 85
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

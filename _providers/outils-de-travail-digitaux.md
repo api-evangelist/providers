@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-03-16'
@@ -39,7 +39,7 @@ name: Outils De Travail Digitaux
 nav: Providers
 network: true
 overview: Outils De Travail Digitaux is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Digital Workplace, France, and Productivity.
-random_paper: 74
+random_paper: 106
 score:
   band: minimal
   composite: 3.2
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: outils-de-travail-digitaux
 tags:

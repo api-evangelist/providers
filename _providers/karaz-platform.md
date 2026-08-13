@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Early-stage REST API for the Karaz platform exposing Karaz App resources (e.g. gamification Badges) and Karaz Care resources (e.g. Appointments), plus shared chat (WebSocket) events. HTTPS, version-pr
@@ -104,11 +104,11 @@ overview: 'Karaz Platform publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Karaz Platform''s developer surface includes documentation, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 59
+random_paper: 11
 score:
   band: emerging
   composite: 24.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -116,7 +116,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 25.9
+  previous_composite: 24.9
   provenance:
     conformance: first-party
   regulatory:
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karaz-platform/refs/heads/main/screenshots/karaz-platform-2026-07-25T223502.png
 security:

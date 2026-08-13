@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -833,7 +833,7 @@ plans:
 - name: Abstract Api Plans Pricing
   plan_count: 5
   slug: abstract-api-plans-pricing
-random_paper: 51
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Abstract Api Rate Limits
@@ -858,7 +858,7 @@ rules:
 score:
   band: developing
   composite: 45.9
-  delta: -8.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 31.2
@@ -866,7 +866,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 54.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -875,8 +875,8 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

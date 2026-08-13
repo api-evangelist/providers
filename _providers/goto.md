@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,11 +84,11 @@ overview: 'GoTo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   GoTo''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 93
+random_paper: 81
 score:
   band: minimal
   composite: 7.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -96,7 +96,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.0
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: tags
@@ -104,7 +104,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto/refs/heads/main/screenshots/goto-2026-07-25T220125.png
 security:

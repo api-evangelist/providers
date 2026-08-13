@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ plans:
 - name: Appsmax Rest Api V1 Plans
   plan_count: 5
   slug: appsmax-rest-api-v1-plans
-random_paper: 84
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Appsmax Rest Api V1 Rate Limits
@@ -237,7 +237,7 @@ scopes:
 score:
   band: developing
   composite: 46.4
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.2
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 49.3
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

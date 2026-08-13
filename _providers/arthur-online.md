@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -78,9 +78,6 @@ apis:
   name: Arthur Types API
   slug: arthur-types-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The UK lettings funnel in Arthur Online: confirm the entity, create an applicant, book a viewing on a unit, record the offer, convert the viewing into a tenancy, add the tenant and register the deposi'
   name: Arthur Online - applicant to tenancy
   slug: arthur-online-applicant-to-tenancy
@@ -90,7 +87,7 @@ arazzos:
 - description: 'Bring a new building into Arthur Online: create the property, add a lettable unit, file the compliance certificate, publish the information shared with occupants and attach the document. Every operati'
   name: Arthur Online - onboard a property
   slug: arthur-online-onboard-property
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: The Arthur Online webhook event surface. A property manager subscribes a webhook URL to one or more of the 125 published triggers on the Arthur webhook page; Arthur then POSTs a form-encoded payload t
   name: Arthur Online Webhooks
@@ -328,7 +325,7 @@ plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 76
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits
@@ -336,7 +333,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.7
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 24.2
@@ -344,7 +341,7 @@ score:
     discoverability: 81.5
     governance: 14.1
     operational_transparency: 34.2
-  previous_composite: 50.0
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -356,7 +353,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:

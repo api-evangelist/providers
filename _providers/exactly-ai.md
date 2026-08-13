@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ apis:
   name: Exactly Ai Models v1 API
   slug: exactly-ai-models-v1-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Generate an image from an existing style model, then upscale, vectorize, and remove its background.
   name: Exactly.ai — generate and post-process an image
   slug: exactly-ai-generate-and-postprocess
 - description: Create a custom style model, train it on brand images, then generate on-brand images once ready.
   name: Exactly.ai — train a style model and generate images
   slug: exactly-ai-train-and-generate
-artifact_total: 9
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -180,11 +177,11 @@ overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 81
+random_paper: 49
 score:
   band: developing
   composite: 45.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 53.7
@@ -192,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 46.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -204,7 +201,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:

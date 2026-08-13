@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Hatch Loyalty
 nav: Providers
 network: true
 overview: Hatch Loyalty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Loyalty, Customer Engagement, Loyalty Platform, and Retail.
-random_paper: 71
+random_paper: 27
 score:
   band: minimal
   composite: 4.8
@@ -64,7 +64,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch-loyalty/refs/heads/main/screenshots/hatch-loyalty-2026-07-25T220801.png
 slug: hatch-loyalty

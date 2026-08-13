@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Automotus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Automotus'' developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 81
+random_paper: 49
 score:
   band: emerging
   composite: 15.6
@@ -107,7 +107,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automotus/refs/heads/main/screenshots/automotus-2026-07-25T201835.png
 security:

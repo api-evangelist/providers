@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 11 more developer resources.'
-random_paper: 48
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Aquabyte Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.0
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 50.6
@@ -139,7 +139,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 39.2
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -150,7 +150,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:

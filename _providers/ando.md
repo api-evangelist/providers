@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -227,11 +227,11 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ando''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: developing
   composite: 53.7
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.5
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:

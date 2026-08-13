@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ press:
 - date: '2026-05-25'
   title: Nexstar Media Group, Inc. Enters into Definitive Agreement ...
   url: https://www.nexstar.tv/nexstar-media-group-inc-enters-into-definitive-agreement-to-acquire-tegna-inc-for-6-2-billion-in-accretive-transaction/
-random_paper: 63
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Tegna Rate Limits
@@ -201,7 +201,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 69.9
@@ -209,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png
 security:
 - kind: authentication

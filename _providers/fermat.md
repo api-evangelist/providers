@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Fermat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fermat''s developer surface includes engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 59
+random_paper: 39
 score:
   band: emerging
   composite: 18.3
@@ -115,7 +115,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermat/refs/heads/main/screenshots/fermat-2026-07-25T214339.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ plans:
 - name: Drone Deploy Plans Pricing
   plan_count: 4
   slug: drone-deploy-plans-pricing
-random_paper: 74
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Drone Deploy Rate Limits
@@ -253,7 +253,7 @@ rules:
 score:
   band: strong
   composite: 62.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 76.9
@@ -261,7 +261,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 62.8
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     contracts:
@@ -270,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone-deploy/refs/heads/main/screenshots/drone-deploy-2026-06-20T180248.png
 security:

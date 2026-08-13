@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -191,11 +191,11 @@ overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Recall Labs'' developer surface includes documentation, API reference, engineering blog, changelog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 46
+random_paper: 10
 score:
   band: developing
   composite: 43.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.1
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +221,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

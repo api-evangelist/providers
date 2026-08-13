@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 9
@@ -2986,7 +2986,7 @@ plans:
 - name: Amazon Workmail Plans Pricing
   plan_count: 3
   slug: amazon-workmail-plans-pricing
-random_paper: 53
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Workmail Rate Limits
@@ -3011,7 +3011,7 @@ rules:
 score:
   band: strong
   composite: 56.9
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -3019,7 +3019,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 64.2
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -3034,8 +3034,8 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png
 security:
 - kind: authentication

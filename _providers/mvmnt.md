@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 27
 apis:
 - description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
@@ -253,7 +253,7 @@ overview: 'MVMNT publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MVMNT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 98
+random_paper: 82
 scopes:
 - name: Mvmnt Scopes
   scope_count: 1
@@ -262,7 +262,7 @@ scopes:
 score:
   band: developing
   composite: 53.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 72.7
@@ -270,7 +270,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 54.8
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -287,7 +287,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/screenshots/mvmnt-2026-08-07T184459.png
 security:

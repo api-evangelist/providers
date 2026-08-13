@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 4
@@ -399,7 +399,7 @@ overview: 'Openpath publishes 89 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 51
+random_paper: 23
 scopes:
 - name: Openpath Scopes
   scope_count: 3
@@ -408,7 +408,7 @@ scopes:
 score:
   band: thin
   composite: 33.8
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 53.0
@@ -416,7 +416,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 35.4
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -428,7 +428,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/screenshots/openpath-2026-08-07T190619.png
 security:

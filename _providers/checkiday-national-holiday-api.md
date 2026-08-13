@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Checkiday Plans Pricing
   plan_count: 5
   slug: checkiday-plans-pricing
-random_paper: 82
+random_paper: 102
 rate_limits:
 - limit_count: 5
   name: Checkiday Rate Limits
@@ -241,7 +241,7 @@ rules:
 score:
   band: strong
   composite: 65.0
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 74.6
@@ -249,7 +249,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 63.7
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     contracts:
@@ -258,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:

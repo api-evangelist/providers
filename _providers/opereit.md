@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Contracts API from Opereit — 3 operation(s) for contracts.
@@ -38,13 +38,10 @@ apis:
   name: Opereit Invoice Audits API
   slug: opereit-invoice-audits-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Upload a contract, upload and audit an invoice against it, then read the findings.
   name: Opereit — audit a carrier invoice against a contract
   slug: opereit-audit-invoice
-artifact_total: 7
+artifact_total: 6
 common:
 - group: other
   title: ''
@@ -114,11 +111,11 @@ overview: 'Opereit publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Opereit''s developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 64
+random_paper: 40
 score:
   band: thin
   composite: 36.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.7
@@ -126,7 +123,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 38.1
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -137,7 +134,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
 security:

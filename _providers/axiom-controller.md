@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Axiom Controller Plans Pricing
   plan_count: 3
   slug: axiom-controller-plans-pricing
-random_paper: 55
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Axiom Controller Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 45.5
@@ -178,7 +178,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 50.3
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:
 - kind: domain-security

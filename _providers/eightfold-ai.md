@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -212,7 +212,7 @@ plans:
 - name: Eightfold Ai Plans Pricing
   plan_count: 1
   slug: eightfold-ai-plans-pricing
-random_paper: 37
+random_paper: 117
 rate_limits:
 - limit_count: 2
   name: Eightfold Ai Rate Limits
@@ -225,7 +225,7 @@ scopes:
 score:
   band: thin
   composite: 41.4
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 0.0
@@ -233,13 +233,13 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 44.8
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-07-25T213004.png
 security:

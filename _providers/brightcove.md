@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -288,7 +288,7 @@ plans:
 - name: Brightcove Plans Pricing
   plan_count: 2
   slug: brightcove-plans-pricing
-random_paper: 25
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Brightcove Rate Limits
@@ -301,7 +301,7 @@ scopes:
 score:
   band: thin
   composite: 39.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 60.4
@@ -309,7 +309,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 39.6
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -318,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

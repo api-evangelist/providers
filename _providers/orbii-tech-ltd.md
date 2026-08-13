@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -229,11 +229,11 @@ overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 91
+random_paper: 47
 score:
   band: thin
   composite: 32.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 48.6
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +259,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

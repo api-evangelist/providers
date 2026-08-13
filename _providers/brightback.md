@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
@@ -128,11 +128,11 @@ overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 15 more developer resources.'
-random_paper: 113
+random_paper: 81
 score:
   band: emerging
   composite: 24.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 16.4
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 24.1
+  previous_composite: 24.0
   provenance:
     conformance: derived
     contracts:
@@ -151,7 +151,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Agent Controller
@@ -153,11 +153,11 @@ overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: developing
   composite: 43.8
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.7
@@ -165,7 +165,7 @@ score:
     discoverability: 66.7
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.8
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -176,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:

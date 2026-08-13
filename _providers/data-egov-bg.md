@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Custom Laravel REST API for data.egov.bg with action-named endpoints under /api, almost all POST with JSON bodies. Public read methods include listDatasets, getDatasetDetails, listResources, getResour
@@ -63,7 +63,7 @@ overview: 'data.egov.bg (Open Data Portal of Bulgaria) publishes 1 API on the [A
 
 
   data.egov.bg (Open Data Portal of Bulgaria)''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 90
+random_paper: 54
 score:
   band: minimal
   composite: 9.0
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

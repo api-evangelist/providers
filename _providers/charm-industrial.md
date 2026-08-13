@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Charm Industrial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Charm Industrial''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 6 more developer resources.'
-random_paper: 31
+random_paper: 95
 score:
   band: minimal
   composite: 10.5
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charm-industrial/refs/heads/main/screenshots/charm-industrial-2026-07-25T205103.png
 security:

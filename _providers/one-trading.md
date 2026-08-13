@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
@@ -175,11 +175,11 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 68
+random_paper: 32
 score:
   band: thin
   composite: 37.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 26.1
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 38.1
+  previous_composite: 37.0
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Oracle General Ledger Plans Pricing
   plan_count: 3
   slug: oracle-general-ledger-plans-pricing
-random_paper: 109
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Oracle General Ledger Rate Limits
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.2
@@ -215,7 +215,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 54.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/screenshots/oracle-general-ledger-2026-06-20T191133.png
 security:
 - kind: authentication

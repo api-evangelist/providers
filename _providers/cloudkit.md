@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ overview: 'Apple CloudKit publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Apple CloudKit''s developer surface includes authentication, documentation, developer console, and 7 more developer resources.'
-random_paper: 51
+random_paper: 23
 rules:
 - name: Apple CloudKit API Rules
   rule_count: 12
@@ -147,7 +147,7 @@ rules:
 score:
   band: thin
   composite: 31.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 56.7
@@ -155,7 +155,7 @@ score:
     discoverability: 64.8
     governance: 27.1
     operational_transparency: 0.0
-  previous_composite: 31.8
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -164,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/screenshots/cloudkit-2026-06-20T174606.png
 security:

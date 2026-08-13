@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -179,7 +179,7 @@ plans:
 - name: Mighty Networks Plans Pricing
   plan_count: 4
   slug: mighty-networks-plans-pricing
-random_paper: 88
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Mighty Networks Rate Limits
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.1
@@ -195,7 +195,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.7
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/screenshots/mighty-networks-2026-08-07T172903.png
 security:

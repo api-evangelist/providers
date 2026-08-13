@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Carbon Intensity Plans
   plan_count: 1
   slug: carbon-intensity-plans
-random_paper: 49
+random_paper: 113
 rate_limits:
 - limit_count: 3
   name: Carbon Intensity Rate Limits
@@ -169,7 +169,7 @@ rules:
 score:
   band: developing
   composite: 42.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.8
@@ -177,7 +177,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 43.2
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -192,7 +192,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/screenshots/carbon-intensity-2026-06-20T173949.png
 security:

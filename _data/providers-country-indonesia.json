@@ -27,7 +27,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -83,7 +83,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -139,7 +139,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -183,7 +183,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -227,7 +227,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -272,7 +272,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -327,7 +327,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -371,7 +371,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -415,7 +415,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 33.3,
      "agent_band": "agent-aware",
@@ -453,7 +453,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -498,7 +498,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -542,7 +542,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -586,7 +586,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -631,7 +631,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -676,7 +676,7 @@
       "developer_ergonomics": 49.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -705,8 +705,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Bandung Institute of Technology",
@@ -724,7 +724,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -761,7 +761,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -799,7 +799,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -844,7 +844,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -889,7 +889,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -934,7 +934,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -979,7 +979,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1023,7 +1023,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1068,7 +1068,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1113,7 +1113,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1150,7 +1150,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1195,7 +1195,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1233,7 +1233,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1271,7 +1271,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -1294,6 +1294,43 @@
      "rank": 29
     },
     {
+     "name": "GetCraft",
+     "slug": "getcraft",
+     "description": "GetCraft is a Southeast Asian creative and content-marketing marketplace, headquartered in Indonesia and backed by 500 Global, that brands itself as \"The Creative Industry's Premium Directory.\" It connects brands and agencies with a vetted network of freelance creators and production partners (\"Crafters\") for content, video, design, advertising, and marketing work, spanning a talent Directory, a Jobs board, Managed project services, and a Community. Its companion publication, MarketingCraft, is a bilingual (English/Indonesian) content hub of articles, events, tutorials, jobs, and research for marketers and creators. GetCraft exposes no public developer or API surface; this record is an identity/enrichment profile.",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Bank Jago",
      "slug": "bank-jago",
      "description": "PT Bank Jago Tbk is a technology-based digital bank in Indonesia, listed on the Indonesia Stock Exchange (IDX: ARTO) and backed by investors including Ribbit Capital and GoTo. Rather than a branch network, Bank Jago is delivered through the life-centric Jago mobile application and is deeply embedded into partner ecosystems — Gojek/GoPay for payments, and Bibit/Stockbit for investing — via API-based integrations. Its Open API payment surface is exposed through Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme, administered through the ASPI developer directory, rather than a self-hosted public developer portal. Bank Jago is regulated by the Indonesian Financial Services Authority (OJK) and Bank Indonesia. This API Evangelist profile is compiled from public sources as a fintech company lead; the bank publishes no self-hosted OpenAPI, SDK, or developer documentation at this time.",
@@ -1309,7 +1346,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1336,7 +1373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "GoWork",
@@ -1354,44 +1391,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 31
-    },
-    {
-     "name": "Pintarnya",
-     "slug": "pintarnya",
-     "description": "Pintarnya is an Indonesian technology startup, launched in May 2022, that operates an employment and financial-services super-app for the country's blue-collar and entry-level workforce (education levels from elementary school through bachelor's degree, \"SD-S1\"). The platform aggregates tens of thousands of daily-updated job listings across 300+ Indonesian cities and pairs job search with Cari Cuan side-income tasks, Siap Kerja skill-building video courses, a CV builder, and an employer/recruiter posting product used by tens of thousands of companies. Pintarnya reports more than 10 million registered job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER). It is a consumer web and mobile product; no public developer API, OpenAPI description, or developer portal is published as of this profile.",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1412,6 +1412,43 @@
       "dry_run_mode": false
      },
      "rank": 32
+    },
+    {
+     "name": "Pintarnya",
+     "slug": "pintarnya",
+     "description": "Pintarnya is an Indonesian technology startup, launched in May 2022, that operates an employment and financial-services super-app for the country's blue-collar and entry-level workforce (education levels from elementary school through bachelor's degree, \"SD-S1\"). The platform aggregates tens of thousands of daily-updated job listings across 300+ Indonesian cities and pairs job search with Cari Cuan side-income tasks, Siap Kerja skill-building video courses, a CV builder, and an employer/recruiter posting product used by tens of thousands of companies. Pintarnya reports more than 10 million registered job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER). It is a consumer web and mobile product; no public developer API, OpenAPI description, or developer portal is published as of this profile.",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 33
     }
    ]
   },
@@ -1420,8 +1457,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 47,
-   "shown": 47,
+   "count": 46,
+   "shown": 46,
    "providers": [
     {
      "name": "Amartha",
@@ -1439,7 +1476,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1466,7 +1503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Bukalapak",
@@ -1483,7 +1520,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1510,7 +1547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Bibit",
@@ -1527,7 +1564,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -1547,7 +1584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Stockbit",
@@ -1564,7 +1601,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1591,7 +1628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "HD",
@@ -1609,7 +1646,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1636,7 +1673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Astro",
@@ -1654,45 +1691,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 2.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "Astro Sea",
-     "slug": "astro-sea",
-     "description": "Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an Indonesian quick-commerce platform that delivers groceries and everyday essentials in as little as 15 minutes. Its consumer mobile apps (iOS and Android) offer more than 3,000 curated products spanning fresh produce, frozen goods, groceries, beauty, household items, and electronics, with 24/7 service across the Greater Jakarta (JADETABEK) region. Astro is backed by Lightspeed Venture Partners and was surfaced through that portfolio into the API Evangelist network. Astro is a business-to-consumer application company; it publishes a consumer app, a corporate site, and an RFC 9116 security contact, but does not currently expose a public developer API, OpenAPI definition, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/screenshots/astro-sea-2026-07-25T201513.png",
-     "score": 11.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -1715,6 +1714,44 @@
      "rank": 39
     },
     {
+     "name": "Astro Sea",
+     "slug": "astro-sea",
+     "description": "Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an Indonesian quick-commerce platform that delivers groceries and everyday essentials in as little as 15 minutes. Its consumer mobile apps (iOS and Android) offer more than 3,000 curated products spanning fresh produce, frozen goods, groceries, beauty, household items, and electronics, with 24/7 service across the Greater Jakarta (JADETABEK) region. Astro is backed by Lightspeed Venture Partners and was surfaced through that portfolio into the API Evangelist network. Astro is a business-to-consumer application company; it publishes a consumer app, a corporate site, and an RFC 9116 security contact, but does not currently expose a public developer API, OpenAPI definition, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/screenshots/astro-sea-2026-07-25T201513.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 40
+    },
+    {
      "name": "HijUp",
      "slug": "hijup",
      "description": "HijUp is an Indonesia-based modest-fashion e-commerce marketplace selling Muslim women's clothing online — abayas, blouses, dresses, tunics, printed scarves, hijabs, mukena, khimar, and related accessories — aggregating a large catalog of local Indonesian modest-wear brands (over a hundred labels listed under its brands directory) into a single storefront with international shipping. The company operates a consumer-facing shopping site (product catalog, categories, cart, checkout, and customer accounts) rather than a public developer platform; it publishes no API, SDK, or developer portal at this time. HijUp is backed by 500 Global and is tracked in the API Evangelist network as a company profile. Public contact is customer@hijup.com and +6221-78-24-001.",
@@ -1730,53 +1767,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Bumame",
-     "slug": "bumame",
-     "description": "Bumame is an Indonesian healthcare provider (\"Elevating Indonesian Healthcare\") delivering global-standard health screening and preventive-care services to Indonesian families. It operates a network of clinics and offers medical check-up packages, laboratory testing, vaccination and boosters, maternal and child health services, early cancer screening and genetic DNA testing, vitamin infusions, home care, doctor consultations, and corporate health programs, with online appointment booking. Backed by 500 Global. Surfaced as a portfolio-company lead in the API Evangelist network; no public developer API surface has been found to date.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bumame/refs/heads/main/screenshots/bumame-2026-07-25T204103.png",
-     "score": 11.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1798,49 +1790,11 @@
      "rank": 41
     },
     {
-     "name": "Dagangan",
-     "slug": "dagangan",
-     "description": "Dagangan is an Indonesian tech-enabled wholesale e-commerce platform serving small and medium retailers (SMEs) in tier 3-4 cities and rural areas. Through a hub-and-spoke network of 50+ micro-warehouses across remote regions, it connects large suppliers to traditional local retailers, giving them affordable mobile access to daily necessities and groceries while reducing delivery costs and supply-chain friction. The company operates a consumer/retailer Android shopping application (Dagangan Mall), is backed by 500 Global, and is recognized as a Rural Digitalization Partner of Indonesia's Ministry of Villages, Disadvantaged Regions, and Transmigration. As of this profile, Dagangan publishes no public developer API or OpenAPI specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dagangan/refs/heads/main/screenshots/dagangan-2026-07-25T211128.png",
-     "score": 11.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Alodokter",
-     "slug": "alodokter",
-     "description": "Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alodokter/refs/heads/main/screenshots/alodokter-2026-07-25T195742.png",
-     "score": 11.2,
+     "name": "Bumame",
+     "slug": "bumame",
+     "description": "Bumame is an Indonesian healthcare provider (\"Elevating Indonesian Healthcare\") delivering global-standard health screening and preventive-care services to Indonesian families. It operates a network of clinics and offers medical check-up packages, laboratory testing, vaccination and boosters, maternal and child health services, early cancer screening and genetic DNA testing, vitamin infusions, home care, doctor consultations, and corporate health programs, with online appointment booking. Backed by 500 Global. Surfaced as a portfolio-company lead in the API Evangelist network; no public developer API surface has been found to date.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bumame/refs/heads/main/screenshots/bumame-2026-07-25T204103.png",
+     "score": 11.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1848,10 +1802,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1878,13 +1832,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 42
+    },
+    {
+     "name": "Dagangan",
+     "slug": "dagangan",
+     "description": "Dagangan is an Indonesian tech-enabled wholesale e-commerce platform serving small and medium retailers (SMEs) in tier 3-4 cities and rural areas. Through a hub-and-spoke network of 50+ micro-warehouses across remote regions, it connects large suppliers to traditional local retailers, giving them affordable mobile access to daily necessities and groceries while reducing delivery costs and supply-chain friction. The company operates a consumer/retailer Android shopping application (Dagangan Mall), is backed by 500 Global, and is recognized as a Rural Digitalization Partner of Indonesia's Ministry of Villages, Disadvantaged Regions, and Transmigration. As of this profile, Dagangan publishes no public developer API or OpenAPI specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dagangan/refs/heads/main/screenshots/dagangan-2026-07-25T211128.png",
+     "score": 11.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 43
     },
     {
-     "name": "GetCraft",
-     "slug": "getcraft",
-     "description": "GetCraft is a Southeast Asian creative and content-marketing marketplace, headquartered in Indonesia and backed by 500 Global, that brands itself as \"The Creative Industry's Premium Directory.\" It connects brands and agencies with a vetted network of freelance creators and production partners (\"Crafters\") for content, video, design, advertising, and marketing work, spanning a talent Directory, a Jobs board, Managed project services, and a Community. Its companion publication, MarketingCraft, is a bilingual (English/Indonesian) content hub of articles, events, tutorials, jobs, and research for marketers and creators. GetCraft exposes no public developer or API surface; this record is an identity/enrichment profile.",
-     "score": 11.0,
+     "name": "Alodokter",
+     "slug": "alodokter",
+     "description": "Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alodokter/refs/heads/main/screenshots/alodokter-2026-07-25T195742.png",
+     "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1892,11 +1885,18 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 23.7
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1933,7 +1933,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1971,7 +1971,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2009,7 +2009,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2047,7 +2047,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2084,7 +2084,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2121,7 +2121,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2158,7 +2158,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2196,7 +2196,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2234,7 +2234,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2272,7 +2272,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2310,7 +2310,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2348,7 +2348,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2385,7 +2385,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2423,7 +2423,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2461,7 +2461,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2506,7 +2506,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2544,7 +2544,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2581,7 +2581,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2619,7 +2619,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2657,7 +2657,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2695,7 +2695,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2733,7 +2733,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2770,7 +2770,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2807,7 +2807,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2852,7 +2852,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2890,7 +2890,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2928,7 +2928,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2966,7 +2966,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3004,7 +3004,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3041,7 +3041,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3078,7 +3078,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3115,7 +3115,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3152,7 +3152,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3189,7 +3189,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3226,7 +3226,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

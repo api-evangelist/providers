@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'Open-source Python ecosystem for Ansys products. The pyansys metapackage bundles 45+ libraries including PyMAPDL (Mechanical APDL), PyFluent (Fluent CFD), PyAEDT (Electronics Desktop / HFSS / Maxwell '
@@ -159,7 +159,7 @@ plans:
 - name: Ansys Plans Pricing
   plan_count: 1
   slug: ansys-plans-pricing
-random_paper: 94
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Ansys Rate Limits
@@ -167,7 +167,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.6
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -175,9 +175,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 24.5
+  previous_composite: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansys/refs/heads/main/screenshots/ansys-2026-06-20T172024.png
 security:

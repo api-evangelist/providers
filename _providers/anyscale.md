@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Manages Anyscale Workspaces - cloud-hosted, GPU-backed development environments preconfigured with Ray for interactive development and debugging.
@@ -131,7 +131,7 @@ plans:
 - name: Anyscale Plans Pricing
   plan_count: 3
   slug: anyscale-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Anyscale Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 43.2
@@ -147,10 +147,10 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 34.2
+  previous_composite: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/screenshots/anyscale-2026-06-20T172029.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -585,7 +585,7 @@ plans:
 - name: Workday Recruiting Plans Pricing
   plan_count: 3
   slug: workday-recruiting-plans-pricing
-random_paper: 42
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Workday Recruiting Rate Limits
@@ -615,7 +615,7 @@ scopes:
 score:
   band: developing
   composite: 51.9
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 32.5
@@ -623,7 +623,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 57.3
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -632,8 +632,8 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/screenshots/workday-recruiting-2026-06-20T201608.png
 security:
 - kind: authentication

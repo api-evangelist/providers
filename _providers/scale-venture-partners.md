@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Scale Venture Partners
 nav: Providers
 network: true
-random_paper: 62
+random_paper: 106
 slug: scale-venture-partners
 tags:
 - Venture Capital

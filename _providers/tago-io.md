@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ plans:
 - name: Tago Io Plans Pricing
   plan_count: 4
   slug: tago-io-plans-pricing
-random_paper: 108
+random_paper: 88
 rate_limits:
 - limit_count: 7
   name: Tago Io Rate Limits
@@ -325,7 +325,7 @@ rules:
 score:
   band: strong
   composite: 61.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 75.5
@@ -333,7 +333,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 62.3
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
 security:

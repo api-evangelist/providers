@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,11 +72,11 @@ press:
 - date: '2026-05-25'
   title: 'Monster Beverage''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/monster-beverage-ai-strategy-analysis-of-dominance-in-cpg-beverage-ai/
-random_paper: 30
+random_paper: 94
 score:
   band: minimal
   composite: 4.7
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -84,7 +84,7 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.1
+  previous_composite: 4.7
   regulatory:
     applies: true
     matched_via: tags
@@ -92,7 +92,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monster-beverage/refs/heads/main/screenshots/monster-beverage-2026-06-20T185734.png
 security:

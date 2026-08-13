@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -48,9 +48,6 @@ apis:
   name: Kurly Delivery Tracking (배송추적) API
   slug: kurly-delivery-tracking-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate against KLS, confirm the shipper's contracted delivery services, register a delivery-agency order with a caller-supplied requestKey, read the order back by that key, pull the waybill prin
   name: Kurly delivery-agency order through to delivery tracking
   slug: kurly-delivery-order-to-tracking
@@ -60,7 +57,7 @@ arazzos:
 - description: Register a SKU, book it inbound to a Kurly fulfillment centre with an idempotency key, pull the inbound label and transaction specification, then poll request-level status, item-level status and excep
   name: Kurly fulfillment inbound receiving flow
   slug: kurly-inbound-receiving-flow
-artifact_total: 12
+artifact_total: 11
 common:
 - group: other
   title: ''
@@ -206,7 +203,7 @@ overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 25 more developer resources.'
-random_paper: 103
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits
@@ -214,7 +211,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 55.2
@@ -222,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 21.1
-  previous_composite: 44.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

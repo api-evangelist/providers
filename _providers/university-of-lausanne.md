@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: University Of Lausanne Plans Pricing
   plan_count: 2
   slug: university-of-lausanne-plans-pricing
-random_paper: 76
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Lausanne Rate Limits
@@ -166,7 +166,7 @@ rules:
 score:
   band: thin
   composite: 40.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.6
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 41.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -183,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png
 security:

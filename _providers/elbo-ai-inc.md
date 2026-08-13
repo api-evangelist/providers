@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -195,11 +195,11 @@ overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
-random_paper: 96
+random_paper: 64
 score:
   band: developing
   composite: 50.4
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.5
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 49.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:

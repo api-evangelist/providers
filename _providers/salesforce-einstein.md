@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -427,7 +427,7 @@ plans:
 - name: Salesforce Einstein Plans Pricing
   plan_count: 1
   slug: salesforce-einstein-plans-pricing
-random_paper: 115
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Salesforce Einstein Rate Limits
@@ -457,7 +457,7 @@ scopes:
 score:
   band: developing
   composite: 48.7
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.7
@@ -465,7 +465,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 23.7
-  previous_composite: 55.6
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -474,8 +474,8 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:
 - kind: authentication

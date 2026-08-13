@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -855,7 +855,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
 
 
   Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 28 more developer resources.'
-random_paper: 64
+random_paper: 4
 rules:
 - name: Amazon API Gateway API Rules
   rule_count: 9
@@ -884,7 +884,7 @@ rules:
 score:
   band: strong
   composite: 57.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 81.7
@@ -892,7 +892,7 @@ score:
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 5.3
-  previous_composite: 58.3
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -903,7 +903,7 @@ score:
       total: 15
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

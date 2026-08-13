@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing employees, schedules, timesheets, locations, leave, tasks, and sales metrics in the Deputy workforce management platform. Authentication is handled via OAuth 2.0 or a permanent a
@@ -127,11 +127,11 @@ overview: 'Deputy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Deputy''s developer surface includes documentation, getting-started guide, authentication, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 87
+random_paper: 67
 score:
   band: thin
   composite: 30.0
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -139,9 +139,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.3
+  previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/screenshots/deputy-2026-06-20T180004.png
 security:

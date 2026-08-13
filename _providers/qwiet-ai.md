@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -269,11 +269,11 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 24 more developer resources.'
-random_paper: 105
+random_paper: 81
 score:
   band: strong
   composite: 56.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.2
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 56.9
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,7 +293,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

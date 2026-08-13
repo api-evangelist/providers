@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -311,7 +311,7 @@ overview: 'Plex publishes 29 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Plex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 93
+random_paper: 81
 scopes:
 - name: Plex Scopes
   scope_count: 7
@@ -320,7 +320,7 @@ scopes:
 score:
   band: developing
   composite: 55.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.7
@@ -328,7 +328,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 56.6
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -340,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

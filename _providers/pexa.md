@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
-random_paper: 82
+random_paper: 70
 scopes:
 - name: Pexa Scopes
   scope_count: 11
@@ -302,7 +302,7 @@ scopes:
 score:
   band: strong
   composite: 59.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 67.2
@@ -310,7 +310,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 60.3
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

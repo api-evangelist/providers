@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: Attorney-authored LexBlog covering advertising, trademark, and copyright law.
@@ -163,7 +163,7 @@ overview: 'Fox Rothschild LLP publishes 21 APIs on the [APIs.io](https://apis.io
 
 
   Fox Rothschild LLP''s developer surface includes engineering blog, product news, and 12 more developer resources.'
-random_paper: 62
+random_paper: 14
 score:
   band: minimal
   composite: 7.9
@@ -177,7 +177,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png
 security:

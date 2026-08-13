@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 1
@@ -206,11 +206,11 @@ overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://ap
 
 
   Horizon Blockchain Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 110
+random_paper: 30
 score:
   band: developing
   composite: 51.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.5
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +236,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/screenshots/horizon-blockchain-games-2026-07-25T221424.png
 security:

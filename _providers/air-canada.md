@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -256,11 +256,11 @@ overview: 'Air Canada publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Air Canada''s developer surface includes authentication, sandbox, changelog, code examples, documentation, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: developing
   composite: 47.8
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -268,13 +268,13 @@ score:
     discoverability: 81.5
     governance: 15.1
     operational_transparency: 50.0
-  previous_composite: 49.9
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

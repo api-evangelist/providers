@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,11 +157,11 @@ overview: 'Wideo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Wideo''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 72
+random_paper: 56
 score:
   band: developing
   composite: 45.1
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 70.1
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 7.9
-  previous_composite: 46.9
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -180,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

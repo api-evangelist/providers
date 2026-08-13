@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'b.well publishes 2 APIs on the [APIs.io](https://apis.io/) network: U
 
 
   b.well''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 32 more developer resources.'
-random_paper: 115
+random_paper: 99
 scopes:
 - name: B Well Scopes
   scope_count: 4
@@ -261,7 +261,7 @@ score:
     regime_id: health
     score: 67.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:

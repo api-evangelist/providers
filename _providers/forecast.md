@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST-style JSON API exposing the full Forecast platform: projects, tasks, sub-tasks, phases, sprints, time registrations, allocations, persons, clients, rate cards, invoices, and webhook subscriptions'
@@ -119,11 +119,11 @@ overview: 'forecast publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   forecast''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: thin
   composite: 38.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -131,13 +131,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 40.0
+  previous_composite: 38.9
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/screenshots/forecast-2026-07-25T214928.png
 security:

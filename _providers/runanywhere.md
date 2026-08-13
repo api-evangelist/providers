@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted control plane the RunAnywhere SDKs talk to for model delivery, extraction, versioning, and configuration. Authenticated with an API key supplied at SDK initialization. No public OpenAPI is publ
@@ -99,11 +99,11 @@ overview: 'RunAnywhere publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   RunAnywhere''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
-random_paper: 48
+random_paper: 8
 score:
   band: emerging
   composite: 20.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -111,9 +111,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.6
+  previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

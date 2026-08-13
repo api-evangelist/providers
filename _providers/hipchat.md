@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -146,7 +146,7 @@ plans:
 - name: Hipchat Plans Pricing
   plan_count: 4
   slug: hipchat-plans-pricing
-random_paper: 41
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Hipchat Rate Limits
@@ -179,7 +179,7 @@ rules:
 score:
   band: developing
   composite: 48.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 82.7
@@ -187,7 +187,7 @@ score:
     discoverability: 59.3
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 46.2
+  previous_composite: 48.9
   provenance:
     contracts:
       callable: 100.0
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/screenshots/hipchat-2026-06-20T182747.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -165,7 +165,7 @@ overview: 'Julep Beauty publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Julep Beauty''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 79
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Julep Beauty Rate Limits
@@ -178,7 +178,7 @@ scopes:
 score:
   band: thin
   composite: 40.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.7
@@ -186,7 +186,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 42.3
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     contracts:
@@ -197,7 +197,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:

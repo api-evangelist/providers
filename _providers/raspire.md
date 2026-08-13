@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'Raspire is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Raspire''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: minimal
   composite: 12.3
@@ -97,7 +97,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 12.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

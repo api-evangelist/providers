@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,16 +48,13 @@ apis:
   name: Golden Recursion Schema API API
   slug: golden-recursion-schema-api-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Introspect the predicate schema, search entities by type, then retrieve the full cited entity.
   name: Golden — discover schema then enrich an entity
   slug: golden-recursion-enrich-entity
 - description: Resolve a saved Golden query by its permalink and page through its entity results.
   name: Golden — run a saved query by permalink
   slug: golden-recursion-saved-query
-artifact_total: 10
+artifact_total: 9
 common:
 - group: start
   title: ''
@@ -191,11 +188,11 @@ overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 40
+random_paper: 104
 score:
   band: developing
   composite: 46.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -203,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 48.6
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:

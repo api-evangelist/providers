@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -96,9 +96,6 @@ apis:
   name: Finix Webhooks API
   slug: finix-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a buyer Identity and card, place an Authorization, then capture it.
   name: Finix Authorize and Capture
   slug: finix-authorize-and-capture-workflow
@@ -111,7 +108,7 @@ arazzos:
 - description: Convert a finix.js token into a Payment Instrument and create a Transfer (sale).
   name: Finix Tokenize and Charge
   slug: finix-tokenize-and-charge-workflow
-artifact_total: 51
+artifact_total: 50
 asyncapis:
 - description: Finix delivers real-time event notifications via webhooks (HTTP POST) when resources change. Subscribe with POST /webhooks. Each delivery carries an envelope { id, type, entity, occurred_at, system_ge
   name: Finix Webhook Events
@@ -378,7 +375,7 @@ overview: 'Finix publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Finix Rate Limits
@@ -386,7 +383,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.1
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.2
@@ -394,7 +391,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 68.8
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -412,7 +409,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:

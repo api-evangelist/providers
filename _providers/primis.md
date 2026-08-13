@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -152,7 +152,7 @@ overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 80
+random_paper: 60
 score:
   band: thin
   composite: 36.1
@@ -175,7 +175,7 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

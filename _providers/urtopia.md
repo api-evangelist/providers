@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface served natively on the Shopify-powered Urtopia storefront: UCP discovery at /.well-known/ucp, MCP tools for catalog search, product details, cart management, policies/FAQ'
@@ -100,7 +100,7 @@ overview: 'Urtopia publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Urtopia''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 76
+random_paper: 52
 scopes:
 - name: Urtopia Scopes
   scope_count: 4
@@ -109,7 +109,7 @@ scopes:
 score:
   band: emerging
   composite: 18.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -117,12 +117,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

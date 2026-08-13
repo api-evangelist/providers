@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 14
 common:
@@ -164,7 +164,7 @@ overview: 'Pennsylvania Academy of the Fine Arts (PAFA) is profiled on the [APIs
 
 
   Pennsylvania Academy of the Fine Arts (PAFA)''s developer surface includes support, YouTube channel, and 19 more developer resources.'
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 9.8
@@ -178,7 +178,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pafa/refs/heads/main/screenshots/pafa-2026-06-20T191320.png
 security:

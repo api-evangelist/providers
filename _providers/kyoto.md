@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Kyoto Plans Pricing
   plan_count: 2
   slug: kyoto-plans-pricing
-random_paper: 102
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Kyoto Rate Limits
@@ -170,7 +170,7 @@ rules:
 score:
   band: thin
   composite: 37.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
@@ -178,7 +178,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 38.0
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +193,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png
 security:

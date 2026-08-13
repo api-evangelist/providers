@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Bear Flag Robotics
 nav: Providers
 network: true
 overview: Bear Flag Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Autonomous Vehicles, and Agriculture.
-random_paper: 39
+random_paper: 99
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-flag-robotics/refs/heads/main/screenshots/bear-flag-robotics-2026-07-25T202542.png
 security:

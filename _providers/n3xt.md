@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -245,7 +245,7 @@ overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 49
+random_paper: 37
 scopes:
 - name: N3Xt Scopes
   scope_count: 8
@@ -254,7 +254,7 @@ scopes:
 score:
   band: strong
   composite: 56.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.2
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 57.5
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -279,7 +279,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:

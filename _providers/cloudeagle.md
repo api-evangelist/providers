@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The CloudEagle API is an enterprise REST surface that exposes the same SaaS-management primitives as the web app: discovered applications, licenses and usage, identity and access state, onboarding/off'
@@ -77,7 +77,7 @@ plans:
 - name: Cloudeagle Plans Pricing
   plan_count: 3
   slug: cloudeagle-plans-pricing
-random_paper: 1
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Cloudeagle Rate Limits
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -93,10 +93,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 20.0
+  previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/screenshots/cloudeagle-2026-06-20T174549.png
 security:
 - kind: domain-security

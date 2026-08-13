@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Fetch generated assets and projects
@@ -176,11 +176,11 @@ overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: developing
   composite: 53.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 70.9
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 54.8
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     contracts:
@@ -199,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:

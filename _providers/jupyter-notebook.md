@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -222,7 +222,7 @@ plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
   slug: jupyter-notebook-plans-pricing
-random_paper: 73
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Jupyter Notebook Rate Limits
@@ -247,7 +247,7 @@ rules:
 score:
   band: developing
   composite: 45.7
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 72.6
@@ -255,7 +255,7 @@ score:
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 49.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

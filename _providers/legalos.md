@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ overview: 'LegalOS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LegalOS''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: emerging
   composite: 18.1
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legalos/refs/heads/main/screenshots/legalos-2026-07-25T224828.png
 security:

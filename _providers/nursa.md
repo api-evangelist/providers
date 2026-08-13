@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -234,7 +234,7 @@ overview: 'Nursa publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 89
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Nursa Rate Limits
@@ -247,7 +247,7 @@ scopes:
 score:
   band: strong
   composite: 58.0
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 72.7
@@ -255,7 +255,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 57.7
+  previous_composite: 58.0
   provenance:
     conformance: derived
     contracts:
@@ -272,7 +272,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:

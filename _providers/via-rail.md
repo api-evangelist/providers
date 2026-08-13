@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: VIA Rail's complete national timetable published as a static General Transit Feed Specification (GTFS) archive, offered for download from the VIA Rail Developer Resources page with no registration, no
@@ -175,11 +175,11 @@ overview: 'VIA Rail Canada publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   VIA Rail Canada''s developer surface includes authentication, documentation, support, FAQ, status page, engineering blog, and 27 more developer resources.'
-random_paper: 93
+random_paper: 69
 score:
   band: emerging
   composite: 25.9
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 9.7
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 26.8
+  previous_composite: 25.9
   provenance:
     conformance: derived
   regulatory:
@@ -197,7 +197,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

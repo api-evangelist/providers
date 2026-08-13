@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ plans:
 - name: Kimi Moonshot Plans Pricing
   plan_count: 1
   slug: kimi-moonshot-plans-pricing
-random_paper: 82
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Kimi Moonshot Rate Limits
@@ -168,7 +168,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.2
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 43.1
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -185,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:

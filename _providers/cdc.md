@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 66
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.5
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.2
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 34.4
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

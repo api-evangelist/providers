@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Fintech
 nav: Providers
 network: true
 overview: Fintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Payments, Stablecoins, and Banking.
-random_paper: 41
+random_paper: 17
 score:
   band: minimal
   composite: 11.1
@@ -80,7 +80,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintech/refs/heads/main/screenshots/fintech-2026-07-25T214549.png
 security:

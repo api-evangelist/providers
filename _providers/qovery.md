@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 23
@@ -443,7 +443,7 @@ plans:
 - name: Qovery Plans Pricing
   plan_count: 3
   slug: qovery-plans-pricing
-random_paper: 98
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Qovery Rate Limits
@@ -451,7 +451,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.0
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.8
@@ -459,7 +459,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -468,8 +468,8 @@ score:
       marker_coverage: 0.0
       total: 94
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/screenshots/qovery-2026-06-20T192353.png
 security:
 - kind: authentication

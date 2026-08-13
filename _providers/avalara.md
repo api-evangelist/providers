@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -2513,7 +2513,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.1
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 73.3
@@ -2521,7 +2521,7 @@ score:
     discoverability: 68.5
     governance: 83.3
     operational_transparency: 42.1
-  previous_composite: 75.0
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2532,8 +2532,8 @@ score:
       total: 68
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:
 - kind: authentication

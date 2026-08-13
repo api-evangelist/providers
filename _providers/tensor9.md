@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ overview: 'Tensor9 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tensor9''s developer surface includes documentation, getting-started guide, CLI, authentication, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: emerging
   composite: 26.5
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

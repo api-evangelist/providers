@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,16 +48,13 @@ apis:
   name: Adopets system-auth API
   slug: adopets-system-auth-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Connect an external system user, create an adoption payment request with line items, then retrieve it to confirm status. Grounded in real operationIds from the Adopets External API.
   name: Create and collect an adoption payment (Adopets External API)
   slug: adopets-create-adoption-payment
 - description: Connect a staff user, look up a payment transaction by uuid, then issue a refund. Grounded in real operationIds from the Adopets External API.
   name: Refund an adoption payment transaction (Adopets External API)
   slug: adopets-refund-transaction
-artifact_total: 10
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -159,11 +156,11 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: thin
   composite: 34.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 60.7
@@ -171,7 +168,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 34.5
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,7 +186,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:

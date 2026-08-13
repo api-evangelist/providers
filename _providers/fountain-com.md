@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Fountain Com Plans Pricing
   plan_count: 4
   slug: fountain-com-plans-pricing
-random_paper: 72
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Fountain Com Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.7
@@ -148,7 +148,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.1
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -157,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/screenshots/fountain-com-2026-07-25T215044.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -749,7 +749,7 @@ plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
   slug: sendgrid-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Sendgrid Rate Limits
@@ -774,7 +774,7 @@ rules:
 score:
   band: exemplar
   composite: 67.5
-  delta: -9.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 73.6
@@ -782,7 +782,7 @@ score:
     discoverability: 57.4
     governance: 53.1
     operational_transparency: 55.3
-  previous_composite: 77.0
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -793,8 +793,8 @@ score:
       total: 63
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:
 - kind: authentication
@@ -821,5 +821,8 @@ tags:
 - SMTP
 - T1
 - Transactional Email
+- Email Marketing
+- Deliverability
+- Marketing
 website: https://sendgrid.com/en-us
 ---

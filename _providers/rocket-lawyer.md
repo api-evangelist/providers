@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -234,11 +234,11 @@ overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
-random_paper: 77
+random_paper: 33
 score:
   band: developing
   composite: 42.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 53.9
@@ -246,7 +246,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 43.1
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:

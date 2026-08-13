@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -187,7 +187,7 @@ overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Streaming''s developer surface includes code examples and 10 more developer resources.'
-random_paper: 42
+random_paper: 10
 rules:
 - name: Streaming API Rules
   rule_count: 5
@@ -210,7 +210,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:

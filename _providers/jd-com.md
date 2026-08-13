@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: JOS authorization is JD's OAuth 2.0 flow for shop owners and JD enterprise accounts to grant a partner ISV application access. The platform issues an access token and refresh token scoped per shop / p
@@ -164,7 +164,7 @@ plans:
 - name: Jd Com Plans Pricing
   plan_count: 1
   slug: jd-com-plans-pricing
-random_paper: 106
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Jd Com Rate Limits
@@ -182,7 +182,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/screenshots/jd-com-2026-06-20T183726.png
 security:

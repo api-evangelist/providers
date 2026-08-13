@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-03-24'
@@ -39,7 +39,7 @@ name: GTM Release
 nav: Providers
 network: true
 overview: GTM Release is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Communities, Directories, GTM, Marketing, and Press.
-random_paper: 66
+random_paper: 30
 score:
   band: minimal
   composite: 4.4
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: gtm-release
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Formlabs Plans Pricing
   plan_count: 2
   slug: formlabs-plans-pricing
-random_paper: 42
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Formlabs Rate Limits
@@ -148,7 +148,7 @@ scopes:
 score:
   band: thin
   composite: 34.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.3
@@ -156,7 +156,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.9
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -165,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/screenshots/formlabs-2026-06-20T181439.png
 security:

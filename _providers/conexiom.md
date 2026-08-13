@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Conexiom is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Conexiom''s developer surface includes documentation, support, engineering blog, changelog, and 8 more developer resources.'
-random_paper: 54
+random_paper: 26
 score:
   band: emerging
   composite: 20.0
@@ -107,7 +107,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conexiom/refs/heads/main/screenshots/conexiom-2026-07-25T210240.png
 security:

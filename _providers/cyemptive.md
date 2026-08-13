@@ -1,6 +1,51 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cyemptive-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cyemptive.com/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/cyemptive_stock/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cyemptive-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cyemptive-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cyemptive-rate-limits.yml
 coverage:
   checked: '2026-08-11'
   detail: Cyemptive ships ZeroStrike as a delivered end-user security product sold direct and through partners — api.cyemptive.com and developer.cyemptive.com do not exist in DNS, no Cyemptive GitHub organization exists, no first-party package is published on any registry, and the only two reachable technical hosts are logins (an ASP.NET partner portal at partner.cyemptive.com and a Hudu IT-documentation tenant at docs.cyemptive.com), neither of which is an API reference.
@@ -26,7 +71,39 @@ modified: '2026-08-11'
 name: Cyemptive
 nav: Providers
 network: true
-random_paper: 54
+overview: Cyemptive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Ransomware, and Endpoint Security.
+plans:
+- name: Cyemptive Plans Pricing
+  plan_count: 0
+  slug: cyemptive-plans-pricing
+random_paper: 22
+rate_limits:
+- limit_count: 0
+  name: Cyemptive Rate Limits
+  slug: cyemptive-rate-limits
+score:
+  band: minimal
+  composite: 6.2
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 53.7
+    governance: 0.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: domain-security
+  name: Cyemptive Domain Security
+  slug: cyemptive-domain-security
+  summary_line: DMARC
 slug: cyemptive
 tags:
 - Company
@@ -39,4 +116,5 @@ tags:
 - Zero Trust
 - Compliance
 - Government
+website: https://www.cyemptive.com/
 ---

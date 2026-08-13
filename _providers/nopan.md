@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -54,16 +54,13 @@ apis:
   name: Nopan Webhooks API
   slug: nopan-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, initiate a payment for SCA, finalize it, and capture funds.
   name: Nopan — accept and capture a payment
   slug: nopan-accept-payment
 - description: Authenticate, refund a previously captured payment, and confirm via events.
   name: Nopan — refund a captured payment
   slug: nopan-refund-payment
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Nopan Webhooks
@@ -204,7 +201,7 @@ overview: 'Nopan publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nopan''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 76
+random_paper: 60
 scopes:
 - name: Nopan Scopes
   scope_count: 2
@@ -213,7 +210,7 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.7
@@ -221,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 51.1
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,7 +236,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
 security:

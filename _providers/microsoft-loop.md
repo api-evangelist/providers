@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Microsoft Graph Loop API enables developers to interact with Microsoft Loop workspaces and components. Loop components are portable, collaborative content blocks that sync across Microsoft 365 app
@@ -96,7 +96,7 @@ plans:
 - name: Microsoft Loop Plans Pricing
   plan_count: 3
   slug: microsoft-loop-plans-pricing
-random_paper: 77
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Microsoft Loop Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.5
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -112,10 +112,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.3
+  previous_composite: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-loop/refs/heads/main/screenshots/microsoft-loop-2026-06-20T185507.png
 security:
 - kind: domain-security

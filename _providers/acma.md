@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,16 +35,13 @@ apis:
   name: Do Not Call Register Real Time Access (RTA) Washing Service
   slug: do-not-call-register-washing
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve an Australian organisation to its ACMA client number, list every radiocommunications licence it holds, pull the registered devices on a licence and resolve the transmitter site those devices s
   name: ACMA — organisation spectrum footprint
   slug: acma-organisation-spectrum-footprint
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 23
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -209,7 +206,7 @@ plans:
 - name: Acma Plans
   plan_count: 9
   slug: acma-plans
-random_paper: 54
+random_paper: 42
 rate_limits:
 - limit_count: 6
   name: Acma Rate Limits
@@ -217,7 +214,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 60.4
@@ -225,7 +222,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 56.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,7 +240,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-07T160936.png
 security:

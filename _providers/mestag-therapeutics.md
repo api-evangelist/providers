@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Mestag Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Mestag Therapeutics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 63
 score:
   band: minimal
   composite: 9.0
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mestag-therapeutics/refs/heads/main/screenshots/mestag-therapeutics-2026-08-07T172634.png
 security:

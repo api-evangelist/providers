@@ -10,26 +10,27 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-11'
-api_count: 4
+  score: 50.9
+  scored_at: '2026-08-12'
+api_count: 5
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
   name: Yieldmo JavaScript SDK API
@@ -43,7 +44,10 @@ apis:
 - description: Proprietary programmatic exchange and creative intelligence platform offering curated inventory access, contextual targeting, attention analytics, and deal management for advertisers and demand-side p
   name: Yieldmo YMax Platform API
   slug: yieldmo-ymax-platform-api
-artifact_total: 9
+- description: OAuth-protected campaign reporting and analytics API over Yieldmo YMax exchange data, served as both a Model Context Protocol server and a REST API by one application at api.yieldmo.com/dcs/mcp. Ninet
+  name: Yieldmo DCS Reporting API
+  slug: yieldmo-dcs-reporting-api
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -59,7 +63,7 @@ common:
   url: https://github.com/yieldmo/yieldmo-js-sdk/wiki
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/yieldmo
 - group: company
   title: ''
@@ -73,14 +77,18 @@ common:
   title: ''
   type: Pricing
   url: https://yieldmo.com/solutions/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://yieldmo.com
 - group: other
   title: ''
   type: X
   url: https://x.com/yieldmo
+- group: start
+  title: ''
+  type: Login
+  url: https://apps.yieldmo.com/auth
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://yieldmo.com/privacy-policy/
 - group: commercial
   title: ''
   type: Plans
@@ -93,6 +101,70 @@ common:
   title: ''
   type: FinOps
   url: finops/yieldmo-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/yieldmo-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/yieldmo-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/yieldmo-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/yieldmo-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/yieldmo-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/yieldmo-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/yieldmo-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/yieldmo-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/yieldmo-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/yieldmo-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/yieldmo-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/yieldmo-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/yieldmo-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/yieldmo-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/yieldmo-llms.txt
 created: '2026-06-13'
 description: Yieldmo is a programmatic native advertising marketplace and smart exchange that differentiates and enhances the value of ad inventory for buyers and sellers. The platform provides REST APIs and JavaScript SDKs for managing ad placements, proprietary ad formats, contextual targeting, publisher inventory monetization, and campaign performance analytics powered by attention data and machine learning.
 finops:
@@ -106,47 +178,60 @@ jsonld:
   property_count: 0
   slug: yieldmo
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: yieldmo-mcp.yml
+  slug: yieldmo-mcpyml
+modified: '2026-08-12'
 name: Yieldmo
 nav: Providers
 network: true
-overview: 'Yieldmo publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Programmatic, Native Advertising, Ad Exchange, and Publisher Monetization.
+overview: 'Yieldmo publishes 1 API on the [APIs.io](https://apis.io/) network: DCS Reporting API. Tagged areas include Advertising, Programmatic, Native Advertising, Ad Exchange, and Publisher Monetization.
 
 
   The Yieldmo catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Yieldmo''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Yieldmo''s developer surface includes documentation, engineering blog, pricing, authentication, sandbox, and 24 more developer resources.'
 plans:
 - name: Yieldmo Plans Pricing
   plan_count: 3
   slug: yieldmo-plans-pricing
-random_paper: 59
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Yieldmo Rate Limits
   slug: yieldmo-rate-limits
+scopes:
+- name: Yieldmo Scopes
+  scope_count: 3
+  slug: yieldmo-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 24.4
-  delta: 0.0
+  band: developing
+  composite: 48.9
+  delta: 24.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 8.1
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
+    commercial_clarity: 73.7
+    contract_quality: 47.0
+    developer_ergonomics: 50.0
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 5.3
   previous_composite: 24.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:
+- kind: authentication
+  name: Yieldmo Authentication
+  slug: yieldmo-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Yieldmo Domain Security
   slug: yieldmo-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: yieldmo
 tags:
 - Advertising
@@ -159,5 +244,10 @@ tags:
 - Ad Formats
 - Supply-Side Platform
 - SSP
+- Campaign Reporting
+- Attention Analytics
+- MCP
+- Prebid
+- AdTech
 website: https://yieldmo.com
 ---

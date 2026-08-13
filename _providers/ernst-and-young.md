@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -202,7 +202,7 @@ plans:
 - name: Ernst And Young Plans Pricing
   plan_count: 3
   slug: ernst-and-young-plans-pricing
-random_paper: 7
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Ernst And Young Rate Limits
@@ -210,7 +210,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.4
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 12.9
@@ -218,9 +218,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 25.3
+  previous_composite: 27.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ernst-and-young/refs/heads/main/screenshots/ernst-and-young-2026-06-20T180813.png
 security:

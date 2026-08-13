@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Commusoft Plans Pricing
   plan_count: 5
   slug: commusoft-plans-pricing
-random_paper: 61
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Commusoft Rate Limits
@@ -194,7 +194,7 @@ rules:
 score:
   band: developing
   composite: 47.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.3
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 47.8
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
 security:

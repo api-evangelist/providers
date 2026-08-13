@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
@@ -166,11 +166,11 @@ overview: 'TrueBiz publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 77
+random_paper: 53
 score:
   band: thin
   composite: 40.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.2
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.2
+  previous_composite: 40.0
   provenance:
     conformance: derived
     contracts:
@@ -195,7 +195,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

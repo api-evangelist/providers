@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted GraphQL subgraph (The Graph Protocol) indexing the RAI/GEB on-chain contracts on Ethereum mainnet. Query SAFEs, collateral, system state, redemption rate, and historical data by block. Read-onl
@@ -115,11 +115,11 @@ overview: 'Reflexer publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Reflexer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 49
+random_paper: 21
 score:
   band: emerging
   composite: 22.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -127,9 +127,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.7
+  previous_composite: 22.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

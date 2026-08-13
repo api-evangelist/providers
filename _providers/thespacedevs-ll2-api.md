@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 40
 apis:
 - description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
@@ -224,7 +224,7 @@ plans:
 - name: Thespacedevs Ll2 Api Plans Pricing
   plan_count: 3
   slug: thespacedevs-ll2-api-plans-pricing
-random_paper: 93
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Thespacedevs Ll2 Api Rate Limits
@@ -249,7 +249,7 @@ rules:
 score:
   band: thin
   composite: 37.1
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 63.2
@@ -257,7 +257,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 45.6
+  previous_composite: 37.1
   provenance:
     contracts:
       callable: 100.0
@@ -265,8 +265,8 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:
 - kind: domain-security

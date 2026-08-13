@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Proactis procurement and spend management API for purchase-to-pay, sourcing, and contract management.
@@ -80,7 +80,7 @@ plans:
 - name: Proactis Plans Pricing
   plan_count: 3
   slug: proactis-plans-pricing
-random_paper: 57
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Proactis Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -96,10 +96,10 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.7
+  previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Proactis Domain Security

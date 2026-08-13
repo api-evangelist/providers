@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Server-side CAPTCHA answer verification.
@@ -165,11 +165,11 @@ plans:
 - name: Capy Inc Plans
   plan_count: 2
   slug: capy-inc-plans
-random_paper: 92
+random_paper: 68
 score:
   band: developing
   composite: 49.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 57.5
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 49.8
+  previous_composite: 49.3
   provenance:
     conformance: derived
     contracts:
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-07-25T204457.png
 security:

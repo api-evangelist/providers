@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ plans:
 - name: Close Plans Pricing
   plan_count: 7
   slug: close-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Close Rate Limits
@@ -362,7 +362,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.8
-  delta: -6.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 54.1
@@ -370,7 +370,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -385,8 +385,8 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:
 - kind: authentication

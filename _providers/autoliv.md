@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 17
 common:
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: NANGA SYSTEMS' Post
   url: https://www.linkedin.com/posts/nanga-systems_the-recent-press-release-that-autoliv-is-activity-7445439948893184000-nIRn
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Autoliv Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.0
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -121,10 +121,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.2
+  previous_composite: 9.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png
 security:
 - kind: domain-security

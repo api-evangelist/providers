@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for open-source, frontier, and custom language models — chat completions, batch/async inference, function calling, structured outputs, and vision — authenticated with a
@@ -164,7 +164,7 @@ plans:
 - name: Inference Plans
   plan_count: 3
   slug: inference-plans
-random_paper: 15
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Inference Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.2
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.6
@@ -180,12 +180,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 58.4
+  previous_composite: 57.2
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/screenshots/inference-2026-07-25T222358.png
 security:

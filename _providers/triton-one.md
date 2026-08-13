@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ plans:
 - name: Triton One Plans Pricing
   plan_count: 1
   slug: triton-one-plans-pricing
-random_paper: 111
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Triton One Rate Limits
@@ -304,7 +304,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.4
@@ -312,7 +312,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 59.5
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -321,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/screenshots/triton-one-2026-06-20T195737.png
 security:

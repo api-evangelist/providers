@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -39,16 +39,28 @@ common:
   title: ''
   type: Website
   url: https://jumprampgames.com
+coverage:
+  checked: '2026-08-12'
+  detail: Jump Ramp Games was acquired by MobilityWare in September 2019 and fully absorbed; jumprampgames.com and the Lucktastic product domain both now answer HTTP 301 to https://mobilityware.com/, so there is no Jump Ramp surface left to profile — no developer site, no spec, no GitHub org (all four candidate org names 404).
+  evidence:
+  - status: 301
+    url: https://jumprampgames.com/
+  - status: 404
+    url: https://lucktastic.com/openapi.json
+  - status: 404
+    url: https://api.github.com/orgs/jumprampgames
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Jump Ramp Games was a New York City casual mobile gaming company best known for Lucktastic, a free scratch-card, rewards, and instant-win app that launched on Android in 2014 and grew to roughly 10 million US installs across Android and iOS, consistently ranking near the top of the lifestyle category. Founded by Alex Betancur and Tony Vartanian and backed by Bullpen Capital, the company paired free-to-play casual gaming with performance-marketing and rewards technology. Jump Ramp Games was acquired by MobilityWare in September 2019, which took over the Lucktastic franchise; the jumprampgames.com domain now redirects to mobilityware.com. The company exposes no public developer, API, or documentation surface, so this profile is maintained as a company record in the API Evangelist network rather than an API provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jump-ramp-games.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-12'
 name: Jump Ramp Games
 nav: Providers
 network: true
 overview: Jump Ramp Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Games, Casual Gaming, Rewards, and Consumer.
-random_paper: 99
+random_paper: 51
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jump-ramp-games/refs/heads/main/screenshots/jump-ramp-games-2026-07-25T223317.png
 security:

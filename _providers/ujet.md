@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,11 +111,11 @@ overview: 'UJET is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   UJET''s developer surface includes engineering blog, pricing, support, and 14 more developer resources.'
-random_paper: 92
+random_paper: 80
 score:
   band: emerging
   composite: 20.5
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -123,11 +123,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 23.3
+  previous_composite: 20.5
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

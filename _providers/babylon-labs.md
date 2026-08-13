@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -160,11 +160,11 @@ overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Babylon Labs'' developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 46
+random_paper: 6
 score:
   band: thin
   composite: 36.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 40.3
@@ -172,7 +172,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 37.0
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:

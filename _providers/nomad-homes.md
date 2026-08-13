@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Nomad Homes'' developer surface includes support and 8 more developer resources.'
-random_paper: 68
+random_paper: 32
 score:
   band: minimal
   composite: 12.6
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-homes/refs/heads/main/screenshots/nomad-homes-2026-08-07T185443.png
 security:

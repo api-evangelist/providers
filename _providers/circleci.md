@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ plans:
 - name: Circleci Plans Pricing
   plan_count: 3
   slug: circleci-plans-pricing
-random_paper: 18
+random_paper: 110
 rate_limits:
 - limit_count: 4
   name: Circleci Rate Limits
@@ -479,7 +479,7 @@ rules:
 score:
   band: developing
   composite: 54.4
-  delta: -7.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 72.5
@@ -487,7 +487,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 62.1
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -496,8 +496,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
 security:
 - kind: authentication

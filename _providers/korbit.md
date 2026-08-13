@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'Korbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Korbit Rate Limits
@@ -215,7 +215,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 72.3
@@ -223,7 +223,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 49.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,7 +241,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

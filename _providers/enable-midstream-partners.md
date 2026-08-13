@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: OGE Energy Corp. announces the successful close of ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-the-successful-close-of-the-merger-between-energy-transfer-and-enable-midstream-partners-301436738.html
-random_paper: 114
+random_paper: 30
 score:
   band: minimal
   composite: 6.6
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-midstream-partners/refs/heads/main/screenshots/enable-midstream-partners-2026-06-20T180646.png
 security:

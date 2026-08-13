@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -147,7 +147,7 @@ overview: 'Flight Centre Travel Group is profiled on the [APIs.io](https://apis.
 
 
   Flight Centre Travel Group''s developer surface includes product news, support, engineering blog, documentation, and 24 more developer resources.'
-random_paper: 48
+random_paper: 4
 score:
   band: emerging
   composite: 15.6
@@ -164,7 +164,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flight-centre/refs/heads/main/screenshots/flight-centre-2026-08-07T165341.png
 security:

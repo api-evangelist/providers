@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ overview: 'CompanyCam publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CompanyCam''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 20
+random_paper: 104
 rate_limits:
 - limit_count: 4
   name: Companycam Rate Limits
@@ -255,7 +255,7 @@ scopes:
 score:
   band: strong
   composite: 60.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.1
@@ -263,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 86.8
-  previous_composite: 62.5
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
 security:

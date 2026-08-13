@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,11 +173,11 @@ overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
-random_paper: 35
+random_paper: 119
 score:
   band: thin
   composite: 38.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.1
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 38.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

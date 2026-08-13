@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Gartner is the world authority on AI
   url: https://www.gartner.com/en/ai
-random_paper: 59
+random_paper: 35
 score:
   band: emerging
   composite: 15.8
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png
 security:

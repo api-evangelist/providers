@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for programmatic trading on Public — manage brokerage accounts, pull portfolio and transaction history, retrieve market data (quotes, bars, option chains, greeks), and place, replace, and can
@@ -152,7 +152,7 @@ overview: 'Public publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Public''s developer surface includes documentation, getting-started guide, changelog, signup flow, pricing, support, engineering blog, and 18 more developer resources.'
-random_paper: 59
+random_paper: 39
 scopes:
 - name: Public Scopes
   scope_count: 4
@@ -180,7 +180,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

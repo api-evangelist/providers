@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: data & AI
   url: https://aholddelhaize.com/about/technology-innovation/data-ai/
-random_paper: 63
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Tech Data Rate Limits
@@ -215,7 +215,7 @@ rules:
 score:
   band: developing
   composite: 42.6
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.1
@@ -223,7 +223,7 @@ score:
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 7.9
-  previous_composite: 51.2
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:
 - kind: authentication

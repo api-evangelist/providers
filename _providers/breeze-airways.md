@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Breeze Airways NDC gateway is the airline's direct-connect distribution API for accredited travel partners. It speaks IATA Offers and Orders (NDC) 21.3 XML over HTTPS on a Navitaire-hosted gateway
@@ -146,7 +146,7 @@ overview: 'Breeze Airways publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Breeze Airways'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 58
+random_paper: 10
 scopes:
 - name: Breeze Airways Scopes
   scope_count: 0
@@ -155,7 +155,7 @@ scopes:
 score:
   band: thin
   composite: 32.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -163,13 +163,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 33.2
+  previous_composite: 32.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/screenshots/breeze-airways-2026-08-07T162755.png
 security:

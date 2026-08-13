@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -221,11 +221,11 @@ overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   TMT ID''s developer surface includes sandbox, authentication, documentation, developer portal, signup flow, engineering blog, support, and 31 more developer resources.'
-random_paper: 11
+random_paper: 111
 score:
   band: developing
   composite: 43.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 50.6
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 45.0
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -119,7 +119,7 @@ plans:
 - name: Loyaltylion Plans Pricing
   plan_count: 4
   slug: loyaltylion-plans-pricing
-random_paper: 56
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Loyaltylion Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.2
@@ -135,7 +135,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 37.9
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -144,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/screenshots/loyaltylion-2026-07-25T225628.png
 security:

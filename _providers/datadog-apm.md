@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Service Definitions API from Datadog APM — 2 operation(s) for service definitions.
@@ -132,7 +132,7 @@ plans:
 - name: Datadog Apm Plans Pricing
   plan_count: 3
   slug: datadog-apm-plans-pricing
-random_paper: 43
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Datadog Apm Rate Limits
@@ -157,7 +157,7 @@ rules:
 score:
   band: developing
   composite: 48.7
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 70.9
@@ -165,7 +165,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 52.9
+  previous_composite: 48.7
   provenance:
     contracts:
       callable: 100.0
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

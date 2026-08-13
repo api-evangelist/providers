@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -162,11 +162,11 @@ overview: 'Casap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Casap''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 56
+random_paper: 40
 score:
   band: developing
   composite: 42.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.2
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.2
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,7 +192,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

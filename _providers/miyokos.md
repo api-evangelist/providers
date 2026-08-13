@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,11 +80,11 @@ overview: 'Miyokos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Miyokos'' developer surface includes authentication and 7 more developer resources.'
-random_paper: 83
+random_paper: 59
 score:
   band: emerging
   composite: 15.5
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -92,7 +92,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.0
+  previous_composite: 15.5
   provenance:
     mcp: first-party
   regulatory:
@@ -102,7 +102,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miyokos/refs/heads/main/screenshots/miyokos-2026-08-07T183958.png
 security:

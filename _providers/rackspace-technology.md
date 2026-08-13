@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -341,7 +341,7 @@ plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
   slug: rackspace-technology-plans-pricing
-random_paper: 98
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Rackspace Technology Rate Limits
@@ -366,7 +366,7 @@ rules:
 score:
   band: developing
   composite: 43.5
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 27.7
@@ -374,7 +374,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 43.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -383,7 +383,7 @@ score:
       marker_coverage: 100.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

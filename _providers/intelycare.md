@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,11 +153,11 @@ overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 28
+random_paper: 112
 score:
   band: developing
   composite: 44.6
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.7
@@ -165,7 +165,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,7 +183,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic access to the Antithesis autonomous testing platform via tenant-scoped webhook endpoints. POST /basic_test launches a test run; POST /debugging starts a multiverse debugging session. Auth
@@ -132,7 +132,7 @@ overview: 'Antithesis publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Antithesis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
-random_paper: 40
+random_paper: 4
 score:
   band: thin
   composite: 31.4
@@ -149,7 +149,7 @@ score:
     conformance: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antithesis/refs/heads/main/screenshots/antithesis-2026-07-25T200432.png
 security:

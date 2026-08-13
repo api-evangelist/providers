@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ overview: 'AristaMD publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   AristaMD''s developer surface includes signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: thin
   composite: 37.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.5
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 38.9
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

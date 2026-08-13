@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -195,7 +195,7 @@ plans:
 - name: Clari Plans Pricing
   plan_count: 3
   slug: clari-plans-pricing
-random_paper: 59
+random_paper: 43
 rate_limits:
 - limit_count: 6
   name: Clari Rate Limits
@@ -212,7 +212,7 @@ rules:
 score:
   band: strong
   composite: 57.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 78.0
@@ -220,7 +220,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 58.6
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/screenshots/clari-2026-06-20T174439.png
 security:

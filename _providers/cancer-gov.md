@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Cancer Gov Plans Pricing
   plan_count: 3
   slug: cancer-gov-plans-pricing
-random_paper: 69
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Cancer Gov Rate Limits
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 52.2
@@ -159,7 +159,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.3
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png
 security:
 - kind: authentication

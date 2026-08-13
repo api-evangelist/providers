@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,11 +60,11 @@ name: Reckitt Benckiser
 nav: Providers
 network: true
 overview: Reckitt Benckiser is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Personal Care, Household Products, Health & Hygiene, and Nutrition.
-random_paper: 62
+random_paper: 38
 score:
   band: minimal
   composite: 6.6
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,7 +72,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 5.7
+  previous_composite: 6.6
   regulatory:
     applies: true
     matched_via: tags
@@ -80,7 +80,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reckitt/refs/heads/main/screenshots/reckitt-2026-06-20T192658.png
 security:

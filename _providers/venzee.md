@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RESTful API for the Venzee / Jasper PIM platform. Manage products, variants, categories, brands, attributes and options, channel-specific pricing and inventory, and digital assets; subscribe to webhoo
@@ -123,11 +123,11 @@ overview: 'Venzee publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Venzee''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: thin
   composite: 38.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -135,9 +135,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 39.1
+  previous_composite: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

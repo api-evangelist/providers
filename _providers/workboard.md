@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -231,11 +231,11 @@ overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 43
+random_paper: 11
 score:
   band: strong
   composite: 56.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.1
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 58.1
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,7 +255,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

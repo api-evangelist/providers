@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Open-source command-line tool and engine that turns a Garden project configuration into a graph of Build, Deploy, Test, and Run actions and executes them locally or against remote Kubernetes clusters.
@@ -136,7 +136,7 @@ plans:
 - name: Garden Io Plans Pricing
   plan_count: 1
   slug: garden-io-plans-pricing
-random_paper: 74
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Garden Io Rate Limits
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -152,9 +152,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 18.3
+  previous_composite: 22.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garden-io/refs/heads/main/screenshots/garden-io-2026-06-20T181648.png
 security:

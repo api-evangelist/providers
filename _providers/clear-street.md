@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
-random_paper: 67
+random_paper: 27
 scopes:
 - name: Clear Street Scopes
   scope_count: 5
@@ -283,7 +283,7 @@ scopes:
 score:
   band: strong
   composite: 63.9
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.8
@@ -291,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 64.2
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,7 +309,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: ManpowerGroup Talent Solutions Partners with Carv as ...
   url: https://www.prnewswire.com/news-releases/manpowergroup-talent-solutions-partners-with-carv-as-part-of-its-strategy-to-embed-gen-ai-within-recruitment-302510536.html
-random_paper: 38
+random_paper: 110
 score:
   band: minimal
   composite: 5.0
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manpowergroup/refs/heads/main/screenshots/manpowergroup-2026-06-20T184925.png
 security:

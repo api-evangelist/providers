@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -183,7 +183,7 @@ plans:
 - name: Soundstripe Plans Pricing
   plan_count: 7
   slug: soundstripe-plans-pricing
-random_paper: 56
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Soundstripe Rate Limits
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 57.8
@@ -199,7 +199,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 42.1
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png
 security:

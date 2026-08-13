@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Opendatasoft Explore Api
   plan_count: 3
   slug: opendatasoft-explore-api
-random_paper: 12
+random_paper: 88
 rate_limits:
 - limit_count: 4
   name: Opendatasoft Explore Api
@@ -210,7 +210,7 @@ rules:
 score:
   band: developing
   composite: 53.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.4
@@ -218,7 +218,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -233,7 +233,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/screenshots/opendatasoft-2026-06-20T190954.png
 security:

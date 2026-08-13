@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Domain Intelligence API from WhoAPI — 1 operation(s) for domain intelligence.
@@ -140,11 +140,11 @@ overview: 'WhoAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Do
 
 
   WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
-random_paper: 68
+random_paper: 48
 score:
   band: developing
   composite: 45.9
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.5
@@ -152,7 +152,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 46.0
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -163,7 +163,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

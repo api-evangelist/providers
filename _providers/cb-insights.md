@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -227,7 +227,7 @@ overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) netw
 
 
   CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 71
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Cb Insights Rate Limits
@@ -235,7 +235,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.1
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 31.3
     operational_transparency: 42.1
-  previous_composite: 56.9
+  previous_composite: 55.3
   provenance:
     conformance: first-party
     contracts:
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

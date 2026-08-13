@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Press releases, publications, corporate pages and site-specific custom post types.
@@ -197,11 +197,11 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
-random_paper: 112
+random_paper: 48
 score:
   band: thin
   composite: 30.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 57.4
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 30.7
   provenance:
     conformance: derived
     contracts:
@@ -225,7 +225,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

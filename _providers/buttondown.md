@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Buttondown Plans Pricing
   plan_count: 3
   slug: buttondown-plans-pricing
-random_paper: 64
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Buttondown Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: -9.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 52.2
@@ -155,7 +155,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 44.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
     regime_id: telecommunications
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication

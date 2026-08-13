@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
@@ -192,11 +192,11 @@ overview: 'Koppla publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
-random_paper: 67
+random_paper: 47
 score:
   band: thin
   composite: 40.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 43.2
@@ -204,13 +204,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 41.8
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/screenshots/koppla-2026-07-25T224214.png
 security:

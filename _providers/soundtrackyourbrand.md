@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Soundtrack's public GraphQL API for building display, control and monitoring apps on top of the Soundtrack business music service. Query now-playing and schedule state, control playback on sound zones
@@ -163,11 +163,11 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 
 
   Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 96
+random_paper: 28
 score:
   band: developing
   composite: 43.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -175,12 +175,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 43.4
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

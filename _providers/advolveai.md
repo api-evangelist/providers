@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -43,30 +43,54 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/advolve-ai
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/advolve
+coverage:
+  checked: '2026-08-12'
+  detail: Advolve sells an AI-run performance-marketing service through a five-page marketing SPA and a Cloudflare Access-protected customer console at app.advolve.ai — there is no developer portal, no API reference, no SDK and no public API host, and the only Advolve API hostname published anywhere (landing-page-api.advolve.ai, the site's own contact-form backend) no longer resolves.
+  evidence:
+  - status: 200
+    url: https://advolve.ai/openapi.json
+  - status: 200
+    url: https://advolve.ai/.well-known/agent-card.json
+  - status: 200
+    url: https://advolve.ai/sitemap.xml
+  - status: 302
+    url: https://app.advolve.ai/
+  - status: 0
+    url: https://landing-page-api.advolve.ai/contacts
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Advolve.AI is an AI-driven performance-marketing and customer-acquisition platform for e-commerce brands and marketplaces, offering an end-to-end solution to automate, scale, and optimize paid media and digital advertising, including a patent-pending creative-optimization capability that tunes interactive ad elements (messaging, graphics, colors, fonts). Founded in 2023 and headquartered in Sao Paulo, Brazil, Advolve was backed by Prosus Ventures and Valor Capital and was acquired by iFood (Prosus group) in November 2025 to power iFood Ads across Latin America. Advolve publishes a marketing website only; as of enrichment it exposes no public developer program, API, SDKs, or documentation surface.
 image: https://advolve.ai/images/og-image.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: Advolve.AI
 nav: Providers
 network: true
 overview: Advolve.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Advertising, Marketing, and AdTech.
-random_paper: 27
+plans:
+- name: Advolveai Plans Pricing
+  plan_count: 0
+  slug: advolveai-plans-pricing
+random_paper: 115
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 5.7
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advolveai/refs/heads/main/screenshots/advolveai-2026-07-25T181710.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ plans:
 - name: Beamable Plans Pricing
   plan_count: 5
   slug: beamable-plans-pricing
-random_paper: 113
+random_paper: 89
 rate_limits:
 - limit_count: 12
   name: Beamable Rate Limits
@@ -195,7 +195,7 @@ rules:
 score:
   band: developing
   composite: 51.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.1
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 52.4
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/screenshots/beamable-2026-06-20T173103.png
 security:

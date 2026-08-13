@@ -1,20 +1,21 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Partner
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://docs.prebid.org/dev-docs/bidders/silverpush.html
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,44 +23,153 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 0
+  score: 15.8
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: Silverpush's first-party programmatic bid endpoint, registered upstream in the Prebid ecosystem under the bidder code "silverpush" and maintained from prebid@silverpush.co. It speaks OpenRTB over HTTP
+  name: Silverpush Prebid Bidder (Chocolate Ad Exchange)
+  slug: silverpush-prebid-bidder-chocolate-ad-exchange
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://silverpush.co
+- group: start
+  title: ''
+  type: Portal
+  url: https://chocolateplatform.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://chocolateplatform.com/download-sdk
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.prebid.org/dev-docs/bidders/silverpush.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://silverpush.co/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://silverpush.co/blogs/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SilverPush
+- group: start
+  title: ''
+  type: SignUp
+  url: https://chocolateplatform.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://silverpush.co/terms-services/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://silverpush.co/privacy-policy/
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/silveredge-prebid-bidder-params.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/silveredge-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/silveredge-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/silveredge-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/silveredge-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/silveredge-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/silveredge-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/silveredge-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/silveredge-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/silveredge-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/silveredge-llms.txt
 created: '2026-07-17'
-description: Silveredge was added to the API Evangelist network as a stub from the 500 Global venture portfolio; the website property wired to this record (silverpush.co) presents Silverpush, an AI-powered contextual intelligence company that helps advertisers deliver contextually relevant, brand-safe video advertising across YouTube, CTV, TikTok, Meta, and the open web through its Mirrors contextual intelligence suite and Parallels moment-marketing platform. As of this enrichment pass the company publishes no public API, developer portal, documentation, SDKs, or /.well-known discovery surface — developer subdomains do not resolve and developer paths return 404 — so there is no API artifact surface to harvest. This profile remains a company lead.
+description: 'Silveredge is SilverEdge Technologies, the operating entity behind the Silverpush brand — an AI-powered contextual intelligence and video advertising company backed by 500 Global, whose corporate site is silverpush.co. Silverpush sells Mirrors, a contextual intelligence suite for brand-safe video advertising across YouTube, CTV, TikTok, Meta and the open web, and Parallels, a moment-marketing platform. It also operates Chocolate Platform (chocolateplatform.com), the mobile video SSP it acquired with Vdopia, which is publicly branded "Chocolate Platform by SilverPush". Its machine-readable API surface is programmatic rather than REST: Silverpush maintains a first-party OpenRTB bid endpoint registered upstream in Prebid Server and Prebid.js under the bidder code "silverpush", with a published JSON Schema for its bid parameters and a maintainer address of prebid@silverpush.co. Chocolate also documents a first-party mobile mediation SDK for Android, iOS, Unity, Xamarin, Cordova
+  and Cocos2d-x, with public sample apps on GitHub — though every distribution channel that surface advertises now fails to resolve. There is no public REST API, OpenAPI, developer portal, MCP server, agent card or /.well-known discovery surface on any host this company controls.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silveredge.png
+json_schemas:
+- name: Silverpush OpenRTB Bidder Adapter
+  property_count: 2
+  slug: silveredge-prebid-bidder-params
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Silveredge
 nav: Providers
 network: true
-overview: Silveredge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Intelligence, and Artificial Intelligence.
-random_paper: 22
+overview: 'Silveredge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Intelligence, and Artificial Intelligence.
+
+
+  Silveredge''s developer surface includes developer portal, documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
+plans:
+- name: Silveredge Plans Pricing
+  plan_count: 0
+  slug: silveredge-plans-pricing
+random_paper: 106
+rate_limits:
+- limit_count: 0
+  name: Silveredge Rate Limits
+  slug: silveredge-rate-limits
 score:
-  band: minimal
-  composite: 5.0
-  delta: 0.0
+  band: thin
+  composite: 30.0
+  delta: 25.0
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 42.1
+    contract_quality: 9.7
+    developer_ergonomics: 41.3
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
+security:
+- kind: authentication
+  name: Silveredge Authentication
+  slug: silveredge-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Silveredge Domain Security
+  slug: silveredge-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: silveredge
 tags:
 - Company
@@ -69,5 +179,12 @@ tags:
 - Artificial Intelligence
 - Video Advertising
 - Marketing
+- Programmatic Advertising
+- OpenRTB
+- Prebid
+- Supply Side Platform
+- CTV
+- Mobile Advertising
+- Brand Safety
 website: https://silverpush.co
 ---

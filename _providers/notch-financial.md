@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Notch Financial Plans Pricing
   plan_count: 1
   slug: notch-financial-plans-pricing
-random_paper: 10
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Notch Financial Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.7
@@ -139,7 +139,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -154,7 +154,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/screenshots/notch-financial-2026-08-07T185542.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,11 +55,25 @@ common:
   title: ''
   type: Website
   url: https://divestudios.io
+coverage:
+  checked: '2026-08-12'
+  detail: DIVE Studios sells K-entertainment media, advertising and creator campaigns — its sitemap is 40 marketing and case-study pages with no developer, docs or reference route, the word "API" appears nowhere on the site, and no api./developer./docs. subdomain resolves; the only machine-readable thing it publishes is an llms.txt describing those same marketing pages.
+  evidence:
+  - status: 200
+    url: https://divestudios.io/sitemap.xml
+  - status: 404
+    url: https://divestudios.io/openapi.json
+  - status: 404
+    url: https://divestudios.io/.well-known/agent-card.json
+  - status: 200
+    url: https://divestudios.io/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: 'DIVE Studios is a global K-entertainment media platform that produces original shows, podcasts, and short-form social content, reaching over 135M Gen Z and Millennial fans and 5B+ lifetime views. The company operates two commercial arms: DIVE Media, which sells advertising and branded content across its podcast, video, and social network, and DIVE Agency (DIVE X), which builds creator, influencer, and celebrity marketing campaigns for global brands connecting with K-culture audiences. It publishes an llms.txt describing its pages but exposes no public developer API, SDK, or portal. Surfaced as a 500 Global portfolio company and profiled in the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dive-studios.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-12'
 name: DIVE studios
 nav: Providers
 network: true
@@ -67,11 +81,11 @@ overview: 'DIVE studios is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   DIVE studios'' developer surface includes support and 5 more developer resources.'
-random_paper: 88
+random_paper: 48
 score:
   band: minimal
   composite: 10.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -79,9 +93,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 10.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dive-studios/refs/heads/main/screenshots/dive-studios-2026-07-25T212125.png
 security:

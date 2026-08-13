@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,11 +92,11 @@ press:
 - date: '2026-05-25'
   title: Cigna acquires Express Scripts for $67 billion
   url: https://www.benefitscanada.com/news/bencan/cigna-acquires-express-scripts-for-67-billion/
-random_paper: 65
+random_paper: 105
 score:
   band: minimal
   composite: 11.5
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -104,7 +104,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 10.9
+  previous_composite: 11.5
   regulatory:
     applies: true
     matched_via: tags
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/screenshots/express-scripts-holding-2026-06-20T180943.png
 security:

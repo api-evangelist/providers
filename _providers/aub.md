@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Public RESTful (HAL) API for the AUB ScholarWorks institutional repository, running on DSpace 9.1. Exposes communities, collections, items, bitstreams, discovery/search, and metadata over HTTP/JSON. T
@@ -106,7 +106,7 @@ plans:
 - name: Aub Plans Pricing
   plan_count: 2
   slug: aub-plans-pricing
-random_paper: 80
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Aub Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aub/refs/heads/main/screenshots/aub-2026-06-20T172544.png
 security:

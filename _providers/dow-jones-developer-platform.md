@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Dow Jones Developer Platform provides developers with access to Dow Jones' news, business intelligence, and market data through a catalog of APIs and data feeds. It supports use cases across newsr
@@ -69,7 +69,7 @@ plans:
 - name: Dow Jones Developer Platform Plans Pricing
   plan_count: 3
   slug: dow-jones-developer-platform-plans-pricing
-random_paper: 59
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Dow Jones Developer Platform Rate Limits
@@ -77,7 +77,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.2
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -85,7 +85,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.8
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
@@ -93,8 +93,8 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/screenshots/dow-jones-developer-platform-2026-06-20T180207.png
 security:
 - kind: domain-security

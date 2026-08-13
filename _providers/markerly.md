@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Contact Sales
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://markerly.com/contact-us
+  - https://markerly.com/pricing
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 15.8
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: A first-party FFmpeg media-processing microservice Markerly runs on Google Cloud Run. It exposes two documented JSON/HTTP operations — a health check and a thumbnail generator that renders a JPEG fram
+  name: Markerly Media Processor
+  slug: media-processor
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -51,40 +57,107 @@ common:
   title: ''
   type: DomainSecurity
   url: security/markerly-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Markerly
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://markerly.com/msa
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://markerly.com/tos
+- group: start
+  title: ''
+  type: SignUp
+  url: https://markerly.creatorsaurus.com/register
+- group: start
+  title: ''
+  type: Login
+  url: https://markerly.creatorsaurus.com/login
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/markerly-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/markerly-error-codes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/markerly-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/markerly-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/markerly-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/markerly-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/markerly-plans-pricing.yml
 created: '2026-07-17'
-description: 'Markerly is a full-service influencer marketing agency, running creator campaigns since 2012 across strategy, vetted-creator sourcing, content, activation, and real-time measurement. Two specialties set the Austin, Texas agency apart: influencer campaigns for government agencies, public health, and nonprofits (advocacy), and bilingual/multicultural creator campaigns. Markerly operates managed campaigns and a creator network rather than a public developer API; it was surfaced as a 500 Global portfolio company and profiled in the API Evangelist network. This enrichment pass confirmed a marketing/agency surface (site, llms.txt, robots.txt) with no public API, OpenAPI, MCP, or developer portal.'
+description: 'Markerly is a full-service influencer marketing agency, running creator campaigns since 2012 across strategy, vetted-creator sourcing, content, activation, and real-time measurement. Two specialties set the Austin, Texas agency apart: influencer campaigns for government agencies, public health, and nonprofits (advocacy), and bilingual/multicultural creator campaigns. Markerly runs its creator network and client reporting on its own platform — a creator portal at markerly.creatorsaurus.com and a social-account connect app at api.markerly.com that links Instagram, Facebook Pages, and TikTok accounts — and it operates one publicly reachable first-party HTTP service, the Media Processor microservice on Google Cloud Run, whose source, endpoints, rate limits, and error envelope are published openly in the company''s own GitHub organization. Markerly publishes no OpenAPI, no developer portal, and no self-serve API program; per third-party reviews, API access for external integrations
+  is bundled into its white-label platform tier rather than sold as a standalone product.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/markerly.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Markerly
 nav: Providers
 network: true
-overview: 'Markerly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Marketing, Creator Economy, and Advertising.
+overview: 'Markerly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Marketing, Creator Economy, and Advertising.
 
 
-  Markerly''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 59
+  Markerly''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+plans:
+- name: Markerly Plans Pricing
+  plan_count: 0
+  slug: markerly-plans-pricing
+random_paper: 31
+rate_limits:
+- limit_count: 2
+  name: Markerly Rate Limits
+  slug: markerly-rate-limits
 score:
-  band: minimal
-  composite: 7.0
-  delta: -1.2
+  band: emerging
+  composite: 26.3
+  delta: 19.3
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 8.2
+    developer_ergonomics: 17.4
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 26.3
+  previous_composite: 7.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/markerly/refs/heads/main/screenshots/markerly-2026-07-25T230243.png
 security:
+- kind: authentication
+  name: Markerly Authentication
+  slug: markerly-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Markerly Domain Security
   slug: markerly-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: markerly
 tags:
 - Company
@@ -94,5 +167,7 @@ tags:
 - Advertising
 - Social Media
 - Advocacy
+- Media Processing
+- Public Sector
 website: https://markerly.com
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The US Commission on Civil Rights is an independent, bipartisan federal agency established in 1957 that investigates, reports on, and issues public service announcements about discrimination or denial
@@ -145,7 +145,7 @@ plans:
 - name: Us Commission On Civil Rights Plans Pricing
   plan_count: 3
   slug: us-commission-on-civil-rights-plans-pricing
-random_paper: 14
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Us Commission On Civil Rights Rate Limits
@@ -162,7 +162,7 @@ rules:
 score:
   band: thin
   composite: 30.1
-  delta: -6.3
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 29.0
@@ -170,7 +170,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 36.4
+  previous_composite: 30.1
   regulatory:
     applies: true
     matched_via: tags
@@ -178,8 +178,8 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-civil-rights/refs/heads/main/screenshots/us-commission-on-civil-rights-2026-06-20T200608.png
 security:
 - kind: domain-security

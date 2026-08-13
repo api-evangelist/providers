@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 114
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -367,7 +367,7 @@ scopes:
 score:
   band: strong
   composite: 57.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.2
@@ -375,7 +375,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 58.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -390,7 +390,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:

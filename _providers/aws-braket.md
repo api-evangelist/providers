@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -356,7 +356,7 @@ plans:
 - name: Aws Braket Plans Pricing
   plan_count: 5
   slug: aws-braket-plans-pricing
-random_paper: 81
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Aws Braket Rate Limits
@@ -381,7 +381,7 @@ rules:
 score:
   band: exemplar
   composite: 66.1
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 72.1
@@ -389,7 +389,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 64.2
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     contracts:
@@ -398,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png
 security:

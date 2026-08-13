@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Pop Up Archive
 nav: Providers
 network: true
 overview: Pop Up Archive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Transcription, Speech To Text, and Podcasts.
-random_paper: 0
+random_paper: 72
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: pop-up-archive
 tags:

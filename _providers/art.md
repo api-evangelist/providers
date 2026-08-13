@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,13 +114,10 @@ apis:
   name: Artsy Users API
   slug: art-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Mint an XApp token, search for an artist, then list that artist's artworks.
   name: Find an artist and list their artworks
   slug: art-find-artist-artworks
-artifact_total: 32
+artifact_total: 31
 common:
 - group: other
   title: ''
@@ -242,7 +239,7 @@ overview: 'Artsy publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Artsy''s developer surface includes documentation, API reference, authentication, engineering blog, and 22 more developer resources.'
-random_paper: 95
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Art Rate Limits
@@ -250,7 +247,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 58.7
@@ -258,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 44.8
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

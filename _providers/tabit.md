@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Order capture and management across Tabit's mobile POS (PAD), online ordering (Order), kiosk, and delivery (Wheels) products. Order data flows to third-party channels (e.g., DoorDash Marketplace) thro
@@ -108,7 +108,7 @@ plans:
 - name: Tabit Plans Pricing
   plan_count: 1
   slug: tabit-plans-pricing
-random_paper: 68
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Tabit Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 28.4
@@ -124,7 +124,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.5
+  previous_composite: 22.6
   regulatory:
     applies: true
     matched_via: tags
@@ -132,7 +132,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

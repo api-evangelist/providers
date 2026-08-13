@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Google Cloud Pubsub Plans Pricing
   plan_count: 3
   slug: google-cloud-pubsub-plans-pricing
-random_paper: 63
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Google Cloud Pubsub Rate Limits
@@ -156,7 +156,7 @@ scopes:
 score:
   band: developing
   composite: 43.3
-  delta: -9.2
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 79.1
@@ -164,7 +164,7 @@ score:
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 13.2
-  previous_composite: 52.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication

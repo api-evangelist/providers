@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -239,11 +239,11 @@ overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: developing
   composite: 53.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.4
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 55.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/screenshots/panther-2026-08-07T191340.png
 security:

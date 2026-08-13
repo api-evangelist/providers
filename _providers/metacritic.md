@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The official Metacritic API, delivered through Fabric Origin (formerly IVA / Gracenote), provides structured access to Metascores, user scores, and individual critic reviews for movies and TV shows. R
@@ -88,7 +88,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 17
+random_paper: 101
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/screenshots/metacritic-2026-06-20T185245.png
 security:

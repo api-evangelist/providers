@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: BBB warns about AI search use, details how to use it smartly
   url: https://www.aol.com/news/bbb-warns-ai-search-details-201446520.html
-random_paper: 84
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Aol Rate Limits
@@ -143,7 +143,7 @@ scopes:
 score:
   band: thin
   composite: 35.6
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 60.8
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 44.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/screenshots/aol-2026-06-20T172055.png
 security:
 - kind: authentication

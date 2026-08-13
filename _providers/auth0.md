@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -8349,7 +8349,7 @@ plans:
 - name: Auth0 Plans Pricing
   plan_count: 4
   slug: auth0-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 9
   name: Auth0 Rate Limits
@@ -8403,7 +8403,7 @@ scopes:
 score:
   band: strong
   composite: 61.8
-  delta: -6.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 68.9
@@ -8411,7 +8411,7 @@ score:
     discoverability: 50.0
     governance: 62.5
     operational_transparency: 44.7
-  previous_composite: 68.0
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -8420,8 +8420,8 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Force Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Force Therapeutics'' developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 13
+random_paper: 69
 score:
   band: emerging
   composite: 18.9
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/force-therapeutics/refs/heads/main/screenshots/force-therapeutics-2026-07-25T214925.png
 security:

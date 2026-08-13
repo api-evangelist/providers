@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Fluor Selected for Expansion of Large-Scale Biologics ...
   url: https://www.sttinfo.fi/tiedote/69952904/fluor-selected-for-expansion-of-large-scale-biologics-manufacturing-facility-in-scandinavia?publisherId=58763726
-random_paper: 88
+random_paper: 72
 score:
   band: minimal
   composite: 3.0
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluor/refs/heads/main/screenshots/fluor-2026-06-20T181338.png
 security:

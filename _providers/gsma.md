@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 76
+random_paper: 64
 scopes:
 - name: Gsma Scopes
   scope_count: 30
@@ -333,7 +333,7 @@ scopes:
 score:
   band: developing
   composite: 55.7
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.5
@@ -341,7 +341,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 60.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,7 +359,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Celigo Plans Pricing
   plan_count: 3
   slug: celigo-plans-pricing
-random_paper: 47
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Celigo Rate Limits
@@ -184,7 +184,7 @@ rules:
 score:
   band: developing
   composite: 47.0
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.1
@@ -192,7 +192,7 @@ score:
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 7.9
-  previous_composite: 55.4
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:
 - kind: authentication

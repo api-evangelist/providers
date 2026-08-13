@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -3581,7 +3581,7 @@ plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
   slug: bigcommerce-plans-pricing
-random_paper: 105
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Bigcommerce Rate Limits
@@ -3614,7 +3614,7 @@ rules:
 score:
   band: developing
   composite: 44.6
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 70.2
@@ -3622,7 +3622,7 @@ score:
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 21.1
-  previous_composite: 51.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -3637,8 +3637,8 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Origin Bio
 nav: Providers
 network: true
 overview: Origin Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cancer Research, Spatial Genomics, and Transcriptomics.
-random_paper: 79
+random_paper: 47
 score:
   band: minimal
   composite: 5.4
@@ -72,7 +72,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-bio/refs/heads/main/screenshots/origin-bio-2026-08-07T190941.png
 security:

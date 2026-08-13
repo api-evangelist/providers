@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 50
+random_paper: 22
 score:
   band: thin
   composite: 37.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.6
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 38.3
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:

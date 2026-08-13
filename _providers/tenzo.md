@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Public REST API for accessing restaurant analytics data — locations, areas, sales, and forecast data — secured with OAuth 2.0 Bearer tokens. Partners integrate via the Authorization Code flow to pull '
@@ -128,7 +128,7 @@ overview: 'Tenzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tenzo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 12 more developer resources.'
-random_paper: 96
+random_paper: 80
 scopes:
 - name: Tenzo Scopes
   scope_count: 4
@@ -137,7 +137,7 @@ scopes:
 score:
   band: thin
   composite: 29.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -145,12 +145,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 30.2
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -190,11 +190,11 @@ overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 19 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: thin
   composite: 41.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 42.7
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 42.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

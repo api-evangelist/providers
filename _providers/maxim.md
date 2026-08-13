@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Maxim REST API provides programmatic access to prompts, workflows, agents, datasets, evaluators, test runs, logging, tracing, models, alerts, and log repositories. It supports OpenTelemetry-compat
@@ -100,7 +100,7 @@ plans:
 - name: Maxim Plans Pricing
   plan_count: 1
   slug: maxim-plans-pricing
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Maxim Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 26.2
+  previous_composite: 26.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/screenshots/maxim-2026-06-20T185048.png
 security:

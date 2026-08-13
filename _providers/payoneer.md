@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -149,7 +149,7 @@ plans:
 - name: Payoneer Plans Pricing
   plan_count: 2
   slug: payoneer-plans-pricing
-random_paper: 55
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Payoneer Rate Limits
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.7
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.1
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 33.8
+  previous_composite: 39.7
   regulatory:
     applies: true
     matched_via: tags
@@ -173,8 +173,8 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/screenshots/payoneer-2026-06-20T191503.png
 security:
 - kind: domain-security

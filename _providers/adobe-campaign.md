@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -504,7 +504,7 @@ plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 108
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits
@@ -537,7 +537,7 @@ rules:
 score:
   band: developing
   composite: 50.0
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 79.3
@@ -545,7 +545,7 @@ score:
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 21.1
-  previous_composite: 55.9
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -554,8 +554,8 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication

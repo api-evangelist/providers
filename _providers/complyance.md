@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,11 +95,11 @@ overview: 'Complyance is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Complyance''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 23
+random_paper: 107
 score:
   band: emerging
   composite: 18.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 17.7
+  previous_composite: 18.4
   regulatory:
     applies: true
     matched_via: tags
@@ -115,7 +115,7 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complyance/refs/heads/main/screenshots/complyance-2026-07-25T210204.png
 security:

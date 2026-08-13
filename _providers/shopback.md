@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
@@ -194,11 +194,11 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 31
+random_paper: 3
 score:
   band: developing
   composite: 52.4
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.1
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 54.4
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -223,7 +223,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

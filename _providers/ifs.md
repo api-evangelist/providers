@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Ifs Plans Pricing
   plan_count: 1
   slug: ifs-plans-pricing
-random_paper: 90
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Ifs Rate Limits
@@ -143,7 +143,7 @@ scopes:
 score:
   band: thin
   composite: 38.6
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 70.1
@@ -151,7 +151,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 43.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +166,8 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -282,7 +282,7 @@ plans:
 - name: Lunar Energy Plans Pricing
   plan_count: 4
   slug: lunar-energy-plans-pricing
-random_paper: 81
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Lunar Energy Rate Limits
@@ -312,7 +312,7 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.3
@@ -320,7 +320,7 @@ score:
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 48.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -335,7 +335,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/screenshots/lunar-energy-2026-06-20T184758.png
 security:

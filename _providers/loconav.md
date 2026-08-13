@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
@@ -187,7 +187,7 @@ overview: 'LocoNav publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LocoNav''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 58
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Loconav Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 67.4
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 50.9
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     contracts:
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

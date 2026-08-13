@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 112
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 45.5
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.1
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 44.2
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

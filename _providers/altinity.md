@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Auth API from Altinity — 8 operation(s) for auth.
@@ -148,11 +148,11 @@ overview: 'Altinity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Altinity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 66
+random_paper: 38
 score:
   band: developing
   composite: 47.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.5
@@ -160,7 +160,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.8
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -171,7 +171,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/screenshots/altinity-2026-07-25T195834.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Meru Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Meru Health''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 72
+random_paper: 36
 score:
   band: emerging
   composite: 13.8
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meru-health/refs/heads/main/screenshots/meru-health-2026-08-07T172614.png
 security:

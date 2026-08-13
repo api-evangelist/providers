@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Majestic Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Majestic Labs'' developer surface includes product news, support, and 8 more developer resources.'
-random_paper: 35
+random_paper: 111
 score:
   band: minimal
   composite: 6.5
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/majestic-labs/refs/heads/main/screenshots/majestic-labs-2026-07-25T225927.png
 security:

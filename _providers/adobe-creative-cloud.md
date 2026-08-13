@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -614,7 +614,7 @@ plans:
 - name: Adobe Creative Cloud Plans Pricing
   plan_count: 5
   slug: adobe-creative-cloud-plans-pricing
-random_paper: 11
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Adobe Creative Cloud Rate Limits
@@ -647,7 +647,7 @@ rules:
 score:
   band: developing
   composite: 54.7
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 79.4
@@ -655,7 +655,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 39.5
-  previous_composite: 63.2
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -664,8 +664,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:
 - kind: authentication

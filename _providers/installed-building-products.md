@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Installed Building Products
 nav: Providers
 network: true
 overview: Installed Building Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Insulation, Building Products, Residential Construction, and Commercial Construction.
-random_paper: 112
+random_paper: 20
 score:
   band: minimal
   composite: 4.4
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/installed-building-products/refs/heads/main/screenshots/installed-building-products-2026-06-20T183413.png
 security:

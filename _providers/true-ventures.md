@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: True Ventures
 nav: Providers
 network: true
-random_paper: 109
+random_paper: 65
 slug: true-ventures
 tags:
 - Venture Capital

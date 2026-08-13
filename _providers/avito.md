@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -434,7 +434,7 @@ overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Avito''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, signup flow, and 49 more developer resources.'
-random_paper: 83
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Avito Rate Limits
@@ -447,7 +447,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.6
@@ -455,7 +455,7 @@ score:
     discoverability: 63.0
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 50.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: unknown
@@ -467,7 +467,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

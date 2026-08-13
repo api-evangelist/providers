@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Mynd
 nav: Providers
 network: true
 overview: Mynd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real Estate, Single-Family Rental, and Proptech.
-random_paper: 92
+random_paper: 80
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mynd/refs/heads/main/screenshots/mynd-2026-08-07T184527.png
 security:

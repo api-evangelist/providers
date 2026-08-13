@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Whippy Plans Pricing
   plan_count: 6
   slug: whippy-plans-pricing
-random_paper: 93
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Whippy Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.4
@@ -142,7 +142,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.4
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -157,7 +157,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'The Trulia API was a suite of public XML/JSON endpoints that exposed listings, property details, location lookups, neighborhood statistics, and school data. The full suite was deprecated after Trulia '
@@ -123,7 +123,7 @@ plans:
 - name: Trulia Plans Pricing
   plan_count: 1
   slug: trulia-plans-pricing
-random_paper: 77
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Trulia Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 35.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulia/refs/heads/main/screenshots/trulia-2026-06-20T195757.png
 security:

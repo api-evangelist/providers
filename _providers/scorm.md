@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: 'The SCORM 1.2 Run-Time Environment defines communication between e-learning content and an LMS via a JavaScript API. The API Adapter is an ECMAScript object named "API" accessible through the DOM. It '
@@ -90,7 +90,7 @@ plans:
 - name: Scorm Plans Pricing
   plan_count: 3
   slug: scorm-plans-pricing
-random_paper: 84
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Scorm Rate Limits
@@ -107,7 +107,7 @@ rules:
 score:
   band: emerging
   composite: 23.8
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 22.6
@@ -115,10 +115,10 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 31.6
+  previous_composite: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scorm/refs/heads/main/screenshots/scorm-2026-06-20T193543.png
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -193,7 +193,7 @@ overview: 'Marriott International publishes 6 APIs on the [APIs.io](https://apis
 
 
   Marriott International''s developer surface includes authentication, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 70
+random_paper: 42
 scopes:
 - name: Marriott Scopes
   scope_count: 2
@@ -202,7 +202,7 @@ scopes:
 score:
   band: thin
   composite: 35.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 48.2
@@ -210,14 +210,14 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 36.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/screenshots/marriott-2026-08-07T172102.png
 security:

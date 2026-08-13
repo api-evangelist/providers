@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The Auth API from CodeCombat — 1 operation(s) for auth.
@@ -159,11 +159,11 @@ overview: 'CodeCombat publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodeCombat''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 113
+random_paper: 81
 score:
   band: developing
   composite: 43.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 45.3
+  previous_composite: 43.6
   provenance:
     conformance: derived
     contracts:
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:

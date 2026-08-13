@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.0
@@ -136,7 +136,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.5
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -151,7 +151,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/screenshots/jaxa-2026-06-20T183708.png
 security:

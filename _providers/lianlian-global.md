@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -425,7 +425,7 @@ overview: 'LianLian Global publishes 47 APIs on the [APIs.io](https://apis.io/) 
 
 
   LianLian Global''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 48 more developer resources.'
-random_paper: 2
+random_paper: 70
 scopes:
 - name: Lianlian Global Scopes
   scope_count: 1
@@ -434,7 +434,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.5
@@ -442,7 +442,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 52.6
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,7 +460,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:

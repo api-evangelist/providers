@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 8
+random_paper: 92
 scopes:
 - name: Lightfield Scopes
   scope_count: 26
@@ -316,7 +316,7 @@ scopes:
 score:
   band: strong
   composite: 62.2
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.3
@@ -324,7 +324,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 62.9
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:

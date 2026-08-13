@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -192,11 +192,11 @@ overview: 'Amagi publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 14 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: thin
   composite: 34.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 57.6
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 34.5
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/screenshots/amagi-2026-07-25T195909.png
 security:

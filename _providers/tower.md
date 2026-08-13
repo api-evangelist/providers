@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -261,7 +261,7 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 24 more developer resources.'
-random_paper: 97
+random_paper: 81
 scopes:
 - name: Tower Scopes
   scope_count: 53
@@ -270,7 +270,7 @@ scopes:
 score:
   band: developing
   composite: 55.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 65.4
@@ -278,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.6
+  previous_composite: 55.9
   provenance:
     conformance: derived
     contracts:
@@ -289,7 +289,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

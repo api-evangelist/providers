@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -226,7 +226,7 @@ overview: 'Hopae, Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hopae, Inc.''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 72
+random_paper: 44
 scopes:
 - name: Hopae Inc Scopes
   scope_count: 7
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 53.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.2
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 55.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

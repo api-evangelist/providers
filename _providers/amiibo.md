@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Amiibo Plans Pricing
   plan_count: 1
   slug: amiibo-plans-pricing
-random_paper: 45
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Amiibo Rate Limits
@@ -135,7 +135,7 @@ rules:
 score:
   band: thin
   composite: 40.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 41.2
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/screenshots/amiibo-2026-06-20T171931.png
 security:

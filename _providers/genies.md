@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -112,7 +112,7 @@ overview: 'Genies is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Genies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 55
+random_paper: 35
 score:
   band: emerging
   composite: 27.1
@@ -126,7 +126,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genies/refs/heads/main/screenshots/genies-2026-07-25T215618.png
 security:

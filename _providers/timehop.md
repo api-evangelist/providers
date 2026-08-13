@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Timehop is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Timehop''s developer surface includes support and 5 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: minimal
   composite: 10.1
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: timehop
 tags:

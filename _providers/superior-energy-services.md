@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Superior Energy Services - Rental & Well Service Brands
   url: https://superiorenergy.com/
-random_paper: 61
+random_paper: 97
 score:
   band: minimal
   composite: 5.5
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superior-energy-services/refs/heads/main/screenshots/superior-energy-services-2026-06-20T194716.png
 security:

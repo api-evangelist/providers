@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Extension risk assessment.
@@ -161,11 +161,11 @@ overview: 'Koi Security publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Koi Security''s developer surface includes documentation, API reference, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 96
+random_paper: 56
 score:
   band: developing
   composite: 44.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.7
@@ -173,7 +173,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 45.7
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/screenshots/koi-security-2026-07-25T224118.png
 security:

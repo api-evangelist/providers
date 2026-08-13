@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -62,9 +62,6 @@ apis:
   name: Landmark Geodata Web Map Tile Service (WMTS)
   slug: landmark-geodata-web-map-tile-service
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a Document Vault, add a document, set the recipient organisation and a recipient, and read back the vault and its activity trail.
   name: Assemble a Contract Pack Vault
   slug: landmark-information-assemble-contract-pack
@@ -77,7 +74,7 @@ arazzos:
 - description: Register a callback endpoint for Secure Panel Network valuation milestones, update its configuration, then remove it.
   name: Subscribe to valuation milestone notifications
   slug: landmark-information-subscribe-valuation-milestones
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Landmark Information Webhooks
@@ -240,7 +237,7 @@ overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://
 
 
   Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 27 more developer resources.'
-random_paper: 105
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Landmark Information Rate Limits
@@ -253,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 52.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.9
@@ -261,7 +258,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 53.5
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:

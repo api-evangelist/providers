@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 26
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -261,7 +261,7 @@ overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) 
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 26
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Terabase Energy Rate Limits
@@ -274,7 +274,7 @@ scopes:
 score:
   band: strong
   composite: 56.1
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 58.6
@@ -282,7 +282,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 53.6
+  previous_composite: 56.1
   provenance:
     conformance: first-party
     contracts:
@@ -299,7 +299,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

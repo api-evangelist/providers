@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Castr Live Plans Pricing
   plan_count: 6
   slug: castr-live-plans-pricing
-random_paper: 90
+random_paper: 58
 rate_limits:
 - limit_count: 6
   name: Castr Live Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 56.7
@@ -148,7 +148,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -157,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/screenshots/castr-live-2026-07-25T204743.png
 security:

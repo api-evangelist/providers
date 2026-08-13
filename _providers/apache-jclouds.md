@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The jclouds Compute API provides a unified Java interface for managing virtual machine instances, images, hardware profiles, and networking across 30+ cloud providers including AWS EC2, Azure Compute,
@@ -129,7 +129,7 @@ plans:
 - name: Apache Jclouds Plans Pricing
   plan_count: 3
   slug: apache-jclouds-plans-pricing
-random_paper: 19
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Apache Jclouds Rate Limits
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.6
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -145,10 +145,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 28.4
+  previous_composite: 20.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jclouds/refs/heads/main/screenshots/apache-jclouds-2026-06-20T172111.png
 security:
 - kind: domain-security

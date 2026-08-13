@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
@@ -192,7 +192,7 @@ overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 71
+random_paper: 43
 scopes:
 - name: Runbuggy Scopes
   scope_count: 0
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 53.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 64.0
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 54.9
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -220,7 +220,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

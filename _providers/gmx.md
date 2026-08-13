@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -507,7 +507,7 @@ plans:
 - name: Gmx Plans Pricing
   plan_count: 1
   slug: gmx-plans-pricing
-random_paper: 100
+random_paper: 92
 rate_limits:
 - limit_count: 3
   name: Gmx Rate Limits
@@ -524,7 +524,7 @@ rules:
 score:
   band: thin
   composite: 40.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 49.7
@@ -532,7 +532,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 40.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -547,7 +547,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:

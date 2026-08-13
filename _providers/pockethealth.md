@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Partner-gated developer capability, modeled from PocketHealth's public developer-program description. Lets a RIS/PACS/VNA vendor enroll patients for PocketHealth access natively from within the vendor
@@ -81,7 +81,7 @@ plans:
 - name: Pockethealth Plans Pricing
   plan_count: 5
   slug: pockethealth-plans-pricing
-random_paper: 0
+random_paper: 76
 score:
   band: emerging
   composite: 13.5
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

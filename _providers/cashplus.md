@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
-random_paper: 55
+random_paper: 27
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
@@ -210,7 +210,7 @@ scopes:
 score:
   band: thin
   composite: 39.0
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.0
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 43.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +236,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

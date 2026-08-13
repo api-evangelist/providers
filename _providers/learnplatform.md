@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,7 +140,7 @@ overview: 'LearnPlatform is profiled on the [APIs.io](https://apis.io/) network.
 
 
   LearnPlatform''s developer surface includes developer portal, documentation, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: thin
   composite: 30.3
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/screenshots/learnplatform-2026-07-25T224800.png
 security:

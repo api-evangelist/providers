@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -99,16 +99,13 @@ apis:
   name: Binarly Vulnerability API
   slug: binarly-vulnerability-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: For a scanned image, export the full set of supply-chain assurance artifacts — CycloneDX and SPDX SBOMs, an OpenVEX VEX, a CBOM, and a findings report — for procurement and regulatory evidence.
   name: Generate supply-chain compliance artifacts with Binarly
   slug: binarly-compliance-artifacts
 - description: Create (or reuse) a product, upload a firmware/binary image, run a scan, poll until it completes, then list the findings and pull a PDF report — the core CI/CD gate flow for the Binarly Transparency P
   name: Scan firmware in CI/CD with Binarly
   slug: binarly-scan-firmware
-artifact_total: 28
+artifact_total: 27
 common:
 - group: agent
   title: ''
@@ -234,7 +231,7 @@ overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Binarly''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: developing
   composite: 48.5
@@ -258,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/screenshots/binarly-2026-07-25T202957.png
 security:

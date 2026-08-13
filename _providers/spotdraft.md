@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -483,7 +483,7 @@ plans:
 - name: Spotdraft Plans Pricing
   plan_count: 4
   slug: spotdraft-plans-pricing
-random_paper: 55
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Spotdraft Rate Limits
@@ -508,7 +508,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 67.1
@@ -516,7 +516,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 57.8
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -525,7 +525,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:

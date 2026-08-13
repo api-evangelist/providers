@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ plans:
 - name: Zoho People Plans Pricing
   plan_count: 5
   slug: zoho-people-plans-pricing
-random_paper: 94
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Zoho People Rate Limits
@@ -231,7 +231,7 @@ scopes:
 score:
   band: developing
   composite: 54.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 66.3
@@ -239,7 +239,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 55.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/screenshots/zoho-people-2026-06-20T201945.png
 security:

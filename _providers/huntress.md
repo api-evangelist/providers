@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -247,7 +247,7 @@ overview: 'Huntress publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Huntress'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 80
+random_paper: 52
 scopes:
 - name: Huntress Scopes
   scope_count: 1
@@ -256,7 +256,7 @@ scopes:
 score:
   band: developing
   composite: 55.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.7
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 57.0
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +276,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
 security:

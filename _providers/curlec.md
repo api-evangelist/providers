@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -404,7 +404,7 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 58
+random_paper: 38
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -413,7 +413,7 @@ scopes:
 score:
   band: strong
   composite: 61.7
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 70.3
@@ -421,7 +421,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 65.1
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -439,7 +439,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:

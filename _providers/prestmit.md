@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Prestmit Plans Pricing
   plan_count: 3
   slug: prestmit-plans-pricing
-random_paper: 76
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Prestmit Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.0
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
@@ -162,7 +162,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 45.4
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/screenshots/prestmit-2026-06-20T192051.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 4
@@ -243,7 +243,7 @@ plans:
 - name: Emory Plans Pricing
   plan_count: 2
   slug: emory-plans-pricing
-random_paper: 92
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Emory Rate Limits
@@ -268,7 +268,7 @@ rules:
 score:
   band: developing
   composite: 44.3
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 62.8
@@ -276,7 +276,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 42.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
 security:

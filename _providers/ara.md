@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -76,8 +76,8 @@ common:
   type: LLMsTxt
   url: llms/ara-llms.txt
 coverage:
-  checked: '2026-08-10'
-  detail: Ara's only API host, api.arascreens.com, is a private Rails backend that answers every route — including /health — with an HTTP Basic challenge and serves no spec at any conventional path, and the 11-page Squarespace marketing sitemap contains no developer, docs or API page at all.
+  checked: '2026-08-12'
+  detail: Ara's only API host, api.arascreens.com, is a private Rails backend that answers every route — including /health — with an HTTP Basic challenge and serves no spec at any conventional path; the 11-page Squarespace marketing sitemap contains no developer, docs or API page at all; and the four further production hosts found by enumerating the domain serve either an SPA shell, an Express scaffold string, an empty 404 or an S3 AccessDenied.
   evidence:
   - status: 401
     url: https://api.arascreens.com/health
@@ -89,14 +89,24 @@ coverage:
     url: https://www.arascreens.com/llms.txt
   - status: 404
     url: https://www.arascreens.com/.well-known/agent-card.json
+  - status: 404
+    url: https://outdoor.arascreens.com/openapi.json
+  - status: 404
+    url: https://outdoor.arascreens.com/llms.txt
+  - status: 404
+    url: https://rts.arascreens.com/openapi.json
+  - status: 404
+    url: https://rts.arascreens.com/.well-known/agent-card.json
+  - status: 404
+    url: https://api.arascreens.com/mcp
   reason: no-developer-program
   state: none
 created: '2026-07-17'
-description: Ara (Ara Labs, Inc.) is a digital out-of-home (DOOH) advertising network that finances, installs, and operates rich-media displays across mobility, municipal, parking, and retail settings. It describes itself as the largest U.S. owner-operator of rideshare and taxi car-top digital billboards, running a long-term partnership with Uber alongside in-car, storefront, and parking/municipal kiosk screens. Ara owns the hardware and content-management operations under a monthly subscription model so fleet owners, retailers, parking operators and municipalities avoid cap-ex and operational overhead, and it also sells self-serve NYC taxi-top ad time by the hour or day. Its own site names Founders Fund, Coatue, Rosecliff Ventures, iHeart Media and Kellogg's as investors. Ara publishes NO public API, SDK, developer portal, documentation site or machine-readable specification. Contract discovery in August 2026 found a live private backend at api.arascreens.com (Ruby on Rails on Heroku) that
-  answers every route with an HTTP Basic challenge, a React driver/operations application at app.arascreens.com, and a third-party signage CMS front end at cms.arascreens.com — all credentialed product infrastructure, none of it a developer offering.
+description: 'Ara (Ara Labs, Inc.) is a digital out-of-home (DOOH) advertising network that finances, installs, and operates rich-media displays across mobility, municipal, parking, and retail settings. It describes itself as the largest U.S. owner-operator of rideshare and taxi car-top digital billboards, running a long-term partnership with Uber alongside in-car, storefront, and parking/municipal kiosk screens. Ara owns the hardware and content-management operations under a monthly subscription model so fleet owners, retailers, parking operators and municipalities avoid cap-ex and operational overhead, and it also sells self-serve NYC taxi-top ad time by the hour or day. Its own site names Founders Fund, Coatue, Rosecliff Ventures, iHeart Media and Kellogg''s as investors. Ara publishes NO public API, SDK, developer portal, documentation site or machine-readable specification. Contract discovery in August 2026 found a live private backend at api.arascreens.com (Ruby on Rails on Heroku)
+  that answers every route with an HTTP Basic challenge, a React driver/operations application at app.arascreens.com, and a third-party signage CMS front end at cms.arascreens.com — all credentialed product infrastructure, none of it a developer offering. A second pass enumerated the full host inventory and added four more production hosts to the same finding: outdoor.arascreens.com (an SPA product page for the Ara O49 display), rts.arascreens.com (an unauthenticated Express service serving only its scaffold string), stationary.arascreens.com and assets.arascreens.com. Ara''s marketing describes its CMS as "API-driven", meaning its own platform is programmatically operated and can integrate with a partner''s existing signage stack — it is not an offer of a public API, and no key issuance, reference or access request mechanism exists anywhere on its surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ara.png
 layout: provider
-modified: '2026-08-10'
+modified: '2026-08-12'
 name: Ara
 nav: Providers
 network: true
@@ -108,7 +118,7 @@ plans:
 - name: Ara Plans Pricing
   plan_count: 0
   slug: ara-plans-pricing
-random_paper: 76
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Ara Rate Limits
@@ -116,7 +126,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.5
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -124,10 +134,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.1
+  previous_composite: 15.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ara/refs/heads/main/screenshots/ara-2026-07-25T200956.png
 security:
 - kind: domain-security

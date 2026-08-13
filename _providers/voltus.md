@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -45,9 +45,6 @@ apis:
   name: Voltus OpenADR 2.0a VTN
   slug: voltus-openadr-vtn
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The core Voltus demand-response loop: resolve your enrolled sites, poll for dispatches, then read the individual dispatch to drive per-site curtailment commitments. Runs end-to-end against the public '
   name: Poll Voltus dispatches and curtail enrolled sites
   slug: voltus-poll-dispatches-and-curtail
@@ -57,7 +54,7 @@ arazzos:
 - description: Submit interval telemetry and controllable load for an enrolled site, then read interval kW back within Voltus's documented limits (10 sites, 90 days, 10,000 points per site).
   name: Report Voltus telemetry and read it back
   slug: voltus-report-and-read-telemetry
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Voltus Webhooks
@@ -256,7 +253,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 33 more developer resources.'
-random_paper: 105
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Voltus Rate Limits
@@ -264,7 +261,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.7
@@ -272,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 53.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +287,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

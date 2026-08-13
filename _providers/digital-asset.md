@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The common API from Digital Asset — 3 operation(s) for common.
@@ -184,11 +184,11 @@ overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 47
+random_paper: 3
 score:
   band: developing
   composite: 47.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 43.8
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 47.6
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:

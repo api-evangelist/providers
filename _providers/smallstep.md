@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -213,11 +213,11 @@ overview: 'SmallStep publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 27 more developer resources.'
-random_paper: 53
+random_paper: 21
 score:
   band: strong
   composite: 56.9
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.6
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 58.7
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

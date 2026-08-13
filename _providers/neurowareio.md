@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ overview: 'Neuroware.io is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Neuroware.io''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 40
+random_paper: 0
 score:
   band: minimal
   composite: 7.7
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -79,7 +79,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.4
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
@@ -87,7 +87,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neurowareio/refs/heads/main/screenshots/neurowareio-2026-08-07T185042.png
 security:

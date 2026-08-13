@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -266,7 +266,7 @@ overview: 'Automattic publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 39
+random_paper: 3
 scopes:
 - name: Automattic Scopes
   scope_count: 21
@@ -275,7 +275,7 @@ scopes:
 score:
   band: strong
   composite: 56.4
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 35.6
@@ -283,7 +283,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 56.7
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -295,7 +295,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
 security:

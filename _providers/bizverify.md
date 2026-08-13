@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -116,11 +116,11 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
-random_paper: 58
+random_paper: 26
 score:
   band: emerging
   composite: 26.1
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 46.4
@@ -128,7 +128,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.8
+  previous_composite: 26.1
   provenance:
     contracts:
       callable: 0.0
@@ -136,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

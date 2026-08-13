@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,11 +91,11 @@ overview: 'Rapchat is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rapchat''s developer surface includes signup flow, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: emerging
   composite: 16.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

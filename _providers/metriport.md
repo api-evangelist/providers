@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -147,7 +147,7 @@ plans:
 - name: Metriport Plans Pricing
   plan_count: 4
   slug: metriport-plans-pricing
-random_paper: 70
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Metriport Rate Limits
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.3
@@ -163,7 +163,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -178,7 +178,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:

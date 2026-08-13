@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Sila Money Plans Pricing
   plan_count: 2
   slug: sila-money-plans-pricing
-random_paper: 94
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Sila Money Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -139,7 +139,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -154,7 +154,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

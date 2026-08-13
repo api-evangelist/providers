@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -228,11 +228,11 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 
 
   OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 22 more developer resources.'
-random_paper: 93
+random_paper: 81
 score:
   band: thin
   composite: 41.3
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.2
@@ -240,7 +240,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.6
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -255,7 +255,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'CF Industries exchanges orders, shipments, and invoices with distributors, rail carriers, and industrial customers through traditional EDI transactions and private B2B integrations rather than public '
@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: CF Industries and NextEra Energy Resources announce a ...
   url: https://www.prnewswire.com/news-releases/cf-industries-and-nextera-energy-resources-announce-a-memorandum-of-understanding-for-a-green-hydrogen-project-in-oklahoma-to-support-decarbonization-of-the-agriculture-supply-chain-301806063.html
-random_paper: 41
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Cf Industries Holdings Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.7
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -129,7 +129,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.6
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cf-industries-holdings/refs/heads/main/screenshots/cf-industries-holdings-2026-06-20T174146.png
 security:

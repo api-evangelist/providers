@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ overview: 'Kimpton AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kimpton AI''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 89
+random_paper: 57
 score:
   band: emerging
   composite: 16.1
@@ -105,7 +105,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimpton-ai/refs/heads/main/screenshots/kimpton-ai-2026-07-25T223758.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,11 +102,11 @@ overview: 'Octave Bioscience is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Octave Bioscience''s developer surface includes support, product news, and 11 more developer resources.'
-random_paper: 107
+random_paper: 51
 score:
   band: emerging
   composite: 15.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -114,7 +114,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.4
+  previous_composite: 15.4
   regulatory:
     applies: true
     matched_via: tags
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octave-bioscience/refs/heads/main/screenshots/octave-bioscience-2026-08-07T185938.png
 security:

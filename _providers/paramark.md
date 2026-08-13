@@ -1,20 +1,22 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - plans
+  - https://paramark.com/pricing
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +24,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 12.2
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: Paramark's production API, offered as a feature of the Advanced and Enterprise tiers. The service is live and answers anonymously at GET /healthz (HTTP 200 {"status":"ok"}) and is a FastAPI applicatio
+  name: Paramark API
+  slug: paramark-api
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -58,41 +64,103 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://notebooks.paramark.com/
+  url: https://signin.paramark.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/paramark-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/paramark-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/paramark-scopes.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: well-known/paramark-openid-configuration.json
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/paramark-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/paramark-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/paramark-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/paramark-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/paramark-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/paramark-llms.txt
 created: '2026-07-17'
-description: Paramark is a marketing measurement and forecasting platform that helps growth and finance teams understand the true incremental impact of their marketing spend. Founded in 2022 by Pranav Piyush and Pete Belknap and backed by Greylock, Paramark combines incrementality testing, marketing mix modeling (MMM), and scenario planning in one place, augmented by human growth advisors and AI agents. Rather than relying on last-touch attribution, the platform uses statistics and machine learning to quantify each channel's incremental contribution across search, social, TV, and out-of-home, giving marketers defensible ROI numbers to bring to their finance teams. Paramark maintains an open-source Marketing Mix Modeling workbench and forks of the major MMM libraries under its paramark-inc GitHub organization. Paramark does not currently publish a public developer API or documentation portal; API access is offered as a feature of its Advanced commercial tier.
+description: 'Paramark is a marketing measurement and forecasting platform that helps growth and finance teams understand the true incremental impact of their marketing spend. Founded in 2022 by Pranav Piyush and Pete Belknap and backed by Greylock, Paramark combines incrementality testing, marketing mix modeling (MMM), and scenario planning in one place, augmented by human growth advisors and AI agents. Rather than relying on last-touch attribution, the platform uses statistics and machine learning to quantify each channel''s incremental contribution across search, social, TV, and out-of-home, giving marketers defensible ROI numbers to bring to their finance teams. Paramark maintains an open-source Marketing Mix Modeling workbench and forks of the major MMM libraries under its paramark-inc GitHub organization. Paramark runs a production API at api.paramark.com, but publishes no developer portal and no public contract: its FastAPI-generated OpenAPI, /docs and /redoc all answer HTTP 401 behind
+  an HTTP Basic challenge, and API access is sold as a feature of the Advanced ($150k/yr) and Enterprise ($220k/yr) tiers, where MCP servers are listed as coming soon. What Paramark does publish anonymously and machine-readably is its identity layer: full OpenID Connect and OAuth 2.0 authorization server metadata at signin.paramark.com, with PKCE, device code and dynamic client registration.'
 image: https://framerusercontent.com/images/V0dFY5kITNK8vNXgA2K3xW0y6k.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Paramark
 nav: Providers
 network: true
-overview: 'Paramark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Marketing, Analytics, and Measurement.
+overview: 'Paramark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Marketing, Analytics, and Measurement.
 
 
-  Paramark''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 35
+  Paramark''s developer surface includes pricing, engineering blog, authentication, and 14 more developer resources.'
+plans:
+- name: Paramark Plans Pricing
+  plan_count: 3
+  slug: paramark-plans-pricing
+random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Paramark Rate Limits
+  slug: paramark-rate-limits
+scopes:
+- name: Paramark Scopes
+  scope_count: 0
+  slug: paramark-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 13.0
-  delta: 0.0
+  composite: 27.1
+  delta: 14.1
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 73.7
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 13.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/paramark/refs/heads/main/screenshots/paramark-2026-08-07T191427.png
 security:
+- kind: authentication
+  name: Paramark Authentication
+  slug: paramark-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Paramark Domain Security
   slug: paramark-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Paramark Trust Center
+  slug: paramark-trust-center
+  summary_line: trust center published
 slug: paramark
 tags:
 - Company

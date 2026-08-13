@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Walgreens Boots Alliance specialty pharmacy platform serves patients with complex chronic conditions including oncology, rare diseases, and specialty biologics. The specialty pharmacy network integrat
@@ -92,7 +92,7 @@ plans:
 - name: Walgreens Boots Alliance Plans Pricing
   plan_count: 1
   slug: walgreens-boots-alliance-plans-pricing
-random_paper: 114
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Walgreens Boots Alliance Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 12.9
@@ -108,7 +108,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.3
+  previous_composite: 17.9
   regulatory:
     applies: true
     matched_via: tags
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens-boots-alliance/refs/heads/main/screenshots/walgreens-boots-alliance-2026-06-20T201207.png
 security:

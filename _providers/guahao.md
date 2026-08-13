@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: guahao
 nav: Providers
 network: true
 overview: guahao is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Appointment Booking.
-random_paper: 49
+random_paper: 29
 score:
   band: minimal
   composite: 5.4
@@ -68,7 +68,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guahao/refs/heads/main/screenshots/guahao-2026-07-25T220411.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 13
@@ -323,7 +323,7 @@ plans:
 - name: Veeam Plans Pricing
   plan_count: 5
   slug: veeam-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Veeam Rate Limits
@@ -340,7 +340,7 @@ rules:
 score:
   band: developing
   composite: 44.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.0
@@ -348,7 +348,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.1
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -357,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/screenshots/veeam-2026-06-20T200904.png
 security:

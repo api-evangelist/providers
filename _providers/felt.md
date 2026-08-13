@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ plans:
 - name: Felt Plans Pricing
   plan_count: 3
   slug: felt-plans-pricing
-random_paper: 79
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Felt Rate Limits
@@ -227,7 +227,7 @@ rules:
 score:
   band: developing
   composite: 54.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.6
@@ -235,7 +235,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/screenshots/felt-2026-06-20T181135.png
 security:

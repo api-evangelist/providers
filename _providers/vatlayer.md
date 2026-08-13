@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: VAT number validation
@@ -56,7 +56,7 @@ name: VATlayer
 nav: Providers
 network: true
 overview: VATlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Validation and Public APIs.
-random_paper: 60
+random_paper: 32
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatlayer/refs/heads/main/screenshots/vatlayer-2026-06-20T200831.png
 security:

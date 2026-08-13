@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -296,11 +296,11 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
-random_paper: 87
+random_paper: 75
 score:
   band: strong
   composite: 58.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.3
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 59.9
+  previous_composite: 58.2
   provenance:
     conformance: derived
     contracts:
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:

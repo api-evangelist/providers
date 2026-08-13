@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Published applications and self-hostable app downloads.
@@ -192,7 +192,7 @@ overview: 'PlayCanvas publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PlayCanvas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 30
+random_paper: 114
 rate_limits:
 - limit_count: 6
   name: Playcanvas Rate Limits
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.9
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 55.2
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

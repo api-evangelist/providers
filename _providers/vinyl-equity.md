@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'Vinyl Equity is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Vinyl Equity''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 4
+random_paper: 80
 score:
   band: emerging
   composite: 14.2
@@ -97,7 +97,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

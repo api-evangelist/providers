@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: custom-columns operations
@@ -207,11 +207,11 @@ overview: 'ComboCurve publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 33
+random_paper: 117
 score:
   band: developing
   composite: 44.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.7
@@ -219,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 45.8
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:

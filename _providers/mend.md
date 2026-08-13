@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 3
@@ -314,11 +314,11 @@ overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mend''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 72
+random_paper: 60
 score:
   band: developing
   composite: 50.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.2
@@ -326,7 +326,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,7 +338,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mend/refs/heads/main/screenshots/mend-2026-08-07T172510.png
 security:

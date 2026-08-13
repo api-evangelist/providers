@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Public author profiles attached to published content.
@@ -169,11 +169,11 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
-random_paper: 113
+random_paper: 45
 score:
   band: thin
   composite: 33.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.4
@@ -181,7 +181,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 33.0
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:

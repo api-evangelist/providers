@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'LendingClub is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   LendingClub''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 44
+random_paper: 4
 score:
   band: emerging
   composite: 16.0
@@ -115,7 +115,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lending-club/refs/heads/main/screenshots/lending-club-2026-07-25T224859.png
 security:

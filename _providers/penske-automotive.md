@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Penske expands service-scheduling AI pilot nationally
   url: https://www.autonews.com/service-and-parts/penske-automotive-group-expands-ai-pilot-nationally/
-random_paper: 52
+random_paper: 112
 score:
   band: minimal
   composite: 4.1
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

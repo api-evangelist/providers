@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
-random_paper: 72
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Fever Rate Limits
@@ -168,7 +168,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.4
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 41.6
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +188,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:

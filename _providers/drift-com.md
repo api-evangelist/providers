@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Drift Com Plans Pricing
   plan_count: 1
   slug: drift-com-plans-pricing
-random_paper: 89
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Drift Com Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 49.0
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.8
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Nutrical Solution Ltd''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 85
+random_paper: 13
 score:
   band: thin
   composite: 32.3
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 14.9
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 34.3
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:

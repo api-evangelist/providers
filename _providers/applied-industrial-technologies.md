@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: AIT Applied Industrial Technologies, Inc. Stock Price & ...
   url: https://seekingalpha.com/symbol/AIT
-random_paper: 64
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Applied Industrial Technologies Rate Limits
@@ -143,7 +143,7 @@ rules:
 score:
   band: thin
   composite: 34.0
-  delta: -11.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 74.6
@@ -151,7 +151,7 @@ score:
     discoverability: 53.7
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +166,8 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Applied Industrial Technologies Authentication

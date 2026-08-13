@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -323,7 +323,7 @@ overview: 'Appcharge publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Appcharge''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, changelog, and 32 more developer resources.'
-random_paper: 11
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Appcharge Rate Limits
@@ -336,7 +336,7 @@ scopes:
 score:
   band: strong
   composite: 65.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.6
@@ -344,7 +344,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 65.6
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -362,7 +362,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:

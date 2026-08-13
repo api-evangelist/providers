@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Data on corporate entities and directors in many countries
@@ -63,7 +63,7 @@ overview: 'OpenCorporates publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   OpenCorporates'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 16
+random_paper: 84
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencorporates/refs/heads/main/screenshots/opencorporates-2026-06-20T190923.png
 security:

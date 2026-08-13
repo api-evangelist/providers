@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: Create, read, update, and delete company records.
@@ -194,7 +194,7 @@ overview: 'Fixture publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 79
+random_paper: 55
 scopes:
 - name: Fixture Scopes
   scope_count: 0
@@ -203,7 +203,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.7
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.3
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -222,7 +222,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:

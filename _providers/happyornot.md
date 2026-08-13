@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: Endpoints and data definitions related to alert comments which have been written for alerts
@@ -95,16 +95,13 @@ apis:
   name: HappyOrNot users API
   slug: happyornot-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Walk the experience-point tree, resolve surveys, then pull button feedback for a period.
   name: Resolve an experience point and fetch its button feedback
   slug: happyornot-fetch-feedback
 - description: Read alert specifications, poll triggered alerts, then read their comments.
   name: Monitor HappyOrNot alerts
   slug: happyornot-monitor-alerts
-artifact_total: 27
+artifact_total: 26
 common:
 - group: docs
   title: ''
@@ -242,11 +239,11 @@ overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 64
+random_paper: 28
 score:
   band: developing
   composite: 48.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.3
@@ -254,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.2
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -265,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Provides access to personal and small business account data including account balances, account details, and account lists for authenticated customers. Supports open banking use cases for fintech appl
@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Truist CIO Focuses on Positioning Bank for Digital Innovation
   url: https://www.wsj.com/articles/truist-cio-focuses-on-positioning-bank-for-digital-innovation-11625563800?eafs_enabled=false
-random_paper: 56
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Bbandt Corp Rate Limits
@@ -179,7 +179,7 @@ rules:
 score:
   band: emerging
   composite: 27.3
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 12.9
@@ -187,7 +187,7 @@ score:
     discoverability: 64.8
     governance: 37.5
     operational_transparency: 5.3
-  previous_composite: 31.7
+  previous_composite: 27.3
   regulatory:
     applies: true
     matched_via: tags
@@ -195,7 +195,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png
 security:

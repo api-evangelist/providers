@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 74
+random_paper: 42
 scopes:
 - name: Realtor Ca Scopes
   scope_count: 5
@@ -216,7 +216,7 @@ scopes:
 score:
   band: thin
   composite: 37.7
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 39.7
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 38.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

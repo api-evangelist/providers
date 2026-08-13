@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ overview: 'Harbinger Health publishes 36 APIs on the [APIs.io](https://apis.io/)
 
 
   Harbinger Health''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 31 more developer resources.'
-random_paper: 113
+random_paper: 61
 scopes:
 - name: Harbinger Health Scopes
   scope_count: 1
@@ -338,7 +338,7 @@ scopes:
 score:
   band: thin
   composite: 39.4
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.0
@@ -346,7 +346,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 42.4
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -364,7 +364,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:

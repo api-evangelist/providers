@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ overview: 'Cloudera publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cloudera''s developer surface includes authentication, documentation, support, GitHub presence, and 8 more developer resources.'
-random_paper: 35
+random_paper: 7
 rules:
 - name: Cloudera API Rules
   rule_count: 9
@@ -161,7 +161,7 @@ rules:
 score:
   band: thin
   composite: 32.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 59.0
@@ -169,7 +169,7 @@ score:
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 33.4
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/screenshots/cloudera-2026-06-20T174548.png
 security:

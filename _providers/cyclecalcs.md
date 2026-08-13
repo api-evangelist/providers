@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,9 +119,6 @@ apis:
   name: CycleCalcs Twilight API
   slug: cyclecalcs-twilight-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve an observer, then ask the eclipse endpoint for an explicit visible-from-here answer with local contact times.
   name: Is the next eclipse visible from here
   slug: cyclecalcs-eclipse-visibility
@@ -131,7 +128,7 @@ arazzos:
 - description: Resolve a place name, take the whole-sky snapshot, then find the dark moonless observing window for the next week.
   name: Tonight's sky for a place
   slug: cyclecalcs-tonights-sky
-artifact_total: 53
+artifact_total: 52
 common:
 - group: other
   title: ''
@@ -334,7 +331,7 @@ plans:
 - name: Cyclecalcs Plans
   plan_count: 4
   slug: cyclecalcs-plans
-random_paper: 2
+random_paper: 86
 rate_limits:
 - limit_count: 15
   name: Cyclecalcs Rate Limits
@@ -342,7 +339,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 65.5
@@ -350,7 +347,7 @@ score:
     discoverability: 81.5
     governance: 31.3
     operational_transparency: 55.3
-  previous_composite: 63.2
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -362,7 +359,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

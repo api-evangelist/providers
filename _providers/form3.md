@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -231,7 +231,7 @@ overview: 'Form3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
-random_paper: 23
+random_paper: 7
 scopes:
 - name: Form3 Scopes
   scope_count: 0
@@ -240,7 +240,7 @@ scopes:
 score:
   band: developing
   composite: 53.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 50.7
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 54.0
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:

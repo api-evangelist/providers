@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -116,7 +116,7 @@ plans:
 - name: Bloomberg Enterprise Plans Pricing
   plan_count: 3
   slug: bloomberg-enterprise-plans-pricing
-random_paper: 115
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Bloomberg Enterprise Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.5
+  previous_composite: 21.9
   regulatory:
     applies: true
     matched_via: tags
@@ -140,8 +140,8 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/screenshots/bloomberg-enterprise-2026-06-20T173424.png
 security:
 - kind: domain-security

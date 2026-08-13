@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'REST API for FMCSA carrier data: lookup by DOT/MC/name, 200+-field profiles, authority & insurance history, VIN-level fleet, roadside inspections & violations, crashes, news, corporate-connection grap'
@@ -177,7 +177,7 @@ plans:
 - name: Alphaloops Plans Pricing
   plan_count: 6
   slug: alphaloops-plans-pricing
-random_paper: 31
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Alphaloops Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.6
-  delta: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 56.1
@@ -193,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 86.8
-  previous_composite: 14.4
+  previous_composite: 60.6
   regulatory:
     applies: true
     matched_via: tags
@@ -201,8 +201,8 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:
 - kind: authentication

@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Gated
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://api.tvscientific.app/v1/
+  - https://www.tvscientific.com/ctv-demo
   trial: false
   try_now: false
 agent_readiness:
@@ -22,14 +24,18 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 2
+  score: 3.2
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
+  name: tvScientific Campaign Management API
+  slug: tvscientific-campaign-management-api
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -47,6 +53,42 @@ common:
   title: ''
   type: Support
   url: https://www.tvscientific.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.tvscientific.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://tvscientific.app
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tvScientific
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.tvscientific.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tvscientific-lifecycle.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/tvscientific-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tvscientific-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/tvscientific-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tvscientific-llms.txt
 - group: commercial
   title: ''
   type: TermsOfService
@@ -68,34 +110,47 @@ common:
   type: DomainSecurity
   url: security/tvscientific-domain-security.yml
 created: '2026-07-17'
-description: tvScientific is a connected-TV (CTV) advertising platform for performance marketers, pairing premium streaming-TV inventory with AI-powered bidding and optimization and outcome-based measurement so brands can run television campaigns against measurable goals like sales, app installs, and site traffic. It positions itself on "premium inventory, AI-powered optimization, and radical transparency," and offers a self-serve buying platform plus an academy and reporting resources for advertisers and agencies. Originally surfaced as a portfolio company of Norwest Venture Partners, its own web properties now brand it "tvScientific by Pinterest." No public developer/API surface, OpenAPI, or documentation portal was found during enrichment; the company publishes a trust center, blog, and legal pages.
+description: 'tvScientific is a connected-TV (CTV) advertising platform for performance marketers, pairing premium streaming-TV inventory with AI-powered bidding and optimization and outcome-based measurement so brands can run television campaigns against measurable goals like sales, app installs, and site traffic. It positions itself on "premium inventory, AI-powered optimization, and radical transparency," and offers a self-serve buying platform plus an academy and reporting resources for advertisers and agencies. Originally surfaced as a portfolio company of Norwest Venture Partners, it now brands itself "tvScientific by Pinterest" after Pinterest completed its acquisition of the company in February 2026. tvScientific runs a real Campaign Management REST API at api.tvscientific.app — named as a component on its own status page — whose v1 and v2 version roots publicly enumerate 50 resource collections covering campaigns, line items, creatives, audiences, targeting, bid strategies, billing
+  and accounts. It publishes no developer program around it: no portal, no API reference, no OpenAPI or GraphQL contract, no SDK, no CLI, and no MCP or agent surface. Every collection but one is credentialed, both documentation hosts sit behind a customer login, and the machine-readable operational signal is limited to an Atlassian Statuspage API and a first-party Google Tag Manager measurement pixel.'
 image: https://www.tvscientific.com/hubfs/Opengraph.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Tvscientific
 nav: Providers
 network: true
-overview: 'Tvscientific is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Connected TV, CTV, and Streaming.
+overview: 'Tvscientific publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Connected TV, CTV, and Streaming.
 
 
-  Tvscientific''s developer surface includes engineering blog, getting-started guide, support, and 6 more developer resources.'
-random_paper: 15
+  Tvscientific''s developer surface includes engineering blog, getting-started guide, support, and 15 more developer resources.'
+plans:
+- name: Tvscientific Plans Pricing
+  plan_count: 0
+  slug: tvscientific-plans-pricing
+random_paper: 91
+rate_limits:
+- limit_count: 0
+  name: Tvscientific Rate Limits
+  slug: tvscientific-rate-limits
 score:
   band: emerging
-  composite: 14.3
-  delta: 0.0
+  composite: 23.7
+  delta: 9.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 21.1
   previous_composite: 14.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Tvscientific Authentication
+  slug: tvscientific-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Tvscientific Domain Security
   slug: tvscientific-domain-security
@@ -114,5 +169,8 @@ tags:
 - Performance Marketing
 - AdTech
 - Measurement
+- Campaign Management
+- Real Time Bidding
+- Attribution
 website: https://tvscientific.com
 ---

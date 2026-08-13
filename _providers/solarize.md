@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for the Solarize meter-to-cash platform — customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks. JSON over HTTPS, JWT bearer auth, of
@@ -147,7 +147,7 @@ overview: 'Solarize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Solarize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 61
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Solarize Rate Limits
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
@@ -163,7 +163,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 52.6
-  previous_composite: 41.2
+  previous_composite: 40.3
   provenance:
     conformance: derived
     mcp: derived
@@ -174,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

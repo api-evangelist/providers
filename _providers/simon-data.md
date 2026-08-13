@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Simon Data Plans Pricing
   plan_count: 1
   slug: simon-data-plans-pricing
-random_paper: 77
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Simon Data Rate Limits
@@ -184,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 67.2
@@ -192,7 +192,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 48.4
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:

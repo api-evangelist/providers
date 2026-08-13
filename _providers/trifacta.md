@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for Designer Cloud powered by Trifacta, exposing flows, wrangled recipes, imported/output datasets, jobs (jobGroups), connections, and deployment resources across the Google Cloud Dataprep, D
@@ -103,11 +103,11 @@ overview: 'Trifacta publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trifacta''s developer surface includes documentation, API reference, and 12 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: emerging
   composite: 20.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.8
+  previous_composite: 20.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

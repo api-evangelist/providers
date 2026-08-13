@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -5784,7 +5784,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 18
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits
@@ -5809,7 +5809,7 @@ rules:
 score:
   band: developing
   composite: 48.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 64.2
@@ -5817,7 +5817,7 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 49.5
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -5832,7 +5832,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:

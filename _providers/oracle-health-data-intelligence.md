@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ plans:
 - name: Oracle Health Data Intelligence Plans Pricing
   plan_count: 3
   slug: oracle-health-data-intelligence-plans-pricing
-random_paper: 56
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Oracle Health Data Intelligence Rate Limits
@@ -95,7 +95,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.9
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 58.2
@@ -103,7 +103,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.0
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     contracts:
@@ -118,8 +118,8 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/screenshots/oracle-health-data-intelligence-2026-06-20T191145.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -611,7 +611,7 @@ plans:
 - name: Convoy Plans Pricing
   plan_count: 3
   slug: convoy-plans-pricing
-random_paper: 90
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Convoy Rate Limits
@@ -636,7 +636,7 @@ rules:
 score:
   band: exemplar
   composite: 72.6
-  delta: 6.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 77.0
@@ -644,7 +644,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 66.3
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     contracts:
@@ -653,8 +653,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:
 - kind: authentication

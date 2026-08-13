@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The Digital LTL Council's electronic bill of lading standard, version 2.1.0 — the council's first and most adopted contract. This is the standard's own specification, not any carrier's implementation.
@@ -141,11 +141,11 @@ overview: 'NMFTA publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   NMFTA''s developer surface includes developer portal, product news, and 17 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: emerging
   composite: 20.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 47.8
@@ -153,7 +153,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.3
+  previous_composite: 20.9
   provenance:
     contracts:
       callable: 0.0
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta

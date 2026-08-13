@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Qiwi Plans Pricing
   plan_count: 3
   slug: qiwi-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Qiwi Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 52.2
@@ -147,7 +147,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.6
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/screenshots/qiwi-2026-06-20T192337.png
 security:
 - kind: authentication

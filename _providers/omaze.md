@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Universal Commerce Protocol Shopping service that Omaze UK exposes over the Model Context Protocol, advertised by Omaze in its own /agents.md and /llms.txt and described by the merchant profile at
@@ -165,7 +165,7 @@ overview: 'Omaze publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Omaze''s developer surface includes documentation, getting-started guide, authentication, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Omaze Rate Limits
@@ -192,7 +192,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/screenshots/omaze-2026-08-07T190133.png
 security:

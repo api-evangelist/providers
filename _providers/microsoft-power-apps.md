@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
   slug: microsoft-power-apps-plans-pricing
-random_paper: 93
+random_paper: 25
 rate_limits:
 - limit_count: 9
   name: Microsoft Power Apps Rate Limits
@@ -360,7 +360,7 @@ scopes:
 score:
   band: strong
   composite: 57.8
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 71.8
@@ -368,7 +368,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 50.0
-  previous_composite: 65.1
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     contracts:
@@ -383,8 +383,8 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:
 - kind: authentication

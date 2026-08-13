@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ overview: 'FastSpring publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 45
+random_paper: 9
 rules:
 - name: FastSpring API Rules
   rule_count: 7
@@ -168,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 39.2
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 61.2
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 5.3
-  previous_composite: 36.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +191,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'ezoic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ac
 
 
   ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 74
+random_paper: 58
 score:
   band: developing
   composite: 53.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.4
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 54.7
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:

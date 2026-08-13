@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -209,11 +209,11 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 66
+random_paper: 38
 score:
   band: strong
   composite: 56.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 73.1
@@ -221,7 +221,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 57.4
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

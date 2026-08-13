@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Microsoft Power Virtual Agents Plans Pricing
   plan_count: 3
   slug: microsoft-power-virtual-agents-plans-pricing
-random_paper: 75
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Virtual Agents Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.8
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 52.2
@@ -149,7 +149,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 45.2
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/screenshots/microsoft-power-virtual-agents-2026-06-20T185526.png
 security:
 - kind: authentication

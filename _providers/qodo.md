@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: AI pull-request reviewer. Available as the Apache-2.0 open-source PR-Agent (CLI, GitHub Action, Docker, self-hosted webhook server) and as the hosted Qodo Merge Git app. It is invoked through Git prov
@@ -113,7 +113,7 @@ plans:
 - name: Qodo Plans Pricing
   plan_count: 4
   slug: qodo-plans-pricing
-random_paper: 87
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Qodo Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 30.6
@@ -129,9 +129,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 31.0
+  previous_composite: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

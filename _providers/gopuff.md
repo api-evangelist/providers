@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ plans:
 - name: Gopuff Plans Pricing
   plan_count: 1
   slug: gopuff-plans-pricing
-random_paper: 67
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Gopuff Rate Limits
@@ -258,7 +258,7 @@ rules:
 score:
   band: thin
   composite: 39.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.4
@@ -266,7 +266,7 @@ score:
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 5.3
-  previous_composite: 40.1
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -275,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png
 security:

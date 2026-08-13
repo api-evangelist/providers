@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -562,7 +562,7 @@ plans:
 - name: Amazon Eventbridge Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-plans-pricing
-random_paper: 2
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Rate Limits
@@ -595,7 +595,7 @@ rules:
 score:
   band: strong
   composite: 62.1
-  delta: -8.7
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 88.1
@@ -603,7 +603,7 @@ score:
     discoverability: 81.5
     governance: 37.5
     operational_transparency: 39.5
-  previous_composite: 70.8
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     contracts:
@@ -612,8 +612,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/screenshots/amazon-eventbridge-2026-06-20T171644.png
 security:
 - kind: authentication

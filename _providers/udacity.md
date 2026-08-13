@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -140,7 +140,7 @@ overview: 'Udacity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Udacity''s developer surface includes pricing, engineering blog, privacy policy, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 59
+random_paper: 35
 score:
   band: minimal
   composite: 12.4
@@ -154,7 +154,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/udacity/refs/heads/main/screenshots/udacity-2026-06-20T195955.png
 security:

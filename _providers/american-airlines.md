@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ press:
 - date: '2026-05-25'
   title: American Airlines reports fourth-quarter and full-year 2025 ...
   url: https://news.aa.com/news/news-details/2026/American-Airlines-reports-fourth-quarter-and-full-year-2025-financial-results-CORP-FI-01/default.aspx
-random_paper: 108
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: American Airlines Rate Limits
@@ -237,7 +237,7 @@ rules:
 score:
   band: thin
   composite: 36.2
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 64.7
@@ -245,7 +245,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 42.0
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: American Airlines Domain Security

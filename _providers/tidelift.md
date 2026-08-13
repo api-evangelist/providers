@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -85,13 +85,10 @@ apis:
   name: Tidelift Vulnerabilities API
   slug: tidelift-vulnerabilities-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Validate the API key, look up a package and a release, and pull the release's vulnerabilities.
   name: Tidelift — package vulnerability check
   slug: tidelift-package-vulnerability-check.arazzo
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Tidelift Webhooks
@@ -236,11 +233,11 @@ overview: 'Tidelift publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 23 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: developing
   composite: 47.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 63.9
@@ -248,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 48.7
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

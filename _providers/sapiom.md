@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for transaction management, payment authorization, agents, spending rules, analytics, and phone verification. Bearer-token authenticated; JSON envelope with cursor pagination.
@@ -164,7 +164,7 @@ overview: 'Sapiom publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sapiom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 21 more developer resources.'
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Sapiom Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 38.0
+  previous_composite: 37.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,7 +192,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

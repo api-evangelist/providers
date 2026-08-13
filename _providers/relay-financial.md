@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 collections:
@@ -88,7 +88,7 @@ plans:
 - name: Relay Financial Plans Pricing
   plan_count: 3
   slug: relay-financial-plans-pricing
-random_paper: 11
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Relay Financial Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -104,7 +104,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 17.4
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
@@ -112,7 +112,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/screenshots/relay-financial-2026-06-20T192825.png
 security:

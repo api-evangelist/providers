@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -168,11 +168,11 @@ overview: 'SmartMind publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmartMind''s developer surface includes authentication, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 47
+random_paper: 15
 score:
   band: thin
   composite: 35.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 49.8
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 35.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

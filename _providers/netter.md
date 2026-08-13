@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 2
@@ -272,11 +272,11 @@ overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 78
+random_paper: 58
 score:
   band: thin
   composite: 35.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 47.3
@@ -284,7 +284,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 36.3
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/screenshots/netter-2026-08-07T184948.png
 security:

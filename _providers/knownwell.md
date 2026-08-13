@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -211,7 +211,7 @@ overview: 'Knownwell publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 65
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Knownwell Rate Limits
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.8
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 56.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ overview: 'Markt Pilot (aka MP) is profiled on the [APIs.io](https://apis.io/) n
 
 
   Markt Pilot (aka MP)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 12
+random_paper: 72
 score:
   band: emerging
   composite: 13.3
@@ -94,7 +94,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markt-pilot-aka-mp/refs/heads/main/screenshots/markt-pilot-aka-mp-2026-07-25T230242.png
 security:

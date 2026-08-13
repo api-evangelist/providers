@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Rugspull Read Api Plans Pricing
   plan_count: 0
   slug: rugspull-read-api-plans-pricing
-random_paper: 86
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Rugspull Read Api Rate Limits
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: 21.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 32.3
@@ -181,10 +181,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 14.0
+  previous_composite: 35.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Rugspull Read Api Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Comprehensive REST API for managing Oracle Cloud Infrastructure resources including compute, storage, networking, and databases.
@@ -78,7 +78,7 @@ plans:
 - name: Oracle Platforms Plans Pricing
   plan_count: 3
   slug: oracle-platforms-plans-pricing
-random_paper: 35
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Oracle Platforms Rate Limits
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 32.3
@@ -94,10 +94,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.6
+  previous_composite: 18.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:
 - kind: domain-security

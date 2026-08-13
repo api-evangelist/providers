@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -707,7 +707,7 @@ plans:
 - name: Roku Plans Pricing
   plan_count: 1
   slug: roku-plans-pricing
-random_paper: 101
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Roku Rate Limits
@@ -732,7 +732,7 @@ rules:
 score:
   band: developing
   composite: 47.5
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 37.8
@@ -740,7 +740,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 47.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -749,7 +749,7 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

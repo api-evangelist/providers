@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,7 +105,7 @@ plans:
 - name: Astrus Plans Pricing
   plan_count: 0
   slug: astrus-plans-pricing
-random_paper: 94
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Astrus Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -121,9 +121,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.7
+  previous_composite: 10.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrus/refs/heads/main/screenshots/astrus-2026-07-25T201511.png
 security:

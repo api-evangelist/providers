@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Torchdental
 nav: Providers
 network: true
 overview: Torchdental is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Procurement, and E-Commerce.
-random_paper: 16
+random_paper: 96
 score:
   band: minimal
   composite: 8.6
@@ -72,7 +72,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

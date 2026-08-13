@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Product Fruits Plans Pricing
   plan_count: 4
   slug: product-fruits-plans-pricing
-random_paper: 91
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Product Fruits Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: developing
   composite: 48.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.2
@@ -197,7 +197,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 49.2
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/screenshots/product-fruits-2026-06-20T192135.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https:/
 
 
   BitPowr Technologies, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
-random_paper: 27
+random_paper: 63
 score:
   band: developing
   composite: 47.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 67.2
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,7 +224,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

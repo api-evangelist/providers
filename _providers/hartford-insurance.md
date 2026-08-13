@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Hartford Insurance is profiled on the [APIs.io](https://apis.io/) net
 
 
   Hartford Insurance''s developer surface includes product news and 7 more developer resources.'
-random_paper: 15
+random_paper: 71
 score:
   band: minimal
   composite: 6.2
@@ -95,7 +95,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hartford-insurance/refs/heads/main/screenshots/hartford-insurance-2026-06-20T182523.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Geolocate website visitors from their IPs
@@ -56,7 +56,7 @@ name: IP Geolocation
 nav: Providers
 network: true
 overview: IP Geolocation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 42
+random_paper: 114
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ip-geolocation/refs/heads/main/screenshots/ip-geolocation-2026-06-20T183545.png
 security:

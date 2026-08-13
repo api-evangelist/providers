@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,11 +87,11 @@ overview: 'Bright is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bright''s developer surface includes support and 9 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: minimal
   composite: 10.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -99,7 +99,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.6
+  previous_composite: 10.9
   provenance:
     mcp: first-party
   regulatory:
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright/refs/heads/main/screenshots/bright-2026-07-25T203828.png
 security:

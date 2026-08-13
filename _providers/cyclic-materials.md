@@ -1,6 +1,63 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 0.0
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cyclic-materials-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://cyclicmaterials.earth
+- group: company
+  title: ''
+  type: About
+  url: https://cyclicmaterials.earth/about-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://cyclicmaterials.earth/resource-center
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://cyclicmaterials.earth/privacy-policy
+- group: operate
+  title: ''
+  type: Contact
+  url: https://cyclicmaterials.earth/contact
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cyclic-materials/
+- group: start
+  title: ''
+  type: SupplierPortal
+  url: https://portal.cyclicmaterials.earth/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.hiive.com/securities/cyclic-materials-stock
 coverage:
   checked: '2026-08-11'
   detail: Cyclic Materials sells recycled rare earth oxide and copper, not software — its entire public presence is an 85-page Webflow marketing site with no /api, /developers or /docs route, and its only application surface, portal.cyclicmaterials.earth, is an Auth0-gated supplier portal for scrap sellers whose /api/* routes are Next.js auth plumbing rather than a published API.
@@ -28,7 +85,28 @@ modified: '2026-08-11'
 name: Cyclic Materials
 nav: Providers
 network: true
-random_paper: 14
+overview: 'Cyclic Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rare Earth Elements, Critical Minerals, Recycling, and Circular Economy.
+
+
+  Cyclic Materials'' developer surface includes engineering blog and 8 more developer resources.'
+random_paper: 78
+score:
+  band: minimal
+  composite: 7.5
+  facets:
+    commercial_clarity: 10.5
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 50.0
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: domain-security
+  name: Cyclic Materials Domain Security
+  slug: cyclic-materials-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: cyclic-materials
 tags:
 - Company
@@ -39,4 +117,5 @@ tags:
 - Cleantech
 - Advanced Materials
 - Sustainability
+website: https://cyclicmaterials.earth
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -191,7 +191,7 @@ plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 27
+random_paper: 103
 rate_limits:
 - limit_count: 3
   name: Oracle Siebel Rate Limits
@@ -216,7 +216,7 @@ rules:
 score:
   band: strong
   composite: 56.1
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.9
@@ -224,7 +224,7 @@ score:
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 55.3
-  previous_composite: 63.6
+  previous_composite: 56.1
   provenance:
     contracts:
       callable: 0.0
@@ -232,8 +232,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: domain-security

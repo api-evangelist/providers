@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,11 +132,11 @@ overview: 'UKG Pro publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   UKG Pro''s developer surface includes authentication, documentation, pricing, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 109
 score:
   band: thin
   composite: 30.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 56.3
@@ -144,7 +144,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.3
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/screenshots/ukg-pro-2026-06-20T200008.png
 security:

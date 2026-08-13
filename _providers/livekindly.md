@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'LIVEKINDLY publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 39
+random_paper: 3
 scopes:
 - name: Livekindly Scopes
   scope_count: 1
@@ -203,7 +203,7 @@ scopes:
 score:
   band: emerging
   composite: 21.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.5
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +223,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:

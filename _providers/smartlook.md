@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Smartlook Plans Pricing
   plan_count: 4
   slug: smartlook-plans-pricing
-random_paper: 60
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Smartlook Rate Limits
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.9
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 21.1
-  previous_composite: 41.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -183,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/screenshots/smartlook-2026-06-20T194043.png
 security:

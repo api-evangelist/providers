@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -318,7 +318,7 @@ plans:
 - name: Microsoft Azure Web Pubsub Plans Pricing
   plan_count: 3
   slug: microsoft-azure-web-pubsub-plans-pricing
-random_paper: 91
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Web Pubsub Rate Limits
@@ -335,7 +335,7 @@ rules:
 score:
   band: strong
   composite: 59.1
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.1
@@ -343,7 +343,7 @@ score:
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 44.7
-  previous_composite: 61.5
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -352,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:

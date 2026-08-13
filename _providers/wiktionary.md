@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -613,7 +613,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
-random_paper: 61
+random_paper: 25
 rules:
 - name: Wiktionary API Rules
   rule_count: 6
@@ -639,7 +639,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 30.9
@@ -647,7 +647,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.6
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -662,7 +662,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:

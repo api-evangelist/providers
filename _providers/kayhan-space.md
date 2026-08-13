@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -99,16 +99,13 @@ apis:
   name: Kayhan Space Two Line Elements (TLEs) API
   slug: kayhan-space-two-line-elements-tles-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Upload CCSDS Conjunction Data Messages, attach one to a conjunction event, and inspect a specific CDM to support a mitigation decision.
   name: Ingest CDMs and inspect a conjunction event
   slug: kayhan-space-cdm-event-review
 - description: Upload an operator ephemeris to Satcat, make it operational, run a conjunction screening, and pull the resulting CDMs and plot.
   name: Screen an ephemeris and review conjunctions
   slug: kayhan-space-screen-ephemeris
-artifact_total: 28
+artifact_total: 27
 common:
 - group: start
   title: ''
@@ -242,7 +239,7 @@ overview: 'Kayhan Space publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kayhan Space''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 45
+random_paper: 5
 scopes:
 - name: Kayhan Space Scopes
   scope_count: 1
@@ -251,7 +248,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.6
@@ -259,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 47.8
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

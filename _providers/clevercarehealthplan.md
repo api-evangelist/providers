@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://api
 
 
   Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 18 more developer resources.'
-random_paper: 21
+random_paper: 69
 scopes:
 - name: Clevercarehealthplan Scopes
   scope_count: 4
@@ -166,7 +166,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 54.2
@@ -174,7 +174,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 50.5
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

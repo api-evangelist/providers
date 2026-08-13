@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The BLM Geospatial Business Platform is a public tool and publication platform for exploring and downloading GIS data. Built on ArcGIS Online, it provides REST endpoints for BLM geospatial data includ
@@ -93,7 +93,7 @@ plans:
 - name: Bureau Of Land Management Plans Pricing
   plan_count: 3
   slug: bureau-of-land-management-plans-pricing
-random_paper: 24
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Bureau Of Land Management Rate Limits
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -109,7 +109,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.3
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
@@ -117,8 +117,8 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/screenshots/bureau-of-land-management-2026-06-20T173814.png
 security:
 - kind: domain-security

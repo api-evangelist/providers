@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -160,11 +160,11 @@ overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 60
+random_paper: 24
 score:
   band: developing
   composite: 49.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.5
@@ -172,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 50.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

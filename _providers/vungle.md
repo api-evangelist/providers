@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'Automated access to Vungle/Liftoff campaign performance reports — impressions, clicks, installs, and in-app events — with configurable groupings, metrics, and cohort (look-back window) analysis. HTTP '
@@ -156,7 +156,7 @@ overview: 'Vungle publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Vungle''s developer surface includes documentation, getting-started guide, authentication, sandbox, engineering blog, and 17 more developer resources.'
-random_paper: 77
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Vungle Rate Limits
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -172,12 +172,12 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 34.2
-  previous_composite: 42.5
+  previous_composite: 41.4
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

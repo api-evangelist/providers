@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -917,7 +917,7 @@ plans:
 - name: Unity Plans Pricing
   plan_count: 1
   slug: unity-plans-pricing
-random_paper: 105
+random_paper: 89
 rate_limits:
 - limit_count: 2
   name: Unity Rate Limits
@@ -942,7 +942,7 @@ rules:
 score:
   band: strong
   composite: 62.8
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 71.7
@@ -950,7 +950,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 65.2
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -959,7 +959,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-06-20T200106.png
 security:

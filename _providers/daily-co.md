@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -197,7 +197,7 @@ plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
   slug: daily-co-plans-pricing
-random_paper: 90
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Daily Co Rate Limits
@@ -205,7 +205,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.6
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.4
@@ -213,7 +213,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 46.5
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

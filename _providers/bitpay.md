@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -198,7 +198,7 @@ rules:
 score:
   band: developing
   composite: 48.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 61.6
@@ -206,7 +206,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 46.3
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:

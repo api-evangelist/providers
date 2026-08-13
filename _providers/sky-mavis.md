@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: REST Web3 data API on the Ronin blockchain — query accounts, NFTs, tokens, collections, blocks, smart contracts and transactions. Authenticated with an X-API-KEY issued from the Ronin Developer Consol
@@ -158,7 +158,7 @@ overview: 'Sky Mavis publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sky Mavis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 4
+random_paper: 92
 scopes:
 - name: Sky Mavis Scopes
   scope_count: 3
@@ -187,7 +187,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

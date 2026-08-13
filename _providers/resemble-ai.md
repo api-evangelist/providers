@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 4
@@ -195,7 +195,7 @@ plans:
 - name: Resemble Ai Plans Pricing
   plan_count: 2
   slug: resemble-ai-plans-pricing
-random_paper: 50
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Resemble Ai Rate Limits
@@ -203,7 +203,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 55.3
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.5
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/screenshots/resemble-ai-2026-06-20T192934.png
 security:

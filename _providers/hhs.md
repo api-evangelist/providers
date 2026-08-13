@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -192,7 +192,7 @@ plans:
 - name: Simpler Grants
   plan_count: 2
   slug: simpler-grants
-random_paper: 91
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Openfda
@@ -212,7 +212,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.9
@@ -220,7 +220,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 41.0
+  previous_composite: 40.5
   provenance:
     contracts:
       callable: 0.0
@@ -234,7 +234,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:

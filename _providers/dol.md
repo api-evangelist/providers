@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: 'Access to Current Employment Statistics (CES), Current Population Survey (CPS), Occupational Employment Statistics Survey (OES), Quarterly Census Employment and Wage (CEW), and Consumer Price Indexes '
@@ -145,7 +145,7 @@ plans:
 - name: Dol Plans Pricing
   plan_count: 2
   slug: dol-plans-pricing
-random_paper: 87
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Dol Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dol/refs/heads/main/screenshots/dol-2026-06-20T180132.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
@@ -102,7 +102,7 @@ overview: 'Beaconcure publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beaconcure''s developer surface includes documentation, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 3
+random_paper: 87
 score:
   band: emerging
   composite: 18.0
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconcure/refs/heads/main/screenshots/beaconcure-2026-08-07T162233.png
 security:

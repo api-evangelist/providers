@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for automating common tasks for debian, rpm, rubygems, python, npm, maven, and helm packages. Supports repository management, package upload and deletion, access token management, GPG key man
@@ -112,7 +112,7 @@ plans:
 - name: Packagecloud Plans Pricing
   plan_count: 4
   slug: packagecloud-plans-pricing
-random_paper: 91
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Packagecloud Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagecloud/refs/heads/main/screenshots/packagecloud-2026-06-20T191309.png
 security:

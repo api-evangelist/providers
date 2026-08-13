@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 13
 common:
@@ -99,7 +99,7 @@ name: CDI Corp
 nav: Providers
 network: true
 overview: CDI Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Engineering Services, Technical Staffing, Energy, Chemicals, and Project Services.
-random_paper: 89
+random_paper: 65
 score:
   band: minimal
   composite: 5.5
@@ -119,7 +119,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png
 security:

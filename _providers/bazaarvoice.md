@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Bazaarvoice publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 115
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Bazaarvoice Rate Limits
@@ -194,7 +194,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 56.1
@@ -202,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 48.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png
 security:

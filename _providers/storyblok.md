@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
   slug: storyblok-plans-pricing
-random_paper: 73
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Storyblok Rate Limits
@@ -430,7 +430,7 @@ rules:
 score:
   band: strong
   composite: 63.8
-  delta: -7.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 74.1
@@ -438,7 +438,7 @@ score:
     discoverability: 72.2
     governance: 53.1
     operational_transparency: 44.7
-  previous_composite: 71.5
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,8 +449,8 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:
 - kind: authentication

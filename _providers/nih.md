@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Nih Plans Pricing
   plan_count: 5
   slug: nih-plans-pricing
-random_paper: 87
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Nih Rate Limits
@@ -253,7 +253,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.5
@@ -261,7 +261,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 43.5
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -276,7 +276,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
 security:

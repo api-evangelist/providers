@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Functional annotations and term lookup
@@ -125,7 +125,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 94
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

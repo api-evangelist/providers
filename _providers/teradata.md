@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ press:
 - date: '2026-05-07'
   title: Introducing the Teradata Autonomous Knowledge Platform
   url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
-random_paper: 26
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Teradata Rate Limits
@@ -427,7 +427,7 @@ rules:
 score:
   band: developing
   composite: 48.2
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 23.6
@@ -435,7 +435,7 @@ score:
     discoverability: 88.9
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 55.5
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication

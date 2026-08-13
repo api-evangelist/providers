@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Read (and timeline-write) access to Crossbeam Ecosystem Intelligence — partners, populations, reports/overlaps, and real-time signals — via a versioned REST API secured with OAuth 2.0. Requires an Aut
@@ -179,7 +179,7 @@ overview: 'Crossbeam publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Crossbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 31
+random_paper: 119
 scopes:
 - name: Crossbeam Scopes
   scope_count: 6
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 53.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -196,13 +196,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 54.5
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: The individual services Order.co reports health for.
@@ -208,11 +208,11 @@ overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
-random_paper: 54
+random_paper: 30
 score:
   band: emerging
   composite: 27.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 13.5
@@ -220,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 28.3
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:

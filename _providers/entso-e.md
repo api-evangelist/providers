@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 3
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Entso E Rate Limits
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.1
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 60.4
@@ -173,7 +173,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.4
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +188,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/screenshots/entso-e-2026-07-25T213441.png
 security:

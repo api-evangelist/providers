@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 69.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -367,7 +367,7 @@ overview: 'Dwolla publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 41 more developer resources.'
-random_paper: 63
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Dwolla Rate Limits
@@ -375,7 +375,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.8
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.8
@@ -383,7 +383,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 60.3
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -401,7 +401,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

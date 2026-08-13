@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](htt
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 21 more developer resources.'
-random_paper: 89
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Nar Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 35.1
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 32.8
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,7 +178,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
 security:

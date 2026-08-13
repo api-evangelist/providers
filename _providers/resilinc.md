@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Resilinc REST API provides programmatic access to supply chain risk data including supplier information, disruption events, risk assessments, and mitigation planning data. The API enables integrat
@@ -135,7 +135,7 @@ plans:
 - name: Resilinc Plans Pricing
   plan_count: 3
   slug: resilinc-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Resilinc Rate Limits
@@ -152,7 +152,7 @@ rules:
 score:
   band: thin
   composite: 29.6
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 29.0
@@ -160,10 +160,10 @@ score:
     discoverability: 66.7
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 36.6
+  previous_composite: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resilinc/refs/heads/main/screenshots/resilinc-2026-06-20T192948.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 25 more developer resources.'
-random_paper: 31
+random_paper: 7
 scopes:
 - name: Facilio Scopes
   scope_count: 7
@@ -299,7 +299,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 54.4
@@ -307,7 +307,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 10.5
-  previous_composite: 49.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:

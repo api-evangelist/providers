@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Public Api API from Contra — 3 operation(s) for public api.
@@ -149,7 +149,7 @@ overview: 'Contra publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Contra''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 67
+random_paper: 47
 scopes:
 - name: Contra Scopes
   scope_count: 1
@@ -158,7 +158,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 35.1
@@ -166,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 39.7
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     contracts:
@@ -177,7 +177,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/screenshots/contra-2026-07-25T210337.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Create, retrieve, update, and delete individual consumer customer resources for a brand and run Know-Your-Customer (KYC) identity verification against them. Endpoints start and retrieve KYC status, re
@@ -193,11 +193,11 @@ overview: 'Bond publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: developing
   composite: 48.6
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 48.2
+  previous_composite: 48.6
   provenance:
     conformance: first-party
   regulatory:
@@ -215,7 +215,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png
 security:

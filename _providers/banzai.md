@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Events, Event Sessions (Dates) and registration.
@@ -201,7 +201,7 @@ overview: 'Banzai publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Banzai''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 49
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Banzai Rate Limits
@@ -209,7 +209,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 24.2
@@ -217,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 46.6
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -228,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:

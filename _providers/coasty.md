@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 68.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -269,7 +269,7 @@ plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 79
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Coasty Rate Limits
@@ -277,7 +277,7 @@ rate_limits:
 score:
   band: strong
   composite: 65.6
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 69.1
@@ -285,7 +285,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 68.4
-  previous_composite: 67.4
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,7 +297,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

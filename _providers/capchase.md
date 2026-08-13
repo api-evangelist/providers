@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -151,11 +151,11 @@ overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 15 more developer resources.'
-random_paper: 12
+random_paper: 104
 score:
   band: developing
   composite: 45.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.2
@@ -163,7 +163,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 46.7
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -181,7 +181,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

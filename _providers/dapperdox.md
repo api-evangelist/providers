@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'DapperDox is an open-source API documentation generator that renders beautiful, customizable reference docs from OpenAPI specifications with support for themes, overlays, and cross-referencing across '
@@ -92,7 +92,7 @@ plans:
 - name: Dapperdox Plans Pricing
   plan_count: 3
   slug: dapperdox-plans-pricing
-random_paper: 39
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Dapperdox Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -108,10 +108,10 @@ score:
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 28.9
-  previous_composite: 21.6
+  previous_composite: 15.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapperdox/refs/heads/main/screenshots/dapperdox-2026-06-20T175450.png
 security:
 - kind: domain-security

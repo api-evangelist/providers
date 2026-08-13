@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for managing customer information and usage records within the PriceOps pricing infrastructure platform. Supports retrieval of subscribed customers and their active plans, posting usage recor
@@ -104,7 +104,7 @@ plans:
 - name: Priceops Plans Pricing
   plan_count: 1
   slug: priceops-plans-pricing
-random_paper: 57
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Priceops Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/priceops/refs/heads/main/screenshots/priceops-2026-06-20T192101.png
 security:

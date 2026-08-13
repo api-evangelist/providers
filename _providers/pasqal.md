@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: REST API for Pasqal Cloud Services — submit and manage quantum Batches and Jobs on Pasqal Fresnel QPUs and on emulator backends (EMU-FREE, EMU-TN, EMU-MPS, EMU-SV), query Devices and Device Specificat
@@ -259,11 +259,11 @@ overview: 'Pasqal publishes 8 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Pasqal''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, sandbox, API reference, and 28 more developer resources.'
-random_paper: 62
+random_paper: 42
 score:
   band: thin
   composite: 30.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -271,9 +271,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.4
+  previous_composite: 30.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pasqal/refs/heads/main/screenshots/pasqal-2026-06-20T191430.png
 security:

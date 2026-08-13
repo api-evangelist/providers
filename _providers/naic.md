@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ overview: 'NAIC publishes 1 API on the [APIs.io](https://apis.io/) network: Cont
 
 
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
-random_paper: 63
+random_paper: 51
 score:
   band: emerging
   composite: 26.6
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.4
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 26.7
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:

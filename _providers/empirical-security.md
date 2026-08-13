@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 27
+random_paper: 83
 scopes:
 - name: Empirical Security Scopes
   scope_count: 1
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 31.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 15.7
@@ -178,7 +178,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.9
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png
 security:

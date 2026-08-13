@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Campbell's Kitchen API exposes the Campbell's Kitchen recipe and product catalog — including thousands of recipes across Campbell's, Swanson, Pace, Prego, and Pepperidge Farm brands — to developer
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Campbell Soup uses AI to go from Mmm ...
   url: https://njbiz.com/campbell-soup-uses-ai-to-go-from-mmm-mmm-good-to-even-better/
-random_paper: 56
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Campbell Soup Rate Limits
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/screenshots/campbell-soup-2026-06-20T173906.png
 security:

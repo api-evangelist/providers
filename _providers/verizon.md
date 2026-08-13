@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -484,7 +484,7 @@ press:
 - date: '2026-05-25'
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
-random_paper: 85
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Verizon Rate Limits
@@ -514,7 +514,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 48.0
@@ -522,7 +522,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 60.5
-  previous_composite: 69.0
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -540,8 +540,8 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:
 - kind: authentication

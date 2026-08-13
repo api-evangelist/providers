@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ overview: 'Kovi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kovi''s developer surface includes engineering blog, support, signup flow, pricing, YouTube channel, and 15 more developer resources.'
-random_paper: 93
+random_paper: 81
 score:
   band: emerging
   composite: 20.2
@@ -139,7 +139,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kovi/refs/heads/main/screenshots/kovi-2026-07-25T224247.png
 security:

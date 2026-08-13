@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -170,11 +170,11 @@ overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 113
+random_paper: 45
 score:
   band: thin
   composite: 38.3
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.9
@@ -182,7 +182,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,7 +200,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:

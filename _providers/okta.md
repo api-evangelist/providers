@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -1956,7 +1956,7 @@ plans:
 - name: Okta Plans Pricing
   plan_count: 6
   slug: okta-plans-pricing
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Okta Rate Limits
@@ -1989,7 +1989,7 @@ rules:
 score:
   band: strong
   composite: 63.5
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 77.0
@@ -1997,7 +1997,7 @@ score:
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 44.7
-  previous_composite: 72.0
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2006,8 +2006,8 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png
 security:
 - kind: authentication

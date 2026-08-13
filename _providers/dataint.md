@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: DataInt
 nav: Providers
 network: true
 overview: DataInt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 45
+random_paper: 21
 score:
   band: minimal
   composite: 3.2
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataint/refs/heads/main/screenshots/dataint-2026-07-25T211330.png
 security:

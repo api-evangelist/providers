@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Command-line tool and Go library that converts OpenAPI 3.0 and 3.1 specifications into Go server-side, client-side, and HTTP model code with support for multiple Go web frameworks.
@@ -148,7 +148,7 @@ plans:
 - name: Oapi Codegen Plans Pricing
   plan_count: 3
   slug: oapi-codegen-plans-pricing
-random_paper: 35
+random_paper: 115
 rate_limits:
 - limit_count: 5
   name: Oapi Codegen Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 9.7
@@ -164,12 +164,12 @@ score:
     discoverability: 66.7
     governance: 22.9
     operational_transparency: 47.4
-  previous_composite: 37.7
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/screenshots/oapi-codegen-2026-06-20T190551.png
 security:
 - kind: vulnerability-disclosure

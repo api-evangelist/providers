@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 7
@@ -250,7 +250,7 @@ plans:
 - name: Maastricht Plans Pricing
   plan_count: 2
   slug: maastricht-plans-pricing
-random_paper: 28
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: Maastricht Rate Limits
@@ -275,7 +275,7 @@ rules:
 score:
   band: thin
   composite: 37.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.4
@@ -283,7 +283,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -298,7 +298,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ overview: 'Columnar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Columnar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 9 more developer resources.'
-random_paper: 53
+random_paper: 25
 score:
   band: emerging
   composite: 16.3
@@ -119,7 +119,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columnar/refs/heads/main/screenshots/columnar-2026-07-25T210101.png
 security:

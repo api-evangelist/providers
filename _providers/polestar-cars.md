@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ overview: 'Polestar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Polestar''s developer surface includes support, GitHub presence, YouTube channel, engineering blog, and 17 more developer resources.'
-random_paper: 68
+random_paper: 24
 score:
   band: minimal
   composite: 7.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polestar-cars/refs/heads/main/screenshots/polestar-cars-2026-06-20T191852.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
   slug: polymarket-plans-pricing
-random_paper: 52
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Polymarket Rate Limits
@@ -174,7 +174,7 @@ rules:
 score:
   band: thin
   composite: 41.4
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.2
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -197,7 +197,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

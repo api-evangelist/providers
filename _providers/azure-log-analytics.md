@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -415,7 +415,7 @@ plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 4
   slug: azure-log-analytics-plans-pricing
-random_paper: 75
+random_paper: 11
 rate_limits:
 - limit_count: 19
   name: Azure Log Analytics Rate Limits
@@ -445,7 +445,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 30.0
@@ -453,7 +453,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 55.3
-  previous_composite: 58.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -462,7 +462,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/screenshots/azure-log-analytics-2026-07-25T202128.png
 security:

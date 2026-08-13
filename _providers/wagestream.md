@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'Wagestream publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wagestream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 28
+random_paper: 112
 score:
   band: developing
   composite: 51.5
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.2
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 51.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

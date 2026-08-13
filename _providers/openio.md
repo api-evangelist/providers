@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Amazon S3-compatible object storage gateway exposed by OpenIO SDS, with an OpenStack Swift-compatible gateway alongside. Self-hosted software, so the API base URL is deployment-specific.
@@ -104,11 +104,11 @@ overview: 'OpenIO publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   OpenIO''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 9 more developer resources.'
-random_paper: 70
+random_paper: 50
 score:
   band: emerging
   composite: 18.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -116,11 +116,11 @@ score:
     discoverability: 66.7
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 20.0
+  previous_composite: 18.9
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

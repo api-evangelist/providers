@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
@@ -142,11 +142,11 @@ overview: 'Farmers Edge publishes 11 APIs on the [APIs.io](https://apis.io/) net
 
 
   Farmers Edge''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 42
+random_paper: 2
 score:
   band: thin
   composite: 29.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 48.4
@@ -154,7 +154,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 29.4
   provenance:
     conformance: derived
     contracts:
@@ -165,7 +165,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:

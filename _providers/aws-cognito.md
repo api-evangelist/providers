@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -5728,7 +5728,7 @@ plans:
 - name: Aws Cognito Plans Pricing
   plan_count: 3
   slug: aws-cognito-plans-pricing
-random_paper: 87
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Aws Cognito Rate Limits
@@ -5753,7 +5753,7 @@ rules:
 score:
   band: strong
   composite: 57.6
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 72.4
@@ -5761,7 +5761,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 66.1
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -5770,8 +5770,8 @@ score:
       marker_coverage: 0.0
       total: 124
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:
 - kind: authentication

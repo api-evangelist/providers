@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -470,7 +470,7 @@ plans:
 - name: Temporal Plans Pricing
   plan_count: 3
   slug: temporal-plans-pricing
-random_paper: 56
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Temporal Rate Limits
@@ -495,7 +495,7 @@ rules:
 score:
   band: exemplar
   composite: 66.4
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 63.4
@@ -503,7 +503,7 @@ score:
     discoverability: 64.8
     governance: 69.8
     operational_transparency: 55.3
-  previous_composite: 73.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -514,8 +514,8 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:
 - kind: authentication

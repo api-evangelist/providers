@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Dopost Co Plans Pricing
   plan_count: 3
   slug: dopost-co-plans-pricing
-random_paper: 108
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Dopost Co Rate Limits
@@ -182,7 +182,7 @@ rules:
 score:
   band: developing
   composite: 46.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.9
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 47.1
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/screenshots/dopost-co-2026-06-20T180157.png
 security:

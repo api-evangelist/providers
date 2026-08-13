@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -277,7 +277,7 @@ plans:
 - name: Peachpayments Plans Pricing
   plan_count: 2
   slug: peachpayments-plans-pricing
-random_paper: 2
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits
@@ -285,7 +285,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 67.6
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 68.4
@@ -293,7 +293,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 72.0
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,7 +311,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
 security:

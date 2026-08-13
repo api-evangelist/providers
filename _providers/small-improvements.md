@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 318
   human_in_the_loop: 10
@@ -2934,7 +2934,7 @@ plans:
 - name: Small Improvements Plans Pricing
   plan_count: 3
   slug: small-improvements-plans-pricing
-random_paper: 47
+random_paper: 103
 rate_limits:
 - limit_count: 3
   name: Small Improvements Rate Limits
@@ -2951,7 +2951,7 @@ rules:
 score:
   band: developing
   composite: 53.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.4
@@ -2959,7 +2959,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.3
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2968,7 +2968,7 @@ score:
       marker_coverage: 0.0
       total: 115
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/screenshots/small-improvements-2026-06-20T194033.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -218,11 +218,11 @@ overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: thin
   composite: 41.3
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.8
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 42.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,7 +248,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

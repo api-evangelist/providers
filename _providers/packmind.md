@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Packmind captures and governs your development playbook so every AI agent follows your rules consistently, across teams and repos.
@@ -69,7 +69,7 @@ plans:
 - name: Packmind Plans Pricing
   plan_count: 3
   slug: packmind-plans-pricing
-random_paper: 27
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Packmind Rate Limits
@@ -77,7 +77,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.9
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -85,10 +85,10 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.8
+  previous_composite: 8.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packmind/refs/heads/main/screenshots/packmind-2026-06-20T191315.png
 security:
 - kind: domain-security

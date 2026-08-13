@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -588,7 +588,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 14
+random_paper: 106
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -613,7 +613,7 @@ rules:
 score:
   band: developing
   composite: 44.5
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 23.6
@@ -621,7 +621,7 @@ score:
     discoverability: 88.9
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 50.5
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -630,8 +630,8 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:
 - kind: authentication

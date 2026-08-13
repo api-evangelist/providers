@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Server and client API for on-ramp, off-ramp, swaps, quotes, sessions, customers (KYC), payment methods, transactions, and virtual accounts.
@@ -199,11 +199,11 @@ overview: 'MoonPay publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   MoonPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 75
+random_paper: 51
 score:
   band: developing
   composite: 55.7
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -211,7 +211,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 57.6
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,7 +223,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/screenshots/moonpay-2026-08-07T184245.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
-random_paper: 99
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Taylor Morrison Home Rate Limits
@@ -213,7 +213,7 @@ rules:
 score:
   band: thin
   composite: 37.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 68.7
@@ -221,7 +221,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 43.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: OUR Archive (Otago University Research Archive) is the University of Otago institutional research repository, now hosted on Ex Libris / Clarivate Esploro. It exposes an OAI-PMH (Open Archives Initiati
@@ -111,7 +111,7 @@ plans:
 - name: University Of Otago Plans Pricing
   plan_count: 2
   slug: university-of-otago-plans-pricing
-random_paper: 107
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: University Of Otago Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/screenshots/university-of-otago-2026-06-20T200216.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -243,7 +243,7 @@ plans:
 - name: Hyperpay Plans Pricing
   plan_count: 2
   slug: hyperpay-plans-pricing
-random_paper: 70
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Hyperpay Rate Limits
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.5
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 66.0
@@ -259,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 61.3
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,7 +277,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
 security:

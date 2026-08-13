@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -231,11 +231,11 @@ overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kernel''s developer surface includes authentication, developer portal, documentation, pricing, changelog, support, CLI, and 19 more developer resources.'
-random_paper: 100
+random_paper: 72
 score:
   band: thin
   composite: 41.7
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 59.0
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 41.5
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -252,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:

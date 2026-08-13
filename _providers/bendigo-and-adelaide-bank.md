@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
@@ -231,7 +231,7 @@ overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://
 
 
   Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 71
+random_paper: 111
 scopes:
 - name: Bendigo And Adelaide Bank Scopes
   scope_count: 10
@@ -240,7 +240,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 60.0
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     contracts:
@@ -265,7 +265,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

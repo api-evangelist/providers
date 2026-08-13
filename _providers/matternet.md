@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Matternet's proprietary cloud platform that receives customer delivery requests, generates routes, and commands, controls, and monitors all operating Matternet assets. A consistent internal Hasura-pow
@@ -99,7 +99,7 @@ plans:
 - name: Matternet Plans Pricing
   plan_count: 1
   slug: matternet-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Matternet Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 28.4
@@ -115,7 +115,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.3
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: tags
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matternet/refs/heads/main/screenshots/matternet-2026-06-20T185042.png
 security:

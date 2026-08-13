@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Llms Full.txt API from Bounti — 1 operation(s) for llms full.txt.
@@ -118,11 +118,11 @@ overview: 'Bounti publishes 2 APIs on the [APIs.io](https://apis.io/) network: L
 
 
   Bounti''s developer surface includes engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 77
+random_paper: 57
 score:
   band: thin
   composite: 32.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.5
@@ -130,7 +130,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 0.0
-  previous_composite: 34.1
+  previous_composite: 32.5
   provenance:
     contracts:
       callable: 100.0
@@ -140,7 +140,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:

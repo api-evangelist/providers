@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -637,7 +637,7 @@ plans:
 - name: Socket Dev Plans Pricing
   plan_count: 3
   slug: socket-dev-plans-pricing
-random_paper: 85
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Socket Dev Rate Limits
@@ -667,7 +667,7 @@ scopes:
 score:
   band: exemplar
   composite: 74.8
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 71.6
@@ -675,7 +675,7 @@ score:
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 72.9
+  previous_composite: 74.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -686,7 +686,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -1690,7 +1690,7 @@ plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
   slug: cloudflare-plans-pricing
-random_paper: 13
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Cloudflare Rate Limits
@@ -1723,7 +1723,7 @@ rules:
 score:
   band: exemplar
   composite: 67.0
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 75.6
@@ -1731,7 +1731,7 @@ score:
     discoverability: 57.4
     governance: 47.9
     operational_transparency: 44.7
-  previous_composite: 69.9
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1740,7 +1740,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -558,7 +558,7 @@ plans:
 - name: Reqres Plans Pricing
   plan_count: 7
   slug: reqres-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Reqres Rate Limits
@@ -583,7 +583,7 @@ rules:
 score:
   band: developing
   composite: 45.7
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 30.3
@@ -591,7 +591,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 43.3
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -600,7 +600,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/screenshots/reqres-2026-06-20T192921.png
 security:

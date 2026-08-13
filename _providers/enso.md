@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: The ccip API from Enso — 2 operation(s) for ccip.
@@ -180,7 +180,7 @@ overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 89
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Enso Rate Limits
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 54.1
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 48.0
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/screenshots/enso-2026-07-25T213420.png
 security:

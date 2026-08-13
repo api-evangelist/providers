@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API (v1.0) for Runrun.it work and project management: tasks, projects, boards, clients, teams, users, comments, documents, evaluations, and time-worked reporting. JSON, ISO 8601'
@@ -148,7 +148,7 @@ overview: 'Nova Lima publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Nova Lima''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Nova Lima Rate Limits
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 38.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
@@ -169,12 +169,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 39.6
+  previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/screenshots/nova-lima-2026-08-07T185626.png
 security:

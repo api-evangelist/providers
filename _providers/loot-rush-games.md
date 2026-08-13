@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
@@ -138,11 +138,11 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 14 more developer resources.'
-random_paper: 3
+random_paper: 71
 score:
   band: thin
   composite: 37.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.6
@@ -150,7 +150,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 38.3
+  previous_composite: 37.8
   provenance:
     conformance: derived
     contracts:
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
 security:

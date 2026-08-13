@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Virtual Peaker publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 27 more developer resources.'
-random_paper: 60
+random_paper: 12
 scopes:
 - name: Virtual Peaker Scopes
   scope_count: 3
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 47.2
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.0
@@ -228,7 +228,7 @@ score:
     discoverability: 66.7
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.9
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,7 +246,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

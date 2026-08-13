@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Yubico OTP validation operations.
@@ -184,11 +184,11 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 
 
   Yubico''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: strong
   composite: 56.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.4
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 57.9
+  previous_composite: 56.2
   provenance:
     conformance: first-party
     contracts:
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

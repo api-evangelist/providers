@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: FHIR R4 (v4.3.0) Universal API for Genentech Patient Support Services, documented in the Universal API Implementation Guide. Supports Access Solutions patient enrollment, Copay enrollment, Patient Fou
@@ -124,7 +124,7 @@ overview: 'Genentech publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Genentech''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 14 more developer resources.'
-random_paper: 17
+random_paper: 105
 scopes:
 - name: Genentech Scopes
   scope_count: 36
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 29.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -141,7 +141,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 30.1
+  previous_composite: 29.0
   provenance:
     conformance: first-party
   regulatory:
@@ -151,7 +151,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/screenshots/genentech-2026-07-25T215539.png
 security:

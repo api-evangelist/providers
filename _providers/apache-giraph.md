@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Apache Giraph Plans Pricing
   plan_count: 3
   slug: apache-giraph-plans-pricing
-random_paper: 14
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Apache Giraph Rate Limits
@@ -217,7 +217,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 61.9
@@ -225,7 +225,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 47.4
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/screenshots/apache-giraph-2026-06-20T172100.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Anthem Patient Access API provides members access to their personal health data via HL7 FHIR R4, as required by the CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Members can aut
@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: doc.ai Partners with Anthem to Introduce Groundbreaking ...
   url: https://www.prnewswire.com/news-releases/docai-partners-with-anthem-to-introduce-groundbreaking-end-to-end-data-trial-powered-by-artificial-intelligence-on-the-blockchain-300689910.html
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Anthem Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.0
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.2
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: tags
@@ -140,7 +140,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthem/refs/heads/main/screenshots/anthem-2026-06-20T172028.png
 security:

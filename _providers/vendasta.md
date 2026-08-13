@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -200,11 +200,11 @@ overview: 'Vendasta publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Vendasta''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: developing
   composite: 49.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 52.8
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

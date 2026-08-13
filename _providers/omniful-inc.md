@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -242,11 +242,11 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 77
+random_paper: 41
 score:
   band: developing
   composite: 46.2
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 65.6
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 8.3
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     contracts:
       callable: 100.0
@@ -263,7 +263,7 @@ score:
       total: 34
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

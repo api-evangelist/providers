@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 40
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.4
@@ -242,7 +242,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 60.0
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:

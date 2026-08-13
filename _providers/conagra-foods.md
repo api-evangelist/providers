@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Conagra Brands Enhances its Artificial Intelligence Capabilities ...
   url: https://www.stlamerican.com/online-features/press-releases/conagra-brands-enhances-its-artificial-intelligence-capabilities-with-human-centered-approach/
-random_paper: 39
+random_paper: 115
 score:
   band: minimal
   composite: 5.7
@@ -94,7 +94,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: conagra-foods
 tags:

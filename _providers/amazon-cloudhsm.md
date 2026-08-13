@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
@@ -188,7 +188,7 @@ overview: 'Amazon CloudHSM publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Amazon CloudHSM''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 21 more developer resources.'
-random_paper: 46
+random_paper: 114
 rules:
 - name: Amazon CloudHSM API Rules
   rule_count: 19
@@ -214,7 +214,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
 security:

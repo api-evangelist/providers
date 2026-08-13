@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -481,7 +481,7 @@ plans:
 - name: Aserto Plans Pricing
   plan_count: 3
   slug: aserto-plans-pricing
-random_paper: 74
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Aserto Rate Limits
@@ -498,7 +498,7 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.7
@@ -506,7 +506,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 42.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -521,7 +521,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:

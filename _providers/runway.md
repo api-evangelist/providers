@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 98
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -330,7 +330,7 @@ rules:
 score:
   band: developing
   composite: 55.7
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.4
@@ -338,7 +338,7 @@ score:
     discoverability: 72.2
     governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 61.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -347,8 +347,8 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:
 - kind: authentication

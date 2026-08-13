@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Developer API for real-time and historical motorsports data across multiple racing series.
@@ -52,7 +52,7 @@ plans:
 - name: Racing Data Plans Pricing
   plan_count: 3
   slug: racing-data-plans-pricing
-random_paper: 39
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Racing Data Rate Limits
@@ -60,7 +60,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.1
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -68,10 +68,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.9
+  previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 slug: racing-data
 tags:
 - Motorsports

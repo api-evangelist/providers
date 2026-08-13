@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -185,7 +185,7 @@ plans:
 - name: Read Ai Plans
   plan_count: 4
   slug: read-ai-plans
-random_paper: 79
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Read Ai Rate Limits
@@ -212,7 +212,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

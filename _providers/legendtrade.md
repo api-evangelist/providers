@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Legend's Hyperliquid-compatible WebSocket at wss://api.legend.trade/ws, using subscription-based messaging. Public marketData channels stream trades, candles, and active asset context; account userDat
@@ -155,11 +155,11 @@ overview: 'LegendTrade publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LegendTrade''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 14 more developer resources.'
-random_paper: 107
+random_paper: 71
 score:
   band: developing
   composite: 44.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.7
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.0
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -184,7 +184,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legendtrade/refs/heads/main/screenshots/legendtrade-2026-07-25T224835.png
 security:

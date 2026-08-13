@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -59,16 +59,13 @@ apis:
   name: Reload workspace API
   slug: reload-workspace-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve who stated a decision, write it to the context graph with provenance, then recall related context.
   name: Reload — capture a decision into shared Memory
   slug: reload-capture-memory
 - description: Load an agent's shared-memory context, then find and read the messages that need a reply.
   name: Reload — session bootstrap and pick up pending work
   slug: reload-session-bootstrap
-artifact_total: 14
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -210,11 +207,11 @@ plans:
 - name: Reload Plans
   plan_count: 5
   slug: reload-plans
-random_paper: 51
+random_paper: 31
 score:
   band: developing
   composite: 54.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 59.7
@@ -222,7 +219,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 54.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,7 +231,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

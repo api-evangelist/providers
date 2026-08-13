@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Grab Plans Pricing
   plan_count: 1
   slug: grab-plans-pricing
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Grab Rate Limits
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.0
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/screenshots/grab-2026-06-20T182311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Open, REST-style API providing developer access to data about the Princeton University Art Museum and its collections. Returns JSON for objects, makers, packages, and full-text search, with IIIF image
@@ -110,7 +110,7 @@ plans:
 - name: Princeton Plans Pricing
   plan_count: 2
   slug: princeton-plans-pricing
-random_paper: 50
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Princeton Rate Limits
@@ -134,7 +134,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png
 security:

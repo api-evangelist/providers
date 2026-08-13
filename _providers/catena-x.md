@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 12
 common:
@@ -168,7 +168,7 @@ overview: 'Catena-X is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Catena-X''s developer surface includes developer portal, documentation, product news, YouTube channel, and 26 more developer resources.'
-random_paper: 89
+random_paper: 65
 score:
   band: minimal
   composite: 11.2
@@ -182,7 +182,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catena-x/refs/heads/main/screenshots/catena-x-2026-08-07T163133.png
 slug: catena-x

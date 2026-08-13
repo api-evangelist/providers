@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -132,7 +132,7 @@ plans:
 - name: 1Inch Plans Pricing
   plan_count: 1
   slug: 1inch-plans-pricing
-random_paper: 3
+random_paper: 107
 rate_limits:
 - limit_count: 2
   name: 1Inch Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 37.0
@@ -148,7 +148,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.9
+  previous_composite: 31.5
   regulatory:
     applies: true
     matched_via: tags
@@ -156,7 +156,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/screenshots/1inch-2026-06-20T162457.png
 security:

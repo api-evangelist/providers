@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -803,7 +803,7 @@ plans:
 - name: Tvdb Plans Pricing
   plan_count: 5
   slug: tvdb-plans-pricing
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Tvdb Rate Limits
@@ -828,7 +828,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.9
@@ -836,7 +836,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.8
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -845,7 +845,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:

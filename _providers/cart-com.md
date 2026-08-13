@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Cart.com publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Cart.com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 94
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Cart Com Rate Limits
@@ -210,7 +210,7 @@ scopes:
 score:
   band: developing
   composite: 55.9
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.6
@@ -218,7 +218,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 57.7
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
 security:

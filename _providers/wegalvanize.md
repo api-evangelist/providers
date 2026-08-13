@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -356,7 +356,7 @@ overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 20 more developer resources.'
-random_paper: 21
+random_paper: 101
 scopes:
 - name: Wegalvanize Scopes
   scope_count: 7
@@ -365,7 +365,7 @@ scopes:
 score:
   band: developing
   composite: 46.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.8
@@ -373,7 +373,7 @@ score:
     discoverability: 79.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.3
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -384,7 +384,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

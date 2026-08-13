@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ plans:
 - name: Braintree Plans Pricing
   plan_count: 6
   slug: braintree-plans-pricing
-random_paper: 28
+random_paper: 116
 rate_limits:
 - limit_count: 3
   name: Braintree Rate Limits
@@ -301,7 +301,7 @@ scopes:
 score:
   band: thin
   composite: 40.5
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 74.0
@@ -309,7 +309,7 @@ score:
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 48.9
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -318,8 +318,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: inFakt's REST API (v3) for automating invoicing and accounting. Resources are addressed with a .json extension under /api/v3/ and authenticated with a per-account API key sent in the X-inFakt-ApiKey h
@@ -180,7 +180,7 @@ overview: 'inFakt publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   inFakt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 57
+random_paper: 37
 score:
   band: developing
   composite: 50.9
@@ -197,7 +197,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png
 security:

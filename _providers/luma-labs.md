@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Luma Labs Plans Pricing
   plan_count: 1
   slug: luma-labs-plans-pricing
-random_paper: 82
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Luma Labs Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.7
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.2
@@ -158,7 +158,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.6
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/screenshots/luma-labs-2026-06-20T184752.png
 security:

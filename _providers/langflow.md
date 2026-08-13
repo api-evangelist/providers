@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -365,7 +365,7 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 43 more developer resources.'
-random_paper: 46
+random_paper: 18
 rules:
 - name: Langflow API Rules
   rule_count: 5
@@ -391,7 +391,7 @@ scopes:
 score:
   band: thin
   composite: 41.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 59.1
@@ -399,7 +399,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 41.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -408,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:

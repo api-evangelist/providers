@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -56,9 +56,6 @@ apis:
   name: Tvarka ATK API Well Known API
   slug: tvarka-atk-api-well-known-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: The full ATK authentication ceremony - create an audience-bound request on the backend, submit the card certificate, return the card signature, and read the verified identity.
   name: Authenticate a person with a Lithuanian eID card
   slug: tvarka-atk-api-authenticate-eid-card
@@ -68,7 +65,7 @@ arazzos:
 - description: The three stateless trust services in sequence - validate a container, add qualified timestamps to untimestamped XAdES, upgrade PAdES B-T to B-LT, then download the output.
   name: Validate, timestamp and archive an existing signed document
   slug: tvarka-atk-api-timestamp-and-archive
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Tvarka Atk Api Webhooks
@@ -261,7 +258,7 @@ plans:
 - name: Tvarka Atk Api Plans
   plan_count: 5
   slug: tvarka-atk-api-plans
-random_paper: 97
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Tvarka Atk Api Rate Limits
@@ -269,7 +266,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.7
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 61.7
@@ -277,7 +274,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 66.7
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

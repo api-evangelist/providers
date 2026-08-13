@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: News with media bias scoring, balanced news synthesis, live market data, AI options pricing
@@ -56,7 +56,7 @@ name: Helium
 nav: Providers
 network: true
 overview: Helium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 4
+random_paper: 56
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helium-heliumtrades/refs/heads/main/screenshots/helium-heliumtrades-2026-06-20T182624.png
 security:

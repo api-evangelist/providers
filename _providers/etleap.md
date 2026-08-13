@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Etleap's external REST API for creating and managing connections, pipelines, models, dbt schedules, teams, and users. Uses HTTP Basic authentication.
@@ -136,11 +136,11 @@ overview: 'Etleap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Etleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 55
+random_paper: 35
 score:
   band: thin
   composite: 31.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -148,12 +148,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 32.7
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etleap/refs/heads/main/screenshots/etleap-2026-07-25T213654.png
 security:

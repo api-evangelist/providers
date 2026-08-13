@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: HTML/URL to PDF/PNG, Office documents to PDF, image conversion
@@ -56,7 +56,7 @@ name: Cloudmersive Document and Data Conversion
 nav: Providers
 network: true
 overview: Cloudmersive Document and Data Conversion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 92
+random_paper: 72
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive-document-and-data-conversion/refs/heads/main/screenshots/cloudmersive-document-and-data-conversion-2026-06-20T174612.png
 security:

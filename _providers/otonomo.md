@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -122,7 +122,7 @@ overview: 'Otonomo publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 9 more developer resources.'
-random_paper: 83
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Otonomo Rate Limits
@@ -135,7 +135,7 @@ scopes:
 score:
   band: thin
   composite: 33.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 68.7
@@ -143,7 +143,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -155,7 +155,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

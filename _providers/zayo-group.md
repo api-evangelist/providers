@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ plans:
 - name: Zayo Group Plans Pricing
   plan_count: 1
   slug: zayo-group-plans-pricing
-random_paper: 9
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Zayo Group Rate Limits
@@ -116,7 +116,7 @@ scopes:
 score:
   band: emerging
   composite: 26.8
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.7
@@ -124,7 +124,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.6
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -133,8 +133,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/screenshots/zayo-group-2026-06-20T201802.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -199,11 +199,11 @@ overview: 'Figure publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Figure''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 62
+random_paper: 42
 score:
   band: developing
   composite: 48.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.8
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.2
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -134,11 +134,11 @@ overview: 'Gravity Forms publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gravity Forms'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 94
+random_paper: 50
 score:
   band: thin
   composite: 33.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.5
@@ -146,7 +146,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 34.3
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -155,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/screenshots/gravity-forms-2026-06-20T182350.png
 security:

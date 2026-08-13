@@ -22,19 +22,19 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-11'
+  score: 17.3
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
   name: Metamarkets Real-Time Data Ingestion (RDI) API
   slug: metamarkets-real-time-data-ingestion-rdi-api
-artifact_total: 4
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -100,39 +100,77 @@ common:
   title: ''
   type: Components
   url: components/metamarkets-components.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.metamarkets.com/docs/real-time-data-delivery
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/metamarkets-vocabulary.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/metamarkets-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/metamarkets-rdi-examples.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/metamarkets-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/metamarkets-lifecycle.yml
 created: '2026-07-17'
 description: Metamarkets built a real-time analytics platform for the programmatic advertising industry, giving ad exchanges, DSPs, SSPs, and publishers an interactive dashboard over billions of daily bid, impression, and spend events. Its Real-Time Data Ingestion (RDI) platform ingests well-formatted, standards-based ad-tech event data (adhering to OpenRTB 2.5, IAB guidelines, and ISO date/country/language/currency standards) over an authenticated HTTPS streaming endpoint and surfaces it in the Metamarkets dashboard within seconds for querying and analysis. Metamarkets was acquired by Snap Inc. in 2017; the primary metamarkets.com site is now defunct, but the legacy developer documentation for the RDI platform remains live at docs.metamarkets.com. Surfaced as a portfolio company of Anthemis and profiled in the API Evangelist network.
+examples:
+- key_count: 10
+  name: Metamarkets Auction Summary Record
+  slug: metamarkets-auction-summary-record
+- key_count: 2
+  name: Metamarkets Click Record
+  slug: metamarkets-click-record
+- key_count: 4
+  name: Metamarkets Impression Record
+  slug: metamarkets-impression-record
 image: https://files.readme.io/7e7ea7f-small-MMX-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Metamarkets
 nav: Providers
 network: true
 overview: 'Metamarkets publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Analytics, and Real Time.
 
 
-  Metamarkets'' developer surface includes documentation, getting-started guide, support, CLI, authentication, sandbox, and 10 more developer resources.'
-random_paper: 22
+  Metamarkets'' developer surface includes documentation, getting-started guide, support, CLI, authentication, sandbox, API reference, and 15 more developer resources.'
+plans:
+- name: Metamarkets Plans Pricing
+  plan_count: 0
+  slug: metamarkets-plans-pricing
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits
   slug: metamarkets-rate-limits
 score:
   band: emerging
-  composite: 20.6
-  delta: -1.1
+  composite: 23.2
+  delta: 2.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
+    developer_ergonomics: 60.9
     discoverability: 75.9
-    governance: 12.5
+    governance: 22.9
     operational_transparency: 5.3
-  previous_composite: 21.7
+  previous_composite: 20.6
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/screenshots/metamarkets-2026-08-07T172649.png
 security:

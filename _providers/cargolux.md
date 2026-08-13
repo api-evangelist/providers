@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -111,7 +111,7 @@ overview: 'Cargolux is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cargolux''s developer surface includes documentation, engineering blog, and 17 more developer resources.'
-random_paper: 57
+random_paper: 29
 score:
   band: minimal
   composite: 12.1
@@ -125,7 +125,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargolux/refs/heads/main/screenshots/cargolux-2026-08-07T163019.png
 slug: cargolux

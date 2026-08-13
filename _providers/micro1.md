@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -165,11 +165,11 @@ overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   micro1''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 7
+random_paper: 107
 score:
   band: developing
   composite: 47.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.4
@@ -177,7 +177,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 47.9
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,7 +189,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/screenshots/micro1-2026-08-07T172821.png
 security:

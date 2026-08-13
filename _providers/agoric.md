@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,11 +107,11 @@ overview: 'Agoric is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Agoric''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: emerging
   composite: 22.7
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -119,9 +119,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 23.9
+  previous_composite: 22.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agoric/refs/heads/main/screenshots/agoric-2026-07-25T195316.png
 security:

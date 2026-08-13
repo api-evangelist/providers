@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -38,13 +38,10 @@ apis:
   name: KW Marketplace Subscription & Metered Billing API
   slug: keller-williams-marketplace-subscription-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
   slug: keller-williams-publish-listing
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Keller Williams Marketplace Webhooks
@@ -215,7 +212,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 28 more developer resources.'
-random_paper: 42
+random_paper: 110
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
@@ -224,7 +221,7 @@ scopes:
 score:
   band: developing
   composite: 50.2
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.2
@@ -232,7 +229,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 50.3
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +242,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'First Nations Bank of Canada is profiled on the [APIs.io](https://api
 
 
   First Nations Bank of Canada''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 53
+random_paper: 81
 score:
   band: minimal
   composite: 11.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.5
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/screenshots/first-nations-bank-of-canada-2026-07-25T214606.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 99
+random_paper: 91
 scopes:
 - name: Nex Scopes
   scope_count: 18
@@ -222,7 +222,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
 security:

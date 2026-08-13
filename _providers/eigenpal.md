@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -189,11 +189,11 @@ overview: 'Eigenpal publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Eigenpal''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, changelog, and 21 more developer resources.'
-random_paper: 25
+random_paper: 117
 score:
   band: developing
   composite: 45.8
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 71.8
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 47.6
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
 security:

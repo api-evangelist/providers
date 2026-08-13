@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Blast Network Plans Pricing
   plan_count: 1
   slug: blast-network-plans-pricing
-random_paper: 81
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Blast Network Rate Limits
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.5
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.5
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/screenshots/blast-network-2026-06-20T173346.png
 security:

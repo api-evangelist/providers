@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -71,11 +71,11 @@ overview: 'AlgoX2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AlgoX2''s developer surface includes engineering blog, support, YouTube channel, and 4 more developer resources.'
-random_paper: 9
+random_paper: 109
 score:
   band: minimal
   composite: 10.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -83,7 +83,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.6
+  previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: tags
@@ -91,7 +91,7 @@ score:
     regime_id: securities_market_data
     score: 13.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algox2/refs/heads/main/screenshots/algox2-2026-07-25T195608.png
 slug: algox2

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ overview: 'Amartha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Amartha''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 38
+random_paper: 14
 score:
   band: minimal
   composite: 12.9
@@ -104,7 +104,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amartha/refs/heads/main/screenshots/amartha-2026-08-07T161308.png
 security:

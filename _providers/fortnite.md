@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Fortnite Plans Pricing
   plan_count: 2
   slug: fortnite-plans-pricing
-random_paper: 63
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Fortnite Rate Limits
@@ -254,7 +254,7 @@ rules:
 score:
   band: thin
   composite: 35.6
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 24.3
@@ -262,7 +262,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 35.8
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -271,7 +271,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

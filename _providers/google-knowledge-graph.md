@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Google Knowledge Graph Plans Pricing
   plan_count: 3
   slug: google-knowledge-graph-plans-pricing
-random_paper: 13
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Google Knowledge Graph Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: developing
   composite: 50.8
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 67.9
@@ -172,7 +172,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 59.3
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/screenshots/google-knowledge-graph-2026-06-20T182208.png
 security:
 - kind: authentication

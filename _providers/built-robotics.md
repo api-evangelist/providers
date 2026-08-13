@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,11 +130,11 @@ overview: 'Built Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Built Robotics'' developer surface includes support, YouTube channel, and 22 more developer resources.'
-random_paper: 66
+random_paper: 18
 score:
   band: emerging
   composite: 18.2
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 15.5
+  previous_composite: 18.2
   provenance:
     conformance: first-party
   regulatory:
@@ -152,7 +152,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/built-robotics/refs/heads/main/screenshots/built-robotics-2026-08-07T162842.png
 security:

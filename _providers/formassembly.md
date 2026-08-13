@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -217,7 +217,7 @@ plans:
 - name: Formassembly Plans Pricing
   plan_count: 4
   slug: formassembly-plans-pricing
-random_paper: 24
+random_paper: 100
 rate_limits:
 - limit_count: 4
   name: Formassembly Rate Limits
@@ -239,7 +239,7 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 66.0
@@ -247,7 +247,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.9
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -262,7 +262,7 @@ score:
     regime_id: government
     score: 59.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/screenshots/formassembly-2026-06-20T181430.png
 security:

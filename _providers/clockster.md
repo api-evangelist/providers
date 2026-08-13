@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Clockster is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clockster''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 42
+random_paper: 10
 score:
   band: emerging
   composite: 13.9
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockster/refs/heads/main/screenshots/clockster-2026-07-25T205643.png
 security:

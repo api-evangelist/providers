@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -168,16 +168,13 @@ apis:
   name: Weavr Wiretransfers API
   slug: weavr-wiretransfers-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Simulate a deposit into a managed account, then move funds with an internal transfer and an external send. Uses the Simulator API for the deposit so a fork runs end-to-end in the Weavr sandbox.
   name: Fund a managed account and move money
   slug: weavr-fund-account-and-transfer
 - description: Create a corporate identity, authenticate, open a managed account and issue a virtual card on the Weavr Multi API. Fork and run against the sandbox (https://sandbox.weavr.io).
   name: Onboard a corporate and issue a virtual card
   slug: weavr-onboard-corporate-and-issue-card
-artifact_total: 51
+artifact_total: 50
 common:
 - group: other
   title: ''
@@ -343,11 +340,11 @@ overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 30 more developer resources.'
-random_paper: 85
+random_paper: 69
 score:
   band: strong
   composite: 57.7
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.3
@@ -355,7 +352,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 62.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,7 +370,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

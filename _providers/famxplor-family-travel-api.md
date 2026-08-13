@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The First API 100% Dedicated to Family Travel. Designed for developers, travel apps, and businesses, the Famxplor API delivers personalized, family-focused recommendations tested and loved by real fam
@@ -88,7 +88,7 @@ plans:
 - name: Famxplor Family Travel Api Plans Pricing
   plan_count: 3
   slug: famxplor-family-travel-api-plans-pricing
-random_paper: 66
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Famxplor Family Travel Api Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.2
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.4
+  previous_composite: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/screenshots/famxplor-family-travel-api-2026-06-20T181032.png
 security:
 - kind: domain-security

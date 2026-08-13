@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: News Releases
   url: https://investors.cinfin.com/2026-01-30-Cincinnati-Financial-Corporation-Increases-Regular-Quarterly-Cash-Dividend
-random_paper: 62
+random_paper: 114
 score:
   band: minimal
   composite: 7.7
@@ -127,7 +127,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cincinnati-financial/refs/heads/main/screenshots/cincinnati-financial-2026-06-20T174346.png
 security:

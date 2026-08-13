@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Climatiq Plans Pricing
   plan_count: 3
   slug: climatiq-plans-pricing
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Climatiq Rate Limits
@@ -264,7 +264,7 @@ rules:
 score:
   band: developing
   composite: 51.5
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 65.7
@@ -272,7 +272,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 58.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +287,8 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-06-20T174523.png
 security:
 - kind: authentication

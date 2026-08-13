@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Company News | Sonic Automotive Group
   url: https://www.dealer.com/canada/company-news/sonic-automotive-group-partners-with-dealer-com/
-random_paper: 62
+random_paper: 6
 score:
   band: minimal
   composite: 7.2
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonic-automotive/refs/heads/main/screenshots/sonic-automotive-2026-06-20T194214.png
 security:

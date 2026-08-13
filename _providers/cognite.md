@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -421,7 +421,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
-random_paper: 49
+random_paper: 25
 rules:
 - name: Cognite API Rules
   rule_count: 5
@@ -447,7 +447,7 @@ scopes:
 score:
   band: thin
   composite: 41.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 70.5
@@ -455,7 +455,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 42.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -464,7 +464,7 @@ score:
       marker_coverage: 0.0
       total: 89
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
 security:

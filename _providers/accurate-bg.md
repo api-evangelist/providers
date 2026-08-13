@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Accurate Bg Plans Pricing
   plan_count: 3
   slug: accurate-bg-plans-pricing
-random_paper: 42
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Accurate Bg Rate Limits
@@ -152,7 +152,7 @@ scopes:
 score:
   band: thin
   composite: 39.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 50.7
@@ -160,7 +160,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.4
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/screenshots/accurate-bg-2026-07-25T181442.png
 security:

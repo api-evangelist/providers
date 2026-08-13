@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for token-driven communities on Polygon: users and hosted wallets; ERC-20 / ERC-721 / ERC-1155 and Soulbound token contract deployment, minting, patching, and transfers (sync + async with sta'
@@ -100,7 +100,7 @@ overview: 'Co:Create publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Co:Create''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 71
+random_paper: 43
 score:
   band: emerging
   composite: 20.0
@@ -116,7 +116,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-create/refs/heads/main/screenshots/co-create-2026-07-25T205812.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 20
 apis:
 - description: The Account API from OTO Global — 4 operation(s) for account.
@@ -232,11 +232,11 @@ overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 80
+random_paper: 48
 score:
   band: developing
   composite: 50.0
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.0
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 54.5
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
@@ -261,7 +261,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Real-time and historical US equity quotes, intraday and historical prices, OHLCV charts, news, dividends, splits, options chains, fundamentals, and corporate actions. Pricing was message-based: each e'
@@ -128,7 +128,7 @@ plans:
 - name: Iex Cloud Plans Pricing
   plan_count: 4
   slug: iex-cloud-plans-pricing
-random_paper: 94
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Iex Cloud Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.4
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.0
+  previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: tags
@@ -152,8 +152,8 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/screenshots/iex-cloud-2026-06-20T183213.png
 security:
 - kind: authentication

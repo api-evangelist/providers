@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -477,7 +477,7 @@ plans:
 - name: Tomorrow Plans Pricing
   plan_count: 4
   slug: tomorrow-plans-pricing
-random_paper: 93
+random_paper: 65
 rate_limits:
 - limit_count: 6
   name: Tomorrow Rate Limits
@@ -502,7 +502,7 @@ rules:
 score:
   band: developing
   composite: 47.9
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 23.7
@@ -510,7 +510,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 45.5
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -519,7 +519,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:

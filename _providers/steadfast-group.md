@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 29 more developer resources.'
-random_paper: 53
+random_paper: 1
 scopes:
 - name: Steadfast Group Scopes
   scope_count: 7
@@ -199,7 +199,7 @@ scopes:
 score:
   band: thin
   composite: 37.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 60.4
@@ -207,7 +207,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,7 +225,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

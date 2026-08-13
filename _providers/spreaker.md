@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Spreaker Plans Pricing
   plan_count: 4
   slug: spreaker-plans-pricing
-random_paper: 49
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Spreaker Rate Limits
@@ -140,7 +140,7 @@ scopes:
 score:
   band: thin
   composite: 37.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.2
@@ -148,7 +148,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.9
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -157,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

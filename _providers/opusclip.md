@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -237,7 +237,7 @@ overview: 'OpusClip publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpusClip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 67
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Opusclip Rate Limits
@@ -245,7 +245,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.1
@@ -253,7 +253,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 81.6
-  previous_composite: 60.1
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,7 +265,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/screenshots/opusclip-2026-08-07T190820.png
 security:

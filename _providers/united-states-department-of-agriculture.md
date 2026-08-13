@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: United States Department Of Agriculture Plans Pricing
   plan_count: 3
   slug: united-states-department-of-agriculture-plans-pricing
-random_paper: 25
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: United States Department Of Agriculture Rate Limits
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 36.4
-  delta: -9.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 63.2
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 45.7
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/screenshots/united-states-department-of-agriculture-2026-06-20T200058.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -243,11 +243,11 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
 
   Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 78
+random_paper: 38
 score:
   band: thin
   composite: 40.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 56.9
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 41.2
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

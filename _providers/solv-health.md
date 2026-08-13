@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Real-time same-day appointment availability and booking capability that lets digital-first and virtual-care partners (telehealth navigators, health plans) hand a patient off to an in-person visit at a
@@ -87,7 +87,7 @@ plans:
 - name: Solv Health Plans Pricing
   plan_count: 2
   slug: solv-health-plans-pricing
-random_paper: 83
+random_paper: 47
 score:
   band: emerging
   composite: 13.0
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -348,7 +348,7 @@ plans:
 - name: Zenml Plans Pricing
   plan_count: 3
   slug: zenml-plans-pricing
-random_paper: 86
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Zenml Rate Limits
@@ -373,7 +373,7 @@ rules:
 score:
   band: strong
   composite: 58.9
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 63.7
@@ -381,7 +381,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 65.3
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -390,8 +390,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:
 - kind: authentication

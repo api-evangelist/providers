@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -344,11 +344,11 @@ overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 56
+random_paper: 24
 score:
   band: developing
   composite: 49.9
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 69.2
@@ -356,7 +356,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 50.1
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -374,7 +374,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CommScope (formerly ARRIS) provides API and integration capabilities for network infrastructure management, including tools for managing broadband devices, DOCSIS networks, and cable plant equipment t
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Arris Wins 4K STB Deal With Altice
   url: https://www.lightreading.com/network-technology/arris-wins-4k-stb-deal-with-altice
-random_paper: 103
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Arris Group Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.7
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -126,7 +126,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.3
+  previous_composite: 14.7
   regulatory:
     applies: true
     matched_via: tags
@@ -134,8 +134,8 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arris-group/refs/heads/main/screenshots/arris-group-2026-06-20T172437.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ plans:
 - name: Bot Butcher Plans Pricing
   plan_count: 3
   slug: bot-butcher-plans-pricing
-random_paper: 75
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Bot Butcher Rate Limits
@@ -99,7 +99,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 58.2
@@ -107,7 +107,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -116,8 +116,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/screenshots/bot-butcher-2026-06-20T173615.png
 security:
 - kind: authentication

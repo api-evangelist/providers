@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: CFIUS publishes an annual report to Congress summarizing covered transactions reviewed during the prior calendar year, statistics on notices, declarations, withdrawn cases, and presidential decisions.
@@ -86,7 +86,7 @@ plans:
 - name: Committee On Foreign Investment In The United States Plans Pricing
   plan_count: 3
   slug: committee-on-foreign-investment-in-the-united-states-plans-pricing
-random_paper: 91
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Committee On Foreign Investment In The United States Rate Limits
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.1
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -102,7 +102,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.5
+  previous_composite: 14.1
   regulatory:
     applies: true
     matched_via: tags
@@ -110,8 +110,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/committee-on-foreign-investment-in-the-united-states/refs/heads/main/screenshots/committee-on-foreign-investment-in-the-united-states-2026-06-20T174816.png
 security:
 - kind: domain-security

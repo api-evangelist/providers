@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -751,7 +751,7 @@ rules:
 score:
   band: exemplar
   composite: 66.7
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 75.5
@@ -759,7 +759,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 71.5
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     contracts:
@@ -768,7 +768,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

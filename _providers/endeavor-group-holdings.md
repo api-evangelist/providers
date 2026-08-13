@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,7 +60,7 @@ name: Endeavor Group Holdings
 nav: Providers
 network: true
 overview: Endeavor Group Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Entertainment, Talent, Media, and Licensing.
-random_paper: 35
+random_paper: 75
 score:
   band: minimal
   composite: 5.0
@@ -74,7 +74,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavor-group-holdings/refs/heads/main/screenshots/endeavor-group-holdings-2026-06-20T180655.png
 security:

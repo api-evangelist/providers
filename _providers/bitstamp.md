@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 56
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -195,7 +195,7 @@ rules:
 score:
   band: developing
   composite: 49.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 58.2
@@ -203,7 +203,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,7 +218,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
 security:

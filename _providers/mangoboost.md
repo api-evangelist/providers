@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: 'LLMBoost is MangoBoost''s enterprise LLM inference server. It serves the OpenAI REST API on /v1 so an existing OpenAI client migrates with a base-URL change: POST /v1/chat/completions, POST /v1/complet'
@@ -156,11 +156,11 @@ overview: 'MangoBoost publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MangoBoost''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 37
+random_paper: 1
 score:
   band: thin
   composite: 28.7
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -168,11 +168,11 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 27.8
+  previous_composite: 28.7
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/screenshots/mangoboost-2026-08-07T171949.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 26 more developer resources.'
-random_paper: 96
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Vbout Rate Limits
@@ -241,7 +241,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.3
@@ -249,7 +249,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

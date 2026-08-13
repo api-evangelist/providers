@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -132,11 +132,11 @@ overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   AWS Marketplace''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 29
+random_paper: 97
 score:
   band: thin
   composite: 30.3
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -144,7 +144,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/screenshots/aws-marketplace-2026-06-20T172754.png
 security:

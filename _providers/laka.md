@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: The accounts API from Laka — 6 operation(s) for accounts.
@@ -181,11 +181,11 @@ overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: developing
   composite: 43.7
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.4
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 45.1
+  previous_composite: 43.7
   provenance:
     conformance: derived
     contracts:
@@ -210,7 +210,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/screenshots/laka-2026-07-25T224431.png
 security:

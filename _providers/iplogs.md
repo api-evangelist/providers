@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing.
@@ -63,7 +63,7 @@ overview: 'IPLogs publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   IPLogs'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 74
+random_paper: 54
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iplogs/refs/heads/main/screenshots/iplogs-2026-06-20T183556.png
 security:

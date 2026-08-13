@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'RockFi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   RockFi''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 58
+random_paper: 38
 score:
   band: emerging
   composite: 13.8
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
@@ -95,7 +95,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

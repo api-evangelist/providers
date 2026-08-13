@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,11 +95,11 @@ overview: 'HDVI (High Definition Vehicle Insurance) is profiled on the [APIs.io]
 
 
   HDVI (High Definition Vehicle Insurance)''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 79
+random_paper: 67
 score:
   band: emerging
   composite: 19.9
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 19.9
   provenance:
     conformance: first-party
   regulatory:
@@ -117,7 +117,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hdvi/refs/heads/main/screenshots/hdvi-2026-07-25T220815.png
 security:

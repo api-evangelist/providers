@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 5
@@ -171,7 +171,7 @@ plans:
 - name: Qstash Plans Pricing
   plan_count: 5
   slug: qstash-plans-pricing
-random_paper: 80
+random_paper: 60
 rate_limits:
 - limit_count: 10
   name: Qstash Rate Limits
@@ -188,7 +188,7 @@ rules:
 score:
   band: developing
   composite: 54.2
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.5
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/screenshots/qstash-2026-06-20T192402.png
 security:

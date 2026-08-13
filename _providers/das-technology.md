@@ -1,18 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Partner
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://www.dastechnology.com/get-demo
+  - https://api.digitalairstrike.com/swagger
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -20,16 +22,20 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 38.3
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: The DAS Web API (DASWebAPI) is DAS Technology's REST API for the CDXP platform, served from api.digitalairstrike.com and documented by two Swashbuckle-generated Swagger 2.0 documents published side by
+  name: DAS Web API
+  slug: das-web-api
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -55,40 +61,73 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://digitalairstrike.com/privacy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dastechnology
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/das-technology-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/das-technology-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/das-technology-llms.txt
 created: '2026-07-17'
-description: 'DAS Technology (formerly Digital Air Strike) is an automotive-retail marketing and customer-experience technology company serving more than 9,300 dealerships and OEMs. Its AI-native CDXP (Customer Data and Experience Platform) unifies sales, service, and retention data across three product lines: Attract (multi-channel digital advertising across Google, Facebook, Microsoft, Amazon, and TikTok), Convert (AI-powered lead response, instant quotes, and long-cycle nurturing), and Retain (reputation management, equity mining, and service-retention campaigns). DAS Technology publishes no public developer API, OpenAPI, SDK, or self-serve developer portal; this profile captures its public company identity and a domain-security probe.'
+description: 'DAS Technology (formerly Digital Air Strike) is an automotive-retail marketing and customer-experience technology company serving more than 9,300 dealerships and OEMs. Its AI-native CDXP (Customer Data and Experience Platform) unifies sales, service, and retention data across three product lines: Attract (multi-channel digital advertising across Google, Facebook, Microsoft, Amazon, and TikTok), Convert (AI-powered lead response, instant quotes, and long-cycle nurturing), and Retain (reputation management, equity mining, and service-retention campaigns). DAS Technology ships a real REST API — the DAS Web API — served from its legacy Digital Air Strike domain and documented by two publicly readable Swagger 2.0 documents covering 136 operations across accounts and dealer-group hierarchy, reviews and reputation, surveys and NPS, enterprise statistics, transactional messaging, users, vehicles and transactions. The contract is discoverable but the program around it is not: there
+  is no developer portal, no pricing, no SDK, no sandbox, no status page and no changelog, and access is arranged through the dealer, OEM or partner relationship.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/das-technology.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: das-technology-mcp.yml
+  slug: das-technology-mcpyml
+modified: '2026-08-12'
 name: DAS Technology
 nav: Providers
 network: true
-overview: 'DAS Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Martech, Automotive, Automotive Retail, and Marketing.
+overview: 'DAS Technology publishes 1 API on the [APIs.io](https://apis.io/) network: DAS Web API. Tagged areas include Company, Martech, Automotive, Automotive Retail, and Marketing.
 
 
-  DAS Technology''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 49
+  DAS Technology''s developer surface includes engineering blog, support, and 9 more developer resources.'
+plans:
+- name: Das Technology Plans Pricing
+  plan_count: 0
+  slug: das-technology-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 0
+  name: Das Technology Rate Limits
+  slug: das-technology-rate-limits
 score:
-  band: emerging
-  composite: 13.1
-  delta: 0.0
+  band: thin
+  composite: 31.1
+  delta: 18.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    contract_quality: 32.1
+    developer_ergonomics: 21.7
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/screenshots/das-technology-2026-07-25T211222.png
 security:
+- kind: authentication
+  name: Das Technology Authentication
+  slug: das-technology-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Das Technology Domain Security
   slug: das-technology-domain-security
@@ -103,5 +142,9 @@ tags:
 - Customer Data Platform
 - Advertising
 - Reputation Management
+- Reviews
+- Surveys
+- Customer Experience
+- Dealership
 website: https://www.dastechnology.com
 ---

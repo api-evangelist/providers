@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'ShopMy publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 92
+random_paper: 72
 scopes:
 - name: Shopmy Scopes
   scope_count: 5
@@ -179,7 +179,7 @@ scopes:
 score:
   band: developing
   composite: 44.5
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.7
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.3
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

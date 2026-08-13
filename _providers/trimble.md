@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Trimble Plans Pricing
   plan_count: 1
   slug: trimble-plans-pricing
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Trimble Rate Limits
@@ -292,7 +292,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 75.3
@@ -300,7 +300,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 50.9
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -309,8 +309,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png
 security:
 - kind: authentication

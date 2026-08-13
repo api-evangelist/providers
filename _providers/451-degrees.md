@@ -1,11 +1,13 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - http://www.451degrees.com/product/
+  - http://www.451degrees.com/contact/
   trial: false
   try_now: false
 agent_readiness:
@@ -22,19 +24,27 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/451-degrees-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/451-degrees-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/451-degrees-llms.txt
 - group: company
   title: ''
   type: Website
@@ -59,33 +69,55 @@ common:
   title: ''
   type: Facebook
   url: https://www.facebook.com/451DegreesGraffiti
+coverage:
+  checked: '2026-08-12'
+  detail: 451 Degrees markets Graffiti as integrating "with simple API construction to current Comment Platforms and Ad Delivery Networks" and its own investor one-sheet claims real-time APIs delivered to five ad networks, but the entire public surface is a four-page WordPress marketing site whose only developer call to action is "Contact Us for a Demo" — there is no reference, no portal, and api./developer./docs./dev./portal.451degrees.com are all NXDOMAIN.
+  evidence:
+  - status: 200
+    url: http://www.451degrees.com/product/
+  - status: 404
+    url: http://www.451degrees.com/developers/
+  - status: 404
+    url: http://www.451degrees.com/openapi.json
+  - status: 404
+    url: http://www.451degrees.com/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: 451 Degrees is a marketing-technology and ad-tech company founded in 2006 that builds Graffiti, a patented AI content ecosystem for digital content and ad-tech businesses. Graffiti uses machine learning, artificial intelligence, and natural language processing to analyze user-generated comments and digital content in real time, converting comment "noise" into structured data that powers brand safety, contextual relevancy, content recommendation, and first-party data strategies. It is designed as a platform-agnostic tool that complements existing comment platforms, ad delivery networks, and content systems rather than replacing them, and markets itself as privacy-compliant with GDPR and CCPA while using no cookies, mobile IDs, or IDFA for targeting.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/451-degrees.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: 451 Degrees
 nav: Providers
 network: true
 overview: '451 Degrees is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Ad Tech, Brand Safety, and Contextual Advertising.
 
 
-  451 Degrees'' developer surface includes support and 6 more developer resources.'
-random_paper: 6
+  451 Degrees'' developer surface includes support and 8 more developer resources.'
+plans:
+- name: 451 Degrees Plans Pricing
+  plan_count: 0
+  slug: 451-degrees-plans-pricing
+random_paper: 94
+rate_limits:
+- limit_count: 0
+  name: 451 Degrees Rate Limits
+  slug: 451-degrees-rate-limits
 score:
   band: minimal
-  composite: 5.9
-  delta: 0.0
+  composite: 6.6
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/451-degrees/refs/heads/main/screenshots/451-degrees-2026-07-25T181204.png
 security:

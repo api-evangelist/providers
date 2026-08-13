@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -573,7 +573,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 80
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -595,7 +595,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.8
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 73.9
@@ -603,7 +603,7 @@ score:
     discoverability: 85.2
     governance: 69.8
     operational_transparency: 52.6
-  previous_composite: 74.6
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -614,7 +614,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -231,11 +231,11 @@ overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 63
+random_paper: 39
 score:
   band: developing
   composite: 44.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.9
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +255,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

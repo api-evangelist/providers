@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Google Looker Studio Plans Pricing
   plan_count: 3
   slug: google-looker-studio-plans-pricing
-random_paper: 71
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Looker Studio Rate Limits
@@ -140,7 +140,7 @@ scopes:
 score:
   band: thin
   composite: 33.6
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 56.7
@@ -148,7 +148,7 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 42.0
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker-studio/refs/heads/main/screenshots/google-looker-studio-2026-06-20T182212.png
 security:
 - kind: authentication

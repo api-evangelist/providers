@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: REST API to create workspaces, load molecular structures, create and rename scenes, and add visualization components. Bearer-token auth. Powers the MARA workspace builder, the official Nanome MCP serv
@@ -147,11 +147,11 @@ overview: 'Nanome publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nanome''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 58
+random_paper: 38
 score:
   band: thin
   composite: 30.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 31.2
+  previous_composite: 30.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/screenshots/nanome-2026-08-07T184617.png
 security:

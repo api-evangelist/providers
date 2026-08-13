@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -168,11 +168,11 @@ overview: 'Samora AI publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Samora AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 78
+random_paper: 50
 score:
   band: thin
   composite: 30.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 24.6
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 31.5
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

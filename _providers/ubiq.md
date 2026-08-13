@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,11 +87,11 @@ overview: 'Ubiq (now NECTURE) is profiled on the [APIs.io](https://apis.io/) net
 
 
   Ubiq (now NECTURE)''s developer surface includes engineering blog, support, YouTube channel, and 8 more developer resources.'
-random_paper: 85
+random_paper: 73
 score:
   band: minimal
   composite: 9.1
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -99,9 +99,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.3
+  previous_composite: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Vanilla is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vanilla''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: emerging
   composite: 20.9
@@ -109,7 +109,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

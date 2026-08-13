@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -51,16 +51,13 @@ apis:
   name: Nebulock Rules API
   slug: nebulock-rules-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a hunt, add a follow-up directive, then generate and fetch its report.
   name: Run a Nebulock hunt and generate a report
   slug: nebulock-run-hunt-and-report
 - description: Validate rule content, create it inactive, then activate it.
   name: Validate and deploy a Nebulock detection rule
   slug: nebulock-validate-and-deploy-rule
-artifact_total: 11
+artifact_total: 10
 common:
 - group: docs
   title: ''
@@ -174,11 +171,11 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: thin
   composite: 35.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 58.2
@@ -186,7 +183,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 36.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -198,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 66
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -399,7 +399,7 @@ rules:
 score:
   band: developing
   composite: 43.7
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 31.6
@@ -407,7 +407,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 44.0
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -416,7 +416,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:

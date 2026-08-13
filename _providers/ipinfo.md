@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -92,9 +92,6 @@ apis:
   name: IPinfo whois API
   slug: ipinfo-whois-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve an IP to its abuse contact and the domains hosted on it.
   name: IPinfo Abuse Contact and Hosted Domains
   slug: ipinfo-abuse-reporting-workflow
@@ -116,7 +113,7 @@ arazzos:
 - description: Screen an IP for privacy/anonymizer signals and confirm residential proxy use.
   name: IPinfo IP Threat Screening
   slug: ipinfo-threat-screening-workflow
-artifact_total: 164
+artifact_total: 163
 collections:
 - collection_type: postman
   name: IPinfo.io OpenAPI Specification abuse API
@@ -660,7 +657,7 @@ plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits
@@ -685,7 +682,7 @@ rules:
 score:
   band: exemplar
   composite: 68.7
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 71.2
@@ -693,7 +690,7 @@ score:
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 68.4
-  previous_composite: 75.3
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -710,8 +707,8 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:
 - kind: authentication

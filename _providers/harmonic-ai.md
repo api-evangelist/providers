@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
@@ -159,7 +159,7 @@ overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 52
+random_paper: 16
 scopes:
 - name: Harmonic Ai Scopes
   scope_count: 2
@@ -168,7 +168,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 44.1
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     contracts:
@@ -187,7 +187,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:

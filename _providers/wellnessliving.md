@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ plans:
 - name: Wellnessliving Plans Pricing
   plan_count: 4
   slug: wellnessliving-plans-pricing
-random_paper: 18
+random_paper: 86
 rate_limits:
 - limit_count: 4
   name: Wellnessliving Rate Limits
@@ -179,7 +179,7 @@ rules:
 score:
   band: developing
   composite: 44.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.1
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 45.2
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

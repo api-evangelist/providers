@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ plans:
 - name: Zeebe Plans Pricing
   plan_count: 3
   slug: zeebe-plans-pricing
-random_paper: 59
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Zeebe Rate Limits
@@ -317,7 +317,7 @@ rules:
 score:
   band: developing
   composite: 54.2
-  delta: -7.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 71.6
@@ -325,7 +325,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 61.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/screenshots/zeebe-2026-06-20T201806.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: U S Geological Survey Plans Pricing
   plan_count: 1
   slug: u-s-geological-survey-plans-pricing
-random_paper: 11
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: U S Geological Survey Rate Limits
@@ -370,7 +370,7 @@ rules:
 score:
   band: thin
   composite: 32.4
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 30.2
@@ -378,7 +378,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 36.1
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -393,7 +393,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:

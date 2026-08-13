@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: J. Crew Group Inc. Downgraded To'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/11477263
-random_paper: 97
+random_paper: 61
 score:
   band: minimal
   composite: 5.0
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jcrew-group/refs/heads/main/screenshots/jcrew-group-2026-06-20T183714.png
 security:

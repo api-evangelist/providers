@@ -9,27 +9,34 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 15.8
+  scored_at: '2026-08-12'
+api_count: 2
+apis:
+- description: The stock WordPress REST API exposed by PlusMargin's marketing site. The root discovery document at /wp-json self-identifies as "Plus Margin" (url https://plusmargin.com) and registers 237 routes acro
+  name: PlusMargin WordPress REST API
+  slug: wordpress-rest-api
+- description: RSS 2.0 syndication feed for PlusMargin's editorial content — Thai-language articles across Marketing, Business, Advertising, Technology, Learning, Insurance, Science and Lifestyle. Served as applicat
+  name: PlusMargin RSS Feed
+  slug: rss-feed
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -51,32 +58,100 @@ common:
   title: ''
   type: DomainSecurity
   url: security/plusmargin-domain-security.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://plusmargin.com/feed/
+- group: other
+  title: ''
+  type: Sitemap
+  url: https://plusmargin.com/sitemap.xml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/plusmargin-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/plusmargin-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/plusmargin-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/plusmargin-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/plusmargin-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/plusmargin-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/plusmargin-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: PlusMargin runs a four-page WordPress consulting site — its own page sitemap lists only /, /about/, /contact/ and /privacy-policy/ — with no developer, API, docs or pricing page, no api/developer/docs subdomain (all NXDOMAIN), and no package on any registry; the only machine-readable surface is the CMS's own /wp-json route index.
+  evidence:
+  - status: 200
+    url: https://plusmargin.com/page-sitemap.xml
+  - status: 404
+    url: https://plusmargin.com/openapi.json
+  - status: 404
+    url: https://plusmargin.com/.well-known/agent-card.json
+  - status: 404
+    url: https://plusmargin.com/llms.txt
+  - status: 200
+    url: https://plusmargin.com/wp-json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: PlusMargin (Plus Margin) is a Bangkok, Thailand based digital marketing and business consulting agency operating under the tagline "Connect | Engage | Convert." The firm focuses on inbound marketing strategy, personalized and AI-assisted marketing, buyer-persona development, and customer-journey mapping for its clients, and publishes editorial content across marketing, business, advertising, technology, learning, insurance, and lifestyle topics. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub for enrichment. As of this pass the company operates a marketing/content website only and exposes no public API, developer portal, SDKs, or machine-readable discovery surface.
+description: PlusMargin (Plus Margin) is a Bangkok, Thailand based digital marketing and business consulting practice operating under the tagline "Connect | Engage | Convert." The firm focuses on inbound marketing strategy, personalized and AI-assisted marketing, buyer-persona development, and customer-journey mapping for its clients, and publishes Thai-language editorial content across marketing, business, advertising, technology, learning, insurance, and lifestyle topics. It was surfaced as a portfolio company of 500 Global — where secondary sources describe an earlier Singapore-founded "predictive persuasion" e-commerce personalization product — but the domain today serves a four-page consulting and content site with no trace of that platform. Enrichment on 2026-08-12 confirmed no product API, no developer portal, no SDKs on any package registry, no /.well-known/ discovery surface, no llms.txt and no agent card. The one callable, machine-readable surface is the stock WordPress REST API
+  the marketing site exposes at /wp-json — 237 routes across 11 namespaces, anonymously readable for content — which is WordPress core's API rather than a product PlusMargin designed, documents, or supports.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plusmargin.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: PlusMargin
 nav: Providers
 network: true
-overview: PlusMargin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Consulting, and Advertising.
-random_paper: 46
+overview: 'PlusMargin publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Consulting, and Advertising.
+
+
+  PlusMargin''s developer surface includes authentication and 13 more developer resources.'
+plans:
+- name: Plusmargin Plans Pricing
+  plan_count: 0
+  slug: plusmargin-plans-pricing
+random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Plusmargin Rate Limits
+  slug: plusmargin-rate-limits
 score:
   band: minimal
-  composite: 7.1
-  delta: 0.0
+  composite: 11.9
+  delta: 4.8
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 10.9
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
+- kind: authentication
+  name: Plusmargin Authentication
+  slug: plusmargin-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Plusmargin Domain Security
   slug: plusmargin-domain-security

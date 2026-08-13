@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,11 +93,11 @@ press:
 - date: '2026-04-27'
   title: Protecting What Lies Below
   url: https://www.kiewit.com/newsroom/protecting-what-lies-below/
-random_paper: 114
+random_paper: 58
 score:
   band: minimal
   composite: 6.9
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -105,9 +105,9 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.2
+  previous_composite: 6.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peter-kiewit-sons/refs/heads/main/screenshots/peter-kiewit-sons-2026-06-20T191623.png
 security:

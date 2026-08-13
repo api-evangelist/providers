@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
   slug: pennylane-plans-pricing
-random_paper: 42
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits
@@ -350,7 +350,7 @@ scopes:
 score:
   band: strong
   composite: 65.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 55.3
@@ -358,7 +358,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 66.8
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,7 +376,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

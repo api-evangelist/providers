@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -1961,7 +1961,7 @@ plans:
 - name: Amazon Global Accelerator Plans Pricing
   plan_count: 3
   slug: amazon-global-accelerator-plans-pricing
-random_paper: 82
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Amazon Global Accelerator Rate Limits
@@ -1986,7 +1986,7 @@ rules:
 score:
   band: strong
   composite: 56.1
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.4
@@ -1994,7 +1994,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 62.0
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -2003,8 +2003,8 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/screenshots/amazon-global-accelerator-2026-06-20T171653.png
 security:
 - kind: authentication

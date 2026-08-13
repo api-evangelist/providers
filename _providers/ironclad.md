@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -419,7 +419,7 @@ plans:
 - name: Ironclad Plans Pricing
   plan_count: 5
   slug: ironclad-plans-pricing
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Ironclad Rate Limits
@@ -449,7 +449,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 75.1
@@ -457,7 +457,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 69.6
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     contracts:
@@ -466,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:

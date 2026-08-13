@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Google Admob Plans Pricing
   plan_count: 3
   slug: google-admob-plans-pricing
-random_paper: 37
+random_paper: 117
 rate_limits:
 - limit_count: 5
   name: Google Admob Rate Limits
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 41.8
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 64.2
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 50.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/screenshots/google-admob-2026-06-20T182006.png
 security:
 - kind: authentication

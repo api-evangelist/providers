@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Mem publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 87
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Mem Rate Limits
@@ -212,7 +212,7 @@ scopes:
 score:
   band: developing
   composite: 54.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 49.7
@@ -220,7 +220,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 54.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,7 +232,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -229,11 +229,11 @@ overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 77
+random_paper: 57
 score:
   band: developing
   composite: 46.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 55.5
@@ -241,7 +241,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +259,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

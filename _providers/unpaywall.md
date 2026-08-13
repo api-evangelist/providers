@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Unpaywall Plans Pricing
   plan_count: 3
   slug: unpaywall-plans-pricing
-random_paper: 61
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Unpaywall Rate Limits
@@ -162,7 +162,7 @@ rules:
 score:
   band: thin
   composite: 41.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 71.6
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 49.0
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 107
+random_paper: 47
 scopes:
 - name: Nextgen Healthcare Scopes
   scope_count: 12
@@ -209,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 59.5
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 51.8
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -235,7 +235,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:

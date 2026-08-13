@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: The Administration For Children And Families Plans Pricing
   plan_count: 3
   slug: the-administration-for-children-and-families-plans-pricing
-random_paper: 81
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: The Administration For Children And Families Rate Limits
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 37.6
-  delta: -9.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 56.7
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 47.0
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:
 - kind: authentication

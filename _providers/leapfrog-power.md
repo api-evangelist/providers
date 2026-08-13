@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -247,11 +247,11 @@ overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 35 more developer resources.'
-random_paper: 58
+random_paper: 10
 score:
   band: developing
   composite: 49.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.5
@@ -259,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 52.8
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,7 +277,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

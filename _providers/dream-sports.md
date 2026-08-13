@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -377,7 +377,7 @@ overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 27 more developer resources.'
-random_paper: 89
+random_paper: 49
 scopes:
 - name: Dream Sports Scopes
   scope_count: 7
@@ -386,7 +386,7 @@ scopes:
 score:
   band: developing
   composite: 49.3
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 60.2
@@ -394,7 +394,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 48.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +406,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:

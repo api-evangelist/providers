@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -425,7 +425,7 @@ plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
   slug: fabric-com-plans-pricing
-random_paper: 51
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Fabric Com Rate Limits
@@ -450,7 +450,7 @@ rules:
 score:
   band: developing
   composite: 44.4
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 68.4
@@ -458,7 +458,7 @@ score:
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -473,7 +473,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

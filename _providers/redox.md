@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -142,7 +142,7 @@ overview: 'Redox publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Redox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 82
+random_paper: 66
 scopes:
 - name: Redox Scopes
   scope_count: 3
@@ -151,7 +151,7 @@ scopes:
 score:
   band: thin
   composite: 35.0
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 37.4
+  previous_composite: 35.0
   provenance:
     conformance: first-party
   regulatory:
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

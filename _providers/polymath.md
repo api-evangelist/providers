@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -178,11 +178,11 @@ overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 66
+random_paper: 38
 score:
   band: thin
   composite: 39.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.7
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.5
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

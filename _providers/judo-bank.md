@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -150,11 +150,11 @@ overview: 'Judo Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Judo Bank''s developer surface includes authentication, documentation, and 16 more developer resources.'
-random_paper: 79
+random_paper: 51
 score:
   band: thin
   composite: 29.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 52.2
@@ -162,7 +162,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 30.9
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,7 +180,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/screenshots/judo-bank-2026-07-21T114730.png
 security:

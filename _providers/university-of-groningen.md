@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 542
   human_in_the_loop: 8
@@ -376,7 +376,7 @@ plans:
 - name: University Of Groningen Plans Pricing
   plan_count: 2
   slug: university-of-groningen-plans-pricing
-random_paper: 72
+random_paper: 112
 rate_limits:
 - limit_count: 1
   name: University Of Groningen Rate Limits
@@ -401,7 +401,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.7
@@ -409,7 +409,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -424,7 +424,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png
 security:

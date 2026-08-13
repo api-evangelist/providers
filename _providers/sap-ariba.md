@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -868,7 +868,7 @@ plans:
 - name: Sap Ariba Plans Pricing
   plan_count: 1
   slug: sap-ariba-plans-pricing
-random_paper: 68
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Sap Ariba Rate Limits
@@ -898,7 +898,7 @@ scopes:
 score:
   band: developing
   composite: 51.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 65.7
@@ -906,7 +906,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -915,8 +915,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png
 security:
 - kind: authentication

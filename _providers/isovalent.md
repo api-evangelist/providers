@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -231,11 +231,11 @@ overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 29 more developer resources.'
-random_paper: 53
+random_paper: 21
 score:
   band: developing
   composite: 46.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 37.5
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 46.5
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
 security:

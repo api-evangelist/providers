@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -225,7 +225,7 @@ overview: 'Umbra publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 71
+random_paper: 55
 rate_limits:
 - limit_count: 6
   name: Umbra Rate Limits
@@ -238,7 +238,7 @@ scopes:
 score:
   band: developing
   composite: 55.7
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.9
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 55.3
+  previous_composite: 55.7
   provenance:
     conformance: derived
     contracts:
@@ -257,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

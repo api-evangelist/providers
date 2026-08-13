@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ plans:
 - name: Truefoundry Plans Pricing
   plan_count: 4
   slug: truefoundry-plans-pricing
-random_paper: 63
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Truefoundry Rate Limits
@@ -283,7 +283,7 @@ rules:
 score:
   band: strong
   composite: 57.1
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 71.0
@@ -291,7 +291,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 61.7
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -300,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/screenshots/truefoundry-2026-06-20T195805.png
 security:

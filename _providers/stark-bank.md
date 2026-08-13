@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 31
 apis:
 - description: The balance entity holds the total funds available in your workspace and can be calculated as the sum of its transactions (cash-in + cash-out). Therefore, you can also interpret Transactions as balanc
@@ -269,11 +269,11 @@ overview: 'Stark Bank publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Stark Bank''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 78
+random_paper: 46
 score:
   band: developing
   composite: 50.8
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 71.7
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 52.4
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
@@ -298,7 +298,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

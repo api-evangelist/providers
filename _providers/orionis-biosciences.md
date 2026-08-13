@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -188,11 +188,11 @@ overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.i
 
 
   Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 3
+random_paper: 55
 score:
   band: emerging
   composite: 23.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.4
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 23.5
+  previous_composite: 23.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:

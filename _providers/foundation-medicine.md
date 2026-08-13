@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,11 +83,11 @@ overview: 'Foundation Medicine is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Foundation Medicine''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 98
+random_paper: 34
 score:
   band: minimal
   composite: 11.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -95,7 +95,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.9
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation-medicine/refs/heads/main/screenshots/foundation-medicine-2026-07-25T215035.png
 security:

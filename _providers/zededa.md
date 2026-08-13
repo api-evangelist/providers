@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -269,11 +269,11 @@ overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 22 more developer resources.'
-random_paper: 41
+random_paper: 21
 score:
   band: developing
   composite: 42.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.0
@@ -281,7 +281,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.5
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

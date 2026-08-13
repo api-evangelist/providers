@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Real-time, read-only HL7 FHIR API over the National Health Services Directory, aligned to the HL7 AU Provider Directory (AU-PD) implementation guide. Supports querying Organization, HealthcareService,
@@ -175,11 +175,11 @@ overview: 'Healthdirect Australia publishes 1 API on the [APIs.io](https://apis.
 
 
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 105
+random_paper: 65
 score:
   band: thin
   composite: 34.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -187,7 +187,7 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,7 +199,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png
 security:

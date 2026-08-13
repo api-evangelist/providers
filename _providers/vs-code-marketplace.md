@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Vs Code Marketplace Plans Pricing
   plan_count: 3
   slug: vs-code-marketplace-plans-pricing
-random_paper: 39
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Vs Code Marketplace Rate Limits
@@ -201,7 +201,7 @@ rules:
 score:
   band: developing
   composite: 45.7
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 58.7
@@ -209,7 +209,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 54.1
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/screenshots/vs-code-marketplace-2026-06-20T201145.png
 security:
 - kind: domain-security

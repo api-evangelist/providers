@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -235,11 +235,11 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 28 more developer resources.'
-random_paper: 47
+random_paper: 7
 score:
   band: strong
   composite: 59.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.1
@@ -247,7 +247,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 60.2
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

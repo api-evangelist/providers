@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -228,11 +228,11 @@ overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://ap
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 24
+random_paper: 96
 score:
   band: developing
   composite: 47.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.9
@@ -240,7 +240,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 48.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:

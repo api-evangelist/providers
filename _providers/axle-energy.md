@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -175,11 +175,11 @@ overview: 'Axle Energy publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 77
+random_paper: 41
 score:
   band: thin
   composite: 35.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 62.7
@@ -187,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 37.4
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

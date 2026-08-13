@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ press:
 - date: ''
   title: Two-thirds of organizations invest in AI training as adoption ...
   url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates
-random_paper: 53
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Arthur J Gallagher Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.9
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 51.5
@@ -149,7 +149,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.0
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +164,8 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
 security:
 - kind: domain-security

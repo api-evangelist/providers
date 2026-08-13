@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -258,11 +258,11 @@ overview: 'Qargo publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 74
+random_paper: 58
 score:
   band: developing
   composite: 49.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.6
@@ -270,7 +270,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 50.7
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

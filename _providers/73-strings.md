@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: 73 Strings Plans
   plan_count: 4
   slug: 73-strings-plans
-random_paper: 1
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: 73 Strings Rate Limits
@@ -206,7 +206,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 61.9
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 54.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

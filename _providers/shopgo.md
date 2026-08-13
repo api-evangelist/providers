@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Obtain and test API keys
@@ -143,11 +143,11 @@ overview: 'ShopGo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ShopGo''s developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 76
+random_paper: 56
 score:
   band: thin
   composite: 34.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 66.7
@@ -155,7 +155,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 35.8
+  previous_composite: 34.3
   provenance:
     conformance: derived
     contracts:
@@ -172,7 +172,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

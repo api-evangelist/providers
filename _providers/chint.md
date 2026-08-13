@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'CHINT is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   CHINT''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: minimal
   composite: 8.4
@@ -79,7 +79,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chint/refs/heads/main/screenshots/chint-2026-07-25T205245.png
 security:

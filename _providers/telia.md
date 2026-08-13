@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
-random_paper: 63
+random_paper: 47
 scopes:
 - name: Telia Scopes
   scope_count: 2
@@ -296,7 +296,7 @@ scopes:
 score:
   band: developing
   composite: 53.0
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 67.2
@@ -304,7 +304,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 57.5
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,7 +322,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

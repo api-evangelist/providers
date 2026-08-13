@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -619,7 +619,7 @@ plans:
 - name: Drchrono Plans Pricing
   plan_count: 5
   slug: drchrono-plans-pricing
-random_paper: 51
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Drchrono Rate Limits
@@ -641,7 +641,7 @@ scopes:
 score:
   band: developing
   composite: 49.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.2
@@ -649,7 +649,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -664,7 +664,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,7 +56,7 @@ name: Hireguide
 nav: Providers
 network: true
 overview: Hireguide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Interviewing, and Talent Acquisition.
-random_paper: 22
+random_paper: 110
 score:
   band: minimal
   composite: 8.2
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hireguide/refs/heads/main/screenshots/hireguide-2026-07-25T221247.png
 security:

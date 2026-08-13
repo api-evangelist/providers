@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -51,7 +51,7 @@ overview: 'Meta4 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Meta4''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 11
+random_paper: 115
 score:
   band: minimal
   composite: 8.5
@@ -65,7 +65,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta4/refs/heads/main/screenshots/meta4-2026-08-07T172635.png
 slug: meta4

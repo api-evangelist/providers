@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -172,11 +172,11 @@ overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 51
+random_paper: 23
 score:
   band: thin
   composite: 39.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 49.8
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 40.9
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,7 +202,7 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

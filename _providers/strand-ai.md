@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -164,11 +164,11 @@ overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Strand AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, changelog, and 17 more developer resources.'
-random_paper: 87
+random_paper: 59
 score:
   band: thin
   composite: 40.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.3
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 41.4
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,7 +194,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

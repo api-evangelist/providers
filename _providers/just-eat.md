@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 24
 apis:
 - description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
@@ -204,11 +204,11 @@ overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network
 
 
   Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 15 more developer resources.'
-random_paper: 1
+random_paper: 93
 score:
   band: thin
   composite: 37.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 65.5
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 38.5
+  previous_composite: 37.9
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

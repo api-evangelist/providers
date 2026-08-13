@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: McGraw Hill Announces Participation in Upcoming Investor ...
   url: https://lasvegassun.com/news/2026/may/06/mcgraw-hill-announces-participation-in-upcoming-in/
-random_paper: 1
+random_paper: 49
 score:
   band: minimal
   composite: 5.7
@@ -86,7 +86,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcgraw-hill-financial/refs/heads/main/screenshots/mcgraw-hill-financial-2026-06-20T185100.png
 security:

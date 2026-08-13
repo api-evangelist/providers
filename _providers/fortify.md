@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -455,7 +455,7 @@ plans:
 - name: Fortify Plans Pricing
   plan_count: 4
   slug: fortify-plans-pricing
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits
@@ -472,7 +472,7 @@ rules:
 score:
   band: strong
   composite: 58.0
-  delta: -6.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.6
@@ -480,7 +480,7 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 64.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -489,8 +489,8 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-06-20T181440.png
 security:
 - kind: authentication

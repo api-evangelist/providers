@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
   slug: marketcheck-plans-pricing
-random_paper: 110
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Marketcheck Rate Limits
@@ -192,7 +192,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.6
@@ -200,7 +200,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 41.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -215,7 +215,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/screenshots/marketcheck-2026-06-20T184954.png
 security:

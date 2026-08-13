@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -140,11 +140,11 @@ overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Serbia Company Data''s developer surface includes authentication, sandbox, code examples, and 14 more developer resources.'
-random_paper: 33
+random_paper: 89
 score:
   band: emerging
   composite: 27.4
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 56.0
@@ -152,7 +152,7 @@ score:
     discoverability: 70.4
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 29.8
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,7 +170,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence | Avaya Trust Center
   url: https://www.avaya.com/en/trust-center/artificial-intelligence/
-random_paper: 66
+random_paper: 50
 score:
   band: minimal
   composite: 6.5
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png
 security:

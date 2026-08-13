@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -180,11 +180,11 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 20 more developer resources.'
-random_paper: 60
+random_paper: 24
 score:
   band: developing
   composite: 50.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 63.7
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 52.6
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -203,7 +203,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

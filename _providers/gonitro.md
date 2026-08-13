@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -64,13 +64,10 @@ apis:
   name: GoNitro Transformations API
   slug: gonitro-transformations-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, create an envelope, add a document, participant, and signature field, then send it for signing.
   name: Create and send a Nitro Sign envelope
   slug: gonitro-create-and-send-envelope
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: Event surface for Nitro. Sign delivers envelope lifecycle webhooks (HTTP POST) signed with RFC 9421 HTTP Message Signatures (HMAC-SHA256; headers Content-Digest, Signature-Input, Signature). One webho
   name: Nitro Sign & PDF Services Webhooks
@@ -268,11 +265,11 @@ overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 74
+random_paper: 50
 score:
   band: strong
   composite: 60.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.0
@@ -280,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 61.3
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/screenshots/gonitro-2026-07-25T220034.png
 security:

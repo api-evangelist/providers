@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'Kairos Power is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Kairos Power''s developer surface includes product news, GitHub presence, YouTube channel, and 10 more developer resources.'
-random_paper: 91
+random_paper: 51
 score:
   band: minimal
   composite: 6.1
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-power/refs/heads/main/screenshots/kairos-power-2026-06-20T183855.png
 security:

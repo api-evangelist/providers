@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -9007,7 +9007,7 @@ plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
   slug: microsoft-azure-plans-pricing
-random_paper: 70
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Microsoft Azure Rate Limits
@@ -9037,7 +9037,7 @@ scopes:
 score:
   band: strong
   composite: 63.0
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 61.1
@@ -9045,7 +9045,7 @@ score:
     discoverability: 68.5
     governance: 61.5
     operational_transparency: 42.1
-  previous_composite: 68.8
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -9056,8 +9056,8 @@ score:
       total: 1659
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication

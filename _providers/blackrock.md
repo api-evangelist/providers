@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -163,7 +163,7 @@ press:
 - date: '2026-05-25'
   title: Digital disruption and artificial intelligence (AI) - BlackRock
   url: https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/mega-forces/artificial-intelligence
-random_paper: 12
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Blackrock Rate Limits
@@ -188,7 +188,7 @@ rules:
 score:
   band: thin
   composite: 31.8
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 29.0
@@ -196,10 +196,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 31.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Blackrock Domain Security

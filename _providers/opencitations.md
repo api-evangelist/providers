@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,11 +106,11 @@ overview: 'OpenCitations publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   OpenCitations'' developer surface includes authentication and 2 more developer resources.'
-random_paper: 16
+random_paper: 88
 score:
   band: emerging
   composite: 27.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 69.6
@@ -118,7 +118,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -127,7 +127,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/screenshots/opencitations-2026-06-20T190921.png
 security:

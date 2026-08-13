@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Inspirational Quotes
@@ -63,7 +63,7 @@ overview: 'Quotes on Design publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Quotes on Design''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 110
+random_paper: 58
 score:
   band: minimal
   composite: 6.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quotes-on-design/refs/heads/main/screenshots/quotes-on-design-2026-06-20T192446.png
 security:

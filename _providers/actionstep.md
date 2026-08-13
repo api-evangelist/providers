@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ plans:
 - name: Actionstep Plans Pricing
   plan_count: 5
   slug: actionstep-plans-pricing
-random_paper: 38
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Actionstep Rate Limits
@@ -257,7 +257,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.0
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 49.9
@@ -265,7 +265,7 @@ score:
     discoverability: 68.5
     governance: 10.4
     operational_transparency: 52.6
-  previous_composite: 41.0
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -274,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Philippine Economic Zone Authority
   url: https://www.facebook.com/PEZAPH/posts/-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%80-%F0%9D%90%92%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-on-26-may-2025-be-aerospace-collins-aerospace/1022466243333653/
-random_paper: 76
+random_paper: 36
 score:
   band: minimal
   composite: 7.4
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-e-aerospace/refs/heads/main/screenshots/b-e-aerospace-2026-06-20T172917.png
 slug: b-e-aerospace

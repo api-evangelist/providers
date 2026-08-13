@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Csg Plans Pricing
   plan_count: 1
   slug: csg-plans-pricing
-random_paper: 85
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Csg Rate Limits
@@ -203,7 +203,7 @@ rules:
 score:
   band: developing
   composite: 45.6
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 73.1
@@ -211,7 +211,7 @@ score:
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:
 - kind: authentication

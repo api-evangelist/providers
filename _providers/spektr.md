@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -214,11 +214,11 @@ overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spektr''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 85
+random_paper: 65
 score:
   band: developing
   composite: 55.2
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 68.8
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 57.0
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

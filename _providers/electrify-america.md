@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: REST API for locating and querying Electrify America charging stations. Enables partners and OEM integrators to search for stations by geographic area or coordinates, retrieve station details (address
@@ -129,7 +129,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 110
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.5
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 0.0
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.2
+  previous_composite: 21.5
   regulatory:
     applies: true
     matched_via: tags
@@ -153,7 +153,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electrify-america/refs/heads/main/screenshots/electrify-america-2026-06-20T180553.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ plans:
 - name: Office Of The Federal Register Plans Pricing
   plan_count: 3
   slug: office-of-the-federal-register-plans-pricing
-random_paper: 26
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Office Of The Federal Register Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 50.7
@@ -125,7 +125,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.7
+  previous_composite: 23.2
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/screenshots/office-of-the-federal-register-2026-06-20T190639.png
 security:
 - kind: domain-security

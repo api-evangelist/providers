@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -259,11 +259,11 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 37 more developer resources.'
-random_paper: 3
+random_paper: 91
 score:
   band: developing
   composite: 46.1
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.7
@@ -271,7 +271,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 46.2
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,7 +289,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

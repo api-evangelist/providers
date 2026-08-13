@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -182,11 +182,11 @@ overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 19
+random_paper: 103
 score:
   band: developing
   composite: 50.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.9
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 51.9
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -211,7 +211,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Merklebase, Inc.
 nav: Providers
 network: true
 overview: Merklebase, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Cryptocurrency, Portfolio Management, and Risk Management.
-random_paper: 18
+random_paper: 90
 score:
   band: minimal
   composite: 5.0
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merklebase-inc/refs/heads/main/screenshots/merklebase-inc-2026-08-07T172609.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Virage
 nav: Providers
 network: true
 overview: Virage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise Software.
-random_paper: 58
+random_paper: 38
 score:
   band: minimal
   composite: 4.1
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: virage
 tags:

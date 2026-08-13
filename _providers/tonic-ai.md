@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Tonic Ai Plans Pricing
   plan_count: 1
   slug: tonic-ai-plans-pricing
-random_paper: 92
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Tonic Ai Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.5
@@ -150,7 +150,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.9
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/screenshots/tonic-ai-2026-06-20T195451.png
 security:

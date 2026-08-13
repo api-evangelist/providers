@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -286,7 +286,7 @@ overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Figment Rate Limits
@@ -294,7 +294,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.8
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 52.4
@@ -302,7 +302,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 57.4
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,7 +314,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:

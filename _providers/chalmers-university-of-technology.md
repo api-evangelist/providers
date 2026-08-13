@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Chalmers University Of Technology Plans Pricing
   plan_count: 2
   slug: chalmers-university-of-technology-plans-pricing
-random_paper: 37
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Chalmers University Of Technology Rate Limits
@@ -234,7 +234,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.2
@@ -242,7 +242,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 40.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -257,7 +257,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
 security:

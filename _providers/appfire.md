@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -177,11 +177,11 @@ overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: developing
   composite: 48.7
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 61.1
@@ -189,7 +189,7 @@ score:
     discoverability: 88.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,7 +201,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:

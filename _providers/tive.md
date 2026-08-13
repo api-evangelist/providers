@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -123,7 +123,7 @@ plans:
 - name: Tive Plans Pricing
   plan_count: 1
   slug: tive-plans-pricing
-random_paper: 92
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Tive Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.5
@@ -139,7 +139,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.3
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -148,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ plans:
 - name: Builtwith Plans Pricing
   plan_count: 6
   slug: builtwith-plans-pricing
-random_paper: 60
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Builtwith Rate Limits
@@ -272,7 +272,7 @@ rules:
 score:
   band: developing
   composite: 48.9
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.0
@@ -280,7 +280,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 47.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -289,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:

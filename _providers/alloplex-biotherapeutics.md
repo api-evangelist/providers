@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -193,11 +193,11 @@ overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://ap
 
 
   Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 27 more developer resources.'
-random_paper: 85
+random_paper: 1
 score:
   band: thin
   composite: 34.9
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.3
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 36.2
+  previous_composite: 34.9
   provenance:
     conformance: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:

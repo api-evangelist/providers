@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1689,7 +1689,7 @@ plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -1714,7 +1714,7 @@ rules:
 score:
   band: developing
   composite: 52.0
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 61.7
@@ -1722,7 +1722,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1731,8 +1731,8 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Scaleway Authentication

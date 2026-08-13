@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Ross Stores operates a sophisticated supply chain technology stack including AI-driven inventory allocation, distribution center automation, and merchandise analytics. The company is investing approxi
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Ross Stores posts $22.8B sales, EPS $6.61 | ROST Annual ...
   url: https://www.stocktitan.net/sec-filings/ROST/10-k-ross-stores-inc-files-annual-report-fa6847171353.html
-random_paper: 12
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Ross Stores Rate Limits
@@ -146,7 +146,7 @@ rules:
 score:
   band: emerging
   composite: 19.5
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 8.1
@@ -154,10 +154,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 24.7
+  previous_composite: 19.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ross-stores/refs/heads/main/screenshots/ross-stores-2026-06-20T193222.png
 security:
 - kind: domain-security

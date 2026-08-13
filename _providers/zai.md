@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
-random_paper: 92
+random_paper: 84
 scopes:
 - name: Zai Scopes
   scope_count: 0
@@ -233,7 +233,7 @@ scopes:
 score:
   band: strong
   composite: 58.8
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 65.1
@@ -241,7 +241,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 61.2
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,7 +254,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

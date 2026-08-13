@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 42 more developer resources.'
-random_paper: 24
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Uk Power Networks Rate Limits
@@ -273,7 +273,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 56.7
@@ -281,7 +281,7 @@ score:
     discoverability: 87.0
     governance: 31.3
     operational_transparency: 60.5
-  previous_composite: 56.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,7 +294,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

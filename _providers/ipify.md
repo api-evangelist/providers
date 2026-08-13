@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ plans:
 - name: Ipify Plans Pricing
   plan_count: 6
   slug: ipify-plans-pricing
-random_paper: 81
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Ipify Rate Limits
@@ -226,7 +226,7 @@ rules:
 score:
   band: thin
   composite: 38.1
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 30.2
@@ -234,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 38.4
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -243,7 +243,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/screenshots/ipify-2026-06-20T183551.png
 security:

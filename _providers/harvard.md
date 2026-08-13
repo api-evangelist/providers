@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: REST/JSON API to the Harvard Art Museums' collections data across 21 resources (Object, Person, Exhibition, Publication, Gallery, Classification, Culture, Medium, Period, Place, Image, and more), with
@@ -121,7 +121,7 @@ plans:
 - name: Harvard Plans Pricing
   plan_count: 2
   slug: harvard-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Harvard Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/screenshots/harvard-2026-06-20T182525.png
 security:

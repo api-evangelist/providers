@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Table metadata operations
@@ -124,11 +124,11 @@ overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Met
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: thin
   composite: 39.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 62.7
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 40.1
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -147,7 +147,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
   slug: eclipse-rdf4j-plans-pricing
-random_paper: 100
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Eclipse Rdf4J Rate Limits
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 47.9
@@ -161,7 +161,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 38.9
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:
 - kind: domain-security

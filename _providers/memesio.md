@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -735,7 +735,7 @@ plans:
 - name: Memesio Plans Pricing
   plan_count: 4
   slug: memesio-plans-pricing
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Memesio Rate Limits
@@ -760,7 +760,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.9
@@ -768,7 +768,7 @@ score:
     discoverability: 87.0
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 42.8
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -777,7 +777,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:

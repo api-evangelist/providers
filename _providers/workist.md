@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -188,11 +188,11 @@ overview: 'Workist publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Workist''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 91
+random_paper: 67
 score:
   band: developing
   composite: 49.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.5
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 51.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

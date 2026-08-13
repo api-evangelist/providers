@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -340,7 +340,7 @@ plans:
 - name: Mockaroo Plans Pricing
   plan_count: 4
   slug: mockaroo-plans-pricing
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 9
   name: Mockaroo Rate Limits
@@ -365,7 +365,7 @@ rules:
 score:
   band: exemplar
   composite: 67.7
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 73.9
@@ -373,7 +373,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 66.3
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     contracts:
@@ -382,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/screenshots/mockaroo-2026-06-20T185637.png
 security:

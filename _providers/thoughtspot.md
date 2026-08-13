@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -538,11 +538,11 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 65
+random_paper: 25
 score:
   band: strong
   composite: 59.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.7
@@ -550,7 +550,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 61.1
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -562,7 +562,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

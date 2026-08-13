@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ plans:
 - name: Copper Plans Pricing
   plan_count: 4
   slug: copper-plans-pricing
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Copper Rate Limits
@@ -297,7 +297,7 @@ rules:
 score:
   band: developing
   composite: 53.4
-  delta: -7.4
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 69.3
@@ -305,7 +305,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 60.8
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +314,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png
 security:
 - kind: authentication

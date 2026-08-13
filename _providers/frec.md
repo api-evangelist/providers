@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'Frec is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Frec''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 56
 score:
   band: emerging
   composite: 14.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: weak_tags
@@ -95,7 +95,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frec/refs/heads/main/screenshots/frec-2026-07-25T215124.png
 security:

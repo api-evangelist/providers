@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Boston Heart Diagnostics (Eurofins Scientific) is profiled on the [AP
 
 
   Boston Heart Diagnostics (Eurofins Scientific)''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 73
+random_paper: 41
 score:
   band: emerging
   composite: 13.8
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston-heart-diagnostics-eurofins-scientific/refs/heads/main/screenshots/boston-heart-diagnostics-eurofins-scientific-2026-07-25T203638.png
 security:

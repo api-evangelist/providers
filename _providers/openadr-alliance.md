@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -32,16 +32,13 @@ apis:
   name: OpenADR 3 API
   slug: openadr-3-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'BL/VTN-side flow against an OpenADR 3.1.1 VTN: authenticate with the client-credentials grant, create (or reuse) a program, publish an event carrying priced intervals against it, then read the event b'
   name: Publish a program and dispatch a demand response event
   slug: openadr-alliance-dispatch-event
 - description: 'VEN-side onboarding against an OpenADR 3.1.1 VTN: authenticate, register the VEN, attach a controllable resource, ask the VTN which notifier bindings it supports, and register a webhook subscription f'
   name: Onboard a VEN, attach a resource, and subscribe to event notifications
   slug: openadr-alliance-ven-onboard-and-subscribe
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: Event surface of the OpenADR 3 protocol, derived from the OpenADR 3.1.1 OpenAPI contract and the Alliance-published notifications design document. The OpenADR Alliance publishes no AsyncAPI document o
   name: OpenADR 3 Object Operation Notifications
@@ -250,7 +247,7 @@ plans:
 - name: Openadr Alliance Plans
   plan_count: 10
   slug: openadr-alliance-plans
-random_paper: 107
+random_paper: 55
 scopes:
 - name: Openadr Alliance Scopes
   scope_count: 9
@@ -259,7 +256,7 @@ scopes:
 score:
   band: strong
   composite: 58.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 72.5
@@ -267,7 +264,7 @@ score:
     discoverability: 77.8
     governance: 23.4
     operational_transparency: 21.1
-  previous_composite: 59.9
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,7 +282,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:

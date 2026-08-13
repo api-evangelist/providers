@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) interface for the Institutional Repository University of Antwerp (IRUA), exposing scholarly publication metadata for harvesting.
@@ -107,7 +107,7 @@ plans:
 - name: University Of Antwerp Plans Pricing
   plan_count: 2
   slug: university-of-antwerp-plans-pricing
-random_paper: 106
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: University Of Antwerp Rate Limits
@@ -131,7 +131,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/screenshots/university-of-antwerp-2026-06-20T200126.png
 security:

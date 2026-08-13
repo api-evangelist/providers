@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: The Companies API from Housecall Pro — 1 operation(s) for companies.
@@ -252,7 +252,7 @@ plans:
 - name: Housecall Pro Plans Pricing
   plan_count: 3
   slug: housecall-pro-plans-pricing
-random_paper: 66
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Housecall Pro Rate Limits
@@ -269,7 +269,7 @@ rules:
 score:
   band: strong
   composite: 58.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.7
@@ -277,7 +277,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 57.9
+  previous_composite: 58.1
   provenance:
     contracts:
       callable: 100.0
@@ -291,7 +291,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:

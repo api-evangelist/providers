@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -1355,7 +1355,7 @@ plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-vision-plans-pricing
-random_paper: 1
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Vision Rate Limits
@@ -1380,7 +1380,7 @@ rules:
 score:
   band: strong
   composite: 56.9
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -1388,7 +1388,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 65.4
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1397,8 +1397,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png
 security:
 - kind: authentication

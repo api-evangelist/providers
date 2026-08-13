@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
@@ -116,11 +116,11 @@ overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: emerging
   composite: 26.0
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -128,11 +128,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.3
+  previous_composite: 26.0
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

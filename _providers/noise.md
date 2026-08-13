@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Noise is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Noise''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: minimal
   composite: 7.9
@@ -79,7 +79,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noise/refs/heads/main/screenshots/noise-2026-08-07T185437.png
 security:

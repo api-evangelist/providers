@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
@@ -177,7 +177,7 @@ plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
   slug: openapi-generator-plans-pricing
-random_paper: 20
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Openapi Generator Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.1
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 46.3
@@ -193,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

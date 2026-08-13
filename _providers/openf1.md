@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Openf1 Plans Pricing
   plan_count: 3
   slug: openf1-plans-pricing
-random_paper: 5
+random_paper: 105
 rate_limits:
 - limit_count: 5
   name: Openf1 Rate Limits
@@ -151,7 +151,7 @@ rules:
 score:
   band: thin
   composite: 35.7
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 61.6
@@ -159,7 +159,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 44.2
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/screenshots/openf1-2026-06-20T190958.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ plans:
 - name: Kita Plans
   plan_count: 3
   slug: kita-plans
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits
@@ -326,7 +326,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 70.1
@@ -334,7 +334,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 64.5
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,7 +352,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

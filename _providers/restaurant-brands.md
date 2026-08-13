@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1035,7 +1035,7 @@ plans:
 - name: Restaurant Brands Plans Pricing
   plan_count: 1
   slug: restaurant-brands-plans-pricing
-random_paper: 36
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Restaurant Brands Rate Limits
@@ -1060,7 +1060,7 @@ rules:
 score:
   band: developing
   composite: 46.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.0
@@ -1068,7 +1068,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1077,7 +1077,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

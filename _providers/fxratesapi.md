@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Fxratesapi Plans Pricing
   plan_count: 2
   slug: fxratesapi-plans-pricing
-random_paper: 35
+random_paper: 119
 rate_limits:
 - limit_count: 1
   name: Fxratesapi Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
@@ -128,7 +128,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.0
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/screenshots/fxratesapi-2026-07-25T215340.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,9 +74,6 @@ apis:
   name: AESO Energy Trading System (ETS) Public Reports
   slug: aeso-ets-public-reports
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve a pool participant into its fleet, read what those assets are generating right now, and pull their settlement-grade metered volumes.
   name: AESO asset drilldown
   slug: aeso-asset-drilldown
@@ -86,7 +83,7 @@ arazzos:
 - description: Reconstruct why Alberta's price cleared where it did — the offer stack, the units directed online, the outages that removed supply, and the resulting system marginal and pool prices.
   name: AESO price formation trace
   slug: aeso-price-formation
-artifact_total: 24
+artifact_total: 23
 common:
 - group: agent
   title: ''
@@ -250,11 +247,11 @@ plans:
 - name: Aeso Plans
   plan_count: 1
   slug: aeso-plans
-random_paper: 76
+random_paper: 64
 score:
   band: thin
   composite: 37.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 14.0
@@ -262,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.2
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,7 +277,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

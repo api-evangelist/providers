@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -67,13 +67,10 @@ apis:
   name: Orderful Transaction (v3) API
   slug: orderful-transaction-v3-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Receive a Purchase Order from an inbox, approve delivery, acknowledge it, and send back the acknowledgment.
   name: Orderful Order-to-Cash
   slug: orderful-order-to-cash
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Orderful Webhooks
@@ -238,11 +235,11 @@ overview: 'Orderful publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: strong
   composite: 57.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 63.5
@@ -250,7 +247,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 58.4
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:

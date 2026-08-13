@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -156,11 +156,11 @@ overview: 'Vistra Corp is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Vistra Corp''s developer surface includes engineering blog, documentation, and 28 more developer resources.'
-random_paper: 84
+random_paper: 40
 score:
   band: emerging
   composite: 15.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -168,7 +168,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 15.8
   provenance:
     conformance: derived
   regulatory:
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

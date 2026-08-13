@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -178,7 +178,7 @@ overview: 'Binance.US publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Binance.US''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 70
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Binance.Us Rate Limits
@@ -204,7 +204,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
 security:

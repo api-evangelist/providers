@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -347,11 +347,11 @@ overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 23 more developer resources.'
-random_paper: 40
+random_paper: 16
 score:
   band: developing
   composite: 43.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.5
@@ -359,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.1
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,7 +377,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:

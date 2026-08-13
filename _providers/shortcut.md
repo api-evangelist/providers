@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -133,11 +133,11 @@ overview: 'Shortcut publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Shortcut''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 7 more developer resources.'
-random_paper: 80
+random_paper: 52
 score:
   band: thin
   composite: 35.5
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -145,7 +145,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.4
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -154,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut/refs/heads/main/screenshots/shortcut-2026-06-20T193838.png
 security:

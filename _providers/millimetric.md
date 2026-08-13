@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,9 +49,6 @@ apis:
   name: Millimetric Read API
   slug: millimetric-read-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Track anonymously, identify on login, tag subsequent events, then read the user's history.
   name: Stitch an anonymous visitor to a known user
   slug: millimetric-anonymous-to-known
@@ -61,7 +58,7 @@ arazzos:
 - description: Confirm a user's events, then permanently delete them with a secret key.
   name: GDPR right-to-be-forgotten
   slug: millimetric-gdpr-delete
-artifact_total: 13
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -219,7 +216,7 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 19
+random_paper: 99
 rate_limits:
 - limit_count: 2
   name: Millimetric Rate Limits
@@ -227,7 +224,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.8
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.3
@@ -235,7 +232,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 62.6
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,7 +244,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:

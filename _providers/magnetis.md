@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Magnetis
 nav: Providers
 network: true
 overview: Magnetis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Wealth Management, and Robo-Advisor.
-random_paper: 44
+random_paper: 16
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magnetis/refs/heads/main/screenshots/magnetis-2026-07-25T225900.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -516,7 +516,7 @@ plans:
 - name: Nvidia Nim Plans Pricing
   plan_count: 3
   slug: nvidia-nim-plans-pricing
-random_paper: 76
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Nvidia Nim Rate Limits
@@ -533,7 +533,7 @@ rules:
 score:
   band: exemplar
   composite: 78.7
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 73.4
@@ -541,7 +541,7 @@ score:
     discoverability: 72.2
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 75.7
+  previous_composite: 78.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -552,7 +552,7 @@ score:
       total: 11
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

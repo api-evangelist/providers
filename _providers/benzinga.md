@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 44
 apis:
 - description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
@@ -337,11 +337,11 @@ overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network
 
 
   Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 26 more developer resources.'
-random_paper: 34
+random_paper: 6
 score:
   band: developing
   composite: 52.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.8
@@ -349,7 +349,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 52.9
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -366,7 +366,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

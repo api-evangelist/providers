@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,11 +178,11 @@ overview: 'GTE publishes 6 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   GTE''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 88
+random_paper: 80
 score:
   band: thin
   composite: 39.7
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 47.8
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,7 +208,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/screenshots/gte-2026-07-25T220408.png
 security:

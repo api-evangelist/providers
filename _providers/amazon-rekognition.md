@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1149,7 +1149,7 @@ plans:
 - name: Amazon Rekognition Plans Pricing
   plan_count: 3
   slug: amazon-rekognition-plans-pricing
-random_paper: 28
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Amazon Rekognition Rate Limits
@@ -1174,7 +1174,7 @@ rules:
 score:
   band: strong
   composite: 61.4
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 33.7
@@ -1182,7 +1182,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 55.3
-  previous_composite: 66.8
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1193,8 +1193,8 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:
 - kind: authentication

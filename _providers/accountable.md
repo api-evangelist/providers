@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Net asset value per share feeds.
@@ -54,11 +54,11 @@ name: Accountable
 nav: Providers
 network: true
 overview: 'Accountable publishes 3 APIs on the [APIs.io](https://apis.io/) network: NAV API, Proof of Reserves API, and Redemption API. Tagged areas include Company and Crypto.'
-random_paper: 109
+random_paper: 73
 score:
   band: emerging
   composite: 18.0
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.7
@@ -66,7 +66,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 18.0
   provenance:
     contracts:
       callable: 0.0
@@ -74,7 +74,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: accountable
 tags:

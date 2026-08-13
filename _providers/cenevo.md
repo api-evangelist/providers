@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -389,11 +389,11 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: thin
   composite: 41.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 50.3
@@ -401,7 +401,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 42.7
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -419,7 +419,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -181,11 +181,11 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 87
+random_paper: 71
 score:
   band: developing
   composite: 49.0
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.8
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 47.4
+  previous_composite: 49.0
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

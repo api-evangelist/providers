@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -270,7 +270,7 @@ overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 57
+random_paper: 29
 scopes:
 - name: Invendor Scopes
   scope_count: 2
@@ -279,7 +279,7 @@ scopes:
 score:
   band: thin
   composite: 34.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 45.7
@@ -287,7 +287,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

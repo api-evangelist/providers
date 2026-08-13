@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: REST API and tooling for Cucumber BDD framework supporting test-first development with Gherkin feature files, scenario definitions, and step implementations.
@@ -164,7 +164,7 @@ plans:
 - name: Test First Plans Pricing
   plan_count: 3
   slug: test-first-plans-pricing
-random_paper: 1
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Test First Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: thin
   composite: 33.6
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 45.2
@@ -189,10 +189,10 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 41.5
+  previous_composite: 33.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-first/refs/heads/main/screenshots/test-first-2026-06-20T195144.png
 security:
 - kind: domain-security

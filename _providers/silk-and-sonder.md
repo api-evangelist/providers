@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,11 +48,11 @@ name: Silk and Sonder
 nav: Providers
 network: true
 overview: Silk and Sonder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellness, Journaling, Mental Health, and Subscription.
-random_paper: 91
+random_paper: 43
 score:
   band: minimal
   composite: 4.3
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -60,7 +60,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.1
+  previous_composite: 4.3
   regulatory:
     applies: true
     matched_via: tags
@@ -68,7 +68,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: silk-and-sonder
 tags:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 12 more developer resources.'
-random_paper: 103
+random_paper: 91
 scopes:
 - name: Zayo Scopes
   scope_count: 1
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 74.6
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 47.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,7 +195,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

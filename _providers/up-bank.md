@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 29 more developer resources.'
-random_paper: 106
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Up Bank Rate Limits
@@ -264,7 +264,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.0
@@ -272,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 53.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +290,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:

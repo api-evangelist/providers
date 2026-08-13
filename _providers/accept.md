@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -276,11 +276,11 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 44
+random_paper: 24
 score:
   band: developing
   composite: 44.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 62.3
@@ -288,7 +288,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 46.4
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:

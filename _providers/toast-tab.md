@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1320,7 +1320,7 @@ plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
   slug: toast-tab-plans-pricing
-random_paper: 99
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Toast Tab Rate Limits
@@ -1350,7 +1350,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 70.8
@@ -1358,7 +1358,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 50.0
-  previous_composite: 55.3
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1373,7 +1373,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:

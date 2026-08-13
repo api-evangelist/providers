@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,11 +56,11 @@ name: Kano Computing
 nav: Providers
 network: true
 overview: Kano Computing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, STEM, Hardware, and Computing.
-random_paper: 60
+random_paper: 12
 score:
   band: minimal
   composite: 7.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -68,9 +68,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.1
+  previous_composite: 7.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kano-computing/refs/heads/main/screenshots/kano-computing-2026-07-25T223451.png
 slug: kano-computing

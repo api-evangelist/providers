@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: emerging
   composite: 22.4
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 15.1
@@ -209,7 +209,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 0.0
-  previous_composite: 28.3
+  previous_composite: 22.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:
 - kind: authentication

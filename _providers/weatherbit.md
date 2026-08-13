@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -602,7 +602,7 @@ plans:
 - name: Weatherbit Plans Pricing
   plan_count: 6
   slug: weatherbit-plans-pricing
-random_paper: 27
+random_paper: 111
 rate_limits:
 - limit_count: 10
   name: Weatherbit Rate Limits
@@ -627,7 +627,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.0
@@ -635,7 +635,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 23.7
-  previous_composite: 53.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -644,8 +644,8 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/screenshots/weatherbit-2026-06-20T201311.png
 security:
 - kind: domain-security

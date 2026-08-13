@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -164,11 +164,11 @@ overview: 'Defined.ai (DefinedCrowd) publishes 8 APIs on the [APIs.io](https://a
 
 
   Defined.ai (DefinedCrowd)''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 102
+random_paper: 62
 score:
   band: thin
   composite: 39.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.6
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 40.4
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/screenshots/definedcrowd-2026-07-25T211622.png
 security:

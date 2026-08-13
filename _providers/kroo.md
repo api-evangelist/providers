@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Acc
 
 
   Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 95
+random_paper: 83
 scopes:
 - name: Kroo Scopes
   scope_count: 3
@@ -179,7 +179,7 @@ scopes:
 score:
   band: developing
   composite: 43.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 57.5
@@ -187,7 +187,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:

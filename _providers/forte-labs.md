@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'Forte Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Forte Labs'' developer surface includes documentation, API reference, quickstart, engineering blog, support, changelog, and 10 more developer resources.'
-random_paper: 79
+random_paper: 47
 score:
   band: emerging
   composite: 22.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forte-labs/refs/heads/main/screenshots/forte-labs-2026-07-25T214959.png
 security:

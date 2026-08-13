@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
   slug: sandbox-banking-plans-pricing
-random_paper: 18
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Sandbox Banking Rate Limits
@@ -198,7 +198,7 @@ rules:
 score:
   band: thin
   composite: 38.2
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 67.2
@@ -206,7 +206,7 @@ score:
     discoverability: 79.6
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 44.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
 security:
 - kind: authentication

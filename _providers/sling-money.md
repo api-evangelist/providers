@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ overview: 'Sling Money is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Sling Money''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 94
+random_paper: 58
 score:
   band: emerging
   composite: 26.8
@@ -133,7 +133,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: James Finance
 nav: Providers
 network: true
 overview: James Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 21
+random_paper: 97
 score:
   band: minimal
   composite: 3.2
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/james-finance/refs/heads/main/screenshots/james-finance-2026-07-25T223151.png
 slug: james-finance

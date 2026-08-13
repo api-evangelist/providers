@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ apis:
   name: Atmospore Pollen Forecasts Species API
   slug: atmospore-pollen-forecasts-species-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'Resolve the Atmospore species catalogue, rank the worst allergens for the coming week at a coordinate, then pull the day-by-day forecast for the species the user actually reacts to. Every operationId '
   name: Plan an allergy week for a location
   slug: atmospore-pollen-forecasts-allergy-week-plan
 - description: Resolve the species catalogue, then read tree/grass/weed aggregates across a radius for a regional dashboard or a smart-home ventilation rule. Every operationId exists verbatim in the referenced OpenA
   name: Build a regional pollen risk board
   slug: atmospore-pollen-forecasts-regional-risk-board
-artifact_total: 17
+artifact_total: 16
 common:
 - group: operate
   title: ''
@@ -222,7 +219,7 @@ plans:
 - name: Atmospore Pollen Forecasts Plans
   plan_count: 5
   slug: atmospore-pollen-forecasts-plans
-random_paper: 28
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Atmospore Pollen Forecasts Rate Limits
@@ -230,7 +227,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 61.2
@@ -238,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +253,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

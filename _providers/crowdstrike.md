@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The CrowdStrike API provides access to platform services and data for enterprise integration and automation.
@@ -92,7 +92,7 @@ plans:
 - name: Crowdstrike Plans Pricing
   plan_count: 4
   slug: crowdstrike-plans-pricing
-random_paper: 41
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Crowdstrike Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.0
-  delta: -6.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 43.2
@@ -108,10 +108,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 30.1
+  previous_composite: 24.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png
 security:
 - kind: domain-security

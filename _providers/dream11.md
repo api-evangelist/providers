@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'Dream11 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Dream11''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: minimal
   composite: 11.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -87,9 +87,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.3
+  previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream11/refs/heads/main/screenshots/dream11-2026-07-25T212352.png
 security:

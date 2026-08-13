@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -1496,7 +1496,7 @@ plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 99
+random_paper: 91
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits
@@ -1529,7 +1529,7 @@ rules:
 score:
   band: strong
   composite: 59.8
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 66.0
@@ -1537,7 +1537,7 @@ score:
     discoverability: 59.3
     governance: 37.5
     operational_transparency: 68.4
-  previous_composite: 58.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1552,7 +1552,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
 security:

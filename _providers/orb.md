@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Orb Plans Pricing
   plan_count: 3
   slug: orb-plans-pricing
-random_paper: 91
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Orb Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 47.0
@@ -142,7 +142,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.8
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -151,8 +151,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb/refs/heads/main/screenshots/orb-2026-06-20T191155.png
 security:
 - kind: domain-security

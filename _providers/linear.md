@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Linear Plans Pricing
   plan_count: 4
   slug: linear-plans-pricing
-random_paper: 55
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Linear Rate Limits
@@ -175,7 +175,7 @@ scopes:
 score:
   band: thin
   composite: 39.6
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 81.0
@@ -183,7 +183,7 @@ score:
     discoverability: 59.3
     governance: 41.7
     operational_transparency: 7.9
-  previous_composite: 48.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,11 +76,11 @@ name: Tia
 nav: Providers
 network: true
 overview: Tia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Femtech, Women's Health, Primary Care, Mental Health, and Gynecology.
-random_paper: 101
+random_paper: 73
 score:
   band: minimal
   composite: 7.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -88,7 +88,7 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.5
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: tags
@@ -96,7 +96,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tia-women/refs/heads/main/screenshots/tia-women-2026-06-20T195331.png
 security:

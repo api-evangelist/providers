@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -174,7 +174,7 @@ overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 21 more developer resources.'
-random_paper: 68
+random_paper: 36
 scopes:
 - name: Splitwise Scopes
   scope_count: 0
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 45.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.2
@@ -191,7 +191,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -208,7 +208,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

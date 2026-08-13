@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   The PlaceKitten catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 12
+random_paper: 92
 rules:
 - name: PlaceKitten API Rules
   rule_count: 5
@@ -125,7 +125,7 @@ rules:
 score:
   band: thin
   composite: 30.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 67.2
@@ -133,7 +133,7 @@ score:
     discoverability: 66.7
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 31.1
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

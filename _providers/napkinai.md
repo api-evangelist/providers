@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,13 +42,10 @@ apis:
   name: Napkin.AI Visuals API
   slug: napkinai-visuals-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Submit text to Napkin AI, poll the asynchronous request until it completes, then download each generated file (PNG/SVG/PDF/PPT).
   name: Generate a visual from text with Napkin AI
   slug: napkinai-generate-visual
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -190,7 +187,7 @@ overview: 'Napkin.AI publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Napkin.AI''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 31
+random_paper: 3
 scopes:
 - name: Napkinai Scopes
   scope_count: 2
@@ -199,7 +196,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
@@ -207,7 +204,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 49.5
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/screenshots/napkinai-2026-08-07T184624.png
 security:

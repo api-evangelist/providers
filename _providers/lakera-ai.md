@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ plans:
 - name: Lakera Ai Plans Pricing
   plan_count: 4
   slug: lakera-ai-plans-pricing
-random_paper: 59
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Lakera Ai Rate Limits
@@ -316,7 +316,7 @@ rules:
 score:
   band: strong
   composite: 62.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 73.1
@@ -324,7 +324,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 63.2
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -333,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/screenshots/lakera-ai-2026-06-20T184246.png
 security:

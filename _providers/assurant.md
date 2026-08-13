@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: 'Building Trust in Enterprise AI: a Human-Centric Approach'
   url: https://www.assurant.com/news-insights/articles/human-approach-to-enterprise-ai
-random_paper: 69
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Assurant Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.9
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.8
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png
 security:

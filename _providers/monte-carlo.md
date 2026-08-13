@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,11 +114,11 @@ overview: 'Monte Carlo publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Monte Carlo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 77
+random_paper: 41
 score:
   band: thin
   composite: 35.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 65.7
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -135,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/screenshots/monte-carlo-2026-06-20T185743.png
 security:

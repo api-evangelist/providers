@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -47,37 +47,86 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.profitero.com/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://app.profitero.com/login
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/profitero
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/profitero-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/profitero-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/profitero-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/profitero-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/profitero-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: 'Profitero''s CEO states on the company blog that technology partners "integrate directly with Profitero via API", but no reference for it exists on any public host — every surface that could carry it is a login: app.profitero.com 301s every path to /login.html, docs.profitero.com 302s to an internal Google Drive workspace, and help.profitero.com is a private Zendesk whose article API returns 401.'
+  evidence:
+  - status: 200
+    url: https://www.profitero.com/blog/2020-09-why-we-launched-an-open-commerce-ecosystem-qa-with-profitero-ceo-bryan-wiener
+  - status: 301
+    url: https://app.profitero.com/api-docs
+  - status: 302
+    url: http://docs.profitero.com/
+  - status: 401
+    url: https://help.profitero.com/api/v2/help_center/en-us/articles.json
+  - status: 404
+    url: https://www.profitero.com/openapi.json
+  reason: partner-login
+  state: gated
 created: '2026-07-17'
-description: Profitero is an eCommerce data and technology platform (Profitero+) that helps consumer brands optimize their digital shelf presence across major retailers such as Amazon and Walmart. It combines digital shelf analytics, retail media management, content optimization, and managed services to help brands measure and grow online sales, monitoring more than 1,400 retailer sites across 15 commerce hubs for over 9,000 global brands. Profitero was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass the company publishes no public developer API, developer portal, or SDK surface.
+description: Profitero+ is an eCommerce data, technology and services platform that helps consumer brands measure and grow their digital shelf presence across major retailers including Amazon, Walmart, Tesco and Target. It combines digital shelf analytics, Amazon sales and share measurement, content optimisation, retail media activation (Shelf Intelligent Media) and managed services, monitoring more than 1,400 retailer sites in 70+ countries for over 9,000 global brands. Founded in Dublin in 2010 and acquired by Publicis Groupe in March 2022, it now operates inside Publicis Commerce. Profitero was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. A partner API does exist — Profitero's own CEO wrote in 2020 that technology partners such as Kenshoo and Pacvue "integrate directly with Profitero via API" — but the company publishes no developer portal, API reference, OpenAPI or AsyncAPI definition, GraphQL endpoint, Postman collection, MCP server, agent card
+  or SDK on any public host, and no pricing. Access runs through the Open Commerce Ecosystem partner programme and a sales demo request.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/profitero.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Profitero
 nav: Providers
 network: true
 overview: 'Profitero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, eCommerce, Digital Shelf, Retail Analytics, and Retail Media.
 
 
-  Profitero''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 58
+  Profitero''s developer surface includes engineering blog, support, and 9 more developer resources.'
+plans:
+- name: Profitero Plans Pricing
+  plan_count: 0
+  slug: profitero-plans-pricing
+random_paper: 26
+rate_limits:
+- limit_count: 0
+  name: Profitero Rate Limits
+  slug: profitero-rate-limits
 score:
   band: minimal
-  composite: 8.4
-  delta: 0.0
+  composite: 12.5
+  delta: 4.1
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security
@@ -93,5 +142,7 @@ tags:
 - Retail Media
 - Consumer Brands
 - Marketing Analytics
+- Commerce Intelligence
+- Publicis Groupe
 website: https://www.profitero.com
 ---

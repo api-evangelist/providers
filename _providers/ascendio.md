@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API (/api/v1) for managing Ascend workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto. Service-account Bearer authentication.
@@ -136,11 +136,11 @@ overview: 'Ascend.io publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Ascend.io''s developer surface includes documentation, API reference, quickstart, signup flow, support, CLI, authentication, and 14 more developer resources.'
-random_paper: 26
+random_paper: 118
 score:
   band: emerging
   composite: 27.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -148,13 +148,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 28.1
+  previous_composite: 27.0
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/screenshots/ascendio-2026-07-25T201409.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,11 +163,11 @@ overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 60
+random_paper: 28
 score:
   band: developing
   composite: 44.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.2
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:

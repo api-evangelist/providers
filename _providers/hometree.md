@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,7 +79,7 @@ overview: 'Hometree is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hometree''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: emerging
   composite: 13.0
@@ -99,7 +99,7 @@ score:
     regime_id: insurance
     score: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometree/refs/heads/main/screenshots/hometree-2026-07-25T221349.png
 slug: hometree

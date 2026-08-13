@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -232,7 +232,7 @@ overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 89
+random_paper: 77
 rate_limits:
 - limit_count: 3
   name: Lilt Rate Limits
@@ -245,7 +245,7 @@ scopes:
 score:
   band: strong
   composite: 62.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.4
@@ -253,7 +253,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 63.5
+  previous_composite: 62.8
   provenance:
     conformance: derived
     contracts:
@@ -264,7 +264,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

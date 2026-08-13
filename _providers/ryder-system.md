@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ press:
 - date: '2026-05-25'
   title: Ryder and Terminal Digitize Yard; Achieve 99% Accuracy ...
   url: https://www.businesswire.com/news/home/20240821139395/en/Ryder-and-Terminal-Digitize-Yard-Achieve-99-Accuracy-with-AI-Computer-Vision
-random_paper: 112
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Ryder System Rate Limits
@@ -260,7 +260,7 @@ scopes:
 score:
   band: thin
   composite: 37.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 67.3
@@ -268,7 +268,7 @@ score:
     discoverability: 64.8
     governance: 37.5
     operational_transparency: 10.5
-  previous_composite: 43.7
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +277,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png
 security:
 - kind: authentication

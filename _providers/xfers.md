@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 20
 apis:
 - description: API to manage Bank Account
@@ -154,11 +154,11 @@ overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xfers'' developer surface includes authentication, documentation, API reference, support, and 7 more developer resources.'
-random_paper: 88
+random_paper: 72
 score:
   band: thin
   composite: 31.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 62.1
@@ -166,7 +166,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.9
+  previous_composite: 31.9
   provenance:
     contracts:
       callable: 100.0
@@ -181,7 +181,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

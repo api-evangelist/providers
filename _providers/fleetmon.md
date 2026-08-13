@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -215,11 +215,11 @@ overview: 'FleetMon publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   FleetMon''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: emerging
   composite: 22.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.5
@@ -227,7 +227,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 22.7
   provenance:
     agentic_access: derived
     contracts:
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/screenshots/fleetmon-2026-07-25T214742.png
 security:

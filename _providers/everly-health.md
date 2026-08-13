@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server and OpenID Connect provider that fronts the Everlywell member account. It is not a documented developer product — Everly Health publishes no API reference for it — b
@@ -110,7 +110,7 @@ overview: 'Everly Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Everly Health''s developer surface includes engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 62
+random_paper: 18
 scopes:
 - name: Everly Health Scopes
   scope_count: 2
@@ -137,7 +137,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everly-health/refs/heads/main/screenshots/everly-health-2026-08-07T165035.png
 security:

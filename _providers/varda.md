@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,11 +83,11 @@ overview: 'Varda is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Varda''s developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: minimal
   composite: 8.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -95,7 +95,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.9
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

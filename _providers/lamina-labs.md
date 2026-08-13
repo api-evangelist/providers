@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Lamina Labs'' developer surface includes documentation, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 45
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Lamina Labs Rate Limits
@@ -163,7 +163,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lamina-labs/refs/heads/main/screenshots/lamina-labs-2026-08-07T171605.png
 security:

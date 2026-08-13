@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 5
@@ -208,7 +208,7 @@ plans:
 - name: Convert Plans Pricing
   plan_count: 1
   slug: convert-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Convert Rate Limits
@@ -216,7 +216,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.2
@@ -224,7 +224,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.0
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convert/refs/heads/main/screenshots/convert-2026-06-20T174956.png
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,7 +120,7 @@ overview: 'Axena Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Axena Health''s developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 40
+random_paper: 0
 scopes:
 - name: Axena Health Scopes
   scope_count: 0
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 22.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -137,7 +137,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 23.0
+  previous_composite: 22.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axena-health/refs/heads/main/screenshots/axena-health-2026-08-07T162030.png
 security:

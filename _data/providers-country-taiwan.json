@@ -1,6 +1,6 @@
 {
- "total": 17,
- "shown": 17,
+ "total": 18,
+ "shown": 18,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -83,7 +83,7 @@
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -229,7 +229,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -267,7 +267,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -312,7 +312,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -356,7 +356,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -385,8 +385,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "ProLogium Technology",
@@ -403,7 +403,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -447,7 +447,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -477,22 +477,29 @@
      "rank": 10
     },
     {
-     "name": "PopChill",
-     "slug": "popchill",
-     "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform, operating as a mobile marketplace app for buying and selling authenticated pre-owned designer goods including handbags, watches, jewelry, apparel, and footwear from Chanel, Hermes, Louis Vuitton, Dior, Gucci, Prada, and 40+ other brands. The company provides item authentication, secure transactions, and seller support to a consumer audience. PopChill is backed by 500 Global. As of this enrichment pass the company publishes no public developer portal, API documentation, or technical integration surface; this profile tracks the company in the API Evangelist network pending any future API program.",
-     "score": 5.9,
+     "name": "Elixiron Immunotherapeutics",
+     "slug": "elixiron-immunotherapeutics",
+     "description": "Elixiron Immunotherapeutics (Cayman) Limited is a clinical-stage biopharmaceutical company founded in 2017, with offices in Taipei, Taiwan and Cambridge, Massachusetts, developing precision immunotherapies for neuroinflammation, autoimmune disease and cancer. Its clinical pipeline is led by enrupatinib (EI-1071), a small-molecule CSF-1R inhibitor in development for Alzheimer's disease and other neurodegenerative indications, and EI-001, a fully human anti-interferon-gamma monoclonal antibody in Phase 2 for vitiligo, alongside preclinical EI-012 (anti-CD36) and EI-220 (mRNA) oncology programs. The company publishes a corporate and investor-relations website only: there is no developer portal, public API, SDK, webhook surface or machine-readable specification of any kind on its own hosts.",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -514,6 +521,43 @@
      "rank": 11
     },
     {
+     "name": "PopChill",
+     "slug": "popchill",
+     "description": "PopChill is Taiwan's largest secondhand luxury fashion trading platform, operating as a mobile marketplace app for buying and selling authenticated pre-owned designer goods including handbags, watches, jewelry, apparel, and footwear from Chanel, Hermes, Louis Vuitton, Dior, Gucci, Prada, and 40+ other brands. The company provides item authentication, secure transactions, and seller support to a consumer audience. PopChill is backed by 500 Global. As of this enrichment pass the company publishes no public developer portal, API documentation, or technical integration surface; this profile tracks the company in the API Evangelist network pending any future API program.",
+     "score": 5.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Tripplus",
      "slug": "tripplus",
      "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.",
@@ -528,7 +572,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -555,7 +599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Fox-Tech",
@@ -573,45 +617,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Bounty Hunter",
-     "slug": "bounty-hunter",
-     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -634,9 +640,10 @@
      "rank": 14
     },
     {
-     "name": "TryTry (穿穿)",
-     "slug": "trytrytw",
-     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
+     "name": "Bounty Hunter",
+     "slug": "bounty-hunter",
+     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -648,7 +655,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -671,9 +678,9 @@
      "rank": 15
     },
     {
-     "name": "WeGrow asia CO., LTD.",
-     "slug": "wegrow-asia-co-ltd",
-     "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
+     "name": "TryTry (穿穿)",
+     "slug": "trytrytw",
+     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -685,7 +692,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -708,9 +715,9 @@
      "rank": 16
     },
     {
-     "name": "ypxfood",
-     "slug": "ypxfood",
-     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in Taiwanese food and snacks, backed by Qiming Venture Partners, LionRock Capital, and Ignition Capital. It is a consumer restaurant and food business with no public developer or API surface; enrichment probes found the corporate website (Cloudflare-fronted, returning 403 to automated clients) and no documentation, OpenAPI, SDKs, or well-known discovery endpoints. This profile is retained as a network company record.",
+     "name": "WeGrow asia CO., LTD.",
+     "slug": "wegrow-asia-co-ltd",
+     "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -722,7 +729,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -743,6 +750,43 @@
       "dry_run_mode": false
      },
      "rank": 17
+    },
+    {
+     "name": "ypxfood",
+     "slug": "ypxfood",
+     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in Taiwanese food and snacks, backed by Qiming Venture Partners, LionRock Capital, and Ignition Capital. It is a consumer restaurant and food business with no public developer or API surface; enrichment probes found the corporate website (Cloudflare-fronted, returning 403 to automated clients) and no documentation, OpenAPI, SDKs, or well-known discovery endpoints. This profile is retained as a network company record.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     }
    ]
   }

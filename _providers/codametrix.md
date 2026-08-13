@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,11 +206,11 @@ overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
-random_paper: 28
+random_paper: 112
 score:
   band: thin
   composite: 29.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 14.8
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 28.9
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:

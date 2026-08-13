@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
@@ -312,11 +312,11 @@ overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 73
+random_paper: 33
 score:
   band: developing
   composite: 43.5
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 52.3
@@ -324,7 +324,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 43.7
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     contracts:
@@ -341,7 +341,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ plans:
 - name: National Energy System Operator Plans Pricing
   plan_count: 3
   slug: national-energy-system-operator-plans-pricing
-random_paper: 60
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: National Energy System Operator Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.5
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 53.0
@@ -120,7 +120,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.6
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -135,8 +135,8 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/screenshots/national-energy-system-operator-2026-06-20T190011.png
 security:
 - kind: domain-security

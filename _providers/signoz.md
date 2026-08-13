@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -355,7 +355,7 @@ plans:
 - name: Signoz Plans Pricing
   plan_count: 3
   slug: signoz-plans-pricing
-random_paper: 86
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Signoz Rate Limits
@@ -380,7 +380,7 @@ rules:
 score:
   band: developing
   composite: 52.3
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 62.7
@@ -388,7 +388,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 58.7
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -397,8 +397,8 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:
 - kind: authentication

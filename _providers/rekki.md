@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -159,11 +159,11 @@ overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   REKKI''s developer surface includes getting-started guide, support, documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: thin
   composite: 38.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.8
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 39.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,7 +183,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

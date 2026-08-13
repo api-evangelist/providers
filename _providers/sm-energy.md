@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -134,7 +134,7 @@ press:
 - date: '2026-04-07'
   title: SM Energy Schedules First Quarter 2026 Conference Call for May 7, 2026
   url: https://www.sm-energy.com/investors/news-events/press-releases/detail/374/sm-energy-schedules-first-quarter-2026-conference-call-for-may-7-2026
-random_paper: 107
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Sm Energy Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 8.1
@@ -150,7 +150,7 @@ score:
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 5.3
-  previous_composite: 17.3
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: tags
@@ -158,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/screenshots/sm-energy-2026-06-20T194032.png
 security:

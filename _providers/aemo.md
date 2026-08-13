@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -489,7 +489,7 @@ overview: 'AEMO publishes 74 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 45 more developer resources.'
-random_paper: 70
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Aemo Rate Limits
@@ -502,7 +502,7 @@ scopes:
 score:
   band: developing
   composite: 55.7
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.3
@@ -510,7 +510,7 @@ score:
     discoverability: 77.8
     governance: 21.9
     operational_transparency: 57.9
-  previous_composite: 57.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -528,7 +528,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:

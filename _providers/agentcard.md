@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,16 +54,13 @@ apis:
   name: Agentcard Withdrawals API
   slug: agentcard-withdrawals-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Connect an end user, record consent, and run identity verification (KYC) end to end.
   name: Agentcard — connect a user and verify identity
   slug: agentcard-connect-and-verify.arazzo
 - description: Verify a user's phone, create an Apple/Google Pay funding session, and poll it to completion.
   name: Agentcard — verify phone and fund wallet
   slug: agentcard-fund-wallet.arazzo
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: Event notifications Agentcard delivers to destinations you register in the dashboard. Every delivery is a POST with a signed envelope { id, type, created, livemode, data }. Verify the AgentCard-Signat
   name: Agentcard Webhooks
@@ -247,11 +244,11 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 9
+random_paper: 97
 score:
   band: strong
   composite: 56.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 71.6
@@ -259,7 +256,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 57.0
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,7 +274,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:

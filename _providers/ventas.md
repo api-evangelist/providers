@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Ventas Reports Fourth Quarter and Full Year 2025 Results ...
   url: https://ir.ventasreit.com/news/news-details/2026/Ventas-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Outlook-and-Increases-Dividend/default.aspx
-random_paper: 77
+random_paper: 57
 rules:
 - name: Ventas API Rules
   rule_count: 5
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ventas/refs/heads/main/screenshots/ventas-2026-06-20T200911.png
 security:

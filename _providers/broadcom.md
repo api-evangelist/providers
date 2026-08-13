@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: News Releases - Broadcom News and Stories
   url: https://news.broadcom.com/releases
-random_paper: 27
+random_paper: 119
 rate_limits:
 - limit_count: 3
   name: Broadcom Rate Limits
@@ -214,7 +214,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 73.6
@@ -222,7 +222,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 45.3
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
 security:
 - kind: authentication

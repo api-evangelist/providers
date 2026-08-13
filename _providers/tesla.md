@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -156,7 +156,7 @@ plans:
 - name: Tesla Plans Pricing
   plan_count: 3
   slug: tesla-plans-pricing
-random_paper: 73
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Tesla Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: thin
   composite: 36.4
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 58.9
@@ -189,7 +189,7 @@ score:
     discoverability: 88.9
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Tesla Domain Security

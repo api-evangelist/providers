@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 11
 common:
@@ -107,11 +107,11 @@ overview: 'Subway is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Subway''s developer surface includes signup flow, FAQ, and 10 more developer resources.'
-random_paper: 87
+random_paper: 67
 score:
   band: minimal
   composite: 11.8
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -119,9 +119,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
+  previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subway/refs/heads/main/screenshots/subway-2026-06-20T194635.png
 security:

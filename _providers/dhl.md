@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Dhl Plans Pricing
   plan_count: 3
   slug: dhl-plans-pricing
-random_paper: 80
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Dhl Rate Limits
@@ -254,7 +254,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.2
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 58.2
@@ -262,7 +262,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png
 security:
 - kind: authentication

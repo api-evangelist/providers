@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -167,11 +167,11 @@ overview: 'Earnipay publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Earnipay''s developer surface includes authentication, documentation, API reference, getting-started guide, and 14 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: thin
   composite: 31.7
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 49.9
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.1
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,7 +197,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/screenshots/earnipay-2026-07-25T212700.png
 security:

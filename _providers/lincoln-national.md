@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Delaware Market Conduct Examination Report The Lincoln ...
   url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/09/LincolnNationalLifeInsuranceCo2024web.pdf
-random_paper: 26
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Lincoln National Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.2
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.5
@@ -133,7 +133,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.1
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -148,7 +148,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

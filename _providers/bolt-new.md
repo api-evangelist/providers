@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -161,7 +161,7 @@ plans:
 - name: Bolt New Plans Pricing
   plan_count: 4
   slug: bolt-new-plans-pricing
-random_paper: 112
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Bolt New Rate Limits
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.6
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -177,9 +177,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.2
+  previous_composite: 19.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-new/refs/heads/main/screenshots/bolt-new-2026-06-20T173557.png
 security:

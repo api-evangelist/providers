@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
@@ -225,7 +225,7 @@ overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 46
+random_paper: 118
 scopes:
 - name: Constructorio Scopes
   scope_count: 37
@@ -234,7 +234,7 @@ scopes:
 score:
   band: developing
   composite: 55.0
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.7
@@ -242,7 +242,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 56.0
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     contracts:
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ plans:
 - name: Agrio Plans Pricing
   plan_count: 3
   slug: agrio-plans-pricing
-random_paper: 66
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Agrio Rate Limits
@@ -232,7 +232,7 @@ rules:
 score:
   band: developing
   composite: 45.4
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 81.3
@@ -240,7 +240,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 54.0
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +249,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/screenshots/agrio-2026-06-20T170436.png
 security:
 - kind: authentication

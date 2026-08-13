@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ press:
 - date: '2026-05-25'
   title: Wells Fargo, BNP Paribas bolster AI leadership
   url: https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/
-random_paper: 79
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Wells Fargo Rate Limits
@@ -233,7 +233,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 77.2
@@ -241,7 +241,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 49.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:

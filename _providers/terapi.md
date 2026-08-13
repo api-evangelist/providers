@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Terapi Plans Pricing
   plan_count: 3
   slug: terapi-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Terapi Rate Limits
@@ -160,7 +160,7 @@ rules:
 score:
   band: thin
   composite: 40.3
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 67.2
@@ -168,7 +168,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 48.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Terapi Authentication

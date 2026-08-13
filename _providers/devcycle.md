@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -115,16 +115,13 @@ apis:
   name: DevCycle Webhooks API
   slug: devcycle-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a feature flag, a variable, and a variation via the DevCycle Management API.
   name: DevCycle - create a feature with a variable and variation
   slug: devcycle-create-feature
 - description: Fetch all variables and features for a user context and report an event.
   name: DevCycle - evaluate feature flags for a user (Bucketing API)
   slug: devcycle-evaluate-flags
-artifact_total: 60
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Devcycle Webhooks
@@ -385,11 +382,11 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: strong
   composite: 64.7
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.1
@@ -397,7 +394,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 64.8
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +406,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -2813,7 +2813,7 @@ plans:
 - name: Vapi Plans Pricing
   plan_count: 2
   slug: vapi-plans-pricing
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Vapi Rate Limits
@@ -2830,7 +2830,7 @@ rules:
 score:
   band: thin
   composite: 35.3
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 50.9
@@ -2838,7 +2838,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2853,7 +2853,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/screenshots/vapi-2026-06-20T200920.png
 security:

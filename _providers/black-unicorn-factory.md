@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,11 +90,11 @@ overview: 'Black Unicorn Factory is profiled on the [APIs.io](https://apis.io/) 
 
 
   Black Unicorn Factory''s developer surface includes engineering blog, product news, support, signup flow, and 10 more developer resources.'
-random_paper: 37
+random_paper: 85
 score:
   band: emerging
   composite: 13.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -102,9 +102,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.0
+  previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-unicorn-factory/refs/heads/main/screenshots/black-unicorn-factory-2026-08-07T162611.png
 security:

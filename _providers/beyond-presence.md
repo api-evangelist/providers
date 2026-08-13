@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Agents API from Beyond Presence — 2 operation(s) for agents.
@@ -232,11 +232,11 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 31
+random_paper: 99
 score:
   band: strong
   composite: 59.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.7
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 60.4
+  previous_composite: 59.8
   provenance:
     conformance: first-party
     contracts:
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

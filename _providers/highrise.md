@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: WebSocket API for building and running programmable bots inside Highrise rooms. Bots receive a stream of room events (chat, emotes, reactions, joins/leaves, movement, tips, voice, DMs, moderation) and
@@ -189,11 +189,11 @@ overview: 'Highrise publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Highrise''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: thin
   composite: 39.5
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 24.0
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 40.8
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:

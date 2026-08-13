@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Technip, FMC Technologies Complete Merger
   url: https://www.rigzone.com/news/technip_fmc_technologies_complete_merger-17-jan-2017-148145-article/
-random_paper: 15
+random_paper: 79
 score:
   band: minimal
   composite: 6.1
@@ -100,7 +100,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fmc-technologies/refs/heads/main/screenshots/fmc-technologies-2026-06-20T181350.png
 security:

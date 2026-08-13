@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Allscripts Healthcare Solutions API provides access to platform services and data for enterprise integration and automation.
@@ -69,7 +69,7 @@ plans:
 - name: Allscripts Healthcare Solutions Plans Pricing
   plan_count: 3
   slug: allscripts-healthcare-solutions-plans-pricing
-random_paper: 96
+random_paper: 108
 rate_limits:
 - limit_count: 3
   name: Allscripts Healthcare Solutions Rate Limits
@@ -77,7 +77,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.3
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -85,7 +85,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.9
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: tags
@@ -93,8 +93,8 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/screenshots/allscripts-healthcare-solutions-2026-06-20T171537.png
 security:
 - kind: domain-security

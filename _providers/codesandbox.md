@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -201,7 +201,7 @@ plans:
 - name: Codesandbox Plans Pricing
   plan_count: 4
   slug: codesandbox-plans-pricing
-random_paper: 2
+random_paper: 82
 rate_limits:
 - limit_count: 7
   name: Codesandbox Rate Limits
@@ -218,7 +218,7 @@ rules:
 score:
   band: developing
   composite: 54.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.4
@@ -226,7 +226,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 55.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -235,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: Walgreens Turns to Digital Transformation | AVI Blog
   url: https://www.avi.com/content-hub/walgreens-turns-to-digital-transformation-to-enhance-the-customer-experience/
-random_paper: 40
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Walgreens Rate Limits
@@ -213,7 +213,7 @@ rules:
 score:
   band: developing
   composite: 43.5
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 75.8
@@ -221,7 +221,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 46.2
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:

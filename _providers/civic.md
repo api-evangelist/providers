@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ plans:
 - name: Civic Plans Pricing
   plan_count: 3
   slug: civic-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Civic Rate Limits
@@ -210,7 +210,7 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 63.1
@@ -218,7 +218,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -233,7 +233,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/screenshots/civic-2026-06-20T174430.png
 security:

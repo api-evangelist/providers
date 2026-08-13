@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,16 +55,13 @@ apis:
   name: Exponential Vault API
   slug: exponential-vault-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Learn the graph schema, find an entity, read its risk grade and rationale, then map its 1-hop dependencies. Every step settles an x402 micropayment.
   name: YO Risk Graph triage
   slug: exponential-risk-graph-triage
 - description: Read a vault's current snapshot, yield and TVL history, and a user's pending redemptions.
   name: YO vault snapshot and user position
   slug: exponential-vault-snapshot
-artifact_total: 13
+artifact_total: 12
 common:
 - group: other
   title: ''
@@ -202,11 +199,11 @@ overview: 'Exponential publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
-random_paper: 31
+random_paper: 111
 score:
   band: developing
   composite: 43.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 47.0
@@ -214,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 44.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,7 +223,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
 security:

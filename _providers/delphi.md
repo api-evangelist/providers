@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -199,11 +199,11 @@ overview: 'Delphi publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Delphi''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 50
+random_paper: 30
 score:
   band: thin
   composite: 41.7
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 25.0
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 41.8
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:

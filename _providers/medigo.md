@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -153,11 +153,11 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Medigo''s developer surface includes authentication, support, and 16 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: thin
   composite: 34.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.3
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 34.5
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,7 +183,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
 security:

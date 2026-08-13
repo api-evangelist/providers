@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Submit and manage batches of requests.
@@ -187,11 +187,11 @@ overview: 'Sail Research publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Sail Research''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 39
+random_paper: 115
 score:
   band: developing
   composite: 55.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 68.5
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 55.8
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -210,7 +210,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

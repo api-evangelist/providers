@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -62,9 +62,6 @@ apis:
   name: PropertyMe Portfolio Connection API
   slug: propertyme-portfolio-connection-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'PropertyMe publishes no webhooks, so an integration keeps a portfolio current by polling the six change-since collections with an int64 Timestamp cursor. This workflow seeds the mirror from Timestamp '
   name: Connect a PropertyMe portfolio and run a change-since sync
   slug: propertyme-connect-and-sync
@@ -74,7 +71,7 @@ arazzos:
 - description: The maintenance work-order flow, using the v2 job-task shape for create and read and the shared v1 sub-resources for quotations, transitions and attachments. Requires activity:read and activity:write,
   name: Raise, quote, approve and complete a PropertyMe maintenance job
   slug: propertyme-maintenance-job
-artifact_total: 20
+artifact_total: 19
 common:
 - group: agent
   title: ''
@@ -254,7 +251,7 @@ overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 67
+random_paper: 31
 scopes:
 - name: Propertyme Scopes
   scope_count: 20
@@ -263,7 +260,7 @@ scopes:
 score:
   band: thin
   composite: 40.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 32.3
@@ -271,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,7 +281,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:

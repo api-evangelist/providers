@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Forty Seven 2
 nav: Providers
 network: true
 overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical-Stage.
-random_paper: 89
+random_paper: 49
 score:
   band: minimal
   composite: 4.3
@@ -68,7 +68,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forty-seven-2/refs/heads/main/screenshots/forty-seven-2-2026-07-25T215018.png
 slug: forty-seven-2

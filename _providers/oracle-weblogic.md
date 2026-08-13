@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -468,7 +468,7 @@ plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
   slug: oracle-weblogic-plans-pricing
-random_paper: 11
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Oracle Weblogic Rate Limits
@@ -485,7 +485,7 @@ rules:
 score:
   band: developing
   composite: 48.4
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.7
@@ -493,7 +493,7 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 54.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -502,8 +502,8 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:
 - kind: authentication

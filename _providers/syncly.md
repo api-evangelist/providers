@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ overview: 'Syncly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Syncly''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 94
+random_paper: 74
 score:
   band: thin
   composite: 29.1
@@ -133,7 +133,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

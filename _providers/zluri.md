@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ plans:
 - name: Zluri Plans Pricing
   plan_count: 3
   slug: zluri-plans-pricing
-random_paper: 102
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Zluri Rate Limits
@@ -289,7 +289,7 @@ rules:
 score:
   band: developing
   composite: 51.3
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 74.6
@@ -297,7 +297,7 @@ score:
     discoverability: 63.0
     governance: 68.8
     operational_transparency: 23.7
-  previous_composite: 59.2
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -306,8 +306,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Zluri Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -1013,7 +1013,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 19
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits
@@ -1043,7 +1043,7 @@ scopes:
 score:
   band: strong
   composite: 59.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 17.1
@@ -1051,7 +1051,7 @@ score:
     discoverability: 57.4
     governance: 68.8
     operational_transparency: 55.3
-  previous_composite: 67.8
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1060,8 +1060,8 @@ score:
       marker_coverage: 100.0
       total: 70
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

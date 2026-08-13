@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'All-in-one REST API for digital investing: onboarding, accounts (GIA/ISA/JISA/SIPP), funding, custody, trading, portfolio management, transfers, cash savings, valuations, performance and reporting. OA'
@@ -156,11 +156,11 @@ overview: 'WealthKernel publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   WealthKernel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 10
+random_paper: 86
 score:
   band: developing
   composite: 45.7
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -168,7 +168,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 47.5
+  previous_composite: 45.7
   provenance:
     conformance: first-party
   regulatory:
@@ -178,7 +178,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

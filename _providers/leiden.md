@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for the Leiden University Scholarly Publications repository, an Islandora-based institutional repository providing open access to PhD theses, articles, journal
@@ -96,7 +96,7 @@ plans:
 - name: Leiden Plans Pricing
   plan_count: 2
   slug: leiden-plans-pricing
-random_paper: 45
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Leiden Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leiden/refs/heads/main/screenshots/leiden-2026-06-20T184415.png
 security:

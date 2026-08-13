@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -250,7 +250,7 @@ plans:
 - name: Arcadia Plans Pricing
   plan_count: 2
   slug: arcadia-plans-pricing
-random_paper: 13
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Arcadia Rate Limits
@@ -267,7 +267,7 @@ rules:
 score:
   band: developing
   composite: 49.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 65.8
@@ -275,7 +275,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 50.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -290,7 +290,7 @@ score:
     regime_id: energy_utilities
     score: 37.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/screenshots/arcadia-2026-06-20T172358.png
 security:

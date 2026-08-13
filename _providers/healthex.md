@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for patient outreach, consent checking and auditing, record-location search, test-patient creation, and usage reporting, plus a FHIR R4 server ($everything) for standards-based access to a co
@@ -160,7 +160,7 @@ overview: 'HealthEx publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HealthEx''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 39
+random_paper: 11
 scopes:
 - name: Healthex Scopes
   scope_count: 5
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 35.7
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -177,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 39.2
+  previous_composite: 35.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthex/refs/heads/main/screenshots/healthex-2026-07-25T220838.png
 security:

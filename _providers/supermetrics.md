@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
@@ -192,7 +192,7 @@ overview: 'Supermetrics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Supermetrics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 42
+random_paper: 118
 scopes:
 - name: Supermetrics Scopes
   scope_count: 13
@@ -215,7 +215,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

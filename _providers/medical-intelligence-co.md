@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,11 +48,11 @@ name: MEDICAL INTELLIGENCE CO
 nav: Providers
 network: true
 overview: MEDICAL INTELLIGENCE CO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Medical Supplies, Marketplace, and B2B.
-random_paper: 82
+random_paper: 6
 score:
   band: minimal
   composite: 5.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -60,7 +60,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.4
   regulatory:
     applies: true
     matched_via: tags
@@ -68,7 +68,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medical-intelligence-co/refs/heads/main/screenshots/medical-intelligence-co-2026-08-07T172341.png
 security:

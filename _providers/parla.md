@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Parla
 nav: Providers
 network: true
 overview: Parla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Femtech, Fertility, and Reproductive Health.
-random_paper: 64
+random_paper: 48
 score:
   band: minimal
   composite: 4.3
@@ -64,7 +64,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parla/refs/heads/main/screenshots/parla-2026-08-07T191451.png
 slug: parla

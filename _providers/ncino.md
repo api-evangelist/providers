@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 86
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -441,7 +441,7 @@ overview: 'nCino publishes 85 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   nCino''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 71
+random_paper: 55
 scopes:
 - name: Ncino Scopes
   scope_count: 1
@@ -450,7 +450,7 @@ scopes:
 score:
   band: developing
   composite: 55.5
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.9
@@ -458,7 +458,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -475,7 +475,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
 security:

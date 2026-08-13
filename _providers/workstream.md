@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: Applicants represent people who have applied for positions within your company.
@@ -145,7 +145,7 @@ overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Workstream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 59
+random_paper: 23
 scopes:
 - name: Workstream Scopes
   scope_count: 10
@@ -154,7 +154,7 @@ scopes:
 score:
   band: developing
   composite: 43.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 54.9
@@ -162,7 +162,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 44.9
+  previous_composite: 43.3
   provenance:
     contracts:
       callable: 0.0
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

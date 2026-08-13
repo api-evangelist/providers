@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -112,7 +112,7 @@ plans:
 - name: Wingstop Plans Pricing
   plan_count: 1
   slug: wingstop-plans-pricing
-random_paper: 79
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Wingstop Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.0
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.6
+  previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wingstop/refs/heads/main/screenshots/wingstop-2026-06-20T201518.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Audio API from RightNow AI — 2 operation(s) for audio.
@@ -198,11 +198,11 @@ overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 70
+random_paper: 42
 score:
   band: developing
   composite: 54.8
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.7
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 55.8
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

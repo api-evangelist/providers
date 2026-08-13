@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Pinpoint Plans Pricing
   plan_count: 1
   slug: pinpoint-plans-pricing
-random_paper: 69
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Pinpoint Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.7
@@ -129,7 +129,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -138,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

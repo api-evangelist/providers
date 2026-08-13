@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Consent API from Inth — 1 operation(s) for consent.
@@ -192,11 +192,11 @@ overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 87
+random_paper: 75
 score:
   band: developing
   composite: 53.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 57.9
@@ -204,7 +204,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 55.0
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -215,7 +215,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

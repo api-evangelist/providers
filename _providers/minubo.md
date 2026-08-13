@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,16 +48,13 @@ apis:
   name: Minubo ETL API
   slug: minubo-etl-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, discover the tenant schema, and run a data query.
   name: Query Minubo commerce data
   slug: minubo-query-commerce-data
 - description: Authenticate, start an ETL process, and read its status.
   name: Trigger a Minubo ETL run and monitor it
   slug: minubo-trigger-etl-and-monitor
-artifact_total: 11
+artifact_total: 10
 common:
 - group: other
   title: ''
@@ -183,7 +180,7 @@ overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Minubo Rate Limits
@@ -191,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.2
@@ -199,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

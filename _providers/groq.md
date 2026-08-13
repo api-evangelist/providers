@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Groq Plans Pricing
   plan_count: 4
   slug: groq-plans-pricing
-random_paper: 93
+random_paper: 81
 rate_limits:
 - limit_count: 6
   name: Groq Rate Limits
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 63.0
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 47.3
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/screenshots/groq-2026-06-20T182414.png
 security:
 - kind: authentication

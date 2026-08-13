@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -156,7 +156,7 @@ plans:
 - name: Microsoft Access Plans Pricing
   plan_count: 3
   slug: microsoft-access-plans-pricing
-random_paper: 29
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Microsoft Access Rate Limits
@@ -173,7 +173,7 @@ rules:
 score:
   band: thin
   composite: 40.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 40.3
@@ -181,10 +181,10 @@ score:
     discoverability: 53.7
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 47.8
+  previous_composite: 40.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/screenshots/microsoft-access-2026-06-20T185353.png
 security:
 - kind: domain-security

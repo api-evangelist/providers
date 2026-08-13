@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 95
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
@@ -543,7 +543,7 @@ overview: 'MEF publishes 95 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 45 more developer resources.'
-random_paper: 80
+random_paper: 72
 scopes:
 - name: Mef Scopes
   scope_count: 218
@@ -552,7 +552,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.2
@@ -560,7 +560,7 @@ score:
     discoverability: 57.4
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.0
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -577,7 +577,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png
 security:

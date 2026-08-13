@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -298,7 +298,7 @@ plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
   slug: dokploy-plans-pricing
-random_paper: 74
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Dokploy Rate Limits
@@ -306,7 +306,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.4
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.7
@@ -314,7 +314,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 45.6
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -323,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/screenshots/dokploy-2026-06-20T180131.png
 security:

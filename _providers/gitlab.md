@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -1161,7 +1161,7 @@ plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
   slug: gitlab-plans-pricing
-random_paper: 47
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Gitlab Rate Limits
@@ -1199,7 +1199,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.3
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 75.5
@@ -1207,7 +1207,7 @@ score:
     discoverability: 66.7
     governance: 62.5
     operational_transparency: 55.3
-  previous_composite: 74.3
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1218,8 +1218,8 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:
 - kind: authentication

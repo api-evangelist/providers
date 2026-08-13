@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -144,11 +144,11 @@ overview: 'Legal & General is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Legal & General''s developer surface includes changelog, engineering blog, support, and 24 more developer resources.'
-random_paper: 24
+random_paper: 88
 score:
   band: emerging
   composite: 24.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -156,7 +156,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 25.2
+  previous_composite: 24.2
   provenance:
     conformance: first-party
     skills: first-party
@@ -167,7 +167,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-and-general/refs/heads/main/screenshots/legal-and-general-2026-07-25T224825.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -224,11 +224,11 @@ overview: 'Smile Identity publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 24 more developer resources.'
-random_paper: 65
+random_paper: 17
 score:
   band: developing
   composite: 54.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 70.1
@@ -236,7 +236,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 55.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

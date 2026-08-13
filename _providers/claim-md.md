@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Claim Md Plans Pricing
   plan_count: 2
   slug: claim-md-plans-pricing
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Claim Md Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.0
@@ -136,7 +136,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.0
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -151,7 +151,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/screenshots/claim-md-2026-07-25T205451.png
 security:

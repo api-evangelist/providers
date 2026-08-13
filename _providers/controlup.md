@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 61
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -443,7 +443,7 @@ overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
-random_paper: 70
+random_paper: 38
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits
@@ -470,7 +470,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:

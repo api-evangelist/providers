@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: How Procter & Gamble is Leveraging AI to Democratize ...
   url: https://www.youtube.com/watch?v=DjxguIe1tqc
-random_paper: 40
+random_paper: 100
 rate_limits:
 - limit_count: 1
   name: Procter And Gamble Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.2
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.5
@@ -126,7 +126,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.9
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -135,8 +135,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png
 security:
 - kind: authentication

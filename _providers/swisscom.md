@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ overview: 'Swisscom publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
-random_paper: 76
+random_paper: 48
 scopes:
 - name: Swisscom Scopes
   scope_count: 3
@@ -279,7 +279,7 @@ scopes:
 score:
   band: strong
   composite: 62.5
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.6
@@ -287,7 +287,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 64.3
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,7 +305,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

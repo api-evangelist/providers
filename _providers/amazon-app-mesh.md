@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -3106,7 +3106,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 18 more developer resources.'
-random_paper: 94
+random_paper: 46
 rules:
 - name: Amazon App Mesh API Rules
   rule_count: 5
@@ -3127,7 +3127,7 @@ rules:
 score:
   band: developing
   composite: 51.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 67.9
@@ -3135,7 +3135,7 @@ score:
     discoverability: 74.1
     governance: 80.2
     operational_transparency: 5.3
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3146,7 +3146,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

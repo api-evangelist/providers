@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Opencost Plans Pricing
   plan_count: 3
   slug: opencost-plans-pricing
-random_paper: 63
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Opencost Rate Limits
@@ -139,7 +139,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 59.3
@@ -147,7 +147,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 43.7
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/screenshots/opencost-2026-06-20T190924.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: Old Dominion Freight Line Meets Growing Demand in Six ...
   url: https://www.dcvelocity.com/articles/51838-old-dominion-freight-line-meets-growing-demand-in-six-markets-with-new-expanded-service-centers
-random_paper: 48
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Old Dominion Freight Line Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.5
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 62.7
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.2
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
 security:
 - kind: authentication

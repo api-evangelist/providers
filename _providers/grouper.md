@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ overview: 'Grouper is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Grouper''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 76
+random_paper: 52
 score:
   band: emerging
   composite: 13.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -83,7 +83,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grouper/refs/heads/main/screenshots/grouper-2026-07-25T220347.png
 security:

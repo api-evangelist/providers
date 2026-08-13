@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -139,11 +139,11 @@ overview: 'Orakl publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orakl''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
-random_paper: 73
+random_paper: 57
 score:
   band: thin
   composite: 32.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 57.9
@@ -151,7 +151,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 34.2
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:

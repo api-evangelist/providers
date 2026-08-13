@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: GraphQL API for retrieving workspace and user metadata — replays/recordings, team members, and comments on a replay. POST queries to the endpoint with a Replay API key as a bearer token.
@@ -176,7 +176,7 @@ overview: 'Replay publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Replay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: developing
   composite: 44.5
@@ -194,7 +194,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -113,7 +113,7 @@ overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 54
+random_paper: 26
 scopes:
 - name: Thetaray Scopes
   scope_count: 4
@@ -141,7 +141,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

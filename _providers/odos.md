@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Apis
   plan_count: 4
   slug: apis
-random_paper: 89
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Apis
@@ -172,7 +172,7 @@ rules:
 score:
   band: developing
   composite: 43.1
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.5
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 42.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -189,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/screenshots/odos-2026-06-20T190622.png
 security:

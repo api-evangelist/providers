@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -185,11 +185,11 @@ overview: 'Nesto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nesto''s developer surface includes engineering blog, support, FAQ, and 32 more developer resources.'
-random_paper: 89
+random_paper: 73
 score:
   band: emerging
   composite: 27.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -197,7 +197,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 25.3
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -207,7 +207,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nesto/refs/heads/main/screenshots/nesto-2026-08-07T184918.png
 security:

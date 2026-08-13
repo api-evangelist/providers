@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -60,16 +60,13 @@ apis:
   name: Trip Ninja v2 Legacy API
   slug: tripninja-v2-legacy-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: The Trip Ninja reporting loop. These operations do not book or cancel anything with an airline — they report to Trip Ninja what your platform already did, which is what drives billing and the machine-
   name: Trip Ninja — report price confirmation, booking, ticketing and cancellation
   slug: webjet-tripninja-report-and-cancel
 - description: End-to-end flight retailing against the Trip Ninja surface published in Trip Ninja's own GitHub documentation repository (https://github.com/trip-ninja-inc/trip_ninja_api_docs, last updated 2023-12-14
   name: Trip Ninja — search, confirm price, book and ticket
   slug: webjet-tripninja-search-price-book-ticket
-artifact_total: 18
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -244,7 +241,7 @@ overview: 'Webjet publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 32 more developer resources.'
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Webjet Rate Limits
@@ -252,7 +249,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 50.6
@@ -260,7 +257,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

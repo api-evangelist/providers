@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Contribute or search one of the largest black history fact databases on the web
@@ -56,7 +56,7 @@ name: Black History Facts
 nav: Providers
 network: true
 overview: Black History Facts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 58
+random_paper: 114
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-history-facts/refs/heads/main/screenshots/black-history-facts-2026-06-20T173332.png
 security:

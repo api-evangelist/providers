@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 27 more developer resources.'
-random_paper: 37
+random_paper: 9
 scopes:
 - name: Typeface Scopes
   scope_count: 4
@@ -250,7 +250,7 @@ scopes:
 score:
   band: strong
   composite: 56.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.0
@@ -258,7 +258,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,7 +270,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

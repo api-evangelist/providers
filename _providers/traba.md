@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,11 +99,11 @@ overview: 'Traba is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Traba''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 58
+random_paper: 42
 score:
   band: emerging
   composite: 17.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -111,9 +111,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.2
+  previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

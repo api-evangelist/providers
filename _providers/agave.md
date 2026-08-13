@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -622,7 +622,7 @@ plans:
 - name: Agave Plans Pricing
   plan_count: 1
   slug: agave-plans-pricing
-random_paper: 52
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Agave Rate Limits
@@ -647,7 +647,7 @@ rules:
 score:
   band: thin
   composite: 39.4
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 31.0
@@ -655,7 +655,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 44.8
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -664,8 +664,8 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication

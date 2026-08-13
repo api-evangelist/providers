@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -208,7 +208,7 @@ plans:
 - name: Tecnologico De Monterrey Plans Pricing
   plan_count: 2
   slug: tecnologico-de-monterrey-plans-pricing
-random_paper: 26
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Tecnologico De Monterrey Rate Limits
@@ -233,7 +233,7 @@ rules:
 score:
   band: thin
   composite: 33.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.2
@@ -241,7 +241,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +256,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
 security:

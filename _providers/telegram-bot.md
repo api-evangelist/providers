@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Simplified HTTP version of the MTProto API for bots
@@ -63,7 +63,7 @@ overview: 'Telegram Bot publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Telegram Bot''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 59
+random_paper: 19
 score:
   band: emerging
   composite: 18.2
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram-bot/refs/heads/main/screenshots/telegram-bot-2026-06-20T195036.png
 security:

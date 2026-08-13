@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -73,16 +73,13 @@ apis:
   name: Opus transcripts API
   slug: opus-transcripts-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Submit a long-form video, wait for clipping, list clips, and export a collection.
   name: OpusClip — clip a video and export clips
   slug: opus-clip-and-export
 - description: Clip a video, generate social copy, and publish a clip to a connected social account.
   name: OpusClip — clip a video and publish to social
   slug: opus-clip-and-publish
-artifact_total: 20
+artifact_total: 19
 common:
 - group: other
   title: ''
@@ -256,11 +253,11 @@ overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 107
+random_paper: 95
 score:
   band: developing
   composite: 51.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.2
@@ -268,7 +265,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.3
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,7 +277,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'VigLink (Sovrn Commerce) publishes 8 APIs on the [APIs.io](https://ap
 
 
   VigLink (Sovrn Commerce)''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Viglink Rate Limits
@@ -225,7 +225,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.4
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 51.5
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

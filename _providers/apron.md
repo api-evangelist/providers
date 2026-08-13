@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Apron is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apron''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 80
+random_paper: 64
 score:
   band: emerging
   composite: 20.9
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apron/refs/heads/main/screenshots/apron-2026-07-25T200909.png
 security:

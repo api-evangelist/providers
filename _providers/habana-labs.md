@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,7 +59,7 @@ overview: 'Habana Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Habana Labs'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 22
+random_paper: 106
 score:
   band: minimal
   composite: 7.4
@@ -73,7 +73,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habana-labs/refs/heads/main/screenshots/habana-labs-2026-07-25T220507.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -344,7 +344,7 @@ plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 40
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits
@@ -369,7 +369,7 @@ rules:
 score:
   band: strong
   composite: 64.5
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 66.2
@@ -377,7 +377,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 61.5
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
@@ -386,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

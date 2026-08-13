@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Continuous integration triggers and pipeline gating
@@ -186,11 +186,11 @@ overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 115
+random_paper: 95
 score:
   band: developing
   composite: 44.8
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 24.6
@@ -198,7 +198,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 46.1
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

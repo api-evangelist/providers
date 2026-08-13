@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,13 +51,10 @@ apis:
   name: Lucent Signals API
   slug: lucent-signals-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List unresolved issues, fetch the top one, and mark it resolved.
   name: Lucent — triage and resolve an issue
   slug: lucent-triage-and-resolve
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: Lucent pushes signed HTTP callbacks to a receiver URL you register (Organization → Webhooks) when events happen in your organization. Deliveries are signed with HMAC-SHA256 (Lucent-Signature) and carr
   name: Lucent Webhooks
@@ -226,7 +223,7 @@ overview: 'Lucent publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lucent''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 71
+random_paper: 51
 scopes:
 - name: Lucent Scopes
   scope_count: 2
@@ -235,7 +232,7 @@ scopes:
 score:
   band: developing
   composite: 53.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 69.4
@@ -243,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 55.5
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
 security:

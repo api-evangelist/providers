@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -208,7 +208,7 @@ overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZippyKid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 72
+random_paper: 44
 scopes:
 - name: Zippykid Scopes
   scope_count: 13
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 52.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.8
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 53.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

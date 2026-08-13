@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Moviepass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moviepass'' developer surface includes signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 55
+random_paper: 23
 score:
   band: emerging
   composite: 17.3
@@ -99,7 +99,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moviepass/refs/heads/main/screenshots/moviepass-2026-08-07T184400.png
 security:

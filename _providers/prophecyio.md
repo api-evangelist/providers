@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Connections API from Prophecy.io — 2 operation(s) for connections.
@@ -184,11 +184,11 @@ overview: 'Prophecy.io publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Prophecy.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 46
+random_paper: 10
 score:
   band: developing
   composite: 48.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.0
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

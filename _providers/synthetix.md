@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Plans
   plan_count: 9
   slug: plans
-random_paper: 80
+random_paper: 48
 rate_limits:
 - limit_count: 11
   name: Rate Limits
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 38.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.3
@@ -192,7 +192,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 39.2
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,7 +207,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/screenshots/synthetix-2026-06-20T194832.png
 security:

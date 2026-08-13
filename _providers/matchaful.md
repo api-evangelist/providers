@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The store's Shopify-provided Universal Commerce Protocol agent-commerce surface — a live MCP shopping endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) docume
@@ -91,11 +91,11 @@ overview: 'Matchaful publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Matchaful''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 109
 score:
   band: emerging
   composite: 18.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -103,12 +103,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 18.8
   provenance:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matchaful/refs/heads/main/screenshots/matchaful-2026-08-07T172128.png
 slug: matchaful

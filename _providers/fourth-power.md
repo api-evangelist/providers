@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Fourth Power
 nav: Providers
 network: true
 overview: Fourth Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Thermal Energy Storage, Grid Storage, and Long Duration Energy Storage.
-random_paper: 106
+random_paper: 66
 score:
   band: minimal
   composite: 5.5
@@ -68,7 +68,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth-power/refs/heads/main/screenshots/fourth-power-2026-07-25T215051.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 28 more developer resources.'
-random_paper: 75
+random_paper: 51
 scopes:
 - name: Vaultre Scopes
   scope_count: 0
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.2
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 54.0
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

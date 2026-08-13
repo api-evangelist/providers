@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -378,7 +378,7 @@ overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cellulant''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, pricing, and 50 more developer resources.'
-random_paper: 36
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Cellulant Rate Limits
@@ -403,7 +403,7 @@ rules:
 score:
   band: strong
   composite: 59.1
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 76.4
@@ -411,7 +411,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.5
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -426,7 +426,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-06-20T174113.png
 security:

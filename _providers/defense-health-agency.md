@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. '
@@ -84,7 +84,7 @@ plans:
 - name: Defense Health Agency Plans Pricing
   plan_count: 3
   slug: defense-health-agency-plans-pricing
-random_paper: 109
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Defense Health Agency Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 32.3
@@ -100,7 +100,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 23.2
+  previous_composite: 16.6
   regulatory:
     applies: true
     matched_via: tags
@@ -108,8 +108,8 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-health-agency/refs/heads/main/screenshots/defense-health-agency-2026-06-20T175826.png
 security:
 - kind: domain-security

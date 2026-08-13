@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: OpenBU is Boston University Libraries' open-access institutional repository, built on DSpace. It exposes a publicly accessible OAI-PMH 2.0 endpoint for harvesting metadata (theses, dissertations, jour
@@ -99,7 +99,7 @@ plans:
 - name: Boston Plans Pricing
   plan_count: 2
   slug: boston-plans-pricing
-random_paper: 81
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Boston Rate Limits
@@ -123,7 +123,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png
 security:

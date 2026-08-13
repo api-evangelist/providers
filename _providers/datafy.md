@@ -1,44 +1,106 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Enterprise · Requires approval
+  onboarding: approval
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - https://www.datafy.com/pricing
+  - https://www.datafy.com/docs
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 15.8
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: 'The Datafy Data API is a beta JSON-over-HTTP reporting API that returns aggregated visitation analytics for a destination. It is RPC-shaped rather than resource-shaped: three fixed endpoints, with the'
+  name: Datafy Data API
+  slug: datafy-data-api
+artifact_total: 5
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/datafy-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/datafy-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/datafy-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/datafy-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/datafy-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/datafy-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/datafy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/datafy-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/datafy-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/datafy-conformance.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/datafy-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/datafy-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://www.datafy.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.datafy.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.datafy.com/docs
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.datafy.com/pixel/introduction
 - group: commercial
   title: ''
   type: Pricing
@@ -58,37 +120,66 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://portal.datafyhq.com
+  url: https://portal.datafy.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/datafy-hq/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.datafy.com/careers
+- group: other
+  title: ''
+  type: DoNotSell
+  url: https://www.datafy.com/opt-out
+- group: commercial
+  title: ''
+  type: PrivacyMetrics
+  url: https://www.datafy.com/ccpa-metrics
 created: '2026-07-17'
-description: Datafy is a location-analytics and advertising platform, founded in 2018 and headquartered in Ogden, Utah, that helps destinations and communities turn visitation, spending, and behavioral signals into marketing decisions. It serves travel and tourism boards, attractions, downtowns, retail partners, and civic organizations with three core offerings — data analytics, targeted advertising, and real-world attribution — alongside Tally, an attendance-measurement product. The company reports 500+ clients and states that it maintains SOC 2 compliance. Datafy operates a client portal at portal.datafyhq.com; it does not currently publish a public developer API, SDKs, or API documentation.
+description: Datafy is a location-analytics and advertising platform, founded in 2018 and headquartered in Ogden, Utah, that helps destinations and communities turn visitation, spending, and behavioral signals into marketing decisions. It serves travel and tourism boards, attractions, downtowns, retail partners, and civic organizations with three core offerings — data analytics, targeted advertising, and real-world attribution — alongside Tally, a hardware attendance-measurement sensor. Datafy does publish a public API reference at https://www.datafy.com/docs covering the Datafy Data API, a self-described beta JSON-over-HTTP reporting API at api.datafy.com with three endpoints (data, options, progress), authenticated by a 30-day portal-issued bearer JWT that a customer-experience representative must unlock before the API Access page becomes visible. No OpenAPI, SDK, package, or self-service signup is published, and the company's widest developer-touching surface is its per-customer measurement
+  tag family — website pixel, 1x1 media impression pixels, and click tags. The company reports 500+ clients and holds a SOC 2 Type II certification from A-LIGN.
 image: https://www.datafy.com/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-12'
 name: Datafy
 nav: Providers
 network: true
-overview: 'Datafy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Advertising, Location Intelligence, and Attribution.
+overview: 'Datafy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Advertising, Location Intelligence, and Attribution.
 
 
-  Datafy''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 53
+  Datafy''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 18 more developer resources.'
+plans:
+- name: Datafy Plans Pricing
+  plan_count: 0
+  slug: datafy-plans-pricing
+random_paper: 33
+rate_limits:
+- limit_count: 0
+  name: Datafy Rate Limits
+  slug: datafy-rate-limits
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 26.2
+  delta: 13.1
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 43.5
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafy/refs/heads/main/screenshots/datafy-2026-07-25T211320.png
 security:
+- kind: authentication
+  name: Datafy Authentication
+  slug: datafy-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Datafy Domain Security
   slug: datafy-domain-security
@@ -102,5 +193,8 @@ tags:
 - Attribution
 - Tourism
 - Marketing
+- Visitation Data
+- Destination Marketing
+- Measurement
 website: https://www.datafy.com/
 ---

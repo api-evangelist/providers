@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -338,7 +338,7 @@ plans:
 - name: Neon Plans Pricing
   plan_count: 3
   slug: neon-plans-pricing
-random_paper: 84
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Neon Rate Limits
@@ -363,7 +363,7 @@ rules:
 score:
   band: developing
   composite: 54.7
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 70.6
@@ -371,7 +371,7 @@ score:
     discoverability: 72.2
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 61.1
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -380,8 +380,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/screenshots/neon-2026-06-20T190138.png
 security:
 - kind: authentication

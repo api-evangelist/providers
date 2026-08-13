@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -204,7 +204,7 @@ overview: 'Spark Platform publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spark Platform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 30 more developer resources.'
-random_paper: 67
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Spark Platform Rate Limits
@@ -229,7 +229,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

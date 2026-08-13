@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: 'Musk: Tesla to Launch ''Terafab'' AI Chip Factory Project Next ...'
   url: https://teslahubs.com/blogs/tips/musk-tesla-to-launch-terafab-ai-chip-factory-project-next-week?srsltid=AfmBOorSHTkVXbFNBbtpovoc853bqvVX0P-7cAmhsuGy2Jx5jlVcsFDs
-random_paper: 98
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Tesla Motors Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: thin
   composite: 38.9
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 59.0
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 46.5
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +206,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Tesla Motors Domain Security

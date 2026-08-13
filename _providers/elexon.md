@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1180,7 +1180,7 @@ plans:
 - name: Elexon Plans Pricing
   plan_count: 1
   slug: elexon-plans-pricing
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Elexon Rate Limits
@@ -1197,7 +1197,7 @@ rules:
 score:
   band: developing
   composite: 43.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.7
@@ -1205,7 +1205,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 44.4
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1220,7 +1220,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png
 security:

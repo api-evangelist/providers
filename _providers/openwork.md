@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 37
 apis:
 - description: Administrative reporting routes.
@@ -291,7 +291,7 @@ overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 25 more developer resources.'
-random_paper: 73
+random_paper: 45
 scopes:
 - name: Openwork Scopes
   scope_count: 0
@@ -300,7 +300,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.5
@@ -308,7 +308,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.8
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -142,11 +142,11 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerivaDEX''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 28
+random_paper: 116
 score:
   band: thin
   composite: 39.0
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.5
@@ -154,7 +154,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 39.4
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -171,7 +171,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

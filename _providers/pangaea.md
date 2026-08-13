@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 21
+random_paper: 117
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.7
@@ -121,7 +121,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -136,7 +136,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/screenshots/pangaea-2026-06-20T191337.png
 security:

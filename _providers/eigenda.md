@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: gRPC API exposed by the EigenDA Disperser. Rollups submit raw blobs to DisperseBlob, then poll GetBlobStatus until the blob is confirmed and dispersed across the operator set. v2 adds GetBlobCommitmen
@@ -192,11 +192,11 @@ overview: 'EigenDA publishes 5 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 27 more developer resources.'
-random_paper: 21
+random_paper: 117
 score:
   band: emerging
   composite: 18.4
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -204,9 +204,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 15.0
+  previous_composite: 18.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenda/refs/heads/main/screenshots/eigenda-2026-06-20T180522.png
 security:

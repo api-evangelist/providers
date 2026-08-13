@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,11 +137,11 @@ overview: 'Passbase publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Passbase''s developer surface includes authentication and 16 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: thin
   composite: 32.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 70.1
@@ -149,7 +149,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 33.2
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -161,7 +161,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/screenshots/passbase-2026-08-07T191532.png
 security:

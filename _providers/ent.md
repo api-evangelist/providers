@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,11 +103,11 @@ overview: 'Ent is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ent''s developer surface includes engineering blog, support, legal docs, and 12 more developer resources.'
-random_paper: 95
+random_paper: 87
 score:
   band: minimal
   composite: 11.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.0
+  previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ent/refs/heads/main/screenshots/ent-2026-07-25T213424.png
 security:

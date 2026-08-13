@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Bamboo Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Bamboo Health''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 23
+random_paper: 99
 score:
   band: emerging
   composite: 15.8
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo-health/refs/heads/main/screenshots/bamboo-health-2026-07-25T202318.png
 security:

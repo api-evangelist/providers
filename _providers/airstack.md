@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'Airstack publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Airstack''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
-random_paper: 38
+random_paper: 10
 rules:
 - name: Airstack API Rules
   rule_count: 6
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 31.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.2
@@ -190,7 +190,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 32.2
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/screenshots/airstack-2026-06-20T171431.png
 security:

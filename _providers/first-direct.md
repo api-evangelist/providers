@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 29 more developer resources.'
-random_paper: 72
+random_paper: 32
 scopes:
 - name: First Direct Scopes
   scope_count: 3
@@ -223,7 +223,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.0
@@ -231,7 +231,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 53.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,7 +249,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:

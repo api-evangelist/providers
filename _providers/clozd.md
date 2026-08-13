@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 76
+random_paper: 60
 scopes:
 - name: Clozd Scopes
   scope_count: 5
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 51.0
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.2
@@ -214,7 +214,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 50.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Azure Document Intelligence Plans Pricing
   plan_count: 5
   slug: azure-document-intelligence-plans-pricing
-random_paper: 103
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Azure Document Intelligence Rate Limits
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 29.7
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 42.5
@@ -169,7 +169,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.2
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/screenshots/azure-document-intelligence-2026-06-20T172854.png
 security:
 - kind: authentication

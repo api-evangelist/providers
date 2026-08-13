@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Assembly ("hive") membership for the authenticated member.
@@ -133,11 +133,11 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
 
 
   La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 53
+random_paper: 109
 score:
   band: thin
   composite: 33.9
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.7
@@ -145,7 +145,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 35.1
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -156,7 +156,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

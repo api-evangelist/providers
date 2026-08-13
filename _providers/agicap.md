@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -517,7 +517,7 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 33
+random_paper: 13
 scopes:
 - name: Agicap Scopes
   scope_count: 5
@@ -526,7 +526,7 @@ scopes:
 score:
   band: strong
   composite: 58.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.9
@@ -534,7 +534,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 59.8
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -552,7 +552,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

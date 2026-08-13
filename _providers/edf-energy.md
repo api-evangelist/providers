@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ overview: 'EDF Energy publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   EDF Energy''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 40 more developer resources.'
-random_paper: 70
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Edf Energy Rate Limits
@@ -263,7 +263,7 @@ scopes:
 score:
   band: developing
   composite: 55.1
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 54.8
@@ -271,7 +271,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 57.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,7 +289,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:

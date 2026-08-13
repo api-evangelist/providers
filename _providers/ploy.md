@@ -1,35 +1,45 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
+  confidence: high
+  label: Self-serve signup with a free tier
+  onboarding: self-serve
+  pricing: freemium
+  public: true
+  source:
+  - https://ploy.ai/pricing
+  - https://docs.ploy.ai/quick-start
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.7
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 2
+  score: 44.6
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: The only public HTTP endpoint Ploy documents. An authenticated inbound ingest endpoint that accepts any well-formed JSON object (up to 1 MB) from an external system — Clay, Stripe, Zapier, or a custom
+  name: Ploy Webhook Ingest API
+  slug: webhook-ingest
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Ploy Webhooks
+  slug: ploy-webhooks
 common:
 - group: auth
   title: ''
@@ -51,6 +61,78 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ploy-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/ploy-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.ploy.ai
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ploy-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ploy-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ploy-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ploy-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ploy-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ploy.ai
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ploy-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ploy-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/ploy-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ploy-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ploy-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ploy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ploy-plans-pricing.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ploy-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ploy-docs-llms.txt
 - group: company
   title: ''
   type: Website
@@ -75,39 +157,79 @@ common:
   title: ''
   type: Documentation
   url: https://docs.ploy.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.ploy.ai/cli
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.ploy.ai/cli/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.ploy.ai/quick-start
 - group: operate
   title: ''
   type: Support
-  url: https://docs.ploy.ai
+  url: https://docs.ploy.ai/faq
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Ploy-AI
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ploy.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ploy.ai/privacy
 created: '2026-07-17'
-description: Ploy is an AI-powered marketing platform that turns a company's website into its growth engine. Founded in 2025 by former Webflow CTO Bryant Chou and backed by Y Combinator, Ploy deploys AI agents that build and optimize web pages, write copy, run technical SEO fixes, identify and enrich site visitors, launch ad campaigns, and track attribution across three product surfaces (Web, Grow, and Ads). Users activate pre-built marketing strategies called PloyBooks or author custom strategies that agents execute. Ploy is a SaaS product with a credit-based pricing model; as of this enrichment pass it exposes no public developer API, API reference, SDKs, or developer portal — only a product help center and native integrations (Google, GitHub sync, CRM, and ad platforms).
-image: https://ploy.ai/favicon.ico
+description: 'Ploy is an AI-powered web marketing automation platform that turns a company''s marketing website into a growth channel. Founded in 2025 by former Webflow CTO Bryant Chou, backed by Y Combinator and First Round Capital ($27M), Ploy runs AI agents that build and optimize Astro/Tailwind marketing sites, write copy, run technical SEO and answer-engine optimization, identify visiting companies without cookies, launch ad campaigns, and execute reusable multi-step workflows called Ploybooks. Its programmable surface is deliberately CLI-first rather than REST-first: Ploy publishes no OpenAPI and no public API reference, but it does ship a standalone `ploy` CLI binary (workspaces, sites, publishing, variables and secrets, documents, Ploybooks, databases, Code Sync, and design-system inspection) authenticated by workspace-scoped API tokens for headless CI and remote coding agents, an installable Agent Skills catalog (`ploy skills init`), and one public HTTP endpoint — an authenticated
+  inbound webhook ingest at /api/v1/webhook/{endpointSlug} that stores arbitrary JSON and triggers a Ploybook.'
+image: https://cdn.ploy.ai/d21bf4ad-2458-43ee-9561-54c28ab0e85f/user/095160ed-og-home-alt.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Ploy
 nav: Providers
 network: true
-overview: 'Ploy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Automation, Artificial Intelligence, and AI Agents.
+overview: 'Ploy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Automation, Artificial Intelligence, and AI Agents.
 
 
-  Ploy''s developer surface includes engineering blog, pricing, signup flow, documentation, support, and 7 more developer resources.'
-random_paper: 104
+  The Ploy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Ploy''s developer surface includes authentication, changelog, CLI, engineering blog, pricing, signup flow, documentation, and 29 more developer resources.'
+plans:
+- name: Ploy Plans Pricing
+  plan_count: 4
+  slug: ploy-plans-pricing
+random_paper: 92
+rate_limits:
+- limit_count: 1
+  name: Ploy Rate Limits
+  slug: ploy-rate-limits
 score:
-  band: emerging
-  composite: 14.1
-  delta: -1.2
+  band: strong
+  composite: 63.4
+  delta: 49.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 15.3
+    commercial_clarity: 92.1
+    contract_quality: 51.6
+    developer_ergonomics: 65.2
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 76.3
+  previous_composite: 14.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Ploy Authentication
+  slug: ploy-authentication
+  summary_line: http · 3 schemes
 - kind: domain-security
   name: Ploy Domain Security
   slug: ploy-domain-security
@@ -116,6 +238,10 @@ security:
   name: Ploy Vulnerability Disclosure
   slug: ploy-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Ploy Trust Center
+  slug: ploy-trust-center
+  summary_line: SOC 2 Type II
 slug: ploy
 tags:
 - Company
@@ -127,5 +253,8 @@ tags:
 - Website Builder
 - Growth
 - Advertising
+- Webhooks
+- CLI
+- Agent Skills
 website: https://ploy.ai
 ---

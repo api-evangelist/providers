@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: REST API for TestRail test management including test plans, test runs, milestones, and reporting, enabling structured test planning and execution tracking.
@@ -160,7 +160,7 @@ plans:
 - name: Test Plans Plans Pricing
   plan_count: 3
   slug: test-plans-plans-pricing
-random_paper: 107
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Test Plans Rate Limits
@@ -177,7 +177,7 @@ rules:
 score:
   band: thin
   composite: 33.6
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 45.2
@@ -185,10 +185,10 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 41.5
+  previous_composite: 33.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-plans/refs/heads/main/screenshots/test-plans-2026-06-20T195146.png
 security:
 - kind: domain-security

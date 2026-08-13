@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OpenStack-compatible REST API for Platform9 Private Cloud Director, covering Keystone identity/authentication, Nova compute, Cinder block storage, Neutron networking, Glance images, and a Kubernetes s
@@ -140,11 +140,11 @@ overview: 'Platform9 publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Platform9''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 114
+random_paper: 86
 score:
   band: thin
   composite: 35.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -152,11 +152,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 36.2
+  previous_composite: 35.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

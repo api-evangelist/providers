@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -236,11 +236,11 @@ overview: 'Tyro Payments publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 114
+random_paper: 102
 score:
   band: developing
   composite: 52.5
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 68.4
@@ -248,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 54.9
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,7 +266,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

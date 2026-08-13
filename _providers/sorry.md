@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Manage components displayed on status pages
@@ -147,7 +147,7 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 111
+random_paper: 95
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits
@@ -172,7 +172,7 @@ rules:
 score:
   band: developing
   composite: 46.8
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 69.4
@@ -180,7 +180,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 46.8
   provenance:
     contracts:
       callable: 100.0
@@ -188,8 +188,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
 security:
 - kind: domain-security

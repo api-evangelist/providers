@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Recreation Gov Plans Pricing
   plan_count: 3
   slug: recreation-gov-plans-pricing
-random_paper: 53
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Recreation Gov Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.2
-  delta: -6.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 53.7
@@ -139,7 +139,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/screenshots/recreation-gov-2026-06-20T192708.png
 security:
 - kind: authentication

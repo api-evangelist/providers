@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Pulse Software Plans Pricing
   plan_count: 3
   slug: pulse-software-plans-pricing
-random_paper: 81
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Pulse Software Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 57.7
@@ -127,7 +127,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.8
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     contracts:
@@ -136,8 +136,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/screenshots/pulse-software-2026-06-20T192256.png
 security:
 - kind: authentication

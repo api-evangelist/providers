@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 15
+random_paper: 95
 rules:
 - name: Breaking Bad API Rules
   rule_count: 5
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 22.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 28.0
@@ -175,7 +175,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 22.7
   provenance:
     agentic_access: derived
     contracts:
@@ -184,7 +184,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad

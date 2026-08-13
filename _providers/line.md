@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ overview: 'LINE publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   LINE''s developer surface includes authentication, documentation, signup flow, pricing, and 10 more developer resources.'
-random_paper: 76
+random_paper: 64
 rules:
 - name: LINE API Rules
   rule_count: 4
@@ -148,7 +148,7 @@ rules:
 score:
   band: thin
   composite: 41.3
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 68.3
@@ -156,7 +156,7 @@ score:
     discoverability: 81.5
     governance: 27.1
     operational_transparency: 5.3
-  previous_composite: 36.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -165,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:

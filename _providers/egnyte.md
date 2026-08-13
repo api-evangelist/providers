@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Egnyte''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 72
+random_paper: 52
 scopes:
 - name: Egnyte Scopes
   scope_count: 6
@@ -184,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.2
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:

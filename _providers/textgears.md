@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 55
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.2
@@ -189,7 +189,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/screenshots/textgears-2026-06-20T195206.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -38,13 +38,10 @@ apis:
   name: Mavenir Digital Enablement (MDE) TM Forum Open APIs
   slug: mavenir-digital-enablement-tm-forum-open-apis
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Originate a one-to-one voice/video session on a Mavenir BYON call handling deployment, read it back, drive it to Connected, then terminate it. Every operationId is verified against openapi/mavenir-byo
   name: Place and manage a 1-1 VVoIP call (Mavenir BYON)
   slug: mavenir-byon-place-and-manage-call
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Mavenir Byon Events
@@ -202,11 +199,11 @@ overview: 'Mavenir publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 29 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: thin
   composite: 37.9
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.1
@@ -214,7 +211,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 40.6
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:

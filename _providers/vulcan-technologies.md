@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,11 +92,11 @@ overview: 'Vulcan Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Vulcan Technologies'' developer surface includes support, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 6
+random_paper: 58
 score:
   band: emerging
   composite: 17.3
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -104,7 +104,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 20.5
+  previous_composite: 17.3
   provenance:
     conformance: first-party
   regulatory:
@@ -114,7 +114,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

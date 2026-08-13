@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Pongalo
 nav: Providers
 network: true
 overview: Pongalo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 56
+random_paper: 32
 score:
   band: minimal
   composite: 3.2
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: pongalo
 tags:

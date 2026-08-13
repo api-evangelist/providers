@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -179,11 +179,11 @@ overview: 'PayJoy publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 88
+random_paper: 68
 score:
   band: developing
   composite: 45.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.2
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 46.0
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -208,7 +208,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
 security:

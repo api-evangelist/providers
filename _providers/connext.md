@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The Batched Intents API from Everclear — 2 operation(s) for batched intents.
@@ -148,11 +148,11 @@ overview: 'Everclear publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Everclear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 71
+random_paper: 47
 score:
   band: thin
   composite: 34.6
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.5
@@ -160,7 +160,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 35.9
+  previous_composite: 34.6
   provenance:
     conformance: derived
     contracts:
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

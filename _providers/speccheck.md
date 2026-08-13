@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,16 +51,13 @@ apis:
   name: SpecCheck Orders API
   slug: speccheck-orders-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'End-to-end flow: authenticate with client credentials, resolve the user''s lab and its order settings, walk the lens catalog (styles → materials → add-ons), then submit a prescription order. Every oper'
   name: SpecCheck — Create a prescription (rx) order
   slug: speccheck-create-rx-order
 - description: Authenticate, resolve the user's lab, then page recent orders (most recent first) with cursor pagination and an optional created-date filter. Every operationId is verified against openapi/speccheck-op
   name: SpecCheck — List recent orders for a lab
   slug: speccheck-list-recent-orders
-artifact_total: 11
+artifact_total: 10
 common:
 - group: start
   title: ''
@@ -178,11 +175,11 @@ overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   SpecCheck''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
-random_paper: 9
+random_paper: 97
 score:
   band: thin
   composite: 38.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 65.3
@@ -190,7 +187,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,7 +205,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

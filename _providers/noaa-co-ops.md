@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
-random_paper: 9
+random_paper: 93
 rules:
 - name: NOAA CO-OPS API Rules
   rule_count: 5
@@ -213,7 +213,7 @@ rules:
 score:
   band: thin
   composite: 38.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.7
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 39.4
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:

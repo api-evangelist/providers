@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 23
 apis:
 - description: The Account API from Kumospace — 6 operation(s) for account.
@@ -206,11 +206,11 @@ overview: 'Kumospace publishes 23 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kumospace''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 40
+random_paper: 8
 score:
   band: developing
   composite: 45.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.2
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 45.6
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     contracts:
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:

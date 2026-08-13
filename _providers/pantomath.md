@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'Pantomath is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pantomath''s developer surface includes engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: emerging
   composite: 18.0
@@ -102,7 +102,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pantomath/refs/heads/main/screenshots/pantomath-2026-08-07T191339.png
 security:

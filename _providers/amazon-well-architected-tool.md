@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -2602,7 +2602,7 @@ plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
   slug: amazon-well-architected-tool-plans-pricing
-random_paper: 31
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Amazon Well Architected Tool Rate Limits
@@ -2627,7 +2627,7 @@ rules:
 score:
   band: strong
   composite: 59.8
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 73.9
@@ -2635,7 +2635,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 68.3
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -2644,8 +2644,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:
 - kind: authentication

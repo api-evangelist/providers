@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -111,7 +111,7 @@ overview: 'Brandywine Realty Trust is profiled on the [APIs.io](https://apis.io/
 
 
   Brandywine Realty Trust''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 80
+random_paper: 0
 rules:
 - name: Brandywine Realty Trust API Rules
   rule_count: 5
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandywine-realty-trust/refs/heads/main/screenshots/brandywine-realty-trust-2026-06-20T173638.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -188,11 +188,11 @@ overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mirage''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: developing
   composite: 47.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 53.4
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 48.2
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:

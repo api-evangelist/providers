@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Literalai Plans Pricing
   plan_count: 3
   slug: literalai-plans-pricing
-random_paper: 23
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Literalai Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 66.0
@@ -128,7 +128,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.5
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/screenshots/literalai-2026-06-20T184606.png
 security:

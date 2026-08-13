@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
   slug: zuplo-plans-pricing
-random_paper: 106
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Zuplo Rate Limits
@@ -492,7 +492,7 @@ rules:
 score:
   band: strong
   composite: 65.5
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 77.4
@@ -500,7 +500,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 60.5
-  previous_composite: 71.2
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -509,8 +509,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:
 - kind: authentication

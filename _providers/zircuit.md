@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -151,11 +151,11 @@ overview: 'Zircuit publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 82
+random_paper: 58
 score:
   band: developing
   composite: 47.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.2
@@ -163,7 +163,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 48.9
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     contracts:
@@ -173,7 +173,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

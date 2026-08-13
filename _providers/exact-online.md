@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ overview: 'Exact Online publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Exact Online''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 63
+random_paper: 23
 scopes:
 - name: Exact Online Scopes
   scope_count: 0
@@ -142,7 +142,7 @@ scopes:
 score:
   band: thin
   composite: 32.4
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 52.2
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/screenshots/exact-online-2026-06-20T180917.png
 security:

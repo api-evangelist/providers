@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Botkeeper''s partner platform API. The company does not publish a reference, a portal or a specification for it; the only public evidence of its shape is Botkeeper''s own status page, which lists three '
@@ -146,7 +146,7 @@ overview: 'Botkeeper publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Botkeeper''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 33
+random_paper: 1
 scopes:
 - name: Botkeeper Scopes
   scope_count: 0
@@ -155,7 +155,7 @@ scopes:
 score:
   band: thin
   composite: 39.6
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -163,7 +163,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 35.9
+  previous_composite: 39.6
   provenance:
     conformance: first-party
   regulatory:
@@ -173,7 +173,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Partner-facing API gateway for the Wacai open platform. Callers POST JSON to a single gateway entry, addressing operations by (apiName, apiVersion) and authenticating with appKey/appSecret HMAC reques
@@ -92,11 +92,11 @@ overview: 'wacai publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   wacai''s developer surface includes documentation, authentication, and 9 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: emerging
   composite: 13.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -104,9 +104,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.6
+  previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

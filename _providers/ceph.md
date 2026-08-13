@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -118,11 +118,11 @@ overview: 'Ceph publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ceph''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 68
+random_paper: 56
 score:
   band: emerging
   composite: 26.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 54.5
@@ -130,7 +130,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.6
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -139,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/screenshots/ceph-2026-06-20T174133.png
 security:

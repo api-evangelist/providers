@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Travelers partners with Anthropic to expand AI assistants ...
   url: https://hartfordbusiness.com/article/travelers-partners-with-anthropic-to-expand-ai-assistants-companywide/
-random_paper: 56
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Travelers Rate Limits
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 45.6
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 71.6
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +206,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png
 security:

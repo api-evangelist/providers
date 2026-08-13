@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -108,16 +108,13 @@ apis:
   name: Rainforest Sessions API
   slug: rainforest-sessions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a payin config with an idempotency key, process the payin, and confirm its status.
   name: Rainforest — configure and process a payin
   slug: rainforest-collect-payment
 - description: Create a merchant, submit its application, and confirm it reaches ACTIVE.
   name: Rainforest — onboard a merchant
   slug: rainforest-onboard-merchant
-artifact_total: 55
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Rainforest Webhooks
@@ -368,11 +365,11 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
-random_paper: 41
+random_paper: 5
 score:
   band: strong
   composite: 59.0
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.8
@@ -380,7 +377,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 61.5
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,7 +395,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

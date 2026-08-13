@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -395,11 +395,11 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 27 more developer resources.'
-random_paper: 67
+random_paper: 43
 score:
   band: developing
   composite: 53.8
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.4
@@ -407,7 +407,7 @@ score:
     discoverability: 63.0
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 55.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -419,7 +419,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

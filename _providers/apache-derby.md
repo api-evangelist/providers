@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -153,7 +153,7 @@ plans:
 - name: Apache Derby Plans Pricing
   plan_count: 3
   slug: apache-derby-plans-pricing
-random_paper: 29
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Apache Derby Rate Limits
@@ -170,7 +170,7 @@ rules:
 score:
   band: thin
   composite: 32.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 29.0
@@ -178,10 +178,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 39.8
+  previous_composite: 32.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/screenshots/apache-derby-2026-06-20T172052.png
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -185,7 +185,7 @@ overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 73
+random_paper: 53
 scopes:
 - name: Botify Scopes
   scope_count: 0
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 48.5
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.5
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -213,7 +213,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

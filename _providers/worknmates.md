@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Worknmates is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Worknmates'' developer surface includes pricing, support, and 10 more developer resources.'
-random_paper: 55
+random_paper: 19
 score:
   band: emerging
   composite: 16.7
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -1,6 +1,154 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-08-12'
 api_count: 2
-artifact_total: 0
+apis:
+- description: The 物联开发平台 (IoT development platform) API published by COSMOPlat as the "OpenApi-线上" reference. Twenty-six documented operations across product management, device management, alarm rules, alarm record
+  name: COSMOPlat IoT Platform OpenAPI
+  slug: cosmoplat-iot-platform-openapi
+- description: The MQTT publish/subscribe surface of the COSMOPlat IoT development platform, documented in 数据流转引擎 (data flow engine). Devices publish telemetry to iot.cosmoplat.com:1883 on v1/devices/me/telemetry; t
+  name: COSMOPlat IoT Telemetry (MQTT)
+  slug: cosmoplat-iot-telemetry-mqtt
+artifact_total: 8
+asyncapis:
+- description: ''
+  name: Cosmoplat Event Surface
+  slug: cosmoplat-event-surface
+- description: Machine-readable transcription of the COSMOPlat 物联开发平台 (IoT development platform) 数据流转引擎 / "data flow engine" documentation published at https://www.cosmoplat.com/help/detail/304/1064 That page publis
+  name: COSMOPlat IoT Telemetry (MQTT)
+  slug: cosmoplat-iot-telemetry-asyncapi
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cosmoplat-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cosmoplat.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://openlab.cosmoplat.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.cosmoplat.com/help
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.cosmoplat.com/help/detail/304/1038
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.cosmoplat.com/help/detail/304/1026
+- group: operate
+  title: ''
+  type: Support
+  url: https://tianyun.cosmoplat.com/#/crworkorder
+- group: company
+  title: ''
+  type: Blog
+  url: https://openlab.cosmoplat.com/article-list
+- group: company
+  title: ''
+  type: News
+  url: https://www.cosmoplat.com/news/media
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cosmoplat-dev
+- group: start
+  title: ''
+  type: Login
+  url: https://tianyun.cosmoplat.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sec.cosmoplat.com/api/agreement/service/1641867039600051
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sec.cosmoplat.com/api/agreement/private/1641867039600051
+- group: other
+  title: ''
+  type: Products
+  url: https://www.cosmoplat.com/product
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cosmoplat-event-surface.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/cosmoplat-iot-telemetry-asyncapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cosmoplat-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cosmoplat-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cosmoplat-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cosmoplat-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cosmoplat-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cosmoplat-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cosmoplat-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cosmoplat-rate-limits.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cosmoplat-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cosmoplat-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cosmoplat-iot-platform-overlay.yaml
 created: '2026-08-11'
 description: COSMOPlat (卡奥斯 COSMOPlat) is the industrial internet platform incubated by Haier Group and operated by COSMOPlat Digital Technology (Qingdao) Co., Ltd. Launched in 2017, it was China's first self-developed industrial internet platform built around mass customization, digitally integrating user interaction, R&D, procurement, production and service across a factory and its supply chain. Its product line spans smart-factory and MES systems, industrial IoT device connectivity, chemical-park management, smart energy control, equipment health management and a D3OS digital-twin offering, and it has been applied across roughly twenty industries and more than twenty countries. The developer-facing surface is the 物联开发平台 (IoT development platform), which publishes a public HTML API reference covering product, device, alarm, rule-chain, thing-model, telemetry and device-RPC operations, alongside an MQTT telemetry publish/subscribe surface. COSMOPlat also runs an open-source developer community
   at openlab.cosmoplat.com and a GitHub organization at cosmoplat-dev.
@@ -10,7 +158,43 @@ modified: '2026-08-11'
 name: Cosmoplat
 nav: Providers
 network: true
-random_paper: 50
+overview: 'Cosmoplat publishes 2 APIs on the [APIs.io](https://apis.io/) network: IoT Platform OpenAPI and IoT Telemetry (MQTT). Tagged areas include Company, Industrial Internet, Industrial IoT, Internet of Things, and Manufacturing.
+
+
+  The Cosmoplat catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
+
+
+  Cosmoplat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, product news, authentication, and 21 more developer resources.'
+plans:
+- name: Cosmoplat Plans Pricing
+  plan_count: 0
+  slug: cosmoplat-plans-pricing
+random_paper: 18
+rate_limits:
+- limit_count: 0
+  name: Cosmoplat Rate Limits
+  slug: cosmoplat-rate-limits
+score:
+  band: developing
+  composite: 44.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 53.7
+    developer_ergonomics: 58.7
+    discoverability: 77.8
+    governance: 20.8
+    operational_transparency: 13.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: authentication
+  name: Cosmoplat Authentication
+  slug: cosmoplat-authentication
+  summary_line: userPassword/deviceToken · 3 schemes
+- kind: domain-security
+  name: Cosmoplat Domain Security
+  slug: cosmoplat-domain-security
+  summary_line: TLSv1.3
 slug: cosmoplat
 tags:
 - Company
@@ -24,4 +208,5 @@ tags:
 - MQTT
 - Telemetry
 - China
+website: https://www.cosmoplat.com/
 ---

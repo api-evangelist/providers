@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Resistant AI publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Resistant AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 76
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Resistant Ai Rate Limits
@@ -199,7 +199,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 67.3
@@ -207,7 +207,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 46.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

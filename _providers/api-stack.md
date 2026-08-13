@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The API Stack Directory is a searchable catalog of 213+ API tools and services organized into 50+ categories. Each listing includes descriptions, features, pricing, screenshots, and external links to '
@@ -111,7 +111,7 @@ plans:
 - name: Api Stack Plans Pricing
   plan_count: 3
   slug: api-stack-plans-pricing
-random_paper: 81
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Api Stack Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.5
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -127,10 +127,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.4
+  previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-stack/refs/heads/main/screenshots/api-stack-2026-06-20T172221.png
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -160,11 +160,11 @@ overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: developing
   composite: 43.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 70.5
@@ -172,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 14.1
     operational_transparency: 23.7
-  previous_composite: 45.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:

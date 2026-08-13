@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Factory I O Plans Pricing
   plan_count: 3
   slug: factory-i-o-plans-pricing
-random_paper: 22
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Factory I O Rate Limits
@@ -153,7 +153,7 @@ rules:
 score:
   band: thin
   composite: 34.7
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 60.2
@@ -161,7 +161,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 43.0
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/screenshots/factory-i-o-2026-06-20T181011.png
 security:
 - kind: domain-security

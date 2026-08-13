@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,13 +57,10 @@ apis:
   name: Fundrise Transactions API
   slug: fundrise-transactions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 18
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -174,7 +171,7 @@ overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 52
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Fundrise Rate Limits
@@ -187,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 45.0
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.7
@@ -195,7 +192,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.2
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 45
 apis:
 - description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
@@ -319,7 +319,7 @@ overview: 'Palenca (Vech) publishes 45 APIs on the [APIs.io](https://apis.io/) n
 
 
   Palenca (Vech)''s developer surface includes sandbox, documentation, API reference, getting-started guide, authentication, engineering blog, support, and 25 more developer resources.'
-random_paper: 31
+random_paper: 111
 rate_limits:
 - limit_count: 1
   name: Palenca Vech Rate Limits
@@ -327,7 +327,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.1
@@ -335,7 +335,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 55.2
+  previous_composite: 53.6
   provenance:
     conformance: first-party
     contracts:
@@ -346,7 +346,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:

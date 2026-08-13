@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -224,11 +224,11 @@ overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hifi''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 68
+random_paper: 56
 score:
   band: developing
   composite: 47.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.3
@@ -236,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,7 +254,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/screenshots/hifi-2026-07-25T221141.png
 security:

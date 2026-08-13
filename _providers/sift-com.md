@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ plans:
 - name: Sift Com Plans Pricing
   plan_count: 5
   slug: sift-com-plans-pricing
-random_paper: 106
+random_paper: 82
 rate_limits:
 - limit_count: 8
   name: Sift Com Rate Limits
@@ -399,7 +399,7 @@ rules:
 score:
   band: exemplar
   composite: 71.9
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 71.4
@@ -407,7 +407,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 69.9
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     contracts:
@@ -416,7 +416,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/heads/main/screenshots/sift-com-2026-06-20T193904.png
 security:

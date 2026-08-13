@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -249,11 +249,11 @@ overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
-random_paper: 20
+random_paper: 104
 score:
   band: developing
   composite: 50.5
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.9
@@ -261,7 +261,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.2
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +279,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

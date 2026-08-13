@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
@@ -187,7 +187,7 @@ overview: 'Candis publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Candis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 46
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Candis Rate Limits
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 61.9
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 52.6
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     contracts:
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:

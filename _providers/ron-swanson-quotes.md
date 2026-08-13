@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 10 more developer resources.'
-random_paper: 19
+random_paper: 75
 rules:
 - name: Ron Swanson Quotes API Rules
   rule_count: 4
@@ -192,7 +192,7 @@ rules:
 score:
   band: thin
   composite: 39.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 70.1
@@ -200,7 +200,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 40.6
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/screenshots/ron-swanson-quotes-2026-06-20T193218.png
 security:

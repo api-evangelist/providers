@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -440,7 +440,7 @@ plans:
 - name: Llamaparse Plans Pricing
   plan_count: 4
   slug: llamaparse-plans-pricing
-random_paper: 14
+random_paper: 98
 rate_limits:
 - limit_count: 4
   name: Llamaparse Rate Limits
@@ -457,7 +457,7 @@ rules:
 score:
   band: strong
   composite: 57.5
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
@@ -465,7 +465,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 56.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -474,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST + GraphQL API for TokenBot copy-trading — manage exchange accounts, strategies, copiers, trades, notifications, rewards, withdrawals, API keys, and webhooks. API-key or secp256k1 signed-request a
@@ -179,7 +179,7 @@ overview: 'Mammoth Media publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mammoth Media''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, CLI, and 23 more developer resources.'
-random_paper: 36
+random_paper: 112
 rate_limits:
 - limit_count: 2
   name: Mammoth Media Rate Limits
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 50.0
-  previous_composite: 49.9
+  previous_composite: 48.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -207,7 +207,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/screenshots/mammoth-media-2026-07-25T230015.png
 security:

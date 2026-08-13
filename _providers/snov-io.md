@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Snov Io Plans Pricing
   plan_count: 7
   slug: snov-io-plans-pricing
-random_paper: 19
+random_paper: 115
 rate_limits:
 - limit_count: 3
   name: Snov Io Rate Limits
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.2
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:

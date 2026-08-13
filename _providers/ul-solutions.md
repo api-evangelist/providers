@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'UL Solutions is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UL Solutions'' developer surface includes developer portal, product news, engineering blog, and 13 more developer resources.'
-random_paper: 2
+random_paper: 78
 score:
   band: emerging
   composite: 13.3
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png
 security:

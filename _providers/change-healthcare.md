@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Change Healthcare API provides access to platform services and data for enterprise integration and automation.
@@ -73,7 +73,7 @@ plans:
 - name: Change Healthcare Plans Pricing
   plan_count: 2
   slug: change-healthcare-plans-pricing
-random_paper: 76
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Change Healthcare Rate Limits
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 43.2
@@ -89,7 +89,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.2
+  previous_composite: 18.7
   regulatory:
     applies: true
     matched_via: tags
@@ -97,7 +97,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/screenshots/change-healthcare-2026-06-20T174215.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: 'Read and write the ESG data core of the Measurabl platform: portfolios, buildings, spaces, funds, energy and water meters and their readings and bills, waste meters and readings, green building certif'
@@ -184,7 +184,7 @@ overview: 'Measurabl publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 28
+random_paper: 116
 rate_limits:
 - limit_count: 3
   name: Measurabl Rate Limits
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
@@ -205,7 +205,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 48.7
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -222,7 +222,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:

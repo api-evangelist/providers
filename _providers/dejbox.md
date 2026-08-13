@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Public OAuth2 / OpenID Connect authorization server (Ory-style) backing the Refectory (Dejbox) consumer and B2B applications. Advertises a standards-compliant OpenID discovery document with authorizat
@@ -80,7 +80,7 @@ overview: 'Dejbox (Refectory) publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Dejbox (Refectory)''s developer surface includes support, authentication, and 6 more developer resources.'
-random_paper: 56
+random_paper: 36
 scopes:
 - name: Dejbox Scopes
   scope_count: 3
@@ -101,7 +101,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/screenshots/dejbox-2026-07-25T211637.png
 security:

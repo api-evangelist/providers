@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -137,7 +137,7 @@ plans:
 - name: Aave Plans Pricing
   plan_count: 1
   slug: aave-plans-pricing
-random_paper: 65
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Aave Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.3
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -153,9 +153,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 20.4
+  previous_composite: 23.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/screenshots/aave-2026-06-20T163031.png
 security:

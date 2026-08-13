@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Ucsc Genomic Data Plans Pricing
   plan_count: 3
   slug: ucsc-genomic-data-plans-pricing
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Ucsc Genomic Data Rate Limits
@@ -154,7 +154,7 @@ rules:
 score:
   band: thin
   composite: 37.0
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 69.3
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 45.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsc-genomic-data/refs/heads/main/screenshots/ucsc-genomic-data-2026-06-20T195951.png
 security:
 - kind: domain-security

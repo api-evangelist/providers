@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ overview: 'Nomos publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nomos'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 92
+random_paper: 76
 scopes:
 - name: Nomos Scopes
   scope_count: 2
@@ -213,7 +213,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 64.8
@@ -221,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 48.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,7 +239,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png
 security:

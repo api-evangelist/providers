@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Omni Commerce Connect (OCC) REST API exposes a broad set of commerce and data services, enabling integration of SAP Commerce functionality anywhere in the application landscape. OCC v2 is the defa
@@ -111,7 +111,7 @@ plans:
 - name: Sap Commerce Plans Pricing
   plan_count: 3
   slug: sap-commerce-plans-pricing
-random_paper: 52
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Sap Commerce Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce/refs/heads/main/screenshots/sap-commerce-2026-06-20T193423.png
 security:

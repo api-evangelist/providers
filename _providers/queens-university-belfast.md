@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -253,7 +253,7 @@ plans:
 - name: Queens University Belfast Plans Pricing
   plan_count: 2
   slug: queens-university-belfast-plans-pricing
-random_paper: 54
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Queens University Belfast Rate Limits
@@ -278,7 +278,7 @@ rules:
 score:
   band: thin
   composite: 40.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.0
@@ -286,7 +286,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 40.9
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -295,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Create, list, retrieve, update and delete survey Projects and their Quotas against the DISQO panel, and manage the included-users, excluded-users and excluded-projects lists that drive recontact and w
@@ -131,11 +131,11 @@ overview: 'DISQO publishes 1 API on the [APIs.io](https://apis.io/) network: Aud
 
 
   DISQO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 14 more developer resources.'
-random_paper: 80
+random_paper: 64
 score:
   band: emerging
   composite: 27.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -143,11 +143,11 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 28.5
+  previous_composite: 27.4
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disqo/refs/heads/main/screenshots/disqo-2026-08-07T164402.png
 security:

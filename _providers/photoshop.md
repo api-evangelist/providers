@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Adobe Photoshop API for automating image editing workflows, applying Photoshop actions, manipulating layers and smart objects, generating renditions and document manifests, and AI-powered image manipu
@@ -84,7 +84,7 @@ plans:
 - name: Photoshop Plans Pricing
   plan_count: 3
   slug: photoshop-plans-pricing
-random_paper: 68
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Photoshop Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -100,10 +100,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 23.0
+  previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photoshop/refs/heads/main/screenshots/photoshop-2026-06-20T191653.png
 security:
 - kind: domain-security

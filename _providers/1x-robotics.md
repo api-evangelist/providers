@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -148,7 +148,7 @@ overview: '1X Technologies is profiled on the [APIs.io](https://apis.io/) networ
 
 
   1X Technologies'' developer surface includes support, YouTube channel, and 22 more developer resources.'
-random_paper: 39
+random_paper: 3
 score:
   band: minimal
   composite: 11.0
@@ -162,7 +162,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1x-robotics/refs/heads/main/screenshots/1x-robotics-2026-06-20T162600.png
 security:

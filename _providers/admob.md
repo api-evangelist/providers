@@ -10,32 +10,44 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: true
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.7
-  scored_at: '2026-08-11'
+  score: 48.2
+  scored_at: '2026-08-12'
+agentic_access:
+- acting_count: 13
+  human_in_the_loop: 1
+  name: Admob Agentic Access
+  operation_count: 25
+  slug: admob-agentic-access
+  summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: REST/JSON API providing programmatic read-only access to AdMob account data, apps, ad units, mediation configuration, and network/mediation performance reports. Authorized with Google OAuth 2.0.
+- description: REST/JSON API providing programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports. v1 is read-only; v1beta adds the wr
   name: AdMob API
   slug: admob-api
-artifact_total: 6
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/admob-agentic-access.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -148,39 +160,83 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/admob-llms.txt
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://ads.google.com/status/publisher/
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/admob-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/admob-problem-types.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/admob-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/admob-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/admob-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/admob-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://groups.google.com/g/google-admob-api-developer-forum
 created: '2026-07-17'
-description: AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks, and understand performance through reporting and user metrics. The AdMob API (admob.googleapis.com, v1) provides programmatic, read-only access to AdMob account data, apps, ad units, mediation configuration, and network/mediation performance reports over REST/JSON, authorized with Google OAuth 2.0 using the admob.readonly and admob.report scopes.
+description: AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks, and understand performance through reporting and user metrics. The AdMob API (admob.googleapis.com) provides programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports over REST/JSON, authorized with Google OAuth 2.0 using the admob.readonly and admob.report scopes. The stable v1 channel is read-only; the v1beta channel carries the entire write surface — creating apps, ad units and ad unit mappings, and creating, patching and A/B testing mediation groups. Google publishes no OpenAPI for AdMob; the machine-readable contract is a Google Discovery Document served by the API host itself.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/admob.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: AdMob
 nav: Providers
 network: true
 overview: 'AdMob publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, Monetization, and Ads.
 
 
-  AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 21 more developer resources.'
-random_paper: 51
+  AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 31 more developer resources.'
+plans:
+- name: Admob Plans Pricing
+  plan_count: 0
+  slug: admob-plans-pricing
+random_paper: 35
+rate_limits:
+- limit_count: 4
+  name: Admob Rate Limits
+  slug: admob-rate-limits
 scopes:
 - name: Admob Scopes
   scope_count: 2
   slug: admob-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.6
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 25.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 58.7
+    contract_quality: 56.0
+    developer_ergonomics: 71.7
     discoverability: 87.0
-    governance: 0.0
-    operational_transparency: 39.5
+    governance: 20.8
+    operational_transparency: 86.8
   previous_composite: 35.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:
 - kind: authentication

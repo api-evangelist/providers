@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -186,7 +186,7 @@ plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
   slug: wahoo-plans-pricing
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 6
   name: Wahoo Rate Limits
@@ -216,7 +216,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 73.9
@@ -224,7 +224,7 @@ score:
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 47.4
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -239,7 +239,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

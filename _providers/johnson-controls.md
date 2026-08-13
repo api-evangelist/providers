@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,11 +76,11 @@ press:
 - date: '2026-05-25'
   title: Johnson Controls expands AI features in OpenBlue digital ...
   url: https://www.johnsoncontrols.com/media-center/news/press-releases/2024/11/12/johnson-controls-expands-ai-features-in-openblue
-random_paper: 72
+random_paper: 16
 score:
   band: minimal
   composite: 6.1
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -88,7 +88,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 5.7
+  previous_composite: 6.1
   regulatory:
     applies: true
     matched_via: tags
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-controls/refs/heads/main/screenshots/johnson-controls-2026-06-20T183753.png
 security:

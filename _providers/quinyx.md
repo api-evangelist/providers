@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -144,13 +144,10 @@ apis:
   name: Quinyx Tags API
   slug: quinyx-tags-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create an organizational group, create an employee, and assign a role using the Quinyx API v3.
   name: Onboard an employee in Quinyx
   slug: quinyx-onboard-employee
-artifact_total: 42
+artifact_total: 41
 common:
 - group: other
   title: ''
@@ -280,7 +277,7 @@ overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 106
+random_paper: 86
 scopes:
 - name: Quinyx Scopes
   scope_count: 14
@@ -289,7 +286,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.6
@@ -297,7 +294,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 48.4
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

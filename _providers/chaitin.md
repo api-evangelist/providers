@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 556
 apis:
 - description: The account API from Chaitin Tech — 22 operation(s) for account.
@@ -1809,11 +1809,11 @@ overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 16 more developer resources.'
-random_paper: 40
+random_paper: 16
 score:
   band: thin
   composite: 36.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 39.3
@@ -1821,7 +1821,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 37.2
+  previous_composite: 36.3
   provenance:
     conformance: derived
     contracts:
@@ -1832,7 +1832,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

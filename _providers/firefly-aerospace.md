@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 collections:
@@ -104,7 +104,7 @@ plans:
 - name: Firefly Aerospace Plans Pricing
   plan_count: 0
   slug: firefly-aerospace-plans-pricing
-random_paper: 5
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Firefly Aerospace Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firefly-aerospace/refs/heads/main/screenshots/firefly-aerospace-2026-06-20T181231.png
 security:

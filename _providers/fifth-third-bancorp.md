@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -257,11 +257,11 @@ press:
 - date: '2026-05-25'
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
-random_paper: 43
+random_paper: 99
 score:
   band: developing
   composite: 47.5
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 60.1
@@ -269,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 47.8
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,7 +282,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

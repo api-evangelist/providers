@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 15
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits
@@ -341,7 +341,7 @@ rules:
 score:
   band: thin
   composite: 29.0
-  delta: -8.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 22.0
@@ -349,7 +349,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 37.1
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -358,8 +358,8 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
 - kind: authentication

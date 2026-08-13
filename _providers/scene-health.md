@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,11 +99,11 @@ overview: 'Scene Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Scene Health''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 41
+random_paper: 1
 score:
   band: emerging
   composite: 20.4
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 21.6
+  previous_composite: 20.4
   provenance:
     conformance: first-party
   regulatory:
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

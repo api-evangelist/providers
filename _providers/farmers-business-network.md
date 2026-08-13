@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent pricing with direct-to-farm delivery. Delive
@@ -100,7 +100,7 @@ plans:
 - name: Farmers Business Network Plans Pricing
   plan_count: 3
   slug: farmers-business-network-plans-pricing
-random_paper: 60
+random_paper: 96
 rate_limits:
 - limit_count: 0
   name: Farmers Business Network Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.8
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 30.6
@@ -116,9 +116,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.1
+  previous_composite: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Electronic trading API for executing trades across fixed income, derivatives, and ETF markets. Supports RFQ (Request for Quote), click-to-trade, and automated execution via AiEX (Automated Intelligent
@@ -164,7 +164,7 @@ plans:
 - name: Tradeweb Plans Pricing
   plan_count: 3
   slug: tradeweb-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Tradeweb Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: thin
   composite: 33.5
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 12.9
@@ -197,7 +197,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 33.5
   regulatory:
     applies: true
     matched_via: tags
@@ -205,8 +205,8 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Tradeweb Domain Security

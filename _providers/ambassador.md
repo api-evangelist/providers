@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -581,7 +581,7 @@ plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
   slug: ambassador-plans-pricing
-random_paper: 9
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Ambassador Rate Limits
@@ -606,7 +606,7 @@ rules:
 score:
   band: developing
   composite: 49.4
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.4
@@ -614,7 +614,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 54.2
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -623,7 +623,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

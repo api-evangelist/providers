@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: Dot Product
 nav: Providers
 network: true
 overview: Dot Product is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Voice Agents, and Customer Support.
-random_paper: 97
+random_paper: 61
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot-product/refs/heads/main/screenshots/dot-product-2026-07-25T212315.png
 security:

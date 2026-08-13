@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -139,7 +139,7 @@ plans:
 - name: Debezium Plans Pricing
   plan_count: 3
   slug: debezium-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Debezium Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: thin
   composite: 37.9
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 52.2
@@ -172,7 +172,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 46.2
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:
 - kind: domain-security

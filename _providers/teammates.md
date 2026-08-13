@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -168,11 +168,11 @@ overview: 'Teammates publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Teammates'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 33
+random_paper: 1
 score:
   band: developing
   composite: 44.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 56.0
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 28.9
-  previous_composite: 46.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

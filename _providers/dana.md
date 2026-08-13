@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Dana and Chrysler relations fester as costs rise
   url: https://www.autonews.com/article/20080807/OEM02/308079998/dana-and-chrysler-relations-fester-as-costs-rise/
-random_paper: 56
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Dana Rate Limits
@@ -168,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 37.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 67.9
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 5.3
-  previous_composite: 43.7
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png
 security:
 - kind: authentication

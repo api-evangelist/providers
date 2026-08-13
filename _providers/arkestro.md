@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 63
+random_paper: 35
 scopes:
 - name: Arkestro Scopes
   scope_count: 3
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 50.2
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.3
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.0
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-07T161720.png
 security:

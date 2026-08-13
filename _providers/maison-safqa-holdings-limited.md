@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https
 
 
   Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 6
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Maison Safqa Holdings Limited Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 56.7
@@ -158,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 38.2
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,7 +170,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

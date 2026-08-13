@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ overview: 'Canoe Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
-random_paper: 90
+random_paper: 30
 scopes:
 - name: Canoe Intelligence Scopes
   scope_count: 0
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 43.1
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.8
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 45.3
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

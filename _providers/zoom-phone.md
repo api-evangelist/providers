@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -280,7 +280,7 @@ overview: 'Zoom Phone publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 108
+random_paper: 76
 rate_limits:
 - limit_count: 8
   name: Zoom Phone Rate Limits
@@ -293,7 +293,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.2
@@ -301,7 +301,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 94.7
-  previous_composite: 68.2
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,7 +314,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

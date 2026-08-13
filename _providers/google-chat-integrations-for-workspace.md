@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ overview: 'Google Chat Integrations for Workspace publishes 7 APIs on the [APIs.
 
 
   Google Chat Integrations for Workspace''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 118
 scopes:
 - name: Google Chat Integrations For Workspace Scopes
   scope_count: 3
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 33.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 53.7
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.7
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/screenshots/google-chat-integrations-for-workspace-2026-06-20T182041.png
 security:

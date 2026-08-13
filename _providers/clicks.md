@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Clicks is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Clicks'' developer surface includes engineering blog, changelog, support, and 11 more developer resources.'
-random_paper: 53
+random_paper: 33
 score:
   band: emerging
   composite: 23.1
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicks/refs/heads/main/screenshots/clicks-2026-07-25T205614.png
 security:

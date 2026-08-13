@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -103,16 +103,13 @@ apis:
   name: Indykite Trust Score API
   slug: indykite-trust-score-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Upsert nodes and a relationship into the Identity Knowledge Graph, then ask AuthZEN/KBAC whether a subject may act on a resource.
   name: Capture graph data then make an authorization decision
   slug: indykite-capture-and-authorize
 - description: Create a project, an application and an application agent, then mint an AppAgent credential for data-plane calls.
   name: Provision an IndyKite project and AppAgent credential
   slug: indykite-provision-project-appagent
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Indykite Event Sinks Webhooks
@@ -270,11 +267,11 @@ overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
-random_paper: 53
+random_paper: 25
 score:
   band: strong
   composite: 57.9
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.7
@@ -282,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 58.7
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:

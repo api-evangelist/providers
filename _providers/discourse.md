@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -184,7 +184,7 @@ plans:
 - name: Discourse Plans Pricing
   plan_count: 3
   slug: discourse-plans-pricing
-random_paper: 49
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Discourse Rate Limits
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 44.6
@@ -200,7 +200,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 41.6
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/screenshots/discourse-2026-06-20T180038.png
 security:
 - kind: domain-security

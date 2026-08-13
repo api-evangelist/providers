@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The AGL Application Framework provides APIs for managing applications on the AGL platform including installation, lifecycle management, permission enforcement, and inter-application communication. App
@@ -126,7 +126,7 @@ plans:
 - name: Automotive Grade Linux Plans Pricing
   plan_count: 3
   slug: automotive-grade-linux-plans-pricing
-random_paper: 62
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Automotive Grade Linux Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.6
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -142,10 +142,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 21.3
+  previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png
 security:
 - kind: domain-security

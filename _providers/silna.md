@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 42
 apis:
 - description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
@@ -299,7 +299,7 @@ overview: 'Silna publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Silna''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, signup flow, and 24 more developer resources.'
-random_paper: 71
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Silna Rate Limits
@@ -307,7 +307,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.1
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.6
@@ -315,7 +315,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 52.6
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -332,7 +332,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

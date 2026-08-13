@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Access BGOV legislative, regulatory, and government contracting data programmatically. Retrieve bill tracking, regulatory actions, federal contract awards, and lobbying disclosures for integration int
@@ -98,7 +98,7 @@ plans:
 - name: Bloomberg Government Bgov Plans Pricing
   plan_count: 3
   slug: bloomberg-government-bgov-plans-pricing
-random_paper: 14
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Bloomberg Government Bgov Rate Limits
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.5
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -114,7 +114,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.2
+  previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: tags
@@ -122,8 +122,8 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-government-bgov/refs/heads/main/screenshots/bloomberg-government-bgov-2026-06-20T173440.png
 security:
 - kind: domain-security

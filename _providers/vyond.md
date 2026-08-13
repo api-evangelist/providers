@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,9 +53,6 @@ apis:
   name: Vyond Webhook API
   slug: vyond-webhook-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Read the parameter vocabulary, create a Vyond Go or AI-avatar content generation, poll the task to completion, export the resulting video, then retrieve the expiring download URL.
   name: Generate a Vyond video and export it
   slug: vyond-generate-and-export-video
@@ -65,7 +62,7 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Vyond Webhooks
@@ -230,7 +227,7 @@ overview: 'Vyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 96
+random_paper: 80
 scopes:
 - name: Vyond Scopes
   scope_count: 2
@@ -239,7 +236,7 @@ scopes:
 score:
   band: developing
   composite: 50.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.4
@@ -247,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 51.2
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

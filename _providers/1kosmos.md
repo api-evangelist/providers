@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 26 more developer resources.'
-random_paper: 21
+random_paper: 117
 scopes:
 - name: 1Kosmos Scopes
   scope_count: 3
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 54.6
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 68.2
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 53.9
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

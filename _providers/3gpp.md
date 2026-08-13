@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -546,7 +546,7 @@ overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
-random_paper: 30
+random_paper: 18
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6
@@ -555,7 +555,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.2
@@ -563,7 +563,7 @@ score:
     discoverability: 66.7
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 48.4
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -581,7 +581,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png
 security:

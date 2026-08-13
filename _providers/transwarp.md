@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST interface of the Transwarp Hippo distributed vector database. The published reference covers database and table operations, data writes, import/export (standalone mode), index operations, vector '
@@ -103,11 +103,11 @@ overview: 'Transwarp publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Transwarp''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 66
+random_paper: 34
 score:
   band: emerging
   composite: 20.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 21.9
+  previous_composite: 20.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

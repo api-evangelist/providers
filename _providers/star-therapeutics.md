@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
@@ -163,11 +163,11 @@ overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
-random_paper: 44
+random_paper: 104
 score:
   band: thin
   composite: 30.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 58.2
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
@@ -191,7 +191,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

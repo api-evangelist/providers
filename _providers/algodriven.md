@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,13 +42,10 @@ apis:
   name: AlgoDriven Vehicle History Report API
   slug: algodriven-vehicle-history-report-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Generate a GCC/UAE vehicle history report for a VIN, then poll until the PDF report URL is available.
   name: AlgoDriven — generate and retrieve a UAE vehicle history report
   slug: algodriven-vehicle-history-report
-artifact_total: 7
+artifact_total: 6
 common:
 - group: other
   title: ''
@@ -150,11 +147,11 @@ overview: 'AlgoDriven publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   AlgoDriven''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 23
+random_paper: 107
 score:
   band: thin
   composite: 39.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 59.7
@@ -162,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.9
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/screenshots/algodriven-2026-07-25T195602.png
 security:

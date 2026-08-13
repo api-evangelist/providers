@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Account API from RevenueBase — 2 operation(s) for account.
@@ -201,11 +201,11 @@ overview: 'RevenueBase publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 13
+random_paper: 93
 score:
   band: developing
   composite: 51.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 59.0
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.2
+  previous_composite: 51.5
   provenance:
     conformance: derived
     contracts:
@@ -224,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

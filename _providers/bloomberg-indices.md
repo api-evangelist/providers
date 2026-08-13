@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Access index constituent data, weights, analytics, total returns, and historical data for Bloomberg's family of fixed income, equity, and multi-asset indices via BLPAPI and Data License.
@@ -99,7 +99,7 @@ plans:
 - name: Bloomberg Indices Plans Pricing
   plan_count: 3
   slug: bloomberg-indices-plans-pricing
-random_paper: 109
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Bloomberg Indices Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -115,10 +115,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 19.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-indices/refs/heads/main/screenshots/bloomberg-indices-2026-07-25T203402.png
 security:
 - kind: domain-security

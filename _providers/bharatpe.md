@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 24
 common:
@@ -218,7 +218,7 @@ overview: 'BharatPe is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BharatPe''s developer surface includes engineering blog and 35 more developer resources.'
-random_paper: 27
+random_paper: 119
 score:
   band: minimal
   composite: 12.1
@@ -238,7 +238,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharatpe/refs/heads/main/screenshots/bharatpe-2026-07-25T202853.png
 security:

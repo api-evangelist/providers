@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The public OpenID Connect / OAuth 2.0 identity surface that fronts the LightForce Doctor Portal. Published as a live OIDC discovery document at id.lightforceortho.com/.well-known/openid-configuration,
@@ -116,7 +116,7 @@ overview: 'Lightforce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lightforce''s developer surface includes support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 19
+random_paper: 103
 scopes:
 - name: Lightforce Scopes
   scope_count: 14
@@ -125,7 +125,7 @@ scopes:
 score:
   band: thin
   composite: 28.2
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -133,7 +133,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 22.8
+  previous_composite: 28.2
   provenance:
     conformance: first-party
   regulatory:
@@ -143,8 +143,8 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightforce/refs/heads/main/screenshots/lightforce-2026-07-25T225116.png
 security:
 - kind: authentication

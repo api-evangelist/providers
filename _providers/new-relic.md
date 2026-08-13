@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -3169,7 +3169,7 @@ plans:
 - name: New Relic Plans Pricing
   plan_count: 4
   slug: new-relic-plans-pricing
-random_paper: 90
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: New Relic Rate Limits
@@ -3202,7 +3202,7 @@ rules:
 score:
   band: exemplar
   composite: 71.9
-  delta: -8.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 89.9
@@ -3210,7 +3210,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 55.3
-  previous_composite: 80.0
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     contracts:
@@ -3219,8 +3219,8 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:
 - kind: authentication

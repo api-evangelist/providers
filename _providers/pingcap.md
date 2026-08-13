@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -327,7 +327,7 @@ overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network,
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 42
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Pingcap Rate Limits
@@ -335,7 +335,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.2
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 50.1
@@ -343,7 +343,7 @@ score:
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 60.9
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,7 +355,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

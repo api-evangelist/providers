@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'HTTP API for sending any block or flow from a bot to a user via a POST request, including targeting users by attribute. Rate limited to 25 requests per second per bot. Requests are authenticated with '
@@ -143,7 +143,7 @@ overview: 'Chatfuel publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Chatfuel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Chatfuel Rate Limits
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -159,11 +159,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 35.9
+  previous_composite: 34.8
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:

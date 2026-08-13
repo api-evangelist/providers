@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -109,7 +109,7 @@ plans:
 - name: Kafka Connect Plans Pricing
   plan_count: 3
   slug: kafka-connect-plans-pricing
-random_paper: 25
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Kafka Connect Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.9
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 41.0
@@ -125,7 +125,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 34.2
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -134,8 +134,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/screenshots/kafka-connect-2026-06-20T183852.png
 security:
 - kind: domain-security

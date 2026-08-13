@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Solventum's Health Information Systems (formerly 3M HIS) provides APIs for clinical documentation, coding and grouping, computer-assisted coding (CAC), revenue cycle management, and healthcare analyti
@@ -147,7 +147,7 @@ plans:
 - name: Solventum Plans Pricing
   plan_count: 3
   slug: solventum-plans-pricing
-random_paper: 77
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Solventum Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: emerging
   composite: 26.0
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 8.1
@@ -172,7 +172,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 32.6
+  previous_composite: 26.0
   regulatory:
     applies: true
     matched_via: tags
@@ -180,8 +180,8 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solventum/refs/heads/main/screenshots/solventum-2026-06-20T194155.png
 security:
 - kind: domain-security

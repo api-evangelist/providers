@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: University Of Bonn Plans Pricing
   plan_count: 2
   slug: university-of-bonn-plans-pricing
-random_paper: 114
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: University Of Bonn Rate Limits
@@ -173,7 +173,7 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.0
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 38.2
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png
 security:

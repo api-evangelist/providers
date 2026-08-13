@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: REST API for Tabula, Warwick's tool for the administration of teaching and learning. Uses resource-oriented URLs and returns JSON. Categories include Administration & Information (departments, modules
@@ -117,7 +117,7 @@ plans:
 - name: University Of Warwick Plans Pricing
   plan_count: 2
   slug: university-of-warwick-plans-pricing
-random_paper: 97
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: University Of Warwick Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png
 security:

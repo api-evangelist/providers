@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'The Lightning AI control-plane API used by the lightning-sdk Python SDK, the @lightningai/sdk JavaScript SDK and the lightning CLI to programmatically manage platform resources: Studios, Jobs, Deploym'
@@ -180,7 +180,7 @@ plans:
 - name: Lightning Ai Plans
   plan_count: 4
   slug: lightning-ai-plans
-random_paper: 51
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Lightning Ai Rate Limits
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 0.0
@@ -196,11 +196,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 43.5
+  previous_composite: 42.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-ai/refs/heads/main/screenshots/lightning-ai-2026-07-25T225123.png
 security:

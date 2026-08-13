@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,11 +120,11 @@ overview: 'BrightAI publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   BrightAI''s developer surface includes documentation, authentication, support, signup flow, and 13 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: emerging
   composite: 24.0
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 24.2
+  previous_composite: 24.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -145,7 +145,7 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

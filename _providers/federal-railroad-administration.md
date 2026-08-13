@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ plans:
 - name: Federal Railroad Administration Plans Pricing
   plan_count: 3
   slug: federal-railroad-administration-plans-pricing
-random_paper: 37
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Federal Railroad Administration Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.7
-  delta: -10.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 48.5
@@ -115,7 +115,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.9
+  previous_composite: 21.7
   provenance:
     agentic_access: derived
     contracts:
@@ -130,8 +130,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/screenshots/federal-railroad-administration-2026-06-20T181126.png
 security:
 - kind: domain-security

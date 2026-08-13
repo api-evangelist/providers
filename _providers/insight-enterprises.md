@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: nsit-ex991_6.pptx.htm
   url: https://www.sec.gov/Archives/edgar/data/932696/000156459019037006/nsit-ex991_6.htm
-random_paper: 35
+random_paper: 87
 score:
   band: minimal
   composite: 3.3
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png
 security:

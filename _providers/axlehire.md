@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Assignment specific calls
@@ -203,7 +203,7 @@ overview: 'AxleHire (Jitsu) publishes 5 APIs on the [APIs.io](https://apis.io/) 
 
 
   AxleHire (Jitsu)''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 26 more developer resources.'
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Axlehire Rate Limits
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.8
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.0
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 59.9
+  previous_composite: 59.8
   provenance:
     conformance: first-party
     contracts:
@@ -229,7 +229,7 @@ score:
       total: 5
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axlehire/refs/heads/main/screenshots/axlehire-2026-08-07T162043.png
 security:

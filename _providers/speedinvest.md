@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Speedinvest
 nav: Providers
 network: true
-random_paper: 34
+random_paper: 114
 slug: speedinvest
 tags:
 - Venture Capital

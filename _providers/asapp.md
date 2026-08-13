@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -234,11 +234,11 @@ overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 24 more developer resources.'
-random_paper: 69
+random_paper: 53
 score:
   band: developing
   composite: 55.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.9
@@ -246,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 56.7
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

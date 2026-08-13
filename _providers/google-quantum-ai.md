@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -391,7 +391,7 @@ plans:
 - name: Google Quantum Ai Plans Pricing
   plan_count: 3
   slug: google-quantum-ai-plans-pricing
-random_paper: 84
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Google Quantum Ai Rate Limits
@@ -421,7 +421,7 @@ scopes:
 score:
   band: strong
   composite: 63.9
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 71.6
@@ -429,7 +429,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 61.1
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     contracts:
@@ -438,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/screenshots/google-quantum-ai-2026-06-20T182227.png
 security:

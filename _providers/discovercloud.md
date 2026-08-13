@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'DiscoverCloud is profiled on the [APIs.io](https://apis.io/) network.
 
 
   DiscoverCloud''s developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
-random_paper: 6
+random_paper: 78
 score:
   band: minimal
   composite: 12.2
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discovercloud/refs/heads/main/screenshots/discovercloud-2026-06-20T180041.png
 security:

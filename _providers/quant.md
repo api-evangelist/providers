@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Overledger APIs provide a single unified interface for building cross-ledger applications, including endpoints for accounts, addresses, keys, balances, transactions, smart contracts (deploy, read, wri
@@ -80,7 +80,7 @@ plans:
 - name: Quant Plans Pricing
   plan_count: 3
   slug: quant-plans-pricing
-random_paper: 89
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Quant Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -96,10 +96,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.8
+  previous_composite: 13.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/screenshots/quant-2026-06-20T192412.png
 security:
 - kind: domain-security

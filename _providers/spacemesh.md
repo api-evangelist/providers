@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -167,11 +167,11 @@ overview: 'Spacemesh publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 18 more developer resources.'
-random_paper: 25
+random_paper: 113
 score:
   band: thin
   composite: 29.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 44.8
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 31.4
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

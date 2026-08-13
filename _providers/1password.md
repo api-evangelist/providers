@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -659,7 +659,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 4
+random_paper: 92
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits
@@ -684,7 +684,7 @@ rules:
 score:
   band: exemplar
   composite: 66.5
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 72.0
@@ -692,7 +692,7 @@ score:
     discoverability: 74.1
     governance: 80.2
     operational_transparency: 28.9
-  previous_composite: 72.3
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -703,8 +703,8 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
 security:
 - kind: authentication

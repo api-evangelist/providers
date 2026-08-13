@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: Fincentric
 nav: Providers
 network: true
 overview: Fincentric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, Credit Unions, and Wealth Management.
-random_paper: 17
+random_paper: 101
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: banking_open_finance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: fincentric
 tags:

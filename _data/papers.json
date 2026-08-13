@@ -490,7 +490,7 @@
   {
     "slug": "state-of-blockchain-crypto-apis",
     "title": "The State of Blockchain & Crypto APIs",
-    "tagline": "The highest-publishing market in the catalog — median 25.7 against 15.8, idempotency at nearly three times the catalog rate — and OAuth scopes published by 10.2% of its leaders.",
+    "tagline": "One of the highest-publishing large markets in the catalog — median 26.3 against 15.0, idempotency at nearly three times the catalog rate — and OAuth scopes published by 13.3% of its leaders.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-blockchain-crypto-apis.png"
@@ -554,7 +554,7 @@
   {
     "slug": "state-of-compute-hardware-apis",
     "title": "The State of Compute & Hardware APIs",
-    "tagline": "The companies that rent the chips score 36.5. The companies that design and fabricate those same chips score 10.7. NVIDIA scores 31.1 and NVIDIA NIM scores 75.7.",
+    "tagline": "The companies that rent the chips score 36.5. The companies that design and fabricate those same chips score 10.7. NVIDIA scores 24.0 and NVIDIA NIM scores 78.7.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-compute-hardware-apis.png"
@@ -570,7 +570,7 @@
   {
     "slug": "state-of-data-analytics-apis",
     "title": "The State of Data & Analytics APIs",
-    "tagline": "One of the best-scoring markets in the catalog — and the segment selling \"know your data\" is the worst-scoring segment inside it, publishing a contract 13.4% of the time against the warehouses' 53.1%.",
+    "tagline": "One of the best-scoring markets in the catalog — and the segment selling \"know your data\" is the worst-scoring segment inside it, publishing a contract 16.5% of the time against the warehouses' 49.0%.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-data-analytics-apis.png"
@@ -602,7 +602,7 @@
   {
     "slug": "state-of-education-apis",
     "title": "The State of Education & EdTech APIs",
-    "tagline": "The library out-publishes the classroom — scholarly infrastructure publishes a contract 70.8% of the time, corporate learning 0% — and seven organizations in 814 run an MCP server, the lowest of any market scored.",
+    "tagline": "The library out-publishes the classroom — scholarly infrastructure publishes a contract 51.0% of the time, corporate learning 0% — and thirty-four organizations in 810 run an MCP server, the lowest of any market scored.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-education-apis.png"
@@ -618,7 +618,7 @@
   {
     "slug": "state-of-legal-compliance-apis",
     "title": "The State of Legal & Compliance APIs",
-    "tagline": "The contract lifecycle management segment publishes the fewest contracts in its own market — 18.2% against e-signature's 55.0% — and the market that sells governance scores 9.1 on it.",
+    "tagline": "The contract lifecycle management segment publishes the fewest contracts in its own market — 18.2% against e-signature's 55.0% — and the market that sells governance scores 9.4 on it.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-legal-compliance-apis.png"
@@ -658,7 +658,7 @@
   {
     "slug": "state-of-supply-chain-apis",
     "title": "The State of Supply Chain APIs",
-    "tagline": "The industry that moves the physical economy publishes idempotency at 1.2% — thirteen companies out of 1,124 — in the one market where a retried request dispatches a second truck.",
+    "tagline": "The industry that moves the physical economy publishes idempotency at 1.3% — fifteen companies out of 1,154 — in the one market where a retried request dispatches a second truck.",
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-supply-chain-apis.png"
@@ -824,6 +824,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/the-api-rating-rubric-explained.png"
   },
   {
+    "slug": "the-arazzo-standard",
+    "title": "The Arazzo Standard",
+    "tagline": "812 Arazzo documents exist across all of public GitHub. API Evangelist holds 5,276. And the market adopted the specification as a test format, not a description format.",
+    "area": "Standard Report",
+    "price": "0",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-arazzo-standard.png"
+  },
+  {
     "slug": "the-ard-standard",
     "title": "The ARD Standard",
     "tagline": "Eleven of the largest agent builders specified the discovery layer. Nine companies publish it, seven of them are outsiders, none is fully conformant — and two fail on the specification's own stale documentation.",
@@ -834,7 +842,7 @@
   {
     "slug": "the-asyncapi-standard",
     "title": "The AsyncAPI Standard",
-    "tagline": "Across 25,574 providers, not one publishes an AsyncAPI document — but 125 describe their events in OpenAPI instead. In its own strongest segment, AsyncAPI is losing 87 to nothing.",
+    "tagline": "Across 26,722 providers, exactly one publishes an AsyncAPI document — and 159 describe their events in OpenAPI instead. In its own strongest segment, AsyncAPI is losing 159 to one.",
     "area": "Standard Report",
     "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-asyncapi-standard.png"
@@ -848,12 +856,28 @@
     "cover": "https://papers.apievangelist.com/assets/covers/the-camara-standard.png"
   },
   {
+    "slug": "the-graphql-standard",
+    "title": "The GraphQL Standard",
+    "tagline": "793 providers publish a GraphQL schema defining 69,521 types — the second-largest description corpus measured here, and the one JSON Schema cannot reach.",
+    "area": "Standard Report",
+    "price": "0",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-graphql-standard.png"
+  },
+  {
     "slug": "the-json-schema-standard",
     "title": "The JSON Schema Standard",
     "tagline": "9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.",
     "area": "Standard Report",
     "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-json-schema-standard.png"
+  },
+  {
+    "slug": "the-list-of-list-sellers",
+    "title": "The List of List Sellers",
+    "tagline": "The people who email me to sell other people's contact data, recorded as contact data — with the machine-readable file attached.",
+    "area": "Fundamentals",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-list-of-list-sellers.png"
   },
   {
     "slug": "the-mcp-standard",
@@ -886,6 +910,14 @@
     "area": "Standard Report",
     "price": "0",
     "cover": "https://papers.apievangelist.com/assets/covers/the-openid-connect-standard.png"
+  },
+  {
+    "slug": "the-overlay-standard",
+    "title": "The OpenAPI Overlay Standard",
+    "tagline": "122 stars, 21 contributors, two people writing four fifths of it — and Elastic, MongoDB, Cloudinary and Vercel running it in production. Attention and adoption have come apart.",
+    "area": "Standard Report",
+    "price": "0",
+    "cover": "https://papers.apievangelist.com/assets/covers/the-overlay-standard.png"
   },
   {
     "slug": "the-pricing-of-ai-apis",

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'Sadq Holding Limited publishes 14 APIs on the [APIs.io](https://apis.
 
 
   Sadq Holding Limited''s developer surface includes documentation, API reference, quickstart, signup flow, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 28
+random_paper: 80
 scopes:
 - name: Sadq Holding Limited Scopes
   scope_count: 4
@@ -223,7 +223,7 @@ scopes:
 score:
   band: developing
   composite: 48.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.8
@@ -231,7 +231,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 48.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

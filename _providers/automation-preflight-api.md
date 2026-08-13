@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Automation Preflight Api Plans
   plan_count: 4
   slug: automation-preflight-api-plans
-random_paper: 22
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.6
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 54.3
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

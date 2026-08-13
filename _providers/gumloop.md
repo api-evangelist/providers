@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 5
@@ -234,7 +234,7 @@ overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 25 more developer resources.'
-random_paper: 75
+random_paper: 51
 scopes:
 - name: Gumloop Scopes
   scope_count: 5
@@ -243,7 +243,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 68.7
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 59.2
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/screenshots/gumloop-2026-07-25T220434.png
 security:

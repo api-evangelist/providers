@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Helsinki(FI) City Open Data
@@ -56,7 +56,7 @@ name: City, Helsinki
 nav: Providers
 network: true
 overview: City, Helsinki publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 65
+random_paper: 21
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/city-helsinki/refs/heads/main/screenshots/city-helsinki-2026-06-20T174421.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The access-management API from Upwind — 10 operation(s) for access-management.
@@ -270,7 +270,7 @@ overview: 'Upwind publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
-random_paper: 83
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Upwind Rate Limits
@@ -283,7 +283,7 @@ scopes:
 score:
   band: strong
   composite: 61.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.7
@@ -291,7 +291,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 65.8
-  previous_composite: 61.8
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
@@ -302,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

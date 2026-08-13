@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ overview: 'Rho Protocol publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rho Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 96
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Rho Protocol Rate Limits
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.4
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 54.9
@@ -200,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 40.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,7 +218,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

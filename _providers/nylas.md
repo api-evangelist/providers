@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Nylas Plans Pricing
   plan_count: 3
   slug: nylas-plans-pricing
-random_paper: 87
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Nylas Rate Limits
@@ -162,7 +162,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.9
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 45.3
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:
 - kind: authentication

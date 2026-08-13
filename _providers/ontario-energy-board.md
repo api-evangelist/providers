@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
@@ -173,11 +173,11 @@ overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 52
+random_paper: 104
 score:
   band: thin
   composite: 37.5
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 58.3
@@ -185,7 +185,7 @@ score:
     discoverability: 75.9
     governance: 31.3
     operational_transparency: 15.8
-  previous_composite: 40.1
+  previous_composite: 37.5
   provenance:
     conformance: first-party
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

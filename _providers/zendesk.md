@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1250,7 +1250,7 @@ plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 17
   name: Zendesk Rate Limits
@@ -1288,7 +1288,7 @@ scopes:
 score:
   band: strong
   composite: 59.4
-  delta: -9.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 58.6
@@ -1296,7 +1296,7 @@ score:
     discoverability: 57.4
     governance: 53.1
     operational_transparency: 55.3
-  previous_composite: 68.8
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1307,8 +1307,8 @@ score:
       total: 80
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:
 - kind: authentication

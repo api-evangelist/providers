@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,11 +193,11 @@ overview: 'Ualá publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
-random_paper: 90
+random_paper: 82
 score:
   band: developing
   composite: 49.7
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.7
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +223,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

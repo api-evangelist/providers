@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ overview: 'Usersnap publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 69
+random_paper: 41
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
@@ -254,7 +254,7 @@ scopes:
 score:
   band: strong
   composite: 62.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.6
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 62.7
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

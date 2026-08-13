@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1824,7 +1824,7 @@ rules:
 score:
   band: strong
   composite: 61.4
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.4
@@ -1832,7 +1832,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 67.3
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1841,8 +1841,8 @@ score:
       marker_coverage: 95.0
       total: 322
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:
 - kind: authentication

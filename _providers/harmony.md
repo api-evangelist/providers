@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,13 +42,10 @@ apis:
   name: Harmony tickets API
   slug: harmony-tickets-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a service-desk ticket, read it back, triage it, and audit the change.
   name: Harmony — create and triage an IT ticket
   slug: harmony-create-and-triage-ticket
-artifact_total: 8
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -146,7 +143,7 @@ overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: t
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 70
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Harmony Rate Limits
@@ -154,7 +151,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.8
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.5
@@ -162,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 45.9
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:

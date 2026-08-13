@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -478,7 +478,7 @@ press:
 - date: '2026-05-25'
   title: Why Aflac isn't rushing generative AI adoption
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
-random_paper: 39
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Aflac Rate Limits
@@ -508,7 +508,7 @@ scopes:
 score:
   band: thin
   composite: 37.6
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 24.3
@@ -516,7 +516,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 39.7
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -525,7 +525,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:

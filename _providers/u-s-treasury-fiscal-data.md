@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: U S Treasury Fiscal Data Plans Pricing
   plan_count: 3
   slug: u-s-treasury-fiscal-data-plans-pricing
-random_paper: 23
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: U S Treasury Fiscal Data Rate Limits
@@ -288,7 +288,7 @@ rules:
 score:
   band: thin
   composite: 28.0
-  delta: -9.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 28.2
@@ -296,7 +296,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 37.4
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -311,8 +311,8 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png
 security:
 - kind: domain-security

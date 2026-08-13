@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 1
@@ -246,7 +246,7 @@ plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
   slug: hong-kong-baptist-university-plans-pricing
-random_paper: 91
+random_paper: 115
 rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: developing
   composite: 42.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.2
@@ -279,7 +279,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.0
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/screenshots/hong-kong-baptist-university-2026-06-20T182824.png
 security:

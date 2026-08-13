@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -184,11 +184,11 @@ overview: 'DemandSphere publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 104
+random_paper: 64
 score:
   band: developing
   composite: 54.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.5
@@ -196,7 +196,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 54.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,7 +208,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/screenshots/demandsphere-2026-07-25T211708.png
 security:

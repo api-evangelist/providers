@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
@@ -204,11 +204,11 @@ overview: 'LeaseAccelerator publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 55
+random_paper: 119
 score:
   band: developing
   composite: 54.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.5
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 55.9
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     contracts:
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:

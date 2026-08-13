@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Midjourney Plans Pricing
   plan_count: 5
   slug: midjourney-plans-pricing
-random_paper: 50
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Midjourney Rate Limits
@@ -151,7 +151,7 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 82.4
@@ -159,7 +159,7 @@ score:
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 46.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/screenshots/midjourney-2026-06-20T185557.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that connects governed enterprise data sources into a sandboxed agent workspace. OAuth 2.0 (WorkOS AuthKit) protected; requires a bearer token.
@@ -120,7 +120,7 @@ overview: 'Marco Polo publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Marco Polo''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, CLI, and 11 more developer resources.'
-random_paper: 89
+random_paper: 57
 scopes:
 - name: Marco Polo Scopes
   scope_count: 0
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 25.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -137,12 +137,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 26.4
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marco-polo/refs/heads/main/screenshots/marco-polo-2026-07-25T230151.png
 security:

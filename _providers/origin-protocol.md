@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -156,7 +156,7 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 
 
   Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 67
+random_paper: 15
 score:
   band: thin
   composite: 31.1
@@ -179,7 +179,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

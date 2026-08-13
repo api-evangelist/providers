@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -247,7 +247,7 @@ plans:
 - name: Slashid Plans Pricing
   plan_count: 3
   slug: slashid-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Slashid Rate Limits
@@ -264,7 +264,7 @@ rules:
 score:
   band: developing
   composite: 55.7
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.9
@@ -272,7 +272,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 53.7
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -281,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:

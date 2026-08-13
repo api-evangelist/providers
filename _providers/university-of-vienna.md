@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: University Of Vienna Plans Pricing
   plan_count: 2
   slug: university-of-vienna-plans-pricing
-random_paper: 94
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: University Of Vienna Rate Limits
@@ -199,7 +199,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.7
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 40.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +222,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/screenshots/university-of-vienna-2026-06-20T200302.png
 security:

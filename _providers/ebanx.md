@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
   slug: ebanx-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Ebanx Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: developing
   composite: 43.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 76.5
@@ -197,7 +197,7 @@ score:
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 44.3
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:

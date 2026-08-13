@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OAuth2-secured REST API for consuming Dataminr real-time alerts and managing watchlists/lists. Token flow at /auth/2/token; alert polling at /api/3/alerts; account and list management at /account/2/*.
@@ -116,11 +116,11 @@ overview: 'Dataminr publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dataminr''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: emerging
   composite: 26.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -128,11 +128,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 27.3
+  previous_composite: 26.2
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataminr/refs/heads/main/screenshots/dataminr-2026-07-25T211346.png
 security:

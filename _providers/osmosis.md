@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,11 +193,11 @@ overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: developing
   composite: 52.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.0
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.3
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,7 +217,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/screenshots/osmosis-2026-08-07T191013.png
 security:

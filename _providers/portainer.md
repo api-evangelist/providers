@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -221,7 +221,7 @@ plans:
 - name: Portainer Plans Pricing
   plan_count: 3
   slug: portainer-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Portainer Rate Limits
@@ -229,7 +229,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.7
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 51.7
@@ -237,7 +237,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.3
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +246,8 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:
 - kind: authentication

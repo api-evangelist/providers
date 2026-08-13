@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -611,7 +611,7 @@ overview: 'MTN Group publishes 115 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 43 more developer resources.'
-random_paper: 9
+random_paper: 97
 scopes:
 - name: Mtn Group Scopes
   scope_count: 2
@@ -620,7 +620,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.9
@@ -628,7 +628,7 @@ score:
     discoverability: 57.4
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 50.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -646,7 +646,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:

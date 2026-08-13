@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
@@ -155,11 +155,11 @@ overview: 'Evercontact publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Evercontact''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 22
+random_paper: 102
 score:
   band: developing
   composite: 47.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -167,12 +167,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 48.1
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/screenshots/evercontact-2026-07-25T213720.png
 security:

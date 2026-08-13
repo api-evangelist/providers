@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -91,13 +91,10 @@ apis:
   name: DataStax VPC Peering API
   slug: datastax-vpc-peering-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Creates a serverless Astra DB database, waits for it to become active, adds a keyspace, downloads the secure-connect bundle, and issues an application token scoped to the org roles — all against the A
   name: Provision an Astra database and issue a scoped token
   slug: datastax-provision-database
-artifact_total: 24
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -243,7 +240,7 @@ overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 46
+random_paper: 18
 scopes:
 - name: Datastax Scopes
   scope_count: 15
@@ -252,7 +249,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 59.5
@@ -260,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 53.8
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,7 +269,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

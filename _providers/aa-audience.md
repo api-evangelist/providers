@@ -27,42 +27,71 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/aa-audience-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aa-audience-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aa-audience-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://aaaudi.com
+coverage:
+  checked: '2026-08-12'
+  detail: AA Audience ships no software to integrate with - the whole product is delivered through third-party DSPs and DMPs, and its five-page S3-hosted marketing site (homepage unchanged since March 2018) has no developer page, no docs, no spec at any path, and a Login link that is a dead href="#" button on a page with no form.
+  evidence:
+  - status: 200
+    url: https://aaaudi.com/
+  - status: 403
+    url: https://aaaudi.com/openapi.json
+  - status: 403
+    url: https://aaaudi.com/.well-known/agent-card.json
+  - status: 403
+    url: https://aaaudi.com/llms.txt
+  - status: 0
+    url: https://docs.aaaudi.com
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: AA Audience is an adtech and data company that estimates a mobile user's credit score from their online activity using proprietary machine learning models. It collects data from partner mobile apps and ad networks, analyzes it, and connects with popular DSPs and DMPs so its clients - banks, credit card companies, and financial services firms - can target audiences interested in credit cards, loans, and financial services with guaranteed ROI. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public API, developer portal, or documentation surface was found during enrichment (the site is a single static marketing page).
+description: AA Audience is an adtech and data company that estimates a mobile user's credit score from their online activity using proprietary machine learning models. It collects data from partner mobile apps and ad networks, analyzes it, and connects with popular DSPs and DMPs so its clients - banks, credit card companies, and financial services firms - can target audiences interested in credit cards, loans, and financial services with guaranteed ROI. Publishers integrate a JavaScript header-bidding tag to enrich their bid stream; advertisers buy segments into their own DMP or as a DealID for their DSP, from a stated floor of $1 CPM. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public API, developer portal, documentation, specification, SDK, or public repository was found during enrichment - the site is five static HTML pages served from an S3 bucket whose homepage has not changed since March 2018, and the Login link in the navigation is a
+  dead button on a page with no form.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aa-audience.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: AA Audience
 nav: Providers
 network: true
 overview: AA Audience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Data, Machine Learning, and Credit Scoring.
-random_paper: 25
+plans:
+- name: Aa Audience Plans Pricing
+  plan_count: 0
+  slug: aa-audience-plans-pricing
+random_paper: 109
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 5.7
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aa-audience/refs/heads/main/screenshots/aa-audience-2026-07-25T181314.png
 security:

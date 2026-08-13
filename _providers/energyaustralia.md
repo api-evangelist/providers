@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'EnergyAustralia publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 108
+random_paper: 56
 scopes:
 - name: Energyaustralia Scopes
   scope_count: 12
@@ -190,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 44.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.2
@@ -198,7 +198,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 46.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,7 +216,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png
 security:

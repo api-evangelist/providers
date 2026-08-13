@@ -1,71 +1,207 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Public storefront commerce API, no developer program
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - authentication
+  - openapi
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 45.5
+  scored_at: '2026-08-12'
+api_count: 4
+apis:
+- description: The public REST surface of the MODIVO storefront, served by its Adobe Commerce / Magento 2.4 deployment at https://modivo.pl/rest/all and self-described by a Swagger 2.0 document the platform generate
+  name: MODIVO Commerce REST API
+  slug: modivo-commerce-rest-api
+- description: The GraphQL endpoint that powers the MODIVO storefront and mobile applications, exposed at https://modivo.pl/graphql with introspection left open to anonymous callers. The schema carries 770 types, 11
+  name: MODIVO Storefront GraphQL API
+  slug: modivo-storefront-graphql-api
+- description: The public REST surface of eobuwie.com.pl, the MODIVO Group's footwear storefront, served by its own Adobe Commerce / Magento 2.4 deployment and self-described at https://eobuwie.com.pl/rest/all/schem
+  name: eobuwie Commerce REST API
+  slug: eobuwie-commerce-rest-api
+- description: MODIVO's third-party marketplace runs on a Mirakl tenant at modivo.mirakl.net. Sellers automate offers, stock, prices, orders and tracking numbers through the standard Mirakl Marketplace Seller API on
+  name: MODIVO Marketplace Seller API (Mirakl)
+  slug: modivo-marketplace-seller-api-mirakl
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Modivo Webhooks
+  slug: modivo-webhooks
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/modivo-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://modivo.pl/
+- group: other
+  title: ''
+  type: Company
+  url: https://modivoplatform.com/en
+- group: operate
+  title: ''
+  type: Support
+  url: https://modivo.pl/b/centrum-pomocy
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://modivo.pl/b/centrum-pomocy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://modivo.pl/login
+- group: start
+  title: ''
+  type: Login
+  url: https://modivo.pl/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://modivo.pl/b/regulamin-sklepu
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://modivo.pl/b/regulamin_prywatnosci
+- group: company
+  title: ''
+  type: Blog
+  url: https://advertising.modivo.com/news
+- group: other
+  title: ''
+  type: Advertising
+  url: https://advertising.modivo.com/
+- group: company
+  title: ''
+  type: Careers
+  url: https://praca.modivo.pl/technologia-i-produkt
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://modivoplatform.com/en/investors
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/modivo-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/modivo-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/modivo-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/modivo-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/modivo-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/modivo-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/modivo-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/modivo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/modivo-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/modivo-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/modivo-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/modivo-domain-security.yml
 created: '2026-07-17'
-description: MODIVO is a Polish multibrand online fashion retailer operating one of the largest fashion e-commerce platforms in Central and Eastern Europe, offering more than 300,000 products from over 1,700 brands across women's, men's, and children's clothing, footwear, accessories, and beauty. Part of the MODIVO Group (alongside eobuwie.pl), the company is a consumer-technology portfolio company of SoftBank Vision Fund and also runs MODIVO Platform (a commerce technology offering) and MODIVO Advertising (a retail-media network). As of this enrichment pass MODIVO publishes no public developer portal, API documentation, or machine-readable API surface.
+description: 'MODIVO is a Polish multibrand fashion and lifestyle retailer that operates one of the largest fashion e-commerce platforms in Central and Eastern Europe, selling clothing, footwear, accessories, beauty and home products from more than a thousand brands across Poland, the Czech Republic, Slovakia, Romania, Hungary, Ukraine, the Baltics and Western Europe. MODIVO S.A. is the listed parent of the former CCC Group (renamed MODIVO S.A. in February 2026) and the group behind the eobuwie.pl, CCC, HalfPrice, worldbox and DeeZee retail brands; the MODIVO storefront company itself is the former eobuwie.pl S.A., a consumer-technology investment of SoftBank Vision Fund. MODIVO does not run a developer portal, but its storefront is an Adobe Commerce (Magento 2.4) deployment that serves two live, publicly readable machine contracts from its own domain: a self-describing Swagger 2.0 REST schema at https://modivo.pl/rest/all/schema?services=all and an openly introspectable GraphQL endpoint
+  at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group''s retail-media platform spanning MODIVO and eobuwie.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modivo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: MODIVO
 nav: Providers
 network: true
-overview: MODIVO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-Commerce, and Retail.
-random_paper: 74
+overview: 'MODIVO publishes 2 APIs on the [APIs.io](https://apis.io/) network: Commerce REST API and eobuwie Commerce REST API. Tagged areas include Company, Consumer, Fashion, E-Commerce, and Retail.
+
+
+  The MODIVO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  MODIVO''s developer surface includes support, signup flow, engineering blog, authentication, and 21 more developer resources.'
+plans:
+- name: Modivo Plans Pricing
+  plan_count: 0
+  slug: modivo-plans-pricing
+random_paper: 54
+rate_limits:
+- limit_count: 0
+  name: Modivo Rate Limits
+  slug: modivo-rate-limits
 score:
-  band: minimal
-  composite: 5.0
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: 32.5
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 34.2
+    contract_quality: 55.9
+    developer_ergonomics: 23.9
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 7.9
   previous_composite: 5.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png
 security:
+- kind: authentication
+  name: Modivo Authentication
+  slug: modivo-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Modivo Domain Security
   slug: modivo-domain-security
@@ -79,5 +215,13 @@ tags:
 - Retail
 - Marketplace
 - Retail Media
+- Commerce
+- Checkout
+- Catalog
+- GraphQL
+- Adobe Commerce
+- Magento
+- Poland
+- Central Europe
 website: https://modivo.pl/
 ---

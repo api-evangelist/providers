@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Murex Plans Pricing
   plan_count: 3
   slug: murex-plans-pricing
-random_paper: 97
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Murex Rate Limits
@@ -221,7 +221,7 @@ rules:
 score:
   band: developing
   composite: 45.1
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 68.7
@@ -229,7 +229,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 52.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +244,8 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:
 - kind: authentication

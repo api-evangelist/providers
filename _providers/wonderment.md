@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,10 @@ apis:
   name: Wonderment Shipments API
   slug: wonderment-shipments-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List the authenticated shop's shipment report exports and download the most recent finished, non-expired report.
   name: Wonderment — export and download a shipment report
   slug: wonderment-report-export
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Wonderment Webhooks
@@ -164,11 +161,11 @@ overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 47
+random_paper: 11
 score:
   band: thin
   composite: 39.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 70.6
@@ -176,7 +173,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 40.6
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +185,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

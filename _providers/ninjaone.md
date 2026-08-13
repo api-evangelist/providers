@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -237,7 +237,7 @@ overview: 'NinjaOne publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 38
+random_paper: 10
 scopes:
 - name: Ninjaone Scopes
   scope_count: 4
@@ -246,7 +246,7 @@ scopes:
 score:
   band: developing
   composite: 49.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 57.2
@@ -254,7 +254,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 50.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Alpic''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 57
+random_paper: 41
 scopes:
 - name: Alpic Scopes
   scope_count: 3
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 58.8
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 50.5
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/screenshots/alpic-2026-07-25T195808.png
 security:

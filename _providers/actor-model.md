@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Actor Model
 nav: Providers
 network: true
-random_paper: 67
+random_paper: 31
 slug: actor-model
 tags:
 - Actor Model

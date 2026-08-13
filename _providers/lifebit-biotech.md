@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The REST API behind the Lifebit Platform (CloudOS): manage workspace projects, job queues, workflows/pipelines, Nextflow and Cromwell/WDL job submission and monitoring, interactive analysis sessions, '
@@ -197,11 +197,11 @@ overview: 'Lifebit Biotech publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 29 more developer resources.'
-random_paper: 6
+random_paper: 74
 score:
   band: thin
   composite: 34.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -209,7 +209,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.8
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -220,7 +220,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifebit-biotech/refs/heads/main/screenshots/lifebit-biotech-2026-07-25T225038.png
 security:

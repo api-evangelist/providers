@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -171,16 +171,13 @@ apis:
   name: Narmi wires API
   slug: narmi-wires-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Pick a funding account and create an ACH payment idempotently, then read it back.
   name: Originate a Narmi ACH payment
   slug: narmi-originate-ach-payment
 - description: Authenticate, list accounts, read balances, and pull an account's transactions.
   name: Read Narmi accounts, balances, and transactions
   slug: narmi-read-accounts
-artifact_total: 98
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Narmi Webhooks
@@ -482,7 +479,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 29 more developer resources.'
-random_paper: 71
+random_paper: 55
 scopes:
 - name: Narmi Scopes
   scope_count: 11
@@ -491,7 +488,7 @@ scopes:
 score:
   band: strong
   composite: 56.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 70.3
@@ -499,7 +496,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 57.9
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -517,7 +514,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:

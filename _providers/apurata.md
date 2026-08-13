@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Financing configuration and limits
@@ -203,11 +203,11 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apurata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 54
+random_paper: 30
 score:
   band: developing
   composite: 50.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.6
@@ -215,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 51.8
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -232,7 +232,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

@@ -18,9 +18,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -62,6 +62,14 @@ common:
   title: ''
   type: Careers
   url: https://www.breef.com/careers
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.breef.com/demo
+- group: operate
+  title: ''
+  type: Community
+  url: https://www.breef.com/community-standards
 - group: commercial
   title: ''
   type: TermsOfService
@@ -70,10 +78,22 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.breef.com/privacy-policy
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://www.breef.com/cookie-policy
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/breef
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/breefwork
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/breef-plans-pricing.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -83,19 +103,29 @@ common:
   type: LLMsTxt
   url: llms/breef-llms.txt
 coverage:
-  checked: '2026-08-08'
-  detail: Breef ships only an end-user SaaS product — its 483-URL sitemap carries no developer, API, docs or integrations page, no api./developer./docs.breef.com host resolves to a live origin, and the only machine-readable contract on the estate is the Django REST Framework schema behind the customer application at projects.breef.com/api/schema/, which returns 403 "Authentication credentials were not provided" to anonymous callers.
+  checked: '2026-08-12'
+  detail: 'Breef ships only an end-user SaaS product: its 483-URL sitemap carries no developer, API, docs or integrations page, no api./developer./docs./app./mcp.breef.com hostname resolves at all, and no npm, PyPI, RubyGems, crates.io or Packagist package exists — the only machine-readable contract on the estate is the customer application''s own Django REST Framework schema at projects.breef.com/api/schema/, which negotiates application/vnd.oai.openapi but answers anonymous callers with 403 "Authentication credentials were not provided", so it is an internal app backend rather than a published developer program.'
   evidence:
   - status: 200
     url: https://www.breef.com/sitemap.xml
   - status: 404
     url: https://www.breef.com/openapi.json
   - status: 404
+    url: https://www.breef.com/developers
+  - status: 404
+    url: https://www.breef.com/integrations
+  - status: 404
     url: https://www.breef.com/.well-known/api-catalog
   - status: 404
+    url: https://www.breef.com/.well-known/agent-card.json
+  - status: 404
     url: https://www.breef.com/llms.txt
+  - status: 404
+    url: https://projects.breef.com/graphql
   - status: 200
     url: https://projects.breef.com/api/
+  - status: 401
+    url: https://projects.breef.com/api/agencies/agency-case-studies
   - status: 403
     url: https://projects.breef.com/api/schema/
   reason: no-developer-program
@@ -104,27 +134,31 @@ created: '2026-08-08'
 description: 'Breef is an online agency marketplace and payments platform that connects brands with vetted marketing, creative, digital and web agencies. Founded in New York in 2019 as Curated and rebranded to Breef in 2021, the company is now headquartered in Denver. Brands scope a project on the platform, receive curated pitches from hand-picked agencies across 50+ project types in days rather than months, and then run contracts, milestones and payments through Breef — including Breef(Pay), its agency-now-pay-later payment product. The network spans roughly 25,000 vetted agencies across 27 countries. Breef is a hosted end-user SaaS product: it publishes no public developer program, API reference, SDK or webhook surface.'
 image: https://cdn.prod.website-files.com/5e4d24d0d11c7440ba421ee3/695fecd6ab2c876120054eb4_855332ca372b2b87e1b97fff133e4083_breef.com.jpg
 layout: provider
-modified: '2026-08-08'
+modified: '2026-08-12'
 name: Breef
 nav: Providers
 network: true
 overview: 'Breef is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, Agencies, and Marketplace.
 
 
-  Breef''s developer surface includes pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 52
+  Breef''s developer surface includes pricing, signup flow, support, engineering blog, and 16 more developer resources.'
+plans:
+- name: Breef Plans Pricing
+  plan_count: 3
+  slug: breef-plans-pricing
+random_paper: 36
 score:
   band: emerging
-  composite: 16.9
-  delta: -0.9
+  composite: 22.2
+  delta: 5.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: tags
@@ -132,8 +166,8 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Breef Domain Security

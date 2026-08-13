@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -173,11 +173,11 @@ overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 62
+random_paper: 42
 score:
   band: thin
   composite: 38.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 56.5
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.2
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Budbee's public REST API for e-commerce merchants and integration partners to create delivery orders, book home and locker delivery intervals, validate serviceable postal codes, discover parcel locker
@@ -139,7 +139,7 @@ overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Instabee''s developer surface includes documentation, API reference, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Instabee Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -155,11 +155,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 43.7
+  previous_composite: 42.6
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabee/refs/heads/main/screenshots/instabee-2026-07-25T222557.png
 security:

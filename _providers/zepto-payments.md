@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -257,7 +257,7 @@ overview: 'Zepto publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 33 more developer resources.'
-random_paper: 96
+random_paper: 48
 scopes:
 - name: Zepto Payments Scopes
   scope_count: 9
@@ -266,7 +266,7 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.3
@@ -274,7 +274,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 59.8
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +292,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

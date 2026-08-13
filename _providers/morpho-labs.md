@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Morpho's public GraphQL API providing real-time and historical onchain and offchain data across Morpho Blue markets, Morpho Vaults (V1 and V2), Midnight fixed-rate markets, user positions, curators, o
@@ -164,7 +164,7 @@ overview: 'Morpho Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Morpho Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 80
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Morpho Labs Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -180,13 +180,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 76.3
-  previous_composite: 35.7
+  previous_composite: 34.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpho-labs/refs/heads/main/screenshots/morpho-labs-2026-08-07T184313.png
 security:

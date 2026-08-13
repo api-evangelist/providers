@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The REST API served by every Qumulo cluster for managing files, snapshots, quotas, replication, multi-protocol shares (NFS/SMB/S3/FTP), networking, cluster lifecycle, monitoring/analytics, and access '
@@ -148,7 +148,7 @@ overview: 'Qumulo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qumulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 18 more developer resources.'
-random_paper: 95
+random_paper: 75
 score:
   band: thin
   composite: 37.5
@@ -164,7 +164,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

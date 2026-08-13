@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -364,11 +364,11 @@ overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 41
+random_paper: 17
 score:
   band: developing
   composite: 54.5
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.1
@@ -376,7 +376,7 @@ score:
     discoverability: 63.0
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 57.4
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +388,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

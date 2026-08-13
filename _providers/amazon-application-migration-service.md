@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -1056,7 +1056,7 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
 
 
   Amazon Application Migration Service''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 80
+random_paper: 76
 rules:
 - name: Amazon Application Migration Service API Rules
   rule_count: 5
@@ -1077,7 +1077,7 @@ rules:
 score:
   band: thin
   composite: 37.8
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 76.1
@@ -1085,7 +1085,7 @@ score:
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 38.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1096,7 +1096,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

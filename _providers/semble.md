@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: GraphQL queries and mutations over the Semble patient record — patients, demographics, phone numbers, relationships, labels, memberships, access groups, allergy records, free-text records, patient doc
@@ -165,7 +165,7 @@ overview: 'Semble publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Semble''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 52
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Semble Rate Limits
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.2
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -181,7 +181,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 71.1
-  previous_composite: 52.4
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     skills: derived
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

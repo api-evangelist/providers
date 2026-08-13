@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Patlytics Patent Search connector — a hosted Model Context Protocol server (Streamable HTTP) that brings concept-level, AI-native patent intelligence into MCP clients such as Claude. Five read-onl
@@ -151,7 +151,7 @@ overview: 'Patlytics publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Patlytics'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 61
+random_paper: 29
 scopes:
 - name: Patlytics Scopes
   scope_count: 2
@@ -173,7 +173,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patlytics/refs/heads/main/screenshots/patlytics-2026-08-07T191555.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -343,7 +343,7 @@ plans:
 - name: Unit Co Plans Pricing
   plan_count: 2
   slug: unit-co-plans-pricing
-random_paper: 7
+random_paper: 103
 rate_limits:
 - limit_count: 4
   name: Unit Co Rate Limits
@@ -356,7 +356,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 62.7
@@ -364,7 +364,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 94.7
-  previous_composite: 70.0
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,7 +382,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:

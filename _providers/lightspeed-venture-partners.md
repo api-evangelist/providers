@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Lightspeed Venture Partners
 nav: Providers
 network: true
-random_paper: 27
+random_paper: 51
 slug: lightspeed-venture-partners
 tags:
 - Venture Capital

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Cross River Operating System (COS) API is Cross River's API-driven bank core, exposing Accounts and Payments products (ACH, RTP, FedNow, wires, international payments, cards, subledgers, and lendi
@@ -112,7 +112,7 @@ overview: 'CRB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CRB''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 9 more developer resources.'
-random_paper: 79
+random_paper: 71
 score:
   band: emerging
   composite: 26.0
@@ -132,7 +132,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/screenshots/crb-2026-07-25T210659.png
 security:

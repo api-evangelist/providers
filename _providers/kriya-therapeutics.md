@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -186,11 +186,11 @@ overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
-random_paper: 30
+random_paper: 86
 score:
   band: thin
   composite: 30.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.4
@@ -198,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.1
+  previous_composite: 30.6
   provenance:
     conformance: derived
     contracts:
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:

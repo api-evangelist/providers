@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -688,7 +688,7 @@ plans:
 - name: Windmill Plans Pricing
   plan_count: 3
   slug: windmill-plans-pricing
-random_paper: 52
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Windmill Rate Limits
@@ -713,7 +713,7 @@ rules:
 score:
   band: developing
   composite: 55.4
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 55.5
@@ -721,7 +721,7 @@ score:
     discoverability: 68.5
     governance: 37.5
     operational_transparency: 50.0
-  previous_composite: 62.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -730,8 +730,8 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:
 - kind: authentication

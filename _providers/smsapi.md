@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Smsapi Plans Pricing
   plan_count: 3
   slug: smsapi-plans-pricing
-random_paper: 73
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Smsapi Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 55.8
@@ -162,7 +162,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.0
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

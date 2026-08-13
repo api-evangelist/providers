@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -229,11 +229,11 @@ overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   watchTowr''s developer surface includes documentation, developer portal, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 67
+random_paper: 35
 score:
   band: developing
   composite: 42.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.7
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 44.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

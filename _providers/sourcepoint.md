@@ -9,25 +9,26 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 50.5
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
@@ -48,8 +49,12 @@ apis:
 - description: REST API exposing aggregated dashboard data for GDPR and U.S. Multi-State Privacy campaigns, including pageview and message data filtered by period for dashboard and BI integration. Powers the Sourcep
   name: Sourcepoint Reporting API
   slug: sourcepoint-reporting-api
-artifact_total: 22
+artifact_total: 28
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sourcepoint-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -210,6 +215,122 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/sourcepoint
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sourcepoint-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sourcepoint-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/sourcepoint-api-catalog.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sourcepoint-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/sourcepoint-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sourcepoint-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sourcepoint-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sourcepoint-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.sourcepoint.com/trust-and-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/sourcepoint-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sourcepoint-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.sourcepoint.com/trust-and-security/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sourcepoint-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sourcepoint-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sourcepoint-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sourcepoint-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/sourcepoint-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sourcepoint-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sourcepoint-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sourcepoint-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sourcepoint-public-api.readme.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://sourcepoint-public-api.readme.io/reference/welcome-to-the-sourcepoint-api-hub
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.sourcepoint.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sourcepoint.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sourcepoint.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: PrivacyNotice
+  url: https://www.sourcepoint.com/privacy-notice/
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.sourcepoint.com
+- group: company
+  title: ''
+  type: Press
+  url: https://www.sourcepoint.com/press/
 created: '2026-05-25'
 description: Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global publishers and brands — including Axel Springer, Bauer Media, CNN International, Future, Haymarket, LADBible, Autotrader, and Ancestry — to handle GDPR, CCPA, U.S. Multi-State Privacy (USNAT), LGPD, and other regulations under the IAB TCF v2.2 and IAB Global Privacy Platform (GPP) frameworks. Sourcepoint products include the multi-campaign CMP across web, AMP, mobile (iOS, Android, React Native), Unity, Roku, HTML5 OTT and CTV surfaces, Compliance Monitoring (Diagnose), DSAR Handling, Universal Consent & Preferences, Marketing Preferences, Privacy Lens, and tooling for ad-block recovery. The Sourcepoint Public API exposes REST endpoints for GDPR TCF, GDPR Standard, U.S. Multi-State Privacy,
   Global Enterprise consent, and Preferences history, plus reporting endpoints for dashboards. Sourcepoint technology powers over 30 billion consumer touchpoints per month. In July 2025, Sourcepoint was acquired by Paris-based Didomi (a Marlin Equity Partners portfolio company) to consolidate global consent management; Sourcepoint continues to operate under its existing brand and developer surface during integration.
@@ -231,36 +352,60 @@ features:
 - Approximately 30 billion consumer touchpoints powered per month
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourcepoint.png
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: sourcepoint-mcp.yml
+  slug: sourcepoint-mcpyml
+modified: '2026-08-12'
 name: Sourcepoint
 nav: Providers
 network: true
-overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
+overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including GDPR TCF API, GDPR Standard API, U.S. Multi-State Privacy API, and 3 more. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
 
 
-  Sourcepoint''s developer surface includes developer portal, documentation, pricing, signup flow, engineering blog, product news, tooling, and 33 more developer resources.'
-random_paper: 51
+  Sourcepoint''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, product news, and 63 more developer resources.'
+plans:
+- name: Sourcepoint Plans Pricing
+  plan_count: 3
+  slug: sourcepoint-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Sourcepoint Rate Limits
+  slug: sourcepoint-rate-limits
 score:
-  band: emerging
-  composite: 18.9
-  delta: 2.7
+  band: strong
+  composite: 61.0
+  delta: 42.1
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 16.2
+    commercial_clarity: 92.1
+    contract_quality: 45.4
+    developer_ergonomics: 82.6
+    discoverability: 81.5
+    governance: 20.8
+    operational_transparency: 31.6
+  previous_composite: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:
+- kind: authentication
+  name: Sourcepoint Authentication
+  slug: sourcepoint-authentication
+  summary_line: apiKey/none · 2 schemes
 - kind: domain-security
   name: Sourcepoint Domain Security
   slug: sourcepoint-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Sourcepoint Vulnerability Disclosure
+  slug: sourcepoint-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Sourcepoint Trust Center
+  slug: sourcepoint-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27701
 slug: sourcepoint
 tags:
 - Privacy

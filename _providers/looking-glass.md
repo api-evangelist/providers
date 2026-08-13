@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Playlists that auto-play when Bridge starts
@@ -163,11 +163,11 @@ overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 62
+random_paper: 18
 score:
   band: thin
   composite: 40.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 44.0
@@ -175,7 +175,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.5
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

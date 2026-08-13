@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -180,11 +180,11 @@ overview: 'Palmetto publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Palmetto''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 58
+random_paper: 30
 score:
   band: developing
   composite: 47.8
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.5
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.3
+  previous_composite: 47.8
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/screenshots/palmetto-2026-08-07T191322.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: The Accounts API from Lorum — 5 operation(s) for accounts.
@@ -190,11 +190,11 @@ overview: 'Lorum publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 95
+random_paper: 79
 score:
   band: developing
   composite: 45.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 70.8
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 45.9
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -219,7 +219,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

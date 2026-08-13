@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -419,11 +419,11 @@ overview: 'Kota publishes 33 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 83
+random_paper: 71
 score:
   band: strong
   composite: 58.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.4
@@ -431,7 +431,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 59.5
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,7 +449,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

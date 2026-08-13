@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: 'Agent-facing commerce surface for the Hubble Contacts online store, implementing the Universal Commerce Protocol (UCP) over MCP/JSON-RPC. Hubble''s own /agents.md documents the flow: discover capabilit'
@@ -157,7 +157,7 @@ overview: 'Hubble Contacts publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Hubble Contacts'' developer surface includes signup flow, pricing, support, engineering blog, documentation, authentication, and 21 more developer resources.'
-random_paper: 26
+random_paper: 94
 scopes:
 - name: Hubble Contacts Scopes
   scope_count: 4
@@ -186,7 +186,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/screenshots/hubble-contacts-2026-08-07T170351.png
 security:

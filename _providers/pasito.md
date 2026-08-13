@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Pasito is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pasito''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 76
+random_paper: 56
 score:
   band: emerging
   composite: 18.1
@@ -99,7 +99,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pasito/refs/heads/main/screenshots/pasito-2026-08-07T191530.png
 security:

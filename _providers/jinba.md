@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -219,11 +219,11 @@ overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Jinba''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: developing
   composite: 53.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 66.5
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 55.1
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,7 +243,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/screenshots/jinba-2026-07-25T223154.png
 security:

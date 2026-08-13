@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -60,16 +60,13 @@ apis:
   name: Ninety.io Users API
   slug: ninetyio-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve a team, create a quarterly Rock, and attach a Milestone to it.
   name: Create a Ninety Rock with Milestones
   slug: ninetyio-create-rock-with-milestones
 - description: Resolve a team, create an Issue on its list, then mark it solved.
   name: Log and Solve a Ninety Issue
   slug: ninetyio-log-and-solve-issue
-artifact_total: 15
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -211,11 +208,11 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ninety.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 67
+random_paper: 39
 score:
   band: developing
   composite: 46.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 49.3
@@ -223,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 48.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/screenshots/ninetyio-2026-08-07T185322.png
 security:

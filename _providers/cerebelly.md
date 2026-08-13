@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Cerebelly's Universal Commerce Protocol (UCP) MCP endpoint, served anonymously from the storefront host. A tools/list call returns 13 tools with full JSON Schema draft 2020-12 input schemas covering c
@@ -145,7 +145,7 @@ overview: 'Cerebelly publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cerebelly''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 23
+random_paper: 111
 scopes:
 - name: Cerebelly Scopes
   scope_count: 0
@@ -154,7 +154,7 @@ scopes:
 score:
   band: thin
   composite: 34.9
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.6
@@ -162,13 +162,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 38.1
+  previous_composite: 34.9
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

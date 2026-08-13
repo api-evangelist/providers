@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -32,16 +32,13 @@ apis:
   name: Ki Broker Trading Platform API
   slug: broker-platform
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a quote on Ki's partner-gated broker platform, attach the schedule of values, geocode it, run Ki's algorithmic pricing and retrieve the priced quote document. Every operationId below exists ver
   name: Ki — quote a risk and run the follow algorithm
   slug: ki-insurance-quote-and-price
 - description: 'Ki''s slip extraction pipeline: register the slip upload, execute the extraction job, poll it to completion, read the result and promote it into a quote. Every operationId exists verbatim in the refere'
   name: Ki — turn a broker slip into a quote
   slug: ki-insurance-slip-to-quote
-artifact_total: 9
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -172,7 +169,7 @@ overview: 'Ki Insurance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 65
+random_paper: 25
 scopes:
 - name: Ki Insurance Scopes
   scope_count: 14
@@ -181,7 +178,7 @@ scopes:
 score:
   band: thin
   composite: 40.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.7
@@ -189,7 +186,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.2
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,7 +204,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

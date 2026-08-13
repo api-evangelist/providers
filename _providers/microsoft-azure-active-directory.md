@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -646,7 +646,7 @@ plans:
 - name: Microsoft Azure Active Directory Plans Pricing
   plan_count: 9
   slug: microsoft-azure-active-directory-plans-pricing
-random_paper: 37
+random_paper: 45
 rate_limits:
 - limit_count: 10
   name: Azure Active Directory Rate Limits
@@ -687,7 +687,7 @@ scopes:
 score:
   band: developing
   composite: 50.0
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 73.4
@@ -695,7 +695,7 @@ score:
     discoverability: 55.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 58.5
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -704,8 +704,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/screenshots/microsoft-azure-active-directory-2026-06-20T185351.png
 security:
 - kind: authentication

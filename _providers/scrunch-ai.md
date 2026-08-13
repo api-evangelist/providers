@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -70,9 +70,6 @@ apis:
   name: Scrunch AI sitemap API
   slug: scrunch-ai-sitemap-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a brand, add a competitor and persona, seed a tracking prompt, and verify the prompt library.
   name: Scrunch - Onboard a brand and seed tracking
   slug: scrunch-ai-onboard-and-track
@@ -82,7 +79,7 @@ arazzos:
 - description: List brands, pick one, and pull aggregated AI visibility metrics for it.
   name: Scrunch - Resolve a brand and query AI visibility
   slug: scrunch-ai-query-visibility
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Scrunch Ai Webhooks
@@ -235,7 +232,7 @@ overview: 'Scrunch AI publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Scrunch AI''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 77
+random_paper: 45
 scopes:
 - name: Scrunch Ai Scopes
   scope_count: 3
@@ -244,7 +241,7 @@ scopes:
 score:
   band: developing
   composite: 53.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.7
@@ -252,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.7
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,7 +261,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

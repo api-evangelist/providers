@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -271,11 +271,11 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 19 more developer resources.'
-random_paper: 1
+random_paper: 105
 score:
   band: developing
   composite: 43.6
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 66.2
@@ -283,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 45.4
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +295,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

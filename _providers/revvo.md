@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,16 +60,13 @@ apis:
   name: Revvo Vehicle API
   slug: revvo-vehicle-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, create a vehicle, register its gateway and sensors, then verify.
   name: Onboard a vehicle and its tire sensors
   slug: revvo-onboard-vehicle
 - description: Authenticate and read tire events/alerts for a fleet over a time window.
   name: Pull tire events for a fleet
   slug: revvo-pull-tire-events
-artifact_total: 14
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -187,11 +184,11 @@ overview: 'Revvo publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Revvo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 98
+random_paper: 82
 score:
   band: thin
   composite: 41.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 49.6
@@ -199,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 42.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

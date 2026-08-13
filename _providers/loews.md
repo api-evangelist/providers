@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: Intelligent Hospitality CEO Urges Hoteliers ...'
   url: https://www.hoteliq.io/hospitality-expertise/press-release-intelligent-hospitality-ceo-urges-hoteliers-to-leverage-their-data
-random_paper: 90
+random_paper: 74
 score:
   band: minimal
   composite: 5.6
@@ -100,7 +100,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loews/refs/heads/main/screenshots/loews-2026-06-20T184647.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -139,16 +139,13 @@ apis:
   name: FriendliAI Usage API
   slug: friendliai-usage-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Discover a serverless model then generate a chat completion.
   name: FriendliAI chat completion
   slug: friendliai-chat-completion
 - description: Create a Dedicated Endpoint, wait for it to be ready, then run a chat completion.
   name: FriendliAI deploy a Dedicated Endpoint and infer
   slug: friendliai-deploy-and-infer
-artifact_total: 42
+artifact_total: 41
 common:
 - group: other
   title: ''
@@ -310,7 +307,7 @@ overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 3
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits
@@ -318,7 +315,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 64.6
@@ -326,7 +323,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 58.8
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:

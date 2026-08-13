@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -307,7 +307,7 @@ plans:
 - name: Tiktok For Developers Plans Pricing
   plan_count: 4
   slug: tiktok-for-developers-plans-pricing
-random_paper: 72
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Tiktok For Developers Rate Limits
@@ -332,7 +332,7 @@ rules:
 score:
   band: strong
   composite: 61.4
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.5
@@ -340,7 +340,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 69.0
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -349,8 +349,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:
 - kind: authentication

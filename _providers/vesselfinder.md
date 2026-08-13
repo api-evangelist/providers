@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -305,7 +305,7 @@ plans:
 - name: Vesselfinder Plans Pricing
   plan_count: 10
   slug: vesselfinder-plans-pricing
-random_paper: 14
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Vesselfinder Rate Limits
@@ -330,7 +330,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 71.6
@@ -338,7 +338,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.5
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -347,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:

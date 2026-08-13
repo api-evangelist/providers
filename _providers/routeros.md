@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Routeros Plans Pricing
   plan_count: 3
   slug: routeros-plans-pricing
-random_paper: 87
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Routeros Rate Limits
@@ -199,7 +199,7 @@ rules:
 score:
   band: developing
   composite: 42.8
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 69.8
@@ -207,7 +207,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 50.4
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/screenshots/routeros-2026-06-20T193227.png
 security:
 - kind: authentication

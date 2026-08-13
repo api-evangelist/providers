@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'Halo Connect publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Halo Connect''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, sandbox, and 26 more developer resources.'
-random_paper: 51
+random_paper: 11
 score:
   band: developing
   composite: 54.9
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 74.6
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 57.4
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,7 +224,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png
 security:

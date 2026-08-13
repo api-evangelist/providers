@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ plans:
 - name: Sybase Plans Pricing
   plan_count: 1
   slug: sybase-plans-pricing
-random_paper: 67
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Sybase Rate Limits
@@ -314,7 +314,7 @@ rules:
 score:
   band: strong
   composite: 57.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 64.9
@@ -322,7 +322,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 63.7
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -331,8 +331,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:
 - kind: authentication

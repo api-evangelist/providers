@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -233,11 +233,11 @@ overview: 'Blockaid publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Blockaid''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 105
 score:
   band: developing
   composite: 42.7
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 69.0
@@ -245,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.1
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +263,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -260,11 +260,11 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 48
+random_paper: 32
 score:
   band: developing
   composite: 54.1
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.4
@@ -272,7 +272,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.6
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

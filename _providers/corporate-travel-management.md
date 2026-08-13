@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The private back-end API for CTM Portal, CTM's single sign-on customer portal. It is not documented, not announced and not offered to third parties — it was identified from the portal's own client boo
@@ -226,7 +226,7 @@ overview: 'Corporate Travel Management publishes 1 API on the [APIs.io](https://
 
 
   Corporate Travel Management''s developer surface includes authentication, documentation, developer portal, engineering blog, product news, and 37 more developer resources.'
-random_paper: 104
+random_paper: 12
 scopes:
 - name: Corporate Travel Management Scopes
   scope_count: 14
@@ -247,7 +247,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corporate-travel-management/refs/heads/main/screenshots/corporate-travel-management-2026-08-07T163917.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ plans:
 - name: Methodfi Plans Pricing
   plan_count: 2
   slug: methodfi-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits
@@ -495,7 +495,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 66.7
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 74.5
@@ -503,7 +503,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 69.7
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -521,7 +521,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:

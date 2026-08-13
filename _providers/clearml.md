@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -156,7 +156,7 @@ plans:
 - name: Clearml Plans Pricing
   plan_count: 1
   slug: clearml-plans-pricing
-random_paper: 40
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Clearml Rate Limits
@@ -164,7 +164,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -172,7 +172,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.7
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -181,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/screenshots/clearml-2026-06-20T174458.png
 security:

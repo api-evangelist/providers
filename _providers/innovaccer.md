@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -115,11 +115,11 @@ overview: 'Innovaccer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Innovaccer''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
-random_paper: 20
+random_paper: 104
 score:
   band: emerging
   composite: 24.6
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -127,7 +127,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 27.2
+  previous_composite: 24.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovaccer/refs/heads/main/screenshots/innovaccer-2026-07-25T222505.png
 security:

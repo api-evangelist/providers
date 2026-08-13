@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,11 +115,11 @@ overview: 'Tonal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tonal''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: emerging
   composite: 21.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -127,7 +127,7 @@ score:
     discoverability: 57.4
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 21.9
+  previous_composite: 21.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

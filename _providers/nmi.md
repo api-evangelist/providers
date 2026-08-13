@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The core NMI Payment API (Direct Post) enables transaction processing across card-present, ecommerce, mobile, and alternative payment methods including Apple Pay and Google Pay. Supports authorization
@@ -125,7 +125,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 92
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -149,7 +149,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmi/refs/heads/main/screenshots/nmi-2026-06-20T190340.png
 security:

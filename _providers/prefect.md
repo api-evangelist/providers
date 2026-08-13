@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -341,7 +341,7 @@ plans:
 - name: Prefect Plans Pricing
   plan_count: 3
   slug: prefect-plans-pricing
-random_paper: 49
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Prefect Rate Limits
@@ -349,7 +349,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 47.3
@@ -357,7 +357,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 52.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -366,8 +366,8 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:
 - kind: domain-security

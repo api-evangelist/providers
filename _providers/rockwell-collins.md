@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 5
   name: Rockwell Collins Rate Limits
@@ -222,7 +222,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 66.4
@@ -230,7 +230,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 51.4
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +239,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png
 security:
 - kind: authentication

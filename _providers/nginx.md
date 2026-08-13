@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -847,7 +847,7 @@ plans:
 - name: Nginx Plans Pricing
   plan_count: 6
   slug: nginx-plans-pricing
-random_paper: 84
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Nginx Rate Limits
@@ -872,7 +872,7 @@ rules:
 score:
   band: thin
   composite: 37.6
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 19.1
@@ -880,7 +880,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 44.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -889,8 +889,8 @@ score:
       marker_coverage: 100.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

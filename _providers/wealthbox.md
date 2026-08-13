@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ overview: 'Wealthbox publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wealthbox''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 14
 scopes:
 - name: Wealthbox Scopes
   scope_count: 2
@@ -150,7 +150,7 @@ scopes:
 score:
   band: thin
   composite: 32.6
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -158,7 +158,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.5
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/screenshots/wealthbox-2026-06-20T201306.png
 security:

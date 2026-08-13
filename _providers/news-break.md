@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -35,16 +35,13 @@ apis:
   name: NewsBreak MSP Monetization Reporting API
   slug: monetization-reporting
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve the caller's organization and ad account, create a campaign, attach a tracking event, create an ad set with budget, bidding and targeting, upload the creative asset to the NewsBreak CDN, and c
   name: Launch a NewsBreak advertising campaign
   slug: news-break-launch-campaign
 - description: Pull a last-7-days performance report for an ad account, list its campaigns, and pause a chosen campaign by toggling its status to OFF. Read-only steps are safe to retry; the status toggle is not idem
   name: Report on a NewsBreak ad account and pause underperforming campaigns
   slug: news-break-pause-and-report
-artifact_total: 9
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -171,7 +168,7 @@ overview: 'News Break publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 47
 rate_limits:
 - limit_count: 9
   name: News Break Rate Limits
@@ -179,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.1
@@ -187,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 50.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

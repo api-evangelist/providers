@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Airship Plans Pricing
   plan_count: 1
   slug: airship-plans-pricing
-random_paper: 56
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Airship Rate Limits
@@ -170,7 +170,7 @@ scopes:
 score:
   band: emerging
   composite: 26.2
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 55.2
@@ -178,7 +178,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.0
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/screenshots/airship-2026-06-20T171434.png
 security:
 - kind: authentication

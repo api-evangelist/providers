@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 20
+random_paper: 112
 rate_limits:
 - limit_count: 7
   name: Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.2
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 43.0
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Redis Streams
 nav: Providers
 network: true
-random_paper: 71
+random_paper: 27
 slug: redis-streams
 tags:
 - Consumer Groups

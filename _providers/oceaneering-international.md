@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,11 +82,11 @@ press:
 - date: '2026-05-25'
   title: AI-Powered Inform Predict™ Software Optimizes Inspection ...
   url: https://www.oceaneering.com/case-studies/inform-predict-software-optimizes-nocs-inspection-intervals/
-random_paper: 45
+random_paper: 77
 score:
   band: minimal
   composite: 4.5
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -94,9 +94,9 @@ score:
     discoverability: 33.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 3.7
+  previous_composite: 4.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oceaneering-international/refs/heads/main/screenshots/oceaneering-international-2026-06-20T190605.png
 security:

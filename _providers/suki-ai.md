@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ plans:
 - name: Suki Ai Plans Pricing
   plan_count: 1
   slug: suki-ai-plans-pricing
-random_paper: 111
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Suki Ai Rate Limits
@@ -353,7 +353,7 @@ rules:
 score:
   band: developing
   composite: 54.8
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 72.4
@@ -361,7 +361,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 54.3
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -376,7 +376,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:

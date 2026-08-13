@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ plans:
 - name: Elastic Observability Plans Pricing
   plan_count: 3
   slug: elastic-observability-plans-pricing
-random_paper: 105
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Elastic Observability Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.7
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 53.4
@@ -120,7 +120,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.0
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -129,8 +129,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png
 security:
 - kind: authentication

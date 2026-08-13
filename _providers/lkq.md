@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Infosys
   url: https://www.facebook.com/Infosys/posts/infosys-announced-a-5-year-collaboration-with-lkq-europe-as-a-strategic-partner-/755228826639312/
-random_paper: 96
+random_paper: 88
 score:
   band: minimal
   composite: 5.4
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lkq/refs/heads/main/screenshots/lkq-2026-06-20T184721.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'The TELUS Insights Location API exposes de-identified, aggregated geo-intelligence derived from the TELUS mobile network across Canada. Consumers submit asynchronous count jobs — demographic, origin, '
@@ -173,7 +173,7 @@ overview: 'TELUS publishes 1 API on the [APIs.io](https://apis.io/) network: Ins
 
 
   TELUS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 93
+random_paper: 77
 rate_limits:
 - limit_count: 4
   name: Telus Rate Limits
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 53.5
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 63.0
@@ -194,7 +194,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 71.1
-  previous_composite: 54.8
+  previous_composite: 53.5
   provenance:
     conformance: derived
     skills: derived
@@ -205,7 +205,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

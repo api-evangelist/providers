@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Google Cloud Vision Plans Pricing
   plan_count: 3
   slug: google-cloud-vision-plans-pricing
-random_paper: 70
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vision Rate Limits
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 53.7
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 64.2
@@ -188,7 +188,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 62.1
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/screenshots/google-cloud-vision-2026-06-20T182154.png
 security:
 - kind: authentication

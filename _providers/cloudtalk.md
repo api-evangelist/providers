@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -227,11 +227,11 @@ overview: 'CloudTalk publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CloudTalk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: developing
   composite: 51.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.1
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,7 +257,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:

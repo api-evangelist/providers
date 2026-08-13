@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -16692,7 +16692,7 @@ plans:
 - name: Factset Plans Pricing
   plan_count: 4
   slug: factset-plans-pricing
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Factset Rate Limits
@@ -16722,7 +16722,7 @@ scopes:
 score:
   band: strong
   composite: 65.7
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.7
@@ -16730,7 +16730,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 13.2
-  previous_composite: 72.8
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -16748,8 +16748,8 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:
 - kind: authentication

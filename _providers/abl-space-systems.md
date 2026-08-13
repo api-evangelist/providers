@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,11 +123,11 @@ overview: 'ABL Space Systems is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ABL Space Systems'' developer surface includes engineering blog, product news, and 20 more developer resources.'
-random_paper: 85
+random_paper: 29
 score:
   band: minimal
   composite: 10.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -135,9 +135,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.5
+  previous_composite: 10.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abl-space-systems/refs/heads/main/screenshots/abl-space-systems-2026-08-07T160735.png
 security:

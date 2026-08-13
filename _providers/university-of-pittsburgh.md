@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'WPRDC is an open data portal operated as a partnership between the University of Pittsburgh, Allegheny County, and the City of Pittsburgh. It runs on CKAN and exposes the standard CKAN Action API for '
@@ -109,7 +109,7 @@ plans:
 - name: University Of Pittsburgh Plans Pricing
   plan_count: 2
   slug: university-of-pittsburgh-plans-pricing
-random_paper: 89
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: University Of Pittsburgh Rate Limits
@@ -133,7 +133,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png
 security:

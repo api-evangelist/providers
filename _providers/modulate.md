@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -224,7 +224,7 @@ overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Modulate Rate Limits
@@ -232,7 +232,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.7
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.8
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 59.5
+  previous_composite: 57.7
   provenance:
     conformance: first-party
     contracts:
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

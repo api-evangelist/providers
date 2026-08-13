@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ plans:
 - name: Neighbor Plans Pricing
   plan_count: 3
   slug: neighbor-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Neighbor Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 61.2
@@ -104,7 +104,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 35.8
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -113,8 +113,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/screenshots/neighbor-2026-06-20T190130.png
 security:
 - kind: authentication

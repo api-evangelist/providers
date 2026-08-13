@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -566,7 +566,7 @@ plans:
 - name: Flutterwave Plans Pricing
   plan_count: 9
   slug: flutterwave-plans-pricing
-random_paper: 49
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Flutterwave Rate Limits
@@ -596,7 +596,7 @@ scopes:
 score:
   band: strong
   composite: 63.8
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.4
@@ -604,7 +604,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 62.0
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -619,7 +619,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/screenshots/flutterwave-2026-06-20T181343.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -726,7 +726,7 @@ plans:
 - name: Paystack Plans Pricing
   plan_count: 8
   slug: paystack-plans-pricing
-random_paper: 52
+random_paper: 24
 rate_limits:
 - limit_count: 6
   name: Paystack Rate Limits
@@ -759,7 +759,7 @@ rules:
 score:
   band: exemplar
   composite: 70.2
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 77.7
@@ -767,7 +767,7 @@ score:
     discoverability: 59.3
     governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 68.5
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     contracts:
@@ -782,7 +782,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

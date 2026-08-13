@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: 'Create and update user profiles, track events, manage devices, merge and delete users, run bulk imports and file imports, and submit GDPR/CCPA data subject requests. The primary ingestion surface for '
@@ -225,7 +225,7 @@ overview: 'MoEngage publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   MoEngage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 23
+random_paper: 115
 rate_limits:
 - limit_count: 0
   name: Moengage Rate Limits
@@ -238,7 +238,7 @@ scopes:
 score:
   band: strong
   composite: 63.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.9
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 63.6
+  previous_composite: 63.1
   provenance:
     conformance: first-party
     contracts:
@@ -263,7 +263,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:

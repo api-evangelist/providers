@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)
@@ -52,7 +52,7 @@ name: Openwhyd
 nav: Providers
 network: true
 overview: Openwhyd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 66
+random_paper: 38
 score:
   band: minimal
   composite: 5.7
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwhyd/refs/heads/main/screenshots/openwhyd-2026-06-20T191053.png
 slug: openwhyd

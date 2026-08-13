@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Zeplin Plans Pricing
   plan_count: 4
   slug: zeplin-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Zeplin Rate Limits
@@ -207,7 +207,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
@@ -215,7 +215,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 51.7
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/screenshots/zeplin-2026-06-20T201824.png
 security:

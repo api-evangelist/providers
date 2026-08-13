@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -349,11 +349,11 @@ overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 19 more developer resources.'
-random_paper: 25
+random_paper: 113
 score:
   band: developing
   composite: 45.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 61.1
@@ -361,7 +361,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 46.2
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,7 +373,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:

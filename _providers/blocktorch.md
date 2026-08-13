@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -147,11 +147,11 @@ overview: 'Blocktorch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Blocktorch''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, CLI, authentication, and 15 more developer resources.'
-random_paper: 23
+random_paper: 107
 score:
   band: thin
   composite: 40.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 61.2
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.8
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -171,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/screenshots/blocktorch-2026-07-25T203347.png
 security:

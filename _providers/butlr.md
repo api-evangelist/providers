@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Butlr GraphQL API manages spatial assets and their configuration across the organization hierarchy - sites, buildings, floors, rooms, zones, hives, and sensors - plus asset tags and self-service w
@@ -189,7 +189,7 @@ overview: 'Butlr publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Butlr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 89
+random_paper: 73
 scopes:
 - name: Butlr Scopes
   scope_count: 12
@@ -198,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -206,13 +206,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 49.9
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butlr/refs/heads/main/screenshots/butlr-2026-07-25T204120.png
 security:

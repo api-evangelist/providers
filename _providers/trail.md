@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The Areas API from Trail — 1 operation(s) for areas.
@@ -193,7 +193,7 @@ overview: 'Trail publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Trail Rate Limits
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 46.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.5
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 48.4
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -225,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

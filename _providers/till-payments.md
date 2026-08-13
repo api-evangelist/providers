@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -41,16 +41,13 @@ apis:
   name: Till Payments Terminal Connect API
   slug: till-payments-terminal-connect
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Preauthorize a card payment, then capture the reserved funds, on the Till Payments Gateway V3 API.
   name: Till Payments — authorize and capture
   slug: till-payments-authorize-and-capture
 - description: Register (tokenize) a payment instrument, then charge it with a debit using the returned transactionToken.
   name: Till Payments — tokenize and charge
   slug: till-payments-tokenize-and-charge
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Till Payments Callbacks Webhooks
@@ -175,11 +172,11 @@ overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
-random_paper: 87
+random_paper: 43
 score:
   band: developing
   composite: 42.3
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 62.6
@@ -187,7 +184,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 46.1
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +202,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

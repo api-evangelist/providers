@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,11 +87,11 @@ overview: 'Change.org is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Change.org''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 34
+random_paper: 14
 score:
   band: emerging
   composite: 16.3
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -99,7 +99,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.7
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
@@ -107,7 +107,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/change/refs/heads/main/screenshots/change-2026-07-25T205032.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and '
@@ -104,7 +104,7 @@ plans:
 - name: Credibly Plans Pricing
   plan_count: 7
   slug: credibly-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Credibly Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -120,7 +120,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.0
+  previous_composite: 17.6
   regulatory:
     applies: true
     matched_via: tags
@@ -128,7 +128,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/screenshots/credibly-2026-06-20T175222.png
 security:

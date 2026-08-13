@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,11 +63,11 @@ overview: 'DeepSight Technology is profiled on the [APIs.io](https://apis.io/) n
 
 
   DeepSight Technology''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 29
+random_paper: 117
 score:
   band: minimal
   composite: 9.0
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -75,7 +75,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.0
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
@@ -83,7 +83,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepsight/refs/heads/main/screenshots/deepsight-2026-07-25T211606.png
 security:

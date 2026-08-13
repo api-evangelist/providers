@@ -1,6 +1,6 @@
 {
- "total": 124,
- "shown": 124,
+ "total": 125,
+ "shown": 125,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -71,7 +71,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 54.7,
      "agent_band": "agent-native",
@@ -101,8 +101,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "CloudWalk",
@@ -120,7 +120,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -165,7 +165,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -210,7 +210,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -255,7 +255,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -299,7 +299,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -343,7 +343,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +388,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -433,7 +433,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -463,6 +463,44 @@
      "rank": 10
     },
     {
+     "name": "CRM Bonus",
+     "slug": "crm-bonus",
+     "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, CRMAds retail media on WhatsApp, and Oto CRM — the physical-retail CRM platform CRMBonus acquired outright from WPP in June 2025 and now lists as a first-party retail solution. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, Wake, and PagSeguro. The publicly documented machine-readable contract is the Oto Data API — an OpenAPI 3.1.0 upsert-ingestion API for customers, orders, order items, products, stores, sellers, cashback, NPS, and Oto Tags events — served at data-api.otocrm.com.br with a public ReDoc/Swagger reference. The Giftback and Vale Bonus APIs on api.crmbonus.com are partner-token gated with no public reference; that host answers HTTP 200 with an \"OK!!\" envelope for every path, including every /.well-known/* probe, so none of those 200s carry a real document.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png",
+     "score": 47.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 50.7,
+      "governance": 20.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 67.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
+    },
+    {
      "name": "Datanomik",
      "slug": "datanomik",
      "description": "Datanomik is a Brazilian open finance and treasury-management platform that gives mid-to-large enterprises real-time, consolidated visibility across their bank accounts, balances, investments and payments through a single API. Authorized by Banco Central do Brasil as a Payment Transaction Initiator (ITP) and a participant in Brazil's Open Finance ecosystem, Datanomik connects to 30+ Brazilian financial institutions (Banco do Brasil, Itau, Bradesco, Caixa, BTG, Nubank, Safra, Mercado Pago and others) to deliver bank connectivity, cash and liquidity management, investment-portfolio tracking, cash-flow forecasting, cash pooling and transfers, automated bank statements and financial reporting. The company exposes two REST APIs - an OpenBanking data API and a Treasury/Remuneration API - secured with HTTP Basic API keys, documented on a ReadMe developer portal with a public Postman workspace and a dedicated sandbox. Backed by a16z, its clients include iFood, Magalu, Flamengo and Unimed.",
@@ -478,7 +516,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -505,7 +543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Flash App",
@@ -523,7 +561,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -550,7 +588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "180 Insurance",
@@ -568,7 +606,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -595,7 +633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "B3 (Brasil Bolsa Balcão)",
@@ -613,7 +651,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -640,7 +678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Conta Azul",
@@ -658,7 +696,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -685,7 +723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Cora",
@@ -703,7 +741,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -730,7 +768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     }
    ],
    "open": true
@@ -759,7 +797,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -779,7 +817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "BRL",
@@ -797,7 +835,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -824,7 +862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Nova Lima",
@@ -842,7 +880,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -862,7 +900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "MV sistemas",
@@ -880,7 +918,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -907,7 +945,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "PagSeguro / PagBank",
@@ -925,7 +963,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -952,7 +990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "IDwall",
@@ -970,7 +1008,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -990,7 +1028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Celcoin",
@@ -1008,7 +1046,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1035,7 +1073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Nuvemshop / Tiendanube",
@@ -1053,7 +1091,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1080,7 +1118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Iniciador",
@@ -1098,7 +1136,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1125,7 +1163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Kanastra",
@@ -1143,7 +1181,7 @@
       "developer_ergonomics": 38.6,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1170,7 +1208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Efí",
@@ -1188,7 +1226,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1215,7 +1253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Pagar.me",
@@ -1233,52 +1271,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "AbacatePay",
-     "slug": "abacatepay",
-     "description": "AbacatePay is a Brazilian payment gateway built for developers and indie hackers, focused on instant Pix payments. Its REST API lets you create billings and charges, generate and check Pix QR Codes, manage customers and coupons, request withdrawals, and receive webhooks - charging a flat per-transaction Pix fee with funds available immediately.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 61.2,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1308,6 +1301,51 @@
      "rank": 29
     },
     {
+     "name": "AbacatePay",
+     "slug": "abacatepay",
+     "description": "AbacatePay is a Brazilian payment gateway built for developers and indie hackers, focused on instant Pix payments. Its REST API lets you create billings and charges, generate and check Pix QR Codes, manage customers and coupons, request withdrawals, and receive webhooks - charging a flat per-transaction Pix fee with funds available immediately.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Alt Bank",
      "slug": "alt-bank",
      "description": "alt.bank (Alt Bank) is a Brazilian fintech providing a fully integrated, turnkey credit-card and consumer-credit platform for partners who want to launch prepaid and postpaid cards without becoming a financial institution. Its flagship product, GUARD, is a machine-learning underwriting / credit-risk engine (\"Brazil's most accurate credit model\") that returns a Guard Score, risk band and credit-limit decision through a real-time partner API. The platform also bundles white-label credit cards (novücard), Visa BIN sponsorship, KYC, anti-fraud, dispute management and Pix/boleto payment processing. Partners integrate over a documented HTTPS API secured with a per-partner X-Partner-Auth token plus IP allow-listing, with a mirrored staging sandbox and asynchronous callback delivery of underwriting results. Backed by Anthemis, Union Square Ventures, Repeat Ventures and SquareOne Capital, alt.bank targets financial inclusion for underbanked consumers.",
@@ -1323,7 +1361,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1350,7 +1388,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Asaas",
@@ -1368,7 +1406,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1395,7 +1433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Cumbuca",
@@ -1413,7 +1451,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1440,7 +1478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "VOA Health",
@@ -1457,7 +1495,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1484,7 +1522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Edools",
@@ -1502,7 +1540,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 12.6,
      "agent_band": "agent-aware",
@@ -1522,7 +1560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Gorila",
@@ -1540,7 +1578,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 11.7,
      "agent_band": "agent-aware",
@@ -1560,7 +1598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Iugu",
@@ -1578,7 +1616,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1605,7 +1643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Cielo",
@@ -1623,7 +1661,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1650,7 +1688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "PagBank",
@@ -1668,7 +1706,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1695,7 +1733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     }
    ]
   },
@@ -1704,8 +1742,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 43,
-   "shown": 43,
+   "count": 44,
+   "shown": 44,
    "providers": [
     {
      "name": "Getnet",
@@ -1723,7 +1761,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1750,7 +1788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Pagar.me",
@@ -1768,7 +1806,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1795,7 +1833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "AstroPay",
@@ -1813,7 +1851,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1840,7 +1878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Stone",
@@ -1858,7 +1896,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1885,7 +1923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "KaBum!",
@@ -1903,7 +1941,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 13.1,
      "agent_band": "agent-aware",
@@ -1923,7 +1961,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Bionexo",
@@ -1941,7 +1979,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -1968,7 +2006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Kovi",
@@ -1986,7 +2024,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -2006,7 +2044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "PicPay",
@@ -2024,7 +2062,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2051,7 +2089,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Linte",
@@ -2069,7 +2107,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2089,7 +2127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "University of Campinas",
@@ -2107,7 +2145,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2134,7 +2172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Ingresse",
@@ -2152,7 +2190,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2179,7 +2217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Traive",
@@ -2196,7 +2234,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -2216,7 +2254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "BoaConsulta",
@@ -2234,7 +2272,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2261,7 +2299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Lastro",
@@ -2279,7 +2317,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2299,7 +2337,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
+    },
+    {
+     "name": "Dock",
+     "slug": "dock",
+     "description": "Dock is a Latin American financial technology infrastructure provider — formerly Conductor Technology — that delivers card issuing and processing, core banking, digital accounts and wallets, Pix instant payments, bank slips, acquiring, loyalty/benefits and transactional anti-fraud from a single cloud-native platform marketed as Dock One. Dock operates in Brazil as a payment institution regulated by the Banco Central do Brasil (bank code 301) and states that it serves more than 400 companies across 11 countries, processes roughly R$1.4 trillion in annual card volume and supports around 70 million active digital accounts. Its API estate is branded Caradhras and is reached through the api.caradhras.io gateway; the developer reference at developers.dock.tech is a private ReadMe hub that redirects anonymous visitors to a login, and the previously public Caradhras reference at lighthouse.dock.tech no longer resolves.",
+     "score": 17.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
     },
     {
      "name": "Capim",
@@ -2317,7 +2399,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2344,7 +2426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Dados abertos Distrito Federal",
@@ -2362,97 +2444,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "Dados Abertos POA",
-     "slug": "dados-portoalegre-rs-gov-br",
-     "description": "Dados Abertos POA is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-portoalegre-rs-gov-br/refs/heads/main/screenshots/dados-portoalegre-rs-gov-br-2026-06-20T175432.png",
-     "score": 16.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Dados RS",
-     "slug": "dados-rs-gov-br",
-     "description": "Dados RS is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 404 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-rs-gov-br/refs/heads/main/screenshots/dados-rs-gov-br-2026-06-20T175435.png",
-     "score": 16.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2482,10 +2474,10 @@
      "rank": 56
     },
     {
-     "name": "Fortaleza Dados Abertos",
-     "slug": "dados-fortaleza-ce-gov-br",
-     "description": "Fortaleza Dados Abertos is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 635 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-fortaleza-ce-gov-br/refs/heads/main/screenshots/dados-fortaleza-ce-gov-br-2026-06-20T175427.png",
+     "name": "Dados Abertos POA",
+     "slug": "dados-portoalegre-rs-gov-br",
+     "description": "Dados Abertos POA is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-portoalegre-rs-gov-br/refs/heads/main/screenshots/dados-portoalegre-rs-gov-br-2026-06-20T175432.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2497,7 +2489,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2527,10 +2519,10 @@
      "rank": 57
     },
     {
-     "name": "Portal de Dados Abertos da Cidade de São Paulo",
-     "slug": "dados-prefeitura-sp-gov-br",
-     "description": "Portal de Dados Abertos da Cidade de São Paulo is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 401 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-prefeitura-sp-gov-br/refs/heads/main/screenshots/dados-prefeitura-sp-gov-br-2026-06-20T175433.png",
+     "name": "Dados RS",
+     "slug": "dados-rs-gov-br",
+     "description": "Dados RS is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 404 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-rs-gov-br/refs/heads/main/screenshots/dados-rs-gov-br-2026-06-20T175435.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2542,7 +2534,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2572,10 +2564,10 @@
      "rank": 58
     },
     {
-     "name": "Portal de Dados Abertos – Prefeitura de Belo Horizonte",
-     "slug": "dados-pbh-gov-br",
-     "description": "Portal de Dados Abertos – Prefeitura de Belo Horizonte is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 588 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-pbh-gov-br/refs/heads/main/screenshots/dados-pbh-gov-br-2026-06-20T175429.png",
+     "name": "Fortaleza Dados Abertos",
+     "slug": "dados-fortaleza-ce-gov-br",
+     "description": "Fortaleza Dados Abertos is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 635 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-fortaleza-ce-gov-br/refs/heads/main/screenshots/dados-fortaleza-ce-gov-br-2026-06-20T175427.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2587,7 +2579,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2617,10 +2609,10 @@
      "rank": 59
     },
     {
-     "name": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch",
-     "slug": "portaldados-ppgau-uff-br",
-     "description": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 120 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portaldados-ppgau-uff-br/refs/heads/main/screenshots/portaldados-ppgau-uff-br-2026-06-20T191934.png",
+     "name": "Portal de Dados Abertos da Cidade de São Paulo",
+     "slug": "dados-prefeitura-sp-gov-br",
+     "description": "Portal de Dados Abertos da Cidade de São Paulo is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 401 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-prefeitura-sp-gov-br/refs/heads/main/screenshots/dados-prefeitura-sp-gov-br-2026-06-20T175433.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2632,7 +2624,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2662,10 +2654,10 @@
      "rank": 60
     },
     {
-     "name": "Recife City Open Data",
-     "slug": "dados-recife-pe-gov-br",
-     "description": "Recife City Open Data is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 219 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-recife-pe-gov-br/refs/heads/main/screenshots/dados-recife-pe-gov-br-2026-06-20T175432.png",
+     "name": "Portal de Dados Abertos – Prefeitura de Belo Horizonte",
+     "slug": "dados-pbh-gov-br",
+     "description": "Portal de Dados Abertos – Prefeitura de Belo Horizonte is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 588 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-pbh-gov-br/refs/heads/main/screenshots/dados-pbh-gov-br-2026-06-20T175429.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2677,7 +2669,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2707,6 +2699,96 @@
      "rank": 61
     },
     {
+     "name": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch",
+     "slug": "portaldados-ppgau-uff-br",
+     "description": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 120 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portaldados-ppgau-uff-br/refs/heads/main/screenshots/portaldados-ppgau-uff-br-2026-06-20T191934.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 62
+    },
+    {
+     "name": "Recife City Open Data",
+     "slug": "dados-recife-pe-gov-br",
+     "description": "Recife City Open Data is a open data portal open-data portal for Brazil running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 219 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-recife-pe-gov-br/refs/heads/main/screenshots/dados-recife-pe-gov-br-2026-06-20T175432.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 63
+    },
+    {
      "name": "Escale",
      "slug": "escale",
      "description": "Escale is a Sao Paulo-based sales technology company founded in 2013 that builds aisa, an AI sales agent trained on millions of real sales conversations. aisa automates lead qualification, objection handling, deal personalization, and sales closure across text and voice channels for enterprise brands in financial services, banking, telecommunications, automotive finance, and education. Escale manages the full customer-acquisition funnel from demand generation through closing, having processed over 7 million leads and generated more than R$2.1 billion in GMV. The company was surfaced as a portfolio company of QED Investors and added to the API Evangelist network; it publishes no public developer API, so this profile captures its corporate identity, trust/compliance posture, and legal properties rather than API artifacts.",
@@ -2722,7 +2804,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2742,7 +2824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Nu (Nubank)",
@@ -2760,7 +2842,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2787,7 +2869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Alude",
@@ -2805,7 +2887,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2832,7 +2914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Justos",
@@ -2850,7 +2932,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2877,7 +2959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Noodle",
@@ -2895,7 +2977,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2922,7 +3004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Juno",
@@ -2939,7 +3021,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2966,7 +3048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "Ideal Invest",
@@ -2984,7 +3066,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3004,7 +3086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "Pitzi",
@@ -3021,7 +3103,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3048,7 +3130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Bhub",
@@ -3066,83 +3148,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 70
-    },
-    {
-     "name": "Descomplica",
-     "slug": "descomplica",
-     "description": "Descomplica is a Brazilian online education (edtech) company founded in 2011 and headquartered in Rio de Janeiro, offering a digital learning platform for ENEM and vestibular exam prep, K-12 (Escolar), undergraduate and graduate (Pós-graduação) degrees, public-exam (Concursos) preparation, and corporate training. The platform delivers live and recorded classes, study plans, tutoring, exercises, and support materials to millions of Brazilian students, and is MEC-authorized. It was added to the API Evangelist network as a portfolio company of 500 Global; the company operates consumer and corporate learning products but does not publish a public developer API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/descomplica/refs/heads/main/screenshots/descomplica-2026-07-25T211748.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 71
-    },
-    {
-     "name": "Mottu",
-     "slug": "mottu",
-     "description": "Mottu is the leading motorcycle-rental ecosystem in Latin America, founded in 2020 in Sao Paulo, Brazil by Rubens Zanelatto. It rents motorcycles to gig and delivery couriers who lack access to traditional credit, bundling insurance, maintenance, 24-hour support and financial services (Mottu Pay) so workers can earn income through food delivery, e-commerce and last-mile logistics. Mottu has verticalized the value chain, running its own assembly line, parts and service network, and fleet-management software, and offers white-labeled last-mile delivery (Mottu Entregas) to more than 1,000 retailers across 100+ cities in Brazil and Mexico. Backed by QED Investors, Mottu has raised over US$150M. It operates as a consumer and B2B mobility/fintech app and does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mottu/refs/heads/main/screenshots/mottu-2026-08-07T184345.png",
-     "score": 13.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3165,6 +3171,82 @@
      "rank": 72
     },
     {
+     "name": "Descomplica",
+     "slug": "descomplica",
+     "description": "Descomplica is a Brazilian online education (edtech) company founded in 2011 and headquartered in Rio de Janeiro, offering a digital learning platform for ENEM and vestibular exam prep, K-12 (Escolar), undergraduate and graduate (Pós-graduação) degrees, public-exam (Concursos) preparation, and corporate training. The platform delivers live and recorded classes, study plans, tutoring, exercises, and support materials to millions of Brazilian students, and is MEC-authorized. It was added to the API Evangelist network as a portfolio company of 500 Global; the company operates consumer and corporate learning products but does not publish a public developer API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/descomplica/refs/heads/main/screenshots/descomplica-2026-07-25T211748.png",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 73
+    },
+    {
+     "name": "Mottu",
+     "slug": "mottu",
+     "description": "Mottu is the leading motorcycle-rental ecosystem in Latin America, founded in 2020 in Sao Paulo, Brazil by Rubens Zanelatto. It rents motorcycles to gig and delivery couriers who lack access to traditional credit, bundling insurance, maintenance, 24-hour support and financial services (Mottu Pay) so workers can earn income through food delivery, e-commerce and last-mile logistics. Mottu has verticalized the value chain, running its own assembly line, parts and service network, and fleet-management software, and offers white-labeled last-mile delivery (Mottu Entregas) to more than 1,000 retailers across 100+ cities in Brazil and Mexico. Backed by QED Investors, Mottu has raised over US$150M. It operates as a consumer and B2B mobility/fintech app and does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mottu/refs/heads/main/screenshots/mottu-2026-08-07T184345.png",
+     "score": 13.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 74
+    },
+    {
      "name": "Noh",
      "slug": "noh",
      "description": "Noh is a Brazilian consumer fintech (neobank) founded in November 2021 by Ana Zucato and Octavio Turra, headquartered in Sao Paulo, SP. Noh pioneered Brazil's first joint account and shared card for couples, letting two partners manage money together with equal permissions, real-time expense visibility, automatic categorization, and a shared spending limit based on combined income. Products include a joint checking account, a shared Visa card (prepaid and credit), and payments via Pix, boleto, and card, plus joint investing. It is a consumer mobile app (iOS and Android) with no public developer API, developer portal, or documentation surface at this time. Backed by Kindred Ventures and other investors; added to the API Evangelist network as a portfolio-lead company profile.",
@@ -3180,7 +3262,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3207,7 +3289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Creditas",
@@ -3225,7 +3307,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3252,7 +3334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Acre Open Data",
@@ -3270,97 +3352,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 75
-    },
-    {
-     "name": "Bahia Open Data",
-     "slug": "dados-ba-gov-br",
-     "description": "Bahia Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 21 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-ba-gov-br/refs/heads/main/screenshots/dados-ba-gov-br-2026-06-20T175423.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 76
-    },
-    {
-     "name": "Espirito Santo Open Data",
-     "slug": "dados-es-gov-br",
-     "description": "Espirito Santo Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 452 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-es-gov-br/refs/heads/main/screenshots/dados-es-gov-br-2026-06-20T175426.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3390,55 +3382,10 @@
      "rank": 77
     },
     {
-     "name": "Onze",
-     "slug": "onze",
-     "description": "Onze is a Brazilian fintech (São Paulo) focused on corporate private pension (previdência privada) and financial health for companies and their employees. It offers digital management of employer-sponsored pension plans, access to more than 300 investment funds, one-on-one financial consultations with specialists, and financial-education seminars, all delivered as a B2B employee benefits platform. Onze positions itself as the first fintech centered on pension and financial wellness for a company's collaborators, and is backed by Ribbit Capital. This profile was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Onze publishes no public developer portal, API reference, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onze/refs/heads/main/screenshots/onze-2026-08-07T190434.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Pernambuco Open Data",
-     "slug": "dados-pe-gov-br",
-     "description": "Pernambuco Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 40 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-pe-gov-br/refs/heads/main/screenshots/dados-pe-gov-br-2026-06-20T175429.png",
+     "name": "Bahia Open Data",
+     "slug": "dados-ba-gov-br",
+     "description": "Bahia Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 21 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-ba-gov-br/refs/heads/main/screenshots/dados-ba-gov-br-2026-06-20T175423.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3450,7 +3397,52 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 78
+    },
+    {
+     "name": "Espirito Santo Open Data",
+     "slug": "dados-es-gov-br",
+     "description": "Espirito Santo Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 452 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-es-gov-br/refs/heads/main/screenshots/dados-es-gov-br-2026-06-20T175426.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3480,31 +3472,31 @@
      "rank": 79
     },
     {
-     "name": "Rondonia Open Data",
-     "slug": "dados-ro-gov-br",
-     "description": "Rondonia Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 14 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-ro-gov-br/refs/heads/main/screenshots/dados-ro-gov-br-2026-06-20T175434.png",
+     "name": "Onze",
+     "slug": "onze",
+     "description": "Onze is a Brazilian fintech (São Paulo) focused on corporate private pension (previdência privada) and financial health for companies and their employees. It offers digital management of employer-sponsored pension plans, access to more than 300 investment funds, one-on-one financial consultations with specialists, and financial-education seminars, all delivered as a B2B employee benefits platform. Onze positions itself as the first fintech centered on pension and financial wellness for a company's collaborators, and is backed by Ribbit Capital. This profile was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Onze publishes no public developer portal, API reference, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onze/refs/heads/main/screenshots/onze-2026-08-07T190434.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3514,7 +3506,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -3525,10 +3517,10 @@
      "rank": 80
     },
     {
-     "name": "Santa Catarina Open Data",
-     "slug": "dados-sc-gov-br",
-     "description": "Santa Catarina Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 112 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-sc-gov-br/refs/heads/main/screenshots/dados-sc-gov-br-2026-06-20T175435.png",
+     "name": "Pernambuco Open Data",
+     "slug": "dados-pe-gov-br",
+     "description": "Pernambuco Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 40 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-pe-gov-br/refs/heads/main/screenshots/dados-pe-gov-br-2026-06-20T175429.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3540,7 +3532,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3568,6 +3560,96 @@
       "dry_run_mode": false
      },
      "rank": 81
+    },
+    {
+     "name": "Rondonia Open Data",
+     "slug": "dados-ro-gov-br",
+     "description": "Rondonia Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 14 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-ro-gov-br/refs/heads/main/screenshots/dados-ro-gov-br-2026-06-20T175434.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 82
+    },
+    {
+     "name": "Santa Catarina Open Data",
+     "slug": "dados-sc-gov-br",
+     "description": "Santa Catarina Open Data is a state government open-data portal for Brazil running CKAN. It exposes the CKAN catalog API over approximately 112 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-sc-gov-br/refs/heads/main/screenshots/dados-sc-gov-br-2026-06-20T175435.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 83
     }
    ]
   },
@@ -3576,8 +3658,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 43,
-   "shown": 43,
+   "count": 42,
+   "shown": 42,
    "providers": [
     {
      "name": "Olist",
@@ -3595,7 +3677,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3622,7 +3704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "Carreira Beauty",
@@ -3640,82 +3722,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 83
-    },
-    {
-     "name": "Loft",
-     "slug": "loft",
-     "description": "Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered in Sao Paulo. It operates a marketplace for buying, selling, and renting residential property alongside a broad platform of software and financial services for the real estate sector, including a CRM and property-management tools for agencies, digital proposals and e-signatures, lead generation, rental administration, and fintech products such as rental guarantees (Fianca Aluguel), home financing, credit with property collateral, and residential and commercial insurance. Backed by a16z, QED Investors, Fifth Wall, D1 Capital, Thrive Capital, and Baillie Gifford, Loft is a market leader in Brazil's real estate fintech space. Loft does not publish a public developer API, OpenAPI definitions, or client SDKs; its GitHub organization (loft-br) hosts internal engineering and data-science tooling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loft/refs/heads/main/screenshots/loft-2026-07-25T225447.png",
-     "score": 12.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 84
-    },
-    {
-     "name": "Enjoei",
-     "slug": "enjoei",
-     "description": "Enjoei is a Brazilian online marketplace (brechó) for buying and selling new and pre-owned fashion, shoes, accessories, electronics, furniture, home goods, and collectibles. Founded in 2009 and headquartered in Sao Paulo, it operates a peer-to-peer resale platform and mobile app (\"enjuapp\") that connects individual sellers and buyers, handling listings, payments, shipping, and buyer/seller protection. Enjoei is publicly traded on Brazil's B3 exchange (ticker ENJU3). It was surfaced as a portfolio company of Bessemer Venture Partners. No public developer API, MCP server, or SDKs were found during enrichment; this profile carries the consumer-facing identity and a domain-security probe.",
-     "score": 12.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3738,6 +3745,81 @@
      "rank": 85
     },
     {
+     "name": "Loft",
+     "slug": "loft",
+     "description": "Loft is a Brazilian real estate technology (proptech) company founded in 2018 and headquartered in Sao Paulo. It operates a marketplace for buying, selling, and renting residential property alongside a broad platform of software and financial services for the real estate sector, including a CRM and property-management tools for agencies, digital proposals and e-signatures, lead generation, rental administration, and fintech products such as rental guarantees (Fianca Aluguel), home financing, credit with property collateral, and residential and commercial insurance. Backed by a16z, QED Investors, Fifth Wall, D1 Capital, Thrive Capital, and Baillie Gifford, Loft is a market leader in Brazil's real estate fintech space. Loft does not publish a public developer API, OpenAPI definitions, or client SDKs; its GitHub organization (loft-br) hosts internal engineering and data-science tooling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loft/refs/heads/main/screenshots/loft-2026-07-25T225447.png",
+     "score": 12.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "Enjoei",
+     "slug": "enjoei",
+     "description": "Enjoei is a Brazilian online marketplace (brechó) for buying and selling new and pre-owned fashion, shoes, accessories, electronics, furniture, home goods, and collectibles. Founded in 2009 and headquartered in Sao Paulo, it operates a peer-to-peer resale platform and mobile app (\"enjuapp\") that connects individual sellers and buyers, handling listings, payments, shipping, and buyer/seller protection. Enjoei is publicly traded on Brazil's B3 exchange (ticker ENJU3). It was surfaced as a portfolio company of Bessemer Venture Partners. No public developer API, MCP server, or SDKs were found during enrichment; this profile carries the consumer-facing identity and a domain-security probe.",
+     "score": 12.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Azos",
      "slug": "azos",
      "description": "Azos is a Brazilian insurtech (founded 2021) that sells fully digital life insurance directly to consumers and through a broker (corretor) channel. Its products include life insurance, serious-illness coverage, accidental-disability coverage, and funeral assistance, all contracted online in minutes with no medical exam, transparent pricing from around R$5/month, and coverage up to R$1 million. The company positions itself as \"seguro de vida sem burocracia\" (life insurance without bureaucracy) and is backed by Prosus Ventures. Azos runs a consumer app and a broker portal but publishes no public developer API surface at this time.",
@@ -3753,7 +3835,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3780,7 +3862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "Quinto Andar",
@@ -3797,7 +3879,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -3817,7 +3899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "NG.Cash",
@@ -3835,7 +3917,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3862,7 +3944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "Cuponomia",
@@ -3879,7 +3961,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3899,7 +3981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Vixtra",
@@ -3916,7 +3998,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -3943,7 +4025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "Velotax",
@@ -3960,7 +4042,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3980,7 +4062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Quero Educação",
@@ -3997,7 +4079,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4017,7 +4099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "TIM",
@@ -4035,7 +4117,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4062,7 +4144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "AutoTrac",
@@ -4080,7 +4162,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -4100,7 +4182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "QueroQuitar",
@@ -4117,7 +4199,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4137,7 +4219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "Solfacil",
@@ -4154,7 +4236,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4181,7 +4263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Cargo X",
@@ -4199,7 +4281,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4219,7 +4301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Warren",
@@ -4236,7 +4318,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4256,7 +4338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Amparo",
@@ -4274,7 +4356,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4301,45 +4383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
-    },
-    {
-     "name": "CRM Bonus",
-     "slug": "crm-bonus",
-     "description": "CRM Bonus (CRMBonus) is a Brazilian retail technology platform for customer acquisition, conversion, and loyalty. Its products include Giftback cashback and rewards, the Vale Bonus consumer rewards app connecting brands to over five million shoppers, CRMBack WhatsApp-based e-commerce conversion, and CRMAds retail media on WhatsApp. It integrates with 300+ ERP, point-of-sale, and e-commerce systems including VTEX, Shopify, Linx, TOTVS, Nuvemshop, and PagSeguro. Integration is delivered through partner connectors rather than a public developer API; no public API documentation, developer portal, OpenAPI, or /.well-known discovery surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Mediacao Online",
@@ -4357,44 +4401,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 101
-    },
-    {
-     "name": "Mombak",
-     "slug": "mombak",
-     "description": "Mombak is a Brazilian nature-based carbon removal company that acquires degraded and deforested land in the Amazon and restores it through large-scale, biodiverse reforestation with native species, generating high-integrity, high-quality carbon removal credits for corporate buyers. Founded by former Nubank executives and backed by investors including Union Square Ventures, the company combines science, technology, forestry, and carbon-market expertise to remove carbon at scale while restoring native ecosystems. Mombak operates as a corporate and carbon-markets business and publishes a public marketing and news presence; it does not currently expose a public developer API, SDK, or API documentation. This profile was surfaced as a portfolio company of Union Square Ventures and enriched by the API Evangelist pipeline.",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4417,6 +4424,43 @@
      "rank": 102
     },
     {
+     "name": "Mombak",
+     "slug": "mombak",
+     "description": "Mombak is a Brazilian nature-based carbon removal company that acquires degraded and deforested land in the Amazon and restores it through large-scale, biodiverse reforestation with native species, generating high-integrity, high-quality carbon removal credits for corporate buyers. Founded by former Nubank executives and backed by investors including Union Square Ventures, the company combines science, technology, forestry, and carbon-market expertise to remove carbon at scale while restoring native ecosystems. Mombak operates as a corporate and carbon-markets business and publishes a public marketing and news presence; it does not currently expose a public developer API, SDK, or API documentation. This profile was surfaced as a portfolio company of Union Square Ventures and enriched by the API Evangelist pipeline.",
+     "score": 8.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 103
+    },
+    {
      "name": "Genial Care",
      "slug": "genial-care",
      "description": "Genial Care is a Brazilian healthtech network providing multidisciplinary, evidence-based care for children with autism spectrum disorder (ASD) and atypical development up to roughly eight years of age. Founded in 2020 in Sao Paulo, it operates a network of clinics (\"Casas Geniais\") across Greater Sao Paulo delivering ABA (applied behavior analysis), speech-language therapy, and occupational therapy, alongside family assessments, in-person and online consultations, educational content, and a professional training academy. Care is coordinated through a proprietary mobile app that supports continuous monitoring and family engagement. The company partners with major Brazilian health plans (operadoras), which account for the majority of its revenue, and is backed by General Catalyst. Genial Care operates as a consumer/clinical care provider and does not publish a public developer API surface.",
@@ -4432,7 +4476,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4459,7 +4503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Inventa",
@@ -4477,45 +4521,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 104
-    },
-    {
-     "name": "Dabee",
-     "slug": "dabee",
-     "description": "Dabee (dabee.com.br) is a Brazilian consumer-technology review and comparison website that helps shoppers make informed purchasing decisions about electronics and gadgets. It publishes hands-on reviews, side-by-side comparisons, and buying guides across notebooks, smartphones, tablets, monitors, smartwatches, gaming consoles, smart TVs, and networking equipment, with 'vale a pena' (is-it-worth-it) verdicts and price tracking pulled from Amazon Brazil. The site monetizes through affiliate commissions. As of this profile it exposes no public developer API, documentation, or developer portal; it was surfaced as a 500 Global portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dabee/refs/heads/main/screenshots/dabee-2026-07-25T211122.png",
-     "score": 7.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4538,9 +4544,10 @@
      "rank": 105
     },
     {
-     "name": "SambaAds",
-     "slug": "sambaads",
-     "description": "SambaAds is a company surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of this pass the registered website (ycontent.com.br) serves yContent, a Brazilian coupon and discount aggregation platform (part of Rede de Cupons / Ganhe de Volta) that verifies and publishes working promotional codes for major Brazilian e-commerce retailers such as Amazon, Americanas, Kabum and Sephora. The site is a consumer-facing web property; it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so there is no public API surface to catalog at this time. This profile records the honest result of an enrichment pass (domain-security probe plus well-known and security.txt probes) and remains a lead awaiting any future developer program.",
+     "name": "Dabee",
+     "slug": "dabee",
+     "description": "Dabee (dabee.com.br) is a Brazilian consumer-technology review and comparison website that helps shoppers make informed purchasing decisions about electronics and gadgets. It publishes hands-on reviews, side-by-side comparisons, and buying guides across notebooks, smartphones, tablets, monitors, smartwatches, gaming consoles, smart TVs, and networking equipment, with 'vale a pena' (is-it-worth-it) verdicts and price tracking pulled from Amazon Brazil. The site monetizes through affiliate commissions. As of this profile it exposes no public developer API, documentation, or developer portal; it was surfaced as a 500 Global portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dabee/refs/heads/main/screenshots/dabee-2026-07-25T211122.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4552,7 +4559,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4575,9 +4582,9 @@
      "rank": 106
     },
     {
-     "name": "Send4 Tecnologia",
-     "slug": "send4-tecnologia",
-     "description": "Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase platform for e-commerce, automating product exchanges, returns, and reverse logistics. Founded in 2017, it has processed over 6 million reverse-logistics transactions and offers intelligent authorization rules for approvals and blocks, a self-service customer exchange portal, real-time returns dashboards, revenue-retention offers (vouchers and cashback), integrated shipping labels and tracking, automated refunds and store credit, and multi-channel WhatsApp and email support. It advertises a simple, flexible API to connect with any e-commerce platform in minutes, though no public developer documentation is currently published. After Sale is now part of the Confi ecosystem alongside Neotrust and the Confi consumer app.",
+     "name": "SambaAds",
+     "slug": "sambaads",
+     "description": "SambaAds is a company surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of this pass the registered website (ycontent.com.br) serves yContent, a Brazilian coupon and discount aggregation platform (part of Rede de Cupons / Ganhe de Volta) that verifies and publishes working promotional codes for major Brazilian e-commerce retailers such as Amazon, Americanas, Kabum and Sephora. The site is a consumer-facing web property; it publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so there is no public API surface to catalog at this time. This profile records the honest result of an enrichment pass (domain-security probe plus well-known and security.txt probes) and remains a lead awaiting any future developer program.",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4589,7 +4596,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4612,6 +4619,43 @@
      "rank": 107
     },
     {
+     "name": "Send4 Tecnologia",
+     "slug": "send4-tecnologia",
+     "description": "Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase platform for e-commerce, automating product exchanges, returns, and reverse logistics. Founded in 2017, it has processed over 6 million reverse-logistics transactions and offers intelligent authorization rules for approvals and blocks, a self-service customer exchange portal, real-time returns dashboards, revenue-retention offers (vouchers and cashback), integrated shipping labels and tracking, automated refunds and store credit, and multi-channel WhatsApp and email support. It advertises a simple, flexible API to connect with any e-commerce platform in minutes, though no public developer documentation is currently published. After Sale is now part of the Confi ecosystem alongside Neotrust and the Confi consumer app.",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 108
+    },
+    {
      "name": "Mevo",
      "slug": "mevo",
      "description": "Mevo is a Brazilian healthtech company whose stated mission is to \"descomplicar a saúde\" (simplify healthcare) through a digital platform that connects doctors, patients, and pharmacies. Its products include Mevo Receita Digital (electronic/digital medical prescriptions replacing paper scripts), and Mevo Farma / Mevo Dispensação (online medication purchase, dispensing, and partner-pharmacy fulfillment with delivery). Mevo sells to hospitals, health operators, clinics, and telemedicine platforms as a B2B partner. No public developer API, OpenAPI, or documentation portal is currently published; this profile tracks the company in the API Evangelist network. Surfaced as a portfolio company of Matrix Partners and Prosus Ventures.",
@@ -4627,7 +4671,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4654,7 +4698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Printi",
@@ -4671,7 +4715,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4691,7 +4735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Viajanet",
@@ -4708,7 +4752,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -4728,7 +4772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Já Entendi",
@@ -4746,44 +4790,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 111
-    },
-    {
-     "name": "elo7",
-     "slug": "elo7",
-     "description": "Elo7 was a Brazilian online marketplace for handmade, customized, and creative products — frequently described as \"the Etsy of Brazil.\" Founded in 2008 and headquartered in Sao Paulo, it connected independent artisans and small makers with buyers across Brazil for party supplies, decor, crafts, and personalized goods. Etsy acquired Elo7 in July 2021 for roughly USD 217 million, then sold it to Brazilian firm Enjoei S.A. in July 2023, after which the marketplace was wound down and stopped accepting new orders. Elo7 published no public developer API or OpenAPI; its GitHub organization holds only small internal frontend (AMD) utility libraries. This profile entered the API Evangelist network as an Insight Partners portfolio lead and is enriched here with the real, honest surface that remains.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4806,9 +4813,10 @@
      "rank": 112
     },
     {
-     "name": "HotelUrbano",
-     "slug": "hotelurbano",
-     "description": "HotelUrbano (later rebranded Hurb) was a Brazilian online travel agency founded in January 2011 by Joao Ricardo Mendes and headquartered in Rio de Janeiro, offering hotel bookings, flights, and flexible travel packages across domestic and international destinations. Once one of Brazil's largest OTAs and backed by investors including Insight Partners and Tiger Global, the company collapsed amid consumer-protection complaints: the Brazilian Ministry of Tourism revoked its Cadastur operating license on 14 April 2025 and the company ceased all operations on 25 October 2025. Its consumer domains (hotelurbano.com.br, hurb.com) no longer resolve and it publishes no public API, developer portal, SDKs, or OpenAPI. The only surviving public technical surface is its GitHub organization (hurbcom), which hosts engineering coding challenges and open-source utility forks rather than product APIs. This profile is retained as a historical/defunct-company record in the API Evangelist network.",
+     "name": "Advolve.AI",
+     "slug": "advolveai",
+     "description": "Advolve.AI is an AI-driven performance-marketing and customer-acquisition platform for e-commerce brands and marketplaces, offering an end-to-end solution to automate, scale, and optimize paid media and digital advertising, including a patent-pending creative-optimization capability that tunes interactive ad elements (messaging, graphics, colors, fonts). Founded in 2023 and headquartered in Sao Paulo, Brazil, Advolve was backed by Prosus Ventures and Valor Capital and was acquired by iFood (Prosus group) in November 2025 to power iFood Ads across Latin America. Advolve publishes a marketing website only; as of enrichment it exposes no public developer program, API, SDKs, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advolveai/refs/heads/main/screenshots/advolveai-2026-07-25T181710.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4820,7 +4828,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4843,6 +4851,80 @@
      "rank": 113
     },
     {
+     "name": "elo7",
+     "slug": "elo7",
+     "description": "Elo7 was a Brazilian online marketplace for handmade, customized, and creative products — frequently described as \"the Etsy of Brazil.\" Founded in 2008 and headquartered in Sao Paulo, it connected independent artisans and small makers with buyers across Brazil for party supplies, decor, crafts, and personalized goods. Etsy acquired Elo7 in July 2021 for roughly USD 217 million, then sold it to Brazilian firm Enjoei S.A. in July 2023, after which the marketplace was wound down and stopped accepting new orders. Elo7 published no public developer API or OpenAPI; its GitHub organization holds only small internal frontend (AMD) utility libraries. This profile entered the API Evangelist network as an Insight Partners portfolio lead and is enriched here with the real, honest surface that remains.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 114
+    },
+    {
+     "name": "HotelUrbano",
+     "slug": "hotelurbano",
+     "description": "HotelUrbano (later rebranded Hurb) was a Brazilian online travel agency founded in January 2011 by Joao Ricardo Mendes and headquartered in Rio de Janeiro, offering hotel bookings, flights, and flexible travel packages across domestic and international destinations. Once one of Brazil's largest OTAs and backed by investors including Insight Partners and Tiger Global, the company collapsed amid consumer-protection complaints: the Brazilian Ministry of Tourism revoked its Cadastur operating license on 14 April 2025 and the company ceased all operations on 25 October 2025. Its consumer domains (hotelurbano.com.br, hurb.com) no longer resolve and it publishes no public API, developer portal, SDKs, or OpenAPI. The only surviving public technical surface is its GitHub organization (hurbcom), which hosts engineering coding challenges and open-source utility forks rather than product APIs. This profile is retained as a historical/defunct-company record in the API Evangelist network.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 115
+    },
+    {
      "name": "Marvin",
      "slug": "marvin",
      "description": "Marvin (Marvin Tecnologia Ltda., CNPJ 41.240.161/0001-30) is a São Paulo, Brazil based B2B fintech and tech-native collateral agent that transforms credit-card and duplicata receivables into registered financial guarantees. Born out of Brazilian Central Bank Resolution 264 — which legalized the negotiation of credit-card receivables as financial assets — Marvin operates a \"registration-as-a-service\" platform that lets retailers, banks and suppliers register, manage and settle receivables-backed collateral, unlocking working capital for merchants. The company is backed by a US$15M Series A led by Canaan Partners (with Canary and Maúa Capital) and works with partners including B3, C6 Bank, Casas Bahia, Electrolux, Pernambucanas and AVLA. Marvin runs a private backend (app.marvin.com.br) for its customers; it does not currently publish a public developer API, documentation, or SDKs. This profile was added to the API Evangelist network as a Canaan Partners portfolio lead and enriched from public web sources.",
@@ -4858,7 +4940,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -4885,7 +4967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Ursula",
@@ -4902,82 +4984,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 115
-    },
-    {
-     "name": "Advolve.AI",
-     "slug": "advolveai",
-     "description": "Advolve.AI is an AI-driven performance-marketing and customer-acquisition platform for e-commerce brands and marketplaces, offering an end-to-end solution to automate, scale, and optimize paid media and digital advertising, including a patent-pending creative-optimization capability that tunes interactive ad elements (messaging, graphics, colors, fonts). Founded in 2023 and headquartered in Sao Paulo, Brazil, Advolve was backed by Prosus Ventures and Valor Capital and was acquired by iFood (Prosus group) in November 2025 to power iFood Ads across Latin America. Advolve publishes a marketing website only; as of enrichment it exposes no public developer program, API, SDKs, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advolveai/refs/heads/main/screenshots/advolveai-2026-07-25T181710.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-11",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "BeautyDate",
-     "slug": "beautydate",
-     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5000,9 +5007,9 @@
      "rank": 117
     },
     {
-     "name": "Folhamatic",
-     "slug": "folhamatic",
-     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
+     "name": "BeautyDate",
+     "slug": "beautydate",
+     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5014,7 +5021,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5037,10 +5044,9 @@
      "rank": 118
     },
     {
-     "name": "Magnetis",
-     "slug": "magnetis",
-     "description": "Magnetis is a Brazilian digital wealth management and automated investment (robo-advisor) platform, backed by 500 Global, that offered goal-based portfolio recommendations and managed investment accounts to retail investors in Brazil. The company was acquired by BTG Pactual, and the magnetis.com.br domain now redirects to BTG Pactual's investimentos platform; no independent public developer program or API surface is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnetis/refs/heads/main/screenshots/magnetis-2026-07-25T225900.png",
+     "name": "Folhamatic",
+     "slug": "folhamatic",
+     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5052,7 +5058,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5075,9 +5081,10 @@
      "rank": 119
     },
     {
-     "name": "Rei do Pitaco",
-     "slug": "rei-do-pitaco",
-     "description": "Rei do Pitaco is a Brazilian online sports betting, daily fantasy sports, and casino platform founded in 2019 and headquartered in Brazil. The service offers competitive sports odds, live in-play betting, daily fantasy sports contests, and casino games aimed at the Brazilian market. As a regulated iGaming operator its consumer web and mobile properties are geo-restricted outside Brazil (the primary domains return HTTP 451 to non-Brazilian visitors), and the company exposes no public developer API, documentation, or SDK surface. Rei do Pitaco is backed by Bullpen Capital and was added to the API Evangelist network as a portfolio-sourced company profile.",
+     "name": "Magnetis",
+     "slug": "magnetis",
+     "description": "Magnetis is a Brazilian digital wealth management and automated investment (robo-advisor) platform, backed by 500 Global, that offered goal-based portfolio recommendations and managed investment accounts to retail investors in Brazil. The company was acquired by BTG Pactual, and the magnetis.com.br domain now redirects to BTG Pactual's investimentos platform; no independent public developer program or API surface is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnetis/refs/heads/main/screenshots/magnetis-2026-07-25T225900.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5089,7 +5096,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5112,9 +5119,9 @@
      "rank": 120
     },
     {
-     "name": "Trocafone",
-     "slug": "trocafone",
-     "description": "Trocafone is a Brazilian e-commerce company specializing in refurbished and pre-owned smartphones and consumer electronics sold with warranty. Operating primarily in Brazil on the VTEX commerce platform, it runs a consumer marketplace for certified semi-new iPhones, Samsung, Motorola and other devices, a trade-in program (\"Venda seu aparelho\") that buys used devices from consumers, and a Reparofone device-repair service. Backed by 500 Global, the company is tracked in the API Evangelist network as a company profile; as of this enrichment pass it publishes no public developer or API surface.",
+     "name": "Rei do Pitaco",
+     "slug": "rei-do-pitaco",
+     "description": "Rei do Pitaco is a Brazilian online sports betting, daily fantasy sports, and casino platform founded in 2019 and headquartered in Brazil. The service offers competitive sports odds, live in-play betting, daily fantasy sports contests, and casino games aimed at the Brazilian market. As a regulated iGaming operator its consumer web and mobile properties are geo-restricted outside Brazil (the primary domains return HTTP 451 to non-Brazilian visitors), and the company exposes no public developer API, documentation, or SDK surface. Rei do Pitaco is backed by Bullpen Capital and was added to the API Evangelist network as a portfolio-sourced company profile.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5126,7 +5133,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5149,9 +5156,9 @@
      "rank": 121
     },
     {
-     "name": "VivaReal",
-     "slug": "vivareal",
-     "description": "VivaReal operates vivareal.com.br, a Brazilian online real estate marketplace and classifieds portal where consumers search, buy, sell, and rent residential and commercial properties across Brazil, connecting property seekers with real estate agents, agencies, and developers. It was originally backed by 500 Global and later became part of Grupo ZAP / OLX Brasil. It was surfaced as a portfolio company and added to the API Evangelist network for enrichment; an enrichment pass found no public developer API surface, portal, or specification.",
+     "name": "Trocafone",
+     "slug": "trocafone",
+     "description": "Trocafone is a Brazilian e-commerce company specializing in refurbished and pre-owned smartphones and consumer electronics sold with warranty. Operating primarily in Brazil on the VTEX commerce platform, it runs a consumer marketplace for certified semi-new iPhones, Samsung, Motorola and other devices, a trade-in program (\"Venda seu aparelho\") that buys used devices from consumers, and a Reparofone device-repair service. Backed by 500 Global, the company is tracked in the API Evangelist network as a company profile; as of this enrichment pass it publishes no public developer or API surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5163,7 +5170,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5186,6 +5193,43 @@
      "rank": 122
     },
     {
+     "name": "VivaReal",
+     "slug": "vivareal",
+     "description": "VivaReal operates vivareal.com.br, a Brazilian online real estate marketplace and classifieds portal where consumers search, buy, sell, and rent residential and commercial properties across Brazil, connecting property seekers with real estate agents, agencies, and developers. It was originally backed by 500 Global and later became part of Grupo ZAP / OLX Brasil. It was surfaced as a portfolio company and added to the API Evangelist network for enrichment; an enrichment pass found no public developer API surface, portal, or specification.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 123
+    },
+    {
      "name": "Cayena",
      "slug": "cayena",
      "description": "Cayena is a Brazilian B2B technology company operating an e-procurement marketplace and embedded-fintech platform for the food-service industry. It connects restaurants, bars, hotels, and other food-service buyers with food, beverage, and supply distributors, streamlining ordering, catalog discovery, and fulfillment while layering in payments and short-term credit (buy-now-pay-later) so operators can purchase supplies and defer payment. Headquartered in Sao Paulo, Cayena is backed by venture investors including Canaan Partners. This API Evangelist profile was surfaced as a portfolio company lead; no public developer API, OpenAPI, or developer portal has been confirmed for Cayena at the time of enrichment.",
@@ -5200,7 +5244,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -5227,7 +5271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Lanistar",
@@ -5245,7 +5289,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -5272,7 +5316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     }
    ]
   }

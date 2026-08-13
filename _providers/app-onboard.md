@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 6.8
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -71,34 +71,70 @@ common:
   title: ''
   type: DomainSecurity
   url: security/app-onboard-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AppOnboard
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/app-onboard-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/app-onboard-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: Quvy's entire published site is five sitemap URLs (home, pricing, contact, login, blog) with no developer page of any kind, and the product's only machine surface is the web app's own AWS AppSync GraphQL backend, which is undocumented and answers anonymous introspection with HTTP 401 UnauthorizedException.
+  evidence:
+  - status: 200
+    url: https://www.quvy.com/sitemap.xml
+  - status: 401
+    url: https://evlns23x7jdknaffuzd6ittk7a.appsync-api.us-east-1.amazonaws.com/graphql
+  - status: 404
+    url: https://www.quvy.com/api/openapi.json
+  - status: 404
+    url: https://www.quvy.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.quvy.com/.well-known/api-catalog
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: AppOnBoard, Inc. is a Los Angeles-based technology company founded in 2016 that builds AI-driven creative and advertising tools for app and game marketers. Its best-known product is Buildbox, a no-code platform for making games and apps without programming, and its current flagship is Quvy, an AI ad-creation and testing platform that generates static, video, and concept ad variations and predicts their performance against synthetic audiences before any real ad spend. Quvy targets marketers, indie and studio game developers, SaaS companies, and brands that want to replace slow, expensive A/B testing and agencies with fast simulation-based creative optimization. AppOnBoard is backed by 500 Global; its original apponboard.com domain now redirects to the Quvy product at quvy.com. This profile carries the company identity and website properties; AppOnBoard publishes no public API, developer portal, SDKs, or OpenAPI at this time.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/app-onboard.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-12'
 name: App Onboard
 nav: Providers
 network: true
 overview: 'App Onboard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Artificial Intelligence, and Marketing.
 
 
-  App Onboard''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+  App Onboard''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
+plans:
+- name: App Onboard Plans Pricing
+  plan_count: 7
+  slug: app-onboard-plans-pricing
+random_paper: 27
+rate_limits:
+- limit_count: 0
+  name: App Onboard Rate Limits
+  slug: app-onboard-rate-limits
 score:
   band: emerging
-  composite: 15.2
-  delta: 0.0
+  composite: 24.1
+  delta: 8.9
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/app-onboard/refs/heads/main/screenshots/app-onboard-2026-07-25T200734.png
 security:
 - kind: domain-security

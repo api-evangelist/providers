@@ -13,31 +13,31 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-11'
+  score: 31.1
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Real-time bidding API implementing OpenRTB 2.x and Native Ads 1.2 specifications for demand partners to participate in native, banner, and video ad auctions. Supports bid request and response objects,
   name: TripleLift Exchange (TLX) API
   slug: triplelift-exchange-tlx-api
-- description: REST API for supply partners and publishers to access network reporting, connected TV publisher network reports, and integration management. Provides synchronous and asynchronous query capabilities wi
-  name: TripleLift Supply Publisher API
-  slug: triplelift-supply-publisher-api
-artifact_total: 7
+- description: GraphQL API for publishers and supply partners covering standard and connected TV (CTV) network reporting. A single unversioned endpoint exposes publisherNetworkReport and ctvPublisherNetworkReport pl
+  name: TripleLift Reporting API
+  slug: triplelift-reporting-api
+artifact_total: 12
 common:
 - group: auth
   title: ''
@@ -83,8 +83,92 @@ common:
   title: ''
   type: FinOps
   url: finops/triplelift-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.triplelift.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://supply-docs.triplelift.com/reference/introduction
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://triplelift.com/privacy/
+- group: start
+  title: ''
+  type: Login
+  url: https://console.triplelift.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://triplelift.com/contact-us/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.triplelift.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/triplelift-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/triplelift-mcp.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/triplelift-graphql.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/triplelift-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/triplelift-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/triplelift-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/triplelift-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/triplelift-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/triplelift-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/triplelift-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/triplelift-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/triplelift-packages.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/triplelift-trust-center.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/triplelift-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-06-13'
-description: TripleLift is a programmatic advertising company specializing in native inventory with APIs for managing native ad units, deals, targeting, viewability measurement, and creative quality. The platform provides OpenRTB-compliant exchange APIs for demand and supply partners, publisher network reporting, connected TV (CTV) advertising, and mobile SDKs for iOS and Android.
+description: TripleLift is a programmatic advertising exchange and supply-side platform built around native inventory, with a public developer surface in two parts. The TripleLift Exchange (TLX) is an IAB OpenRTB 2.x server-to-server auction endpoint for native, banner, video and connected TV, geo-load balanced across four AWS regions, with user-sync endpoints carrying GDPR TCF, us_privacy and GPP consent signals and SKAdNetwork support for iOS attribution. The TripleLift Reporting API is a GraphQL API for publishers and supply partners covering standard and CTV network reporting, with synchronous cursor-paginated queries and asynchronous CSV export by pre-signed download or email. TripleLift also publishes sellers.json, a component-level status page, a dated Reporting API changelog, and Prebid.js and Prebid Server bid adapters.
 finops:
 - name: Triplelift Finops
   service_category: ''
@@ -96,47 +180,68 @@ jsonld:
   property_count: 0
   slug: triplelift-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: triplelift-mcp.yml
+  slug: triplelift-mcpyml
+modified: '2026-08-12'
 name: TripleLift
 nav: Providers
 network: true
-overview: 'TripleLift publishes 2 APIs on the [APIs.io](https://apis.io/) network: Exchange (TLX) API and Supply Publisher API. Tagged areas include Programmatic Advertising, Native Advertising, Ad Exchange, OpenRTB, and Header Bidding.
+overview: 'TripleLift publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Programmatic Advertising, Native Advertising, Ad Exchange, OpenRTB, and Header Bidding.
 
 
   The TripleLift catalog on APIs.io includes 1 JSON-LD context.
 
 
-  TripleLift''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  TripleLift''s developer surface includes documentation, engineering blog, pricing, API reference, support, authentication, changelog, and 25 more developer resources.'
 plans:
 - name: Triplelift Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: triplelift-plans-pricing
-random_paper: 43
+random_paper: 7
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Triplelift Rate Limits
   slug: triplelift-rate-limits
+scopes:
+- name: Triplelift Scopes
+  scope_count: 51
+  slug: triplelift-scopes
+  summary_line: 51 scopes
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 13.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 45.2
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 50.0
+    contract_quality: 12.9
+    developer_ergonomics: 63.0
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 57.9
   previous_composite: 28.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/triplelift/refs/heads/main/screenshots/triplelift-2026-06-20T195728.png
 security:
+- kind: authentication
+  name: Triplelift Authentication
+  slug: triplelift-authentication
+  summary_line: 5 schemes
 - kind: domain-security
   name: Triplelift Domain Security
   slug: triplelift-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Triplelift Vulnerability Disclosure
+  slug: triplelift-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Triplelift Trust Center
+  slug: triplelift-trust-center
+  summary_line: trust center published
 slug: triplelift
 tags:
 - Programmatic Advertising
@@ -147,5 +252,9 @@ tags:
 - Connected TV
 - Supply Side Platform
 - Demand Side Platform
+- GraphQL
+- Ad Tech
+- Publisher Reporting
+- Real-Time Bidding
 website: https://triplelift.com
 ---

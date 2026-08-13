@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Playht Plans Pricing
   plan_count: 1
   slug: playht-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Playht Rate Limits
@@ -169,7 +169,7 @@ rules:
 score:
   band: developing
   composite: 48.7
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.2
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

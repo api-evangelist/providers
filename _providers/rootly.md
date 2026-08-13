@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Rootly Plans Pricing
   plan_count: 3
   slug: rootly-plans-pricing
-random_paper: 101
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Rootly Rate Limits
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.3
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.6
@@ -146,7 +146,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.6
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/screenshots/rootly-2026-06-20T193221.png
 security:
 - kind: authentication

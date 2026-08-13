@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 24
 apis:
 - description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
@@ -214,7 +214,7 @@ plans:
 - name: Braze Plans Pricing
   plan_count: 3
   slug: braze-plans-pricing
-random_paper: 68
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Braze Rate Limits
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.2
-  delta: -6.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 63.4
@@ -230,7 +230,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 39.7
+  previous_composite: 33.2
   provenance:
     contracts:
       callable: 100.0
@@ -244,8 +244,8 @@ score:
     regime_id: telecommunications
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:
 - kind: domain-security

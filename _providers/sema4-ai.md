@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The v2 REST API drives the Sema4.ai platform programmatically — list and talk to agents, stream responses, queue and manage Work Items, read data connections, manage MCP servers, and read audits. Each
@@ -168,11 +168,11 @@ overview: 'Sema4 Ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sema4 Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: thin
   composite: 35.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -180,12 +180,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 36.9
+  previous_composite: 35.8
   provenance:
     conformance: derived
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

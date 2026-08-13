@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'EAS Innovations Inc is profiled on the [APIs.io](https://apis.io/) ne
 
 
   EAS Innovations Inc''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
-random_paper: 69
+random_paper: 5
 score:
   band: emerging
   composite: 13.1
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.1
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
@@ -95,7 +95,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eas-innovations-inc/refs/heads/main/screenshots/eas-innovations-inc-2026-07-25T212704.png
 security:

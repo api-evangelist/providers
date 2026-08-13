@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ overview: 'KDDI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KDDI''s developer surface includes product news, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 64
+random_paper: 52
 score:
   band: minimal
   composite: 7.6
@@ -144,7 +144,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kddi/refs/heads/main/screenshots/kddi-2026-07-25T223539.png
 security:

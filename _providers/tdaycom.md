@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol (MCP) server for tday, exposed at https://tday.com/api/mcp and secured with OAuth 2.1 (authorization_code + PKCE, dynamic client registration, single "tday" scope). It is
@@ -96,7 +96,7 @@ overview: 'Tdaycom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Tdaycom''s developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 57
+random_paper: 33
 scopes:
 - name: Tdaycom Scopes
   scope_count: 1
@@ -105,7 +105,7 @@ scopes:
 score:
   band: emerging
   composite: 19.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -113,11 +113,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.3
+  previous_composite: 19.2
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

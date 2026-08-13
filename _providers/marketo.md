@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ plans:
 - name: Marketo Plans Pricing
   plan_count: 3
   slug: marketo-plans-pricing
-random_paper: 59
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Marketo Rate Limits
@@ -332,7 +332,7 @@ rules:
 score:
   band: thin
   composite: 39.9
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 61.4
@@ -340,7 +340,7 @@ score:
     discoverability: 50.0
     governance: 47.9
     operational_transparency: 15.8
-  previous_composite: 48.2
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -349,8 +349,8 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:
 - kind: domain-security

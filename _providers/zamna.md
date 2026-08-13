@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Session API from Zamna — 9 operation(s) for session.
@@ -133,11 +133,11 @@ overview: 'Zamna publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zamna''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, and 13 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: thin
   composite: 32.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 45.1
@@ -145,7 +145,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 33.6
+  previous_composite: 32.0
   provenance:
     conformance: derived
     contracts:
@@ -156,7 +156,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

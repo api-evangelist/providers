@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Brave Plans Pricing
   plan_count: 4
   slug: brave-plans-pricing
-random_paper: 64
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Brave Rate Limits
@@ -212,7 +212,7 @@ rules:
 score:
   band: developing
   composite: 50.5
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
@@ -220,7 +220,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 49.1
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/screenshots/brave-2026-06-20T173636.png
 security:

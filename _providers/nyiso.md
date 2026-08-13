@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: NYISO's Market Information System public archive - the operator's flagship open data surface. Roughly sixty machine-readable report families are published as predictable daily CSV files and monthly ZI
@@ -179,11 +179,11 @@ overview: 'New York Independent System Operator (NYISO) publishes 6 APIs on the 
 
 
   New York Independent System Operator (NYISO)''s developer surface includes developer portal, documentation, legal docs, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 98
+random_paper: 82
 score:
   band: thin
   composite: 28.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 16.1
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 29.0
+  previous_composite: 28.1
   provenance:
     conformance: first-party
     skills: derived
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nyiso/refs/heads/main/screenshots/nyiso-2026-08-07T185826.png
 security:

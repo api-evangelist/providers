@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence
   url: https://news.northropgrumman.com/artificial-intelligence
-random_paper: 72
+random_paper: 16
 score:
   band: minimal
   composite: 4.2
@@ -81,7 +81,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: northrop-grumman
 tags:

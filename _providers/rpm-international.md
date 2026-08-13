@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: RPM completes Kalzip acquisition for Tremco unit
   url: https://www.stocktitan.net/news/RPM/rpm-completes-acquisition-of-cc1zaqwdo451.html
-random_paper: 40
+random_paper: 100
 rules:
 - name: RPM International API Rules
   rule_count: 5
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/screenshots/rpm-international-2026-06-20T193235.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Doodle REST API for programmatically creating and managing group polls, booking pages, and meeting scheduling. This API has been deprecated and Doodle no longer supports new API integrations. Ente
@@ -112,7 +112,7 @@ plans:
 - name: Doodle Plans Pricing
   plan_count: 4
   slug: doodle-plans-pricing
-random_paper: 51
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Doodle Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doodle/refs/heads/main/screenshots/doodle-2026-06-20T180154.png
 security:

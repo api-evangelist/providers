@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Alectra's mandated Green Button Connect My Data service, required of every Ontario electric and gas utility by Ontario Regulation 633/21 (Energy Data) and implemented to the NAESB REQ.21 Energy Servic
@@ -120,7 +120,7 @@ overview: 'Alectra Utilities publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 15 more developer resources.'
-random_paper: 25
+random_paper: 85
 scopes:
 - name: Alectra Utilities Scopes
   scope_count: 0
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 27.2
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 11.8
@@ -137,7 +137,7 @@ score:
     discoverability: 66.7
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 25.6
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
@@ -154,7 +154,7 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png
 security:

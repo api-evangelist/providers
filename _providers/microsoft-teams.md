@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,9 +73,6 @@ apis:
   name: Microsoft Teams Teams API
   slug: microsoft-teams-teams-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Add a member to a team and post a welcome message to a chosen channel.
   name: Microsoft Teams Add Member and Welcome
   slug: microsoft-teams-add-member-and-welcome-workflow
@@ -118,7 +115,7 @@ arazzos:
 - description: List a team's channels and read the recent messages in a chosen channel.
   name: Microsoft Teams Review Channel Conversation
   slug: microsoft-teams-review-channel-conversation-workflow
-artifact_total: 107
+artifact_total: 106
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous event surface for Microsoft Teams. Two distinct delivery channels are modeled: 1. Microsoft Graph change notifications - HTTPS webhook deliveries that Micr'
   name: Microsoft Teams Event Surface
@@ -507,7 +504,7 @@ plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
   slug: microsoft-teams-plans-pricing
-random_paper: 57
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Microsoft Teams Rate Limits
@@ -545,7 +542,7 @@ scopes:
 score:
   band: strong
   composite: 56.6
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 47.8
@@ -553,7 +550,7 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 42.1
-  previous_composite: 63.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -564,8 +561,8 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:
 - kind: authentication

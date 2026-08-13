@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Pages, posts, reusable blocks and navigation.
@@ -198,11 +198,11 @@ overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Allotex''s developer surface includes support, authentication, and 31 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: emerging
   composite: 22.2
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 18.8
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 22.2
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:

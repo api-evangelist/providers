@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -170,7 +170,7 @@ plans:
 - name: Geotab Plans Pricing
   plan_count: 2
   slug: geotab-plans-pricing
-random_paper: 46
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Geotab Rate Limits
@@ -187,7 +187,7 @@ rules:
 score:
   band: developing
   composite: 44.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.3
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 45.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/screenshots/geotab-2026-06-20T181804.png
 security:

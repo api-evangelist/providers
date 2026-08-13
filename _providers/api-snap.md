@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ plans:
 - name: Api Snap Plans Pricing
   plan_count: 4
   slug: api-snap-plans-pricing
-random_paper: 97
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Api Snap Rate Limits
@@ -305,7 +305,7 @@ rules:
 score:
   band: developing
   composite: 51.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 79.9
@@ -313,7 +313,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.7
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -93,16 +93,13 @@ apis:
   name: Due Webhooks API
   slug: due-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Onboard is assumed; list channels, create a recipient, quote, send, and track a transfer to settlement.
   name: Due — Quote and send a cross-border transfer
   slug: due-cross-border-transfer
 - description: Create an account, initiate KYC/KYB, and confirm the account reaches a verified state.
   name: Due — Onboard a customer account with KYC/KYB
   slug: due-onboard-account
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Due Webhooks
@@ -247,11 +244,11 @@ overview: 'Due publishes 18 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 86
+random_paper: 78
 score:
   band: developing
   composite: 47.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.7
@@ -259,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 47.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,7 +274,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

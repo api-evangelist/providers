@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The BSEE Well API provides multiregional offshore well information retrieval across Alaska, Atlantic, Gulf of America, and Pacific regions. Query by API well number, company name, well status, field n
@@ -94,7 +94,7 @@ plans:
 - name: Bureau Of Safety And Environmental Enforcement Plans Pricing
   plan_count: 3
   slug: bureau-of-safety-and-environmental-enforcement-plans-pricing
-random_paper: 101
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Bureau Of Safety And Environmental Enforcement Rate Limits
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.4
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -110,7 +110,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.8
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
@@ -118,8 +118,8 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-safety-and-environmental-enforcement/refs/heads/main/screenshots/bureau-of-safety-and-environmental-enforcement-2026-06-20T173818.png
 security:
 - kind: domain-security

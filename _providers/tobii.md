@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,11 +95,11 @@ overview: 'Tobii is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tobii''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: emerging
   composite: 16.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -107,9 +107,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.9
+  previous_composite: 16.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

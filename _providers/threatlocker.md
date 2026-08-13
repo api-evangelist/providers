@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -235,11 +235,11 @@ overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) net
 
 
   ThreatLocker''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 12
+random_paper: 88
 score:
   band: developing
   composite: 53.0
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.2
@@ -247,7 +247,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 52.9
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

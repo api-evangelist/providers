@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -243,11 +243,11 @@ overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 39 more developer resources.'
-random_paper: 14
+random_paper: 98
 score:
   band: developing
   composite: 49.6
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 56.3
@@ -255,7 +255,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 52.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,7 +273,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:

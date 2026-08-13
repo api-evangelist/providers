@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,22 +27,18 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-11'
+  score: 15.8
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
-- description: REST API enabling publishers to pull programmatic and direct sell reporting data for their native ad placements, including impressions, revenue, and performance metrics, using token-based authenticati
+- description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
   name: Sharethrough Publisher Reporting API
   slug: sharethrough-publisher-reporting-api
-- description: OpenRTB-based bidder adapter integration enabling SSP/DSP connections through the Prebid.js header bidding framework for native, display, and video ad formats with support for placement keys and first
+- description: OpenRTB 2.x bid endpoint at /universal/v1, integrated through the first-party sharethrough bidder adapter in Prebid.js (adapter version 4.3.0, IAB GVL ID 80). Supports banner, native and video/CTV, th
   name: Sharethrough Header Bidding (Prebid) API
   slug: sharethrough-header-bidding-prebid-api
-artifact_total: 7
+artifact_total: 8
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/sharethrough-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -51,9 +47,13 @@ common:
   title: ''
   type: Documentation
   url: https://support.sharethrough.com/hc/en-us
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.sharethrough.com/hc/en-us
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/sharethrough
 - group: company
   title: ''
@@ -63,14 +63,22 @@ common:
   title: ''
   type: Blog
   url: https://www.sharethrough.com/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.sharethrough.com/publishers
 - group: other
   title: ''
   type: X
   url: https://x.com/sharethrough
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sharethrough.com/publisher-platform-terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy-center.sharethrough.com
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.sharethrough.com/contact
 - group: commercial
   title: ''
   type: Plans
@@ -83,8 +91,60 @@ common:
   title: ''
   type: FinOps
   url: finops/sharethrough-finops.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sharethrough-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sharethrough-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sharethrough-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sharethrough-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sharethrough-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sharethrough-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/sharethrough-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sharethrough-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sharethrough-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sharethrough-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sharethrough-llms.txt
+- group: other
+  title: ''
+  type: SellersJSON
+  url: sellers-json/sharethrough-sellers-json.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/sharethrough-context.jsonld
 created: '2026-06-13'
-description: Sharethrough is a human-centric programmatic advertising platform and one of the largest independent omnichannel ad exchanges, offering REST APIs for publishers and advertisers to manage native, display, and video ad placements through SSP/DSP integrations, real-time bidding via OpenRTB, programmatic reporting, and sustainability-focused media buying with Scope3 Climate Shield certification.
+description: 'Sharethrough is an omnichannel programmatic advertising exchange (SSP) for native, display, video and CTV inventory, and one of the largest independent ad marketplaces. Publishers monetise through the Prebid.js header-bidding adapter and server-to-server OpenRTB; demand partners buy through the exchange. Two API surfaces exist: a bearer-token Publisher Reporting API at publisher-api.sharethrough.com/v2 whose public reference is now behind a support-site sign-in, and the unauthenticated OpenRTB bid endpoint at btlr.sharethrough.com/universal/v1 used by the Prebid adapter. The company''s richest machine-readable artifact is its IAB sellers.json (5,189 sellers). Sharethrough merged with Equativ in 2024 and has operated under the Equativ brand since June 2025; the Sharethrough exchange and its endpoints continue to run.'
 finops:
 - name: Sharethrough Finops
   service_category: ''
@@ -96,7 +156,7 @@ jsonld:
   property_count: 12
   slug: sharethrough-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-12'
 name: Sharethrough
 nav: Providers
 network: true
@@ -106,33 +166,37 @@ overview: 'Sharethrough publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   The Sharethrough catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sharethrough''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Sharethrough''s developer surface includes documentation, support, engineering blog, authentication, and 22 more developer resources.'
 plans:
 - name: Sharethrough Plans Pricing
   plan_count: 2
   slug: sharethrough-plans-pricing
-random_paper: 24
+random_paper: 100
 rate_limits:
 - limit_count: 0
   name: Sharethrough Rate Limits
   slug: sharethrough-rate-limits
 score:
-  band: emerging
-  composite: 22.0
-  delta: 0.0
+  band: thin
+  composite: 31.0
+  delta: 9.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 57.9
     contract_quality: 17.7
-    developer_ergonomics: 10.9
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 22.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
 security:
+- kind: authentication
+  name: Sharethrough Authentication
+  slug: sharethrough-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Sharethrough Domain Security
   slug: sharethrough-domain-security
@@ -146,6 +210,7 @@ tags:
 - OpenRTB
 - Ad Exchange
 - Header Bidding
+- CTV
 - Sustainability
 website: https://www.sharethrough.com
 ---

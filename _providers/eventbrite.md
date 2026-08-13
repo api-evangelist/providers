@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,11 +169,11 @@ overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Eventbrite''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
-random_paper: 36
+random_paper: 0
 score:
   band: thin
   composite: 37.3
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.8
@@ -181,7 +181,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 35.8
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -190,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:

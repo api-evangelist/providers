@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'Arch publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Arch''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 16 more developer resources.'
-random_paper: 66
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Arch Rate Limits
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.9
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 46.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
 security:

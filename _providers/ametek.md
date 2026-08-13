@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: AMETEK provides advanced electronic instruments and electromechanical devices for energy, aerospace, power, research, medical, and industrial markets. The company does not currently publish a public d
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Enabling Artificial Intelligence through advanced ...
   url: https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai
-random_paper: 51
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Ametek Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 17.7
@@ -148,7 +148,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.5
+  previous_composite: 22.0
   regulatory:
     applies: true
     matched_via: tags
@@ -156,7 +156,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/screenshots/ametek-2026-06-20T171929.png
 security:

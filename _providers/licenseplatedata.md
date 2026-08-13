@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ plans:
 - name: Licenseplatedata Plans Pricing
   plan_count: 3
   slug: licenseplatedata-plans-pricing
-random_paper: 59
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Licenseplatedata Rate Limits
@@ -98,7 +98,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 56.7
@@ -106,7 +106,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -115,8 +115,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/screenshots/licenseplatedata-2026-06-20T184505.png
 security:
 - kind: authentication

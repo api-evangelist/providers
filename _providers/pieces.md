@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Pieces Plans Pricing
   plan_count: 3
   slug: pieces-plans-pricing
-random_paper: 53
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Pieces Rate Limits
@@ -152,7 +152,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.5
@@ -160,7 +160,7 @@ score:
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 41.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/screenshots/pieces-2026-06-20T191813.png
 security:

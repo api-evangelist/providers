@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ overview: 'Clearspeed publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Clearspeed''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 4
+random_paper: 88
 score:
   band: developing
   composite: 52.8
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.1
@@ -197,7 +197,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 18.4
-  previous_composite: 53.7
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,7 +215,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/screenshots/clearspeed-2026-08-07T163447.png
 security:

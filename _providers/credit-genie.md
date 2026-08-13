@@ -1,6 +1,79 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 5.9
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.creditgenie.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.creditgenie.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://creditgenie.zendesk.com/hc/en-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.creditgenie.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.creditgenie.com/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/CreditGenie
+- group: auth
+  title: ''
+  type: Security
+  url: https://creditgenie.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/credit-genie-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/credit-genie-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/credit-genie-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/credit-genie-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/credit-genie-llms.txt
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/credit-genie_stock/
 coverage:
   checked: '2026-08-11'
   detail: Credit Genie ships only the consumer Cash Boost / Money Manager mobile app — there is no developer subdomain at all (api., developer. and docs.creditgenie.com return NXDOMAIN), the marketing host 404s /openapi.json, /swagger.json, /api-docs and /llms.txt, the first-party GitHub org github.com/CreditGenie holds zero public repositories, and the only machine-readable document the company serves anywhere is its RFC 9116 security.txt.
@@ -25,7 +98,40 @@ modified: '2026-08-11'
 name: Credit Genie
 nav: Providers
 network: true
-random_paper: 40
+overview: 'Credit Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Finance, and Lending.
+
+
+  Credit Genie''s developer surface includes signup flow, support, and 11 more developer resources.'
+plans:
+- name: Credit Genie Plans Pricing
+  plan_count: 0
+  slug: credit-genie-plans-pricing
+random_paper: 0
+rate_limits:
+- limit_count: 0
+  name: Credit Genie Rate Limits
+  slug: credit-genie-rate-limits
+score:
+  band: emerging
+  composite: 15.5
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.3
+    discoverability: 57.4
+    governance: 0.0
+    operational_transparency: 15.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: domain-security
+  name: Credit Genie Domain Security
+  slug: credit-genie-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Credit Genie Vulnerability Disclosure
+  slug: credit-genie-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: credit-genie
 tags:
 - Company
@@ -36,4 +142,5 @@ tags:
 - Cash Advance
 - Personal Finance
 - Mobile Application
+website: https://www.creditgenie.com/
 ---

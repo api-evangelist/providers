@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ plans:
 - name: Covalent Plans Pricing
   plan_count: 4
   slug: covalent-plans-pricing
-random_paper: 48
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Covalent Rate Limits
@@ -418,7 +418,7 @@ rules:
 score:
   band: exemplar
   composite: 66.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 77.7
@@ -426,7 +426,7 @@ score:
     discoverability: 59.3
     governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 67.6
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     contracts:
@@ -435,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

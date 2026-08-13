@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Local JSON-over-HTTPS RPC surface exposed by the chia-blockchain reference node. Each service (full_node, wallet, farmer, harvester, datalayer, crawler, timelord, solver) listens on its own port and i
@@ -160,11 +160,11 @@ overview: 'Chia Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Chia Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, authentication, and 21 more developer resources.'
-random_paper: 68
+random_paper: 28
 score:
   band: thin
   composite: 29.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -172,11 +172,11 @@ score:
     discoverability: 66.7
     governance: 3.1
     operational_transparency: 47.4
-  previous_composite: 29.3
+  previous_composite: 29.6
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/screenshots/chia-network-2026-07-25T205208.png
 security:

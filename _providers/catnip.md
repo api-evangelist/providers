@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Programmatically send messages and trigger flows/blocks to a specific bot user on Messenger, Instagram, or WhatsApp. POST to the send endpoint with the bot's unique chatfuel_token and a flow name, blo
@@ -107,7 +107,7 @@ overview: 'Catnip publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Catnip''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 59
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Catnip Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.2
+  previous_composite: 27.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catnip/refs/heads/main/screenshots/catnip-2026-07-25T204810.png
 security:

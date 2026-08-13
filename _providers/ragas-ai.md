@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Ragas Python library is the primary surface of the project, installed via `pip install ragas` and imported as `ragas`. It exposes evaluation entry points (`ragas.evaluate`), metric classes (Faithf
@@ -156,11 +156,11 @@ overview: 'Ragas publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ragas'' developer surface includes documentation, getting-started guide, release notes, and 14 more developer resources.'
-random_paper: 77
+random_paper: 53
 score:
   band: emerging
   composite: 13.5
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -168,9 +168,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 12.6
+  previous_composite: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragas-ai/refs/heads/main/screenshots/ragas-ai-2026-06-20T192527.png
 security:

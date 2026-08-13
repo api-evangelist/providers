@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -269,7 +269,7 @@ plans:
 - name: Yapily Plans Pricing
   plan_count: 6
   slug: yapily-plans-pricing
-random_paper: 84
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Yapily Rate Limits
@@ -294,7 +294,7 @@ rules:
 score:
   band: developing
   composite: 54.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 76.3
@@ -302,7 +302,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 54.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -317,7 +317,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png
 security:

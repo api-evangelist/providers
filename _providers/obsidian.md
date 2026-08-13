@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Obsidian Plans Pricing
   plan_count: 5
   slug: obsidian-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Obsidian Rate Limits
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 50.3
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.6
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:
 - kind: authentication

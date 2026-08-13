@@ -1,86 +1,173 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Partner / contact required
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - authentication
+  - plans
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 36.5
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: Partner-facing REST API (v1) for OwnLocal's automated print-to-digital advertising platform. Publishers and their systems create and list ads, upload the source print-ad PDF for conversion, create and
+  name: OwnLocal API
+  slug: ownlocal-api
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://ownlocal.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://api.docs.ownlocal.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.docs.ownlocal.com/
 - group: operate
   title: ''
   type: Support
-  url: https://www.ownlocal.com/contact
+  url: https://www.ownlocal.com/support/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.ownlocal.com/support/
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/ownlocal
+  url: https://github.com/OwnLocal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ownlocal.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.ownlocal.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ownlocal-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ownlocal-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ownlocal-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ownlocal-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ownlocal-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ownlocal-conformance.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ownlocal-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ownlocal-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ownlocal-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ownlocal-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/ownlocal-domain-security.yml
 created: '2026-07-17'
-description: OwnLocal is an Austin-based automated digital advertising platform for local media companies. It helps newspapers, local publishers, and media companies power their digital services by automatically converting traditional print advertisements into online marketing campaigns, extending advertiser reach across search, social, and display channels. OwnLocal was a 500 Global portfolio company; its current public surface is a marketing site with no published developer or API program.
+description: OwnLocal is an Austin, Texas based automated digital advertising platform for local media companies, founded in 2010 by Lloyd Armbrust and Jason Novek. It helps newspapers, local publishers and media companies power their digital services by automatically converting traditional print advertisements into online marketing campaigns — its AdForge and Origami products turn a submitted print ad PDF into a responsive digital ad unit, a business directory listing and an SEO/search presence, extending advertiser reach across search, social and display channels. OwnLocal publishes a partner-facing REST API (the OwnLocal API, v1) documented with Slate at api.docs.ownlocal.com and backed by a live Swagger 2.0 definition served from its own Swagger UI, covering ads, businesses, categories and performance reporting. API keys are issued by OwnLocal support rather than self-serve. OwnLocal was a 500 Global portfolio company and has acquired Whoosh Traffic, Sidengo, Inbound Press and Wanderful
+  Media.
 image: https://ucarecdn.com/0f20cb5b-5f4e-4207-be36-a5ee95dd54b5/ogimage1800optimized.png
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: ownlocal-mcp.yml
+  slug: ownlocal-mcpyml
+modified: '2026-08-12'
 name: OwnLocal
 nav: Providers
 network: true
-overview: 'OwnLocal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Local Media, Digital Advertising, and Marketing.
+overview: 'OwnLocal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Local Media, Digital Advertising, and Marketing.
 
 
-  OwnLocal''s developer surface includes support and 3 more developer resources.'
-random_paper: 51
+  OwnLocal''s developer surface includes documentation, API reference, support, authentication, and 16 more developer resources.'
+plans:
+- name: Ownlocal Plans Pricing
+  plan_count: 0
+  slug: ownlocal-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 0
+  name: Ownlocal Rate Limits
+  slug: ownlocal-rate-limits
 score:
-  band: minimal
-  composite: 6.5
-  delta: 0.0
+  band: thin
+  composite: 30.4
+  delta: 23.9
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 10.5
+    contract_quality: 32.3
+    developer_ergonomics: 37.0
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 21.1
   previous_composite: 6.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:
+- kind: authentication
+  name: Ownlocal Authentication
+  slug: ownlocal-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Ownlocal Domain Security
   slug: ownlocal-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · HSTS
 slug: ownlocal
 tags:
 - Company
@@ -90,5 +177,10 @@ tags:
 - Marketing
 - Newspapers
 - AdTech
+- Print to Digital
+- Business Listings
+- Local Business Data
+- Ad Reporting
+- Publishers
 website: https://ownlocal.com
 ---

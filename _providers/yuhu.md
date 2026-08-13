@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API (v1) for integration partners to synchronize property-management data with Yuhu: companies, sites/projects, buildings, unit types, units, site staff, roles and permissions, leases, tenants, s'
@@ -140,7 +140,7 @@ overview: 'Yuhu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 111
+random_paper: 99
 rate_limits:
 - limit_count: 5
   name: Yuhu Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -156,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 35.5
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

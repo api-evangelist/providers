@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ plans:
 - name: Sana Labs Plans Pricing
   plan_count: 3
   slug: sana-labs-plans-pricing
-random_paper: 70
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Sana Labs Rate Limits
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.7
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.8
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -163,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ overview: 'kanye.rest publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   kanye.rest''s developer surface includes CLI, code examples, and 16 more developer resources.'
-random_paper: 99
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Kanye Rest Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: emerging
   composite: 26.3
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 20.0
@@ -189,7 +189,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 26.4
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +198,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/screenshots/kanye-rest-2026-06-20T183915.png
 security:

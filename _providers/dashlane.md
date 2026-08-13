@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -190,11 +190,11 @@ overview: 'Dashlane publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Dashlane''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
-random_paper: 20
+random_paper: 112
 score:
   band: developing
   composite: 50.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 55.2
@@ -202,7 +202,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 51.3
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/screenshots/dashlane-2026-07-25T211226.png
 security:

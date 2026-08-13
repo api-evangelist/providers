@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The OTX DirectConnect API provides programmatic access to the LevelBlue Open Threat Exchange, an open community threat-intelligence platform. It exposes indicators (IPs, domains, hostnames, file hashe
@@ -197,7 +197,7 @@ overview: 'LevelBlue publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   LevelBlue''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 32
+random_paper: 0
 scopes:
 - name: Levelblue Scopes
   scope_count: 3
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 66.8
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 53.6
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -225,7 +225,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/screenshots/levelblue-2026-07-25T224945.png
 security:

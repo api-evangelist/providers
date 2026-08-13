@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Django Cms Plans Pricing
   plan_count: 3
   slug: django-cms-plans-pricing
-random_paper: 67
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Django Cms Rate Limits
@@ -174,7 +174,7 @@ rules:
 score:
   band: developing
   composite: 49.5
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.4
@@ -182,7 +182,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 48.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png
 security:

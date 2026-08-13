@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1298,7 +1298,7 @@ plans:
 - name: The Racing Api Plans Pricing
   plan_count: 1
   slug: the-racing-api-plans-pricing
-random_paper: 77
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: The Racing Api Rate Limits
@@ -1323,7 +1323,7 @@ rules:
 score:
   band: developing
   composite: 49.3
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 75.4
@@ -1331,7 +1331,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 52.6
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1340,7 +1340,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/screenshots/the-racing-api-2026-06-20T195235.png
 security:

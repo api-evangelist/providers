@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -67,7 +67,7 @@ overview: 'Alpha-9 Oncology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Alpha-9 Oncology''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 111
+random_paper: 95
 score:
   band: minimal
   composite: 10.4
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha9/refs/heads/main/screenshots/alpha9-2026-07-25T195753.png
 slug: alpha9

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -146,7 +146,7 @@ rules:
 score:
   band: thin
   composite: 35.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.0
@@ -154,7 +154,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/screenshots/biorxiv-2026-06-20T173251.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Aws Healthlake Plans
   plan_count: 2
   slug: aws-healthlake-plans
-random_paper: 27
+random_paper: 99
 rate_limits:
 - limit_count: 33
   name: Aws Healthlake Rate Limits
@@ -376,7 +376,7 @@ rules:
 score:
   band: strong
   composite: 59.9
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 68.6
@@ -384,7 +384,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 59.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -399,7 +399,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png
 security:

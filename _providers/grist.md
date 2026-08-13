@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 3
@@ -219,7 +219,7 @@ plans:
 - name: Grist Plans Pricing
   plan_count: 5
   slug: grist-plans-pricing
-random_paper: 89
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Grist Rate Limits
@@ -236,7 +236,7 @@ rules:
 score:
   band: developing
   composite: 51.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.1
@@ -244,7 +244,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 52.3
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/screenshots/grist-2026-06-20T182409.png
 security:

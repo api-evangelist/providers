@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
   slug: datafiniti-plans-pricing
-random_paper: 9
+random_paper: 93
 rate_limits:
 - limit_count: 2
   name: Datafiniti Rate Limits
@@ -205,7 +205,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.2
@@ -213,7 +213,7 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 51.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/screenshots/datafiniti-2026-06-20T175637.png
 security:
 - kind: authentication

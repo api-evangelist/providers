@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,11 +169,11 @@ overview: 'P&N Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   P&N Bank''s developer surface includes authentication, documentation, support, and 20 more developer resources.'
-random_paper: 99
+random_paper: 79
 score:
   band: thin
   composite: 37.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -181,7 +181,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,7 +199,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pn-bank/refs/heads/main/screenshots/pn-bank-2026-07-21T114741.png
 security:

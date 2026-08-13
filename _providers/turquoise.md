@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Authenticated API surface behind api.turquoise.health (returns HTTP 401 without credentials; no public OpenAPI or developer documentation is published). Exposes Turquoise Health price transparency and
@@ -75,11 +75,11 @@ overview: 'Turquoise Health publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Turquoise Health''s developer surface includes engineering blog, pricing, signup flow, and 4 more developer resources.'
-random_paper: 81
+random_paper: 49
 score:
   band: minimal
   composite: 11.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.9
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
@@ -95,7 +95,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Comment on News Corporation Announces Details Regarding Proposed Separation of Businesses by Registrera dig
   url: https://newscorp.com/2012/12/03/news-corporation-announces-details-regarding-proposed-separation-of-businesses/#comment-9011
-random_paper: 114
+random_paper: 86
 score:
   band: minimal
   composite: 4.2
@@ -90,7 +90,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-corp/refs/heads/main/screenshots/news-corp-2026-08-07T185133.png
 slug: news-corp

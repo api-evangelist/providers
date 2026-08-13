@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,11 +103,11 @@ overview: 'MagicSchool is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MagicSchool''s developer surface includes engineering blog, pricing, support, and 12 more developer resources.'
-random_paper: 1
+random_paper: 81
 score:
   band: emerging
   composite: 19.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.3
+  previous_composite: 19.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicschool/refs/heads/main/screenshots/magicschool-2026-07-25T225855.png
 security:

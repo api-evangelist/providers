@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,11 +60,11 @@ name: Brisk Health
 nav: Providers
 network: true
 overview: Brisk Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Urgent Care, Primary Care, and Home Health.
-random_paper: 54
+random_paper: 14
 score:
   band: minimal
   composite: 7.2
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,7 +72,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 7.2
   provenance:
     mcp: first-party
   regulatory:
@@ -82,7 +82,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

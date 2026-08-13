@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Similarweb Plans Pricing
   plan_count: 3
   slug: similarweb-plans-pricing
-random_paper: 27
+random_paper: 111
 rate_limits:
 - limit_count: 3
   name: Similarweb Rate Limits
@@ -197,7 +197,7 @@ rules:
 score:
   band: developing
   composite: 51.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.7
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/screenshots/similarweb-2026-06-20T193927.png
 security:

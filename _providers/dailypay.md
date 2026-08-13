@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ overview: 'DailyPay publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   DailyPay''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 33 more developer resources.'
-random_paper: 49
+random_paper: 21
 scopes:
 - name: Dailypay Scopes
   scope_count: 5
@@ -218,7 +218,7 @@ scopes:
 score:
   band: strong
   composite: 57.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.1
@@ -226,7 +226,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 58.2
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,7 +244,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png
 security:

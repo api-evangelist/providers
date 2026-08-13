@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The Eyevinn Open Source Cloud (OSC) REST API is the management plane for provisioning and operating service instances on the OSC platform. The API uses Personal Access Tokens (PATs) issued from app.os
@@ -251,11 +251,11 @@ overview: 'Eyevinn Technology publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   Eyevinn Technology''s developer surface includes documentation, API reference, developer console, signup flow, pricing, GitHub presence, engineering blog, and 25 more developer resources.'
-random_paper: 39
+random_paper: 95
 score:
   band: thin
   composite: 28.2
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -263,9 +263,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 25.3
+  previous_composite: 28.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png
 security:

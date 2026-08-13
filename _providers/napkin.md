@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Vi
 
 
   Napkin''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 61
+random_paper: 41
 scopes:
 - name: Napkin Scopes
   scope_count: 2
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
@@ -196,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 50.6
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/screenshots/napkin-2026-08-07T184622.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -500,7 +500,7 @@ plans:
 - name: Amberflo Plans Pricing
   plan_count: 4
   slug: amberflo-plans-pricing
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Amberflo Rate Limits
@@ -525,7 +525,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 24.1
@@ -533,7 +533,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 60.2
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -542,8 +542,8 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/screenshots/amberflo-2026-06-20T171855.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ overview: 'Scale3 publishes 1 API on the [APIs.io](https://apis.io/) network: Bl
 
 
   Scale3''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 22 more developer resources.'
-random_paper: 107
+random_paper: 91
 score:
   band: strong
   composite: 57.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.6
@@ -194,7 +194,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 59.0
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -206,7 +206,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

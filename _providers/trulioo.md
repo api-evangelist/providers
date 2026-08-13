@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -593,7 +593,7 @@ plans:
 - name: Trulioo Plans Pricing
   plan_count: 6
   slug: trulioo-plans-pricing
-random_paper: 86
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Trulioo Rate Limits
@@ -623,7 +623,7 @@ scopes:
 score:
   band: exemplar
   composite: 80.9
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 76.4
@@ -631,7 +631,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 71.1
-  previous_composite: 80.8
+  previous_composite: 80.9
   provenance:
     agentic_access: derived
     contracts:
@@ -640,7 +640,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:

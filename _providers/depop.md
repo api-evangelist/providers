@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -76,16 +76,13 @@ apis:
   name: depop Shop Management API
   slug: depop-shop-management-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create/update a Depop listing by SKU, verify it, then mark it as sold.
   name: List a product and mark it sold
   slug: depop-list-and-sell.arazzo
 - description: Read an order, mark a parcel shipped with tracking, optionally refund.
   name: Order fulfillment
   slug: depop-order-fulfillment.arazzo
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: Event surface for the Depop Selling API, generated from the webhooks section of the OpenAPI 3.1 document. Depop delivers order and product engagement events to a partner-registered HTTPS endpoint. Eve
   name: Depop Selling API — Webhooks
@@ -246,7 +243,7 @@ overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 72
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Depop Rate Limits
@@ -259,7 +256,7 @@ scopes:
 score:
   band: strong
   composite: 56.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 70.9
@@ -267,7 +264,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 56.7
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

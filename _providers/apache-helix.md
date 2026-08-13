@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Apache Helix Plans Pricing
   plan_count: 3
   slug: apache-helix-plans-pricing
-random_paper: 33
+random_paper: 113
 rate_limits:
 - limit_count: 5
   name: Apache Helix Rate Limits
@@ -251,7 +251,7 @@ rules:
 score:
   band: thin
   composite: 41.9
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 59.7
@@ -259,7 +259,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 46.8
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/screenshots/apache-helix-2026-06-20T172103.png
 security:

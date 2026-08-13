@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Advanced routes for customisation
@@ -202,7 +202,7 @@ overview: 'TypingDNA publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   TypingDNA''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 46
+random_paper: 14
 scopes:
 - name: Typingdna Scopes
   scope_count: 3
@@ -211,7 +211,7 @@ scopes:
 score:
   band: developing
   composite: 55.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.7
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 56.0
+  previous_composite: 55.5
   provenance:
     conformance: first-party
     contracts:
@@ -230,7 +230,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

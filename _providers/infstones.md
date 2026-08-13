@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Bnb Chain API from InfStones — 1 operation(s) for bnb chain.
@@ -144,11 +144,11 @@ overview: 'InfStones publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   InfStones'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 57
+random_paper: 25
 score:
   band: developing
   composite: 47.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 59.7
@@ -156,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 10.5
-  previous_composite: 47.9
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -167,7 +167,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/screenshots/infstones-2026-07-25T222427.png
 security:

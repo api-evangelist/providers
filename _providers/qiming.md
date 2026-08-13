@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Qiming Venture Partners
 nav: Providers
 network: true
-random_paper: 65
+random_paper: 45
 slug: qiming
 tags:
 - Venture Capital

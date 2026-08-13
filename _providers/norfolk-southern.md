@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Team NS 🤝 AI = A Safer Railroad 🚂 Working together ...
   url: https://www.facebook.com/norfolksouthern/posts/team-ns-ai-a-safer-railroad-working-together-by-combining-cutting-edge-tech-with/1156061903216994/
-random_paper: 72
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Norfolk Southern Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.5
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/screenshots/norfolk-southern-2026-06-20T190408.png
 security:
 - kind: domain-security

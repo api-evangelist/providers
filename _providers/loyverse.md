@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Loyverse Plans Pricing
   plan_count: 4
   slug: loyverse-plans-pricing
-random_paper: 77
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Loyverse Rate Limits
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.0
@@ -174,7 +174,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.2
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -189,7 +189,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/screenshots/loyverse-2026-07-25T225626.png
 security:

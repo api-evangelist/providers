@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -400,7 +400,7 @@ plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
   slug: oracle-essbase-plans-pricing
-random_paper: 25
+random_paper: 97
 rate_limits:
 - limit_count: 2
   name: Oracle Essbase Rate Limits
@@ -417,7 +417,7 @@ rules:
 score:
   band: strong
   composite: 56.0
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 72.4
@@ -425,7 +425,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 61.9
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +434,8 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:
 - kind: authentication

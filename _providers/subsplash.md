@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: 'Programmatic access to an organization''s media catalog - sermons, series, podcasts, blogs, and announcements - for syncing content into external sites, AI/search pipelines, and custom apps. Endpoints '
@@ -100,7 +100,7 @@ plans:
 - name: Subsplash Plans Pricing
   plan_count: 3
   slug: subsplash-plans-pricing
-random_paper: 53
+random_paper: 21
 score:
   band: emerging
   composite: 19.2
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

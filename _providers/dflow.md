@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 17 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: developing
   composite: 42.5
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 61.7
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 45.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +211,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

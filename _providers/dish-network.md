@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: DISH Selects Palo Alto Networks to Help Secure 5G Network
   url: https://www.paloaltonetworks.com/company/press/2021/dish-selects-palo-alto-networks-to-help-secure-5g-network
-random_paper: 87
+random_paper: 47
 score:
   band: minimal
   composite: 5.0
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dish-network/refs/heads/main/screenshots/dish-network-2026-06-20T180047.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Galileo Ai Plans Pricing
   plan_count: 3
   slug: galileo-ai-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Galileo Ai Rate Limits
@@ -223,7 +223,7 @@ rules:
 score:
   band: developing
   composite: 43.9
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 56.7
@@ -231,7 +231,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 51.2
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/screenshots/galileo-ai-2026-06-20T181635.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The CarMax Store Locations API, discussed publicly on the CarMax Engineering Blog, exposes details about all CarMax store locations including addresses, hours, services offered, and geographic metadat
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: CarMax Partners with UVeye to Automate Inspections at ...
   url: https://uveye.com/carmax-partners-with-uveye/
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Carmax Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.1
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -162,10 +162,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.3
+  previous_composite: 15.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/screenshots/carmax-2026-06-20T174010.png
 security:
 - kind: domain-security

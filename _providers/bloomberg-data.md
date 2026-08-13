@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Provides access to Bloomberg's extensive financial data including real-time quotes, historical data, reference data, and analytics.
@@ -87,7 +87,7 @@ plans:
 - name: Bloomberg Data Plans Pricing
   plan_count: 3
   slug: bloomberg-data-plans-pricing
-random_paper: 16
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Bloomberg Data Rate Limits
@@ -95,7 +95,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.6
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -103,7 +103,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.2
+  previous_composite: 21.6
   regulatory:
     applies: true
     matched_via: tags
@@ -111,8 +111,8 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/screenshots/bloomberg-data-2026-06-20T173410.png
 security:
 - kind: domain-security

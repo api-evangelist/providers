@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -250,11 +250,11 @@ overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Pryon''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 24 more developer resources.'
-random_paper: 104
+random_paper: 88
 score:
   band: developing
   composite: 47.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 60.8
@@ -262,7 +262,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 47.5
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

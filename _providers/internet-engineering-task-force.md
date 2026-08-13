@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Internet Engineering Task Force Plans Pricing
   plan_count: 3
   slug: internet-engineering-task-force-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Internet Engineering Task Force Rate Limits
@@ -135,7 +135,7 @@ rules:
 score:
   band: thin
   composite: 29.0
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 51.6
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 13.2
-  previous_composite: 37.3
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/screenshots/internet-engineering-task-force-2026-06-20T183501.png
 security:
 - kind: authentication

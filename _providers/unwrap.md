@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -176,7 +176,7 @@ overview: 'Unwrap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Unwrap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 89
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Unwrap Rate Limits
@@ -203,7 +203,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

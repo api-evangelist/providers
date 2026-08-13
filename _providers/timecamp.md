@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -194,7 +194,7 @@ plans:
 - name: Timecamp Plans Pricing
   plan_count: 5
   slug: timecamp-plans-pricing
-random_paper: 36
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Timecamp Rate Limits
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.8
@@ -210,7 +210,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.9
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

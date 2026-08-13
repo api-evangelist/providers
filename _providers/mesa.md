@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -147,11 +147,11 @@ overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: developing
   composite: 45.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.6
@@ -159,7 +159,7 @@ score:
     discoverability: 70.4
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 46.4
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     contracts:
@@ -176,7 +176,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:

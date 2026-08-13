@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The BP API Marketplace is a developer portal providing access to BP's digital APIs and services. Features include API discovery and browsing, a testing playground, documentation and tutorials, API spe
@@ -81,7 +81,7 @@ plans:
 - name: Bp Plans Pricing
   plan_count: 3
   slug: bp-plans-pricing
-random_paper: 94
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Bp Rate Limits
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.9
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -97,7 +97,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.5
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
@@ -105,8 +105,8 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/screenshots/bp-2026-07-25T203719.png
 security:
 - kind: domain-security

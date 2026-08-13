@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -183,11 +183,11 @@ overview: 'Shapeshift publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 27
+random_paper: 111
 score:
   band: developing
   composite: 45.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.5
@@ -195,7 +195,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 47.0
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

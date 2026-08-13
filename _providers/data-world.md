@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 79
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -289,7 +289,7 @@ rules:
 score:
   band: developing
   composite: 53.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 58.9
@@ -297,7 +297,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 54.1
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -312,7 +312,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/screenshots/data-world-2026-06-20T175628.png
 security:

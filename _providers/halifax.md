@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Public, unauthenticated OBIE Open Data API returning the location and details of every Halifax cashpoint (ATM) in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
@@ -159,7 +159,7 @@ overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 37
+random_paper: 13
 scopes:
 - name: Halifax Scopes
   scope_count: 4
@@ -168,7 +168,7 @@ scopes:
 score:
   band: thin
   composite: 41.0
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 39.6
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 45.0
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     contracts:
@@ -193,7 +193,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

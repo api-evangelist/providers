@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Rupa Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Rupa Health''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 71
+random_paper: 35
 score:
   band: emerging
   composite: 15.6
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

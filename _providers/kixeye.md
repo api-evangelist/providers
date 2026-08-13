@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ overview: 'Kixeye is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kixeye''s developer surface includes support, legal docs, authentication, and 14 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: emerging
   composite: 15.2
@@ -129,7 +129,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kixeye/refs/heads/main/screenshots/kixeye-2026-07-25T223925.png
 security:

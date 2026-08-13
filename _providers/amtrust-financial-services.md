@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ press:
 - date: '2026-05-25'
   title: 'AmTrust partners with Blackstone: Insurance news'
   url: https://www.dig-in.com/news/amtrust-partners-with-blackstone-insurance-news
-random_paper: 7
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amtrust Financial Services Rate Limits
@@ -301,7 +301,7 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 24.3
@@ -309,7 +309,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 46.7
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -324,7 +324,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:

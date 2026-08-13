@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 86
+random_paper: 78
 scopes:
 - name: Bmo Scopes
   scope_count: 15
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 43.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 66.8
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 46.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

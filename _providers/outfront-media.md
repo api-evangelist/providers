@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,39 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 6.8
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 18
+artifact_total: 20
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/outfront-media-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/outfront-media-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/outfront-media-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/outfront-media-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/outfront-media-rate-limits.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/OutfrontMediaUS
 - group: company
   title: ''
   type: Website
@@ -63,6 +83,22 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/outfront-media
+coverage:
+  checked: '2026-08-12'
+  detail: OUTFRONT ships software only as end-user product — the MyOutfront billing portal and the SmartSCOUT planning platform, both sold and provisioned through a sales conversation — and the one host that looks like an API, api.outfront.com, serves the unmodified "Create Next App" Vercel starter template rather than an API; the 677-URL sitemap contains no developer, docs, reference, status or pricing page, and developer.outfront.com, docs.outfront.com and apis.outfront.com do not resolve.
+  evidence:
+  - status: 200
+    url: https://api.outfront.com/
+  - status: 404
+    url: https://api.outfront.com/openapi.json
+  - status: 404
+    url: https://www.outfront.com/openapi.json
+  - status: 404
+    url: https://www.outfront.com/.well-known/security.txt
+  - status: 200
+    url: https://www.outfront.com/sitemap.xml
+  reason: no-developer-program
+  state: none
 created: '2024-01-15'
 description: 'OUTFRONT Media is a U.S. out-of-home (OOH) advertising company and real estate investment trust (NYSE: OUT) operating a national portfolio of billboards, digital displays, and transit advertising assets. The company runs the MTA Advertising Network across New York City''s subways, buses, and commuter rail, along with roadside billboards, digital liveboards, Times Square spectaculars, and place-based displays in major U.S. markets. OUTFRONT''s digital inventory is made available programmatically through DOOH supply-side partners such as Vistar Media and Place Exchange. OUTFRONT sold its Canadian operations to Bell Media in October 2022 to focus on the U.S. market. OUTFRONT does not publish a developer portal or public APIs; programmatic access to its inventory is mediated through third-party DOOH SSPs.'
 features:
@@ -89,29 +125,37 @@ integrations:
 - description: Audience measurement, attribution, and mobile location data partners used to plan and measure OOH and DOOH campaigns.
   name: Measurement And Location Data Providers
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-12'
 name: OUTFRONT Media
 nav: Providers
 network: true
 overview: 'OUTFRONT Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Out Of Home Advertising, Digital Out Of Home, Billboards, Transit Advertising, and Programmatic Advertising.
 
 
-  OUTFRONT Media''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 62
+  OUTFRONT Media''s developer surface includes engineering blog and 12 more developer resources.'
+plans:
+- name: Outfront Media Plans Pricing
+  plan_count: 0
+  slug: outfront-media-plans-pricing
+random_paper: 14
+rate_limits:
+- limit_count: 0
+  name: Outfront Media Rate Limits
+  slug: outfront-media-rate-limits
 score:
   band: minimal
-  composite: 9.7
-  delta: 0.0
+  composite: 12.2
+  delta: 2.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outfront-media/refs/heads/main/screenshots/outfront-media-2026-06-20T191230.png
 security:

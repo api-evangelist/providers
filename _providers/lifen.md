@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -241,7 +241,7 @@ overview: 'Lifen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lifen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 6
   name: Lifen Rate Limits
@@ -254,7 +254,7 @@ scopes:
 score:
   band: strong
   composite: 59.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 64.8
@@ -262,7 +262,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 61.0
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     contracts:
@@ -279,7 +279,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Dtu Plans Pricing
   plan_count: 2
   slug: dtu-plans-pricing
-random_paper: 101
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Dtu Rate Limits
@@ -170,7 +170,7 @@ rules:
 score:
   band: thin
   composite: 40.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.9
@@ -178,7 +178,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 40.5
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +193,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtu/refs/heads/main/screenshots/dtu-2026-06-20T180302.png
 security:

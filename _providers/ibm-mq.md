@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Ibm Mq Plans Pricing
   plan_count: 3
   slug: ibm-mq-plans-pricing
-random_paper: 115
+random_paper: 99
 rate_limits:
 - limit_count: 3
   name: Ibm Mq Rate Limits
@@ -213,7 +213,7 @@ rules:
 score:
   band: developing
   composite: 43.3
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 72.5
@@ -221,7 +221,7 @@ score:
     discoverability: 63.0
     governance: 52.1
     operational_transparency: 13.2
-  previous_composite: 48.8
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:
 - kind: authentication

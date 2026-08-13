@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ overview: 'Mujer Financiera is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Mujer Financiera''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 8
+random_paper: 72
 score:
   band: emerging
   composite: 13.1
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mujer-financiera/refs/heads/main/screenshots/mujer-financiera-2026-08-07T184432.png
 security:

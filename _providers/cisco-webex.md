@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1056
   human_in_the_loop: 204
@@ -68,9 +68,6 @@ apis:
   name: Cisco Webex Wholesale API
   slug: wholesale
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Find a person by email, add them to a team, and add them to a team room.
   name: Cisco Webex Add Person to Team and a Team Room
   slug: cisco-webex-add-person-to-team-and-team-room-workflow
@@ -101,7 +98,7 @@ arazzos:
 - description: Create a meeting and post its join link as a message into a room.
   name: Cisco Webex Schedule a Meeting and Notify a Room
   slug: cisco-webex-schedule-meeting-and-notify-room-workflow
-artifact_total: 119
+artifact_total: 118
 collections:
 - collection_type: postman
   name: Cisco Webex Admin Audit Events API
@@ -604,7 +601,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 69
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits
@@ -634,7 +631,7 @@ scopes:
 score:
   band: strong
   composite: 63.2
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 55.3
@@ -642,7 +639,7 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 44.7
-  previous_composite: 71.8
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -653,8 +650,8 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:
 - kind: authentication

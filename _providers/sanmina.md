@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The 42Q Manufacturing Execution System API provides programmatic integration with Sanmina's cloud-based MES platform. The API enables enterprise system integration with ERP (SAP, Oracle), PLM, WMS, an
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases Archives - Page 2 of 10
   url: https://www.sanmina.com/category/press-releases/page/2/
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Sanmina Rate Limits
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.6
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -140,10 +140,10 @@ score:
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 7.9
-  previous_composite: 25.5
+  previous_composite: 17.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Sanmina Domain Security

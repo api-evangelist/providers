@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -111,7 +111,7 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   .clinerules'' developer surface includes documentation and 13 more developer resources.'
-random_paper: 34
+random_paper: 118
 rules:
 - name: .clinerules API Rules
   rule_count: 4
@@ -124,7 +124,7 @@ rules:
 score:
   band: emerging
   composite: 19.9
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 8.1
@@ -132,9 +132,9 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 15.8
+  previous_composite: 19.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/screenshots/clinerules-2026-06-20T174528.png
 security:

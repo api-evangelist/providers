@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -168,11 +168,11 @@ overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/)
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
-random_paper: 34
+random_paper: 94
 score:
   band: thin
   composite: 28.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 54.3
@@ -180,7 +180,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 28.2
   provenance:
     conformance: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -200,7 +200,7 @@ overview: 'Embroker is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Embroker''s developer surface includes signup flow, engineering blog, tooling, privacy policy, terms of service, GitHub presence, and 32 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: emerging
   composite: 22.9
@@ -220,7 +220,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embroker/refs/heads/main/screenshots/embroker-2026-06-20T180627.png
 security:

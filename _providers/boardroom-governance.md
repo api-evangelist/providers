@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Boardroom Governance API helps developers fetch and display governance data across DAOs and networks. Provides access to governance protocols, proposals, votes, voters, and delegation data for dec
@@ -88,7 +88,7 @@ plans:
 - name: Boardroom Governance Plans Pricing
   plan_count: 3
   slug: boardroom-governance-plans-pricing
-random_paper: 102
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Boardroom Governance Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 24.3
+  previous_composite: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boardroom-governance/refs/heads/main/screenshots/boardroom-governance-2026-06-20T173549.png
 security:
 - kind: domain-security

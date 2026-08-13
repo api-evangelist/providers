@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Farmos Plans Pricing
   plan_count: 4
   slug: farmos-plans-pricing
-random_paper: 68
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Farmos Rate Limits
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.9
@@ -225,7 +225,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.5
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -234,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:

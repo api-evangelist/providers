@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -843,7 +843,7 @@ plans:
 - name: Render Plans Pricing
   plan_count: 8
   slug: render-plans-pricing
-random_paper: 60
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Render Rate Limits
@@ -876,7 +876,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 80.5
@@ -884,7 +884,7 @@ score:
     discoverability: 75.9
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 57.9
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -893,8 +893,8 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-06-20T192846.png
 security:
 - kind: authentication

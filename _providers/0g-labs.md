@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
@@ -239,7 +239,7 @@ overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 36 more developer resources.'
-random_paper: 34
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: 0G Labs Rate Limits
@@ -247,7 +247,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.9
@@ -255,7 +255,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 51.3
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:

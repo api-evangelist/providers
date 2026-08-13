@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ overview: 'Papaya Pay is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Papaya Pay''s developer surface includes support and 6 more developer resources.'
-random_paper: 83
+random_paper: 51
 score:
   band: emerging
   composite: 16.8
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -83,7 +83,7 @@ score:
     discoverability: 50.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 16.8
   provenance:
     conformance: first-party
   regulatory:
@@ -93,7 +93,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-pay/refs/heads/main/screenshots/papaya-pay-2026-08-07T191342.png
 security:

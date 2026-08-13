@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ overview: 'Coravin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Coravin''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 58
+random_paper: 34
 scopes:
 - name: Coravin Scopes
   scope_count: 4
@@ -105,7 +105,7 @@ scopes:
 score:
   band: emerging
   composite: 16.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -113,12 +113,12 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 16.7
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coravin/refs/heads/main/screenshots/coravin-2026-08-07T163813.png
 security:

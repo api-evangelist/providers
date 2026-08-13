@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -76,13 +76,10 @@ apis:
   name: Understudy Labs Supervision API
   slug: understudy-labs-supervision-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The core Understudy Desktop journey over the loopback Agent API - pick a model from the catalog, start and track its download, add a residency slot, assign and warm the model in the slot, then send a '
   name: Download, warm, and chat with a local model on Understudy Desktop
   slug: understudy-labs-download-warm-and-chat
-artifact_total: 18
+artifact_total: 17
 common:
 - group: other
   title: ''
@@ -212,11 +209,11 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 66
+random_paper: 14
 score:
   band: developing
   composite: 49.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.5
@@ -224,7 +221,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 49.5
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,7 +233,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

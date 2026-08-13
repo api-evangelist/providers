@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -168,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: Air Products & Chemicals Inc. APD
   url: https://decarbonfuse.com/companies/air-products-chemicals-inc
-random_paper: 27
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Air Products And Chemicals Rate Limits
@@ -185,7 +185,7 @@ rules:
 score:
   band: emerging
   composite: 24.3
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 12.9
@@ -193,7 +193,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 28.8
+  previous_composite: 24.3
   regulatory:
     applies: true
     matched_via: tags
@@ -201,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

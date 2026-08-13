@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -212,7 +212,7 @@ overview: 'ColdSnap publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   ColdSnap''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, YouTube channel, authentication, and 32 more developer resources.'
-random_paper: 40
+random_paper: 12
 scopes:
 - name: Coldsnap Scopes
   scope_count: 4
@@ -221,7 +221,7 @@ scopes:
 score:
   band: developing
   composite: 46.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.1
@@ -229,14 +229,14 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 47.6
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/screenshots/coldsnap-2026-08-07T163559.png
 security:

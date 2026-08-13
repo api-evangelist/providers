@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -34,11 +34,11 @@ name: Light Anchor
 nav: Providers
 network: true
 overview: Light Anchor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 56
+random_paper: 16
 score:
   band: minimal
   composite: 3.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -46,9 +46,9 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.6
+  previous_composite: 3.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light-anchor/refs/heads/main/screenshots/light-anchor-2026-07-25T225103.png
 security:

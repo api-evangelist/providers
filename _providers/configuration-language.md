@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Configuration Language
 nav: Providers
 network: true
-random_paper: 77
+random_paper: 1
 slug: configuration-language
 tags:
 - Configuration

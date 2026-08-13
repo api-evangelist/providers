@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: J.B. Hunt Teams up with Google for Next-Generation ...
   url: https://www.truckinginfo.com/news/j-b-hunt-teams-up-with-google-for-next-generation-supply-chain-technology
-random_paper: 107
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Jb Hunt Transport Services Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.5
@@ -147,7 +147,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.0
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png
 security:
 - kind: domain-security

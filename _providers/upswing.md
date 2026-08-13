@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,11 +96,11 @@ overview: 'Upswing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upswing''s developer surface includes engineering blog, authentication, support, and 10 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: minimal
   composite: 12.2
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -108,7 +108,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.1
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
@@ -116,7 +116,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

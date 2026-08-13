@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -52,16 +52,13 @@ apis:
   name: Go1 Webhooks API
   slug: go1-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Search the Go1 learning library, enroll a learner, and confirm the enrollment.
   name: Go1 — discover content and enroll a learner
   slug: go1-discover-and-enroll
 - description: Create a customer portal and register a webhook subscription for Go1 events.
   name: Go1 — provision a portal and subscribe to events
   slug: go1-provision-portal-and-webhook
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Go1 Webhooks
@@ -226,7 +223,7 @@ overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 31
+random_paper: 23
 scopes:
 - name: Go1 Scopes
   scope_count: 8
@@ -235,7 +232,7 @@ scopes:
 score:
   band: developing
   composite: 55.8
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 72.8
@@ -243,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 57.6
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:

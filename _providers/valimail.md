@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -252,11 +252,11 @@ overview: 'Valimail publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: strong
   composite: 56.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.1
@@ -264,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 58.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

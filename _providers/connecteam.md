@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ plans:
 - name: Connecteam Plans
   plan_count: 5
   slug: connecteam-plans
-random_paper: 9
+random_paper: 93
 rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits
@@ -226,7 +226,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 66.5
@@ -234,14 +234,14 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 68.2
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
 security:

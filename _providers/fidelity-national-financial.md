@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,11 +80,11 @@ press:
 - date: '2026-05-25'
   title: Fidelity National Financial Names Jason Nadeau As Chief ...
   url: https://nationalmortgageprofessional.com/news/fidelity-national-financial-names-jason-nadeau-chief-artificial-intelligence-officer
-random_paper: 67
+random_paper: 95
 score:
   band: minimal
   composite: 5.6
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -92,7 +92,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
@@ -100,7 +100,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidelity-national-financial/refs/heads/main/screenshots/fidelity-national-financial-2026-06-20T181150.png
 security:

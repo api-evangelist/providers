@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: AssetWorks
 nav: Providers
 network: true
 overview: AssetWorks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Asset Management, Enterprise Asset Management, and EAM.
-random_paper: 66
+random_paper: 30
 score:
   band: minimal
   composite: 8.8
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assetworks/refs/heads/main/screenshots/assetworks-2026-07-25T201443.png
 security:

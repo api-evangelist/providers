@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic access to LF Energy project resources, grid data APIs, and energy sector tools.
@@ -84,7 +84,7 @@ plans:
 - name: Lf Energy Plans Pricing
   plan_count: 3
   slug: lf-energy-plans-pricing
-random_paper: 93
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Lf Energy Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.5
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -100,7 +100,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.1
+  previous_composite: 11.5
   regulatory:
     applies: true
     matched_via: tags
@@ -108,8 +108,8 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-energy/refs/heads/main/screenshots/lf-energy-2026-06-20T184453.png
 security:
 - kind: domain-security

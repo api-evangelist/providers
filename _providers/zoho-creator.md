@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Zoho Creator Plans Pricing
   plan_count: 6
   slug: zoho-creator-plans-pricing
-random_paper: 85
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Zoho Creator Rate Limits
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 47.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.8
@@ -210,7 +210,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 48.1
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/screenshots/zoho-creator-2026-06-20T201937.png
 security:

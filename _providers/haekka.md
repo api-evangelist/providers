@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,16 +48,13 @@ apis:
   name: Haekka Trainings API
   slug: haekka-trainings-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List trainings and active employees, then assign a training and confirm the assignment.
   name: Assign a Haekka training to employees
   slug: haekka-assign-training
 - description: Read an employee-training record and update its completion state, then confirm.
   name: Sync a Haekka employee-training completion
   slug: haekka-sync-completion
-artifact_total: 12
+artifact_total: 11
 common:
 - group: agent
   title: ''
@@ -199,11 +196,11 @@ overview: 'Haekka publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Haekka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 33
+random_paper: 13
 score:
   band: thin
   composite: 41.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 15.7
@@ -211,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 42.2
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/screenshots/haekka-2026-07-25T220528.png
 security:

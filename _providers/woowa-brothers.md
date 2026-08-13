@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Woowa Brothers is profiled on the [APIs.io](https://apis.io/) network
 
 
   Woowa Brothers'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 83
+random_paper: 35
 score:
   band: minimal
   composite: 11.1
@@ -99,7 +99,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -114,7 +114,7 @@ plans:
 - name: Rest Assured Plans Pricing
   plan_count: 3
   slug: rest-assured-plans-pricing
-random_paper: 90
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Rest Assured Rate Limits
@@ -131,7 +131,7 @@ rules:
 score:
   band: thin
   composite: 30.1
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 33.9
@@ -139,10 +139,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 37.9
+  previous_composite: 30.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/screenshots/rest-assured-2026-06-20T192958.png
 security:
 - kind: domain-security

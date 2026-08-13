@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Inworld Plans Pricing
   plan_count: 5
   slug: inworld-plans-pricing
-random_paper: 71
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Inworld Rate Limits
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 57.2
@@ -152,7 +152,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.9
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Dixa Plans Pricing
   plan_count: 3
   slug: dixa-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Dixa Rate Limits
@@ -253,7 +253,7 @@ rules:
 score:
   band: developing
   composite: 54.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.2
@@ -261,7 +261,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 55.1
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -270,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/screenshots/dixa-2026-06-20T180054.png
 security:

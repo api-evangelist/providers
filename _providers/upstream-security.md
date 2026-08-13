@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,11 +91,11 @@ overview: 'Upstream Security is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Upstream Security''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 74
+random_paper: 14
 score:
   band: emerging
   composite: 17.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -103,11 +103,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 18.4
+  previous_composite: 17.3
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
@@ -148,7 +148,7 @@ overview: 'Thinknum publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Thinknum''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 17 more developer resources.'
-random_paper: 66
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Thinknum Rate Limits
@@ -168,7 +168,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

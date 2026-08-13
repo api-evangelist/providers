@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -153,7 +153,7 @@ scopes:
 score:
   band: thin
   composite: 37.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.5
@@ -161,7 +161,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.6
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/screenshots/pixelfed-2026-06-20T191736.png
 security:

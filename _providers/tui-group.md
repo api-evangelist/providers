@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -280,7 +280,7 @@ overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 35 more developer resources.'
-random_paper: 12
+random_paper: 100
 rate_limits:
 - limit_count: 6
   name: Tui Group Rate Limits
@@ -293,7 +293,7 @@ scopes:
 score:
   band: developing
   composite: 53.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.0
@@ -301,7 +301,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 53.1
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

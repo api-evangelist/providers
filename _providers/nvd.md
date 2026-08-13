@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Nvd Plans Pricing
   plan_count: 2
   slug: nvd-plans-pricing
-random_paper: 96
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Nvd Rate Limits
@@ -193,7 +193,7 @@ rules:
 score:
   band: developing
   composite: 43.2
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 73.0
@@ -201,7 +201,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 49.1
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/screenshots/nvd-2026-06-20T190537.png
 security:
 - kind: authentication

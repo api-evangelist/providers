@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -56,16 +56,13 @@ apis:
   name: Infra Users API
   slug: infra-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create an identity for automation and issue an access key it can use for CI/CD or API calls.
   name: Create a user and issue an access key
   slug: infra-issue-access-key
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 14
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -191,7 +188,7 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 64
+random_paper: 48
 score:
   band: thin
   composite: 35.7
@@ -214,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

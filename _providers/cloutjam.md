@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -112,7 +112,7 @@ overview: 'CloutJam is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CloutJam''s developer surface includes documentation, support, authentication, and 13 more developer resources.'
-random_paper: 51
+random_paper: 23
 scopes:
 - name: Cloutjam Scopes
   scope_count: 3
@@ -121,7 +121,7 @@ scopes:
 score:
   band: emerging
   composite: 22.3
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -129,12 +129,12 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 21.7
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:

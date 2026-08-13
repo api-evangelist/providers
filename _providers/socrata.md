@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Access to Open Data from Governments, Non-profits and NGOs around the world
@@ -56,7 +56,7 @@ name: Socrata
 nav: Providers
 network: true
 overview: Socrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 53
+random_paper: 29
 score:
   band: minimal
   composite: 6.5
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socrata/refs/heads/main/screenshots/socrata-2026-06-20T194121.png
 security:

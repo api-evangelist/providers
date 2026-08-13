@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -2635,7 +2635,7 @@ plans:
 - name: Kinesis Plans Pricing
   plan_count: 4
   slug: kinesis-plans-pricing
-random_paper: 62
+random_paper: 38
 rate_limits:
 - limit_count: 16
   name: Kinesis Rate Limits
@@ -2652,7 +2652,7 @@ rules:
 score:
   band: developing
   composite: 44.0
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.7
@@ -2660,7 +2660,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 52.4
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2669,8 +2669,8 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 8
 common:
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Sprague Resources LP Announces Cash Distribution for the First ...
   url: https://www.marketscreener.com/quote/stock/SPRAGUE-RESOURCES-LP-14670204/news/Sprague-Resources-LP-Announces-Cash-Distribution-for-the-First-Quarter-of-2022-and-Earnings-Conferen-40140081/
-random_paper: 51
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Sprague Resources Rate Limits
@@ -149,7 +149,7 @@ rules:
 score:
   band: emerging
   composite: 20.2
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -157,7 +157,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: tags
@@ -165,8 +165,8 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/screenshots/sprague-resources-2026-06-20T194400.png
 security:
 - kind: domain-security

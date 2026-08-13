@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Spredfast-lineage Khoros Marketing API surface covering Conversations, Publishing, Analytics Reporting and Notification. Uses a 3-legged OAuth 2.0 flow (/authorize, /grant, /token) and Bearer acce
@@ -180,7 +180,7 @@ overview: 'Lithium Technologies publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lithium Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 21 more developer resources.'
-random_paper: 5
+random_paper: 53
 score:
   band: developing
   composite: 49.9
@@ -196,7 +196,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium-technologies/refs/heads/main/screenshots/lithium-technologies-2026-07-25T225336.png
 security:

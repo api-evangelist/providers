@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,13 +60,10 @@ apis:
   name: Greater Bank Banking Products API
   slug: greater-bank-banking-products-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List Greater Bank's public CDR Product Reference Data (PRD) offerings, then retrieve the full detail for one product. Runs unauthenticated against the live public CDS host (no consumer consent / ADR h
   name: Greater Bank product lookup
   slug: greater-bank-product-lookup
-artifact_total: 13
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -180,11 +177,11 @@ overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 19 more developer resources.'
-random_paper: 43
+random_paper: 3
 score:
   band: thin
   composite: 37.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -192,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 38.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

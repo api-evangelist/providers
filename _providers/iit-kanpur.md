@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ plans:
 - name: Iit Kanpur Plans Pricing
   plan_count: 2
   slug: iit-kanpur-plans-pricing
-random_paper: 100
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Iit Kanpur Rate Limits
@@ -335,7 +335,7 @@ rules:
 score:
   band: thin
   composite: 35.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.8
@@ -343,7 +343,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 35.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -352,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:

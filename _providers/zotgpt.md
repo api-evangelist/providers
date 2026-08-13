@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The first-generation ZotGPT developer API, an OpenAI-compatible chat completions endpoint fronted by Azure API Management and available to UCI faculty and staff with "$200 in initial API credits to ge
@@ -196,7 +196,7 @@ plans:
 - name: Zotgpt Plans Pricing
   plan_count: 5
   slug: zotgpt-plans-pricing
-random_paper: 100
+random_paper: 80
 rate_limits:
 - limit_count: 6
   name: Zotgpt Rate Limits
@@ -204,7 +204,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.6
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 16.2
@@ -212,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 47.4
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     contracts:
@@ -222,7 +222,7 @@ score:
       total: 2
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

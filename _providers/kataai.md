@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Login and token issuance.
@@ -59,13 +59,10 @@ apis:
   name: Kata.ai Teams API
   slug: kataai-teams-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Log in, create a project, push a bot revision, cut a deployment version, and bind an environment.
   name: Build and deploy a Kata.ai bot
   slug: kataai-build-and-deploy-bot
-artifact_total: 14
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -183,11 +180,11 @@ overview: 'Kata.ai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 19 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: thin
   composite: 28.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 14.0
@@ -195,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 28.6
+  previous_composite: 28.4
   provenance:
     conformance: derived
     contracts:
@@ -206,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

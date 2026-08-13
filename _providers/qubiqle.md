@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -66,16 +66,13 @@ apis:
   name: Qubiqle vendors API
   slug: qubiqle-vendors-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Upload an invoice document, retrieve the created invoice, code it, then mark it exported.
   name: Invoice capture to export
   slug: qubiqle-invoice-capture-to-export
 - description: Authenticate, then upsert accounting dimensions and vendors so invoices can be auto-coded and matched.
   name: Sync ERP master data into Ottimate
   slug: qubiqle-sync-erp-master-data
-artifact_total: 18
+artifact_total: 17
 common:
 - group: other
   title: ''
@@ -221,7 +218,7 @@ overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 25 more developer resources.'
-random_paper: 59
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Qubiqle Rate Limits
@@ -234,7 +231,7 @@ scopes:
 score:
   band: developing
   composite: 54.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.1
@@ -242,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 55.8
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +257,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

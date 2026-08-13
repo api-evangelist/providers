@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -277,7 +277,7 @@ overview: 'Airtm publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Airtm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
-random_paper: 77
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Airtm Rate Limits
@@ -290,7 +290,7 @@ scopes:
 score:
   band: strong
   composite: 60.4
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 69.6
@@ -298,7 +298,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 59.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,7 +316,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/screenshots/airtm-2026-08-07T161117.png
 security:

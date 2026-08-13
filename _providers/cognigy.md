@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Cognigy.AI REST API for managing AI Agents throughout their lifecycle — deployment and snapshots, flow configuration and interaction, endpoints, resource monitoring, administration and user manage
@@ -155,11 +155,11 @@ overview: 'Cognigy publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cognigy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: developing
   composite: 48.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.6
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 49.1
+  previous_composite: 48.0
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognigy/refs/heads/main/screenshots/cognigy-2026-07-25T210022.png
 security:

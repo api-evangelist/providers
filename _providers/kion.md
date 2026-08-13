@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -253,7 +253,7 @@ plans:
 - name: Kion Plans Pricing
   plan_count: 3
   slug: kion-plans-pricing
-random_paper: 85
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Kion Rate Limits
@@ -270,7 +270,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 71.0
@@ -278,7 +278,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 52.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +287,8 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:
 - kind: authentication

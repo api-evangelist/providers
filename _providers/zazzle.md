@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,11 +180,11 @@ overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
-random_paper: 92
+random_paper: 72
 score:
   band: thin
   composite: 40.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 30.2
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.6
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

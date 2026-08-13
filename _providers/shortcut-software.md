@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -363,7 +363,7 @@ overview: 'Shortcut Software publishes 25 APIs on the [APIs.io](https://apis.io/
 
 
   Shortcut Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 72
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Shortcut Software Rate Limits
@@ -376,7 +376,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.4
@@ -384,7 +384,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 66.7
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,7 +396,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

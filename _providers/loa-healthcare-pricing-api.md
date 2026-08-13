@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
@@ -49,11 +49,11 @@ name: Loa Healthcare Pricing API
 nav: Providers
 network: true
 overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and providers.
-random_paper: 2
+random_paper: 34
 score:
   band: emerging
   composite: 17.5
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 56.2
@@ -61,7 +61,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 17.5
   provenance:
     contracts:
       callable: 0.0
@@ -75,7 +75,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 slug: loa-healthcare-pricing-api

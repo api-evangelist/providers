@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 49
+random_paper: 25
 scopes:
 - name: Zalando Scopes
   scope_count: 16
@@ -242,7 +242,7 @@ scopes:
 score:
   band: thin
   composite: 38.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 42.7
@@ -250,7 +250,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 39.2
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,7 +268,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

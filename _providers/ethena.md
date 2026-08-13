@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -198,11 +198,11 @@ overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ethena''s developer surface includes documentation, API reference, authentication, changelog, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: developing
   composite: 54.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.4
@@ -210,7 +210,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +222,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena/refs/heads/main/screenshots/ethena-2026-07-25T213647.png
 security:

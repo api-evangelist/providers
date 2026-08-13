@@ -1,81 +1,193 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Documented, account-manager mediated
   onboarding: unknown
   pricing: unknown
-  public: false
-  source: []
+  public: true
+  source:
+  - https://wiki.pokkt.com/api-guide
+  - https://wiki.pokkt.com/dsp-integration-guide/pokkt-dsp.md
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 37.4
+  scored_at: '2026-08-12'
+api_count: 6
+apis:
+- description: Supply-side ad request API. A single GET to /api/AdServer returns one or more ad objects for a full-screen interstitial or banner placement, as a JSON array (response_format=0) or as HTML markup (resp
+  name: POKKT Ad Server API
+  slug: ad-server-api
+- description: Video ad request API for supply-side platforms. The same /api/AdServer endpoint called with response_format=1 responds with a VAST XML tag rather than a JSON ad object, adding video-specific parameter
+  name: POKKT VAST Video API
+  slug: vast-video-api
+- description: Demand-side bidding endpoint. Exchanges POST an OpenRTB bid request object as application/json to /api/rtb/<appid> with an x-openrtb-version header; POKKT answers HTTP 204 with no body for a no-bid or
+  name: POKKT DSP OpenRTB API
+  slug: dsp-openrtb-api
+- description: Hosted rewarded-video surface for mobile web. The publisher opens /videoWap with its appId, a format selector and a URL-encoded `encodedparams` bag carrying custom session data such as a session id or
+  name: POKKT Mobile Web Video API
+  slug: mobile-web-video-api
+- description: Server-to-server rewarded-video confirmation callback. When a user completes a rewarded video, POKKT issues a GET to a publisher-hosted URL configured in the app settings page, carrying app_id, unique
+  name: POKKT Gratification API
+  slug: gratification-api
+- description: 'The GraphQL API behind the POKKT campaign-management console, live at api.pokkt.com/graphql and referenced directly by the console''s own JavaScript bundle. Authentication-gated: an anonymous introspec'
+  name: POKKT Console GraphQL API
+  slug: console-graphql-api
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Pokkt Webhooks
+  slug: pokkt-webhooks
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/pokkt-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://pokkt.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://wiki.pokkt.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://wiki.pokkt.com
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.pokkt.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://wiki.pokkt.com/api-guide
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://wiki.pokkt.com/pokkt-sdk
+- group: start
+  title: ''
+  type: Login
+  url: https://pokkt.com/login
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://anymindgroup.com/privacy-policy/
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/AnyMindGroup
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pokkt-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pokkt-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/pokkt-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pokkt-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pokkt-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pokkt-error-responses.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pokkt-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/pokkt-webhooks.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pokkt-components.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pokkt-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pokkt-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pokkt-rate-limits.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pokkt-domain-security.yml
 created: '2026-07-17'
-description: Pokkt is a mobile-first advertising and app monetization platform, part of AnyMind Group, serving app publishers and game developers with SDK-based ad monetization (rewarded video, interstitial, and video advertising) and serving advertisers with performance campaigns, remarketing, and connected-TV (CTV) inventory across India, Southeast Asia, and MENA. The platform operates through a web console for campaign management, targeting, exchange-log tracking, pixel-based post-click engagement, and reporting. This profile was surfaced as a portfolio company of 500 Global and is being enriched by the API Evangelist pipeline; no public OpenAPI, SDK registry package, or machine-readable API surface has been confirmed.
+description: 'Pokkt is a mobile-first advertising and app monetization platform, part of AnyMind Group, serving app publishers and game developers with SDK-based ad monetization (rewarded video, interstitial, and video advertising) and serving advertisers with performance campaigns, remarketing, and connected-TV (CTV) inventory across India, Southeast Asia, and MENA. Its public API surface is entirely ad-tech: a supply-side Ad Server API at vdo.pokkt.com serving JSON, HTML and VAST responses, a mobile-web rewarded video surface, a server-to-server rewarded-video gratification callback, and a demand-side OpenRTB 2.5/2.6 bid endpoint with global, APAC and US regional hosts. Pokkt publishes an llms.txt-indexed developer wiki and an IAB Tech Lab sellers.json, but no OpenAPI, no OAuth, and no public pricing; the console GraphQL API at api.pokkt.com is authentication-gated and its client SDKs have not been republished since October 2021.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pokkt.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Pokkt
 nav: Providers
 network: true
-overview: 'Pokkt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Monetization, Mobile, and Video Advertising.
+overview: 'Pokkt publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Monetization, Mobile, and Video Advertising.
 
 
-  Pokkt''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 89
+  The Pokkt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Pokkt''s developer surface includes documentation, API reference, getting-started guide, authentication, and 18 more developer resources.'
+plans:
+- name: Pokkt Plans Pricing
+  plan_count: 0
+  slug: pokkt-plans-pricing
+random_paper: 73
+rate_limits:
+- limit_count: 0
+  name: Pokkt Rate Limits
+  slug: pokkt-rate-limits
 score:
-  band: minimal
-  composite: 7.4
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: 32.0
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 8.7
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 23.7
+    contract_quality: 51.6
+    developer_ergonomics: 52.2
+    discoverability: 81.5
+    governance: 12.5
+    operational_transparency: 13.2
   previous_composite: 7.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Pokkt Authentication
+  slug: pokkt-authentication
+  summary_line: apiKey/custom-hash-signature/undocumented-header · 4 schemes
 - kind: domain-security
   name: Pokkt Domain Security
   slug: pokkt-domain-security
@@ -89,5 +201,13 @@ tags:
 - Video Advertising
 - AdTech
 - Remarketing
+- OpenRTB
+- Programmatic Advertising
+- Rewarded Video
+- Mobile SDK
+- Ad Serving
+- Connected TV
+- Supply Side Platform
+- Demand Side Platform
 website: https://pokkt.com
 ---

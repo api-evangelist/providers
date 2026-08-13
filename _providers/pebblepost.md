@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-11'
+  score: 15.8
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The PebblePost JavaScript tag is the provider's public client-side integration surface. Brands drop a script on their site that populates a window._pp array with a Brand ID (brid) and Brand Customer I
@@ -27,7 +27,7 @@ apis:
 - description: 'A live but publicly undocumented platform API surface behind the PebblePost PDM Manager application. Two hosts respond: api.pebblepost.com (an Express service that answers GET /health with {"status":"'
   name: PebblePost Platform API
   slug: pebblepost-platform-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -53,6 +53,10 @@ common:
   title: ''
   type: Blog
   url: https://www.pebblepost.com/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.pebblepost.com/feed/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -97,9 +101,33 @@ common:
   title: ''
   type: TrustCenter
   url: security/pebblepost-trust-center.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pebblepost-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pebblepost-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pebblepost-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pebblepost-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pebblepost-conventions.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pebblepost-metrics-vocabulary.yml
 coverage:
-  checked: '2026-08-04'
-  detail: PebblePost runs live API hosts but publishes no developer program at all — api.pbbl.co is an AWS API Gateway that answers every path, including /openapi.json, with HTTP 403 "Missing Authentication Token", and the only public docs site (docs.pebblepost.com, a Help Scout help center) covers dashboard reporting and creative specs, telling integrators to hand Shopify credentials to "your PebblePost Account Manager" instead of documenting an API.
+  checked: '2026-08-12'
+  detail: PebblePost runs live API hosts but publishes no developer program at all — api.pbbl.co is an AWS API Gateway that answers every path, including /openapi.json, with HTTP 403 "Missing Authentication Token", and the only public docs site (docs.pebblepost.com, a Help Scout help center) covers dashboard reporting and creative specs, still telling integrators in 2026 to email a Shopify API key and password to "your PebblePost Account Manager" — three years after PebblePost announced a Shopify public app that was supposed to end exactly that practice.
   evidence:
   - status: 403
     url: https://api.pbbl.co/openapi.json
@@ -107,41 +135,55 @@ coverage:
     url: https://api.pebblepost.com/openapi.json
   - status: 200
     url: https://api.pebblepost.com/health
+  - status: 404
+    url: https://api.pebblepost.com/graphql
   - status: 200
     url: https://docs.pebblepost.com/article/36-connect-pebblepost-to-shopify
   - status: 404
     url: https://www.pebblepost.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.pebblepost.com/pricing/
+  - status: 404
+    url: https://apps.shopify.com/pebblepost
   reason: sales-gate
   state: gated
 created: '2026-08-04'
 description: PebblePost is a New York-based commerce marketing platform that pioneered Programmatic Direct Mail (PDM) and now also operates a Performance CTV product. Its Performance Marketing Engine turns first-party website intent signals, household identity and transaction data — surfaced through the PebblePost Graph — into targeted physical mail and connected-TV campaigns for retail and direct-to-consumer brands, with conversion measurement reported through a Performance Dashboard. Brands integrate by installing the PebblePost JavaScript tag (a window._pp client-side collector served from cdn.pbbl.co) and by syncing commerce data through connectors such as Shopify. Live API hosts run at api.pebblepost.com and api.pbbl.co, but PebblePost publishes no public developer portal, API reference, OpenAPI definition or self-serve API keys — API access is arranged through a PebblePost account team.
 image: https://www.pebblepost.com/wp-content/themes/pebblepost/assets/static/img/logo.svg
 layout: provider
-modified: '2026-08-04'
+modified: '2026-08-12'
 name: PebblePost
 nav: Providers
 network: true
 overview: 'PebblePost publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, Direct Mail, and Connected TV.
 
 
-  PebblePost''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 28
+  PebblePost''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 19 more developer resources.'
+plans:
+- name: Pebblepost Plans Pricing
+  plan_count: 0
+  slug: pebblepost-plans-pricing
+random_paper: 112
+rate_limits:
+- limit_count: 0
+  name: Pebblepost Rate Limits
+  slug: pebblepost-rate-limits
 score:
-  band: emerging
-  composite: 27.2
-  delta: -1.1
+  band: thin
+  composite: 28.4
+  delta: 1.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 37.0
     discoverability: 75.9
-    governance: 12.5
+    governance: 22.9
     operational_transparency: 5.3
-  previous_composite: 28.3
+  previous_composite: 27.2
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -69,16 +69,13 @@ apis:
   name: Sponge Wallet API
   slug: sponge-wallet-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Platform backend creates a new agent, then mints an agent API key for runtime use.
   name: Sponge — create an agent and issue its key
   slug: sponge-agent-onboarding
 - description: Read wallet balances, send an EVM transfer, then poll transaction status.
   name: Sponge — check balance, transfer, and confirm
   slug: sponge-transfer-and-confirm
-artifact_total: 18
+artifact_total: 17
 common:
 - group: other
   title: ''
@@ -208,7 +205,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
-random_paper: 72
+random_paper: 52
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -217,7 +214,7 @@ scopes:
 score:
   band: developing
   composite: 48.9
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.3
@@ -225,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 50.3
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,7 +240,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

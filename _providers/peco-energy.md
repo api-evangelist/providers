@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Shared Exelon Utilities backend (eudapi.peco.com) referenced by the PECO web portal's runtime configuration at https://www.peco.com/api/GetConfig (which exposes baseUrl, contentApiBaseUrl, euApiUrl, A
@@ -105,7 +105,7 @@ name: PECO Energy
 nav: Providers
 network: true
 overview: PECO Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electric, Energy, Exelon, Mobile App, and Natural Gas.
-random_paper: 74
+random_paper: 38
 score:
   band: minimal
   composite: 6.3
@@ -125,7 +125,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peco-energy/refs/heads/main/screenshots/peco-energy-2026-06-20T191527.png
 security:

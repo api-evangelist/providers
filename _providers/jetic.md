@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Jetic Plans Pricing
   plan_count: 3
   slug: jetic-plans-pricing
-random_paper: 63
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Jetic Rate Limits
@@ -196,7 +196,7 @@ rules:
 score:
   band: developing
   composite: 46.5
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 73.9
@@ -204,7 +204,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 55.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:
 - kind: authentication

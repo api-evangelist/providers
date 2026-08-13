@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
@@ -183,7 +183,7 @@ overview: 'Definite publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Definite''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 28
+random_paper: 0
 scopes:
 - name: Definite Scopes
   scope_count: 1
@@ -192,7 +192,7 @@ scopes:
 score:
   band: developing
   composite: 53.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -200,13 +200,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 55.0
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/screenshots/definite-2026-07-25T211622.png
 security:

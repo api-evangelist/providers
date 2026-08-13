@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -528,7 +528,7 @@ overview: 'Tricentis publishes 102 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
-random_paper: 53
+random_paper: 21
 scopes:
 - name: Tricentis Scopes
   scope_count: 1
@@ -537,7 +537,7 @@ scopes:
 score:
   band: strong
   composite: 61.9
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.8
@@ -545,7 +545,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 63.1
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -557,7 +557,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

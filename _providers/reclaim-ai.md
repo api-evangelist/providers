@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 348
   human_in_the_loop: 16
@@ -451,7 +451,7 @@ plans:
 - name: Reclaim Ai Plans Pricing
   plan_count: 4
   slug: reclaim-ai-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Reclaim Ai Rate Limits
@@ -473,7 +473,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 45.4
@@ -481,7 +481,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 45.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -490,7 +490,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/screenshots/reclaim-ai-2026-06-20T192710.png
 security:

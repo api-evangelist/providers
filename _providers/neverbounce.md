@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -108,11 +108,11 @@ overview: 'NeverBounce publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   NeverBounce''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 20
+random_paper: 100
 score:
   band: thin
   composite: 30.4
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.5
@@ -120,7 +120,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -129,7 +129,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/screenshots/neverbounce-2026-06-20T190221.png
 security:

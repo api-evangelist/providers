@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Goto Gojek Plans Pricing
   plan_count: 1
   slug: goto-gojek-plans-pricing
-random_paper: 86
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Goto Gojek Rate Limits
@@ -182,7 +182,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.3
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.2
@@ -190,7 +190,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.7
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png
 security:

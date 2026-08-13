@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -184,11 +184,11 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: developing
   composite: 43.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 65.0
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 44.8
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

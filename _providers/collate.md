@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The OpenMetadata REST API — a JWT-authenticated (Bearer) CRUD API over every data asset and governance entity in OpenMetadata (databases, schemas, tables, dashboards, charts, pipelines, topics, contai
@@ -180,11 +180,11 @@ overview: 'Collate publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Collate''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 23 more developer resources.'
-random_paper: 44
+random_paper: 20
 score:
   band: developing
   composite: 49.2
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 39.6
@@ -192,7 +192,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 49.5
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     contracts:
@@ -202,7 +202,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collate/refs/heads/main/screenshots/collate-2026-07-25T210043.png
 security:

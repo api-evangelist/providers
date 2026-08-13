@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -173,7 +173,7 @@ overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 31
+random_paper: 115
 scopes:
 - name: Brooklinen Scopes
   scope_count: 4
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 45.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.5
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 46.4
+  previous_composite: 45.9
   provenance:
     conformance: first-party
     contracts:
@@ -207,7 +207,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:

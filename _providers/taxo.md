@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'White-label REST API for electronic invoicing integrated with Ecuador''s SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth, asynchronous webhooks for authorization status, a'
@@ -131,11 +131,11 @@ overview: 'TAXO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TAXO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 96
+random_paper: 84
 score:
   band: thin
   composite: 40.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -143,12 +143,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 41.8
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

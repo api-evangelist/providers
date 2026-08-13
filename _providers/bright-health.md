@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,11 +66,11 @@ name: Bright Health
 nav: Providers
 network: true
 overview: Bright Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Health Insurance, Insurance, and Medicare Advantage.
-random_paper: 39
+random_paper: 115
 score:
   band: minimal
   composite: 6.6
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -78,7 +78,7 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.6
+  previous_composite: 6.6
   regulatory:
     applies: true
     matched_via: tags
@@ -86,7 +86,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-health/refs/heads/main/screenshots/bright-health-2026-07-25T203825.png
 security:

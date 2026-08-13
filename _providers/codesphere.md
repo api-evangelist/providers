@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -69,16 +69,13 @@ apis:
   name: Codesphere workspaces API
   slug: codesphere-workspaces-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a workspace, run the prepare and run pipeline stages, and confirm it is live.
   name: Deploy an application to a Codesphere workspace
   slug: codesphere-deploy-workspace
 - description: Discover providers, create a managed service, and confirm it is running.
   name: Provision a Codesphere managed service
   slug: codesphere-provision-managed-service
-artifact_total: 19
+artifact_total: 18
 common:
 - group: other
   title: ''
@@ -240,11 +237,11 @@ overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 29 more developer resources.'
-random_paper: 14
+random_paper: 98
 score:
   band: developing
   composite: 54.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.4
@@ -252,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 55.3
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:

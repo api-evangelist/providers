@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: FHIR R4 compliant Patient Access API providing members secure access to their health data including claims, clinical data, and coverage information. Required under CMS Interoperability and Patient Acc
@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: Aetna Launches New AI and Digital Tools to Improve ...
   url: https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html
-random_paper: 57
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Aetna Rate Limits
@@ -154,7 +154,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.2
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.2
@@ -162,7 +162,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 34.9
+  previous_composite: 28.2
   regulatory:
     applies: true
     matched_via: tags
@@ -170,8 +170,8 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Aetna Domain Security

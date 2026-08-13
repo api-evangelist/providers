@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Publisher app and placement (inventory) management.
@@ -166,11 +166,11 @@ overview: 'Opera publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Opera''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 20 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: developing
   composite: 46.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.4
@@ -178,7 +178,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 46.9
+  previous_composite: 46.3
   provenance:
     conformance: derived
     contracts:
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-07T190703.png
 security:

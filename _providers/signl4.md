@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -116,11 +116,11 @@ overview: 'SIGNL4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   SIGNL4''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 13
+random_paper: 113
 score:
   band: thin
   composite: 35.0
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 61.6
@@ -128,7 +128,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.0
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -137,7 +137,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/screenshots/signl4-2026-06-20T193912.png
 security:

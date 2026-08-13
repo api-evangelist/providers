@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Creatify Plans Pricing
   plan_count: 6
   slug: creatify-plans-pricing
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Creatify Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.8
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/screenshots/creatify-2026-07-25T210659.png
 security:

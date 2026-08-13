@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 23 more developer resources.'
-random_paper: 75
+random_paper: 47
 scopes:
 - name: Newstore Scopes
   scope_count: 29
@@ -318,7 +318,7 @@ scopes:
 score:
   band: developing
   composite: 50.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 64.6
@@ -326,7 +326,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 51.2
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,7 +338,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:

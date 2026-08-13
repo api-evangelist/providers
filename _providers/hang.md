@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: The Activities API from Hang — 2 operation(s) for activities.
@@ -222,11 +222,11 @@ overview: 'Hang publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 22 more developer resources.'
-random_paper: 66
+random_paper: 54
 score:
   band: developing
   composite: 50.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.6
@@ -234,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 52.1
+  previous_composite: 50.5
   provenance:
     conformance: first-party
     contracts:
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:

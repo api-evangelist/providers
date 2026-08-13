@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Theta Lake API (v1) provides programmatic access to the DCGA platform: ingest AI, audio, chat, document, email, and video content; manage records, comments, labels, and dispositions; run unified s'
@@ -144,7 +144,7 @@ overview: 'Theta Lake publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Theta Lake''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, getting-started guide, and 16 more developer resources.'
-random_paper: 64
+random_paper: 32
 scopes:
 - name: Theta Lake Scopes
   scope_count: 70
@@ -153,7 +153,7 @@ scopes:
 score:
   band: thin
   composite: 38.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 27.6
@@ -161,7 +161,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 40.5
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     contracts:
@@ -172,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

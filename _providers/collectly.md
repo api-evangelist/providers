@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: JWT-authenticated, practice-scoped REST API for integrating patient billing and payment workflows — practices, patients, appointments, providers, locations, insurance companies and policies, statement
@@ -111,11 +111,11 @@ overview: 'Collectly publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Collectly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 43
+random_paper: 11
 score:
   band: thin
   composite: 37.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -123,7 +123,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 37.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectly/refs/heads/main/screenshots/collectly-2026-07-25T210051.png
 security:

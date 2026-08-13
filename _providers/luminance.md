@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: The Accounts API from Luminance — 6 operation(s) for accounts.
@@ -207,7 +207,7 @@ overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 28
+random_paper: 116
 rate_limits:
 - limit_count: 1
   name: Luminance Rate Limits
@@ -220,7 +220,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.4
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     contracts:
@@ -239,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

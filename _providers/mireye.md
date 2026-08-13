@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -221,7 +221,7 @@ overview: 'Mireye publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 71
+random_paper: 51
 scopes:
 - name: Mireye Scopes
   scope_count: 1
@@ -230,7 +230,7 @@ scopes:
 score:
   band: developing
   composite: 49.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 43.1
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.6
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +256,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
 security:

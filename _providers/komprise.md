@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,11 +87,11 @@ overview: 'Komprise is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Komprise''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 62
+random_paper: 34
 score:
   band: emerging
   composite: 14.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -99,9 +99,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.3
+  previous_composite: 14.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komprise/refs/heads/main/screenshots/komprise-2026-07-25T224154.png
 security:

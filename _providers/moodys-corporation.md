@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
   slug: moodys-corporation-plans-pricing
-random_paper: 56
+random_paper: 112
 rate_limits:
 - limit_count: 0
   name: Moodys Corporation Rate Limits
@@ -247,7 +247,7 @@ scopes:
 score:
   band: developing
   composite: 42.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.3
@@ -255,7 +255,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 42.7
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

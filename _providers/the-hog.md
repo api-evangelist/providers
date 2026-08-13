@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 104
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: The Hog Rate Limits
@@ -192,7 +192,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.2
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 50.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +212,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

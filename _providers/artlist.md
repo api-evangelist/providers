@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Artlist publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Artlist Rate Limits
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.6
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 47.0
@@ -210,7 +210,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +222,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:

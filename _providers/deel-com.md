@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -389,7 +389,7 @@ plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
   slug: deel-com-plans-pricing
-random_paper: 78
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Deel Com Rate Limits
@@ -406,7 +406,7 @@ rules:
 score:
   band: strong
   composite: 60.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.6
@@ -414,7 +414,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 65.8
-  previous_composite: 61.3
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -423,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

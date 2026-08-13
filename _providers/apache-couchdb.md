@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
   slug: apache-couchdb-plans-pricing
-random_paper: 107
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Apache Couchdb Rate Limits
@@ -490,7 +490,7 @@ rules:
 score:
   band: thin
   composite: 39.5
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 38.6
@@ -498,7 +498,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 47.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -507,8 +507,8 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:
 - kind: authentication

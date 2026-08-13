@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,11 +92,11 @@ name: Dealogic
 nav: Providers
 network: true
 overview: Dealogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Capital Markets, Compliance, Deal Management, and Finance.
-random_paper: 12
+random_paper: 104
 score:
   band: minimal
   composite: 8.8
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -104,7 +104,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.3
+  previous_composite: 8.8
   regulatory:
     applies: true
     matched_via: tags
@@ -112,7 +112,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/screenshots/dealogic-2026-06-20T175743.png
 security:

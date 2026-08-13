@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://a
 
 
   Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 37
+random_paper: 5
 scopes:
 - name: Hellosign Scopes
   scope_count: 7
@@ -290,7 +290,7 @@ scopes:
 score:
   band: strong
   composite: 64.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.1
@@ -298,7 +298,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 65.8
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +310,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

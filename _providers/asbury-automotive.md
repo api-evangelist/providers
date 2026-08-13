@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Clicklane is Asbury Automotive's proprietary online vehicle purchase platform that enables customers to complete the full car buying process digitally, including vehicle selection, financing, trade-in
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Asbury Automotive Group chooses Tekion Corp's DMS
   url: https://www.linkedin.com/posts/colintrichardson_asbury-tekion-rollout-reaches-jim-koons-dealerships-activity-7325886275754885120-NLKR
-random_paper: 68
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Asbury Automotive Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.9
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -112,10 +112,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.1
+  previous_composite: 11.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Asbury Automotive Domain Security

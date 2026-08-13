@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Langbase Plans Pricing
   plan_count: 4
   slug: langbase-plans-pricing
-random_paper: 17
+random_paper: 109
 rate_limits:
 - limit_count: 6
   name: Langbase Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.4
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.8
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/screenshots/langbase-2026-07-25T224526.png
 security:

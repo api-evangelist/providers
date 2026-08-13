@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,16 +49,13 @@ apis:
   name: Gridspace SDK API
   slug: gridspace-sdk-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List recent conversations, then fetch one call's details, transcript, and recording.
   name: Pull a call's full record
   slug: gridspace-pull-call-record
 - description: Send an SMS from a Guava number, then poll the inbox for the recipient's reply.
   name: Send an SMS and poll for the reply
   slug: gridspace-send-and-poll-sms
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: postman
   name: Guava Voice Agent REST Conversations API
@@ -242,11 +239,11 @@ plans:
 - name: Gridspace Plans
   plan_count: 4
   slug: gridspace-plans
-random_paper: 18
+random_paper: 106
 score:
   band: strong
   composite: 61.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 63.2
@@ -254,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 63.0
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,7 +269,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:

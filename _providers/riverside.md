@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Riverside Plans Pricing
   plan_count: 3
   slug: riverside-plans-pricing
-random_paper: 45
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Riverside Rate Limits
@@ -206,7 +206,7 @@ rules:
 score:
   band: developing
   composite: 50.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.6
@@ -214,7 +214,7 @@ score:
     discoverability: 81.5
     governance: 37.5
     operational_transparency: 13.2
-  previous_composite: 58.2
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/screenshots/riverside-2026-06-20T193133.png
 security:
 - kind: authentication

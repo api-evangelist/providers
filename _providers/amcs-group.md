@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -935,11 +935,11 @@ overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 94
+random_paper: 62
 score:
   band: thin
   composite: 39.5
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 40.9
@@ -947,7 +947,7 @@ score:
     discoverability: 63.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -965,7 +965,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:

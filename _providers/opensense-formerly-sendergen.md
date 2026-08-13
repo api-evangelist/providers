@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,7 +103,7 @@ overview: 'Opensense (formerly SenderGen) is profiled on the [APIs.io](https://a
 
 
   Opensense (formerly SenderGen)''s developer surface includes support, pricing, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
   composite: 21.8
@@ -117,7 +117,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensense-formerly-sendergen/refs/heads/main/screenshots/opensense-formerly-sendergen-2026-08-07T190637.png
 security:

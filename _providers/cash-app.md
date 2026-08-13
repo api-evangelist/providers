@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -303,7 +303,7 @@ overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 37 more developer resources.'
-random_paper: 85
+random_paper: 61
 scopes:
 - name: Cash App Scopes
   scope_count: 4
@@ -312,7 +312,7 @@ scopes:
 score:
   band: strong
   composite: 58.9
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.4
@@ -320,7 +320,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 57.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,7 +333,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

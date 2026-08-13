@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -128,11 +128,11 @@ overview: 'Mendix publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mendix''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 45
 score:
   band: thin
   composite: 31.0
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 52.2
@@ -140,7 +140,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.1
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -149,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/screenshots/mendix-2026-06-20T185144.png
 security:

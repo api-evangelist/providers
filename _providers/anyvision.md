@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served from the customer's own OnWatch server under th
@@ -140,11 +140,11 @@ overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   AnyVision''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 64
+random_paper: 32
 score:
   band: thin
   composite: 36.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -152,11 +152,11 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.5
+  previous_composite: 36.0
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyvision/refs/heads/main/screenshots/anyvision-2026-08-07T161431.png
 security:

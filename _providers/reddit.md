@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ plans:
 - name: Reddit Plans Pricing
   plan_count: 2
   slug: reddit-plans-pricing
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Reddit Rate Limits
@@ -301,7 +301,7 @@ scopes:
 score:
   band: developing
   composite: 52.1
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 66.5
@@ -309,7 +309,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.3
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -318,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ plans:
 - name: Cloverly Plans Pricing
   plan_count: 3
   slug: cloverly-plans-pricing
-random_paper: 68
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Cloverly Rate Limits
@@ -260,7 +260,7 @@ rules:
 score:
   band: developing
   composite: 50.4
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 67.9
@@ -268,7 +268,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 53.3
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -283,7 +283,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
 security:

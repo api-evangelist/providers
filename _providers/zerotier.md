@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -280,11 +280,11 @@ overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 35 more developer resources.'
-random_paper: 72
+random_paper: 44
 score:
   band: strong
   composite: 60.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.4
@@ -292,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 62.6
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

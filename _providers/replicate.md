@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Replicate Plans Pricing
   plan_count: 4
   slug: replicate-plans-pricing
-random_paper: 25
+random_paper: 113
 rate_limits:
 - limit_count: 4
   name: Replicate Rate Limits
@@ -392,7 +392,7 @@ rules:
 score:
   band: strong
   composite: 61.4
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 74.7
@@ -400,7 +400,7 @@ score:
     discoverability: 72.2
     governance: 41.7
     operational_transparency: 44.7
-  previous_composite: 67.8
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -409,8 +409,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:
 - kind: authentication

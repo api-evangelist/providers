@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -39,30 +39,68 @@ common:
   title: ''
   type: Website
   url: https://quantums.com.sa
+- group: start
+  title: ''
+  type: Login
+  url: https://app.one.quantums.com.sa
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/quantum-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/quantum-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/quantum-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: Quantum's only API surface is an /apikeys screen inside the login-gated Quantum One tenant app at app.one.quantums.com.sa; the marketing site is a single WordPress page with no developer section, and every contract and /.well-known path 404s on all four Quantum hosts.
+  evidence:
+  - status: 200
+    url: https://app.one.quantums.com.sa/apikeys
+  - status: 404
+    url: https://quantums.com.sa/openapi.json
+  - status: 404
+    url: https://quantums.com.sa/.well-known/api-catalog
+  - status: 404
+    url: https://app.one.quantums.com.sa/.well-known/agent-card.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
-description: Quantum is a Saudi Arabian advertising-technology (adtech) enabler that bridges online publishers and advertisers with data and technology. Its Quantum One omnichannel platform connects online and offline retail experiences across programmatic ads, in-app media buying, e-sampling, on-ground activations, influencer marketing, and out-of-home media, with goal-attainment tracking, ROI measurement, customer-engagement analytics, and conversion-rate analysis. As of this enrichment pass the company publishes no public developer API, documentation, or developer portal.
+description: Quantum is a Saudi Arabian advertising-technology (adtech) enabler that bridges online publishers and advertisers with data and technology. Its Quantum One omnichannel platform connects online and offline retail experiences across programmatic ads, in-app media buying, e-sampling, on-ground activations, influencer marketing, and out-of-home media, with goal-attainment tracking, ROI measurement, customer-engagement analytics, and conversion-rate analysis. As of this enrichment pass the company publishes no public developer API, documentation, or developer portal; the Quantum One tenant application does carry an API-key management screen, so the platform issues keys to signed-in customers, but no contract, reference, or machine-readable spec is published anywhere.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantum.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Quantum
 nav: Providers
 network: true
 overview: Quantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Marketing, and Programmatic.
-random_paper: 83
+plans:
+- name: Quantum Plans Pricing
+  plan_count: 0
+  slug: quantum-plans-pricing
+random_paper: 59
+rate_limits:
+- limit_count: 0
+  name: Quantum Rate Limits
+  slug: quantum-rate-limits
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 8.4
+  delta: 3.4
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

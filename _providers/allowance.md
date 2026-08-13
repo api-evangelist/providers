@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -48,13 +48,10 @@ apis:
   name: Allowance Status API
   slug: allowance-status-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a spending mandate, wait for the human owner to approve it, then request a single-use virtual card for a specific purchase against the active mandate.
   name: Approve a mandate and issue a virtual card
   slug: allowance-mandate-to-card
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Allowance Webhooks
@@ -203,7 +200,7 @@ overview: 'Allowance publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 22
+random_paper: 110
 scopes:
 - name: Allowance Scopes
   scope_count: 3
@@ -212,7 +209,7 @@ scopes:
 score:
   band: developing
   composite: 53.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 69.9
@@ -220,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 55.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,7 +235,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

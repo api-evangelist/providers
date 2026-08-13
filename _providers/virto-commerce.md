@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 9
@@ -175,7 +175,7 @@ plans:
 - name: Virto Commerce Plans Pricing
   plan_count: 3
   slug: virto-commerce-plans-pricing
-random_paper: 60
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Virto Commerce Rate Limits
@@ -188,7 +188,7 @@ scopes:
 score:
   band: thin
   composite: 41.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 46.4
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +211,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png
 security:

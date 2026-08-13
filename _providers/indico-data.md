@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -164,11 +164,11 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 41
+random_paper: 5
 score:
   band: developing
   composite: 49.7
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.7
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 52.3
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -5098,7 +5098,7 @@ plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits
@@ -5123,7 +5123,7 @@ rules:
 score:
   band: strong
   composite: 59.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 61.8
@@ -5131,7 +5131,7 @@ score:
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 55.3
-  previous_composite: 59.6
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     contracts:
@@ -5140,7 +5140,7 @@ score:
       marker_coverage: 0.0
       total: 132
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

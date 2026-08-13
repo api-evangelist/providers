@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Database Normalization
 nav: Providers
 network: true
-random_paper: 77
+random_paper: 1
 slug: database-normalization
 tags:
 - Database Design

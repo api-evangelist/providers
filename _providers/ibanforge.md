@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: API key management — generate free keys and check usage
@@ -140,11 +140,11 @@ overview: 'IBANforge publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
-random_paper: 13
+random_paper: 101
 score:
   band: thin
   composite: 35.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 61.6
@@ -152,7 +152,7 @@ score:
     discoverability: 90.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 35.6
+  previous_composite: 35.0
   provenance:
     contracts:
       callable: 100.0
@@ -167,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:

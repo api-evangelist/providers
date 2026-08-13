@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ overview: 'Wattwatchers publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
-random_paper: 37
+random_paper: 113
 rate_limits:
 - limit_count: 2
   name: Wattwatchers Rate Limits
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.4
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.2
@@ -195,7 +195,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 42.5
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

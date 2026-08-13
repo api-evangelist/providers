@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing start.gg (smash.gg) tournaments, events, entrants, sets, standings, players, and users, with mutations for reporting results and managing brackets.
@@ -152,7 +152,7 @@ overview: 'Smashgg publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Smashgg''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Smashgg Rate Limits
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 30.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -173,13 +173,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 31.7
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

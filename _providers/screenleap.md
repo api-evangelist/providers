@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Create, retrieve, list and stop screen share sessions.
@@ -148,11 +148,11 @@ overview: 'Screenleap publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Screenleap''s developer surface includes documentation, API reference, getting-started guide, FAQ, engineering blog, support, pricing, and 17 more developer resources.'
-random_paper: 14
+random_paper: 98
 score:
   band: developing
   composite: 44.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.7
@@ -160,7 +160,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 45.6
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -171,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -60,16 +60,13 @@ apis:
   name: Topograph Workspaces API
   slug: topograph-workspaces-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Start monitoring a company, review its change logs, then stop monitoring.
   name: Monitor a company for register changes
   slug: topograph-monitor-company
 - description: Search for a company, request its data and documents, then poll for the result.
   name: Resolve a company and retrieve KYB data
   slug: topograph-resolve-and-retrieve
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Topograph Monitoring Webhooks
@@ -234,7 +231,7 @@ overview: 'Topograph publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 52
+random_paper: 20
 scopes:
 - name: Topograph Scopes
   scope_count: 7
@@ -243,7 +240,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.5
@@ -251,7 +248,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 58.2
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,7 +260,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

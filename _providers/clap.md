@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'CLAP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CLAP''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 56
 score:
   band: emerging
   composite: 15.2
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clap/refs/heads/main/screenshots/clap-2026-07-25T205458.png
 security:

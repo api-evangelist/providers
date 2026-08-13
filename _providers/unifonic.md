@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -238,11 +238,11 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 27 more developer resources.'
-random_paper: 47
+random_paper: 19
 score:
   band: strong
   composite: 57.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.1
@@ -250,7 +250,7 @@ score:
     discoverability: 92.6
     governance: 8.3
     operational_transparency: 39.5
-  previous_composite: 57.9
+  previous_composite: 57.0
   provenance:
     conformance: derived
     contracts:
@@ -267,7 +267,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

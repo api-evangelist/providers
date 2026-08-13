@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -83,11 +83,11 @@ overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
-random_paper: 15
+random_paper: 107
 score:
   band: emerging
   composite: 15.3
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -95,9 +95,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.7
+  previous_composite: 15.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/heads/main/screenshots/jobadder-2026-06-20T183744.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,11 +95,11 @@ overview: 'AgentIQ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AgentIQ''s developer surface includes documentation, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 49
+random_paper: 25
 score:
   band: emerging
   composite: 21.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 22.3
+  previous_composite: 21.3
   provenance:
     conformance: first-party
   regulatory:
@@ -117,7 +117,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentiq/refs/heads/main/screenshots/agentiq-2026-07-25T195233.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 88
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits
@@ -267,7 +267,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 70.1
@@ -275,7 +275,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +284,8 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
 security:
 - kind: authentication

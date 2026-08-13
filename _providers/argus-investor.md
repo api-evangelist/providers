@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Argus Research API provides programmatic access to equity research reports, stock ratings, analyst recommendations, earnings estimates, target prices, and sector analysis. Used by institutional cl
@@ -110,7 +110,7 @@ plans:
 - name: Argus Investor Plans Pricing
   plan_count: 3
   slug: argus-investor-plans-pricing
-random_paper: 89
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Argus Investor Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -126,10 +126,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.7
+  previous_composite: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-investor/refs/heads/main/screenshots/argus-investor-2026-06-20T172426.png
 security:
 - kind: domain-security

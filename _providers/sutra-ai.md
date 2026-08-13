@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Sutra Ai Plans Pricing
   plan_count: 3
   slug: sutra-ai-plans-pricing
-random_paper: 110
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Sutra Ai Rate Limits
@@ -135,7 +135,7 @@ rules:
 score:
   band: developing
   composite: 46.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 71.6
@@ -143,7 +143,7 @@ score:
     discoverability: 68.5
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 47.1
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

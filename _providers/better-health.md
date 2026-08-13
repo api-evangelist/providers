@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,11 +99,11 @@ overview: 'Better Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Better Health''s developer surface includes engineering blog, support, getting-started guide, signup flow, and 10 more developer resources.'
-random_paper: 45
+random_paper: 1
 score:
   band: emerging
   composite: 16.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
@@ -119,7 +119,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-health/refs/heads/main/screenshots/better-health-2026-08-07T162333.png
 security:

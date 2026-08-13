@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: TSMC
 nav: Providers
 network: true
 overview: TSMC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Technology, and Manufacturing.
-random_paper: 91
+random_paper: 79
 score:
   band: minimal
   composite: 3.5
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsmc/refs/heads/main/screenshots/tsmc-2026-06-20T195815.png
 security:

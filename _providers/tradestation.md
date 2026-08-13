@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Tradestation Plans Pricing
   plan_count: 3
   slug: tradestation-plans-pricing
-random_paper: 22
+random_paper: 98
 rate_limits:
 - limit_count: 5
   name: Tradestation Rate Limits
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 46.6
-  delta: -6.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 77.8
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 53.1
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -227,8 +227,8 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Tradestation Authentication

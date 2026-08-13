@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Cryptocurrency Trading Platform
@@ -70,7 +70,7 @@ overview: 'KuCoin publishes 1 API on the [APIs.io](https://apis.io/) network: Ku
 
 
   KuCoin''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 69
+random_paper: 49
 rules:
 - name: KuCoin API Rules
   rule_count: 5
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kucoin/refs/heads/main/screenshots/kucoin-2026-06-20T184213.png
 security:

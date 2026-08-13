@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
@@ -154,11 +154,11 @@ overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 14 more developer resources.'
-random_paper: 73
+random_paper: 33
 score:
   band: developing
   composite: 48.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.5
@@ -166,7 +166,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

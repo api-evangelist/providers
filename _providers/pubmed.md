@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Entrez Eutils
   plan_count: 2
   slug: entrez-eutils
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Entrez Eutils
@@ -156,7 +156,7 @@ rules:
 score:
   band: thin
   composite: 35.7
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.7
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 38.8
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -179,7 +179,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/screenshots/pubmed-2026-06-20T192246.png
 security:

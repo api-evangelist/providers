@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -139,11 +139,11 @@ overview: 'Follow Up Boss publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Follow Up Boss'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 25
+random_paper: 97
 score:
   band: thin
   composite: 33.9
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 52.2
@@ -151,7 +151,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.0
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -212,11 +212,11 @@ overview: 'CyCognito publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CyCognito''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 47
+random_paper: 15
 score:
   band: developing
   composite: 48.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.0
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 48.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/screenshots/cycognito-2026-07-25T211040.png
 security:

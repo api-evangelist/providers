@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'Bankwest publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bankwest''s developer surface includes authentication, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 51
+random_paper: 23
 scopes:
 - name: Bankwest Scopes
   scope_count: 5
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 39.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 41.2
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,7 +200,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,16 +49,13 @@ apis:
   name: Element5 Object Store API
   slug: element5-object-store-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Upload a supporting file object, submit a prior-authorization request, then poll status.
   name: Element5 — Upload document and submit authorization
   slug: element5-submit-authorization
 - description: Submit an eligibility request and poll until the task succeeds or fails.
   name: Element5 — Verify eligibility and await result
   slug: element5-verify-eligibility
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Element5 Webhooks
@@ -179,11 +176,11 @@ overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 19 more developer resources.'
-random_paper: 103
+random_paper: 79
 score:
   band: developing
   composite: 43.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 72.1
@@ -191,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 44.5
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,7 +206,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

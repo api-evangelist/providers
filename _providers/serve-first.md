@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ overview: 'Serve First is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Serve First''s developer surface includes engineering blog, product news, support, and 11 more developer resources.'
-random_paper: 102
+random_paper: 66
 score:
   band: emerging
   composite: 14.9
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

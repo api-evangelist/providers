@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Insomnia Plans Pricing
   plan_count: 3
   slug: insomnia-plans-pricing
-random_paper: 50
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Insomnia Rate Limits
@@ -160,7 +160,7 @@ rules:
 score:
   band: developing
   composite: 45.4
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 71.6
@@ -168,7 +168,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 53.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png
 security:
 - kind: authentication

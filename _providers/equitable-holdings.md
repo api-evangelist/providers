@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Equitable Holdings
 nav: Providers
 network: true
 overview: Equitable Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 1
+random_paper: 57
 score:
   band: minimal
   composite: 3.3
@@ -62,7 +62,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equitable-holdings/refs/heads/main/screenshots/equitable-holdings-2026-06-20T180821.png
 slug: equitable-holdings

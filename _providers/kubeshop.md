@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -314,7 +314,7 @@ overview: 'Kubeshop publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Kubeshop Rate Limits
@@ -327,7 +327,7 @@ scopes:
 score:
   band: developing
   composite: 55.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.6
@@ -335,7 +335,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 56.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,7 +347,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

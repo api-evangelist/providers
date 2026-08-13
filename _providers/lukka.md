@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -448,7 +448,7 @@ overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 72
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Lukka Rate Limits
@@ -461,7 +461,7 @@ scopes:
 score:
   band: strong
   composite: 61.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.5
@@ -469,7 +469,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 62.1
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -487,7 +487,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:

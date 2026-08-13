@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Employee Navigator OpenID Connect / OAuth 2.0 authorization server that fronts every Employee Navigator API service. Its discovery document is served anonymously and advertises authorization code,
@@ -102,7 +102,7 @@ overview: 'Employee Navigator publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Employee Navigator''s developer surface includes engineering blog, pricing, support, authentication, and 11 more developer resources.'
-random_paper: 95
+random_paper: 35
 scopes:
 - name: Employeenavigator Scopes
   scope_count: 66
@@ -111,7 +111,7 @@ scopes:
 score:
   band: thin
   composite: 29.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 29.0
   provenance:
     conformance: first-party
   regulatory:
@@ -129,7 +129,7 @@ score:
     regime_id: insurance
     score: 65.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/employeenavigator/refs/heads/main/screenshots/employeenavigator-2026-08-07T164835.png
 security:

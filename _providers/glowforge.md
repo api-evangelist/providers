@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Glowforge is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glowforge''s developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 44
+random_paper: 12
 score:
   band: emerging
   composite: 18.0
@@ -109,7 +109,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glowforge/refs/heads/main/screenshots/glowforge-2026-07-25T215931.png
 security:

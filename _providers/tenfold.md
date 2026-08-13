@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Call analytics, transcripts, keywords, and reports
@@ -124,11 +124,11 @@ overview: 'Tenfold publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tenfold''s developer surface includes API reference, documentation, authentication, and 8 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: thin
   composite: 34.0
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 58.6
@@ -136,7 +136,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 31.5
+  previous_composite: 34.0
   provenance:
     conformance: derived
     contracts:
@@ -147,7 +147,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

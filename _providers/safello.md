@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -60,16 +60,13 @@ apis:
   name: Safello wallet API
   slug: safello-wallet-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Verify buy compliance, quote fees, create a buy order, and poll it to completion.
   name: Safello — buy cryptocurrency
   slug: safello-buy-crypto
 - description: BankID auth, email verification, terms acceptance, and KYC to reach a trade-ready customer.
   name: Safello — onboard a customer with BankID
   slug: safello-onboard-customer
-artifact_total: 16
+artifact_total: 15
 common:
 - group: other
   title: ''
@@ -211,7 +208,7 @@ overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 46
+random_paper: 22
 scopes:
 - name: Safello Scopes
   scope_count: 8
@@ -220,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.8
@@ -228,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 52.1
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,7 +243,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

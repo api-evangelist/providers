@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The Auth API from Wayflyer — 2 operation(s) for auth.
@@ -209,11 +209,11 @@ overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wayflyer''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 24 more developer resources.'
-random_paper: 71
+random_paper: 43
 score:
   band: developing
   composite: 52.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 58.4
@@ -221,7 +221,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 52.9
+  previous_composite: 52.3
   provenance:
     conformance: derived
     contracts:
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

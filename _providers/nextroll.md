@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: The core REST service behind the AdRoll and AdRoll ABM dashboards. Create and manage organizations, advertisables, campaigns, ad groups, ads, pixels, rules, segments, product feeds, marketplace deals,
@@ -234,7 +234,7 @@ plans:
 - name: Nextroll Plans
   plan_count: 2
   slug: nextroll-plans
-random_paper: 76
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Nextroll Rate Limits
@@ -261,7 +261,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png
 security:

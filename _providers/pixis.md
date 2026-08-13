@@ -9,12 +9,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 12.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -47,47 +47,121 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/pixisai
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://prism-docs.pixis.ai/
 - group: operate
   title: ''
-  type: StatusPage
-  url: https://status.pixis.ai/
+  type: Support
+  url: https://pixis.ai/contact/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://pixis.ai/prismsignup/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/pixis-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pixis-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pixis-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/pixis-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pixis-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/pixis-trust-center.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pixis-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pixis-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pixis-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pixis-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pixis-llms.txt
 created: '2026-07-17'
-description: Pixis is an AI-powered advertising and marketing platform for consumer brands, built on proprietary codeless AI infrastructure that plans, creates, and optimizes digital advertising across channels. Its products include Prism (campaign performance optimization and cross-channel analytics), Adroom (generative AI creative production for ad assets), and Visibility (AI-search presence tracking and optimization). Pixis connects directly to marketing and ad platforms such as Google, Meta, and Salesforce to automate media buying, creative generation, and performance optimization from one place. The company is backed by SoftBank Vision Fund, with engineering operations in India. Pixis does not publish a public developer API or documentation; it is an enterprise, demo-led SaaS platform.
+description: 'Pixis is an AI-powered advertising and marketing platform for consumer brands, built on proprietary codeless AI infrastructure that plans, creates, and optimizes digital advertising across channels. Its products include Prism (campaign performance optimization and cross-channel analytics), Adroom (generative AI creative production for ad assets), and Visibility (AI-search presence tracking and optimization). Pixis connects directly to marketing and ad platforms such as Google, Meta, and Salesforce to automate media buying, creative generation, and performance optimization from one place. The company is backed by SoftBank Vision Fund, with engineering operations in India. Pixis is an enterprise, demo-led SaaS platform: it publishes end-user product documentation for Prism at prism-docs.pixis.ai but no public developer API, no OpenAPI or other machine-readable API contract, no SDKs, and no pricing. The one machine-readable document it does serve is an OpenID Connect discovery
+  document at auth.pixis.ai for application login.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixis.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Pixis
 nav: Providers
 network: true
 overview: 'Pixis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, Marketing, and Artificial Intelligence.
 
 
-  Pixis'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 93
+  Pixis'' developer surface includes engineering blog, documentation, support, signup flow, authentication, and 13 more developer resources.'
+plans:
+- name: Pixis Plans Pricing
+  plan_count: 0
+  slug: pixis-plans-pricing
+random_paper: 77
+rate_limits:
+- limit_count: 0
+  name: Pixis Rate Limits
+  slug: pixis-rate-limits
+scopes:
+- name: Pixis Scopes
+  scope_count: 0
+  slug: pixis-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 10.3
-  delta: 0.0
+  band: emerging
+  composite: 19.5
+  delta: 9.2
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 21.1
+    developer_ergonomics: 26.1
+    discoverability: 57.4
+    governance: 12.5
+    operational_transparency: 5.3
   previous_composite: 10.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Pixis Authentication
+  slug: pixis-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Pixis Domain Security
   slug: pixis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Pixis Vulnerability Disclosure
+  slug: pixis-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Pixis Trust Center
+  slug: pixis-trust-center
+  summary_line: SOC 2, ISO
 slug: pixis
 tags:
 - Company

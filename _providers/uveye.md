@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 94
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
@@ -218,7 +218,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 74.3
@@ -226,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 62.3
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

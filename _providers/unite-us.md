@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,11 +111,11 @@ overview: 'Unite Us is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Unite Us'' developer surface includes documentation, changelog, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 14
+random_paper: 106
 score:
   band: emerging
   composite: 23.5
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 27.1
+  previous_composite: 23.5
   provenance:
     conformance: first-party
   regulatory:
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

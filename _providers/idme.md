@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -179,7 +179,7 @@ overview: 'ID.me publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   ID.me''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
-random_paper: 67
+random_paper: 55
 scopes:
 - name: Idme Scopes
   scope_count: 11
@@ -207,7 +207,7 @@ score:
     regime_id: government
     score: 70.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

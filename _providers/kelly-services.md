@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Kelly Services outlines mid-single-digit revenue decline for ...
   url: https://seekingalpha.com/news/4551293-kelly-services-outlines-mid-single-digit-revenue-decline-for-2026-as-technology-modernization
-random_paper: 66
+random_paper: 18
 score:
   band: minimal
   composite: 5.0
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelly-services/refs/heads/main/screenshots/kelly-services-2026-07-25T223601.png
 security:

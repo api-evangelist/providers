@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 7
@@ -414,7 +414,7 @@ plans:
 - name: Infisical Plans Pricing
   plan_count: 4
   slug: infisical-plans-pricing
-random_paper: 18
+random_paper: 106
 rate_limits:
 - limit_count: 0
   name: Infisical Rate Limits
@@ -431,7 +431,7 @@ rules:
 score:
   band: developing
   composite: 45.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.8
@@ -439,7 +439,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 46.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -448,7 +448,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/screenshots/infisical-2026-06-20T183331.png
 security:

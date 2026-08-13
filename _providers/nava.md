@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Nava is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nava''s developer surface includes engineering blog, getting-started guide, and 4 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: emerging
   composite: 13.2
@@ -87,7 +87,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nava/refs/heads/main/screenshots/nava-2026-08-07T184715.png
 security:

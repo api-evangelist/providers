@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -36,13 +36,10 @@ apis:
   name: FERC eForms XBRL Submission API
   slug: ferc-eforms-xbrl-submission-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The full happy path against the FERC Open Data API: list the catalog, resolve a dataset ID from the nested data-sets array, read its metadata and record count, fetch the column dictionary so the rows '
   name: FERC open data — discover a dataset and retrieve it
   slug: ferc-dataset-discovery-and-retrieval
-artifact_total: 9
+artifact_total: 8
 common:
 - group: docs
   title: ''
@@ -225,7 +222,7 @@ overview: 'FERC publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ope
 
 
   FERC''s developer surface includes authentication, code examples, changelog, sandbox, developer console, developer portal, documentation, and 35 more developer resources.'
-random_paper: 68
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Ferc Rate Limits
@@ -233,7 +230,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.7
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 33.9
@@ -241,7 +238,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 46.6
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +256,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png
 security:

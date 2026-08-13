@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: 'The institutional REST APIs on the Morgan Stanley API Platform let onboarded clients and third-party partners integrate Morgan Stanley data and services directly into their own systems and processes. '
@@ -172,7 +172,7 @@ press:
 - date: '2026-05-25'
   title: Research
   url: https://www.morganstanley.com/what-we-do/research
-random_paper: 65
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Morgan Stanley Rate Limits
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.1
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -188,7 +188,7 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 34.6
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -198,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/screenshots/morgan-stanley-2026-06-20T185816.png
 security:

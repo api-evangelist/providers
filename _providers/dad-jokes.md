@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Dad Jokes Plans Pricing
   plan_count: 1
   slug: dad-jokes-plans-pricing
-random_paper: 70
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Dad Jokes Rate Limits
@@ -153,7 +153,7 @@ rules:
 score:
   band: thin
   composite: 37.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
@@ -161,7 +161,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 38.1
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/screenshots/dad-jokes-2026-06-20T175419.png
 security:

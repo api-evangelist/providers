@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 84
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 56.0
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 63.2
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

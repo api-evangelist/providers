@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -382,7 +382,7 @@ overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/)
 
 
   Deutsche Telekom''s developer surface includes authentication, YouTube channel, documentation, getting-started guide, engineering blog, and 30 more developer resources.'
-random_paper: 27
+random_paper: 91
 scopes:
 - name: Deutsche Telekom Scopes
   scope_count: 13
@@ -391,7 +391,7 @@ scopes:
 score:
   band: thin
   composite: 32.4
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 50.5
@@ -399,7 +399,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -414,7 +414,7 @@ score:
     regime_id: telecommunications
     score: 48.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png
 security:

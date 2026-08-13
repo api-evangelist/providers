@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses-style requests and the model catalog, authenticated with a bearer API key in the Authorization header. Three endpoints are documented (P
@@ -150,7 +150,7 @@ plans:
 - name: Weaveapi Plans Pricing
   plan_count: 2
   slug: weaveapi-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Weaveapi Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.3
-  delta: 26.0
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 0.0
@@ -166,10 +166,10 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 32.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Weaveapi Authentication

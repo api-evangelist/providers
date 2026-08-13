@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Coalesce Plans Pricing
   plan_count: 3
   slug: coalesce-plans-pricing
-random_paper: 19
+random_paper: 111
 rate_limits:
 - limit_count: 0
   name: Coalesce Rate Limits
@@ -188,7 +188,7 @@ rules:
 score:
   band: developing
   composite: 49.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.2
@@ -196,7 +196,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 50.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/screenshots/coalesce-2026-06-20T174640.png
 security:

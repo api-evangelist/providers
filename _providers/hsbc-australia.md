@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,13 +63,10 @@ apis:
   name: HSBC Bank Australia Banking Products API
   slug: hsbc-australia-banking-products-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Browse the HSBC Bank Australia public Consumer Data Right Product Reference Data catalog, then fetch the full detail of the first product returned. Both operations are public and unauthenticated on th
   name: HSBC Australia CDR - Browse Products
   slug: hsbc-australia-browse-products
-artifact_total: 15
+artifact_total: 14
 common:
 - group: other
   title: ''
@@ -188,7 +185,7 @@ overview: 'HSBC Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 35
+random_paper: 107
 scopes:
 - name: Hsbc Australia Scopes
   scope_count: 10
@@ -197,7 +194,7 @@ scopes:
 score:
   band: thin
   composite: 40.3
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -205,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 44.4
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

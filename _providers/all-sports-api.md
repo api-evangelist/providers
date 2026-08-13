@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'The All Sports Football (Soccer) API provides real-time and historical football data including livescores, fixtures, standings, team information, player statistics, and league data for major football '
@@ -95,11 +95,11 @@ overview: 'All Sports API publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   All Sports API''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 8
+random_paper: 80
 score:
   band: emerging
   composite: 15.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -107,11 +107,11 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 15.0
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/screenshots/all-sports-api-2026-07-25T195637.png
 security:

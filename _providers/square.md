@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -818,7 +818,7 @@ plans:
 - name: Square Plans Pricing
   plan_count: 4
   slug: square-plans-pricing
-random_paper: 77
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Square Rate Limits
@@ -856,7 +856,7 @@ scopes:
 score:
   band: exemplar
   composite: 69.3
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 73.8
@@ -864,7 +864,7 @@ score:
     discoverability: 57.4
     governance: 52.1
     operational_transparency: 60.5
-  previous_composite: 72.7
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     contracts:
@@ -879,7 +879,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:

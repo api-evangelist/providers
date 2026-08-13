@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Mason publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mason''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 78
+random_paper: 62
 scopes:
 - name: Mason Scopes
   scope_count: 0
@@ -217,7 +217,7 @@ scopes:
 score:
   band: developing
   composite: 50.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.2
@@ -225,7 +225,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 51.7
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:

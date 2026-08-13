@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Thecocktaildb Plans Pricing
   plan_count: 2
   slug: thecocktaildb-plans-pricing
-random_paper: 85
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Thecocktaildb Rate Limits
@@ -203,7 +203,7 @@ rules:
 score:
   band: thin
   composite: 32.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 20.0
@@ -211,7 +211,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 32.1
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +226,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/screenshots/thecocktaildb-2026-06-20T195244.png
 security:

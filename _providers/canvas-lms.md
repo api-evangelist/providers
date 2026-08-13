@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -612,7 +612,7 @@ plans:
 - name: Canvas Lms Plans Pricing
   plan_count: 6
   slug: canvas-lms-plans-pricing
-random_paper: 85
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Canvas Lms Rate Limits
@@ -634,7 +634,7 @@ scopes:
 score:
   band: exemplar
   composite: 74.6
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 75.0
@@ -642,7 +642,7 @@ score:
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 71.7
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -653,7 +653,7 @@ score:
       total: 11
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -594,7 +594,7 @@ overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits
@@ -607,7 +607,7 @@ scopes:
 score:
   band: strong
   composite: 65.4
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.2
@@ -615,7 +615,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 72.4
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -633,8 +633,8 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:
 - kind: authentication

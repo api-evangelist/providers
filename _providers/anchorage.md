@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -123,16 +123,13 @@ apis:
   name: Anchorage Digital Webhook Notifications API
   slug: anchorage-webhook-notifications-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a wallet in a vault, provision a deposit address, and watch for the inbound deposit.
   name: Anchorage Digital - Receive a crypto deposit
   slug: anchorage-receive-deposit
 - description: Request a quote, accept it, and confirm the resulting order and trade.
   name: Anchorage Digital - Trade via RFQ
   slug: anchorage-trade-rfq
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Anchorage Webhooks
@@ -289,7 +286,7 @@ overview: 'Anchorage Digital publishes 28 APIs on the [APIs.io](https://apis.io/
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 26 more developer resources.'
-random_paper: 8
+random_paper: 96
 rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
@@ -297,7 +294,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 70.4
@@ -305,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 56.0
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,7 +320,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:

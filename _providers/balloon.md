@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ overview: 'Balloon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Balloon''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: emerging
   composite: 17.1
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balloon/refs/heads/main/screenshots/balloon-2026-07-25T202312.png
 security:

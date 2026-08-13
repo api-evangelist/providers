@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -201,11 +201,11 @@ overview: 'Nixtla publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nixtla''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 76
+random_paper: 56
 score:
   band: developing
   composite: 55.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.1
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 56.9
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,7 +225,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/screenshots/nixtla-2026-08-07T185350.png
 security:

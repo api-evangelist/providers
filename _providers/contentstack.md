@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -599,7 +599,7 @@ plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
   slug: contentstack-plans-pricing
-random_paper: 21
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Contentstack Rate Limits
@@ -632,7 +632,7 @@ rules:
 score:
   band: thin
   composite: 39.2
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 77.4
@@ -640,7 +640,7 @@ score:
     discoverability: 50.0
     governance: 52.1
     operational_transparency: 13.2
-  previous_composite: 47.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -649,8 +649,8 @@ score:
       marker_coverage: 0.0
       total: 43
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:
 - kind: authentication

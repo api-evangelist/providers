@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -742,7 +742,7 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
 
 
   Amazon Application Discovery Service''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 94
+random_paper: 90
 rules:
 - name: Amazon Application Discovery Service API Rules
   rule_count: 5
@@ -763,7 +763,7 @@ rules:
 score:
   band: emerging
   composite: 27.3
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 32.1
@@ -771,7 +771,7 @@ score:
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -782,7 +782,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:

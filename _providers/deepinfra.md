@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Deepinfra Plans Pricing
   plan_count: 1
   slug: deepinfra-plans-pricing
-random_paper: 14
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Deepinfra Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.0
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 49.3
@@ -150,7 +150,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.9
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/screenshots/deepinfra-2026-06-20T175818.png
 security:

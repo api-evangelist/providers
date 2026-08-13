@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 1
@@ -291,7 +291,7 @@ overview: 'Calyptia publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Calyptia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 21 more developer resources.'
-random_paper: 43
+random_paper: 15
 scopes:
 - name: Calyptia Scopes
   scope_count: 6
@@ -300,7 +300,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 49.1
@@ -308,7 +308,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 45.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/screenshots/calyptia-2026-07-25T204254.png
 security:

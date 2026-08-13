@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
-random_paper: 2
+random_paper: 78
 scopes:
 - name: C Hoare And Co Scopes
   scope_count: 2
@@ -179,7 +179,7 @@ scopes:
 score:
   band: thin
   composite: 41.3
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 46.8
@@ -187,7 +187,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

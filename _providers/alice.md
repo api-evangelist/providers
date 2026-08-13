@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -176,11 +176,11 @@ overview: 'Alice publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Alice''s developer surface includes documentation, API reference, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: developing
   composite: 43.7
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 72.5
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 45.5
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/screenshots/alice-2026-07-25T195611.png
 security:

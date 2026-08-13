@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 14
 common:
@@ -139,11 +139,11 @@ overview: 'Nutrisystem (Wellina by Nutrisystem) is profiled on the [APIs.io](htt
 
 
   Nutrisystem (Wellina by Nutrisystem)''s developer surface includes FAQ and 14 more developer resources.'
-random_paper: 79
+random_paper: 39
 score:
   band: minimal
   composite: 11.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 12.9
@@ -151,7 +151,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.6
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
@@ -159,7 +159,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrisystem/refs/heads/main/screenshots/nutrisystem-2026-06-20T190532.png
 security:

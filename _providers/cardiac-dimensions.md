@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,11 +54,11 @@ name: Cardiac Dimensions
 nav: Providers
 network: true
 overview: Cardiac Dimensions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Cardiology, Heart Failure, and Structural Heart.
-random_paper: 97
+random_paper: 37
 score:
   band: minimal
   composite: 5.1
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -66,7 +66,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.6
+  previous_composite: 5.1
   regulatory:
     applies: true
     matched_via: tags
@@ -74,7 +74,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

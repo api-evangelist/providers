@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ plans:
 - name: Puzzle Plans Pricing
   plan_count: 4
   slug: puzzle-plans-pricing
-random_paper: 102
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Puzzle Rate Limits
@@ -300,7 +300,7 @@ scopes:
 score:
   band: strong
   composite: 63.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 50.1
@@ -308,7 +308,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 63.9
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,7 +320,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

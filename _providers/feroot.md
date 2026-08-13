@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,11 +95,11 @@ overview: 'Feroot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Feroot''s developer surface includes pricing, engineering blog, and 11 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: emerging
   composite: 24.2
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 21.8
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -117,7 +117,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/screenshots/feroot-2026-07-25T214344.png
 security:

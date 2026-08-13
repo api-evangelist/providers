@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
@@ -128,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Cencora
   url: https://emerj.com/artificial-intelligence-at-cencora/
-random_paper: 70
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Amerisourcebergen Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.5
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/screenshots/amerisourcebergen-2026-06-20T171929.png
 security:

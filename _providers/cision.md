@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for CisionOne that allows connection of media monitoring data with internal tools and BI platforms. Provides access to mention streams, aggregated analytics, and media coverage data. Response
@@ -116,7 +116,7 @@ plans:
 - name: Cision Plans Pricing
   plan_count: 5
   slug: cision-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 34.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:

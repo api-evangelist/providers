@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -164,11 +164,11 @@ overview: 'Contalink publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Contalink''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: thin
   composite: 41.2
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 52.2
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 42.1
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:

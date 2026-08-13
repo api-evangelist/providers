@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: Get
 
 
   Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 75
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Getir Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: developing
   composite: 46.5
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 48.5
@@ -178,7 +178,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 46.3
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,7 +190,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:

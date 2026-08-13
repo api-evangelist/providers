@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Jebbit publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Jebbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 44
+random_paper: 24
 scopes:
 - name: Jebbit Scopes
   scope_count: 6
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.7
@@ -243,7 +243,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 53.4
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:

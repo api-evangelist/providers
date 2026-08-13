@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -213,11 +213,11 @@ overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Da
 
 
   Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: strong
   composite: 58.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.5
@@ -225,7 +225,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 59.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,7 +243,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:

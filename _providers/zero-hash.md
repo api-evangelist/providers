@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 31
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -300,7 +300,7 @@ overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 101
+random_paper: 73
 scopes:
 - name: Zero Hash Scopes
   scope_count: 4
@@ -309,7 +309,7 @@ scopes:
 score:
   band: strong
   composite: 61.4
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.4
@@ -317,7 +317,7 @@ score:
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 60.3
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -334,7 +334,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

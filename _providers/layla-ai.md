@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'White-label AI travel agent that travel companies can embed on their own site, customized with brand voice, colors, and inventory. Marketed as a low-code / no-code deployment with commission share on '
@@ -104,7 +104,7 @@ plans:
 - name: Layla Ai Plans Pricing
   plan_count: 1
   slug: layla-ai-plans-pricing
-random_paper: 82
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Layla Ai Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -120,9 +120,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 15.8
+  previous_composite: 16.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layla-ai/refs/heads/main/screenshots/layla-ai-2026-06-20T184413.png
 security:

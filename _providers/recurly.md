@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Full REST API for managing accounts, subscriptions, plans, add-ons, coupons, invoices, line items, transactions, shipping, tax, and webhooks across a Recurly site. Authentication is HTTP Basic with a '
@@ -115,11 +115,11 @@ overview: 'Recurly publishes 1 API on the [APIs.io](https://apis.io/) network: v
 
 
   Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 78
+random_paper: 54
 score:
   band: thin
   composite: 34.2
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 32.3
@@ -127,7 +127,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.9
+  previous_composite: 34.2
   regulatory:
     applies: true
     matched_via: tags
@@ -135,8 +135,8 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/screenshots/recurly-2026-06-20T192713.png
 security:
 - kind: domain-security

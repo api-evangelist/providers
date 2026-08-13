@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'Enterprise REST API for the Red Hat Ansible Automation Controller providing centralized management of automation jobs, workflows, inventories, credentials, and RBAC with enterprise authentication and '
@@ -155,7 +155,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.6
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -163,10 +163,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 35.4
+  previous_composite: 27.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'MYR is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   MYR''s developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 112
+random_paper: 104
 score:
   band: emerging
   composite: 16.2
@@ -95,7 +95,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myr/refs/heads/main/screenshots/myr-2026-08-07T184536.png
 security:

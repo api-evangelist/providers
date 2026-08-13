@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ plans:
 - name: Apidog Plans Pricing
   plan_count: 4
   slug: apidog-plans-pricing
-random_paper: 48
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Apidog Rate Limits
@@ -347,7 +347,7 @@ rules:
 score:
   band: strong
   composite: 63.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 76.9
@@ -355,7 +355,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 60.5
-  previous_composite: 71.0
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -364,8 +364,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:
 - kind: authentication

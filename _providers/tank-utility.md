@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Exchange account credentials for a short-lived API token.
@@ -38,13 +38,10 @@ apis:
   name: Tank Utility Devices API
   slug: tank-utility-devices-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate to the Tank Utility API, list the propane monitors on the account, and read the latest reading (fuel level %, temperature) for the first device.
   name: Tank Utility — read propane tank level
   slug: tank-utility-read-tank-level
-artifact_total: 7
+artifact_total: 6
 common:
 - group: agent
   title: ''
@@ -142,11 +139,11 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
-random_paper: 103
+random_paper: 63
 score:
   band: thin
   composite: 36.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.2
@@ -154,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 37.3
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
@@ -171,7 +168,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface on the All In Food Shopify storefront: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, Customer Account OIDC, and a canonical agents.md instructi'
@@ -88,7 +88,7 @@ overview: 'All In publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   All In''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 109
+random_paper: 93
 scopes:
 - name: All In Scopes
   scope_count: 0
@@ -97,7 +97,7 @@ scopes:
 score:
   band: emerging
   composite: 15.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -105,13 +105,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 15.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/all-in/refs/heads/main/screenshots/all-in-2026-08-07T161209.png
 security:

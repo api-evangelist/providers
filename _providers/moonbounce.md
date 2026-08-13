@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -195,11 +195,11 @@ overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Moonbounce''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 33
+random_paper: 117
 score:
   band: developing
   composite: 48.8
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 65.7
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.3
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,7 +225,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/screenshots/moonbounce-2026-08-07T184233.png
 security:

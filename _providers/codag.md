@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -246,11 +246,11 @@ overview: 'Codag publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Codag''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: developing
   composite: 51.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 45.4
@@ -258,7 +258,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 51.9
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,7 +270,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/screenshots/codag-2026-07-25T205856.png
 security:

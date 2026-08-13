@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-13'
   title: BoatClass Expands to More Than 40 Locations Across North America for the 2026 Boating Season
   url: https://www.brunswick.com/news/press-releases/detail/987/boatclass-expands-to-more-than-40-locations-across-north
-random_paper: 56
+random_paper: 24
 score:
   band: minimal
   composite: 9.7
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brunswick/refs/heads/main/screenshots/brunswick-2026-06-20T173730.png
 security:

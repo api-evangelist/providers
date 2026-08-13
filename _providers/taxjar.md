@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Taxjar Plans Pricing
   plan_count: 2
   slug: taxjar-plans-pricing
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Taxjar Rate Limits
@@ -246,7 +246,7 @@ rules:
 score:
   band: strong
   composite: 60.0
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 77.4
@@ -254,7 +254,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 58.1
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png
 security:

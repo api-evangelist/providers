@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -465,7 +465,7 @@ plans:
 - name: Rapidapi Plans Pricing
   plan_count: 1
   slug: rapidapi-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Rapidapi Rate Limits
@@ -490,7 +490,7 @@ rules:
 score:
   band: developing
   composite: 51.8
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 76.1
@@ -498,7 +498,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 54.3
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -507,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/screenshots/rapidapi-2026-06-20T192601.png
 security:

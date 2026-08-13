@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Duo Security Plans Pricing
   plan_count: 3
   slug: duo-security-plans-pricing
-random_paper: 101
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Duo Security Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.5
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.5
@@ -142,7 +142,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 38.8
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -151,8 +151,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/screenshots/duo-security-2026-06-20T180323.png
 security:
 - kind: authentication

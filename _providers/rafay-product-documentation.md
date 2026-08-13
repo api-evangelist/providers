@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Rafay product documentation hub covering Kubernetes Operations Platform, MLOps, GPU PaaS, AI workloads, Token Factory, and ecosystem integrations.
@@ -80,7 +80,7 @@ plans:
 - name: Rafay Product Documentation Plans Pricing
   plan_count: 3
   slug: rafay-product-documentation-plans-pricing
-random_paper: 8
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Rafay Product Documentation Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.0
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -96,9 +96,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.4
+  previous_composite: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rafay-product-documentation/refs/heads/main/screenshots/rafay-product-documentation-2026-06-20T192528.png
 security:

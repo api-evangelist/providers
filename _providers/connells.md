@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
-random_paper: 50
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -227,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 25.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,7 +245,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

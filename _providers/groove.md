@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Groove publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Groove''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 78
+random_paper: 58
 rules:
 - name: Groove API Rules
   rule_count: 8
@@ -160,7 +160,7 @@ rules:
 score:
   band: thin
   composite: 38.9
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 60.1
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 36.8
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/screenshots/groove-2026-06-20T182412.png
 security:

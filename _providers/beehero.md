@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'BeeHero publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BeeHero''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
-random_paper: 34
+random_paper: 10
 score:
   band: developing
   composite: 42.0
@@ -175,7 +175,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:

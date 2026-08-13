@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -145,11 +145,11 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Outpost''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 102
+random_paper: 78
 score:
   band: thin
   composite: 38.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -157,7 +157,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 38.9
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -168,7 +168,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/screenshots/outpost-2026-08-07T191059.png
 security:

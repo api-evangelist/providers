@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -631,7 +631,7 @@ plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
   slug: microsoft-exchange-plans-pricing
-random_paper: 6
+random_paper: 62
 rate_limits:
 - limit_count: 7
   name: Microsoft Exchange Rate Limits
@@ -653,7 +653,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.7
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.5
@@ -661,7 +661,7 @@ score:
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 44.7
-  previous_composite: 75.2
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -672,8 +672,8 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication

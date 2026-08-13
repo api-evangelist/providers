@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -2435,7 +2435,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.0
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 81.7
@@ -2443,7 +2443,7 @@ score:
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 42.1
-  previous_composite: 70.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2454,7 +2454,7 @@ score:
       total: 46
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

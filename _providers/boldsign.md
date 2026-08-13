@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -179,7 +179,7 @@ plans:
 - name: Boldsign Plans Pricing
   plan_count: 6
   slug: boldsign-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Boldsign Rate Limits
@@ -196,7 +196,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.4
@@ -204,7 +204,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png
 security:

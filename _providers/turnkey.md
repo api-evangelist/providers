@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Turnkey Plans Pricing
   plan_count: 4
   slug: turnkey-plans-pricing
-random_paper: 90
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Turnkey Rate Limits
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.0
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.2
@@ -140,7 +140,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.1
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -155,7 +155,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/screenshots/turnkey-2026-06-20T195835.png
 security:

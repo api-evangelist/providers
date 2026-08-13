@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Search live routes, schedules, capacity, availability and rates across CargoAi's airline network from a single POST /search call, returning quotable flight options with rate types, transit times and C
@@ -116,11 +116,11 @@ overview: 'CargoAi publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   CargoAi''s developer surface includes documentation, API reference, changelog, engineering blog, developer portal, signup flow, and 8 more developer resources.'
-random_paper: 30
+random_paper: 6
 score:
   band: emerging
   composite: 22.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 14.6
@@ -128,7 +128,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.6
+  previous_composite: 22.4
   provenance:
     contracts:
       callable: 100.0
@@ -136,7 +136,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png
 slug: cargoai

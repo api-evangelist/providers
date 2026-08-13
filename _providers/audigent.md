@@ -13,12 +13,12 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-11'
+  score: 12.2
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Public, anonymous identity-resolution endpoint that returns Audigent's cookieless Hadron ID (plus hadronIdv2 and the legacy haloId) for the calling browser. Called by the Prebid.js hadronIdSystem user
@@ -33,7 +33,7 @@ apis:
 - description: Authenticated platform API behind the Audigent admin console. The host is live (gunicorn/Django) but every anonymous request 302s to the admin.audigent.com login, and no public reference, OpenAPI or d
   name: Audigent Platform API
   slug: audigent-platform-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: operate
   title: ''
@@ -131,6 +131,18 @@ common:
   title: ''
   type: DomainSecurity
   url: security/audigent-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/audigent-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/audigent-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/audigent-rate-limits.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -143,19 +155,27 @@ created: '2026-08-06'
 description: 'Audigent is a data activation, curation and identity platform for digital advertising, acquired by Experian in December 2024 and now operated as part of Experian Marketing Services. Its products include the Hadron ID cookieless identifier, the SmartPMP, ContextualPMP and CognitivePMP private-marketplace suites, a first-party data platform for publishers and advertisers, and the 1st Unit rich-media format. Audigent''s public technical surface is not a documented REST developer program: it is a set of live ad-tech identity, segment and analytics endpoints on the ad.gt and hadronid.net domains, reached through first-party open-source Prebid.js modules (hadronIdSystem, hadronRtdProvider, hadronAnalyticsAdapter) that Audigent authors and maintains upstream in the Prebid.js project. Audigent is IAB Europe TCF Global Vendor List vendor 561 and publishes a machine-readable device-storage disclosure.'
 image: https://avatars.githubusercontent.com/u/16336664?v=4
 layout: provider
-modified: '2026-08-06'
+modified: '2026-08-12'
 name: Audigent
 nav: Providers
 network: true
 overview: 'Audigent publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Data, and Identity.
 
 
-  Audigent''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 37
+  Audigent''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 23 more developer resources.'
+plans:
+- name: Audigent Plans Pricing
+  plan_count: 0
+  slug: audigent-plans-pricing
+random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Audigent Rate Limits
+  slug: audigent-rate-limits
 score:
   band: thin
   composite: 28.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -163,11 +183,11 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 27.5
+  previous_composite: 28.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/screenshots/audigent-2026-08-07T161917.png
 security:

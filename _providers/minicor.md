@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -223,11 +223,11 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: strong
   composite: 57.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.9
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 58.8
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,7 +253,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
 security:

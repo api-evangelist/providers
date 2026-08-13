@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'Statuspage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Statuspage''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 45
+random_paper: 9
 rules:
 - name: Statuspage API Rules
   rule_count: 6
@@ -152,7 +152,7 @@ rules:
 score:
   band: thin
   composite: 40.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 61.0
@@ -160,7 +160,7 @@ score:
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 40.7
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/screenshots/statuspage-2026-06-20T194529.png
 security:

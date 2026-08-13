@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Cleanup Pictures Plans Pricing
   plan_count: 3
   slug: cleanup-pictures-plans-pricing
-random_paper: 44
+random_paper: 108
 rate_limits:
 - limit_count: 4
   name: Cleanup Pictures Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 62.7
@@ -127,7 +127,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -136,8 +136,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/screenshots/cleanup-pictures-2026-06-20T174452.png
 security:
 - kind: authentication

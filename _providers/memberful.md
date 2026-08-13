@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Query members and their profiles, emails, subscriptions, downloads, and custom JSON metadata (up to 50 keys), and create, update, or delete members through GraphQL mutations. Cursor-based pagination (
@@ -112,7 +112,7 @@ plans:
 - name: Memberful Plans Pricing
   plan_count: 3
   slug: memberful-plans-pricing
-random_paper: 31
+random_paper: 119
 rate_limits:
 - limit_count: 4
   name: Memberful Rate Limits
@@ -136,7 +136,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/screenshots/memberful-2026-08-07T172455.png
 security:

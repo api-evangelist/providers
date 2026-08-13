@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -115,7 +115,7 @@ plans:
 - name: Crawlee Plans Pricing
   plan_count: 3
   slug: crawlee-plans-pricing
-random_paper: 43
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Crawlee Rate Limits
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -131,10 +131,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 23.7
+  previous_composite: 15.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/screenshots/crawlee-2026-06-20T175215.png
 security:
 - kind: domain-security

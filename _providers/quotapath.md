@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 55
+random_paper: 23
 score:
   band: developing
   composite: 43.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.5
@@ -193,7 +193,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.8
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

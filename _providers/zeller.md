@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Connect point-of-sale software directly to Zeller Terminal hardware to initiate and manage in-person card payments. Delivered through the Zeller Payments SDK (React, React Native, Windows .NET, Androi
@@ -129,11 +129,11 @@ overview: 'Zeller publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zeller''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 74
+random_paper: 54
 score:
   band: thin
   composite: 33.4
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -141,7 +141,7 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 35.3
+  previous_composite: 33.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,7 +152,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

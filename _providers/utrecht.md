@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 4
@@ -205,7 +205,7 @@ plans:
 - name: Utrecht Plans Pricing
   plan_count: 2
   slug: utrecht-plans-pricing
-random_paper: 71
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Utrecht Rate Limits
@@ -230,7 +230,7 @@ rules:
 score:
   band: thin
   composite: 41.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.2
@@ -238,7 +238,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 42.5
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -247,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png
 security:

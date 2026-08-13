@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Ambee Plans Pricing
   plan_count: 2
   slug: ambee-plans-pricing
-random_paper: 42
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Ambee Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.7
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/screenshots/ambee-2026-07-25T200014.png
 security:

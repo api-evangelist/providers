@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,11 +79,11 @@ overview: 'Appriss Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Appriss Inc.''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 85
+random_paper: 49
 score:
   band: emerging
   composite: 14.3
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.5
+  previous_composite: 14.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appriss-inc/refs/heads/main/screenshots/appriss-inc-2026-07-25T200834.png
 security:

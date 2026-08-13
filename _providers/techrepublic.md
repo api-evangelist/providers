@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Techrepublic Plans Pricing
   plan_count: 3
   slug: techrepublic-plans-pricing
-random_paper: 114
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Techrepublic Rate Limits
@@ -195,7 +195,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -7.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 69.4
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 44.9
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/screenshots/techrepublic-2026-06-20T195011.png
 security:
 - kind: domain-security

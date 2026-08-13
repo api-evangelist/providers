@@ -27,7 +27,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -83,7 +83,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -122,7 +122,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -167,7 +167,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 49.8,
      "agent_band": "agent-ready",
@@ -206,7 +206,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 50.7,
      "agent_band": "agent-native",
@@ -256,7 +256,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -302,7 +302,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 46.2,
      "agent_band": "agent-ready",
@@ -341,7 +341,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 45.7,
      "agent_band": "agent-ready",
@@ -380,7 +380,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 49.8,
      "agent_band": "agent-ready",
@@ -419,7 +419,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -457,7 +457,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 52.0,
      "agent_band": "agent-native",
@@ -495,7 +495,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 49.8,
      "agent_band": "agent-ready",
@@ -534,7 +534,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -572,7 +572,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
@@ -620,7 +620,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -658,7 +658,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -697,7 +697,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -742,7 +742,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -791,7 +791,7 @@
       "developer_ergonomics": 16.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -837,7 +837,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -876,7 +876,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -914,7 +914,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 2.7,
      "agent_band": "human-only",
@@ -953,7 +953,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1001,7 +1001,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

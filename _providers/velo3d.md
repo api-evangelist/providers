@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Sapphire family (Sapphire, Sapphire XC, Sapphire 1MZ) of laser powder bed fusion metal 3D printers, using multiple 1-kilowatt lasers to produce large-format support-free parts. Product feature - n
@@ -101,7 +101,7 @@ plans:
 - name: Velo3D Plans Pricing
   plan_count: 2
   slug: velo3d-plans-pricing
-random_paper: 9
+random_paper: 109
 rate_limits:
 - limit_count: 0
   name: Velo3D Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.5
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 28.4
@@ -117,9 +117,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/screenshots/velo3d-2026-06-20T200904.png
 security:

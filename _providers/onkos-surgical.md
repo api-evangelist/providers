@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ name: Onkos Surgical
 nav: Providers
 network: true
 overview: Onkos Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Surgical Oncology, Orthopaedics, and Musculoskeletal Oncology.
-random_paper: 65
+random_paper: 17
 score:
   band: minimal
   composite: 4.3
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onkos-surgical/refs/heads/main/screenshots/onkos-surgical-2026-08-07T190401.png
 slug: onkos-surgical

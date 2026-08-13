@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -166,7 +166,7 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 36
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.9
@@ -182,7 +182,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 47.8
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Our scaled based platform meets all your business requirements in the fields of mobility and energy. Explore the powerful solutions or consult one of our experts for advice. Together, we are building '
@@ -76,7 +76,7 @@ plans:
 - name: Moveyou Plans Pricing
   plan_count: 3
   slug: moveyou-plans-pricing
-random_paper: 92
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Moveyou Rate Limits
@@ -84,7 +84,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.4
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -92,7 +92,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.4
+  previous_composite: 12.4
   regulatory:
     applies: true
     matched_via: tags
@@ -100,8 +100,8 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveyou/refs/heads/main/screenshots/moveyou-2026-06-20T185834.png
 security:
 - kind: domain-security

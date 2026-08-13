@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Telstra Plans Pricing
   plan_count: 2
   slug: telstra-plans-pricing
-random_paper: 71
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Telstra Rate Limits
@@ -302,7 +302,7 @@ scopes:
 score:
   band: strong
   composite: 63.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 73.4
@@ -310,7 +310,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.8
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -325,7 +325,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:

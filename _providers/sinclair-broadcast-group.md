@@ -1,35 +1,41 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Open / No Registration
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  pricing: free
+  public: true
+  source:
+  - https://sbgi.net/wp-json/wp/v2/posts?per_page=1
+  - https://sbgi.net/wp-json/sbg/v1/station-map
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 27
+  score: 33.8
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: The public, unauthenticated read surface of Sinclair's corporate site at sbgi.net. Sinclair runs no developer program and publishes no API reference, but the site is WordPress and serves a live REST A
+  name: Sinclair Corporate Content API
+  slug: sinclair-corporate-content-api
+artifact_total: 32
 common:
 - group: auth
   title: ''
@@ -37,8 +43,48 @@ common:
   url: security/sinclair-broadcast-group-vulnerability-disclosure.yml
 - group: auth
   title: ''
+  type: Security
+  url: security/sinclair-broadcast-group-vulnerability-disclosure.yml
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/sinclair-broadcast-group-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sinclair-broadcast-group-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/sinclair-broadcast-group-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sinclair-broadcast-group-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sinclair-broadcast-group-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sinclair-broadcast-group-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sbgi.net/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sbgi.net/terms-conditions/
+- group: operate
+  title: ''
+  type: Support
+  url: https://sbgi.net/contact-us/
 - group: company
   title: ''
   type: Blog
@@ -57,7 +103,7 @@ common:
   url: https://sbgi.net/investor-relations/
 created: '2026-05-05'
 description: 'Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company''s non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as
-  FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair publishes no public developer APIs.'
+  FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company''s full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.'
 features:
 - description: Operates roughly 177-185 owned-and-operated and affiliate-managed local television stations across ~79-100 U.S. markets, reaching roughly 40% of U.S. households with local news, weather, and sports.
   name: Local Broadcast Footprint
@@ -90,36 +136,52 @@ integrations:
 - description: ONE Media works with consumer-electronics OEMs, station groups, and standards bodies to commercialize NextGen TV.
   name: ATSC 3.0 Industry Partners
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: sinclair-broadcast-group-mcp.yml
+  slug: sinclair-broadcast-group-mcpyml
+modified: '2026-08-12'
 name: Sinclair, Inc.
 nav: Providers
 network: true
-overview: 'Sinclair, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broadcasting, Television, Local News, Sports Media, and Regional Sports Networks.
+overview: 'Sinclair, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Sinclair Corporate Content API. Tagged areas include Broadcasting, Television, Local News, Sports Media, and Regional Sports Networks.
 
 
-  Sinclair, Inc.''s developer surface includes engineering blog, developer portal, and 4 more developer resources.'
-random_paper: 11
+  Sinclair, Inc.''s developer surface includes support, engineering blog, developer portal, and 13 more developer resources.'
+plans:
+- name: Sinclair Broadcast Group Plans Pricing
+  plan_count: 0
+  slug: sinclair-broadcast-group-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 0
+  name: Sinclair Broadcast Group Rate Limits
+  slug: sinclair-broadcast-group-rate-limits
 score:
-  band: minimal
-  composite: 7.9
-  delta: 0.0
+  band: thin
+  composite: 34.1
+  delta: 26.2
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 5.3
+    commercial_clarity: 21.1
+    contract_quality: 53.7
+    developer_ergonomics: 21.7
+    discoverability: 75.9
+    governance: 20.8
+    operational_transparency: 15.8
   previous_composite: 7.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
+- kind: authentication
+  name: Sinclair Broadcast Group Authentication
+  slug: sinclair-broadcast-group-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Sinclair Broadcast Group Domain Security
   slug: sinclair-broadcast-group-domain-security
-  summary_line: TLSv1.3 · HSTS
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Sinclair Broadcast Group Vulnerability Disclosure
   slug: sinclair-broadcast-group-vulnerability-disclosure

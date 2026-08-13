@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The Base container of the Clockworks REST API. Serves static asset information — clients, buildings, building types and variables, equipment, equipment classes / types / variables, points, point class
@@ -139,11 +139,11 @@ overview: 'Clockworks Analytics publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 63
 score:
   band: thin
   composite: 35.8
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -151,7 +151,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 35.0
+  previous_composite: 35.8
   provenance:
     conformance: first-party
   regulatory:
@@ -161,7 +161,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

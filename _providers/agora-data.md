@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Agora Data publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Agora Data''s developer surface includes engineering blog, support, getting-started guide, documentation, API reference, authentication, and 24 more developer resources.'
-random_paper: 49
+random_paper: 17
 scopes:
 - name: Agora Data Scopes
   scope_count: 6
@@ -212,7 +212,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.7
@@ -220,7 +220,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 43.1
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:

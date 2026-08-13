@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -154,7 +154,7 @@ plans:
 - name: Zoho Sheet Plans Pricing
   plan_count: 4
   slug: zoho-sheet-plans-pricing
-random_paper: 102
+random_paper: 70
 rate_limits:
 - limit_count: 6
   name: Zoho Sheet Rate Limits
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.2
@@ -184,7 +184,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 50.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/screenshots/zoho-sheet-2026-06-20T201949.png
 security:

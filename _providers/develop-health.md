@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -162,11 +162,11 @@ overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Develop Health''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 16 more developer resources.'
-random_paper: 34
+random_paper: 106
 score:
   band: developing
   composite: 45.5
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.6
@@ -174,7 +174,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 47.6
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/screenshots/develop-health-2026-07-25T211816.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: EVM-compatible JSON-RPC interface for Kite Chain mainnet (chain ID 2366, native token KITE), available over HTTPS and WSS from a global endpoint plus Virginia, Tokyo, and Ireland regional endpoints.
@@ -170,11 +170,11 @@ overview: 'Kite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kite''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, changelog, authentication, and 21 more developer resources.'
-random_paper: 81
+random_paper: 69
 score:
   band: thin
   composite: 37.6
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 38.6
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -194,7 +194,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/screenshots/kite-2026-07-25T223907.png
 security:

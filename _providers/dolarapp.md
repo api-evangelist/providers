@@ -1,0 +1,178 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: false
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: Public, unauthenticated Atlassian Statuspage v2 JSON API served on DolarApp's own status host. Exposes overall status, the ten monitored components (sign up, sign in, website, and card payments / bank
+  name: DolarApp Status API
+  slug: dolarapp-status-api
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/dolarapp-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.arqfinance.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.arqfinance.com/en-MX/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.arqfinance.com/en
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help-business.arqfinance.com/en
+- group: start
+  title: ''
+  type: SignUp
+  url: https://business.arqfinance.com/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://business.arqfinance.com/sign-in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.arqfinance.com/en-MX/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.arqfinance.com/en-MX/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dolarapp
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dolarapp.com/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.arqfinance.com/en-MX/responsible-disclosure-policy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/dolarapp-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dolarapp-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dolarapp-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dolarapp-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dolarapp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dolarapp-rate-limits.yml
+coverage:
+  checked: '2026-08-12'
+  detail: DolarApp (rebranded ARQ) runs api.dolarapp.com purely as the backend for its own mobile and business apps — it answers every anonymous request, including /openapi.json and /.well-known/*, with HTTP 403 — and the crawlable site map carries no /developers, /docs or /api path in any of its twelve locales, so there is no public developer program to profile.
+  evidence:
+  - status: 403
+    url: https://api.dolarapp.com/openapi.json
+  - status: 200
+    url: https://www.arqfinance.com/sitemap-0.xml
+  - status: 0
+    url: https://docs.arqfinance.com/
+  - status: 404
+    url: https://www.dolarapp.com/llms.txt
+  - status: 404
+    url: https://www.arqfinance.com/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
+created: '2026-08-12'
+description: DolarApp — rebranded to ARQ in March 2026 — is a Latin American cross-border fintech founded in Mexico in 2022 by former Revolut operators Fernando Terres, Zach Garman and Alvaro Correa. It gives consumers and businesses in Mexico, Argentina, Colombia and Brazil digital dollar (USDc) and euro (EURc) accounts, US ACH/wire receiving details, international cards accepted in 180+ countries, interbank-rate FX conversion, bulk supplier and contractor payouts, corporate cards with spend controls, and investment and credit products. It reports roughly two million users and is backed by Sequoia Capital, Founders Fund, Brevan Howard Digital, Y Combinator and Kaszek. DolarApp/ARQ runs a private API host at api.dolarapp.com for its own mobile and web applications but publishes no public developer program, documentation or machine-readable specification.
+image: https://www.arqfinance.com/og-image-en.png
+layout: provider
+modified: '2026-08-12'
+name: DolarApp
+nav: Providers
+network: true
+overview: 'DolarApp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Cross-Border Payments, and Banking.
+
+
+  DolarApp''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
+plans:
+- name: Dolarapp Plans Pricing
+  plan_count: 0
+  slug: dolarapp-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Dolarapp Rate Limits
+  slug: dolarapp-rate-limits
+score:
+  band: emerging
+  composite: 22.5
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 87.0
+    governance: 0.0
+    operational_transparency: 31.6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: domain-security
+  name: Dolarapp Domain Security
+  slug: dolarapp-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Dolarapp Vulnerability Disclosure
+  slug: dolarapp-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+slug: dolarapp
+tags:
+- Company
+- Fintech
+- Payments
+- Cross-Border Payments
+- Banking
+- Digital Dollars
+- Stablecoins
+- Foreign Exchange
+- Corporate Cards
+- Latin America
+website: https://www.arqfinance.com/
+---

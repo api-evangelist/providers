@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Generate Token API from Kuru — 1 operation(s) for generate token.
@@ -168,7 +168,7 @@ overview: 'Kuru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Gen
 
 
   Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 107
+random_paper: 95
 rate_limits:
 - limit_count: 1
   name: Kuru Rate Limits
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.3
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.1
@@ -184,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 51.4
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -201,7 +201,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

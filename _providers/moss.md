@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -46,11 +46,11 @@ name: Moss
 nav: Providers
 network: true
 overview: Moss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 102
+random_paper: 90
 score:
   band: minimal
   composite: 8.1
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -58,13 +58,13 @@ score:
     discoverability: 35.2
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 6.1
+  previous_composite: 8.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

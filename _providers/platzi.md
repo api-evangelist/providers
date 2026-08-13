@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The auth API from Platzi — 3 operation(s) for auth.
@@ -159,11 +159,11 @@ overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 80
+random_paper: 60
 score:
   band: thin
   composite: 39.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 35.1
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.4
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

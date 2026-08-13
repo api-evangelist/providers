@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ plans:
 - name: Dimensions Plans Pricing
   plan_count: 3
   slug: dimensions-plans-pricing
-random_paper: 37
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dimensions Rate Limits
@@ -122,7 +122,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.4
-  delta: -8.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 52.2
@@ -130,7 +130,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.2
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/screenshots/dimensions-2026-06-20T180036.png
 security:
 - kind: authentication

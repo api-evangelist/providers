@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ name: General Intuition
 nav: Providers
 network: true
 overview: General Intuition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, World Models, AI Agents, and Robotics.
-random_paper: 105
+random_paper: 49
 score:
   band: minimal
   composite: 12.4
@@ -82,7 +82,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/generalintuition/refs/heads/main/screenshots/generalintuition-2026-07-25T215552.png
 security:

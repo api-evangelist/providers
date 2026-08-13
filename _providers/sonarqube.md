@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Code issue search and management
@@ -174,7 +174,7 @@ plans:
 - name: Sonarqube Plans Pricing
   plan_count: 3
   slug: sonarqube-plans-pricing
-random_paper: 48
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Sonarqube Rate Limits
@@ -199,7 +199,7 @@ rules:
 score:
   band: developing
   composite: 52.3
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 70.1
@@ -207,7 +207,7 @@ score:
     discoverability: 46.3
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 59.9
+  previous_composite: 52.3
   provenance:
     contracts:
       callable: 0.0
@@ -215,8 +215,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:
 - kind: domain-security

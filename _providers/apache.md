@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides infrastructure, governance, and community support
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: The Apache Software Foundation Launches Responsible ...
   url: https://www.hpcwire.com/aiwire/2026/04/10/the-apache-software-foundation-launches-responsible-ai-initiative/
-random_paper: 30
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Apache Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.1
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -148,10 +148,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 25.9
+  previous_composite: 18.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/screenshots/apache-2026-06-20T172036.png
 security:
 - kind: domain-security

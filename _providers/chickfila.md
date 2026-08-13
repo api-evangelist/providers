@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 15 more developer resources.'
-random_paper: 114
+random_paper: 86
 rules:
 - name: Chick-fil-A API Rules
   rule_count: 5
@@ -508,7 +508,7 @@ rules:
 score:
   band: emerging
   composite: 23.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 20.9
@@ -516,7 +516,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 23.9
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     contracts:
@@ -525,7 +525,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:

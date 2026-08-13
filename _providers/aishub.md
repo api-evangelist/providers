@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ plans:
 - name: Aishub Plans Pricing
   plan_count: 1
   slug: aishub-plans-pricing
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Aishub Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.0
@@ -118,7 +118,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -127,7 +127,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/screenshots/aishub-2026-07-25T195448.png
 security:

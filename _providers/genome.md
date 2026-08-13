@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ plans:
 - name: Genome Plans Pricing
   plan_count: 3
   slug: genome-plans-pricing
-random_paper: 55
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Genome Rate Limits
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 57.5
@@ -109,7 +109,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.7
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -124,8 +124,8 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/screenshots/genome-2026-06-20T181737.png
 security:
 - kind: domain-security

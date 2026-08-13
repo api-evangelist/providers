@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -326,7 +326,7 @@ plans:
 - name: Algorand Plans
   plan_count: 4
   slug: algorand-plans
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Algorand Rate Limits
@@ -343,7 +343,7 @@ rules:
 score:
   band: strong
   composite: 58.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.4
@@ -351,7 +351,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:

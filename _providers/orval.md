@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Orval generates TypeScript API clients, TanStack Query/SWR hooks, Angular services, SolidStart primitives, Hono server handlers, Zod and Effect schemas, MSW mocks, and MCP servers from OpenAPI v3 or S
@@ -162,7 +162,7 @@ plans:
 - name: Orval Plans Pricing
   plan_count: 3
   slug: orval-plans-pricing
-random_paper: 84
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Orval Rate Limits
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.2
-  delta: -9.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -178,13 +178,13 @@ score:
     discoverability: 66.7
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 38.2
+  previous_composite: 29.2
   provenance:
     conformance: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orval/refs/heads/main/screenshots/orval-2026-06-20T191211.png
 security:
 - kind: domain-security

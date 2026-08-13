@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -143,7 +143,7 @@ plans:
 - name: In Toto Plans Pricing
   plan_count: 3
   slug: in-toto-plans-pricing
-random_paper: 18
+random_paper: 114
 rate_limits:
 - limit_count: 5
   name: In Toto Rate Limits
@@ -168,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 33.9
@@ -176,10 +176,10 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 40.6
+  previous_composite: 34.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/screenshots/in-toto-2026-06-20T183303.png
 security:
 - kind: domain-security

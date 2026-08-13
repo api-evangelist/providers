@@ -1,15 +1,222 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-08-12'
 api_count: 3
-artifact_total: 0
+apis:
+- description: The Cubby Operator API is a JSON HTTP API — explicitly not RESTful — oriented around actions performed on system entities rather than transfer of state. Roughly 70 POST endpoints cover access codes, l
+  name: Cubby Operator API
+  slug: cubby-operator-api
+- description: The Cubby Storefront API is the public, unauthenticated-tenant-facing slice of the Cubby platform used to power online rental storefronts — facility search and pricing-group search — and is the same A
+  name: Cubby Storefront API
+  slug: cubby-storefront-api
+- description: 'Cubby operates a hosted Model Context Protocol server at api.cubbystorage.com/mcp. The endpoint is live and OAuth-protected: an unauthenticated JSON-RPC tools/list call returns HTTP 401 with a WWW-Aut'
+  name: Cubby MCP Server
+  slug: cubby-mcp-server
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Cubby Webhooks
+  slug: cubby-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cubby-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cubbystorage.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://cubbystorage.github.io/docs/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cubbystorage.github.io/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cubbystorage.github.io/docs/api/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cubbystorage
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cubbystorage.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.cubbystorage.com/en/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.cubbystorage.com/signin
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cubbystorage.com/api-terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cubbystorage.com/privacy-policy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cubby-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cubby-scopes.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cubby-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cubby-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cubby-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cubby-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cubby-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cubby-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/cubby-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cubby-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/cubby-decline-codes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cubby-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cubby-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cubby-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cubby-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cubby-components.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/cubby-examples.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cubby-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cubby-rate-limits.yml
 created: '2026-08-11'
 description: Cubby is a New York City based software company building an AI-native facility management platform for self-storage operators, replacing legacy FMS systems with facility operations, tenant management, revenue management, e-commerce storefronts, embedded payment processing and AI-driven tenant communications. Cubby publishes a public developer documentation site covering a JSON HTTP Operator API of roughly 70 action-oriented endpoints across facilities, units, leases, customers, leads, payments, coverage, auctions and reporting, a BigQuery analytics data warehouse, Make.com outbound webhooks, embeddable Lit storefront web components, and an OAuth-protected Model Context Protocol server. The company was founded in 2022 by Matt Engfer and Adam Fleming and raised a $63M Series A led by Growth Equity at Goldman Sachs Alternatives in January 2026.
 image: https://www.cubbystorage.com/og-logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: cubby-mcp.yml
+  slug: cubby-mcpyml
 modified: '2026-08-11'
 name: Cubby
 nav: Providers
 network: true
-random_paper: 69
+overview: 'Cubby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Self Storage, Property Management, Facility Management, and Real Estate.
+
+
+  The Cubby catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Cubby''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 23 more developer resources.'
+plans:
+- name: Cubby Plans Pricing
+  plan_count: 0
+  slug: cubby-plans-pricing
+random_paper: 53
+rate_limits:
+- limit_count: 0
+  name: Cubby Rate Limits
+  slug: cubby-rate-limits
+scopes:
+- name: Cubby Scopes
+  scope_count: 0
+  slug: cubby-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 46.7
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 51.6
+    developer_ergonomics: 50.0
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 36.8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: authentication
+  name: Cubby Authentication
+  slug: cubby-authentication
+  summary_line: 2 schemes
+- kind: domain-security
+  name: Cubby Domain Security
+  slug: cubby-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: cubby
 tags:
 - Company
@@ -22,4 +229,5 @@ tags:
 - Artificial Intelligence
 - Revenue Management
 - E-Commerce
+website: https://www.cubbystorage.com/
 ---

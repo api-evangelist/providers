@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Bot Defender (formerly PerimeterX Bot Defender) is HUMAN's flagship product for stopping automated traffic against web and mobile properties. A JavaScript sensor and mobile SDKs collect signals from t
@@ -120,7 +120,7 @@ plans:
 - name: Human Security Plans Pricing
   plan_count: 1
   slug: human-security-plans-pricing
-random_paper: 78
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Human Security Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-security/refs/heads/main/screenshots/human-security-2026-06-20T182929.png
 security:

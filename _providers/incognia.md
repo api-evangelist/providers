@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'Incognia publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 28
+random_paper: 0
 scopes:
 - name: Incognia Scopes
   scope_count: 0
@@ -189,7 +189,7 @@ scopes:
 score:
   band: developing
   composite: 46.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.4
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.6
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -218,7 +218,7 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 79
+random_paper: 119
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 55.8
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 72.7
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 57.4
+  previous_composite: 55.8
   provenance:
     conformance: first-party
     contracts:
@@ -252,7 +252,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

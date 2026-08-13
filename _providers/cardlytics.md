@@ -1,40 +1,148 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Enterprise, partner-gated
   onboarding: unknown
-  pricing: unknown
+  pricing: enterprise
   public: false
-  source: []
+  source:
+  - https://platform.cardlytics.com/advertisers/docs/api-get-started
+  - https://docs.cardlytics.com/ads/v2/integrations/sandbox-quickstart-guide.html
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
-    auth_clarity: false
+    agent_skills: true
+    agentic_access: true
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 2
+  score: 61.3
+  scored_at: '2026-08-12'
+agentic_access:
+- acting_count: 36
+  human_in_the_loop: 2
+  name: Cardlytics Agentic Access
+  operation_count: 86
+  slug: cardlytics-agentic-access
+  summary_line: 86 operations · 36 acting · 2 human-in-the-loop
+api_count: 3
+apis:
+- description: The advertiser-partner integration surface. Partners upsert and delete merchants and offers keyed on their own external identifiers, pull aggregate merchant/offer performance metrics (impressions, pur
+  name: Cardlytics Partner API
+  slug: cardlytics-partner-api
+- description: The Ads Manager campaign object model — Campaigns, AdGroups, Ads, Audiences, AudienceReach, Rewards, PricingModels, RedeemingMerchants, Geo, PurchaseCategories, AuditLogs and per-entity validation rul
+  name: Cardlytics Campaign Build API
+  slug: cardlytics-campaign-build-api
+- description: The bank-side rewards platform API. A publisher opens an institution- or customer-scoped session, retrieves ranked targeted card-linked offers for a customer, and reads that customer's profile, reward
+  name: Cardlytics Publisher API v2
+  slug: cardlytics-publisher-api-v2
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Cardlytics Publisher Webhooks
+  slug: cardlytics-publisher-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cardlytics-agentic-access.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cardlytics-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cardlytics-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/cardlytics-domain-security.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cardlytics-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cardlytics-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cardlytics-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.cardlytics.com/sdk/unified-sdk-releases.html
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cardlytics-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cardlytics-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cardlytics-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/cardlytics-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cardlytics-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/cardlytics-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/cardlytics-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cardlytics-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cardlytics-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cardlytics-publisher-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cardlytics-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cardlytics-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: https://platform.cardlytics.com/.well-known/api-catalog
 - group: company
   title: ''
   type: Website
@@ -47,6 +155,14 @@ common:
   title: ''
   type: Documentation
   url: https://platform.cardlytics.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://platform.cardlytics.com/advertisers/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://platform.cardlytics.com/advertisers/docs/api-get-started
 - group: start
   title: ''
   type: Login
@@ -76,41 +192,62 @@ common:
   type: Compliance
   url: https://www.cardlytics.com/trust-center
 created: '2026-07-17'
-description: 'Cardlytics is a commerce media platform that uses first-party purchase data from its financial-institution partners to help advertisers reach consumers inside banking apps with card-linked offers and measurable, closed-loop attribution. Advertisers plan, launch, and measure card-linked campaigns through Ads Manager and advertiser APIs, while banks and neobanks (publishers) embed Merchant Offers and the Cardlytics Rewards Platform into their digital channels via publisher APIs and SDKs. The company also operates the Dosh card-linked network and the Bridg offline purchase-intelligence business, giving advertisers person-level measurement across online and in-store spend. Cardlytics is a public company (NASDAQ: CDLX) and its platform is an enterprise, partnership-based product rather than a self-service developer API.'
+description: 'Cardlytics is a commerce media platform that uses first-party purchase data from its financial-institution partners to help advertisers reach consumers inside banking apps with card-linked offers and measurable, closed-loop attribution. Advertisers plan, launch, and measure card-linked campaigns through Ads Manager and advertiser APIs, while banks and neobanks (publishers) embed Merchant Offers and the Cardlytics Rewards Platform into their digital channels via publisher APIs and SDKs. The company also operates the Dosh card-linked network and the Bridg offline purchase-intelligence business, giving advertisers person-level measurement across online and in-store spend. Cardlytics publishes three OpenAPI 3.0.1 definitions through its ReadMe developer hub — a Partner API for advertiser merchant and offer ingestion, reporting and a daily redemption feed; a Campaign Build API covering the Ads Manager campaign object model; and a Publisher API v2 for the bank-side rewards experience
+  — alongside iOS, Android and web SDKs. Nothing is self-service: every credential is issued by an account manager under a partner agreement, and the API hosts answer 403 to anonymous callers. Cardlytics is a public company (NASDAQ: CDLX) and its platform is an enterprise, partnership-based product rather than a self-service developer API.'
 image: https://cdn.prod.website-files.com/647efc90c29ecb765fcd4f1a/6481aadd2b75cd4512df022a_cardlytics_open_graph_01.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-12'
 name: Cardlytics
 nav: Providers
 network: true
-overview: 'Cardlytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
+overview: 'Cardlytics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Partner API, Campaign Build API, and Publisher API v2. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
 
 
-  Cardlytics'' developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 30
+  The Cardlytics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Cardlytics'' developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 27 more developer resources.'
+plans:
+- name: Cardlytics Plans Pricing
+  plan_count: 0
+  slug: cardlytics-plans-pricing
+random_paper: 114
+rate_limits:
+- limit_count: 4
+  name: Cardlytics Rate Limits
+  slug: cardlytics-rate-limits
+scopes:
+- name: Cardlytics Scopes
+  scope_count: 4
+  slug: cardlytics-scopes
+  summary_line: 4 scopes · clientCredentials/authorizationCode/custom
 score:
-  band: emerging
-  composite: 21.3
-  delta: 0.4
+  band: strong
+  composite: 57.9
+  delta: 36.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 20.9
+    contract_quality: 53.1
+    developer_ergonomics: 71.7
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 63.2
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 29.7
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:
+- kind: authentication
+  name: Cardlytics Authentication
+  slug: cardlytics-authentication
+  summary_line: oauth2/mutualTLS/http/custom-session-token · 6 schemes
 - kind: domain-security
   name: Cardlytics Domain Security
   slug: cardlytics-domain-security
@@ -129,5 +266,9 @@ tags:
 - Financial Services
 - Loyalty and Rewards
 - Marketing
+- Banking
+- Retail Media
+- Attribution
+- Offers
 website: https://www.cardlytics.com/
 ---

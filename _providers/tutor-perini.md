@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,11 +87,11 @@ press:
 - date: '2026-05-25'
   title: Tutor Perini expects strong 2026 with $19.8 billion backlog
   url: https://www.facebook.com/MenottiEnterprise/posts/tutor-perini-eyes-data-center-opportunities-the-heavy-civil-contractor-said-it-s/1545078134290446/
-random_paper: 106
+random_paper: 66
 score:
   band: minimal
   composite: 5.1
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -99,7 +99,7 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.1
+  previous_composite: 5.1
   regulatory:
     applies: true
     matched_via: tags
@@ -107,7 +107,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tutor-perini/refs/heads/main/screenshots/tutor-perini-2026-06-20T195839.png
 security:

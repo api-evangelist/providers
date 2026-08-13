@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Kive MCP server is Kive''s programmable interface: an OAuth 2.1 protected Model Context Protocol endpoint that lets an authorized agent browse Kive workspaces, saved products, trained models, studi'
@@ -193,7 +193,7 @@ plans:
 - name: Kive Plans
   plan_count: 4
   slug: kive-plans
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Kive Rate Limits
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kive/refs/heads/main/screenshots/kive-2026-07-25T223918.png
 security:

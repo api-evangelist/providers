@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Alkami's RESTful digital-banking APIs (D2C, B2B, and Open Banking) plus the Alkami SDK, built on OpenID Connect and documented in the gated Alkami DevPortal.
@@ -104,11 +104,11 @@ overview: 'Alkami publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkami''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 43
+random_paper: 23
 score:
   band: emerging
   composite: 20.1
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -116,7 +116,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 21.0
+  previous_composite: 20.1
   regulatory:
     applies: true
     matched_via: tags
@@ -124,7 +124,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkami/refs/heads/main/screenshots/alkami-2026-07-25T195627.png
 security:

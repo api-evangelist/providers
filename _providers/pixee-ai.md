@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -163,11 +163,11 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
-random_paper: 90
+random_paper: 66
 score:
   band: developing
   composite: 52.9
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.2
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 54.2
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -186,7 +186,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

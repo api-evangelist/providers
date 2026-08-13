@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Bank First publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bank First''s developer surface includes documentation, support, getting-started guide, authentication, and 21 more developer resources.'
-random_paper: 81
+random_paper: 49
 scopes:
 - name: Bank First Scopes
   scope_count: 7
@@ -186,7 +186,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.2
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 46.9
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,7 +212,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/screenshots/bank-first-2026-07-21T114722.png
 security:

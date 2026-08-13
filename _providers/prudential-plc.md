@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -169,11 +169,11 @@ overview: 'Prudential plc is profiled on the [APIs.io](https://apis.io/) network
 
 
   Prudential plc''s developer surface includes engineering blog and 32 more developer resources.'
-random_paper: 52
+random_paper: 4
 score:
   band: emerging
   composite: 16.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -181,7 +181,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 17.6
+  previous_composite: 16.0
   provenance:
     conformance: first-party
   regulatory:
@@ -191,7 +191,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

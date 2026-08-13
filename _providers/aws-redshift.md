@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -6308,7 +6308,7 @@ plans:
 - name: Aws Redshift Plans Pricing
   plan_count: 7
   slug: aws-redshift-plans-pricing
-random_paper: 73
+random_paper: 33
 rate_limits:
 - limit_count: 23
   name: Aws Redshift Rate Limits
@@ -6333,7 +6333,7 @@ rules:
 score:
   band: developing
   composite: 55.0
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 69.2
@@ -6341,7 +6341,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 63.5
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -6350,8 +6350,8 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/screenshots/aws-redshift-2026-06-20T172800.png
 security:
 - kind: authentication

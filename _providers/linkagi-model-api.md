@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
@@ -158,11 +158,11 @@ overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 19 more developer resources.'
-random_paper: 44
+random_paper: 108
 score:
   band: developing
   composite: 51.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.0
@@ -170,7 +170,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
@@ -181,7 +181,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

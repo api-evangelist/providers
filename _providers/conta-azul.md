@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
@@ -168,7 +168,7 @@ overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
-random_paper: 94
+random_paper: 62
 scopes:
 - name: Conta Azul Scopes
   scope_count: 3
@@ -177,7 +177,7 @@ scopes:
 score:
   band: developing
   composite: 50.6
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.0
@@ -185,7 +185,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.1
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

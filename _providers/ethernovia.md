@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
@@ -188,11 +188,11 @@ overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 21 more developer resources.'
-random_paper: 33
+random_paper: 117
 score:
   band: thin
   composite: 36.4
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 42.7
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 36.2
+  previous_composite: 36.4
   provenance:
     conformance: first-party
     contracts:
@@ -210,7 +210,7 @@ score:
       total: 15
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
 security:

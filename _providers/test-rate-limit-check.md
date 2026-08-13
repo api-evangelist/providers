@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Test Rate Limit Check Plans Pricing
   plan_count: 3
   slug: test-rate-limit-check-plans-pricing
-random_paper: 92
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Test Rate Limit Check Rate Limits
@@ -209,7 +209,7 @@ rules:
 score:
   band: thin
   composite: 38.4
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 55.5
@@ -217,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 46.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/screenshots/test-rate-limit-check-2026-06-20T195146.png
 security:
 - kind: authentication

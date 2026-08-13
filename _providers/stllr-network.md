@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -38,15 +38,59 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.stllr.network/payg
+  url: https://www.stllr.network/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/stllr-network-plans-pricing.yml
 - group: start
   title: ''
   type: Login
   url: https://app.stllr.network/login
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.stllr.network/signup
 - group: operate
   title: ''
   type: Support
   url: https://www.stllr.network/book-a-call
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://stllrnetwork.tawk.help/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.stllr.network/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Stllr-Network
+- group: company
+  title: ''
+  type: Careers
+  url: https://stllr.freshteam.com/jobs
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/stllrnetwork
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/stllrnetwork
+- group: other
+  title: ''
+  type: TikTok
+  url: https://www.tiktok.com/@stllrnetworksa
+- group: other
+  title: ''
+  type: iOSApp
+  url: https://apps.apple.com/us/app/stllr-network-for-creators/id6446048987
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/stllr-network-llms.txt
 - group: commercial
   title: ''
   type: TermsOfService
@@ -55,38 +99,67 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.stllr.network/privacy-policy
+- group: other
+  title: ''
+  type: RefundPolicy
+  url: https://www.stllr.network/return-policy
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/stllr-network-domain-security.yml
+coverage:
+  checked: '2026-08-12'
+  detail: 'Stllr Network runs a real first-party backend — api.stllr.network answers live /v1/ routes for the app at app.stllr.network, including a TikTok OAuth hand-off that 302s to tiktok.com/v2/auth/authorize — but it is an application backend, not a product: there is no developer program of any kind, the word "API" appears zero times across the homepage, pricing, PAYG, Premier, Remix, Agency and terms pages, every spec path on the API host returns the same JSON 404, and docs./developer./developers.stllr.network do not resolve in DNS.'
+  evidence:
+  - status: 404
+    url: https://api.stllr.network/openapi.json
+  - status: 302
+    url: https://api.stllr.network/v1/tiktok/oauth
+  - status: 200
+    url: https://www.stllr.network/en
+  - status: 200
+    url: https://www.stllr.network/llms.txt
+  - status: 404
+    url: https://www.stllr.network/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Stllr Network is an AI-powered user-generated-content (UGC) and creator-marketing platform for the Arab world, connecting brands with a network of nano and micro content creators and influencers across categories such as beauty, entertainment, tech, lifestyle, parenting, gaming, fashion, fitness, and cooking. Its products include Remix, an AI tool that scales creator videos into multiple ad variations; Premier, a managed service that handles creator outreach and ad-campaign management; and pay-as-you-go video Packages (PAYG). The platform is brand- and consumer-facing, billed in Saudi Riyal (SAR), and does not publish a public developer API, SDK, or developer portal. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment.
+description: 'Stllr Network is an AI-powered user-generated-content (UGC) and creator-marketing platform for the Arab world, connecting brands with a network of nano and micro content creators and influencers across categories such as beauty, entertainment, tech, lifestyle, parenting, gaming, fashion, fitness, and cooking. Its products include Remix, an AI tool that scales creator videos into multiple ad variations; Premier, a managed service that handles creator outreach and ad-campaign management; and pay-as-you-go video Packages (PAYG). The platform is brand- and consumer-facing, billed in Saudi Riyal (SAR), and sells through a fully published self-serve rate card of monthly UGC subscriptions and per-video bundles. It does not publish a public developer API, SDK, developer portal, or any API documentation: the string "API" does not appear anywhere on the marketing site. A real first-party backend does exist at api.stllr.network — the Next.js workspace at app.stllr.network calls its /v1/
+  routes, including TikTok and Google OAuth hand-offs — but it is an application backend with no published contract. Stllr has, by contrast, done deliberate agent-discovery work on its marketing surface: it serves a hand-written llms.txt and a robots.txt that explicitly allows OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-SearchBot, ClaudeBot and Google-Extended. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment.'
 image: https://cdn.prod.website-files.com/670e5530627adc7d7d0af0b3/68ff496a88d8e714a84367ae_image%205.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Stllr Network
 nav: Providers
 network: true
 overview: 'Stllr Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content, Creators, Influencer Marketing, and User Generated Content.
 
 
-  Stllr Network''s developer surface includes pricing, support, and 5 more developer resources.'
-random_paper: 108
+  Stllr Network''s developer surface includes pricing, signup flow, support, engineering blog, and 15 more developer resources.'
+plans:
+- name: Stllr Network Plans Pricing
+  plan_count: 6
+  slug: stllr-network-plans-pricing
+random_paper: 64
+rate_limits:
+- limit_count: 0
+  name: Stllr Network Rate Limits
+  slug: stllr-network-rate-limits
 score:
   band: emerging
-  composite: 14.8
-  delta: 0.0
+  composite: 24.1
+  delta: 9.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 14.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Stllr Network Domain Security

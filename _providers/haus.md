@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -87,40 +87,84 @@ common:
   title: ''
   type: SecurityContact
   url: mailto:security@haus.io
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/haus-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/haus-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/haus-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/haus-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/haus-lifecycle.yml
+coverage:
+  checked: '2026-08-12'
+  detail: Haus ships only a login-gated SaaS app at app.haus.io — there is no API host in DNS at all (api, developer, docs, graph, gateway, public-api and six more candidate subdomains are all NXDOMAIN), the 40-URL sitemap contains no developer or reference page, the four published pricing tiers offer no API access, and Haus's own llms.txt indexes 45 marketing, blog and case-study pages without naming a single developer resource.
+  evidence:
+  - status: 200
+    url: https://www.haus.io/llms.txt
+  - status: 200
+    url: https://www.haus.io/pricing
+  - status: 404
+    url: https://www.haus.io/openapi.json
+  - status: 404
+    url: https://app.haus.io/openapi.json
+  - status: 404
+    url: https://www.haus.io/.well-known/agent-card.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Haus is an AI-powered causal marketing measurement platform that helps enterprise brands quantify the true incrementality of their advertising spend. The platform runs on-demand geo-based incrementality experiments (treatment vs. holdout groups), causal media mix modeling (MMM) grounded in experimental data, and daily causal attribution reporting, so marketers can see which channels actually drive revenue. Haus reports running thousands of experiments annually across tens of billions of dollars in optimized ad spend for customers such as FanDuel, Intuit, Wayfair, and Coursera. Founded by former Google economists, Haus is backed by Insight Partners.
 image: https://cdn.prod.website-files.com/636c27cea6bf2a38e9eea317/698cc912d640157690a26208_og%20image%20-%20home%20-%201600.jpg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-12'
 name: Haus
 nav: Providers
 network: true
 overview: 'Haus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Incrementality, and Measurement.
 
 
-  Haus'' developer surface includes engineering blog, pricing, support, signup flow, and 10 more developer resources.'
-random_paper: 85
+  Haus'' developer surface includes engineering blog, pricing, support, signup flow, and 15 more developer resources.'
+plans:
+- name: Haus Plans Pricing
+  plan_count: 4
+  slug: haus-plans-pricing
+random_paper: 73
 score:
-  band: emerging
-  composite: 20.5
-  delta: 0.0
+  band: thin
+  composite: 30.0
+  delta: 9.5
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 26.3
   previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus/refs/heads/main/screenshots/haus-2026-07-25T220755.png
 security:
 - kind: domain-security
   name: Haus Domain Security
   slug: haus-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Haus Vulnerability Disclosure
+  slug: haus-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Haus Trust Center
   slug: haus-trust-center

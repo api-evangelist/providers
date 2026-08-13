@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Murf Plans Pricing
   plan_count: 3
   slug: murf-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Murf Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.1
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.9
@@ -149,7 +149,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.5
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -158,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
 security:

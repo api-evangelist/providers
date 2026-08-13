@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ name: Remora
 nav: Providers
 network: true
 overview: Remora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Capture, Climate Tech, Transportation, and Emissions.
-random_paper: 66
+random_paper: 46
 score:
   band: minimal
   composite: 8.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

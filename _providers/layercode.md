@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Layercode Plans Pricing
   plan_count: 1
   slug: layercode-plans-pricing
-random_paper: 24
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Layercode Rate Limits
@@ -144,7 +144,7 @@ rules:
 score:
   band: developing
   composite: 42.7
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.4
@@ -152,7 +152,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 39.3
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/screenshots/layercode-2026-07-25T224657.png
 security:

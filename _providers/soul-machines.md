@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Real-time WebSocket session API used by the Web SDK to connect a browser client to a Digital Person running on the Soul Machines session server. A session is authenticated with either an API key (conf
@@ -158,7 +158,7 @@ overview: 'Soul Machines publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Soul Machines'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 60
+random_paper: 16
 score:
   band: developing
   composite: 49.4
@@ -174,7 +174,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

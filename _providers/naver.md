@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -183,7 +183,7 @@ plans:
 - name: Naver Plans Pricing
   plan_count: 1
   slug: naver-plans-pricing
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Naver Rate Limits
@@ -207,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naver/refs/heads/main/screenshots/naver-2026-06-20T190102.png
 security:

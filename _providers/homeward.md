@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,13 +48,10 @@ apis:
   name: Homeward Offer Requests API
   slug: homeward-offer-requests-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Screen a property, request a Homeward Offer Estimate, and fetch the full offer breakdown.
   name: Homeward cash offer — buybox to finalized estimate
   slug: homeward-cash-offer
-artifact_total: 9
+artifact_total: 8
 common:
 - group: other
   title: ''
@@ -164,11 +161,11 @@ overview: 'Homeward publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Homeward''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: thin
   composite: 39.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.0
@@ -176,7 +173,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.1
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +185,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/screenshots/homeward-2026-07-25T221350.png
 security:

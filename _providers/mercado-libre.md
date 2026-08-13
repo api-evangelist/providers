@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Core REST API for the Mercado Libre marketplace covering items, categories, search, orders, questions, messages, users, sites, currencies, and shipping. Auth via OAuth 2.0 (authorization code).
@@ -95,7 +95,7 @@ plans:
 - name: Mercado Libre Plans Pricing
   plan_count: 2
   slug: mercado-libre-plans-pricing
-random_paper: 26
+random_paper: 102
 rate_limits:
 - limit_count: 3
   name: Mercado Libre Rate Limits
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.5
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.2
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
@@ -119,7 +119,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/screenshots/mercado-libre-2026-06-20T185150.png
 security:

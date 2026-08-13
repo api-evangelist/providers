@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,11 +75,11 @@ overview: 'Gravity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gravity''s developer surface includes support and 7 more developer resources.'
-random_paper: 78
+random_paper: 54
 score:
   band: minimal
   composite: 11.2
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -87,7 +87,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.1
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
@@ -95,7 +95,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravity/refs/heads/main/screenshots/gravity-2026-07-25T220252.png
 security:

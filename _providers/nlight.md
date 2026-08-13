@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,11 +55,11 @@ overview: 'Nlight is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nlight''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 66
+random_paper: 46
 score:
   band: minimal
   composite: 5.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -67,7 +67,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.3
+  previous_composite: 5.4
   regulatory:
     applies: true
     matched_via: tags
@@ -75,7 +75,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nlight/refs/heads/main/screenshots/nlight-2026-08-07T185351.png
 slug: nlight

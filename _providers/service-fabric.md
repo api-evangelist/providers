@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Service Fabric Plans Pricing
   plan_count: 3
   slug: service-fabric-plans-pricing
-random_paper: 21
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Service Fabric Rate Limits
@@ -198,7 +198,7 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 64.2
@@ -206,7 +206,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 51.4
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
 security:
 - kind: domain-security

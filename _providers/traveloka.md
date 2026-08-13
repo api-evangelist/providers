@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -222,7 +222,7 @@ overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 41
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Traveloka Rate Limits
@@ -230,7 +230,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.3
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 51.1
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

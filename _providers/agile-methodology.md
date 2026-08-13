@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 20
 common:
@@ -97,7 +97,7 @@ overview: 'Agile Methodology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Agile Methodology''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 14
+random_paper: 74
 rules:
 - name: Agile Methodology API Rules
   rule_count: 4
@@ -120,7 +120,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-methodology/refs/heads/main/screenshots/agile-methodology-2026-06-20T170218.png
 security:

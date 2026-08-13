@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Rainbow Plans Pricing
   plan_count: 1
   slug: rainbow-plans-pricing
-random_paper: 58
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Rainbow Rate Limits
@@ -214,7 +214,7 @@ rules:
 score:
   band: developing
   composite: 43.2
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.4
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 45.3
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -237,7 +237,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/screenshots/rainbow-2026-06-20T192535.png
 security:

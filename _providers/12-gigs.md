@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ name: 12 Gigs
 nav: Providers
 network: true
 overview: 12 Gigs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Social Casino, and Casual Games.
-random_paper: 106
+random_paper: 90
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/12-gigs/refs/heads/main/screenshots/12-gigs-2026-07-25T181102.png
 security:

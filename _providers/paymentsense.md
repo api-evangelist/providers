@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -38,13 +38,10 @@ apis:
   name: Paymentsense Connect WebSockets API
   slug: connect-websockets-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List a terminal, start a card transaction on it, and poll to the outcome.
   name: Paymentsense Pay-At-Counter — take a card payment
   slug: paymentsense-pac-take-payment
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Paymentsense Connect Events
@@ -194,11 +191,11 @@ overview: 'Paymentsense publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 32
+random_paper: 108
 score:
   band: developing
   composite: 52.5
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 60.0
@@ -206,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 56.2
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,7 +221,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:

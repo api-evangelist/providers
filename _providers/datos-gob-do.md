@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CKAN Action API for Portal de Datos Abiertos Republica Dominicana, a consistent JSON-over-HTTP interface over a catalog of 1,054 datasets. Standard actions include package_search, package_show, packag
@@ -84,7 +84,7 @@ plans:
 - name: Datos Gob Do Plans Pricing
   plan_count: 1
   slug: datos-gob-do-plans-pricing
-random_paper: 108
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Datos Gob Do Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-gob-do/refs/heads/main/screenshots/datos-gob-do-2026-06-20T175717.png
 security:

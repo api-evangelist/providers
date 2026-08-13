@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: MonetizeNow's REST API for the full quote-to-cash lifecycle — accounts, contacts, quotes, opportunities, contracts, subscriptions, invoices, payments, credits, credit notes, products, offerings, rates
@@ -112,7 +112,7 @@ overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MonetizeNow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 55
+random_paper: 15
 score:
   band: thin
   composite: 36.1
@@ -136,7 +136,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -735,7 +735,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 85
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -773,7 +773,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 71.7
@@ -781,7 +781,7 @@ score:
     discoverability: 83.3
     governance: 72.9
     operational_transparency: 36.8
-  previous_composite: 69.0
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -793,7 +793,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

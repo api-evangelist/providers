@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -227,11 +227,11 @@ overview: 'Distru publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Distru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 87
+random_paper: 67
 score:
   band: developing
   composite: 43.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.6
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.3
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,11 +64,11 @@ name: Neuralink
 nav: Providers
 network: true
 overview: Neuralink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Brain Computer Interface, Neurotechnology, and Medical Devices.
-random_paper: 41
+random_paper: 9
 score:
   band: minimal
   composite: 7.7
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -76,7 +76,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 7.5
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuralink/refs/heads/main/screenshots/neuralink-2026-08-07T185020.png
 security:

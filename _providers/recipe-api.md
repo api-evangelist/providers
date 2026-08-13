@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
@@ -107,7 +107,7 @@ plans:
 - name: Recipe Api Plans
   plan_count: 4
   slug: recipe-api-plans
-random_paper: 63
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
@@ -132,7 +132,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

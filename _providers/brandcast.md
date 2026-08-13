@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Brandcast API lets developers programmatically perform Design Studio actions such as creating websites from templates and updating website content. Requests are authenticated with an API key in th
@@ -76,7 +76,7 @@ overview: 'Brandcast publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Brandcast''s developer surface includes documentation, authentication, and 5 more developer resources.'
-random_paper: 18
+random_paper: 106
 score:
   band: emerging
   composite: 13.9
@@ -90,7 +90,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/screenshots/brandcast-2026-07-25T203717.png
 security:

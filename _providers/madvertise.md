@@ -21,15 +21,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-11'
-api_count: 2
+  score: 30.2
+  scored_at: '2026-08-12'
+api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
   name: Madvertise Ad Request API
@@ -37,7 +37,10 @@ apis:
 - description: OpenRTB 2.5 bid-request endpoint (mobile.mng-ads.com/bidrequest/{placement}) for programmatic in-app demand. POST JSON with x-openrtb-version 2.5; returns bid markup in the adm field, 204 when no bid,
   name: Madvertise OpenRTB Bid Request API
   slug: madvertise-openrtb-bid-request-api
-artifact_total: 4
+- description: 'Token-authenticated JSON reporting API family covering seller (publisher), buyer (advertiser), DSP and mediation reporting. POST /auth-reporting mints an opaque token passed bare in the Authorization '
+  name: Madvertise Reporting API
+  slug: madvertise-reporting-api
+artifact_total: 8
 common:
 - group: start
   title: ''
@@ -115,42 +118,94 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/madvertise-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/madvertise-bluestack-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/madvertise-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/madvertise-tool-crosswalk.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/madvertise-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/madvertise-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/madvertise-rate-limits.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.bluestack.app/android/
+- group: start
+  title: ''
+  type: Login
+  url: https://console.bluestack.app
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.azerion.com/azerion-contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.azerion.com/publishers-seller-monetization-terms-and-conditions/
 created: '2026-07-17'
-description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App Open ad formats through first-party SDKs for Android, iOS, Unity, React Native, Flutter and .NET MAUI, and connects programmatic demand through an OpenRTB 2.5 bid-request API, a JSON ad-request API, VAST video, and a Prebid Server adapter. The platform advertises IAB TCF, IAB Open Measurement, GDPR and COPPA compliance. Originally a Munich-founded mobile ad network backed by Point Nine Capital, Madvertise's technology now ships under Azerion / Improve Digital.
+description: Madvertise is a mobile advertising and monetization brand now operating within Azerion as the "BlueStack" (Improve Digital InApp) mobile SDK suite and the mng-ads.com ad-serving platform. It lets mobile publishers monetize in-app inventory with banner, interstitial, native, rewarded-video and App Open ad formats through first-party SDKs for Android, iOS, Unity, React Native, Flutter and .NET MAUI, and connects programmatic demand through an OpenRTB 2.5 bid-request API, a JSON ad-request API, VAST video, and a Prebid Server adapter. A separate token-authenticated reporting API family serves sellers, buyers, DSPs and mediation partners with revenue and delivery data. The platform advertises IAB TCF, IAB Open Measurement, GDPR and COPPA compliance. Originally a Munich-founded mobile ad network backed by Point Nine Capital, Madvertise's technology now ships under Azerion / Improve Digital, whose GitHub org also publishes a first-party MCP server for publisher inventory management.
 image: https://www.azerion.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+mcp_servers:
+- description: ''
+  name: Improve Digital Publisher MCP Server (Azerion; targets the sibling 360Yield inventory API)
+  slug: improve-digital-publisher-mcp-server-azerion-targets-the-sibling-360yield-inventory-api
+modified: '2026-08-12'
 name: Madvertise
 nav: Providers
 network: true
-overview: 'Madvertise publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile, and Monetization.
+overview: 'Madvertise publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile, and Monetization.
 
 
-  Madvertise''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 32
+  Madvertise''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, sandbox, getting-started guide, and 22 more developer resources.'
+plans:
+- name: Madvertise Plans Pricing
+  plan_count: 0
+  slug: madvertise-plans-pricing
+random_paper: 116
+rate_limits:
+- limit_count: 0
+  name: Madvertise Rate Limits
+  slug: madvertise-rate-limits
 score:
-  band: emerging
-  composite: 23.6
-  delta: 0.0
+  band: thin
+  composite: 35.2
+  delta: 11.6
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 43.5
-    discoverability: 75.9
+    developer_ergonomics: 73.9
+    discoverability: 83.3
     governance: 12.5
     operational_transparency: 28.9
   previous_composite: 23.6
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/screenshots/madvertise-2026-07-25T225832.png
 security:
 - kind: authentication
   name: Madvertise Authentication
   slug: madvertise-authentication
-  summary_line: placement-code/app-id · 2 schemes
+  summary_line: placement-code/app-id/token/oauth2 · 4 schemes
 - kind: domain-security
   name: Madvertise Domain Security
   slug: madvertise-domain-security

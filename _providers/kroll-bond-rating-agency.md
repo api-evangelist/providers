@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,11 +120,11 @@ overview: 'Kroll Bond Rating Agency is profiled on the [APIs.io](https://apis.io
 
 
   Kroll Bond Rating Agency''s developer surface includes documentation, support, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 58
+random_paper: 98
 score:
   band: emerging
   composite: 20.6
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 20.6
   provenance:
     conformance: first-party
   regulatory:
@@ -142,7 +142,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroll-bond-rating-agency/refs/heads/main/screenshots/kroll-bond-rating-agency-2026-07-25T224301.png
 security:

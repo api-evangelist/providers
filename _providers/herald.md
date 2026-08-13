@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Herald Plans Pricing
   plan_count: 1
   slug: herald-plans-pricing
-random_paper: 44
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Herald Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.6
@@ -147,7 +147,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/screenshots/herald-2026-07-25T221009.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST/JSON management API for the Webroot platform. Authenticate once via OAuth2 at /auth/token, then call /service/api resources with a bearer token to provision and update product licenses, place and
@@ -108,11 +108,11 @@ overview: 'Webroot publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Webroot''s developer surface includes documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 74
+random_paper: 50
 score:
   band: emerging
   composite: 23.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -120,11 +120,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 24.5
+  previous_composite: 23.4
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Iterable Plans Pricing
   plan_count: 3
   slug: iterable-plans-pricing
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Iterable Rate Limits
@@ -384,7 +384,7 @@ rules:
 score:
   band: developing
   composite: 50.0
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 78.4
@@ -392,7 +392,7 @@ score:
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 7.9
-  previous_composite: 57.2
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -407,8 +407,8 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:
 - kind: authentication

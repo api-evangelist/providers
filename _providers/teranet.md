@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Teranet Connect is described by Teranet as an application programming interface providing secure access to Ontario's POLARIS land registration database and the Writs database, using XML and web servic
@@ -155,7 +155,7 @@ overview: 'Teranet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Teranet''s developer surface includes authentication, changelog, sandbox, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 59
+random_paper: 35
 score:
   band: thin
   composite: 31.8
@@ -177,7 +177,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

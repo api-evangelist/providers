@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,11 +104,11 @@ press:
 - date: '2025-10-24'
   title: Calumet Montana and Department of Revenue Finalize Property Tax Assessment
   url: https://calumet.com/calumet-montana-and-department-of-revenue-finalize-property-tax-assessment/
-random_paper: 23
+random_paper: 19
 score:
   band: minimal
   composite: 5.8
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -116,7 +116,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
+  previous_composite: 5.8
   regulatory:
     applies: true
     matched_via: tags
@@ -124,7 +124,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/screenshots/calumet-specialty-products-partners-2026-06-20T173902.png
 security:

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -160,7 +160,7 @@ overview: 'Tecovas publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Tecovas'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 61
+random_paper: 37
 scopes:
 - name: Tecovas Scopes
   scope_count: 4
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

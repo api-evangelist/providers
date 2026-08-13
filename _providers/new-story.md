@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -59,7 +59,7 @@ overview: 'New Story is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   New Story''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 24
+random_paper: 112
 score:
   band: minimal
   composite: 8.4
@@ -73,7 +73,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/screenshots/new-story-2026-08-07T185057.png
 slug: new-story

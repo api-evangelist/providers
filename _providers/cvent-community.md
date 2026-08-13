@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -95,11 +95,11 @@ overview: 'Cvent Community is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Cvent Community''s developer surface includes training material, support, engineering blog, and 10 more developer resources.'
-random_paper: 78
+random_paper: 26
 score:
   band: emerging
   composite: 15.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,9 +107,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 15.0
+  previous_composite: 15.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/screenshots/cvent-community-2026-06-20T175400.png
 slug: cvent-community

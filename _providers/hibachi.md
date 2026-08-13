@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -189,11 +189,11 @@ overview: 'Hibachi publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Hibachi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 16
+random_paper: 112
 score:
   band: developing
   composite: 50.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 73.7
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 52.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,7 +219,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:

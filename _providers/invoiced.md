@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Invoiced Plans Pricing
   plan_count: 2
   slug: invoiced-plans-pricing
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Invoiced Rate Limits
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.7
@@ -152,7 +152,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.5
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/screenshots/invoiced-2026-07-25T222800.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Newsapi Plans Pricing
   plan_count: 4
   slug: newsapi-plans-pricing
-random_paper: 63
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Newsapi Rate Limits
@@ -171,7 +171,7 @@ rules:
 score:
   band: developing
   composite: 54.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.4
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 55.2
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/screenshots/newsapi-2026-06-20T190246.png
 security:

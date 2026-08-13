@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -191,7 +191,7 @@ plans:
 - name: Lambda Plans Pricing
   plan_count: 3
   slug: lambda-plans-pricing
-random_paper: 29
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Lambda Rate Limits
@@ -208,7 +208,7 @@ rules:
 score:
   band: developing
   composite: 55.9
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 67.7
@@ -216,7 +216,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 61.7
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/screenshots/lambda-2026-06-20T184249.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ overview: 'G&C Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   G&C Mutual Bank''s developer surface includes authentication, documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 92
+random_paper: 48
 scopes:
 - name: Gc Mutual Bank Scopes
   scope_count: 9
@@ -162,7 +162,7 @@ scopes:
 score:
   band: thin
   composite: 33.3
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 52.2
@@ -170,7 +170,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 36.4
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,7 +188,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/screenshots/gc-mutual-bank-2026-07-21T114725.png
 security:

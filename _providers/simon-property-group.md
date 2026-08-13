@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: ShopSimon is Simon's e-commerce platform integrating online and offline retail. The ShopSimon Retailer Hub provides APIs for sellers to integrate product listings, inventory data, and order management
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: 'Simon Property Group''s AI Strategy: Analysis of ...'
   url: https://www.klover.ai/simon-property-group-ai-strategy-analysis-of-dominance-in-real-estate-ai/
-random_paper: 10
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Simon Property Group Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.5
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 12.9
@@ -148,10 +148,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.7
+  previous_composite: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/screenshots/simon-property-group-2026-06-20T193930.png
 security:
 - kind: domain-security

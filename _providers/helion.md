@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,11 +120,11 @@ overview: 'Helion Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Helion Energy''s developer surface includes FAQ, engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 59
+random_paper: 39
 score:
   band: minimal
   composite: 6.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.1
+  previous_composite: 6.4
   regulatory:
     applies: true
     matched_via: tags
@@ -140,7 +140,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

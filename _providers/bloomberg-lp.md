@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Bloomberg Lp Plans Pricing
   plan_count: 6
   slug: bloomberg-lp-plans-pricing
-random_paper: 58
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Bloomberg Lp Rate Limits
@@ -306,7 +306,7 @@ rules:
 score:
   band: strong
   composite: 60.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 72.4
@@ -314,7 +314,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.3
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -329,7 +329,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

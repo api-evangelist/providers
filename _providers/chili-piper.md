@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 16
 apis:
 - description: Official hosted remote MCP server for Chili Piper, served over streamable HTTP at https://fire.chilipiper.com/api/fire-edge/v1/org/mcp. Supports OAuth (Admin, browser-based) and API-key bearer authent
@@ -235,7 +235,7 @@ overview: 'Chili Piper publishes 15 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Chili Piper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 66
+random_paper: 30
 scopes:
 - name: Chili Piper Scopes
   scope_count: 0
@@ -244,7 +244,7 @@ scopes:
 score:
   band: strong
   composite: 60.2
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.9
@@ -252,7 +252,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 60.0
+  previous_composite: 60.2
   provenance:
     conformance: derived
     contracts:
@@ -263,7 +263,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

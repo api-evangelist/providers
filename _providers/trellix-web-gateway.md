@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -272,7 +272,7 @@ plans:
 - name: Trellix Web Gateway Plans Pricing
   plan_count: 1
   slug: trellix-web-gateway-plans-pricing
-random_paper: 78
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Trellix Web Gateway Rate Limits
@@ -297,7 +297,7 @@ rules:
 score:
   band: developing
   composite: 52.0
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.7
@@ -305,7 +305,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.8
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +314,8 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/screenshots/trellix-web-gateway-2026-06-20T195750.png
 security:
 - kind: authentication

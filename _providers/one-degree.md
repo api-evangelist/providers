@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -50,13 +50,10 @@ apis:
   name: One Degree Submissions API
   slug: one-degree-submissions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Search opportunities by location, then load the top result's details and schedule.
   name: One Degree — find and detail a nearby service
   slug: one-degree-find-services
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: postman
   name: One Degree
@@ -170,11 +167,11 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 59
+random_paper: 27
 score:
   band: thin
   composite: 41.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 55.9
@@ -182,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.2
+  previous_composite: 41.7
   provenance:
     conformance: derived
     contracts:
@@ -199,7 +196,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
 security:

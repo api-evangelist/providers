@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: API to manage AI Security Mailbox (formerly known as Abuse Mailbox)
@@ -237,11 +237,11 @@ overview: 'Abnormal AI publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: strong
   composite: 57.6
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.2
@@ -249,7 +249,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 56.3
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
@@ -260,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/screenshots/abnormal-2026-08-07T160818.png
 security:

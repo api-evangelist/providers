@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ overview: 'Glyphic Biotechnologies is profiled on the [APIs.io](https://apis.io/
 
 
   Glyphic Biotechnologies'' developer surface includes support and 8 more developer resources.'
-random_paper: 75
+random_paper: 115
 score:
   band: minimal
   composite: 11.2
@@ -99,7 +99,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glyphic-biotechnologies/refs/heads/main/screenshots/glyphic-biotechnologies-2026-07-25T215952.png
 security:

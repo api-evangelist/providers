@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -144,11 +144,11 @@ overview: 'Silmaril publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Silmaril''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 17 more developer resources.'
-random_paper: 49
+random_paper: 21
 score:
   band: thin
   composite: 32.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -156,12 +156,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 33.6
+  previous_composite: 32.5
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

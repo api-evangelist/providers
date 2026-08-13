@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1135,7 +1135,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 84
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1168,7 +1168,7 @@ rules:
 score:
   band: exemplar
   composite: 70.4
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 72.0
@@ -1176,7 +1176,7 @@ score:
     discoverability: 66.7
     governance: 69.8
     operational_transparency: 71.1
-  previous_composite: 73.8
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1194,7 +1194,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

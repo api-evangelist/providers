@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,16 +57,13 @@ apis:
   name: Clusters Registration API
   slug: clusters-registration-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Check whether a name is available, then build the EVM registration transaction data to sign.
   name: Check availability and build Clusters registration data
   slug: clusters-register-name
 - description: Bulk-resolve a cluster name to its address, then read the full cluster profile.
   name: Resolve a Clusters name to a wallet and profile
   slug: clusters-resolve-name
-artifact_total: 14
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -208,11 +205,11 @@ overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 73
+random_paper: 45
 score:
   band: developing
   composite: 48.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 59.7
@@ -220,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 48.9
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,7 +235,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:

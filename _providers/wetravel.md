@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 62
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Wetravel Rate Limits
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 65.0
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 49.4
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,7 +257,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

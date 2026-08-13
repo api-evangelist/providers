@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -118,11 +118,11 @@ overview: 'Truffle Security is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Truffle Security''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 69
+random_paper: 13
 score:
   band: thin
   composite: 36.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
@@ -130,11 +130,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 38.0
+  previous_composite: 36.9
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ plans:
 - name: Planet Labs Plans Pricing
   plan_count: 1
   slug: planet-labs-plans-pricing
-random_paper: 63
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Planet Labs Rate Limits
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.6
@@ -199,7 +199,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png
 security:

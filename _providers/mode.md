@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -189,11 +189,11 @@ overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: developing
   composite: 47.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.6
@@ -201,7 +201,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.6
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

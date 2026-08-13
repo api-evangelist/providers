@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: www.wyndhambusiness.com — the Wyndham Business corporate-travel program site — runs WordPress on WP Engine behind Cloudflare and leaves the standard WordPress REST API anonymously readable at /wp-json
@@ -228,7 +228,7 @@ overview: 'Wyndham Hotels & Resorts publishes 3 APIs on the [APIs.io](https://ap
 
 
   Wyndham Hotels & Resorts'' developer surface includes authentication, support, engineering blog, and 33 more developer resources.'
-random_paper: 68
+random_paper: 20
 scopes:
 - name: Wyndham Hotels Scopes
   scope_count: 1
@@ -250,7 +250,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

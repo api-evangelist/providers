@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -417,11 +417,11 @@ overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 87
+random_paper: 75
 score:
   band: strong
   composite: 59.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.7
@@ -429,7 +429,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 58.9
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -441,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:

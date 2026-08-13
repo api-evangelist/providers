@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,11 +108,11 @@ overview: 'Aurora Networks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Aurora Networks'' developer surface includes documentation, support, engineering blog, training material, and 12 more developer resources.'
-random_paper: 80
+random_paper: 28
 score:
   band: emerging
   composite: 14.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -120,7 +120,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: tags
@@ -128,7 +128,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-networks/refs/heads/main/screenshots/aurora-networks-2026-07-25T201750.png
 security:

@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -51,31 +51,68 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://mirado.ai/privacy
+- group: company
+  title: ''
+  type: About
+  url: https://www.mirado.ai/about
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/miradoai
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/MiradoAI
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mirado-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: 'Mirado sells an integration — publishers embed its card-linked offers in their own banking apps — but publishes nothing about it: there is no developer subdomain in DNS, the only non-marketing host is app.mirado.ai which serves a /login route to anonymous callers, and the sole onboarding path is the /get-started lead form ("submit your information and our team will get back to you") routed to partnerships@mirado.ai.'
+  evidence:
+  - status: 200
+    url: https://www.mirado.ai/get-started
+  - status: 200
+    url: https://app.mirado.ai/
+  - status: 404
+    url: https://mirado.ai/openapi.json
+  - status: 404
+    url: https://mirado.ai/llms.txt
+  - status: 404
+    url: https://mirado.ai/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
-description: Mirado is a modern rewards platform that connects marketers and publishers with consumers through a network of more than 100 million cardholders. It delivers targeted, card-linked offers through publisher audiences and gives marketers full transparency into attributed, incremental sales using first-party card and bank data. Marketers reach new audiences and drive revenue at lower advertising cost, while publishers monetize their audiences through rewarding customer experiences. Mirado is an early-stage company backed by Version One Ventures. As of this enrichment pass it publishes a marketing and onboarding presence at mirado.ai (marketers, publishers, about, blog, get-started) but no public developer portal, API documentation, or machine-readable API surface.
+description: Mirado is a B2B card-linked-offer and rewards infrastructure company that sits between marketers and publishers. Marketers — from Fortune 500 retailers to local businesses — fund cash-back offers that Mirado delivers into the apps of publishers such as banks and fintech apps, and Mirado attributes the resulting sales with first-party card and bank transaction data so marketers can measure incremental lift rather than impressions. The company states a reach of more than 100 million cardholders across 15+ financial partners, and describes itself as having evolved from its origins in consumer rewards into B2B advertising infrastructure. Mirado is an early-stage company backed by Version One Ventures. As of this enrichment pass (2026-08-12) it publishes a marketing site at mirado.ai (marketers, publishers, about, blog, get-started, privacy) and a login-gated customer console at app.mirado.ai, but no developer portal, no API documentation, and no machine-readable API surface of any
+  kind. Full contract discovery across all three hosts returned 404 on every OpenAPI, GraphQL, MCP, llms.txt and /.well-known/ path. Onboarding for both sides of the marketplace is a lead-capture form handled by partnerships@mirado.ai.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirado.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Mirado
 nav: Providers
 network: true
 overview: 'Mirado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rewards, Loyalty, Card-Linked Offers, and Advertising.
 
 
-  Mirado''s developer surface includes engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 56
+  Mirado''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+plans:
+- name: Mirado Plans Pricing
+  plan_count: 0
+  slug: mirado-plans-pricing
+random_paper: 36
 score:
   band: minimal
-  composite: 11.0
-  delta: 0.8
+  composite: 11.6
+  delta: 0.6
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.2
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
@@ -83,7 +120,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirado/refs/heads/main/screenshots/mirado-2026-08-07T183707.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -153,7 +153,7 @@ plans:
 - name: Grpc Plans Pricing
   plan_count: 3
   slug: grpc-plans-pricing
-random_paper: 80
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Grpc Rate Limits
@@ -170,7 +170,7 @@ rules:
 score:
   band: developing
   composite: 44.4
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 64.3
@@ -178,7 +178,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 39.5
-  previous_composite: 51.3
+  previous_composite: 44.4
   provenance:
     contracts:
       callable: 0.0
@@ -186,8 +186,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security

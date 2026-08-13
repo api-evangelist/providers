@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Trengo Plans Pricing
   plan_count: 4
   slug: trengo-plans-pricing
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Trengo Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.1
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/screenshots/trengo-2026-06-20T195707.png
 security:

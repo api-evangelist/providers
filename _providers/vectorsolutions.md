@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -198,11 +198,11 @@ overview: 'Vector Solutions publishes 14 APIs on the [APIs.io](https://apis.io/)
 
 
   Vector Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 43
+random_paper: 107
 score:
   band: thin
   composite: 35.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 15.3
@@ -210,7 +210,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 36.7
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

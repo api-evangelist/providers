@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -497,7 +497,7 @@ plans:
 - name: Plaid Plans Pricing
   plan_count: 3
   slug: plaid-plans-pricing
-random_paper: 58
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Plaid Rate Limits
@@ -522,7 +522,7 @@ rules:
 score:
   band: strong
   composite: 64.1
-  delta: -11.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 68.5
@@ -530,7 +530,7 @@ score:
     discoverability: 75.9
     governance: 62.5
     operational_transparency: 60.5
-  previous_composite: 75.2
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -548,8 +548,8 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:
 - kind: authentication

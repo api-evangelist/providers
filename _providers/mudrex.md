@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -172,7 +172,7 @@ overview: 'Mudrex publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Mudrex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 81
+random_paper: 61
 rate_limits:
 - limit_count: 13
   name: Mudrex Rate Limits
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.5
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 55.4
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,7 +200,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/screenshots/mudrex-2026-08-07T184429.png
 security:

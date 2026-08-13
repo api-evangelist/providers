@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: BankUnited's first-party developer portal ("API Experience Hub"), a Salesforce Experience Cloud site backed by MuleSoft Anypoint Exchange. Provides self-service developer registration, OAuth applicati
@@ -107,7 +107,7 @@ overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   BankUnited''s developer surface includes authentication, signup flow, developer portal, engineering blog, and 13 more developer resources.'
-random_paper: 17
+random_paper: 101
 scopes:
 - name: Bankunited Scopes
   scope_count: 36
@@ -116,7 +116,7 @@ scopes:
 score:
   band: emerging
   composite: 27.0
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -124,7 +124,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 29.0
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -134,7 +134,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankunited/refs/heads/main/screenshots/bankunited-2026-07-25T202350.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Juno Journey is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Juno Journey''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 109
+random_paper: 69
 score:
   band: emerging
   composite: 20.5
@@ -101,7 +101,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juno-journey/refs/heads/main/screenshots/juno-journey-2026-07-25T223331.png
 security:

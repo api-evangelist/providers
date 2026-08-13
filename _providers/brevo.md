@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -390,27 +390,27 @@ jsonld:
   slug: brevo-context
 layout: provider
 modified: '2026-05-19'
-name: brevo
+name: Brevo
 nav: Providers
 network: true
-overview: 'brevo publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 20 more.
+overview: 'Brevo publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 20 more. Tagged areas include Marketing, Marketing Automation, Email Marketing, Transactional Email, and SMS Marketing.
 
 
-  The brevo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Brevo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  brevo''s developer surface includes authentication and 9 more developer resources.'
+  Brevo''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Brevo Plans Pricing
   plan_count: 4
   slug: brevo-plans-pricing
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 10
   name: Brevo Rate Limits
   slug: brevo-rate-limits
 rules:
-- name: brevo API Rules
+- name: Brevo API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -418,7 +418,7 @@ rules:
     info: 1
     warn: 6
   slug: brevo-asyncapi-spectral-rules
-- name: brevo API Rules
+- name: Brevo API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -428,16 +428,16 @@ rules:
   slug: brevo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -7.8
+  composite: 37.2
+  delta: -1.4
   facets:
     commercial_clarity: 15.8
     contract_quality: 80.4
     developer_ergonomics: 10.9
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 47.9
     operational_transparency: 13.2
-  previous_composite: 46.4
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -445,9 +445,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:
 - kind: authentication
@@ -459,4 +465,15 @@ security:
   slug: brevo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: brevo
+tags:
+- Marketing
+- Marketing Automation
+- Email Marketing
+- Transactional Email
+- SMS Marketing
+- Campaigns
+- CRM
+- Email
+- SMS
+- Automation
 ---

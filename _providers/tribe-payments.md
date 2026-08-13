@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -218,11 +218,11 @@ overview: 'Tribe Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Tribe Payments'' developer surface includes authentication, documentation, API reference, changelog, engineering blog, support, getting-started guide, and 23 more developer resources.'
-random_paper: 68
+random_paper: 20
 score:
   band: developing
   composite: 46.7
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 56.4
@@ -230,7 +230,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 50.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -248,7 +248,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

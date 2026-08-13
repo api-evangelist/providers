@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ overview: 'Candid Co. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Candid Co.''s developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 54
+random_paper: 26
 score:
   band: emerging
   composite: 13.0
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -79,7 +79,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.2
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-co/refs/heads/main/screenshots/candid-co-2026-07-25T204335.png
 security:

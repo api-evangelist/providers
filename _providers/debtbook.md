@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -147,7 +147,7 @@ overview: 'DebtBook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DebtBook''s developer surface includes support, engineering blog, pricing, signup flow, legal docs, changelog, authentication, and 21 more developer resources.'
-random_paper: 30
+random_paper: 2
 score:
   band: thin
   composite: 31.7
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/screenshots/debtbook-2026-08-07T164221.png
 security:

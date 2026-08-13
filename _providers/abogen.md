@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,7 +55,7 @@ overview: 'Abogen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Abogen''s developer surface includes support and 2 more developer resources.'
-random_paper: 40
+random_paper: 20
 score:
   band: minimal
   composite: 7.5
@@ -75,7 +75,7 @@ score:
     regime_id: health
     score: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abogen/refs/heads/main/screenshots/abogen-2026-07-25T181359.png
 slug: abogen

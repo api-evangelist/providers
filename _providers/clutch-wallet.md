@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ name: Clutch Wallet
 nav: Providers
 network: true
 overview: Clutch Wallet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Cryptocurrency, Wallet, and DeFi.
-random_paper: 61
+random_paper: 17
 score:
   band: minimal
   composite: 5.9
@@ -72,7 +72,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/screenshots/clutch-wallet-2026-07-25T205753.png
 slug: clutch-wallet

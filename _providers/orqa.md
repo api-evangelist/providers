@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ overview: 'Orqa is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Orqa''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 87
+random_paper: 75
 score:
   band: minimal
   composite: 8.4
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orqa/refs/heads/main/screenshots/orqa-2026-08-07T190951.png
 security:

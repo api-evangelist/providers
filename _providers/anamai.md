@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -270,7 +270,7 @@ overview: 'Anam.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 35
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits
@@ -278,7 +278,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.2
@@ -286,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 62.5
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

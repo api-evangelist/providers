@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ overview: 'Splitgate publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 45
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Splitgate Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.1
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 61.2
@@ -156,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.9
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

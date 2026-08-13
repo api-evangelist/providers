@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 1
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits
@@ -302,7 +302,7 @@ rules:
 score:
   band: strong
   composite: 62.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.3
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 53.1
     operational_transparency: 76.3
-  previous_composite: 64.5
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,7 +328,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:

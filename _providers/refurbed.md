@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 18
 apis:
 - description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
@@ -191,7 +191,7 @@ overview: 'Refurbed publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refurbed''s developer surface includes authentication, documentation, support, API reference, getting-started guide, and 17 more developer resources.'
-random_paper: 35
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits
@@ -199,7 +199,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 54.9
@@ -207,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 33.5
+  previous_composite: 32.0
   provenance:
     conformance: derived
     contracts:
@@ -224,7 +224,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -124,13 +124,10 @@ apis:
   name: Coinme Widget API
   slug: coinme-widget-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authorize as a partner, KYC-onboard an end user, create an executable buy quote, and execute it against the quote. Operation ids are verified against openapi/coinme-caas-openapi.json.
   name: Coinme — onboard a customer and buy crypto
   slug: coinme-onboard-and-buy
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Coinme Webhooks
@@ -376,7 +373,7 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 55
+random_paper: 35
 scopes:
 - name: Coinme Scopes
   scope_count: 3
@@ -385,7 +382,7 @@ scopes:
 score:
   band: strong
   composite: 57.5
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 70.6
@@ -393,7 +390,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 60.9
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -411,7 +408,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

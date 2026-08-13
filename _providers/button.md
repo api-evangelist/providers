@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,16 +57,13 @@ apis:
   name: Button Transactions API
   slug: button-transactions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Fetch the real-time affiliate offers available to a Publisher user, then generate a fully attributable Button-wrapped link to the chosen Brand destination.
   name: Fetch offers and generate an attributable link
   slug: button-offer-to-link
 - description: List your Button billing accounts (one per currency), then page through all commission transactions across every account to reconcile affiliate earnings.
   name: Reconcile affiliate commission transactions
   slug: button-reconcile-transactions
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: Button delivers signed HTTP POST webhooks to a Publisher-configured URL when a transaction takes place based on traffic the Publisher drove to a Brand. Each delivery carries a Transaction in three pos
   name: Button Transaction Webhooks
@@ -219,11 +216,11 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 88
+random_paper: 68
 score:
   band: developing
   composite: 50.2
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.2
@@ -231,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.0
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/screenshots/button-2026-07-25T204122.png
 security:

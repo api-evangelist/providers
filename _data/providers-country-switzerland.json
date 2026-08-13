@@ -1,6 +1,6 @@
 {
- "total": 22,
- "shown": 22,
+ "total": 24,
+ "shown": 24,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 48.9,
      "agent_band": "agent-ready",
@@ -75,7 +75,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -131,7 +131,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
@@ -169,7 +169,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -214,7 +214,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -252,7 +252,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -297,7 +297,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -326,8 +326,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "EPFL",
@@ -345,7 +345,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -390,7 +390,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -428,7 +428,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 28.8,
      "agent_band": "agent-aware",
@@ -466,7 +466,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -494,6 +494,94 @@
       "dry_run_mode": false
      },
      "rank": 11
+    },
+    {
+     "name": "Exentis Group",
+     "slug": "exentis-group",
+     "description": "Exentis Group AG is a Swiss industrial technology company headquartered at Im Stetterfeld 2 in Stetten (canton Aargau), near Zurich, with facilities and subsidiaries in Switzerland, Germany and the United States. It develops and sells the Exentis 3D Screen Printing platform — an additive manufacturing technology that builds parts layer by layer at room temperature through screen printing followed by sintering, with no lasers, no support structures and no rework, reaching wall thicknesses and cavities down to roughly 70 micrometres and producing undercuts and closed cavities. The company positions the platform for industrial series production rather than prototyping: a single production system is marketed as capable of millions of components per year, and in pharmaceuticals the process is used to mass-produce tablets with adjustable, controlled drug-release profiles. Its named market segments are pharma, new energy and ultra-fine industrial structures, in metals, technical ceramics and polymers, alongside cleanroom and bioprinting configurations. Exentis holds ISO 9001:2015 certification for its Stetten head office and all German locations, and in Q4 2024 reported roughly USD 22 million in orders for nine production systems shipping to United States customers. It is a manufacturing-equipment vendor, not a software company: it publishes no developer portal, no product API, no SDKs, no pricing and no status page. The only machine-readable API surface on its public host is the WordPress REST API behind www.exentis-group.com, which serves the press room, blog, corporate pages, media library, taxonomies, site search and Polylang language configuration as JSON, read-only without credentials — plus an MCP server endpoint mounted by the WordPress MCP adapter, which is present but returns 401 to anonymous callers.",
+     "score": 36.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 56.0,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "CUTISS",
+     "slug": "cutiss",
+     "description": "CUTISS AG is a Swiss late-stage clinical TechBio company headquartered at the Bio-Technopark in Schlieren, Zurich, founded in 2017 as a spin-off of the Tissue Biology Research Unit (TBRU) at the University of Zurich and the University Children's Hospital Zurich, and accelerated through Wyss Zurich. Its lead product, denovoSkin, is a first-in-class bioengineered, personalized dermo-epidermal skin graft grown from a small biopsy of a patient's own skin to treat large and deep skin defects in children and adults; it holds Orphan Drug Designation for burns from Swissmedic, the EMA and the FDA and is in late-stage clinical development. With CSEM the company built denovoCast, described as the world's first machine for automated production of personalized human skin tissue, funded in part by Innosuisse and EU Horizon 2020. CUTISS has raised roughly CHF 50 million and employs around 50 people. It is a therapeutics manufacturer, not a software vendor: it publishes no product API, no developer portal, no SDKs and no pricing. The only machine-readable API on its public host is the WordPress REST API behind cutiss.swiss, which serves the newsroom, blog, corporate pages, team directory, teams taxonomy and media library as JSON, read-only without credentials.",
+     "score": 32.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 53.7,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
     }
    ]
   },
@@ -502,8 +590,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Kuehne+Nagel",
@@ -521,7 +609,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -541,7 +629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "MindMaze",
@@ -559,7 +647,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -586,7 +674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Climeworks",
@@ -604,7 +692,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -631,7 +719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "University of Bern",
@@ -649,7 +737,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -669,7 +757,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
+    },
+    {
+     "name": "Ecorobotix",
+     "slug": "ecorobotix",
+     "description": "Ecorobotix SA is a Swiss agricultural technology company founded in 2011 and headquartered in Yverdon-les-Bains, Switzerland, building AI-driven ultra-high-precision (UHP) crop-care equipment. Its flagship ARA smart sprayer combines Plant-by-Plant AI detection with UHP-Spray-Technology to scan a field, classify crops versus weeds in under 250 milliseconds, and place treatment on a roughly six-by-six centimetre target, cutting herbicide and plant-protection input volumes by up to 95 percent compared with broadcast spraying. The product family spans the ARA620 and ARA595 UHP sprayers for row and vegetable crops, the ALBA UHP sprayer for turf, and a library of crop-specific algorithms for broccoli, carrots, onions and chicory. More than 1,000 ARA units have been deployed across Europe, the United Kingdom, North America, South America and Australia/New Zealand. Machine telemetry, treatment maps and fleet data are delivered to customers through the Ecorobotix cloud portal, which is backed by an authenticated REST API; that API is not offered as a public developer program.",
+     "score": 17.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     },
     {
      "name": "opendata.swiss",
@@ -687,7 +812,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -714,7 +839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 19
     },
     {
      "name": "KITRO",
@@ -732,7 +857,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -752,7 +877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 20
     }
    ]
   },
@@ -780,7 +905,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -807,7 +932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 21
     },
     {
      "name": "Bright Peak Therapeutics",
@@ -824,7 +949,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -851,7 +976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 22
     },
     {
      "name": "Swiss Education Group",
@@ -868,7 +993,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -888,7 +1013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 23
     },
     {
      "name": "Myriad",
@@ -905,7 +1030,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-11",
+     "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -932,23 +1057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "CUTISS",
-     "slug": "cutiss",
-     "description": "CUTISS AG is a Swiss late-stage clinical TechBio company headquartered at the Bio-Technopark in Schlieren, Zurich, founded in 2017 as a spin-off of the Tissue Biology Research Unit (TBRU) at the University of Zurich and the University Children's Hospital Zurich, and accelerated through Wyss Zurich. Its lead product, denovoSkin, is a first-in-class bioengineered, personalized dermo-epidermal skin graft grown from a small biopsy of a patient's own skin to treat large and deep skin defects in children and adults; it holds Orphan Drug Designation for burns from Swissmedic, the EMA and the FDA and is in late-stage clinical development. With CSEM the company built denovoCast, described as the world's first machine for automated production of personalized human skin tissue, funded in part by Innosuisse and EU Horizon 2020. CUTISS has raised roughly CHF 50 million and employs around 50 people. It is a therapeutics manufacturer, not a software vendor: it publishes no product API, no developer portal, no SDKs and no pricing. The only machine-readable API on its public host is the WordPress REST API behind cutiss.swiss, which serves the newsroom, blog, corporate pages, team directory, teams taxonomy and media library as JSON, read-only without credentials.",
-     "rank": 22
+     "rank": 24
     }
    ]
   }

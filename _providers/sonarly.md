@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Read triaged, deduplicated bugs and their analysis runs.
@@ -150,7 +150,7 @@ plans:
 - name: Sonarly Plans
   plan_count: 4
   slug: sonarly-plans
-random_paper: 80
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Sonarly Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 66.2
@@ -166,7 +166,7 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 34.2
-  previous_composite: 48.9
+  previous_composite: 48.3
   provenance:
     conformance: derived
     contracts:
@@ -177,7 +177,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

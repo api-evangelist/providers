@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 11
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Zimmer Biomet Debuts First-of-its-Kind Artificial Intelligence ...
   url: https://orthofeed.com/2022/05/10/zimmer-biomet-debuts-first-of-its-kind-artificial-intelligence-capabilities-for-omni-suite-intelligent-operating-room/
-random_paper: 69
+random_paper: 25
 score:
   band: minimal
   composite: 10.1
@@ -144,7 +144,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zimmer-biomet/refs/heads/main/screenshots/zimmer-biomet-2026-06-20T201909.png
 security:

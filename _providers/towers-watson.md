@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ press:
 - date: '2026-05-25'
   title: What an unforgettable Innovation Day London | AI Made Real ...
   url: https://www.instagram.com/reel/DYg0Pl2jvUE/
-random_paper: 113
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Towers Watson Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: thin
   composite: 36.5
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 66.6
@@ -197,7 +197,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 43.7
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Towers Watson Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: PriceSmart, Inc. Selects RELEX Solutions to Optimize Their ...
   url: https://www.relexsolutions.com/news/pricesmart-inc-selects-relex-solutions-to-optimize-their-supply-chain-and-retail-planning/
-random_paper: 38
+random_paper: 2
 score:
   band: minimal
   composite: 3.3
@@ -85,7 +85,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 3.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricesmart/refs/heads/main/screenshots/pricesmart-2026-06-20T192101.png
 security:

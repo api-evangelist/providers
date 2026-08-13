@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ name: Nvp
 nav: Providers
 network: true
 overview: Nvp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Finance, Investment, and Norwest Venture Partners.
-random_paper: 108
+random_paper: 100
 score:
   band: minimal
   composite: 5.0
@@ -62,7 +62,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvp/refs/heads/main/screenshots/nvp-2026-08-07T185815.png
 slug: nvp

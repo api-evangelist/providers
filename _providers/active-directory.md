@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
   slug: active-directory-plans-pricing
-random_paper: 38
+random_paper: 102
 rate_limits:
 - limit_count: 7
   name: Active Directory Rate Limits
@@ -427,7 +427,7 @@ scopes:
 score:
   band: strong
   composite: 63.5
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 74.5
@@ -435,7 +435,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 72.0
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:
 - kind: authentication

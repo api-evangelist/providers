@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -32,16 +32,13 @@ apis:
   name: Duuo Platform API
   slug: duuo-platform-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'The full Duuo event insurance partner flow in Duuo''s mandatory order: create the entity, price the event, retrieve the quote for display, then generate the Duuo-hosted payment redirect. With bindOnPay'
   name: Duuo event insurance — quote and bind
   slug: cooperators-event-insurance-quote-and-bind
 - description: 'The full Duuo tenant (renters) insurance partner flow in Duuo''s mandatory order: check eligibility with consent, add the risk detail and price it into four options, record the selection and any additi'
   name: Duuo tenant insurance — quote and bind
   slug: cooperators-tenant-insurance-quote-and-bind
-artifact_total: 8
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -164,11 +161,11 @@ overview: 'The Co-operators publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 21 more developer resources.'
-random_paper: 41
+random_paper: 1
 score:
   band: emerging
   composite: 23.6
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.7
@@ -176,7 +173,7 @@ score:
     discoverability: 66.7
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 26.2
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,7 +191,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:

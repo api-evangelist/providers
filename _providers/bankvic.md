@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,16 +60,13 @@ apis:
   name: BankVic Banking Products API
   slug: bankvic-banking-products-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'For an accredited Data Recipient (ADR) holding an active consumer consent: list the member''s accounts, read one account''s current balance, then page its transactions. Requires the CDR OIDC/FAPI 2.0 au'
   name: BankVic consented account data overview
   slug: bankvic-account-data-overview
 - description: Discover BankVic's public product catalogue then drill into one product's full terms via the unauthenticated CDR Product Reference Data (PRD) surface. Runnable as-is against the live endpoint (no cons
   name: BankVic product discovery
   slug: bankvic-product-discovery
-artifact_total: 15
+artifact_total: 14
 common:
 - group: agent
   title: ''
@@ -195,7 +192,7 @@ overview: 'BankVic publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BankVic''s developer surface includes authentication, documentation, getting-started guide, API reference, support, signup flow, and 21 more developer resources.'
-random_paper: 38
+random_paper: 14
 scopes:
 - name: Bankvic Scopes
   scope_count: 9
@@ -204,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 46.2
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.2
@@ -212,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 48.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,7 +227,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
 security:

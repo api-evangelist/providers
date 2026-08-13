@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Photon's native GraphQL Clinical API for managing patients, prescriptions, orders, pharmacies, the treatment/medication catalog, drug-drug and drug-allergy interaction screening, webhooks, and organiz
@@ -176,7 +176,7 @@ overview: 'Photon publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 84
+random_paper: 64
 scopes:
 - name: Photon Scopes
   scope_count: 6
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -193,7 +193,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 50.0
+  previous_composite: 48.8
   provenance:
     conformance: derived
     mcp: derived
@@ -205,7 +205,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

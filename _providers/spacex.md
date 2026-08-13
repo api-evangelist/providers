@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -351,7 +351,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 64
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits
@@ -376,7 +376,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 27.5
@@ -384,7 +384,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 37.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -399,7 +399,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Primer Plans Pricing
   plan_count: 2
   slug: primer-plans-pricing
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Primer Rate Limits
@@ -295,7 +295,7 @@ rules:
 score:
   band: developing
   composite: 53.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 66.7
@@ -303,7 +303,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 53.9
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -318,7 +318,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:

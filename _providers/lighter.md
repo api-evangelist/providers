@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 13
 apis:
 - description: The account API from Lighter — 26 operation(s) for account.
@@ -229,7 +229,7 @@ plans:
 - name: Lighter Plans
   plan_count: 4
   slug: lighter-plans
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Lighter Rate Limits
@@ -237,7 +237,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
     contract_quality: 64.9
@@ -245,7 +245,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 61.1
+  previous_composite: 60.6
   provenance:
     conformance: derived
     contracts:
@@ -262,7 +262,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

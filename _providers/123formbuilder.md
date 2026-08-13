@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -376,7 +376,7 @@ plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
   slug: 123formbuilder-plans-pricing
-random_paper: 53
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: 123Formbuilder Rate Limits
@@ -401,7 +401,7 @@ rules:
 score:
   band: strong
   composite: 64.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 77.6
@@ -409,7 +409,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 65.3
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     contracts:
@@ -424,7 +424,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:

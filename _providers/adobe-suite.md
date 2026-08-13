@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 23
 apis:
 - description: Automate Photoshop workflows including image editing, layer manipulation, and batch processing.
@@ -194,7 +194,7 @@ plans:
 - name: Adobe Suite Plans Pricing
   plan_count: 3
   slug: adobe-suite-plans-pricing
-random_paper: 62
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Adobe Suite Rate Limits
@@ -202,7 +202,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 32.3
@@ -210,10 +210,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 42.2
+  previous_composite: 34.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png
 security:
 - kind: domain-security

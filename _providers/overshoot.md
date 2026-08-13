@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Pricing, prepaid balance, and checkout.
@@ -165,7 +165,7 @@ overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 73
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Overshoot Rate Limits
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 48.8
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 43.4
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:

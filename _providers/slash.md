@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -372,7 +372,7 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 75
+random_paper: 59
 scopes:
 - name: Slash Scopes
   scope_count: 0
@@ -381,7 +381,7 @@ scopes:
 score:
   band: strong
   composite: 58.9
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.4
@@ -389,7 +389,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 62.4
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,7 +407,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

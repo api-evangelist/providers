@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 38
 apis:
 - description: With KPN Number Verify, you can quickly check whether the mobile number someone provides is the same as their SIM card.
@@ -342,7 +342,7 @@ overview: 'KPN publishes 34 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 38 more developer resources.'
-random_paper: 97
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Kpn Rate Limits
@@ -355,7 +355,7 @@ scopes:
 score:
   band: strong
   composite: 58.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.6
@@ -363,7 +363,7 @@ score:
     discoverability: 66.7
     governance: 20.8
     operational_transparency: 94.7
-  previous_composite: 63.3
+  previous_composite: 58.9
   provenance:
     conformance: first-party
     contracts:
@@ -380,7 +380,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:

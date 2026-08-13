@@ -1,6 +1,103 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 14.9
+  scored_at: '2026-08-12'
 api_count: 1
-artifact_total: 0
+apis:
+- description: A customer-only HTTP API host operated by GoSecure (formerly CounterTack) behind the GoSecure Titan platform. The host answers HTTP 401 on every path probed — including /robots.txt and every /.well-kn
+  name: GoSecure Titan Platform API
+  slug: gosecure-titan-platform-api
+artifact_total: 7
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gosecure.ai/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.gosecure.ai/support
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/GoSecure
+- group: start
+  title: ''
+  type: Login
+  url: https://titan.gosecure.net/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/countertack-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/countertack-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/countertack-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/countertack-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.gosecure.ai/.well-known/security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/countertack-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/countertack-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/countertack-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/countertack-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/countertack-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/countertack-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/countertack-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/countertack-llms.txt
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/countertack_stock/
 coverage:
   checked: '2026-08-11'
   detail: CounterTack now trades as GoSecure, and its live Titan API host api.gosecure.net returns HTTP 401 on every path probed — including /robots.txt and every /.well-known/ path — while the Titan console sits behind a Keycloak tenant login, so the contract and reference are reachable only by an existing GoSecure customer.
@@ -25,7 +122,49 @@ modified: '2026-08-11'
 name: CounterTack
 nav: Providers
 network: true
-random_paper: 27
+overview: 'CounterTack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Endpoint Security, and Endpoint Detection and Response.
+
+
+  CounterTack''s developer surface includes support, authentication, and 16 more developer resources.'
+plans:
+- name: Countertack Plans Pricing
+  plan_count: 0
+  slug: countertack-plans-pricing
+random_paper: 107
+rate_limits:
+- limit_count: 0
+  name: Countertack Rate Limits
+  slug: countertack-rate-limits
+scopes:
+- name: Countertack Scopes
+  scope_count: 13
+  slug: countertack-scopes
+  summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
+score:
+  band: emerging
+  composite: 17.9
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 0.0
+    developer_ergonomics: 15.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 15.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-12'
+security:
+- kind: authentication
+  name: Countertack Authentication
+  slug: countertack-authentication
+  summary_line: openIdConnect/oauth2/mutualTLS · 2 schemes
+- kind: domain-security
+  name: Countertack Domain Security
+  slug: countertack-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Countertack Vulnerability Disclosure
+  slug: countertack-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: countertack
 tags:
 - Company
@@ -37,4 +176,5 @@ tags:
 - Threat Detection
 - Incident Response
 - SIEM
+website: https://www.gosecure.ai/
 ---

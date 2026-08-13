@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Ping Identity Plans Pricing
   plan_count: 3
   slug: ping-identity-plans-pricing
-random_paper: 73
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Ping Identity Rate Limits
@@ -190,7 +190,7 @@ scopes:
 score:
   band: thin
   composite: 39.2
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 50.7
@@ -198,7 +198,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 47.5
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
 security:
 - kind: authentication

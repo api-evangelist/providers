@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Create and populate datasets that models train on.
@@ -167,11 +167,11 @@ overview: 'Akkio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Da
 
 
   Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 63
+random_paper: 47
 score:
   band: developing
   composite: 47.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.5
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 48.0
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akkio/refs/heads/main/screenshots/akkio-2026-07-25T195516.png
 security:

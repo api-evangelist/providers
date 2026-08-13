@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -465,7 +465,7 @@ overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
-random_paper: 28
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: 1Fort Rate Limits
@@ -473,7 +473,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.1
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.5
@@ -481,7 +481,7 @@ score:
     discoverability: 63.0
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 54.9
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,7 +499,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:

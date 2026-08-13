@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 65
+random_paper: 45
 scopes:
 - name: Holidu Scopes
   scope_count: 0
@@ -277,7 +277,7 @@ scopes:
 score:
   band: developing
   composite: 48.8
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 65.6
@@ -285,7 +285,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 49.6
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,7 +297,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

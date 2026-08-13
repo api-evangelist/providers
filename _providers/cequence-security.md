@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Enterprise AI Gateway that makes applications agent-ready through governed Model Context Protocol integration. Register a REST API from its OpenAPI spec (or proxy a third-party remote MCP server) and '
@@ -150,7 +150,7 @@ overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Cequence Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 20 more developer resources.'
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Cequence Security Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -166,13 +166,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 39.6
+  previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/screenshots/cequence-security-2026-08-07T163243.png
 security:

@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Kerberos
 nav: Providers
 network: true
-random_paper: 49
+random_paper: 21
 slug: kerberos
 tags:
 - Authentication

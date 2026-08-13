@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Portico Gateway is Heartland's primary payment processing API for card-not-present and ecommerce transactions, supporting authorization, capture, refund, void, recurring billing, tokenization, and
@@ -128,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: Liquid Payments' Integration with Heartland, a Global ...
   url: https://www.fintechfutures.com/press-releases/liquid-payments-integration-with-heartland-a-global-payments-company-is-good-news-for-healthcare-providers
-random_paper: 43
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Heartland Payment Systems Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.6
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.4
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: tags
@@ -152,7 +152,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heartland-payment-systems/refs/heads/main/screenshots/heartland-payment-systems-2026-06-20T182615.png
 security:

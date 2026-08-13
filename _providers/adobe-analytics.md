@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -747,7 +747,7 @@ plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
   slug: adobe-analytics-plans-pricing
-random_paper: 12
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Adobe Analytics Rate Limits
@@ -780,7 +780,7 @@ rules:
 score:
   band: strong
   composite: 61.6
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 74.6
@@ -788,7 +788,7 @@ score:
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 44.7
-  previous_composite: 70.0
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -799,8 +799,8 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication

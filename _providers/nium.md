@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Cross-border payouts to bank accounts, cards and wallets in 220+ countries with real-time delivery in 100+.
@@ -79,7 +79,7 @@ plans:
 - name: Nium Plans Pricing
   plan_count: 1
   slug: nium-plans-pricing
-random_paper: 93
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Nium Rate Limits
@@ -87,7 +87,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.1
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -95,7 +95,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.5
+  previous_composite: 10.1
   regulatory:
     applies: true
     matched_via: tags
@@ -103,7 +103,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nium/refs/heads/main/screenshots/nium-2026-06-20T190335.png
 security:

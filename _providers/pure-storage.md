@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -926,7 +926,7 @@ plans:
 - name: Pure Storage Plans Pricing
   plan_count: 1
   slug: pure-storage-plans-pricing
-random_paper: 86
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Pure Storage Rate Limits
@@ -951,7 +951,7 @@ rules:
 score:
   band: developing
   composite: 48.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.1
@@ -959,7 +959,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -968,7 +968,7 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -181,7 +181,7 @@ overview: 'Memories publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Memories'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Memories Rate Limits
@@ -189,7 +189,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 66.2
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 54.2
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memories/refs/heads/main/screenshots/memories-2026-08-07T172506.png
 security:

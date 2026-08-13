@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ overview: 'Wiselayer is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wiselayer''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 53
+random_paper: 21
 score:
   band: emerging
   composite: 15.4
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,11 +104,11 @@ overview: 'Telekinesis.ai is profiled on the [APIs.io](https://apis.io/) network
 
 
   Telekinesis.ai''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 9 more developer resources.'
-random_paper: 110
+random_paper: 66
 score:
   band: emerging
   composite: 24.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.7
+  previous_composite: 24.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

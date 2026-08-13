@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -240,7 +240,7 @@ plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 61
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.5
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 64.2
@@ -256,7 +256,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 58.9
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,7 +274,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

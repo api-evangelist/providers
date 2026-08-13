@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Meddra Plans Pricing
   plan_count: 3
   slug: meddra-plans-pricing
-random_paper: 41
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Meddra Rate Limits
@@ -141,7 +141,7 @@ rules:
 score:
   band: thin
   composite: 37.8
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 67.2
@@ -149,7 +149,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 46.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/screenshots/meddra-2026-06-20T185114.png
 security:
 - kind: authentication

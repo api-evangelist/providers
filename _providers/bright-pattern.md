@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -228,11 +228,11 @@ overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 59
+random_paper: 11
 score:
   band: developing
   composite: 50.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.4
@@ -240,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 51.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,7 +258,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

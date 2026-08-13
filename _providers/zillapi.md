@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -203,7 +203,7 @@ plans:
 - name: Zillapi Plans
   plan_count: 4
   slug: zillapi-plans
-random_paper: 61
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Zillapi Rate Limits
@@ -216,7 +216,7 @@ scopes:
 score:
   band: strong
   composite: 65.0
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 69.1
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 60.6
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,7 +236,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

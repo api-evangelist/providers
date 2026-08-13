@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Openpipe Plans Pricing
   plan_count: 1
   slug: openpipe-plans-pricing
-random_paper: 52
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Openpipe Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 50.7
@@ -155,7 +155,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.7
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -164,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:

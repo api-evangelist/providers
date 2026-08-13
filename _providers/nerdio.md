@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -187,11 +187,11 @@ overview: 'Nerdio publishes 1 API on the [APIs.io](https://apis.io/) network: Ma
 
 
   Nerdio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 61
+random_paper: 41
 score:
   band: developing
   composite: 51.3
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.5
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 52.5
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

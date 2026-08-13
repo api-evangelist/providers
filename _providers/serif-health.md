@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Serif Health Plans Pricing
   plan_count: 4
   slug: serif-health-plans-pricing
-random_paper: 52
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Serif Health Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.2
@@ -137,7 +137,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 36.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

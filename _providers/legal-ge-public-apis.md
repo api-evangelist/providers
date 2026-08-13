@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 68
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Legal Ge Public Apis Rate Limits
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.6
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 53.5
@@ -185,7 +185,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,7 +197,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

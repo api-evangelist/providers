@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The BAXUS backend service (NestJS) that powers the marketplace and BoozApp: bottle and listing search, marketplace listings, and user "bar" collections. Undocumented public/read endpoints are evidence'
@@ -72,7 +72,7 @@ name: Baxus
 nav: Providers
 network: true
 overview: Baxus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Solana, and NFT.
-random_paper: 83
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Baxus Rate Limits
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.8
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -88,9 +88,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.0
+  previous_composite: 17.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxus/refs/heads/main/screenshots/baxus-2026-07-25T202441.png
 security:

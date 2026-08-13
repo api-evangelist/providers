@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,13 +75,10 @@ apis:
   name: Telcel Mobile Authentication APIs
   slug: telcel-mobile-authentication-apis
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: ''
   name: America Movil Webhooks
@@ -272,7 +269,7 @@ plans:
 - name: America Movil Plans
   plan_count: 2
   slug: america-movil-plans
-random_paper: 42
+random_paper: 118
 rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits
@@ -285,7 +282,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.9
@@ -293,7 +290,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 56.4
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,7 +308,7 @@ score:
     regime_id: telecommunications
     score: 52.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:

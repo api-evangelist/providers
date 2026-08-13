@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 72
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
@@ -236,7 +236,7 @@ scopes:
 score:
   band: developing
   composite: 50.8
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 59.2
@@ -244,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.1
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +262,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

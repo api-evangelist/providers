@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust — 7 operation(s) for client-api-assessment-rest-resource.
@@ -200,11 +200,11 @@ overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VISO Trust''s developer surface includes documentation, API reference, quickstart, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 28
+random_paper: 112
 score:
   band: developing
   composite: 51.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 60.9
@@ -212,7 +212,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 52.2
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -223,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

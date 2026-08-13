@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Payrails' REST API for payment orchestration — executions and payment actions (authorize, confirm, capture, cancel, refund, payout), instruments and tokens, the PCI vault, providers and workflow confi
@@ -199,11 +199,11 @@ overview: 'Payrails publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Payrails'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 57
+random_paper: 29
 score:
   band: developing
   composite: 52.1
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.6
@@ -211,7 +211,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 56.3
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,7 +223,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payrails/refs/heads/main/screenshots/payrails-2026-08-07T191653.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -257,7 +257,7 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 6
   name: Captions Rate Limits
@@ -274,7 +274,7 @@ rules:
 score:
   band: exemplar
   composite: 70.8
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 53.5
@@ -282,7 +282,7 @@ score:
     discoverability: 81.5
     governance: 89.6
     operational_transparency: 68.4
-  previous_composite: 70.5
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

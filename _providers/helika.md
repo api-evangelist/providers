@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Events API from Helika — 1 operation(s) for events.
@@ -144,11 +144,11 @@ overview: 'Helika publishes 1 API on the [APIs.io](https://apis.io/) network: Ev
 
 
   Helika''s developer surface includes documentation, getting-started guide, API reference, support, authentication, and 18 more developer resources.'
-random_paper: 42
+random_paper: 22
 score:
   band: thin
   composite: 39.6
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 44.0
@@ -156,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.1
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -167,7 +167,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/screenshots/helika-2026-07-25T220913.png
 security:

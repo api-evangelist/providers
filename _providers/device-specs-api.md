@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Device Specs Api Plans
   plan_count: 4
   slug: device-specs-api-plans
-random_paper: 62
+random_paper: 10
 rate_limits:
 - limit_count: 9
   name: Device Specs Api Rate Limits
@@ -209,7 +209,7 @@ rules:
 score:
   band: strong
   composite: 57.7
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 54.5
@@ -217,7 +217,7 @@ score:
     discoverability: 75.9
     governance: 21.9
     operational_transparency: 36.8
-  previous_composite: 60.4
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

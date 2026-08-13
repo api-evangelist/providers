@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ plans:
 - name: Hubble Network Plans Pricing
   plan_count: 4
   slug: hubble-network-plans-pricing
-random_paper: 57
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Hubble Network Rate Limits
@@ -303,7 +303,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 75.2
@@ -311,7 +311,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 94.7
-  previous_composite: 72.8
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,7 +323,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-07T170350.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 37
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
@@ -251,7 +251,7 @@ overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 49
+random_paper: 29
 scopes:
 - name: Alleva Scopes
   scope_count: 1
@@ -260,7 +260,7 @@ scopes:
 score:
   band: developing
   composite: 42.1
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 42.2
@@ -268,7 +268,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.9
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -285,7 +285,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:

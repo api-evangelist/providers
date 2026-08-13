@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -357,7 +357,7 @@ overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 33 more developer resources.'
-random_paper: 24
+random_paper: 112
 rate_limits:
 - limit_count: 18
   name: Twitter X Rate Limits
@@ -370,7 +370,7 @@ scopes:
 score:
   band: strong
   composite: 65.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.8
@@ -378,7 +378,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 94.7
-  previous_composite: 66.6
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -390,7 +390,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -131,7 +131,7 @@ plans:
 - name: Microcks Plans Pricing
   plan_count: 3
   slug: microcks-plans-pricing
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Microcks Rate Limits
@@ -144,7 +144,7 @@ scopes:
 score:
   band: thin
   composite: 32.8
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 50.8
@@ -152,7 +152,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 41.1
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png
 security:
 - kind: authentication

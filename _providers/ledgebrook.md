@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,11 +95,11 @@ overview: 'Ledgebrook is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ledgebrook''s developer surface includes support and 14 more developer resources.'
-random_paper: 10
+random_paper: 94
 score:
   band: minimal
   composite: 12.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,7 +107,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 12.4
   regulatory:
     applies: true
     matched_via: tags
@@ -115,7 +115,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgebrook/refs/heads/main/screenshots/ledgebrook-2026-08-07T171527.png
 security:

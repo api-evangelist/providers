@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -158,11 +158,11 @@ overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: In
 
 
   Nowsta''s developer surface includes API reference, support, engineering blog, and 24 more developer resources.'
-random_paper: 88
+random_paper: 68
 score:
   band: thin
   composite: 38.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.2
@@ -170,7 +170,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 39.7
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:

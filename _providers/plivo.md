@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Plivo Plans Pricing
   plan_count: 3
   slug: plivo-plans-pricing
-random_paper: 90
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Plivo Rate Limits
@@ -311,7 +311,7 @@ rules:
 score:
   band: developing
   composite: 51.5
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 65.4
@@ -319,7 +319,7 @@ score:
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 44.7
-  previous_composite: 58.6
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:
 - kind: authentication

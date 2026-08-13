@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
@@ -176,11 +176,11 @@ overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.
 
 
   Belharra Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
-random_paper: 87
+random_paper: 15
 score:
   band: thin
   composite: 31.5
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 58.5
@@ -188,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.3
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/screenshots/belharra-therapeutics-2026-08-07T162258.png
 security:

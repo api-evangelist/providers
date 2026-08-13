@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The StrongDM control-plane API for automating management of resources, accounts, roles, access grants, gateways, relays, secret stores, and audit logs. The transport is gRPC with request signing; Stro
@@ -144,7 +144,7 @@ overview: 'StrongDM publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   StrongDM''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 17 more developer resources.'
-random_paper: 66
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Strongdm Rate Limits
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -160,11 +160,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 68.4
-  previous_composite: 40.0
+  previous_composite: 38.9
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The OpenID Connect / OAuth 2.0 identity provider behind Good Energy''s customer hub at account.goodenergy.co.uk. It is NOT a developer-facing API and Good Energy publishes no documentation for it — it '
@@ -123,7 +123,7 @@ overview: 'Good Energy publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Good Energy''s developer surface includes engineering blog, authentication, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 76
+random_paper: 40
 scopes:
 - name: Good Energy Scopes
   scope_count: 6
@@ -132,7 +132,7 @@ scopes:
 score:
   band: thin
   composite: 28.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -140,7 +140,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 29.2
+  previous_composite: 28.2
   provenance:
     conformance: derived
   regulatory:
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-energy/refs/heads/main/screenshots/good-energy-2026-08-07T165801.png
 security:

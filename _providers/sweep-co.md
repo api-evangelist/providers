@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,11 +100,11 @@ overview: 'Sweep is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sweep''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 107
+random_paper: 83
 score:
   band: emerging
   composite: 15.8
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 43.2
@@ -112,7 +112,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 15.8
   regulatory:
     applies: true
     matched_via: tags
@@ -120,7 +120,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sweep-co/refs/heads/main/screenshots/sweep-co-2026-06-20T194759.png
 security:

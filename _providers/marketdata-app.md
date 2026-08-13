@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ plans:
 - name: Marketdata App Plans Pricing
   plan_count: 6
   slug: marketdata-app-plans-pricing
-random_paper: 28
+random_paper: 100
 rate_limits:
 - limit_count: 7
   name: Marketdata App Rate Limits
@@ -249,7 +249,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.3
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 60.4
@@ -257,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 64.7
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,7 +275,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

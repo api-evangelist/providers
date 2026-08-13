@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: age
 
 
   Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
@@ -196,7 +196,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 60.4
@@ -204,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 55.1
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,7 +216,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

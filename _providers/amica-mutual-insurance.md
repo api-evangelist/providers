@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Amica Mutual Insurance provides a full range of personal insurance products including auto, home, life, condo, renters, marine, motorcycle, umbrella, and flood insurance. The company does not currentl
@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: Amica Mutual Insurance Expands Partnership With ZestyAI ...
   url: https://www.prnewswire.com/news-releases/amica-mutual-insurance-expands-partnership-with-zestyai-to-enhance-property-risk-assessment-in-the-face-of-increasing-climate-risks-302208765.html
-random_paper: 25
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Amica Mutual Insurance Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.2
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.6
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
@@ -150,7 +150,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/screenshots/amica-mutual-insurance-2026-06-20T171928.png
 security:

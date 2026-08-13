@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Breeze Chms Plans Pricing
   plan_count: 2
   slug: breeze-chms-plans-pricing
-random_paper: 65
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Breeze Chms Rate Limits
@@ -143,7 +143,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
@@ -151,7 +151,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png
 security:

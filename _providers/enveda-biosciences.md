@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Enveda''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 91
+random_paper: 31
 score:
   band: emerging
   composite: 23.3
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.5
@@ -209,7 +209,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 24.1
+  previous_composite: 23.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

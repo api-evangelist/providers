@@ -1,16 +1,18 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
+  confidence: high
+  label: Free plan with self-serve signup
   onboarding: self-serve
-  pricing: unknown
-  public: false
+  pricing: freemium
+  public: true
   source:
-  - authentication
-  trial: false
-  try_now: false
+  - https://www.singular.net/pricing/
+  - plans/singular-plans-pricing.yml
+  trial: true
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,23 +20,57 @@ agent_readiness:
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-11'
-api_count: 1
+  score: 48.2
+  scored_at: '2026-08-12'
+api_count: 11
 apis:
-- description: 'REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Authenticates with an account '
+- description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
   name: Singular Reporting API
   slug: singular-reporting-api
-artifact_total: 3
+- description: Asynchronous reporting API for SKAdNetwork and AdAttributionKit data — aggregated SKAN reports, SKAN raw reports, modeled SKAN metrics and events, and the account's SKAN event catalog.
+  name: Singular SKAdNetwork API
+  slug: singular-skadnetwork-api
+- description: Reporting endpoint for ad-monetization revenue pulled from mediation and monetization partners, joinable to user-acquisition campaign data.
+  name: Singular Ad Monetization API
+  slug: singular-ad-monetization-api
+- description: Create and manage Singular tracking links programmatically, and enumerate the apps, configured partners, link domains, and available partners an organization can build links against. Supports destinat
+  name: Singular Links (Tracking Links) API
+  slug: singular-links-tracking-links-api
+- description: 'List, inspect, create, and delete custom fraud-prevention rules for an organization, with a metadata endpoint returning the external-safe option lists. Rules carry an action of Suspicious, Reject, or '
+  name: Singular Custom Fraud Rules API
+  slug: singular-custom-fraud-rules-api
+- description: Read and update the publisher blacklists used by Singular Fraud Prevention to block traffic from specific publisher sites and IDs.
+  name: Singular Publisher Blacklist API
+  slug: singular-publisher-blacklist-api
+- description: Audit endpoint returning the log of configuration changes made to an attribution partner's settings, filterable by partner name, platform, and app bundle ID.
+  name: Singular Partner Configuration Changes Log API
+  slug: singular-partner-configuration-changes-log-api
+- description: Server-side ingestion endpoints for reporting sessions/launches and in-app events without a client SDK — used for PC, console, CTV, web, and server-authoritative mobile integrations. Session notificat
+  name: Singular Server-to-Server (S2S) API
+  slug: singular-server-to-server-s2s-api
+- description: OpenDSR/OpenGDPR-conformant data subject request API. An anonymous discovery endpoint publishes the supported identity types and subject-request types (erasure, access); authenticated endpoints submit
+  name: Singular OpenDSR (GDPR) API
+  slug: singular-opendsr-gdpr-api
+- description: BETA integration-testing API. Register a real test device to open a one-hour logging session, then read back exactly what the SDK or S2S integration sent to Singular. Premium feature, enabled per acco
+  name: Singular Testing Console API
+  slug: singular-testing-console-api
+- description: First-party remote Model Context Protocol server. Translates a natural-language prompt into a Singular reporting query, runs it against the connecting user's own account under that user's permissions,
+  name: Singular MCP
+  slug: singular-mcp
+artifact_total: 19
+asyncapis:
+- description: ''
+  name: Singular Postbacks Webhooks
+  slug: singular-postbacks-webhooks
 common:
 - group: company
   title: ''
@@ -48,6 +84,14 @@ common:
   title: ''
   type: Documentation
   url: https://support.singular.net/hc/en-us
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.singular.net/hc/en-us/articles/360045245692-Reporting-API-Reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://support.singular.net/hc/en-us/articles/207553433-Getting-Started-with-the-Singular-Reporting-API
 - group: operate
   title: ''
   type: Support
@@ -56,6 +100,10 @@ common:
   title: ''
   type: Pricing
   url: https://www.singular.net/pricing/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/singular-plans-pricing.yml
 - group: start
   title: ''
   type: SignUp
@@ -80,6 +128,14 @@ common:
   title: ''
   type: StatusPage
   url: https://status.singular.net
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://support.singular.net/hc/en-us/articles/360061042971-Product-Updates
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/singular-changelog.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -92,14 +148,62 @@ common:
   title: ''
   type: SDKs
   url: packages/singular-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/singular-components.yml
 - group: auth
   title: ''
   type: Authentication
   url: authentication/singular-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/singular-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/singular-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/singular-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/singular-rate-limits.yml
 - group: design
   title: ''
   type: Lifecycle
   url: lifecycle/singular-lifecycle.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/singular-postbacks-webhooks.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/singular-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/singular-tool-crosswalk.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/singular-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/singular-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.singular.net/data-security-privacy/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/singular-trust-center.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -109,42 +213,67 @@ common:
   type: WellKnown
   url: well-known/singular-well-known.yml
 created: '2026-07-17'
-description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP) and marketing analytics platform that unifies attribution, cost aggregation, fraud prevention, ad monetization, and cross-platform analytics into a single source of truth. It aggregates campaign, cost, ad-revenue, and creative data from 1,200+ sources, measures omnichannel ROI across mobile, web, CTV, PC, and console, and powers deep linking, SKAdNetwork/SKAN reporting, audience activation, and marketing ETL. The Singular Reporting API plus first-party iOS, Android, Unity, Flutter, React Native, Cordova, and Web SDKs let teams instrument attribution and pull standardized, warehouse-ready marketing data. Used by brands including Airbnb, Lyft, and Rovio.
+description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP) and marketing analytics platform that unifies attribution, cost aggregation, fraud prevention, ad monetization, and cross-platform analytics into a single source of truth. It aggregates campaign, cost, ad-revenue, and creative data from 1,200+ sources, measures omnichannel ROI across mobile, web, CTV, PC, and console, and powers deep linking, SKAdNetwork/SKAN reporting, audience activation, and marketing ETL. Singular exposes a broad REST surface under api.singular.net — asynchronous reporting, SKAdNetwork reporting, ad-monetization reporting, tracking-link management, custom fraud rules, and partner configuration — plus server-to-server session/event ingestion at s2s.singular.net, an OpenDSR (GDPR/CCPA) subject-request API at gdpr.singular.net, and a first-party remote MCP server at mcp.singular.net that lets ChatGPT, Claude, Cursor, Copilot, and Gemini query live campaign data in natural language. First-party
+  iOS, Android, Unity, Flutter, React Native, Cordova, and Web SDKs instrument attribution on the client side. Used by brands including Airbnb, Lyft, and Rovio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singular.png
 layout: provider
-modified: '2026-07-21'
+mcp_servers:
+- description: ''
+  name: singular-mcp.yml
+  slug: singular-mcpyml
+modified: '2026-08-12'
 name: Singular
 nav: Providers
 network: true
-overview: 'Singular publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing Analytics, Mobile Attribution, Attribution, and Marketing.
+overview: 'Singular publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing Analytics, Mobile Attribution, Attribution, and Marketing.
 
 
-  Singular''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 57
+  The Singular catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Singular''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 28 more developer resources.'
+plans:
+- name: Singular Plans Pricing
+  plan_count: 3
+  slug: singular-plans-pricing
+random_paper: 29
+rate_limits:
+- limit_count: 11
+  name: Singular Rate Limits
+  slug: singular-rate-limits
+scopes:
+- name: Singular Scopes
+  scope_count: 2
+  slug: singular-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 27.5
-  delta: -1.1
+  band: exemplar
+  composite: 66.8
+  delta: 39.3
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 41.3
-    discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 28.6
+    commercial_clarity: 92.1
+    contract_quality: 51.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 12.5
+    operational_transparency: 76.3
+  previous_composite: 27.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: authentication
   name: Singular Authentication
   slug: singular-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2 · 5 schemes
 - kind: domain-security
   name: Singular Domain Security
   slug: singular-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Singular Trust Center
+  slug: singular-trust-center
+  summary_line: SOC 1, SOC 2, ISO 27001, ePrivacy, CSA STAR, COPPA (certified by PRIVO), GDPR Kids (certified by PRIVO), EU-U.S. Data Privacy Framework
 slug: singular
 tags:
 - Company
@@ -159,5 +288,8 @@ tags:
 - Deep Linking
 - Fraud Prevention
 - ETL
+- MCP
+- Ad Monetization
+- Privacy
 website: https://singular.net
 ---

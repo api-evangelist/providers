@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The product API behind the Mitiga cloud detection and response platform. The host is live and fronted by a Kong gateway, and it publishes an anonymous RFC 8414 authorization-server metadata document, '
@@ -102,7 +102,7 @@ overview: 'Mitiga publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mitiga''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 55
+random_paper: 35
 scopes:
 - name: Mitiga Scopes
   scope_count: 14
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mitiga/refs/heads/main/screenshots/mitiga-2026-08-07T183806.png
 security:

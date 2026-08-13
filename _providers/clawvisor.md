@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -55,13 +55,10 @@ apis:
   name: Clawvisor Tokens API
   slug: clawvisor-tokens-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Declare a read-scoped task, wait for the user to approve it, list and read messages through the gateway under scope, then complete the task. Every operationId is verified against openapi/clawvisor-gat
   name: Clawvisor — approve-scope-and-triage
   slug: clawvisor-triage-inbox
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Clawvisor Callbacks Webhooks
@@ -190,11 +187,11 @@ overview: 'Clawvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clawvisor''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 58
+random_paper: 26
 score:
   band: developing
   composite: 53.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.7
@@ -202,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 54.1
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,7 +211,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
 security:

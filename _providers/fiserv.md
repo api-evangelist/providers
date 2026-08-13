@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ press:
 - date: '2026-05-25'
   title: Fiserv
   url: https://en.wikipedia.org/wiki/Fiserv
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Fiserv Rate Limits
@@ -279,7 +279,7 @@ rules:
 score:
   band: developing
   composite: 43.9
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 73.7
@@ -287,7 +287,7 @@ score:
     discoverability: 63.0
     governance: 47.9
     operational_transparency: 10.5
-  previous_composite: 40.2
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -302,7 +302,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png
 security:

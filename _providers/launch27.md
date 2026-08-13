@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Launch27 Plans Pricing
   plan_count: 4
   slug: launch27-plans-pricing
-random_paper: 44
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Launch27 Rate Limits
@@ -156,7 +156,7 @@ rules:
 score:
   band: developing
   composite: 44.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.7
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
 security:

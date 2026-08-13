@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -187,11 +187,11 @@ overview: 'Cellarity publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cellarity''s developer surface includes product news, support, authentication, and 21 more developer resources.'
-random_paper: 41
+random_paper: 9
 score:
   band: emerging
   composite: 22.9
-  delta: -10.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.5
@@ -199,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 33.7
+  previous_composite: 22.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Cellarity Authentication

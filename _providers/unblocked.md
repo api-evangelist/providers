@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 23
+random_paper: 111
 score:
   band: strong
   composite: 59.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.2
@@ -209,7 +209,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 59.6
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -221,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

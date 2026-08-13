@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
@@ -164,7 +164,7 @@ plans:
 - name: Skipodds Plans Pricing
   plan_count: 6
   slug: skipodds-plans-pricing
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Skipodds Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.2
-  delta: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 61.9
@@ -180,7 +180,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 14.0
+  previous_composite: 57.2
   regulatory:
     applies: true
     matched_via: tags
@@ -188,8 +188,8 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Skipodds Authentication

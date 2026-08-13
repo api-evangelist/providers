@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: GraphQL powered Pokemon API. Supports generations 1 through 8
@@ -56,7 +56,7 @@ name: GraphQL Pokemon
 nav: Providers
 network: true
 overview: GraphQL Pokemon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 49
+random_paper: 117
 score:
   band: minimal
   composite: 5.0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-pokemon/refs/heads/main/screenshots/graphql-pokemon-2026-06-20T182337.png
 slug: graphql-pokemon

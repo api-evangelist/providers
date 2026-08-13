@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -396,7 +396,7 @@ plans:
 - name: Arcade Dev Plans Pricing
   plan_count: 3
   slug: arcade-dev-plans-pricing
-random_paper: 44
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Arcade Dev Rate Limits
@@ -421,7 +421,7 @@ rules:
 score:
   band: strong
   composite: 61.3
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 76.2
@@ -429,7 +429,7 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 58.5
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -438,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/screenshots/arcade-dev-2026-06-20T172356.png
 security:

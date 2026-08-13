@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Fastino Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 59
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Fastino Labs Rate Limits
@@ -214,7 +214,7 @@ scopes:
 score:
   band: strong
   composite: 60.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.8
@@ -222,7 +222,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 60.7
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,7 +234,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/screenshots/fastino-labs-2026-07-25T214244.png
 security:

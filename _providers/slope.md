@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -69,9 +69,6 @@ apis:
   name: Slope User Links API
   slug: slope-user-links-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create an order, wait for the customer to open it, then finalize for payout.
   name: Create a Slope order and finalize it
   slug: slope-create-order-and-finalize
@@ -84,7 +81,7 @@ arazzos:
 - description: Create a sandbox test customer, set eligibility, create an order, and approve it.
   name: Simulate an approved order in the sandbox
   slug: slope-sandbox-approve-order
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: Generated event surface for Slope webhooks. Payload schemas documented at https://developers.slopepay.com/docs/schema. Signed via the Slope-Signature header (HMAC-SHA256).
   name: Slope Webhook Events
@@ -252,7 +249,7 @@ overview: 'Slope publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 28 more developer resources.'
-random_paper: 83
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Slope Rate Limits
@@ -260,7 +257,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.9
@@ -268,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 50.8
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,7 +283,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

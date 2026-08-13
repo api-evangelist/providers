@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 25
 apis:
 - description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
@@ -210,11 +210,11 @@ overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   BanQu''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: thin
   composite: 36.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.6
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 37.1
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -233,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

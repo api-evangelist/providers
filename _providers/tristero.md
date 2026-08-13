@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Assets API from Tristero — 1 operation(s) for assets.
@@ -170,11 +170,11 @@ overview: 'Tristero publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tristero''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 18 more developer resources.'
-random_paper: 80
+random_paper: 52
 score:
   band: thin
   composite: 40.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 62.8
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.9
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -199,7 +199,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

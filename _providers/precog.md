@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 4
@@ -217,7 +217,7 @@ overview: 'Precog publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Precog''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 60
+random_paper: 40
 scopes:
 - name: Precog Scopes
   scope_count: 3
@@ -226,7 +226,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.2
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 50.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,7 +246,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

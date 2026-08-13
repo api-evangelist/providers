@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -343,7 +343,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Equinix
   url: https://newsroom.equinix.com/press-releases-canada-en
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Equinix Rate Limits
@@ -351,7 +351,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 60.8
@@ -359,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.2
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -368,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

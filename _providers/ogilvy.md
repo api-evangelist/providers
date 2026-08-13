@@ -22,19 +22,47 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/ogilvy-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ogilvy-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/ogilvy-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: SecurityDisclosurePolicy
+  url: https://www.ogilvy.com/responsible-disclosure-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ogilvy-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ogilvy-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ogilvy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ogilvy-rate-limits.yml
 - group: company
   title: ''
   type: Blog
@@ -63,6 +91,22 @@ common:
   title: ''
   type: Contact
   url: https://www.ogilvy.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ogilvy.com/privacy-policy
+- group: other
+  title: ''
+  type: CookiePolicy
+  url: https://www.ogilvy.com/cookies
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.ogilvy.com/careers
+- group: other
+  title: ''
+  type: Team
+  url: https://www.ogilvy.com/team
 - group: other
   title: ''
   type: Parent
@@ -232,58 +276,90 @@ common:
   type: NotableCampaign
   url: ''
 - group: start
-  title: No developer portal, REST APIs, OpenAPI, SDKs, CLI, webhooks, status page, or public pricing
+  title: No developer portal, REST APIs, OpenAPI, SDKs, CLI, webhooks, status page, changelog, or public pricing. Re-probed 2026-08-12 — every /.well-known/ path on www.ogilvy.com, api.ogilvy.com and www.ogilvyhealth.com returned 404.
   type: NoDeveloperPortal
   url: ''
 - group: build
-  title: No github.com/Ogilvy organization (404)
+  title: No Ogilvy engineering organization on GitHub. github.com/Ogilvy is a USER account with zero public repositories (HTTP 200, corrects an earlier 404 note).
   type: NoGitHubOrg
   url: ''
 - group: other
-  title: No RSS/Atom feed advertised on /ideas
+  title: No RSS/Atom feed. /rss.xml, /ideas/rss.xml and /ideas/feed all 404, and /feed soft-200s with the human /ideas HTML page rather than a feed document.
   type: NoRSS
   url: ''
+- group: other
+  title: api.ogilvy.com resolves (Azure Traffic Manager -> nginx) but returns HTTP 404 on every path including the root — an internal/legacy host, not a public API.
+  type: NoAPIHost
+  url: ''
+coverage:
+  checked: '2026-08-12'
+  detail: Ogilvy is a creative and communications agency whose product is client work, not software — its ten-page Drupal marketing site exposes no JSON:API or REST resources, and the one host it names api.ogilvy.com answers HTTP 404 on every path including the root.
+  evidence:
+  - status: 404
+    url: https://api.ogilvy.com/
+  - status: 404
+    url: https://www.ogilvy.com/openapi.json
+  - status: 404
+    url: https://www.ogilvy.com/jsonapi/
+  - status: 404
+    url: https://www.ogilvy.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.ogilvy.com/responsible-disclosure-policy
+  reason: not-a-software-company
+  state: none
 created: '2026-05-23'
 description: 'Ogilvy is a global advertising, marketing, and communications agency network founded by David Ogilvy in 1948 and headquartered in New York City. It is a WPP company (NASDAQ: WPPGY) operating across roughly 132 offices in 83 countries (per ogilvy.com/about; WPP cites 128 offices in 88 countries) with approximately 17,500 employees (per Wikipedia, as of 2022). The network positions itself around "Borderless Creativity," innovating at the intersections of five core capabilities: Advertising, Public Relations & Influence, Consulting, Relationship Design (OgilvyOne), and Health. Ogilvy was named Cannes Lions Network of the Year in 2022 and 2024, D&AD Network of the Year in 2020, and took Network of the Year at The One Show 2026. Long-standing client work includes Coca-Cola, Dove (Campaign for Real Beauty), IBM, American Express, IKEA, Hellmann''s, Unilever, KFC, and Cadbury. Ogilvy does not publish a developer portal, public REST APIs, OpenAPI specifications, SDKs, status page,
   changelog, or pricing — its product is creative work delivered to brand clients, not software offered to developers. There is no `github.com/Ogilvy` organization. This repository indexes the public properties (homepage, capabilities, work, ideas/blog, parent company, regional sites, and notable sub-brands) so the API Evangelist network can track the absence of a developer surface and link Ogilvy to its parent WPP and to its practice-area brands (Ogilvy Health, OgilvyOne, Ogilvy PR, Ogilvy Consulting).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ogilvy.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-12'
 name: Ogilvy
 nav: Providers
 network: true
 overview: 'Ogilvy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Marketing, Creative, Agency, and Agency Network.
 
 
-  Ogilvy''s developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 86
+  Ogilvy''s developer surface includes engineering blog and 27 more developer resources.'
+plans:
+- name: Ogilvy Plans Pricing
+  plan_count: 0
+  slug: ogilvy-plans-pricing
+random_paper: 66
+rate_limits:
+- limit_count: 0
+  name: Ogilvy Rate Limits
+  slug: ogilvy-rate-limits
 score:
   band: minimal
-  composite: 5.7
-  delta: 0.3
+  composite: 11.2
+  delta: 5.5
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 5.4
+    operational_transparency: 10.5
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
+    score: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogilvy/refs/heads/main/screenshots/ogilvy-2026-08-07T190030.png
 security:
 - kind: domain-security
   name: Ogilvy Domain Security
   slug: ogilvy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Ogilvy Vulnerability Disclosure
+  slug: ogilvy-vulnerability-disclosure
+  summary_line: contact published
 slug: ogilvy
 tags:
 - Advertising

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -215,7 +215,7 @@ plans:
 - name: Ubc Plans Pricing
   plan_count: 2
   slug: ubc-plans-pricing
-random_paper: 82
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Ubc Rate Limits
@@ -240,7 +240,7 @@ rules:
 score:
   band: thin
   composite: 36.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.2
@@ -248,7 +248,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 36.9
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +263,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:

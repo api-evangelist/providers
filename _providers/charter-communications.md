@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Inside: Artificial Intelligence for Network and Customer ...'
   url: https://techexpo.scte.org/session/ai-inside-artificial-intelligence-for-network-and-customer-experience-innovation/
-random_paper: 99
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Charter Communications Rate Limits
@@ -187,7 +187,7 @@ rules:
 score:
   band: thin
   composite: 35.7
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.2
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 40.6
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +210,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png
 security:

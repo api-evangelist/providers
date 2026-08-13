@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event notifications. Requests use `Authorization: Beare'
@@ -139,11 +139,11 @@ overview: 'Burner publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Burner''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 74
+random_paper: 54
 score:
   band: thin
   composite: 40.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 41.5
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -162,7 +162,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/screenshots/burner-2026-07-25T204111.png
 security:

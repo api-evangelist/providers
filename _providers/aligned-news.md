@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 54
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: developing
   composite: 53.8
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 68.7
@@ -279,7 +279,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 51.8
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:

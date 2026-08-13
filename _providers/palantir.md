@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ plans:
 - name: Palantir Plans Pricing
   plan_count: 3
   slug: palantir-plans-pricing
-random_paper: 47
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Palantir Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 59.0
@@ -141,7 +141,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 44.5
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png
 security:
 - kind: authentication

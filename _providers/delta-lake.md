@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Delta Lake storage framework defines the on-disk transaction log and protocol that adds ACID transactions, schema enforcement, and time travel to Parquet-based data lakes. Delta Lake exposes Spark
@@ -114,7 +114,7 @@ plans:
 - name: Delta Lake Plans Pricing
   plan_count: 3
   slug: delta-lake-plans-pricing
-random_paper: 52
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Delta Lake Rate Limits
@@ -122,7 +122,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.6
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -130,10 +130,10 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 13.2
-  previous_composite: 22.6
+  previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/screenshots/delta-lake-2026-06-20T175901.png
 security:
 - kind: domain-security

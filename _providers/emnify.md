@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -511,7 +511,7 @@ plans:
 - name: Emnify Plans Pricing
   plan_count: 11
   slug: emnify-plans-pricing
-random_paper: 68
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Emnify Rate Limits
@@ -536,7 +536,7 @@ rules:
 score:
   band: exemplar
   composite: 66.0
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 76.1
@@ -544,7 +544,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 68.3
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     contracts:
@@ -559,7 +559,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/screenshots/emnify-2026-06-20T180637.png
 security:

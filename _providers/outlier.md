@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Shopify-native Universal Commerce Protocol (UCP) shopping surface for the Outlier storefront. Agents discover capabilities at /.well-known/ucp and transact via the hosted MCP endpoint (search_catalog,
@@ -104,7 +104,7 @@ overview: 'Outlier publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Outlier''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 76
+random_paper: 52
 scopes:
 - name: Outlier Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ scopes:
 score:
   band: emerging
   composite: 20.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -121,11 +121,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.1
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outlier/refs/heads/main/screenshots/outlier-2026-08-07T191059.png
 security:

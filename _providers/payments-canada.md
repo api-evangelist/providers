@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) n
 
 
   Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 22 more developer resources.'
-random_paper: 18
+random_paper: 86
 scopes:
 - name: Payments Canada Scopes
   scope_count: 1
@@ -194,7 +194,7 @@ scopes:
 score:
   band: thin
   composite: 41.2
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 50.2
@@ -202,7 +202,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 44.4
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,7 +220,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:

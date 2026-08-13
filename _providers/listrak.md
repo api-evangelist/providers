@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -331,7 +331,7 @@ plans:
 - name: Listrak Plans Pricing
   plan_count: 1
   slug: listrak-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Listrak Rate Limits
@@ -353,7 +353,7 @@ scopes:
 score:
   band: developing
   composite: 47.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.3
@@ -361,7 +361,7 @@ score:
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 48.4
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -370,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:

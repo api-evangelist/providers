@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -180,11 +180,11 @@ overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 93
+random_paper: 77
 score:
   band: thin
   composite: 37.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 44.8
@@ -192,7 +192,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:

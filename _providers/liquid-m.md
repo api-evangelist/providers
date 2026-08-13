@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Ads API from Liquid M — 1 operation(s) for ads.
@@ -160,11 +160,11 @@ overview: 'Liquid M publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, and 18 more developer resources.'
-random_paper: 106
+random_paper: 82
 score:
   band: thin
   composite: 35.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 56.9
@@ -172,7 +172,7 @@ score:
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 5.3
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     conformance: derived
     contracts:
@@ -183,7 +183,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

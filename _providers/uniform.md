@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 41
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
@@ -309,11 +309,11 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 25 more developer resources.'
-random_paper: 72
+random_paper: 48
 score:
   band: developing
   composite: 55.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -321,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.1
+  previous_composite: 55.4
   provenance:
     conformance: derived
     contracts:
@@ -332,7 +332,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

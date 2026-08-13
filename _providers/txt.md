@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -179,11 +179,11 @@ overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
-random_paper: 4
+random_paper: 112
 score:
   band: developing
   composite: 46.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 59.0
@@ -191,7 +191,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 46.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,7 +203,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

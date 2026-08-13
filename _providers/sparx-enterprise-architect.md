@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: COM-based Automation Interface providing programmatic access to Enterprise Architect repositories, models, packages, elements, diagrams, connectors, attributes, and tagged values. Supports creating, r
@@ -141,7 +141,7 @@ plans:
 - name: Sparx Enterprise Architect Plans Pricing
   plan_count: 3
   slug: sparx-enterprise-architect-plans-pricing
-random_paper: 20
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Sparx Enterprise Architect Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -157,10 +157,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.9
+  previous_composite: 20.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/screenshots/sparx-enterprise-architect-2026-06-20T194248.png
 security:
 - kind: domain-security

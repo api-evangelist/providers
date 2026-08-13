@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Althea storefront on Shopify: a live Storefront MCP server (search_catalog, get_cart, update_cart, get_product_details, search_shop_policies_and_faqs), a Universa'
@@ -112,7 +112,7 @@ overview: 'Althea publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Althea''s developer surface includes engineering blog, support, documentation, authentication, and 11 more developer resources.'
-random_paper: 43
+random_paper: 23
 scopes:
 - name: Althea Scopes
   scope_count: 4
@@ -121,7 +121,7 @@ scopes:
 score:
   band: emerging
   composite: 22.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -129,12 +129,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/althea/refs/heads/main/screenshots/althea-2026-08-07T161249.png
 security:

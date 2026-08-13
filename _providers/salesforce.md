@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -17202,7 +17202,7 @@ scopes:
 score:
   band: exemplar
   composite: 74.3
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 81.3
@@ -17210,7 +17210,7 @@ score:
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 55.3
-  previous_composite: 80.1
+  previous_composite: 74.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -17221,8 +17221,8 @@ score:
       total: 256
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Pollfish Plans Pricing
   plan_count: 4
   slug: pollfish-plans-pricing
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Pollfish Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.7
@@ -147,7 +147,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.3
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -156,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

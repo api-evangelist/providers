@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -159,7 +159,7 @@ overview: 'Elysium Health publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 80
+random_paper: 56
 scopes:
 - name: Elysium Scopes
   scope_count: 4
@@ -168,7 +168,7 @@ scopes:
 score:
   band: thin
   composite: 33.8
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 34.7
+  previous_composite: 33.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/screenshots/elysium-2026-07-25T213214.png
 security:

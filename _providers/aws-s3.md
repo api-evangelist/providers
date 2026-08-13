@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -5344,7 +5344,7 @@ plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits
@@ -5369,7 +5369,7 @@ rules:
 score:
   band: developing
   composite: 52.2
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 61.2
@@ -5377,7 +5377,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 60.6
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -5386,8 +5386,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:
 - kind: authentication

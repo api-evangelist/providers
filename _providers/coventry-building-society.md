@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://a
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
-random_paper: 42
+random_paper: 74
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3
@@ -176,7 +176,7 @@ scopes:
 score:
   band: thin
   composite: 39.4
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.0
@@ -184,7 +184,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.9
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,8 +202,8 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:
 - kind: authentication

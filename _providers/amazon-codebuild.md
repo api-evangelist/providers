@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -2322,7 +2322,7 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 24 more developer resources.'
-random_paper: 6
+random_paper: 70
 rules:
 - name: Amazon CodeBuild API Rules
   rule_count: 5
@@ -2343,7 +2343,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 76.1
@@ -2351,7 +2351,7 @@ score:
     discoverability: 68.5
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 58.5
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2362,7 +2362,7 @@ score:
       total: 47
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

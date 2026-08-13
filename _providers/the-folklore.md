@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for The Folklore's Shopify storefront, implementing the Universal Commerce Protocol over an MCP endpoint with buyer-approved checkout, plus read-only storefront JSON endp
@@ -124,7 +124,7 @@ overview: 'The Folklore publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   The Folklore''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 12 more developer resources.'
-random_paper: 68
+random_paper: 28
 scopes:
 - name: The Folklore Scopes
   scope_count: 4
@@ -133,7 +133,7 @@ scopes:
 score:
   band: emerging
   composite: 26.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -141,13 +141,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 27.4
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ plans:
 - name: National Institute Of Standards And Technology Plans Pricing
   plan_count: 3
   slug: national-institute-of-standards-and-technology-plans-pricing
-random_paper: 8
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: National Institute Of Standards And Technology Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -9.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 53.0
@@ -125,7 +125,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 37.8
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/screenshots/national-institute-of-standards-and-technology-2026-06-20T190029.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: Thrivent Financial for Lutherans'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12298853
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Thrivent Financial For Lutherans Rate Limits
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.6
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 17.7
@@ -149,7 +149,7 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 7.9
-  previous_composite: 25.3
+  previous_composite: 18.6
   regulatory:
     applies: true
     matched_via: tags
@@ -157,8 +157,8 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ plans:
 - name: Edamam Recipes Plans Pricing
   plan_count: 0
   slug: edamam-recipes-plans-pricing
-random_paper: 13
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Edamam Recipes Rate Limits
@@ -294,7 +294,7 @@ rules:
 score:
   band: developing
   composite: 48.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 65.0
@@ -302,7 +302,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 48.9
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -311,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:

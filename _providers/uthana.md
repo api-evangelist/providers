@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Single GraphQL endpoint for the whole Uthana platform - text-to-motion, video-to-motion, locomotion, stitch/loop, character upload with auto-rigging, asset management, account, subscription, and pay-a
@@ -208,11 +208,11 @@ plans:
 - name: Uthana Plans
   plan_count: 7
   slug: uthana-plans
-random_paper: 61
+random_paper: 41
 score:
   band: developing
   composite: 51.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 43.2
@@ -220,13 +220,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 52.7
+  previous_composite: 51.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

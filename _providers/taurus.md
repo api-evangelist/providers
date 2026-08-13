@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: REST API for institutional custody (Taurus-PROTECT) and tokenization / digital asset issuance (Taurus-CAPITAL). Bearer + HMAC request signing, versioned under /api/rest/v1/, cursor-based pagination, g
@@ -153,11 +153,11 @@ overview: 'Taurus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Taurus'' developer surface includes documentation, API reference, getting-started guide, authentication, and 19 more developer resources.'
-random_paper: 96
+random_paper: 76
 score:
   band: thin
   composite: 40.4
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 51.6
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 43.3
+  previous_composite: 40.4
   provenance:
     conformance: first-party
   regulatory:
@@ -175,7 +175,7 @@ score:
     regime_id: securities_market_data
     score: 46.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

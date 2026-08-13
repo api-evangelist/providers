@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Dnv Plans Pricing
   plan_count: 2
   slug: dnv-plans-pricing
-random_paper: 96
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Dnv Rate Limits
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 52.7
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.7
@@ -201,7 +201,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 57.7
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/screenshots/dnv-2026-06-20T180105.png
 security:
 - kind: authentication

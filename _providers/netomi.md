@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -200,11 +200,11 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 28 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: developing
   composite: 53.3
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.8
@@ -212,14 +212,14 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:

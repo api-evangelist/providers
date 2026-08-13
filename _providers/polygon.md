@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -514,7 +514,7 @@ plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 80
+random_paper: 56
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits
@@ -552,7 +552,7 @@ scopes:
 score:
   band: exemplar
   composite: 76.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 75.0
@@ -560,7 +560,7 @@ score:
     discoverability: 92.6
     governance: 63.5
     operational_transparency: 68.4
-  previous_composite: 76.9
+  previous_composite: 76.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -578,7 +578,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

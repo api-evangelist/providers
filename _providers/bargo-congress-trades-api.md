@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'Bargo Congress Trades API publishes 3 APIs on the [APIs.io](https://a
 
 
   Bargo Congress Trades API''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 47
+random_paper: 83
 rate_limits:
 - limit_count: 6
   name: Bargo Congress Trades Api Rate Limits
@@ -197,7 +197,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.7
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.5
@@ -205,7 +205,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 50.1
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,7 +223,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

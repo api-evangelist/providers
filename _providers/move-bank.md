@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,13 +60,10 @@ apis:
   name: MOVE Bank Banking Products API
   slug: move-bank-banking-products-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List MOVE Bank's public CDR banking products then fetch full detail for the first one — an unauthenticated, forkable Product Reference Data walkthrough.
   name: Discover MOVE Bank banking products
   slug: move-bank-discover-products
-artifact_total: 14
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -184,7 +181,7 @@ overview: 'MOVE Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 84
+random_paper: 56
 scopes:
 - name: Move Bank Scopes
   scope_count: 9
@@ -193,7 +190,7 @@ scopes:
 score:
   band: developing
   composite: 42.7
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.2
@@ -201,7 +198,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 45.2
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +216,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

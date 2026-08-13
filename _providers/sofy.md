@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Upload and manage application builds under test.
@@ -167,11 +167,11 @@ overview: 'SOFY publishes 2 APIs on the [APIs.io](https://apis.io/) network: App
 
 
   SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 101
+random_paper: 89
 score:
   band: developing
   composite: 50.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 72.4
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 51.0
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

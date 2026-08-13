@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ plans:
 - name: Opennode Plans Pricing
   plan_count: 3
   slug: opennode-plans-pricing
-random_paper: 44
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Opennode Rate Limits
@@ -218,7 +218,7 @@ rules:
 score:
   band: developing
   composite: 53.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.9
@@ -226,7 +226,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 60.5
-  previous_composite: 53.7
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +241,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png
 security:

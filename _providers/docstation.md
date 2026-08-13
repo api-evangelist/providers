@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 6
 asyncapis:
@@ -158,7 +158,7 @@ plans:
 - name: Docstation Plans Pricing
   plan_count: 3
   slug: docstation-plans-pricing
-random_paper: 36
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Docstation Rate Limits
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.1
-  delta: 24.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.6
@@ -174,7 +174,7 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 23.8
+  previous_composite: 48.1
   provenance:
     conformance: first-party
   regulatory:
@@ -184,8 +184,8 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/screenshots/docstation-2026-07-25T212211.png
 security:
 - kind: domain-security

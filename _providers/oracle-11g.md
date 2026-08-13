@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Java Database Connectivity driver for connecting Java applications to Oracle 11g.
@@ -77,7 +77,7 @@ plans:
 - name: Oracle 11G Plans Pricing
   plan_count: 3
   slug: oracle-11g-plans-pricing
-random_paper: 64
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Oracle 11G Rate Limits
@@ -85,7 +85,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -93,10 +93,10 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.0
+  previous_composite: 12.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-11g/refs/heads/main/screenshots/oracle-11g-2026-06-20T191117.png
 security:
 - kind: domain-security

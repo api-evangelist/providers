@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -271,7 +271,7 @@ plans:
 - name: Figshare Plans Pricing
   plan_count: 8
   slug: figshare-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Figshare Rate Limits
@@ -293,7 +293,7 @@ scopes:
 score:
   band: strong
   composite: 57.2
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 74.6
@@ -301,7 +301,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 58.0
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -310,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/screenshots/figshare-2026-06-20T181159.png
 security:

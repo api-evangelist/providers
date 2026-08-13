@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 70.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Mollie API is a REST API using HAL (application/hal+json) over HTTPS at api.mollie.com. It covers 124 documented operations across 33 API groups — Payments, Payment Links, Refunds, Chargebacks, Ca
@@ -225,7 +225,7 @@ overview: 'Mollie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mollie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 62
+random_paper: 42
 scopes:
 - name: Mollie Scopes
   scope_count: 61
@@ -234,7 +234,7 @@ scopes:
 score:
   band: strong
   composite: 64.7
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.5
@@ -242,7 +242,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 69.5
+  previous_composite: 64.7
   provenance:
     conformance: first-party
     contracts:
@@ -259,7 +259,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/screenshots/mollie-2026-08-07T184112.png
 security:

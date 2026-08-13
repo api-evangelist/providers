@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -1094,7 +1094,7 @@ plans:
 - name: Confluence Plans Pricing
   plan_count: 4
   slug: confluence-plans-pricing
-random_paper: 14
+random_paper: 98
 rate_limits:
 - limit_count: 2
   name: Confluence Rate Limits
@@ -1132,7 +1132,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.7
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 78.1
@@ -1140,7 +1140,7 @@ score:
     discoverability: 85.2
     governance: 59.4
     operational_transparency: 42.1
-  previous_composite: 79.3
+  previous_composite: 71.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1151,8 +1151,8 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:
 - kind: authentication

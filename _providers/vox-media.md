@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Coral by Vox Media is an open-source commenting platform. Each self-hosted or managed Coral instance exposes a GraphQL API at /api/graphql covering stories, comments, users, sites, moderation queues, '
@@ -155,11 +155,11 @@ overview: 'Vox Media publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Vox Media''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 18 more developer resources.'
-random_paper: 94
+random_paper: 66
 score:
   band: developing
   composite: 46.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 63.0
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 39.5
-  previous_composite: 47.6
+  previous_composite: 46.5
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

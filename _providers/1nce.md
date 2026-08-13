@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -408,7 +408,7 @@ plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 11
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits
@@ -425,7 +425,7 @@ rules:
 score:
   band: strong
   composite: 56.7
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 73.8
@@ -433,7 +433,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 55.1
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -448,7 +448,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'U-Haul provides do-it-yourself moving and storage services including truck and trailer rentals, self-storage, moving supplies, and U-Box portable storage containers. Partners access dealer management '
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Amerco Inc. reports earnings for Qtr to Sept 30
   url: https://www.nytimes.com/1994/11/12/business/amerco-inc-reports-earnings-for-qtr-to-sept-30.html
-random_paper: 51
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Amerco Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -128,10 +128,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.0
+  previous_composite: 13.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/screenshots/amerco-2026-06-20T171904.png
 security:
 - kind: domain-security

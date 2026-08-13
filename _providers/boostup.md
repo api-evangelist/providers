@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,13 +42,10 @@ apis:
   name: Boostup Export API
   slug: boostup-export-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Pull the first page of Opportunities, Accounts, and Forecast Submissions out of the Boostup / Terret Export API in one run, ready to page through with limit/skip.
   name: Export all Boostup revenue data
   slug: boostup-export-all-revenue-data
-artifact_total: 9
+artifact_total: 8
 common:
 - group: design
   title: ''
@@ -178,11 +175,11 @@ overview: 'Boostup publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 22 more developer resources.'
-random_paper: 84
+random_paper: 60
 score:
   band: developing
   composite: 45.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.0
@@ -190,7 +187,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 46.4
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -202,7 +199,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
 security:

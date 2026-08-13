@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 58
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -145,7 +145,7 @@ rules:
 score:
   band: thin
   composite: 39.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.0
@@ -153,7 +153,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 40.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:

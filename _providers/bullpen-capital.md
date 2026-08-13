@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Bullpen Capital
 nav: Providers
 network: true
-random_paper: 25
+random_paper: 93
 slug: bullpen-capital
 tags:
 - Venture Capital

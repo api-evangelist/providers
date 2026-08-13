@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Requests is a simple and elegant HTTP library for Python, designed for human beings. It provides a clean, human-friendly API for all standard HTTP methods with automatic content handling, authenticati
@@ -134,7 +134,7 @@ plans:
 - name: Requests Plans Pricing
   plan_count: 3
   slug: requests-plans-pricing
-random_paper: 80
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Requests Rate Limits
@@ -151,7 +151,7 @@ rules:
 score:
   band: emerging
   composite: 27.3
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 17.7
@@ -159,10 +159,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 35.1
+  previous_composite: 27.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requests/refs/heads/main/screenshots/requests-2026-06-20T192923.png
 security:
 - kind: domain-security

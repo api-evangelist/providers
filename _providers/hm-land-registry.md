@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -406,11 +406,11 @@ overview: 'HM Land Registry publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 54 more developer resources.'
-random_paper: 99
+random_paper: 47
 score:
   band: developing
   composite: 54.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.2
@@ -418,7 +418,7 @@ score:
     discoverability: 83.3
     governance: 21.9
     operational_transparency: 31.6
-  previous_composite: 54.7
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -436,7 +436,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The MyStericycle.com customer portal provides healthcare organizations with 24/7 online access to account management, waste pickup scheduling, HIPAA and OSHA compliance training, compliance reporting,
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Stericycle Opens State-of-the-Art Regulated Medical Waste ...
   url: https://www.prnewswire.com/news-releases/stericycle-opens-state-of-the-art-regulated-medical-waste-incineration-facility-in-nevada-302286800.html
-random_paper: 35
+random_paper: 119
 rate_limits:
 - limit_count: 1
   name: Stericycle Rate Limits
@@ -132,7 +132,7 @@ rules:
 score:
   band: emerging
   composite: 21.6
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 12.9
@@ -140,7 +140,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 26.0
+  previous_composite: 21.6
   regulatory:
     applies: true
     matched_via: tags
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png
 security:

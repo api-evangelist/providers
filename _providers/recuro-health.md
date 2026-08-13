@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Recuro Health's member and provider identity surface, an Auth0-hosted OpenID Connect / OAuth 2.0 authorization server. The OIDC discovery document, the RFC 8414 authorization-server metadata and the J
@@ -133,7 +133,7 @@ overview: 'Recuro Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Recuro Health''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 55
+random_paper: 11
 scopes:
 - name: Recuro Health Scopes
   scope_count: 14
@@ -160,7 +160,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

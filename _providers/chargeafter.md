@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
@@ -218,11 +218,11 @@ overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ChargeAfter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
-random_paper: 104
+random_paper: 68
 score:
   band: developing
   composite: 50.1
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 68.0
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 52.1
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -247,7 +247,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

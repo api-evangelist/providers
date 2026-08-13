@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,11 +183,11 @@ overview: 'LeadIQ publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
 
 
   LeadIQ''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, status page, and 22 more developer resources.'
-random_paper: 44
+random_paper: 24
 score:
   band: thin
   composite: 37.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.2
@@ -195,7 +195,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.8
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:

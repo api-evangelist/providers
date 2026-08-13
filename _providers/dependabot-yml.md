@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The dependabot.yml schema, examples, validation rules, and capability catalog for configuring GitHub Dependabot.
@@ -76,7 +76,7 @@ plans:
 - name: Dependabot Yml Plans Pricing
   plan_count: 3
   slug: dependabot-yml-plans-pricing
-random_paper: 37
+random_paper: 109
 rate_limits:
 - limit_count: 5
   name: Dependabot Yml Rate Limits
@@ -101,7 +101,7 @@ rules:
 score:
   band: emerging
   composite: 16.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 17.7
@@ -109,10 +109,10 @@ score:
     discoverability: 40.7
     governance: 10.4
     operational_transparency: 13.2
-  previous_composite: 24.2
+  previous_composite: 16.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/screenshots/dependabot-yml-2026-06-20T175926.png
 slug: dependabot-yml
 tags:

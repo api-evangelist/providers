@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,11 +134,11 @@ overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: List
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
-random_paper: 77
+random_paper: 65
 score:
   band: thin
   composite: 31.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 45.5
@@ -146,7 +146,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.3
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -164,7 +164,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

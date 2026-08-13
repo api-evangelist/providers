@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -141,7 +141,7 @@ press:
 - date: '2026-05-25'
   title: Roper Technologies strengthens AI leadership with key ...
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-strengthens-ai-leadership-key-executive/
-random_paper: 25
+random_paper: 81
 rate_limits:
 - limit_count: 1
   name: Roper Technologies Rate Limits
@@ -158,7 +158,7 @@ rules:
 score:
   band: emerging
   composite: 19.6
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 8.1
@@ -166,7 +166,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 25.3
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
@@ -174,8 +174,8 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Roper Technologies Domain Security

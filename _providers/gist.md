@@ -1,40 +1,69 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Onboarding required
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - https://platform.gist.ai/docs/gist-content-api
+  - https://platform.gist.ai/docs/about-gist-services
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    mcp_server: true
+    openapi_examples: verified
+    rate_limit_signal: verified
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 56.8
+  scored_at: '2026-08-12'
+api_count: 3
+apis:
+- description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
+  name: Gist Answers API (Prorata API Service)
+  slug: gist-answers-api-prorata-api-service
+- description: Publisher ingest API for the Gist Content Network. Lets publisher partners push articles to ProRata in real time (`POST /ingest/article`) or in bulk for archival backfill (`POST /ingest/multiple_artic
+  name: Gist Content API
+  slug: gist-content-api
+- description: Advertising delivery surface for Gist Ads. Publishers load the `adtag.js` bundle from tp-at.prorata.ai and call `window.prtag.defineSlot({id, api_key, url, geo}, slotId, sizes, adTypes)` to request co
+  name: Gist Ads Ad Tag and Display Ad API
+  slug: gist-ads-ad-tag-and-display-ad-api
+artifact_total: 11
 common:
 - group: company
   title: ''
   type: Website
   url: https://gist.ai
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://platform.gist.ai/docs/about-gist-services
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://platform.gist.ai/docs/about-gist-services
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://platform.gist.ai/reference/get_v1-health
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://platform.gist.ai/docs/quick-start-using-widgets
 - group: company
   title: ''
   type: Blog
@@ -43,6 +72,14 @@ common:
   title: ''
   type: Support
   url: https://gist.ai/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Prorata-ai
+- group: start
+  title: ''
+  type: Login
+  url: https://console.gist.ai/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -51,40 +88,139 @@ common:
   title: ''
   type: TermsOfService
   url: https://gist.ai/terms-of-use
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gist-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gist-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gist-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/gist-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/gist-sandbox.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/gist-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gist-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gist-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gist-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/gist-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gist-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gist-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/gist-data-model.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/gist-attribution-extension.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gist-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/gist-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gist-answers-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/gist-domain-security.yml
 created: '2026-07-17'
-description: 'Gist is an AI brand-visibility and discovery platform built by ProRata (founded 2024) that helps publishers and advertisers stay visible, measurable, and monetizable inside generative AI experiences. It offers three products: Gist GEO (generative engine optimization for consistent organic visibility in AI answers), Gist Ads (paid brand amplification placed directly in AI search surfaces and premium environments), and Gist Answers (an embeddable, publisher-backed AI answer engine for on-site engagement and monetization). Gist positions itself as turning AI from a black box into a measurable, actionable channel for brands and content owners. Surfaced as a Mayfield portfolio lead and added to the API Evangelist network; the company publishes no public API or developer surface at this time.'
-image: https://gist.ai/favicon.ico
+description: 'Gist is an AI brand-visibility, answer-engine and content-monetization platform built by ProRata (founded 2024) that helps publishers and advertisers stay visible, measurable and monetizable inside generative AI experiences. It ships three products: Gist GEO (generative engine optimization for consistent organic visibility in AI answers), Gist Ads (paid brand amplification placed directly in AI search surfaces, with native iOS and Android ad SDKs and a publisher ad tag), and Gist Answers (an embeddable, publisher-backed AI answer engine for on-site engagement and monetization). Behind those products sits a real developer surface documented at the Gist Developer Hub: the Prorata API Service (chat, streaming completions, citations, per-source attribution, threads, recommended and related questions, publisher management and document summarization) at api.gist.ai, the Gist Content API for publisher article ingestion, the Gist Content Network crawler and CMS/RSS ingestion paths,
+  and the gist-chat-widget web component distributed from cdn.gist.ai. Gist positions itself as turning AI from a black box into a measurable, actionable channel for brands and content owners, with fair attribution and a 50/50 publisher revenue share as the stated basis of the model.'
+image: https://cdn.prod.website-files.com/69b4128468609a447fd7dd25/6a05c44830dff65379b10594_512x512.png
+json_schemas:
+- name: Fractional Attribution Extension - definitions
+  property_count: 0
+  slug: gist-attribution-extension
+- name: Fractional Attribution Standalone Report
+  property_count: 7
+  slug: gist-attribution-report
+- name: Content Telemetry Session with Fractional Attribution (strict)
+  property_count: 0
+  slug: gist-attribution-session-strict
 layout: provider
-modified: '2026-07-19'
+mcp_servers:
+- description: ''
+  name: gist-mcp.yml
+  slug: gist-mcpyml
+modified: '2026-08-12'
 name: Gist
 nav: Providers
 network: true
-overview: 'Gist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Advertising, and Marketing.
+overview: 'Gist publishes 1 API on the [APIs.io](https://apis.io/) network: Answers API (Prorata API Service). Tagged areas include Company, Artificial Intelligence, Generative AI, Advertising, and Marketing.
 
 
-  Gist''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 91
+  Gist''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, authentication, and 23 more developer resources.'
+plans:
+- name: Gist Plans Pricing
+  plan_count: 0
+  slug: gist-plans-pricing
+random_paper: 79
+rate_limits:
+- limit_count: 1
+  name: Gist Rate Limits
+  slug: gist-rate-limits
 score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: 39.1
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    commercial_clarity: 34.2
+    contract_quality: 54.1
+    developer_ergonomics: 80.4
+    discoverability: 72.2
+    governance: 20.8
+    operational_transparency: 26.3
   previous_composite: 10.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:
+- kind: authentication
+  name: Gist Authentication
+  slug: gist-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Gist Domain Security
   slug: gist-domain-security
@@ -100,5 +236,11 @@ tags:
 - Publishers
 - Search
 - Content
+- Answer Engine
+- Attribution
+- Content Licensing
+- Media
+- RAG
+- Advertising Technology
 website: https://gist.ai
 ---

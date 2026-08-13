@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ plans:
 - name: Oauth2 Proxy Plans Pricing
   plan_count: 3
   slug: oauth2-proxy-plans-pricing
-random_paper: 58
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Oauth2 Proxy Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.2
-  delta: -8.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 43.0
@@ -122,7 +122,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -131,8 +131,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/screenshots/oauth2-proxy-2026-06-20T190551.png
 security:
 - kind: authentication

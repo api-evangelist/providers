@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Scout Rfp Plans Pricing
   plan_count: 1
   slug: scout-rfp-plans-pricing
-random_paper: 3
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Scout Rfp Rate Limits
@@ -229,7 +229,7 @@ rules:
 score:
   band: thin
   composite: 37.0
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 69.2
@@ -237,7 +237,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 42.8
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +246,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/screenshots/scout-rfp-2026-06-20T193553.png
 security:
 - kind: authentication

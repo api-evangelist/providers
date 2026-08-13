@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -180,7 +180,7 @@ overview: 'Unqork publishes 1 API on the [APIs.io](https://apis.io/) network: Cu
 
 
   Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
-random_paper: 92
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Unqork Rate Limits
@@ -193,7 +193,7 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.5
@@ -201,7 +201,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 59.4
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,7 +219,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

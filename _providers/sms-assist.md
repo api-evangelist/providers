@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -170,11 +170,11 @@ overview: 'SMS Assist publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SMS Assist''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 3
+random_paper: 87
 score:
   band: developing
   composite: 46.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -182,13 +182,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 47.7
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

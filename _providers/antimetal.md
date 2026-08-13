@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ overview: 'Antimetal publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
-random_paper: 31
+random_paper: 119
 scopes:
 - name: Antimetal Scopes
   scope_count: 4
@@ -215,7 +215,7 @@ scopes:
 score:
   band: developing
   composite: 55.5
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.2
@@ -223,7 +223,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 54.5
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -235,7 +235,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
 security:

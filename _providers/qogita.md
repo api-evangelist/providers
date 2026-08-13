@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Qogita's REST API for retailers and integration partners on api.qogita.com, covering catalog, ordering, and fulfilment workflows. Documented via the developer portal (hosted on Notion).
@@ -124,7 +124,7 @@ overview: 'Qogita publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qogita''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 65
+random_paper: 45
 scopes:
 - name: Qogita Scopes
   scope_count: 1
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 29.6
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -141,7 +141,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 26.4
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

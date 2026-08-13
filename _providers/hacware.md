@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -153,11 +153,11 @@ overview: 'Hacware publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: thin
   composite: 41.8
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.2
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 43.0
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,7 +177,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -64,13 +64,10 @@ apis:
   name: Tickitto Webhooks API
   slug: tickitto-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a basket, search inventory, fetch availability, add a ticket, and check out.
   name: Tickitto — Search to Checkout
   slug: tickitto-search-to-checkout
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Tickitto Webhooks
@@ -191,11 +188,11 @@ overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 63
+random_paper: 35
 score:
   band: thin
   composite: 39.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 62.4
@@ -203,7 +200,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +218,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Aurora DSQL''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 82
+random_paper: 22
 rules:
 - name: Amazon Aurora DSQL API Rules
   rule_count: 4
@@ -320,7 +320,7 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 73.9
@@ -328,7 +328,7 @@ score:
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 37.5
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,7 +339,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:

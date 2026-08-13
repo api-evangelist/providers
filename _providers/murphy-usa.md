@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ press:
 - date: '2026-05-25'
   title: How Murphy USA is gearing up for the future
   url: https://www.cstoredive.com/news/how-murphy-usa-is-gearing-up-for-the-future/709562/
-random_paper: 7
+random_paper: 91
 score:
   band: minimal
   composite: 3.3
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -83,9 +83,9 @@ score:
     discoverability: 33.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 2.6
+  previous_composite: 3.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murphy-usa/refs/heads/main/screenshots/murphy-usa-2026-06-20T185903.png
 security:

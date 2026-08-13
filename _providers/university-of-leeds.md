@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: 'The institutional research data repository for the University of Leeds, powered by EPrints 3. It exposes a live OAI-PMH 2.0 endpoint for harvesting Dublin Core and related metadata records describing '
@@ -102,7 +102,7 @@ plans:
 - name: University Of Leeds Plans Pricing
   plan_count: 2
   slug: university-of-leeds-plans-pricing
-random_paper: 94
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: University Of Leeds Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

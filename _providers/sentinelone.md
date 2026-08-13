@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for managing agents, threats, alerts, sites, accounts, exclusions, policies, and reporting in the SentinelOne Singularity Platform. Each customer accesses the API at their own m
@@ -95,11 +95,11 @@ overview: 'SentinelOne publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SentinelOne''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 28
+random_paper: 108
 score:
   band: emerging
   composite: 27.7
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 43.2
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.1
+  previous_composite: 27.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

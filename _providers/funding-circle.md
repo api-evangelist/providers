@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Retrieve credit decisions
@@ -153,11 +153,11 @@ overview: 'Funding Circle publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Funding Circle''s developer surface includes documentation, API reference, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 26
+random_paper: 98
 score:
   band: developing
   composite: 44.3
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.7
@@ -165,7 +165,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 45.7
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -182,7 +182,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

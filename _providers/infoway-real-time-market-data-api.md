@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
@@ -169,7 +169,7 @@ overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](h
 
 
   Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 77
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Infoway Real Time Market Data Api Rate Limits
@@ -177,7 +177,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.2
@@ -185,7 +185,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.7
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,13 +60,10 @@ apis:
   name: Alex Bank Banking Products API
   slug: alex-bank-banking-products-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List Alex Bank's public CDR banking products, then retrieve the full detail of the first product. Runs against the public unauthenticated PRD endpoint - no credentials.
   name: Browse Alex Bank products and fetch one product's detail
   slug: alex-bank-browse-products
-artifact_total: 14
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -180,7 +177,7 @@ overview: 'Alex Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Alex Bank''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 71
+random_paper: 43
 scopes:
 - name: Alex Bank Scopes
   scope_count: 12
@@ -189,7 +186,7 @@ scopes:
 score:
   band: thin
   composite: 38.8
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.2
@@ -197,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,7 +212,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png
 security:

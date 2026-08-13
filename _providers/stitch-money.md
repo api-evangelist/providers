@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ plans:
 - name: Stitch Money Plans Pricing
   plan_count: 2
   slug: stitch-money-plans-pricing
-random_paper: 92
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Stitch Money Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.0
@@ -136,7 +136,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.4
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -151,7 +151,7 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StubHub''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 22 more developer resources.'
-random_paper: 69
+random_paper: 45
 scopes:
 - name: Stubhub Scopes
   scope_count: 9
@@ -233,7 +233,7 @@ scopes:
 score:
   band: developing
   composite: 47.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 65.7
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 49.4
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

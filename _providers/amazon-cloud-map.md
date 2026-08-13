@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ overview: 'Amazon Cloud Map publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 81
+random_paper: 29
 rules:
 - name: Amazon Cloud Map API Rules
   rule_count: 5
@@ -353,7 +353,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 32.1
@@ -361,7 +361,7 @@ score:
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 45.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,7 +372,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

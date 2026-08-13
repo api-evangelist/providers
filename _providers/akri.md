@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Akri Plans Pricing
   plan_count: 3
   slug: akri-plans-pricing
-random_paper: 75
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Akri Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: thin
   composite: 35.5
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 28.2
@@ -279,7 +279,7 @@ score:
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 41.5
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -288,8 +288,8 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/screenshots/akri-2026-06-20T171456.png
 security:
 - kind: domain-security

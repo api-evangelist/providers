@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 375
   human_in_the_loop: 8
@@ -389,11 +389,11 @@ overview: 'Descope publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Descope''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 53 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: developing
   composite: 50.3
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 54.3
@@ -401,7 +401,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 48.2
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -410,7 +410,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/screenshots/descope-2026-06-20T175937.png
 security:

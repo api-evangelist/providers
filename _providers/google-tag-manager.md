@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -716,7 +716,7 @@ plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 3
   slug: google-tag-manager-plans-pricing
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Google Tag Manager Rate Limits
@@ -746,7 +746,7 @@ scopes:
 score:
   band: strong
   composite: 62.8
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.9
@@ -754,7 +754,7 @@ score:
     discoverability: 90.7
     governance: 69.8
     operational_transparency: 39.5
-  previous_composite: 71.3
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -765,8 +765,8 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:
 - kind: authentication

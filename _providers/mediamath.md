@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1229,7 +1229,7 @@ plans:
 - name: Mediamath Plans
   plan_count: 2
   slug: mediamath-plans
-random_paper: 10
+random_paper: 98
 rate_limits:
 - limit_count: 7
   name: Mediamath Rate Limits
@@ -1251,7 +1251,7 @@ scopes:
 score:
   band: developing
   composite: 47.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.8
@@ -1259,7 +1259,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 48.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1268,7 +1268,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:

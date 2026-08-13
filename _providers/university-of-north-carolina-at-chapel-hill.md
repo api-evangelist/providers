@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 7
@@ -250,7 +250,7 @@ plans:
 - name: University Of North Carolina At Chapel Hill Plans Pricing
   plan_count: 2
   slug: university-of-north-carolina-at-chapel-hill-plans-pricing
-random_paper: 84
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: University Of North Carolina At Chapel Hill Rate Limits
@@ -275,7 +275,7 @@ rules:
 score:
   band: thin
   composite: 36.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.5
@@ -283,7 +283,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 36.5
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -298,7 +298,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png
 security:

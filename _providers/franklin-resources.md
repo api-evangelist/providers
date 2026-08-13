@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: New Intelligence Hub Marks Expansion of Franklin ...
   url: https://investors.franklinresources.com/news-center/press-releases/press-release-details/2026/New-Intelligence-Hub-Marks-Expansion-of-Franklin-Templetons-Strategic-Collaboration-with-Microsoft/default.aspx
-random_paper: 29
+random_paper: 85
 score:
   band: minimal
   composite: 4.1
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/screenshots/franklin-resources-2026-06-20T181511.png
 security:

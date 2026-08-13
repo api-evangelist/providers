@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: 'Data & Digital: TotalEnergies and Emerson Sign a Strategic ...'
   url: https://www.publicnow.com/view/BC7A0BB26337D17A0F96D3435D846FDBEAE3554A
-random_paper: 25
+random_paper: 89
 score:
   band: minimal
   composite: 10.1
@@ -125,7 +125,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/screenshots/emerson-electric-2026-06-20T180635.png
 security:

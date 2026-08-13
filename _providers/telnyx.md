@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -626,7 +626,7 @@ plans:
 - name: Telnyx Plans Pricing
   plan_count: 1
   slug: telnyx-plans-pricing
-random_paper: 96
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Telnyx Rate Limits
@@ -639,7 +639,7 @@ scopes:
 score:
   band: thin
   composite: 32.5
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 61.9
@@ -647,7 +647,7 @@ score:
     discoverability: 48.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 36.8
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -662,7 +662,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/screenshots/telnyx-2026-06-20T195051.png
 security:

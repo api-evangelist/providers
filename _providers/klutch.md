@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -193,7 +193,7 @@ overview: 'Klutch publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klutch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 71
+random_paper: 51
 scopes:
 - name: Klutch Scopes
   scope_count: 4
@@ -222,7 +222,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/screenshots/klutch-2026-07-25T223951.png
 security:

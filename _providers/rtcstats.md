@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Rtcstats Plans
   plan_count: 3
   slug: rtcstats-plans
-random_paper: 76
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Rtcstats Rate Limits
@@ -194,7 +194,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.5
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 58.5
@@ -202,7 +202,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 57.7
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

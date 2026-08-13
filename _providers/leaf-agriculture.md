@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ plans:
 - name: Leaf Agriculture Plans Pricing
   plan_count: 3
   slug: leaf-agriculture-plans-pricing
-random_paper: 20
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Leaf Agriculture Rate Limits
@@ -277,7 +277,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.3
-  delta: -7.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 39.9
@@ -285,7 +285,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 30.7
+  previous_composite: 23.3
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +294,8 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaf-agriculture/refs/heads/main/screenshots/leaf-agriculture-2026-06-20T184352.png
 security:
 - kind: domain-security

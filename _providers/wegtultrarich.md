@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,13 +41,10 @@ apis:
   name: We > Ultrarich Wealth Expression API
   slug: wegtultrarich-wealth-expression-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Discover the available wealth expressions, run a direction-aware them-vs-you comparison, then add a purchasing-power lens on the ultrarich side — the three calls behind a quotable inequality briefing.
   name: We > Ultrarich — wealth inequality briefing
   slug: wegtultrarich-wealth-inequality-briefing
-artifact_total: 21
+artifact_total: 20
 common:
 - group: agent
   title: ''
@@ -261,7 +258,7 @@ overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   We > Ultrarich''s developer surface includes pricing, documentation, API reference, getting-started guide, support, FAQ, changelog, and 35 more developer resources.'
-random_paper: 21
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Wegtultrarich Rate Limits
@@ -278,6 +275,7 @@ rules:
 score:
   band: strong
   composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 55.2
@@ -285,6 +283,7 @@ score:
     discoverability: 100.0
     governance: 52.1
     operational_transparency: 73.7
+  previous_composite: 59.5
   regulatory:
     applies: true
     matched_via: tags
@@ -292,7 +291,8 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Wegtultrarich Authentication

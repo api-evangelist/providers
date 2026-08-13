@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,13 +52,10 @@ apis:
   name: Algbra Partner Banking API
   slug: algbra-partner-banking-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create an OBIE account-access consent, confirm it is authorised, then read the customer's accounts, balances and transactions through Algbra's UK Open Banking (AIS) dedicated interface. All operationI
   name: Algbra OBIE account-access and read
   slug: algbra-account-access-flow
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Algbra Partner Banking Webhooks
@@ -192,7 +189,7 @@ overview: 'Algbra publishes 1 API on the [APIs.io](https://apis.io/) network: Ac
 
 
   Algbra''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 37
+random_paper: 17
 scopes:
 - name: Algbra Scopes
   scope_count: 4
@@ -201,7 +198,7 @@ scopes:
 score:
   band: developing
   composite: 47.8
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 59.7
@@ -209,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 51.9
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,7 +223,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

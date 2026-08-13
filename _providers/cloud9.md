@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: cloud9.gg runs on WordPress (WP Cloud / Automattic Atomic hosting) and serves the standard WordPress REST API anonymously at https://cloud9.gg/wp-json/. The discovery index enumerates 277 routes acros
@@ -164,7 +164,7 @@ overview: 'Cloud9 publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cloud9''s developer surface includes engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 12
+random_paper: 112
 scopes:
 - name: Cloud9 Scopes
   scope_count: 1
@@ -173,7 +173,7 @@ scopes:
 score:
   band: emerging
   composite: 26.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 9.7
@@ -181,13 +181,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 27.2
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

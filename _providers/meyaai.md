@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Meya Grid HTTP gateway that receives inbound integration and API/webhook events for a Meya app. Webhook URLs follow the format https://grid.meya.ai/gateway/v2/{integration}/{app_id}/{dot_path}.
@@ -122,11 +122,11 @@ overview: 'Meya.ai publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Meya.ai''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, and 11 more developer resources.'
-random_paper: 50
+random_paper: 30
 score:
   band: thin
   composite: 36.8
-  delta: 4.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 51.6
@@ -134,9 +134,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 32.5
+  previous_composite: 36.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meyaai/refs/heads/main/screenshots/meyaai-2026-08-07T172812.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -518,11 +518,11 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: strong
   composite: 56.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.2
@@ -530,7 +530,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 58.2
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -542,7 +542,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

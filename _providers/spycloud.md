@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ overview: 'SpyCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 71
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Spycloud Rate Limits
@@ -220,7 +220,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.0
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.2
@@ -228,7 +228,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 53.1
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

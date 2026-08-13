@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -212,11 +212,11 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Eon''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 90
+random_paper: 82
 score:
   band: developing
   composite: 49.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.9
@@ -224,7 +224,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 49.8
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-07-25T213500.png
 security:

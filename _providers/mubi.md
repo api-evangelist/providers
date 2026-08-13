@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ overview: 'MUBI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MUBI''s developer surface includes support, engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 81
+random_paper: 69
 score:
   band: emerging
   composite: 17.0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

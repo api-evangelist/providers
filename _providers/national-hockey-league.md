@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,11 +103,11 @@ name: National Hockey League
 nav: Providers
 network: true
 overview: National Hockey League publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Game Center API, Players API, Schedule API, and 4 more. Tagged areas include Sports, Hockey, Entertainment, and Professional League.
-random_paper: 10
+random_paper: 54
 score:
   band: emerging
   composite: 19.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.3
@@ -115,7 +115,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.8
+  previous_composite: 19.3
   provenance:
     agentic_access: derived
     contracts:
@@ -124,7 +124,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png
 security:

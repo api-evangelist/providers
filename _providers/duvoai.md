@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -258,7 +258,7 @@ overview: 'duvo.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 68
+random_paper: 48
 scopes:
 - name: Duvoai Scopes
   scope_count: 8
@@ -267,7 +267,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 66.5
@@ -275,7 +275,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,7 +287,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

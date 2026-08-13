@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Apache JMeter is a load testing and performance measurement tool for web applications, databases, FTP servers, JMS, mail protocols, and more. Provides extensible samplers, listeners, and a CLI mode fo
@@ -104,7 +104,7 @@ plans:
 - name: Jmeter Plans Pricing
   plan_count: 3
   slug: jmeter-plans-pricing
-random_paper: 67
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Jmeter Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.0
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -120,9 +120,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 20.4
+  previous_composite: 16.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmeter/refs/heads/main/screenshots/jmeter-2026-06-20T183738.png
 security:

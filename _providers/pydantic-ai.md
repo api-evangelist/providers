@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -280,7 +280,7 @@ plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
   slug: pydantic-ai-plans-pricing
-random_paper: 63
+random_paper: 27
 rate_limits:
 - limit_count: 6
   name: Pydantic Ai Rate Limits
@@ -302,7 +302,7 @@ scopes:
 score:
   band: strong
   composite: 57.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.8
@@ -310,7 +310,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 57.7
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:

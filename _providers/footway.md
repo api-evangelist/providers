@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The footway.com storefront''s agent-facing commerce surface. Built on Shopify, it implements the Universal Commerce Protocol (UCP) for agent-driven commerce: a UCP merchant profile at /.well-known/ucp '
@@ -120,7 +120,7 @@ overview: 'Footway publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Footway''s developer surface includes documentation, authentication, support, signup flow, engineering blog, and 12 more developer resources.'
-random_paper: 81
+random_paper: 57
 scopes:
 - name: Footway Scopes
   scope_count: 4
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 25.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -137,13 +137,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/screenshots/footway-2026-07-25T214920.png
 security:

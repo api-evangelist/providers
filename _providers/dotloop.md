@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Dotloop Plans Pricing
   plan_count: 4
   slug: dotloop-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Dotloop Rate Limits
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 37.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.2
@@ -169,7 +169,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.8
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/screenshots/dotloop-2026-07-25T212314.png
 security:

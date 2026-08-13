@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Elastic Plans Pricing
   plan_count: 3
   slug: elastic-plans-pricing
-random_paper: 45
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Elastic Rate Limits
@@ -220,7 +220,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.9
@@ -228,7 +228,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 52.4
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +237,8 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/screenshots/elastic-2026-06-20T180547.png
 security:
 - kind: authentication

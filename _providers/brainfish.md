@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -67,9 +67,6 @@ apis:
   name: Brainfish Users API
   slug: brainfish-users-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Generate a cited AI answer for an end-user question, then generate suggested follow-up questions.
   name: Generate an answer and follow-up questions
   slug: brainfish-answer-and-followups
@@ -79,7 +76,7 @@ arazzos:
 - description: Validate the token, create a knowledge-base collection, then create a document inside it.
   name: Create a collection and add a document
   slug: brainfish-create-collection-and-document
-artifact_total: 19
+artifact_total: 18
 common:
 - group: other
   title: ''
@@ -201,7 +198,7 @@ overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 22
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
@@ -209,7 +206,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.7
@@ -217,7 +214,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 59.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

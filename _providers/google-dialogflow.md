@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Google Dialogflow Plans Pricing
   plan_count: 3
   slug: google-dialogflow-plans-pricing
-random_paper: 6
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Google Dialogflow Rate Limits
@@ -137,7 +137,7 @@ scopes:
 score:
   band: thin
   composite: 38.7
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 52.2
@@ -145,7 +145,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 47.1
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-dialogflow/refs/heads/main/screenshots/google-dialogflow-2026-06-20T182157.png
 security:
 - kind: authentication

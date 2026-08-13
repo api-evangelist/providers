@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ overview: 'Ayenda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ayenda''s developer surface includes support and 5 more developer resources.'
-random_paper: 46
+random_paper: 26
 score:
   band: minimal
   composite: 10.8
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ayenda/refs/heads/main/screenshots/ayenda-2026-07-25T202111.png
 security:

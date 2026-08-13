@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -190,11 +190,11 @@ overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Embat''s developer surface includes documentation, API reference, authentication, sandbox, and 13 more developer resources.'
-random_paper: 57
+random_paper: 41
 score:
   band: thin
   composite: 30.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.6
@@ -202,7 +202,7 @@ score:
     discoverability: 57.4
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:

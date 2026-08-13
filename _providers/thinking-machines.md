@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Managed training/fine-tuning and sampling API for open-weight language models, consumed through the official Tinker Python SDK and CLI. Supports SFT, RL, and distillation workflows, checkpoint managem
@@ -164,11 +164,11 @@ overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Thinking Machines'' developer surface includes documentation, API reference, quickstart, signup flow, support, engineering blog, CLI, and 22 more developer resources.'
-random_paper: 5
+random_paper: 65
 score:
   band: thin
   composite: 32.6
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -176,11 +176,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 34.1
+  previous_composite: 32.6
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -268,7 +268,7 @@ overview: 'Starlink publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 41 more developer resources.'
-random_paper: 60
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Starlink Rate Limits
@@ -281,7 +281,7 @@ scopes:
 score:
   band: strong
   composite: 58.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.8
@@ -289,7 +289,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 86.8
-  previous_composite: 59.8
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +307,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

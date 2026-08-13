@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Crossmint Plans Pricing
   plan_count: 3
   slug: crossmint-plans-pricing
-random_paper: 66
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Crossmint Rate Limits
@@ -153,7 +153,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 55.2
@@ -161,7 +161,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.2
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/screenshots/crossmint-2026-06-20T175244.png
 security:
 - kind: authentication

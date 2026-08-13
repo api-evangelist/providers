@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -218,11 +218,11 @@ overview: 'Artie publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 69
+random_paper: 53
 score:
   band: developing
   composite: 52.6
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 65.3
@@ -230,7 +230,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.4
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

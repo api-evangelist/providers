@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Onefinestay is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Onefinestay''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 29
+random_paper: 109
 score:
   band: minimal
   composite: 11.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.3
+  previous_composite: 11.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onefinestay/refs/heads/main/screenshots/onefinestay-2026-08-07T190311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Shufti Pro Plans Pricing
   plan_count: 3
   slug: shufti-pro-plans-pricing
-random_paper: 113
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Shufti Pro Rate Limits
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.0
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 25.8
@@ -160,7 +160,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.0
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

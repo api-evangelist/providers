@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Occamnetworks
 nav: Providers
 network: true
 overview: Occamnetworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Broadband, Networking, and Hardware.
-random_paper: 16
+random_paper: 88
 score:
   band: minimal
   composite: 8.1
@@ -72,7 +72,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/occamnetworks/refs/heads/main/screenshots/occamnetworks-2026-08-07T185920.png
 security:

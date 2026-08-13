@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -129,7 +129,7 @@ plans:
 - name: Level2 Plans Pricing
   plan_count: 3
   slug: level2-plans-pricing
-random_paper: 6
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Level2 Rate Limits
@@ -146,7 +146,7 @@ rules:
 score:
   band: thin
   composite: 34.4
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 64.2
@@ -154,7 +154,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
 security:
 - kind: authentication

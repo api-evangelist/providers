@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 14
 apis:
 - description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
@@ -225,7 +225,7 @@ overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
-random_paper: 62
+random_paper: 22
 scopes:
 - name: Butterflymx Scopes
   scope_count: 6
@@ -234,7 +234,7 @@ scopes:
 score:
   band: strong
   composite: 56.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 62.8
@@ -242,7 +242,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.2
+  previous_composite: 56.5
   provenance:
     conformance: derived
     contracts:
@@ -253,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

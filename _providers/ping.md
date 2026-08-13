@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
@@ -175,7 +175,7 @@ overview: 'Ping++ publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ping++''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 82
+random_paper: 70
 score:
   band: developing
   composite: 47.3
@@ -198,7 +198,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

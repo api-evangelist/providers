@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -384,11 +384,11 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 19
+random_paper: 107
 score:
   band: strong
   composite: 63.9
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.9
@@ -396,7 +396,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 65.7
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,7 +408,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

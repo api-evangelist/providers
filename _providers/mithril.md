@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -234,11 +234,11 @@ overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Mithril''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: strong
   composite: 56.7
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.7
@@ -246,7 +246,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 57.3
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Source-agnostic payment-event ingestion API for payment recovery. Merchants POST standardized successful and failed payment events and payment-method updates; Recover optimizes retry timing and report
@@ -151,11 +151,11 @@ overview: 'Butterpayments publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Butterpayments'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 16 more developer resources.'
-random_paper: 35
+random_paper: 103
 score:
   band: developing
   composite: 46.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -163,7 +163,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 47.8
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterpayments/refs/heads/main/screenshots/butterpayments-2026-07-25T204125.png
 security:

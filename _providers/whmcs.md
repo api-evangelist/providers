@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Whmcs Plans Pricing
   plan_count: 3
   slug: whmcs-plans-pricing
-random_paper: 82
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Whmcs Rate Limits
@@ -198,7 +198,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 67.9
@@ -206,7 +206,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 52.4
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/screenshots/whmcs-2026-06-20T201446.png
 security:
 - kind: authentication

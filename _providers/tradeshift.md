@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 38
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
@@ -369,7 +369,7 @@ overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
-random_paper: 26
+random_paper: 110
 scopes:
 - name: Tradeshift Scopes
   scope_count: 7
@@ -378,7 +378,7 @@ scopes:
 score:
   band: strong
   composite: 63.9
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.2
@@ -386,7 +386,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 62.2
+  previous_composite: 63.9
   provenance:
     conformance: first-party
     contracts:
@@ -397,7 +397,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

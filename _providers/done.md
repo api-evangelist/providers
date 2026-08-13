@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -220,7 +220,7 @@ plans:
 - name: Done Plans Pricing
   plan_count: 1
   slug: done-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Done Rate Limits
@@ -228,6 +228,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 59.7
@@ -235,6 +236,7 @@ score:
     discoverability: 57.4
     governance: 20.8
     operational_transparency: 5.3
+  previous_composite: 38.3
   regulatory:
     applies: true
     matched_via: tags
@@ -242,7 +244,8 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Done Authentication

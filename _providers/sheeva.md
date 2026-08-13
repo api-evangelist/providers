@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -221,11 +221,11 @@ overview: 'Sheeva publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sheeva''s developer surface includes documentation, API reference, engineering blog, support, signup flow, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 56
+random_paper: 36
 score:
   band: developing
   composite: 43.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 67.4
@@ -233,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 45.2
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

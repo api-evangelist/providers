@@ -9,27 +9,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 15.8
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: A POST-only REST API for programmatically writing data into Marin. Five bulk endpoints — /campaigns, /groups, /keywords, /ads and /strategies — accept a JSON body containing a single "data" array of r
+  name: Marin API
+  slug: marin-api
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -67,36 +71,105 @@ common:
   title: ''
   type: DomainSecurity
   url: security/marin-software-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.marinsoftware.com/en_US/Managing_Campaigns/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://support.marinsoftware.com/en_US/bulk-actions/marin-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.marinsoftware.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/marin-software-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/marin-software-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/marin-software-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/marin-software-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/marin-software-rate-limits.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/marin-software-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/marin-software-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/marin-software-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/marin-software-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.marinsoftware.com/legal/data-processing-addendum
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/marin-software-llms.txt
 created: '2026-07-17'
-description: Marin Software is a performance marketing and digital advertising management platform used by e-commerce brands, agencies, and enterprise marketers to plan, automate, and optimize paid media at scale across paid search, paid social, retail media, and app advertising channels. Its product line includes MarinOne (campaign management and automation), Marin Connect (marketing data collection and unification), Marin Ascend (cross-channel optimization), Marin for Agencies, and managed services. Surfaced as a portfolio company of Sapphire Ventures and added to the API Evangelist network; Marin publishes a marketing site, help center, and application login but no public API developer portal or specification.
+description: Marin Software is a performance marketing and digital advertising management platform used by e-commerce brands, agencies, and enterprise marketers to plan, automate, and optimize paid media at scale across paid search, paid social, retail media, and app advertising channels. Its product line includes MarinOne (campaign management and automation), Marin Connect (marketing data collection and unification), Marin Ascend (cross-channel optimization), Marin for Agencies, and managed services. Marin publishes a POST-only REST write API — the Marin API, at https://api.marinsoftware.com/open-api version 0.1 — that pushes campaigns, groups, keywords, ads and strategies into the platform using HTTP Basic auth, documented only in the help center, plus a Marin Social API whose reference link no longer resolves. There is no OpenAPI, no SDK, no changelog and no status page, and the developer documentation portal has been decommissioned. Marin Software has been acquired by Zax Capital, which
+  the company announces on its own homepage.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marin-software.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Marin Software
 nav: Providers
 network: true
-overview: 'Marin Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Martech, Advertising, Marketing, and Performance Marketing.
+overview: 'Marin Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Martech, Advertising, Marketing, and Performance Marketing.
 
 
-  Marin Software''s developer surface includes pricing, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 63
+  Marin Software''s developer surface includes pricing, engineering blog, signup flow, documentation, API reference, support, authentication, and 16 more developer resources.'
+plans:
+- name: Marin Software Plans Pricing
+  plan_count: 3
+  slug: marin-software-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 0
+  name: Marin Software Rate Limits
+  slug: marin-software-rate-limits
 score:
-  band: emerging
-  composite: 15.2
-  delta: -1.2
+  band: thin
+  composite: 32.5
+  delta: 17.3
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
-    governance: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 16.4
+  previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png
 security:
+- kind: authentication
+  name: Marin Software Authentication
+  slug: marin-software-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Marin Software Domain Security
   slug: marin-software-domain-security
@@ -112,5 +185,8 @@ tags:
 - Paid Search
 - Paid Social
 - Retail Media
+- Campaign Management
+- Bid Management
+- Bulk Upload
 website: https://www.marinsoftware.com/
 ---

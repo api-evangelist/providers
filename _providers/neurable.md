@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -139,7 +139,7 @@ overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 34
+random_paper: 6
 scopes:
 - name: Neurable Scopes
   scope_count: 5
@@ -148,7 +148,7 @@ scopes:
 score:
   band: thin
   composite: 35.7
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 47.3
@@ -156,7 +156,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 31.8
+  previous_composite: 35.7
   provenance:
     conformance: first-party
     contracts:
@@ -173,7 +173,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

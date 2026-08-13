@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Acorns Partner API combines OAuth and Partner APIs to allow authorized third parties (partners and aggregators) to access Acorns user data on behalf of said users. Organizations must complete an o
@@ -116,7 +116,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 66
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -140,7 +140,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/screenshots/acorns-2026-06-20T163923.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Chowly Plans Pricing
   plan_count: 1
   slug: chowly-plans-pricing
-random_paper: 82
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Chowly Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -134,7 +134,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 36.8
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -143,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/screenshots/chowly-2026-07-25T205258.png
 security:

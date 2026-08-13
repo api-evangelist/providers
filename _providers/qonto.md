@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -331,7 +331,7 @@ plans:
 - name: Qonto Plans Pricing
   plan_count: 6
   slug: qonto-plans-pricing
-random_paper: 97
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Qonto Rate Limits
@@ -344,7 +344,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 69.1
@@ -352,7 +352,7 @@ score:
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 86.8
-  previous_composite: 73.6
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,7 +370,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

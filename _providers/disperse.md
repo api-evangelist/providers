@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,11 +99,11 @@ overview: 'Disperse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Disperse''s developer surface includes engineering blog, support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 51
+random_paper: 23
 score:
   band: emerging
   composite: 20.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -111,9 +111,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.6
+  previous_composite: 20.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disperse/refs/heads/main/screenshots/disperse-2026-07-25T212104.png
 security:

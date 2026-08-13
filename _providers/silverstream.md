@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,11 +63,11 @@ overview: 'SilverStream is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   SilverStream''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 37
+random_paper: 113
 score:
   band: minimal
   composite: 8.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -75,9 +75,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.5
+  previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

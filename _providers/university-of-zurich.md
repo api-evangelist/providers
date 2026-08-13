@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -156,7 +156,7 @@ plans:
 - name: University Of Zurich Plans Pricing
   plan_count: 2
   slug: university-of-zurich-plans-pricing
-random_paper: 114
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: University Of Zurich Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.2
@@ -189,7 +189,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: Manage Access Control List (ACL) policies for fine-grained permission control.
@@ -144,7 +144,7 @@ plans:
 - name: Rundeck Plans Pricing
   plan_count: 3
   slug: rundeck-plans-pricing
-random_paper: 52
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Rundeck Rate Limits
@@ -169,7 +169,7 @@ rules:
 score:
   band: thin
   composite: 39.7
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 64.9
@@ -177,7 +177,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 47.2
+  previous_composite: 39.7
   provenance:
     contracts:
       callable: 0.0
@@ -185,8 +185,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:
 - kind: domain-security

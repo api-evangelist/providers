@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Qudos Bank publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Qudos Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
-random_paper: 85
+random_paper: 53
 scopes:
 - name: Qudos Bank Scopes
   scope_count: 5
@@ -182,7 +182,7 @@ scopes:
 score:
   band: developing
   composite: 42.0
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.2
@@ -190,7 +190,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 46.1
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,7 +208,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/screenshots/qudos-bank-2026-07-21T114742.png
 security:

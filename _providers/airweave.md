@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Airweave publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Airweave''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 24 more developer resources.'
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Airweave Rate Limits
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.2
@@ -219,7 +219,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.2
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,7 +231,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/screenshots/airweave-2026-07-25T195446.png
 security:

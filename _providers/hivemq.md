@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -199,7 +199,7 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, support, and 24 more developer resources.'
-random_paper: 70
+random_paper: 50
 rules:
 - name: HiveMQ API Rules
   rule_count: 2
@@ -212,7 +212,7 @@ rules:
 score:
   band: developing
   composite: 55.9
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.8
@@ -220,7 +220,7 @@ score:
     discoverability: 72.2
     governance: 64.6
     operational_transparency: 31.6
-  previous_composite: 55.5
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -230,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:

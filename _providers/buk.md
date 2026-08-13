@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 66
 apis:
 - description: The Absences requests API from Buk — 4 operation(s) for absences requests.
@@ -437,11 +437,11 @@ overview: 'Buk publishes 66 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Buk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 41 more developer resources.'
-random_paper: 90
+random_paper: 82
 score:
   band: developing
   composite: 51.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.3
@@ -449,7 +449,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 52.6
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     contracts:
@@ -460,7 +460,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

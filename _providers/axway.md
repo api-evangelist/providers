@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -2731,7 +2731,7 @@ plans:
 - name: Axway Plans Pricing
   plan_count: 3
   slug: axway-plans-pricing
-random_paper: 90
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Axway Rate Limits
@@ -2761,7 +2761,7 @@ scopes:
 score:
   band: strong
   composite: 60.1
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 67.8
@@ -2769,7 +2769,7 @@ score:
     discoverability: 63.0
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 65.2
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -2778,8 +2778,8 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:
 - kind: authentication

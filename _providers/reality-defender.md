@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Asynchronous REST API for deepfake and manipulated-media detection. Request a pre-signed upload URL or submit a social-media URL, then poll for an ensemble detection verdict across image, video, audio
@@ -156,7 +156,7 @@ overview: 'Reality Defender publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Reality Defender''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 12
+random_paper: 76
 score:
   band: thin
   composite: 32.0
@@ -174,7 +174,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

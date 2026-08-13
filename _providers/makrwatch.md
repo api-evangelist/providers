@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.2
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -51,33 +51,86 @@ common:
   title: ''
   type: SignUp
   url: https://makrwatch.com/creator-application
+- group: start
+  title: ''
+  type: Login
+  url: https://creators.makrwatch.com/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://makrwatch.zendesk.com/hc/en-us
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/themidgame
+- group: build
+  title: ''
+  type: Packages
+  url: packages/makrwatch-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/makrwatch-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/makrwatch-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/makrwatch-rate-limits.yml
+coverage:
+  checked: '2026-08-12'
+  detail: 'Makrwatch ships software only as an end-user product: a six-page Webflow marketing site with no developer, API or integrations route, a private Next.js Creators Platform whose own robots.txt calls it a "private app" and disallows /api, and two AWS API Gateway hosts (api.makrwatch.com, platform.makrwatch.com) that answer every unauthenticated path with HTTP 403 {"message":"Forbidden"} — there is no developer program to gate, and the 108-article Zendesk help center is entirely creator payment and video-review support with no API content.'
+  evidence:
+  - status: 403
+    url: https://api.makrwatch.com/openapi.json
+  - status: 404
+    url: https://makrwatch.com/openapi.json
+  - status: 404
+    url: https://makrwatch.com/.well-known/agent-card.json
+  - status: 200
+    url: https://creators.makrwatch.com/robots.txt
+  - status: 200
+    url: https://makrwatch.zendesk.com/api/v2/help_center/en-us/articles.json
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Makrwatch is a creator representation and sponsorship management platform that sits between independent content creators and brands. It sources and filters brand-deal opportunities, negotiates terms and rates, protects creator IP and creative freedom, and handles the administrative work of briefs, timelines, revisions, invoicing, and payment tracking so creators can focus on producing content. Founded out of Y Combinator (W15) and based in New York City, the platform reports $27M+ distributed to creators across 34,000+ sponsorships for 7,400+ creators operating in 118 countries. Makrwatch does not publish a public developer API or documentation surface at this time.
-image: https://www.makrwatch.com/favicon.ico
+description: 'Makrwatch is a creator representation and sponsorship management platform that sits between independent content creators and brands. It sources and filters brand-deal opportunities, negotiates terms and rates, protects creator IP and creative freedom, and handles the administrative work of briefs, timelines, revisions, invoicing, and payment tracking so creators can focus on producing content. Founded out of Y Combinator (W15) and based in New York City, the platform reports $27M+ distributed to creators across 34,000+ sponsorships for 7,400+ creators operating in 118 countries. The company was founded in 2013 as themidgame and still operates its GitHub organization under that name. Makrwatch does not publish a public developer API or documentation surface at this time: there is no developer portal, API reference, OpenAPI, SDK, MCP server or agent card anywhere on its public surface, and its two AWS API Gateway hosts (api.makrwatch.com and platform.makrwatch.com) are private
+  backends for its own Creators and Brands applications, answering every unauthenticated request with HTTP 403.'
+image: https://cdn.prod.website-files.com/6a0745a6b546079e565e03aa/6a344565c429cb6500b6b433_Opengraph.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Makrwatch
 nav: Providers
 network: true
 overview: 'Makrwatch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Influencer Marketing, Sponsorship, and Marketplace.
 
 
-  Makrwatch''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 34
+  Makrwatch''s developer surface includes signup flow and 11 more developer resources.'
+plans:
+- name: Makrwatch Plans Pricing
+  plan_count: 0
+  slug: makrwatch-plans-pricing
+random_paper: 2
+rate_limits:
+- limit_count: 0
+  name: Makrwatch Rate Limits
+  slug: makrwatch-rate-limits
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: emerging
+  composite: 14.1
+  delta: 2.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 4.3
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/screenshots/makrwatch-2026-07-25T230009.png
 security:

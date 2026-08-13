@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
 
 
   Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
-random_paper: 22
+random_paper: 54
 rules:
 - name: Allianz Engagement Survey API Rules
   rule_count: 5
@@ -319,7 +319,7 @@ scopes:
 score:
   band: thin
   composite: 32.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 28.7
@@ -327,7 +327,7 @@ score:
     discoverability: 81.5
     governance: 80.2
     operational_transparency: 5.3
-  previous_composite: 33.6
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +344,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

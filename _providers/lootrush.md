@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ overview: 'LootRush publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LootRush''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 84
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Lootrush Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.6
@@ -157,7 +157,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 36.8
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -175,7 +175,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png
 security:

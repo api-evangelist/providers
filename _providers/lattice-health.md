@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ name: Lattice Health
 nav: Providers
 network: true
 overview: Lattice Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Artificial Intelligence, and AI Governance.
-random_paper: 25
+random_paper: 97
 score:
   band: minimal
   composite: 6.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -81,7 +81,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
+  previous_composite: 6.9
   provenance:
     conformance: first-party
   regulatory:
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice-health/refs/heads/main/screenshots/lattice-health-2026-07-25T224608.png
 security:

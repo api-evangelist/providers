@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 69
+random_paper: 53
 score:
   band: thin
   composite: 30.0
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 48.8
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.4
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,7 +215,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Workleap Plans Pricing
   plan_count: 4
   slug: workleap-plans-pricing
-random_paper: 57
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Workleap Rate Limits
@@ -204,7 +204,7 @@ rules:
 score:
   band: developing
   composite: 51.7
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -212,7 +212,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 52.4
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/screenshots/workleap-2026-06-20T201612.png
 security:

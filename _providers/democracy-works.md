@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
@@ -117,7 +117,7 @@ plans:
 - name: Democracy Works Plans Pricing
   plan_count: 3
   slug: democracy-works-plans-pricing
-random_paper: 54
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Democracy Works Rate Limits
@@ -142,7 +142,7 @@ rules:
 score:
   band: thin
   composite: 35.1
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 71.4
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 13.2
-  previous_composite: 42.3
+  previous_composite: 35.1
   provenance:
     contracts:
       callable: 100.0
@@ -164,8 +164,8 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:
 - kind: domain-security

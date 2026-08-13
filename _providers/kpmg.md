@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ plans:
 - name: Kpmg Plans Pricing
   plan_count: 3
   slug: kpmg-plans-pricing
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Kpmg Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.2
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.1
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png
 security:

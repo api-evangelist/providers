@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,7 +130,7 @@ plans:
 - name: Acretrader Plans Pricing
   plan_count: 0
   slug: acretrader-plans-pricing
-random_paper: 9
+random_paper: 93
 rate_limits:
 - limit_count: 0
   name: Acretrader Rate Limits
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -146,9 +146,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.3
+  previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acretrader/refs/heads/main/screenshots/acretrader-2026-07-25T181516.png
 security:

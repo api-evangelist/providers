@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -354,7 +354,7 @@ plans:
 - name: Prime Intellect Plans Pricing
   plan_count: 6
   slug: prime-intellect-plans-pricing
-random_paper: 42
+random_paper: 110
 rate_limits:
 - limit_count: 3
   name: Prime Intellect Rate Limits
@@ -371,7 +371,7 @@ rules:
 score:
   band: strong
   composite: 60.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.9
@@ -379,7 +379,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.9
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -388,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:

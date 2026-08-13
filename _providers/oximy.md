@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,11 +165,11 @@ overview: 'Oximy publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Oximy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 102
+random_paper: 86
 score:
   band: developing
   composite: 43.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 62.7
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 45.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,7 +195,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/screenshots/oximy-2026-08-07T191209.png
 security:

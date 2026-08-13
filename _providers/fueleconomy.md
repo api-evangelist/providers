@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Fueleconomy Plans Pricing
   plan_count: 1
   slug: fueleconomy-plans-pricing
-random_paper: 30
+random_paper: 110
 rate_limits:
 - limit_count: 0
   name: Fueleconomy Rate Limits
@@ -156,7 +156,7 @@ rules:
 score:
   band: thin
   composite: 35.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.7
@@ -164,7 +164,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -179,7 +179,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/screenshots/fueleconomy-2026-06-20T181604.png
 security:

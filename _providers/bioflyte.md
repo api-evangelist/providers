@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -226,11 +226,11 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
-random_paper: 50
+random_paper: 22
 score:
   band: emerging
   composite: 26.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 38.0
@@ -238,7 +238,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 27.5
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

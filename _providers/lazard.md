@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Lazard API provides access to platform services and data for enterprise integration and automation.
@@ -65,7 +65,7 @@ plans:
 - name: Lazard Plans Pricing
   plan_count: 1
   slug: lazard-plans-pricing
-random_paper: 58
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Lazard Rate Limits
@@ -73,7 +73,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.2
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -81,7 +81,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.5
+  previous_composite: 8.2
   regulatory:
     applies: true
     matched_via: tags
@@ -89,8 +89,8 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lazard/refs/heads/main/screenshots/lazard-2026-06-20T184339.png
 security:
 - kind: domain-security

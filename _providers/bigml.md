@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Bigml Plans Pricing
   plan_count: 4
   slug: bigml-plans-pricing
-random_paper: 59
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Bigml Rate Limits
@@ -210,7 +210,7 @@ rules:
 score:
   band: developing
   composite: 51.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.2
@@ -218,7 +218,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 52.3
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/screenshots/bigml-2026-06-20T173236.png
 security:

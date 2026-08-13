@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 34
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -214,11 +214,11 @@ overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) net
 
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 55
+random_paper: 15
 score:
   band: thin
   composite: 32.9
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 49.5
@@ -226,7 +226,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.5
+  previous_composite: 32.9
   provenance:
     conformance: derived
     contracts:
@@ -242,7 +242,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1046,7 +1046,7 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
-random_paper: 29
+random_paper: 65
 rules:
 - name: Amazon CodeGuru Profiler API Rules
   rule_count: 5
@@ -1067,7 +1067,7 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 72.4
@@ -1075,7 +1075,7 @@ score:
     discoverability: 81.5
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 39.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1086,7 +1086,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

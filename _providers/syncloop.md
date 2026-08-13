@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Syncloop API Management Platform provides REST APIs for managing API services, configurations, deployments, and developer portal operations. The platform enables organizations to create, publish, '
@@ -84,7 +84,7 @@ plans:
 - name: Syncloop Plans Pricing
   plan_count: 3
   slug: syncloop-plans-pricing
-random_paper: 75
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Syncloop Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.1
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -100,10 +100,10 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.9
+  previous_composite: 15.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syncloop/refs/heads/main/screenshots/syncloop-2026-06-20T194825.png
 security:
 - kind: domain-security

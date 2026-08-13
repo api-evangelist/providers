@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Padlet publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Padlet''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 54
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Padlet Rate Limits
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.8
@@ -206,7 +206,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 54.7
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,7 +218,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/screenshots/padlet-2026-08-07T191252.png
 security:

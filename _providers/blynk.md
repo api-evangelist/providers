@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Token-authenticated HTTPS REST API used by individual devices to read and write datastream values, batch update multiple datastreams, retrieve historical data, set widget and datastream properties, tr
@@ -246,11 +246,11 @@ overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blynk''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, pricing, engineering blog, and 35 more developer resources.'
-random_paper: 80
+random_paper: 64
 score:
   band: thin
   composite: 31.5
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -258,7 +258,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 29.8
+  previous_composite: 31.5
   regulatory:
     applies: true
     matched_via: tags
@@ -266,7 +266,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blynk/refs/heads/main/screenshots/blynk-2026-06-20T173539.png
 security:

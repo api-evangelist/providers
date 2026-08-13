@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Wistia publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Wistia''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 77
+random_paper: 57
 rules:
 - name: Wistia API Rules
   rule_count: 8
@@ -171,7 +171,7 @@ rules:
 score:
   band: thin
   composite: 41.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 64.1
@@ -179,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 38.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:

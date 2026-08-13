@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Honeywell Forge is the connected enterprise platform that provides developer integration capabilities for building automation, industrial IoT, aerospace data, and connected building management. Access
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: 'Industrial AI Insights: Key Findings from Honeywell'
   url: https://www.honeywell.com/us/en/ai/research
-random_paper: 55
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Honeywell Rate Limits
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 17.7
@@ -113,10 +113,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 21.3
+  previous_composite: 16.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png
 security:
 - kind: domain-security

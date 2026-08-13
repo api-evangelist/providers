@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for automating content generation with Matik — manage templates, generate presentations/documents/spreadsheets, run dynamic content queries against connected data sources, manage da
@@ -167,7 +167,7 @@ overview: 'Matik publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Matik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 70
+random_paper: 54
 scopes:
 - name: Matik Scopes
   scope_count: 2
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -184,13 +184,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 50.7
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png
 security:

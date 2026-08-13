@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Avantor® Completes Acquisition of VWR
   url: https://www.labmanager.com/avantor-completes-acquisition-of-vwr-5935
-random_paper: 3
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Vwr Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.2
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -120,7 +120,7 @@ score:
     discoverability: 50.0
     governance: 10.4
     operational_transparency: 7.9
-  previous_composite: 21.8
+  previous_composite: 15.2
   regulatory:
     applies: true
     matched_via: tags
@@ -128,8 +128,8 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/screenshots/vwr-2026-06-20T201153.png
 security:
 - kind: domain-security

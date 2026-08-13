@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 38
+random_paper: 110
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits
@@ -276,7 +276,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 58.2
@@ -284,7 +284,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -293,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
 security:

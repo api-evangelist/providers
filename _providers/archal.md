@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -54,13 +54,10 @@ apis:
   name: Archal Sessions API
   slug: archal-sessions-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Provision a hosted clone session, POST a request into the cloned service through the runtime proxy, read the resulting trace, then stop the session.
   name: Create an Archal clone session, drive it, and read the trace
   slug: archal-create-and-evaluate
-artifact_total: 11
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -170,11 +167,11 @@ overview: 'Archal publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Archal''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, sandbox, and 17 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: thin
   composite: 39.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.2
@@ -182,7 +179,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.8
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/screenshots/archal-2026-07-25T201020.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Socket.IO WebSockets API for real-time speech recognition. After JWT login via the HTTP API, clients set recognition options (set_options), then send recognize_audio_samples for pre-segmented speech o
@@ -165,11 +165,11 @@ overview: 'Voiceitt publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Voiceitt''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 59
+random_paper: 31
 score:
   band: developing
   composite: 46.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.5
@@ -177,7 +177,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 47.0
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     contracts:
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
-random_paper: 67
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Origin Energy Rate Limits
@@ -286,7 +286,7 @@ scopes:
 score:
   band: strong
   composite: 60.8
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.5
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 94.7
-  previous_composite: 60.9
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,7 +312,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

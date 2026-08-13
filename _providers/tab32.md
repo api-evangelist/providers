@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Access to the tab32 patient data object - demographics, contact and insurance details, and patient records - for integrating patient management into CRM, patient-facing apps, and enterprise systems. E
@@ -90,11 +90,11 @@ plans:
 - name: Tab32 Plans Pricing
   plan_count: 3
   slug: tab32-plans-pricing
-random_paper: 64
+random_paper: 52
 score:
   band: emerging
   composite: 13.5
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -102,7 +102,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.6
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

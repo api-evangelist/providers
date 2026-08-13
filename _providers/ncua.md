@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Ncua Plans Pricing
   plan_count: 2
   slug: ncua-plans-pricing
-random_paper: 75
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Ncua Rate Limits
@@ -159,7 +159,7 @@ rules:
 score:
   band: thin
   composite: 37.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
@@ -167,7 +167,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 38.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -182,7 +182,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:

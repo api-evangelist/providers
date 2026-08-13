@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -108,11 +108,11 @@ overview: 'ZeroBounce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ZeroBounce''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 40
+random_paper: 4
 score:
   band: thin
   composite: 28.0
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 45.5
@@ -120,7 +120,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.8
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -129,7 +129,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-06-20T201831.png
 security:

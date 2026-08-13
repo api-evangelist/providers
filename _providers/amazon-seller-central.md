@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -127,11 +127,11 @@ overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https:/
 
 
   Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 40
+random_paper: 88
 score:
   band: thin
   composite: 30.6
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.2
@@ -139,7 +139,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.8
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -148,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png
 security:

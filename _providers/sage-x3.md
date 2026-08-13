@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: RESTful web service interface for Sage X3 business objects. Supports standard HTTP methods (GET, POST, PUT, DELETE) for managing entities such as customers, suppliers, sales orders, purchase orders, i
@@ -130,7 +130,7 @@ plans:
 - name: Sage X3 Plans Pricing
   plan_count: 2
   slug: sage-x3-plans-pricing
-random_paper: 52
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Sage X3 Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 38.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-x3/refs/heads/main/screenshots/sage-x3-2026-06-20T193329.png
 security:

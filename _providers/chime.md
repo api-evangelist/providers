@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Chime Plans Pricing
   plan_count: 4
   slug: chime-plans-pricing
-random_paper: 54
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Chime Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: developing
   composite: 47.9
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.6
@@ -197,7 +197,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 46.6
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +212,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/screenshots/chime-2026-06-20T174317.png
 security:

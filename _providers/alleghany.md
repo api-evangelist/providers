@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Alleghany Capital Corporation Announces Investment In ...
   url: https://www.prnewswire.com/news-releases/alleghany-capital-corporation-announces-investment-in-ips-integrated-project-services-300170111.html
-random_paper: 21
+random_paper: 109
 score:
   band: minimal
   composite: 6.2
@@ -121,7 +121,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleghany/refs/heads/main/screenshots/alleghany-2026-07-25T195644.png
 security:

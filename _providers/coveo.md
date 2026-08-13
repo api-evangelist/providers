@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -1259,7 +1259,7 @@ plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 76
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits
@@ -1289,7 +1289,7 @@ scopes:
 score:
   band: developing
   composite: 54.3
-  delta: -7.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 70.4
@@ -1297,7 +1297,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 62.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1306,8 +1306,8 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:
 - kind: authentication

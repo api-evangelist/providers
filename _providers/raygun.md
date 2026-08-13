@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -456,7 +456,7 @@ plans:
 - name: Raygun Plans Pricing
   plan_count: 13
   slug: raygun-plans-pricing
-random_paper: 82
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Raygun Rate Limits
@@ -481,7 +481,7 @@ rules:
 score:
   band: exemplar
   composite: 70.7
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 73.4
@@ -489,7 +489,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 68.7
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     contracts:
@@ -498,7 +498,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:

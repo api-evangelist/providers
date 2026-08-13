@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Scrapfly Plans Pricing
   plan_count: 6
   slug: scrapfly-plans-pricing
-random_paper: 56
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Scrapfly Rate Limits
@@ -161,7 +161,7 @@ rules:
 score:
   band: thin
   composite: 39.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 69.4
@@ -169,7 +169,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png
 security:
 - kind: authentication

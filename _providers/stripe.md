@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1565,7 +1565,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 83
+random_paper: 63
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1603,7 +1603,7 @@ scopes:
 score:
   band: exemplar
   composite: 75.6
-  delta: -9.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 73.8
@@ -1611,7 +1611,7 @@ score:
     discoverability: 59.3
     governance: 63.5
     operational_transparency: 76.3
-  previous_composite: 84.7
+  previous_composite: 75.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1629,8 +1629,8 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:
 - kind: authentication

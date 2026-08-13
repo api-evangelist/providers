@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 81
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits
@@ -288,7 +288,7 @@ rules:
 score:
   band: strong
   composite: 56.3
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.3
@@ -296,7 +296,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 59.1
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -305,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

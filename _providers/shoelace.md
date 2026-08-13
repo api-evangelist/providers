@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -35,58 +35,80 @@ common:
   title: ''
   type: DomainSecurity
   url: security/shoelace-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/shoelace-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://shoelace.com
 - group: company
   title: ''
-  type: Blog
-  url: https://www.shoelace.com/blog
-- group: commercial
+  type: About
+  url: https://shoelace.com/about
+- group: company
   title: ''
-  type: Pricing
-  url: https://www.shoelace.com/pricing
+  type: Blog
+  url: https://shoelace.com/journal
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://shoelace.com/work
 - group: operate
   title: ''
-  type: Support
-  url: https://www.shoelace.com/help
-- group: commercial
+  type: Contact
+  url: https://shoelace.com/contact
+- group: other
   title: ''
-  type: TermsOfService
-  url: https://www.shoelace.com/terms-of-service
-- group: commercial
+  type: Resources
+  url: https://shoelace.com/library
+- group: other
   title: ''
-  type: PrivacyPolicy
-  url: https://www.shoelace.com/privacy-policy
+  type: Glossary
+  url: https://shoelace.com/library/glossary
+coverage:
+  checked: '2026-08-12'
+  detail: Shoelace sells managed paid-media and retention campaign work, not software — its own llms.txt enumerates fifteen marketing pages and no developer surface, api./docs./developer.shoelace.com do not resolve, and the only OpenAPI reachable on the domain (https://shoelace.com/api/openapi.json) is the Base44 App Management API belonging to the platform the marketing site is built on.
+  evidence:
+  - status: 200
+    url: https://shoelace.com/llms.txt
+  - status: 200
+    url: https://shoelace.com/api/openapi.json
+  - status: 404
+    url: https://shoelace.com/.well-known/agent-card.json
+  - status: 0
+    url: https://developer.shoelace.com
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Shoelace is an omni-channel growth marketing agency for direct-to-consumer (DTC) brands, trusted by 300+ brands. The team plans, creates, and optimizes paid advertising, email, and creative work across both acquisition and retention channels to drive real, measurable revenue growth. Shoelace operates as a managed growth partner delivering marketing services rather than a public developer API; this API Evangelist profile tracks the company as a 500 Global portfolio lead and captures its public web presence and domain-security posture.
-image: https://cdn.prod.website-files.com/6170cbcb66a17ca81a5e6cc3/633750169d692632a866f9c6_SL-Favicon.png
+description: Shoelace is an omni-channel growth marketing agency for direct-to-consumer (DTC) and e-commerce brands, founded in 2015 and trusted by 300+ brands. The team plans, creates, and optimizes paid acquisition across Meta, Google, TikTok and YouTube alongside email and SMS retention, performance creative, UGC, and in-house photo and video production. Shoelace operates as a managed growth partner delivering marketing services — it sells campaign management, not software, and publishes no developer API, SDK, webhook surface, or developer portal. This API Evangelist profile tracks the company as a 500 Global portfolio lead and captures its public web presence, its published llms.txt, and its domain-security posture.
+image: https://media.base44.com/images/public/6a554b6210f2878725464b3e/f71197d73_logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Shoelace
 nav: Providers
 network: true
-overview: 'Shoelace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Growth Marketing, DTC, and Advertising.
+overview: 'Shoelace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Growth Marketing, DTC, and E-Commerce.
 
 
-  Shoelace''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 24
+  Shoelace''s developer surface includes engineering blog and 8 more developer resources.'
+random_paper: 116
 score:
   band: minimal
-  composite: 12.6
-  delta: 0.0
+  composite: 6.2
+  delta: -6.4
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 50.0
+    developer_ergonomics: 2.2
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: falling
 security:
 - kind: domain-security
   name: Shoelace Domain Security
@@ -98,7 +120,9 @@ tags:
 - Marketing
 - Growth Marketing
 - DTC
+- E-Commerce
 - Advertising
+- Paid Media
 - Email Marketing
 - Agency
 website: https://shoelace.com

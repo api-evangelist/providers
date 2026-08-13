@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Digital Healthcare
   url: https://www.stryker.com/us/en/portfolios/medical-surgical-equipment/advanced-digital-healthcare.html
-random_paper: 92
+random_paper: 68
 rules:
 - name: Stryker API Rules
   rule_count: 5
@@ -137,7 +137,7 @@ rules:
 score:
   band: emerging
   composite: 21.5
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 12.9
@@ -145,7 +145,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 20.9
+  previous_composite: 21.5
   regulatory:
     applies: true
     matched_via: tags
@@ -153,7 +153,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stryker/refs/heads/main/screenshots/stryker-2026-06-20T194623.png
 security:

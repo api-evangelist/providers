@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -158,7 +158,7 @@ overview: 'Australian Military Bank publishes 7 APIs on the [APIs.io](https://ap
 
 
   Australian Military Bank''s developer surface includes support, API reference, authentication, and 19 more developer resources.'
-random_paper: 17
+random_paper: 53
 scopes:
 - name: Australian Military Bank Scopes
   scope_count: 0
@@ -167,7 +167,7 @@ scopes:
 score:
   band: thin
   composite: 33.5
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 13.1
@@ -175,7 +175,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 18.4
-  previous_composite: 36.3
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     contracts:
@@ -192,7 +192,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:

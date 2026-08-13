@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Cucumber is the world's most popular BDD framework, supporting Java, JavaScript, Ruby, Python, and C#. It uses Gherkin syntax for writing human-readable test scenarios and provides integrations with a
@@ -134,7 +134,7 @@ plans:
 - name: Bdd Plans Pricing
   plan_count: 3
   slug: bdd-plans-pricing
-random_paper: 66
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Bdd Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.6
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -150,10 +150,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 21.3
+  previous_composite: 15.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bdd/refs/heads/main/screenshots/bdd-2026-06-20T173104.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Ezee Plans Pricing
   plan_count: 2
   slug: ezee-plans-pricing
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Ezee Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 58.2
@@ -127,7 +127,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -136,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png
 security:

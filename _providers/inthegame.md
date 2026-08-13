@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -227,11 +227,11 @@ overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Inthegame''s developer surface includes documentation, API reference, authentication, code examples, sandbox, engineering blog, support, and 17 more developer resources.'
-random_paper: 18
+random_paper: 106
 score:
   band: developing
   composite: 42.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 72.4
@@ -239,7 +239,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 43.0
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:

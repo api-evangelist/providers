@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 58
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
@@ -351,7 +351,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
 
 
   Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 64
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits
@@ -359,7 +359,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.7
@@ -367,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 55.1
+  previous_composite: 55.4
   provenance:
     conformance: derived
     contracts:
@@ -378,7 +378,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

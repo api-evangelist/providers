@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -436,7 +436,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 36
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -461,7 +461,7 @@ rules:
 score:
   band: strong
   composite: 58.3
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 82.1
@@ -469,7 +469,7 @@ score:
     discoverability: 81.5
     governance: 53.1
     operational_transparency: 47.4
-  previous_composite: 65.4
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -480,8 +480,8 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:
 - kind: authentication

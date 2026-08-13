@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: true
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -27,8 +27,15 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-11'
+  score: 18.5
+  scored_at: '2026-08-12'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Meredith Agentic Access
+  operation_count: 0
+  slug: meredith-agentic-access
+  summary_line: 0 operations
 api_count: 30
 apis:
 - description: RSS 2.0 feeds for People.com, the flagship celebrity-and-human-interest brand of People Inc. People.com is the largest property in the portfolio (~187M monthly visits per 2025 estimates). Section feed
@@ -121,8 +128,56 @@ apis:
 - description: 'A bundle of B2B services run by People Inc with no public developer surface but with discrete branded sub-products: Content Solutions (content marketing consultancy), Awards & Accolades (licensing of '
   name: Specialty Marketing Solutions (SMS) Suite
   slug: specialty-marketing-solutions-sms-suite
-artifact_total: 44
+artifact_total: 46
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/meredith-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/meredith-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/meredith-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/meredith-security.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/meredith-agentic-access.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/meredith-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/meredith-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/meredith-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/meredith-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/meredith-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/meredith-llms.txt
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/meredith-vocabulary.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -166,7 +221,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.people.inc/terms-of-service
+  url: https://www.people.inc/brands-termsofservice
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -174,7 +229,15 @@ common:
 - group: auth
   title: ''
   type: Compliance
-  url: https://www.people.inc/iac-code-of-business-conduct-and-ethics
+  url: https://ir.iac.com/code-business-conduct-and-ethics
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.people.inc/contact
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:contentlicensing@people.inc
 - group: operate
   title: ''
   type: Contact
@@ -209,7 +272,7 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/meredith/main/json-ld/meredith-context.jsonld
 created: '2025-05-05'
 description: 'Profile for People Inc (formerly Dotdash Meredith) in the API Evangelist network. America''s largest digital and print publisher, operating 40+ brands including PEOPLE, Better Homes & Gardens, Allrecipes, Investopedia, Verywell, Food & Wine, Southern Living, Real Simple, Travel + Leisure, Byrdie, InStyle, The Spruce, EatingWell, Serious Eats, Simply Recipes, Brides, Health, Shape, Parents, Entertainment Weekly, Lifewire, TreeHugger, TripSavvy, The Balance, and more. An IAC (NASDAQ: IAC) operating company since the December 2021 merger of Dotdash and Meredith Corporation ($2.7B transaction); rebranded to "People Inc." on July 31, 2025 to elevate the company''s flagship brand. There is no public read/write developer API surface — the addressable machine-readable surface is per-brand RSS feeds, XML sitemaps, robots.txt policy declarations, and the D/Cipher intent-based contextual advertising platform sold as a B2B media buy (no self-serve developer console). All major brand domains
-  explicitly disallow ClaudeBot, anthropic-ai, GPTBot (partial), CCBot, PerplexityBot, and other AI crawlers in robots.txt, reflecting the company''s stance on unlicensed model training against its content corpus.'
+  explicitly disallow ClaudeBot, anthropic-ai, CCBot, PerplexityBot and 70+ other AI crawlers in robots.txt — with the OpenAI crawlers (GPTBot, OAI-SearchBot, ChatGPT-User) notably exempted down to a single /thmb/ path, and sponsored-content paths (*/presented/, */integrated/) carved back OUT of the denylist so advertiser content stays crawlable while editorial does not. The policy is enforced at the Cloudflare edge as well as declared: as of 2026-08-12 every People Inc host answers a declared AI crawler with HTTP 402 Payment Required and the body "If you wish to license content from People Inc, please contact contentlicensing@people.inc". Discovery metadata (robots.txt, sitemap.xml, google-news-sitemap.xml and an RFC 9116 security.txt pointing at a private HackerOne program) is served at 200 to every client; article and RSS paths return 403 to every non-browser client. The map is open, the corpus is not.'
 examples:
 - key_count: 1
   name: Allrecipes Sitemap Index Example
@@ -245,7 +308,7 @@ jsonld:
   property_count: 0
   slug: meredith-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-12'
 name: Dotdash Meredith / People Inc
 nav: Providers
 network: true
@@ -255,12 +318,12 @@ overview: 'Dotdash Meredith / People Inc publishes 30 APIs on the [APIs.io](http
   The Dotdash Meredith / People Inc catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, pricing, and 17 more developer resources.'
+  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, support, pricing, and 30 more developer resources.'
 plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 38
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits
@@ -283,31 +346,35 @@ rules:
     warn: 0
   slug: people-inc-rss-rules
 score:
-  band: thin
-  composite: 40.1
-  delta: -0.7
+  band: developing
+  composite: 47.3
+  delta: 7.2
   facets:
     commercial_clarity: 78.9
     contract_quality: 22.6
-    developer_ergonomics: 10.9
-    discoverability: 74.1
-    governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 40.8
+    developer_ergonomics: 15.2
+    discoverability: 92.6
+    governance: 81.3
+    operational_transparency: 31.6
+  previous_composite: 40.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 36.4
+    score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Meredith Domain Security
   slug: meredith-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Meredith Vulnerability Disclosure
+  slug: meredith-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: meredith
 tags:
 - Media

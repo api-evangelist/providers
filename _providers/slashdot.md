@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Slashdot Plans Pricing
   plan_count: 3
   slug: slashdot-plans-pricing
-random_paper: 54
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Slashdot Rate Limits
@@ -194,7 +194,7 @@ rules:
 score:
   band: thin
   composite: 33.4
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 58.2
@@ -202,7 +202,7 @@ score:
     discoverability: 63.0
     governance: 52.1
     operational_transparency: 7.9
-  previous_composite: 41.0
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/screenshots/slashdot-2026-06-20T194022.png
 security:
 - kind: domain-security

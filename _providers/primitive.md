@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -132,11 +132,11 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 57
+random_paper: 25
 score:
   band: thin
   composite: 28.3
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 74.8
@@ -144,7 +144,7 @@ score:
     discoverability: 40.7
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 27.0
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -156,7 +156,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

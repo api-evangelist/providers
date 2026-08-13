@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 1
@@ -174,7 +174,7 @@ plans:
 - name: Zoho Analytics Plans Pricing
   plan_count: 6
   slug: zoho-analytics-plans-pricing
-random_paper: 69
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Zoho Analytics Rate Limits
@@ -196,7 +196,7 @@ scopes:
 score:
   band: developing
   composite: 46.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 66.1
@@ -204,7 +204,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 47.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/screenshots/zoho-analytics-2026-06-20T201934.png
 security:

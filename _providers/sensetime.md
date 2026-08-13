@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The SenseNova LLM API service platform exposes SenseTime's large multimodal foundation models (chat completions, embeddings, image and video generation, and fine-tuning) over an HTTP API, authenticate
@@ -108,7 +108,7 @@ overview: 'SenseTime publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SenseTime''s developer surface includes documentation, pricing, authentication, CLI, and 11 more developer resources.'
-random_paper: 45
+random_paper: 13
 scopes:
 - name: Sensetime Scopes
   scope_count: 3
@@ -117,7 +117,7 @@ scopes:
 score:
   band: emerging
   composite: 21.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -125,9 +125,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.4
+  previous_composite: 21.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

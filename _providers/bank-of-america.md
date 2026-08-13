@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ press:
 - date: '2026-05-25'
   title: Bank of America's Moynihan Says AI's Economic Benefit Is ' ...
   url: https://www.bloomberg.com/news/articles/2025-12-22/bofa-s-moynihan-says-ai-s-economic-benefit-is-kicking-in-more
-random_paper: 45
+random_paper: 117
 rate_limits:
 - limit_count: 1
   name: Bank Of America Rate Limits
@@ -355,7 +355,7 @@ scopes:
 score:
   band: developing
   composite: 51.0
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 71.9
@@ -363,7 +363,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 52.5
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -378,7 +378,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -194,7 +194,7 @@ overview: 'Wish publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 13 more developer resources.'
-random_paper: 95
+random_paper: 83
 rate_limits:
 - limit_count: 0
   name: Wish Rate Limits
@@ -207,7 +207,7 @@ scopes:
 score:
   band: developing
   composite: 42.7
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 71.0
@@ -215,7 +215,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.6
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,7 +233,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

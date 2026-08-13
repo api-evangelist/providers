@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -222,11 +222,11 @@ overview: 'Kongregate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kongregate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 19
+random_paper: 103
 score:
   band: developing
   composite: 50.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.1
@@ -234,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 51.8
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
 security:

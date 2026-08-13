@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,7 +91,7 @@ plans:
 - name: Corwave Plans Pricing
   plan_count: 0
   slug: corwave-plans-pricing
-random_paper: 63
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Corwave Rate Limits
@@ -99,6 +99,7 @@ rate_limits:
 score:
   band: minimal
   composite: 8.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -106,6 +107,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
@@ -113,7 +115,8 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Corwave Domain Security

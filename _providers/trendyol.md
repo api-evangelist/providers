@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Trendyol Marketplace / Partner API for sellers and integrators — product, order/shipment, returns, invoice, settlement, and webhook operations.
@@ -123,7 +123,7 @@ overview: 'Trendyol publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trendyol''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 69
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Trendyol Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -139,13 +139,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 76.3
-  previous_composite: 43.1
+  previous_composite: 42.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

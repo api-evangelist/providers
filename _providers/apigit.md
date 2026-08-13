@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Apigit Plans Pricing
   plan_count: 3
   slug: apigit-plans-pricing
-random_paper: 58
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Apigit Rate Limits
@@ -185,7 +185,7 @@ rules:
 score:
   band: thin
   composite: 32.5
-  delta: -8.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 27.2
@@ -193,7 +193,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 40.6
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/screenshots/apigit-2026-06-20T172238.png
 security:
 - kind: authentication

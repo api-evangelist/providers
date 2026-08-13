@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,11 +152,11 @@ overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
-random_paper: 49
+random_paper: 9
 score:
   band: thin
   composite: 37.2
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 55.5
@@ -164,7 +164,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -182,7 +182,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

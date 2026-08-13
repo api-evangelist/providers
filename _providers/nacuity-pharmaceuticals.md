@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -199,11 +199,11 @@ overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://api
 
 
   Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
-random_paper: 80
+random_paper: 0
 score:
   band: thin
   composite: 29.1
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 58.4
@@ -211,7 +211,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:

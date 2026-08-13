@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ overview: 'Paylocity publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paylocity''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 62
+random_paper: 30
 scopes:
 - name: Paylocity Scopes
   scope_count: 1
@@ -170,7 +170,7 @@ scopes:
 score:
   band: thin
   composite: 36.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.2
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 36.1
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -187,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/screenshots/paylocity-2026-06-20T191505.png
 security:

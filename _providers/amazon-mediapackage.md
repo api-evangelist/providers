@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -868,7 +868,7 @@ plans:
 - name: Amazon Mediapackage Plans Pricing
   plan_count: 3
   slug: amazon-mediapackage-plans-pricing
-random_paper: 63
+random_paper: 119
 rate_limits:
 - limit_count: 5
   name: Amazon Mediapackage Rate Limits
@@ -893,7 +893,7 @@ rules:
 score:
   band: strong
   composite: 56.0
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.0
@@ -901,7 +901,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 61.8
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -910,8 +910,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/screenshots/amazon-mediapackage-2026-06-20T171746.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Convoke is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Convoke''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 8.3
@@ -95,7 +95,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoke/refs/heads/main/screenshots/convoke-2026-07-25T210354.png
 security:

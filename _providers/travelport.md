@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -166,11 +166,11 @@ overview: 'Travelport publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Travelport''s developer surface includes authentication, getting-started guide, support, product news, and 12 more developer resources.'
-random_paper: 63
+random_paper: 27
 score:
   band: emerging
   composite: 27.1
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 58.2
@@ -178,7 +178,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.9
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +193,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png
 security:

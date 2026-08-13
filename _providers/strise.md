@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -171,7 +171,7 @@ overview: 'Strise publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 86
+random_paper: 66
 score:
   band: developing
   composite: 52.0
@@ -189,7 +189,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

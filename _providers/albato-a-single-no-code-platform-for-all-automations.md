@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -273,7 +273,7 @@ plans:
 - name: Albato A Single No Code Platform For All Automations Plans Pricing
   plan_count: 3
   slug: albato-a-single-no-code-platform-for-all-automations-plans-pricing
-random_paper: 83
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Albato A Single No Code Platform For All Automations Rate Limits
@@ -306,7 +306,7 @@ rules:
 score:
   band: developing
   composite: 51.5
-  delta: -9.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 72.2
@@ -314,7 +314,7 @@ score:
     discoverability: 81.5
     governance: 80.2
     operational_transparency: 7.9
-  previous_composite: 61.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +325,8 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:
 - kind: authentication

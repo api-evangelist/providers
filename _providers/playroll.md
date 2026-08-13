@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Partner/enterprise integration surface for Playroll's Employer of Record product - hire, onboard, and manage full-time employees in 180+ countries through Playroll's owned entities without your busine
@@ -108,7 +108,7 @@ plans:
 - name: Playroll Plans Pricing
   plan_count: 4
   slug: playroll-plans-pricing
-random_paper: 67
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Playroll Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

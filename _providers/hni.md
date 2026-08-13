@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: HNI) 2026 proxy details Steelcase deal, pay and ESG
   url: https://www.stocktitan.net/sec-filings/HNI/def-14a-hni-corp-definitive-proxy-statement-3603a98d9fc3.html
-random_paper: 87
+random_paper: 79
 score:
   band: minimal
   composite: 3.0
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/screenshots/hni-2026-06-20T182807.png
 security:

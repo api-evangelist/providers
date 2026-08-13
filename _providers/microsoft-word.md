@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -522,7 +522,7 @@ plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
   slug: microsoft-word-plans-pricing
-random_paper: 79
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Microsoft Word Rate Limits
@@ -552,7 +552,7 @@ scopes:
 score:
   band: developing
   composite: 55.6
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 31.1
@@ -560,7 +560,7 @@ score:
     discoverability: 68.5
     governance: 80.2
     operational_transparency: 55.3
-  previous_composite: 59.7
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -571,7 +571,7 @@ score:
       total: 18
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:

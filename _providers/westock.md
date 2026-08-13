@@ -24,69 +24,110 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
+  score: 3.6
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
   type: Website
-  url: https://westock.io/
+  url: https://www.westock.io/
 - group: commercial
   title: ''
   type: Pricing
-  url: https://westock.io/pricing
+  url: https://www.westock.io/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/westock-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
-  url: https://westock.io/blog
+  url: https://www.westock.io/resources
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://westock.helpscoutdocs.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://westock.helpscoutdocs.com/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://westock.io/terms
+  url: https://www.westock.io/terms-of-service
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://westock.io/privacy
+  url: https://www.westock.io/privacy-policy
 - group: start
   title: ''
   type: SignUp
-  url: https://dashboard.westock.io/
+  url: https://dashboard.westock.io/login
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/westock-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/westock-domain-security.yml
+coverage:
+  checked: '2026-08-12'
+  detail: WeStock runs a real first-party backend at api.westock.io that answers HTTP 401 "Unauthorized" on every path including the root, but ships nothing for developers — the marketing site has no /developers, /docs or /api page anywhere in its 92-URL sitemap, and the Help Scout knowledge base's only "API key" article is about pasting a customer's own Klaviyo key into the WeStock dashboard.
+  evidence:
+  - status: 401
+    url: https://api.westock.io/openapi.json
+  - status: 401
+    url: https://api.westock.io/
+  - status: 503
+    url: https://api.labs.westock.io/
+  - status: 200
+    url: https://www.westock.io/sitemap.xml
+  - status: 404
+    url: https://westock.io/.well-known/agent-card.json
+  - status: 404
+    url: https://westock.io/llms.txt
+  - status: 502
+    url: https://webapi.westock.io/
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: WeStock is a shopper-marketing platform that helps consumer packaged goods (CPG) brands drive product trial, build first-party retail audiences, and manage trade and shopper marketing strategy from a single dashboard. It combines digital rebates and promotional campaigns, paid social advertising (primarily Meta), in-store sampling and demos, retail media management across Amazon, Walmart, and Instacart, email/SMS automation, and influencer marketing, alongside a consumer discovery web app used by 600,000+ shoppers to browse new products. Campaign data — trials, conversions, and repeat behavior — is unified in one place. A Techstars-backed company; its public surface is a marketing site and login-gated dashboard, with a private backend API (api.westock.io) that is not publicly documented.
+description: 'WeStock is a shopper-marketing platform that helps consumer packaged goods (CPG) brands drive product trial, build first-party retail audiences, and manage trade and shopper marketing strategy from a single dashboard. It combines digital rebates and promotional campaigns, paid social advertising (primarily Meta), in-store sampling and demos, retail media management across Amazon, Walmart, and Instacart, email/SMS automation, and influencer marketing, alongside a consumer discovery web app used by 600,000+ shoppers to browse new products. Campaign data — trials, conversions, and repeat behavior — is unified in one place. A Techstars-backed company; its entire public surface is a Webflow marketing site, a Help Scout knowledge base of product how-tos, and login-gated dashboard and consumer apps. WeStock runs a real first-party backend at api.westock.io — hardened Node/Express that answers HTTP 401 on every path including the root — but ships no developer program: no API reference,
+  no OpenAPI or GraphQL schema, no SDK on any registry, no webhooks, and no API pricing. Its documented integrations run the other way: WeStock consumes Klaviyo and Attentive using keys the customer pastes into the WeStock dashboard.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westock.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: WeStock
 nav: Providers
 network: true
 overview: 'WeStock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Shopper Marketing, Consumer Packaged Goods, Retail Media, and Marketing.
 
 
-  WeStock''s developer surface includes pricing, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 72
+  WeStock''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
+plans:
+- name: Westock Plans Pricing
+  plan_count: 3
+  slug: westock-plans-pricing
+random_paper: 48
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 23.4
+  delta: 9.0
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Westock Domain Security
@@ -101,5 +142,9 @@ tags:
 - Marketing
 - Rebates
 - Audience Building
-website: https://westock.io/
+- Trade Promotion
+- First-Party Data
+- Retail
+- Advertising
+website: https://www.westock.io/
 ---

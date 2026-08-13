@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Jargon's collaborative modelling platform for designing, governing, and scaling domain models with generation of OpenAPI, JSON Schema, and JSON-LD artifacts. A public REST API is not currently publish
@@ -80,7 +80,7 @@ plans:
 - name: Jargon Plans Pricing
   plan_count: 3
   slug: jargon-plans-pricing
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Jargon Rate Limits
@@ -88,7 +88,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.0
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -96,10 +96,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.8
+  previous_composite: 13.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jargon/refs/heads/main/screenshots/jargon-2026-06-20T183702.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ plans:
 - name: National Highway Traffic Safety Administration Plans Pricing
   plan_count: 3
   slug: national-highway-traffic-safety-administration-plans-pricing
-random_paper: 44
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: National Highway Traffic Safety Administration Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.9
-  delta: -10.2
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 45.6
@@ -118,7 +118,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 32.1
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -133,8 +133,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/screenshots/national-highway-traffic-safety-administration-2026-06-20T190021.png
 security:
 - kind: domain-security

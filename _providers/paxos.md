@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -320,7 +320,7 @@ overview: 'Paxos publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paxos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 91
+random_paper: 75
 scopes:
 - name: Paxos Scopes
   scope_count: 66
@@ -329,7 +329,7 @@ scopes:
 score:
   band: developing
   composite: 53.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.0
@@ -337,7 +337,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 54.1
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,7 +355,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:

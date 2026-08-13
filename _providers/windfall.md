@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Windfall publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Windfall Rate Limits
@@ -168,7 +168,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.7
@@ -176,7 +176,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

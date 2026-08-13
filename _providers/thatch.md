@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ overview: 'Thatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Thatch''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 56
+random_paper: 36
 score:
   band: developing
   composite: 46.0
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.8
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 47.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,7 +215,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

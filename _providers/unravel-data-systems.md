@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API for the Unravel data observability platform. Query and collect data from your monitored clusters and workspaces over HTTP/HTTPS with JSON requests and responses. Endpoint groups cover applica
@@ -147,11 +147,11 @@ overview: 'Unravel Data Systems publishes 1 API on the [APIs.io](https://apis.io
 
 
   Unravel Data Systems'' developer surface includes documentation, engineering blog, support, pricing, authentication, changelog, CLI, and 16 more developer resources.'
-random_paper: 85
+random_paper: 17
 score:
   band: developing
   composite: 44.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -159,11 +159,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 45.5
+  previous_composite: 44.4
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

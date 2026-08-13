@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -1147,7 +1147,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1185,7 +1185,7 @@ scopes:
 score:
   band: strong
   composite: 65.1
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.6
@@ -1193,7 +1193,7 @@ score:
     discoverability: 66.7
     governance: 31.3
     operational_transparency: 63.2
-  previous_composite: 70.6
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1202,8 +1202,8 @@ score:
       marker_coverage: 0.0
       total: 108
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:
 - kind: authentication

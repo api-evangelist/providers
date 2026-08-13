@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: RESTful partner API for international mass payments — live FX rate quotes, recipient account management, and automated payment processing to 170+ countries in 50+ currencies. Authenticated with API ke
@@ -120,11 +120,11 @@ overview: 'OFX (OzForex) publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   OFX (OzForex)''s developer surface includes documentation, getting-started guide, signup flow, pricing, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 85
+random_paper: 61
 score:
   band: thin
   composite: 31.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 32.9
+  previous_composite: 31.9
   provenance:
     conformance: first-party
   regulatory:
@@ -142,7 +142,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ozforex/refs/heads/main/screenshots/ozforex-2026-08-07T191224.png
 security:

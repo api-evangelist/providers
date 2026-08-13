@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Targon Plans Pricing
   plan_count: 2
   slug: targon-plans-pricing
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Targon Rate Limits
@@ -144,7 +144,7 @@ rules:
 score:
   band: thin
   composite: 41.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.1
@@ -152,7 +152,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 42.6
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

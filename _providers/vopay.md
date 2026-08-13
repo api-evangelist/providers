@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -282,11 +282,11 @@ overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 33 more developer resources.'
-random_paper: 95
+random_paper: 79
 score:
   band: developing
   composite: 51.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.0
@@ -294,7 +294,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 52.1
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +307,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

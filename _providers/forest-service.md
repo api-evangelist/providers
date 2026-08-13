@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,11 +56,11 @@ name: Forest Service
 nav: Providers
 network: true
 overview: Forest Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Federal Government, and Forests.
-random_paper: 65
+random_paper: 17
 score:
   band: minimal
   composite: 4.9
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -68,7 +68,7 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 3.8
+  previous_composite: 4.9
   regulatory:
     applies: true
     matched_via: tags
@@ -76,7 +76,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forest-service/refs/heads/main/screenshots/forest-service-2026-06-20T181424.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Hosted Model Context Protocol server (15 tools) plus REST API for compiling and querying codebase context: architecture overviews, code maps, file and symbol documentation, source retrieval, changelog'
@@ -140,7 +140,7 @@ overview: 'Driver publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Driver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 72
+random_paper: 52
 scopes:
 - name: Driver Scopes
   scope_count: 3
@@ -162,7 +162,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/driver/refs/heads/main/screenshots/driver-2026-07-25T212415.png
 security:

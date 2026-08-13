@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Deploy a Salt AI workflow as a production HTTP API. A POST to the deployment execution endpoint accepts a workflow_input map (per input node: value + value_type such as RAW) and an optional callback U'
@@ -114,11 +114,11 @@ overview: 'Plai Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Plai Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 73
+random_paper: 45
 score:
   band: thin
   composite: 34.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -126,7 +126,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 35.3
+  previous_composite: 34.3
   regulatory:
     applies: true
     matched_via: tags
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

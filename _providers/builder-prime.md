@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Builder Prime's REST "Open API" — the tenant-scoped integration surface used to create leads and clients, and to read clients, employees, projects, appointments, appointment types and appointment resu
@@ -125,11 +125,11 @@ overview: 'Builder Prime publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Builder Prime''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 53
+random_paper: 9
 score:
   band: thin
   composite: 38.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -137,11 +137,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 41.0
+  previous_composite: 38.8
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

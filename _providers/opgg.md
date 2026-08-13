@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Official Model Context Protocol server providing AI agents access to OP.GG game data for League of Legends, Teamfight Tactics, and Valorant over Streamable HTTP.
@@ -103,11 +103,11 @@ overview: 'OPGG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OPGG''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 81
+random_paper: 69
 score:
   band: emerging
   composite: 17.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -115,11 +115,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.4
+  previous_composite: 17.3
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opgg/refs/heads/main/screenshots/opgg-2026-08-07T190721.png
 security:

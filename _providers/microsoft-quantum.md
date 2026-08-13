@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
   slug: microsoft-quantum-plans-pricing
-random_paper: 66
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits
@@ -468,7 +468,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.3
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 53.7
@@ -476,7 +476,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.3
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     contracts:
@@ -485,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/screenshots/microsoft-quantum-2026-06-20T185529.png
 security:

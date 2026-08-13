@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -243,7 +243,7 @@ plans:
 - name: Digio Plans Pricing
   plan_count: 1
   slug: digio-plans-pricing
-random_paper: 60
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Digio Rate Limits
@@ -251,7 +251,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 70.1
@@ -259,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 63.8
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:

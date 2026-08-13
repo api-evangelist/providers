@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -216,7 +216,7 @@ overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
-random_paper: 41
+random_paper: 13
 scopes:
 - name: Videoamp Scopes
   scope_count: 4
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 51.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 62.7
@@ -233,7 +233,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.9
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: 'Third-party hosted access to Genmo''s Mochi 1 via Replicate''s predictions API (model identifier genmoai/mochi-1). Runs on Nvidia H100 hardware, ~$0.42 per run, typically completing within 5 minutes at '
@@ -86,7 +86,7 @@ plans:
 - name: Genmo Ai Plans Pricing
   plan_count: 5
   slug: genmo-ai-plans-pricing
-random_paper: 85
+random_paper: 61
 score:
   band: emerging
   composite: 17.0
@@ -100,7 +100,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genmo-ai/refs/heads/main/screenshots/genmo-ai-2026-07-25T215625.png
 slug: genmo-ai

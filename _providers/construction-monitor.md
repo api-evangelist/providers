@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a polling schedule. Authentication is handled wit
@@ -95,7 +95,7 @@ plans:
 - name: Construction Monitor Plans Pricing
   plan_count: 3
   slug: construction-monitor-plans-pricing
-random_paper: 56
+random_paper: 104
 rate_limits:
 - limit_count: 5
   name: Construction Monitor Rate Limits
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -111,10 +111,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 23.3
+  previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/screenshots/construction-monitor-2026-06-20T174915.png
 security:
 - kind: domain-security

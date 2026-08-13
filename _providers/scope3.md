@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -229,11 +229,11 @@ overview: 'Scope3 publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 23 more developer resources.'
-random_paper: 9
+random_paper: 109
 score:
   band: developing
   composite: 52.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 57.6
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 54.1
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'NHS API publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 13 more developer resources.'
-random_paper: 108
+random_paper: 88
 rules:
 - name: NHS API API Rules
   rule_count: 5
@@ -201,7 +201,7 @@ rules:
 score:
   band: thin
   composite: 39.7
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 59.5
@@ -209,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 40.2
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -224,7 +224,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/screenshots/nhs-api-2026-08-07T185236.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Mono Africa Plans Pricing
   plan_count: 3
   slug: mono-africa-plans-pricing
-random_paper: 56
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Mono Africa Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.1
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.3
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 27.2
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -158,7 +158,7 @@ score:
     regime_id: banking_open_finance
     score: 20.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/screenshots/mono-africa-2026-08-07T184204.png
 security:

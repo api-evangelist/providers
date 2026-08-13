@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -536,7 +536,7 @@ plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 81
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits
@@ -566,7 +566,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 59.0
@@ -574,7 +574,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.6
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -583,8 +583,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:
 - kind: authentication

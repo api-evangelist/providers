@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -960,7 +960,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 28
+random_paper: 112
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -985,7 +985,7 @@ rules:
 score:
   band: strong
   composite: 59.4
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 21.8
@@ -993,7 +993,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 65.2
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1002,8 +1002,8 @@ score:
       marker_coverage: 100.0
       total: 73
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

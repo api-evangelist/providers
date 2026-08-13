@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,16 +47,35 @@ common:
   title: ''
   type: Crunchbase
   url: https://www.crunchbase.com/organization/simplifai-labs
+coverage:
+  checked: '2026-08-12'
+  detail: simplifailabs.com lapsed and was re-registered on 2025-08-18 (GoDaddy, NS1/NS2.CYBERFUEL.COM) and now returns a Spanish-language Cyberfuel "this site has no published content" hosting placeholder, so every /.well-known/, /openapi.json and /llms.txt probe 404s against a host the company no longer operates; no api/docs/developer subdomain resolves and the simplifailabs GitHub org contains only a react-native-elements fork.
+  evidence:
+  - status: 200
+    url: https://simplifailabs.com/
+  - status: 404
+    url: https://simplifailabs.com/openapi.json
+  - status: 404
+    url: https://simplifailabs.com/.well-known/agent-card.json
+  - status: 404
+    url: https://simplifailabs.com/.well-known/security.txt
+  - status: 404
+    url: https://simplifailabs.com/llms.txt
+  - status: 200
+    url: https://github.com/simplifailabs
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: Simplifai Labs is a Dubai-based artificial intelligence and marketing-technology company founded in 2018 by Sachin Rathnaraj Jain. Its deep-learning platform combines image recognition, computer vision, sentiment and emotion analysis, and natural language processing to place brand advertising alongside highly relevant, brand-safe content in real time, without relying on stored user cookie data. Simplifai Labs completed the 500 Global (Misk 500 MENA) accelerator in Riyadh and is a 500 Global portfolio company. As of this enrichment pass the company publishes no public API, developer documentation, or SDKs, and its original simplifailabs.com domain now resolves to an unrelated hosting provider, so no API artifacts could be harvested.
+description: Simplifai Labs is a Dubai-based artificial intelligence and marketing-technology company founded in 2018 by Sachin Rathnaraj Jain. Its deep-learning platform combines image recognition, computer vision, sentiment and emotion analysis, and natural language processing to place brand advertising alongside highly relevant, brand-safe content in real time, without relying on stored user cookie data. Simplifai Labs completed the 500 Global (Misk 500 MENA) accelerator in Riyadh and is a 500 Global portfolio company. As of this enrichment pass the company publishes no public API, developer documentation, or SDKs. Its simplifailabs.com domain lapsed and was re-registered on 2025-08-18, and now serves a Cyberfuel hosting placeholder rather than any Simplifai Labs content; no API, docs, or developer subdomain resolves, and the simplifailabs GitHub organization holds a single forked UI repository and no first-party libraries. The founder's subsequent venture, Smartifai (Dubai, 2022), is
+  a separate company and is not profiled here. No API artifacts could be harvested.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifai-labs.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Simplifai Labs
 nav: Providers
 network: true
 overview: Simplifai Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Marketing Technology, and Advertising.
-random_paper: 29
+random_paper: 101
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: simplifai-labs
 tags:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Studio Ghibli Plans Pricing
   plan_count: 1
   slug: studio-ghibli-plans-pricing
-random_paper: 56
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Studio Ghibli Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: thin
   composite: 33.3
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 27.4
@@ -279,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 33.5
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +288,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:

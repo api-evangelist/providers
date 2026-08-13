@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: REST API covering the whole CoreStack governance surface — authorization, identity and RBAC, guardrail policies, account governance, operations and automation, security, cost and budgets, access, reso
@@ -28,7 +28,11 @@ apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
   name: CoreStack MCP Server
   slug: corestack-mcp-server
-artifact_total: 8
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Corestack Webhooks
+  slug: corestack-webhooks
 common:
 - group: auth
   title: ''
@@ -90,6 +94,14 @@ common:
   title: ''
   type: ChangeLog
   url: https://docs.corestack.io/changelog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/corestack-changelog.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://docs.corestack.io/docs/external-apis-62-2603
 - group: auth
   title: ''
   type: Compliance
@@ -180,8 +192,15 @@ network: true
 overview: 'CoreStack publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include cloud-governance, finops, cloud-cost-management, cloud-security-posture-management, and compliance.
 
 
-  CoreStack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 31
+  The CoreStack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  CoreStack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Corestack Plans Pricing
+  plan_count: 6
+  slug: corestack-plans-pricing
+random_paper: 119
 rate_limits:
 - limit_count: 0
   name: Corestack Rate Limits
@@ -192,15 +211,17 @@ scopes:
   slug: corestack-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 61.9
+  delta: 10.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 32.3
+    commercial_clarity: 84.2
+    contract_quality: 51.6
     developer_ergonomics: 67.4
     discoverability: 87.0
     governance: 20.8
-    operational_transparency: 39.5
+    operational_transparency: 44.7
+  previous_composite: 51.8
   regulatory:
     applies: true
     matched_via: tags
@@ -208,7 +229,8 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: authentication
   name: Corestack Authentication

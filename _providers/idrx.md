@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -157,11 +157,11 @@ overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onb
 
 
   IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 91
+random_paper: 79
 score:
   band: thin
   composite: 41.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 72.1
@@ -169,7 +169,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 42.2
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,7 +187,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:

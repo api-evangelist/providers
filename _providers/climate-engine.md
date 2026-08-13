@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Climate Engine Plans Pricing
   plan_count: 2
   slug: climate-engine-plans-pricing
-random_paper: 18
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Climate Engine Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.7
@@ -135,7 +135,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -144,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/screenshots/climate-engine-2026-06-20T174522.png
 security:

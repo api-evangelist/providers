@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -63,16 +63,13 @@ apis:
   name: Credilinq.ai Report API
   slug: credilinqai-report-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, confirm the credit line, preview the schedule, create a drawdown, and disburse it.
   name: CrediLinq — Create and disburse a loan
   slug: credilinqai-create-and-disburse-loan
 - description: Authenticate, check eligibility, run data processing, capture customer KYC, and send it for review.
   name: CrediLinq — Onboard a customer and complete KYC
   slug: credilinqai-onboard-and-kyc
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI representation of CrediLinq's documented webhook events. CrediLinq delivers server-to-server notifications via HTTP POST to a partner-configured redirect_url. Payloads are signed with HMAC SH
   name: CrediLinq Webhooks
@@ -220,11 +217,11 @@ overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
-random_paper: 113
+random_paper: 77
 score:
   band: developing
   composite: 48.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 66.1
@@ -232,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 48.6
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +247,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:

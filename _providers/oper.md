@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper — 2 operation(s) for agent documents.
@@ -289,11 +289,11 @@ overview: 'Oper publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 90
+random_paper: 78
 score:
   band: thin
   composite: 39.7
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 43.4
@@ -301,7 +301,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 39.8
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
@@ -318,7 +318,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/screenshots/oper-2026-08-07T190659.png
 security:

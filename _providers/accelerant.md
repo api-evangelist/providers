@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The member-facing Accelerant Risk Exchange platform and its supporting API surface. Accelerant states that its risk indices plug directly into Member underwriting and policy administration systems via
@@ -139,7 +139,7 @@ overview: 'Accelerant publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Accelerant''s developer surface includes documentation, support, engineering blog, product news, authentication, and 20 more developer resources.'
-random_paper: 114
+random_paper: 82
 scopes:
 - name: Accelerant Scopes
   scope_count: 4
@@ -148,7 +148,7 @@ scopes:
 score:
   band: thin
   composite: 30.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -156,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 31.5
+  previous_composite: 30.6
   provenance:
     conformance: first-party
   regulatory:
@@ -166,7 +166,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelerant/refs/heads/main/screenshots/accelerant-2026-08-07T160750.png
 security:

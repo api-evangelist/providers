@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Callab AI's REST API, documented at docs.callab.ai/api-reference, is organized around REST principles with predictable resource-oriented URLs, standard HTTP verbs, and standard HTTP response codes for
@@ -119,7 +119,7 @@ overview: 'Callab AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Callab AI''s developer surface includes documentation, API reference, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: emerging
   composite: 24.3
@@ -136,7 +136,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/callab-ai/refs/heads/main/screenshots/callab-ai-2026-07-25T204336.png
 security:

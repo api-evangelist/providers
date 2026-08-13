@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -159,11 +159,11 @@ overview: 'SnackMagic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SnackMagic''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 113
+random_paper: 81
 score:
   band: developing
   composite: 49.7
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 62.7
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,7 +183,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

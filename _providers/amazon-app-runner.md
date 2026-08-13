@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -1937,7 +1937,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
-random_paper: 99
+random_paper: 43
 rules:
 - name: Amazon App Runner API Rules
   rule_count: 6
@@ -1958,7 +1958,7 @@ rules:
 score:
   band: developing
   composite: 55.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 71.8
@@ -1966,7 +1966,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 15.8
-  previous_composite: 54.7
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1977,7 +1977,7 @@ score:
       total: 36
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

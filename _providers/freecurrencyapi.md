@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Freecurrencyapi Plans Pricing
   plan_count: 2
   slug: freecurrencyapi-plans-pricing
-random_paper: 99
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Freecurrencyapi Rate Limits
@@ -165,7 +165,7 @@ rules:
 score:
   band: developing
   composite: 48.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.7
@@ -173,7 +173,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 48.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -182,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/screenshots/freecurrencyapi-2026-06-20T181521.png
 security:

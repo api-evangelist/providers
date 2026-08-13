@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'The Poynt Cloud API lets developers manage a merchant business''s orders, transactions, customers, products, catalogs, inventory and taxes, register webhooks for real-time events, and collect/tokenize '
@@ -143,11 +143,11 @@ overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Poynt''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 106
+random_paper: 90
 score:
   band: thin
   composite: 35.5
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -155,7 +155,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 38.3
+  previous_composite: 35.5
   provenance:
     conformance: first-party
   regulatory:
@@ -165,7 +165,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -180,7 +180,7 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 18 more developer resources.'
-random_paper: 72
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Totalis Rate Limits
@@ -188,7 +188,7 @@ rate_limits:
 score:
   band: developing
   composite: 48.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.8
@@ -196,7 +196,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 50.4
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -213,7 +213,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

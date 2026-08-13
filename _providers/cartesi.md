@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -168,11 +168,11 @@ overview: 'Cartesi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cartesi''s developer surface includes documentation, API reference, CLI, GitHub presence, engineering blog, YouTube channel, and 24 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: emerging
   composite: 13.4
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -180,9 +180,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 10.5
+  previous_composite: 13.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesi/refs/heads/main/screenshots/cartesi-2026-06-20T174025.png
 security:

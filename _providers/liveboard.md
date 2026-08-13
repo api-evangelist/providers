@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Liveboard is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Liveboard''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 24
+random_paper: 112
 score:
   band: emerging
   composite: 15.2
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.4
+  previous_composite: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveboard/refs/heads/main/screenshots/liveboard-2026-07-25T225354.png
 security:

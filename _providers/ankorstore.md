@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: The Applications API from Ankorstore — 1 operation(s) for applications.
@@ -223,11 +223,11 @@ overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ankorstore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 52
+random_paper: 16
 score:
   band: developing
   composite: 43.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 71.6
@@ -235,7 +235,7 @@ score:
     discoverability: 63.0
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 44.0
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -246,7 +246,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:

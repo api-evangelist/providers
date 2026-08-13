@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,11 +132,11 @@ overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
-random_paper: 100
+random_paper: 88
 score:
   band: emerging
   composite: 25.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -144,12 +144,12 @@ score:
     discoverability: 57.4
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 24.9
+  previous_composite: 25.3
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

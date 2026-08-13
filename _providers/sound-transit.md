@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Sound Transit Plans Pricing
   plan_count: 3
   slug: sound-transit-plans-pricing
-random_paper: 95
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Sound Transit Rate Limits
@@ -197,7 +197,7 @@ rules:
 score:
   band: thin
   composite: 37.6
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 61.6
@@ -205,7 +205,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/screenshots/sound-transit-2026-06-20T194217.png
 security:
 - kind: domain-security

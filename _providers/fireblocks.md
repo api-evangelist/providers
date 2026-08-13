@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -662,7 +662,7 @@ plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
   slug: fireblocks-plans-pricing
-random_paper: 16
+random_paper: 100
 rate_limits:
 - limit_count: 6
   name: Fireblocks Rate Limits
@@ -679,7 +679,7 @@ rules:
 score:
   band: exemplar
   composite: 68.8
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 67.8
@@ -687,7 +687,7 @@ score:
     discoverability: 66.7
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.2
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     contracts:
@@ -696,7 +696,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

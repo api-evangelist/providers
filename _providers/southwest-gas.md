@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Southwest Gas My Account API powers the online customer portal and mobile application for natural gas utility customers in Arizona, Nevada, and California. Customers can view usage history, pay bi
@@ -138,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Sustainability Report
   url: https://www.swgas.com/1409224719685/SWG-2024-SR.pdf
-random_paper: 98
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Southwest Gas Rate Limits
@@ -155,7 +155,7 @@ rules:
 score:
   band: emerging
   composite: 24.3
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 33.9
@@ -163,7 +163,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 28.7
+  previous_composite: 24.3
   regulatory:
     applies: true
     matched_via: tags
@@ -171,7 +171,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png
 security:

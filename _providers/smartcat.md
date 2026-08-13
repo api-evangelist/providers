@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -270,11 +270,11 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 51
+random_paper: 23
 score:
   band: developing
   composite: 51.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.3
@@ -282,7 +282,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.0
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

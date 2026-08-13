@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -316,11 +316,11 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 74
+random_paper: 58
 score:
   band: strong
   composite: 56.1
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.2
@@ -328,7 +328,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 56.0
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,7 +346,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

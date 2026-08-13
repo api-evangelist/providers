@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: JSON-based REST API for Act! CRM exposing contacts, companies, groups, opportunities, activities, notes, and history. Supports OData querying and is described by an OpenAPI (Swagger) 2.0 specification
@@ -79,11 +79,11 @@ overview: 'Act! CRM publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Act! CRM''s developer surface includes documentation, support, pricing, signup flow, engineering blog, and 3 more developer resources.'
-random_paper: 80
+random_paper: 72
 score:
   band: emerging
   composite: 22.7
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 32.3
@@ -91,9 +91,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 22.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

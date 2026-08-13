@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Public REST API for the 4TU.ResearchData repository (data.4tu.nl), which TU Delft co-founded and leads. Provides versioned endpoints (v2/v3) for published articles (datasets), collections, categories,
@@ -124,7 +124,7 @@ plans:
 - name: Tu Delft Plans Pricing
   plan_count: 2
   slug: tu-delft-plans-pricing
-random_paper: 109
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Tu Delft Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

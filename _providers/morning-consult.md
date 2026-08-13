@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -32,9 +32,6 @@ apis:
   name: Morning Consult API
   slug: morning-consult-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, resolve a data source and country, find the brand entity and the question that measures it, then pull the aggregated response timeseries.
   name: Morning Consult — brand trendline
   slug: morning-consult-brand-trendline
@@ -44,7 +41,7 @@ arazzos:
 - description: Authenticate, discover an available score and the data sources it is available in, bind it to a brand entity, and request the score timeseries.
   name: Morning Consult — compute a score
   slug: morning-consult-compute-score
-artifact_total: 13
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -194,7 +191,7 @@ overview: 'Morning Consult publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 75
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
@@ -202,7 +199,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.4
@@ -210,7 +207,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 56.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:

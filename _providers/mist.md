@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -812,7 +812,7 @@ overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 97
+random_paper: 85
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
@@ -820,7 +820,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.3
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 72.3
@@ -828,7 +828,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 55.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -840,7 +840,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -205,11 +205,11 @@ overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 28 more developer resources.'
-random_paper: 40
+random_paper: 16
 score:
   band: thin
   composite: 39.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 40.3
@@ -217,7 +217,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 40.3
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:

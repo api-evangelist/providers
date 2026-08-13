@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Generic command-line registry client used to push and pull OCI artifacts to and from any OCI-compliant container registry.
@@ -95,7 +95,7 @@ plans:
 - name: Oras Plans Pricing
   plan_count: 3
   slug: oras-plans-pricing
-random_paper: 89
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Oras Rate Limits
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.7
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -111,10 +111,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.5
+  previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oras/refs/heads/main/screenshots/oras-2026-06-20T191150.png
 security:
 - kind: domain-security

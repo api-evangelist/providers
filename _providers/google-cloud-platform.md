@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -847,7 +847,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 43
+random_paper: 91
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits
@@ -877,7 +877,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.6
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 73.9
@@ -885,7 +885,7 @@ score:
     discoverability: 75.9
     governance: 69.8
     operational_transparency: 55.3
-  previous_composite: 81.1
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -896,8 +896,8 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:
 - kind: authentication

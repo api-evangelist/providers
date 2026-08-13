@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,13 +51,10 @@ apis:
   name: Carry1st Refunds API
   slug: carry1st-refunds-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Authenticate, create a signed payment request, and confirm the payment status.
   name: Pay1st - collect a payment
   slug: carry1st-collect-payment
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Carry1St Pay1St Webhooks
@@ -198,11 +195,11 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 13
+random_paper: 105
 score:
   band: developing
   composite: 47.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 73.1
@@ -210,7 +207,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,7 +225,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

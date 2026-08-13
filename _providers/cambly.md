@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Cambly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cambly''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 52
+random_paper: 32
 score:
   band: emerging
   composite: 13.4
@@ -89,7 +89,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cambly/refs/heads/main/screenshots/cambly-2026-07-25T204255.png
 security:

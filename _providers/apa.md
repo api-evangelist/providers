@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: APA Corporation explores for and produces oil and natural gas in the United States, Egypt, the United Kingdom, and Suriname through its Apache Corporation and APA Suriname subsidiaries.
@@ -94,7 +94,7 @@ plans:
 - name: Apa Plans Pricing
   plan_count: 3
   slug: apa-plans-pricing
-random_paper: 74
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Apa Rate Limits
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.6
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -110,7 +110,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 18.3
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
@@ -118,8 +118,8 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png
 security:
 - kind: domain-security

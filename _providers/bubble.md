@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -428,7 +428,7 @@ plans:
 - name: Bubble Plans Pricing
   plan_count: 7
   slug: bubble-plans-pricing
-random_paper: 40
+random_paper: 20
 rate_limits:
 - limit_count: 12
   name: Bubble Rate Limits
@@ -453,7 +453,7 @@ rules:
 score:
   band: exemplar
   composite: 75.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 72.9
@@ -461,7 +461,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 76.1
+  previous_composite: 75.4
   provenance:
     agentic_access: derived
     contracts:
@@ -470,7 +470,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:

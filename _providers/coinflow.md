@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -249,11 +249,11 @@ overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coinflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, sandbox, and 29 more developer resources.'
-random_paper: 53
+random_paper: 25
 score:
   band: developing
   composite: 55.6
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.1
@@ -261,7 +261,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 59.4
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +279,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:

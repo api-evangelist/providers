@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ plans:
 - name: Contextual Ai Plans Pricing
   plan_count: 2
   slug: contextual-ai-plans-pricing
-random_paper: 66
+random_paper: 22
 rate_limits:
 - limit_count: 6
   name: Contextual Ai Rate Limits
@@ -168,7 +168,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 67.7
@@ -176,7 +176,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 46.5
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -185,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png
 security:

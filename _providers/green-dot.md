@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -228,7 +228,7 @@ plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
   slug: green-dot-plans-pricing
-random_paper: 89
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Green Dot Rate Limits
@@ -241,7 +241,7 @@ scopes:
 score:
   band: developing
   composite: 47.0
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -249,7 +249,7 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 42.1
-  previous_composite: 48.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     skills: derived
@@ -260,7 +260,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:

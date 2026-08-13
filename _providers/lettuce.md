@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,11 +56,11 @@ name: Lettuce
 nav: Providers
 network: true
 overview: Lettuce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Venture Backed, 500 Global, and Portfolio.
-random_paper: 62
+random_paper: 38
 score:
   band: minimal
   composite: 6.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -68,9 +68,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.5
+  previous_composite: 6.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lettuce/refs/heads/main/screenshots/lettuce-2026-07-25T224938.png
 security:

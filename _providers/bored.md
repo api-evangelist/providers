@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ overview: 'Bored API publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bored API''s developer surface includes developer portal, GitHub presence, documentation, and 13 more developer resources.'
-random_paper: 60
+random_paper: 44
 rules:
 - name: Bored API API Rules
   rule_count: 5
@@ -254,7 +254,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 64.9
@@ -262,7 +262,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 39.7
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -271,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/screenshots/bored-2026-06-20T173607.png
 security:

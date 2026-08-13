@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ plans:
 - name: Strava Plans Pricing
   plan_count: 3
   slug: strava-plans-pricing
-random_paper: 77
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Strava Rate Limits
@@ -249,7 +249,7 @@ scopes:
 score:
   band: developing
   composite: 49.6
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.8
@@ -257,7 +257,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 57.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -266,8 +266,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/screenshots/strava-2026-06-20T194613.png
 security:
 - kind: authentication

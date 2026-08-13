@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -229,11 +229,11 @@ overview: 'Sentio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sentio''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
-random_paper: 78
+random_paper: 58
 score:
   band: developing
   composite: 54.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 58.6
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 55.7
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

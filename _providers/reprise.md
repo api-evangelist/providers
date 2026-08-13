@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Reprise Data API allows teams to pull real-time, click-level demo engagement data directly from Reprise into data warehouses, data lakes, or downstream platforms. It supports analytics data includ
@@ -119,7 +119,7 @@ plans:
 - name: Reprise Plans Pricing
   plan_count: 3
   slug: reprise-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Reprise Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/screenshots/reprise-2026-06-20T192911.png
 security:

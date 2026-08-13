@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -136,9 +136,6 @@ apis:
   name: Coda Project Workspaces API
   slug: coda-project-workspaces-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a doc, add a page, then upsert rows and wait for the async mutation to complete.
   name: Create a Coda doc and populate a table
   slug: coda-project-create-doc-and-populate
@@ -148,7 +145,7 @@ arazzos:
 - description: Resolve key columns, upsert rows idempotently, await the mutation, and verify.
   name: Upsert and reconcile Coda table rows
   slug: coda-project-upsert-rows
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Coda Project Webhooks
@@ -434,7 +431,7 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 51
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Coda Project Rate Limits
@@ -447,7 +444,7 @@ scopes:
 score:
   band: strong
   composite: 65.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 70.1
@@ -455,7 +452,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 71.1
-  previous_composite: 66.2
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -467,7 +464,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

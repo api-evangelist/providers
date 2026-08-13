@@ -9,27 +9,38 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 3
+  score: 37.4
+  scored_at: '2026-08-12'
+api_count: 2
+apis:
+- description: JSON reporting API that lets Remerge advertisers pull daily (or hourly) campaign performance for their active campaigns into their own BI systems. A POST to /report with a start_date and end_date retu
+  name: Remerge Reporting API
+  slug: remerge-reporting-api
+- description: Server-to-server ingestion API that Remerge clients and measurement partners use to forward data into the Remerge platform. A single GET endpoint at remerge.events/event accepts four documented payloa
+  name: Remerge Event Tracking API
+  slug: remerge-event-tracking-api
+artifact_total: 9
+asyncapis:
+- description: ''
+  name: Remerge Webhooks
+  slug: remerge-webhooks
 common:
 - group: company
   title: ''
@@ -79,35 +90,106 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/remerge-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://help.remerge.io/hc/en-us/categories/115000321013-Data-Exchange
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.remerge.io/hc/en-us/sections/115000697994-API-Documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.remerge.io/hc/en-us/articles/115003440434-Remerge-Reporting-API
+- group: start
+  title: ''
+  type: Login
+  url: https://admin.remerge.io
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/remerge-authentication.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/remerge-rate-limits.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/remerge-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/remerge-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/remerge-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/remerge-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/remerge-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/remerge-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/remerge-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/remerge-webhooks.yml
 created: '2026-07-17'
-description: Remerge is a mobile demand-side platform (DSP) specializing in app retargeting, re-engagement, and user acquisition for mobile apps. The Berlin-based company (Remerge GmbH) helps advertisers in gaming, e-commerce, and delivery build in-app audience segments, run programmatic re-engagement and acquisition campaigns across millions of ad placements, and validate results with incrementality measurement. Remerge is a managed advertising service run through its platform and account teams rather than a public developer API; this profile captures its identity, security posture, and legal surface. It operates an ISO/IEC 27001:2022-aligned ISMS and publishes a public Trust Center and vulnerability disclosure policy.
+description: 'Remerge is a mobile demand-side platform (DSP) specializing in app retargeting, re-engagement, and user acquisition for mobile apps. The Berlin-based company (Remerge GmbH) helps advertisers in gaming, e-commerce, and delivery build in-app audience segments, run programmatic re-engagement and acquisition campaigns across millions of ad placements, and validate results with incrementality measurement. Onboarding is account-managed rather than self-service, but Remerge does publish two documented HTTP APIs: a JSON Reporting API at api.remerge.io for pulling daily campaign performance into a client''s BI stack, and an Event Tracking API at remerge.events for forwarding in-app event, attribution, BI and SKAdNetwork data into Remerge. It operates an ISO/IEC 27001:2022-aligned ISMS and publishes a public Trust Center and vulnerability disclosure policy.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remerge.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-12'
 name: Remerge
 nav: Providers
 network: true
-overview: 'Remerge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile, and Retargeting.
+overview: 'Remerge publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile, and Retargeting.
 
 
-  Remerge''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 47
+  The Remerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Remerge''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 21 more developer resources.'
+plans:
+- name: Remerge Plans Pricing
+  plan_count: 0
+  slug: remerge-plans-pricing
+random_paper: 23
+rate_limits:
+- limit_count: 3
+  name: Remerge Rate Limits
+  slug: remerge-rate-limits
 score:
-  band: emerging
-  composite: 16.5
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: 30.9
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 15.8
+    commercial_clarity: 50.0
+    contract_quality: 51.6
+    developer_ergonomics: 41.3
+    discoverability: 75.9
+    governance: 12.5
+    operational_transparency: 55.3
   previous_composite: 16.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
+- kind: authentication
+  name: Remerge Authentication
+  slug: remerge-authentication
+  summary_line: http/apiKey · 2 schemes
 - kind: domain-security
   name: Remerge Domain Security
   slug: remerge-domain-security
@@ -119,7 +201,7 @@ security:
 - kind: trust-center
   name: Remerge Trust Center
   slug: remerge-trust-center
-  summary_line: ISO/IEC 27001:2022, GDPR, CCPA, CPRA
+  summary_line: ISO 27001, GDPR
 slug: remerge
 tags:
 - Company

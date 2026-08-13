@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MaintainX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 41
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Maintainx Rate Limits
@@ -287,7 +287,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.9
@@ -295,7 +295,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 86.8
-  previous_composite: 62.3
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png
 security:

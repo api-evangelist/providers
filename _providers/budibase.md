@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Budibase Plans Pricing
   plan_count: 3
   slug: budibase-plans-pricing
-random_paper: 19
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Budibase Rate Limits
@@ -222,7 +222,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.4
-  delta: -6.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 55.2
@@ -230,7 +230,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 50.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +239,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:
 - kind: authentication

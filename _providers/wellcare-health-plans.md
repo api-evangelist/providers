@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: Wellcare Announces Refreshed Brand in Effort to Better ...
   url: https://www.prnewswire.com/news-releases/wellcare-announces-refreshed-brand-in-effort-to-better-serve-medicare-members-301366933.html
-random_paper: 21
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Wellcare Health Plans Rate Limits
@@ -225,7 +225,7 @@ scopes:
 score:
   band: developing
   composite: 42.4
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 77.7
@@ -233,7 +233,7 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 51.0
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Wellcare Health Plans Authentication

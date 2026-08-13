@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Process cashless payments through various methods, including debit/credit cards, digital wallets, and NFC.
@@ -73,7 +73,7 @@ plans:
 - name: Seed Platform Plans Pricing
   plan_count: 3
   slug: seed-platform-plans-pricing
-random_paper: 55
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Seed Platform Rate Limits
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.4
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -89,7 +89,7 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 16.0
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
@@ -97,8 +97,8 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seed-platform/refs/heads/main/screenshots/seed-platform-2026-06-20T193637.png
 security:
 - kind: domain-security

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -1002,7 +1002,7 @@ plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
   slug: commerce-layer-plans-pricing
-random_paper: 37
+random_paper: 109
 rate_limits:
 - limit_count: 13
   name: Commerce Layer Rate Limits
@@ -1019,7 +1019,7 @@ rules:
 score:
   band: exemplar
   composite: 70.1
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 73.9
@@ -1027,7 +1027,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 71.1
-  previous_composite: 69.5
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1042,7 +1042,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

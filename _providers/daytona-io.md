@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -574,7 +574,7 @@ plans:
 - name: Daytona Io Plans Pricing
   plan_count: 4
   slug: daytona-io-plans-pricing
-random_paper: 85
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Daytona Io Rate Limits
@@ -599,7 +599,7 @@ rules:
 score:
   band: exemplar
   composite: 69.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 68.5
@@ -607,7 +607,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 70.3
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     contracts:
@@ -616,7 +616,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

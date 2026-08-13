@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -742,7 +742,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 83
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -759,7 +759,7 @@ rules:
 score:
   band: developing
   composite: 48.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.3
@@ -767,7 +767,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 48.9
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -776,7 +776,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/screenshots/luma-2026-06-20T184751.png
 security:

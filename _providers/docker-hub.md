@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
   slug: docker-hub-plans-pricing
-random_paper: 68
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Docker Hub Rate Limits
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.8
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.0
@@ -195,7 +195,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 48.8
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/screenshots/docker-hub-2026-06-20T180106.png
 security:
 - kind: authentication

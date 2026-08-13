@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
@@ -91,7 +91,7 @@ plans:
 - name: Github Cli Plans Pricing
   plan_count: 3
   slug: github-cli-plans-pricing
-random_paper: 72
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Github Cli Rate Limits
@@ -108,7 +108,7 @@ rules:
 score:
   band: emerging
   composite: 15.4
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 40.7
     governance: 10.4
     operational_transparency: 39.5
-  previous_composite: 19.7
+  previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/screenshots/github-cli-2026-06-20T181836.png
 slug: github-cli

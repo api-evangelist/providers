@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-03-16'
@@ -39,7 +39,7 @@ name: Product Specifications
 nav: Providers
 network: true
 overview: Product Specifications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Product Management, and Technical Specifications.
-random_paper: 102
+random_paper: 26
 score:
   band: minimal
   composite: 3.2
@@ -53,7 +53,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: product-specifications
 tags:

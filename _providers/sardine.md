@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Sardine REST API enables real-time fraud detection and compliance across the customer lifecycle. Core API categories include Device APIs for device fingerprinting and behavioral biometrics, Custom
@@ -124,7 +124,7 @@ plans:
 - name: Sardine Plans Pricing
   plan_count: 1
   slug: sardine-plans-pricing
-random_paper: 46
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Sardine Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 34.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sardine/refs/heads/main/screenshots/sardine-2026-06-20T193433.png
 security:

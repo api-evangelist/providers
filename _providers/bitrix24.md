@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -224,7 +224,7 @@ overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 9 more developer resources.'
-random_paper: 64
+random_paper: 40
 scopes:
 - name: Bitrix24 Scopes
   scope_count: 51
@@ -233,7 +233,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 59.1
@@ -241,7 +241,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:

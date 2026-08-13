@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'Modern REST API for Sage Intacct using OAuth 2.0 Bearer token authentication. Provides standard HTTP verbs for managing core financial objects (GL, AP, AR), dimensions, customers, vendors, and custom '
@@ -94,7 +94,7 @@ overview: 'Sage Intacct publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sage Intacct''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 43
+random_paper: 3
 score:
   band: emerging
   composite: 25.2
@@ -108,7 +108,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-intacct/refs/heads/main/screenshots/sage-intacct-2026-06-20T193327.png
 security:

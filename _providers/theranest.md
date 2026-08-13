@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,7 +80,7 @@ plans:
 - name: Theranest Plans Pricing
   plan_count: 5
   slug: theranest-plans-pricing
-random_paper: 46
+random_paper: 14
 score:
   band: emerging
   composite: 13.6
@@ -100,7 +100,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

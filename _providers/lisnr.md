@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: The Accounts API from LISNR — 1 operation(s) for accounts.
@@ -171,11 +171,11 @@ overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 88
+random_paper: 72
 score:
   band: thin
   composite: 38.6
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 58.7
@@ -183,7 +183,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.3
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -200,7 +200,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:

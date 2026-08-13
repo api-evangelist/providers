@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Progressive Insurance tests limits of AI-generated ads
   url: https://www.thedrum.com/news/progressive-insurance-tests-limits-ai-generated-ads-and-learns-when-pull-back
-random_paper: 49
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Progressive Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.4
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.5
@@ -143,7 +143,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.2
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     contracts:
@@ -158,7 +158,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png
 security:

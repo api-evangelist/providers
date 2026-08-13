@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Roboflow publishes 24 APIs on the [APIs.io](https://apis.io/) network
 
 
   Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 62
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Roboflow Rate Limits
@@ -277,7 +277,7 @@ scopes:
 score:
   band: strong
   composite: 59.0
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.5
@@ -285,7 +285,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 58.4
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,7 +297,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

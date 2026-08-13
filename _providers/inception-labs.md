@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,16 +51,13 @@ apis:
   name: Inception Labs Models API
   slug: inception-labs-models-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: List the available Mercury chat models, then send a chat completion.
   name: Inception — discover a chat model and generate a completion
   slug: inception-labs-chat-completion.arazzo
 - description: Confirm a FIM model then generate an inline code completion with Mercury Edit 2.
   name: Inception — fill-in-the-middle code autocomplete
   slug: inception-labs-code-autocomplete.arazzo
-artifact_total: 11
+artifact_total: 10
 common:
 - group: other
   title: ''
@@ -190,11 +187,11 @@ overview: 'Inception Labs publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Inception Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 40
+random_paper: 112
 score:
   band: developing
   composite: 48.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 65.7
@@ -202,7 +199,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +211,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception-labs/refs/heads/main/screenshots/inception-labs-2026-07-25T222329.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Anonymously readable REST surface served by aerinmedical.com at /wp-json — 321 routes across 15 namespaces. The substantive part is Aerin Medical''s own doctor-finder plugin (em-locator/v1): 1,012 ENT '
@@ -147,11 +147,11 @@ overview: 'Aerin Medical publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Aerin Medical''s developer surface includes engineering blog, product news, support, documentation, authentication, and 22 more developer resources.'
-random_paper: 15
+random_paper: 91
 score:
   band: thin
   composite: 37.2
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.7
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 40.1
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     contracts:
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/screenshots/aerin-medical-2026-08-07T160959.png
 security:

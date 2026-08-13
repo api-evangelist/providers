@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Alaris Infusion Interoperability solution connects the Alaris System (large-volume pump modules and syringe modules) to hospital EMR platforms so that physician infusion orders flow wirelessly int
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: 5 takeaways from Becton Dickinson's $24B acquisition of ...
   url: https://medcitynews.com/2017/04/5-takeaways-becton-dickinsons-24b-acquisition-c-r-bard/
-random_paper: 27
+random_paper: 111
 rate_limits:
 - limit_count: 5
   name: Carefusion Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.8
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -128,7 +128,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.4
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: tags
@@ -136,8 +136,8 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/screenshots/carefusion-2026-06-20T174000.png
 security:
 - kind: domain-security

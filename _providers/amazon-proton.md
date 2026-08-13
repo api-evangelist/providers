@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -4401,7 +4401,7 @@ plans:
 - name: Amazon Proton Plans Pricing
   plan_count: 3
   slug: amazon-proton-plans-pricing
-random_paper: 89
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amazon Proton Rate Limits
@@ -4426,7 +4426,7 @@ rules:
 score:
   band: strong
   composite: 56.9
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -4434,7 +4434,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 62.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -4443,8 +4443,8 @@ score:
       marker_coverage: 0.0
       total: 84
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:
 - kind: authentication

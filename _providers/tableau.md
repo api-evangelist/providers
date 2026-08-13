@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1195,7 +1195,7 @@ plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 38
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits
@@ -1220,7 +1220,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 74.1
@@ -1228,7 +1228,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 65.6
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1237,8 +1237,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:
 - kind: authentication

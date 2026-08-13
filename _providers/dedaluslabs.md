@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -87,13 +87,10 @@ apis:
   name: Dedalus Labs Webhooks API
   slug: dedaluslabs-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Provision a persistent Linux VM, execute a command, read the output, then sleep it to pause billing.
   name: Create a Dedalus Machine, run a command, and sleep it
   slug: dedaluslabs-machine-run-and-sleep
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Dedaluslabs Events
@@ -266,11 +263,11 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 112
+random_paper: 76
 score:
   band: strong
   composite: 59.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 64.9
@@ -278,7 +275,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 59.7
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +287,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 16
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Werner Enterprises and Kodiak Robotics Collaborate to ...
   url: https://www.prnewswire.com/news-releases/werner-enterprises-and-kodiak-robotics-collaborate-to-run-247-long-haul-autonomous-freight-operations-301636326.html
-random_paper: 52
+random_paper: 108
 score:
   band: minimal
   composite: 8.9
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/werner-enterprises/refs/heads/main/screenshots/werner-enterprises-2026-06-20T201355.png
 security:

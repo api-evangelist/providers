@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -752,7 +752,7 @@ plans:
 - name: Amazon Polly Plans Pricing
   plan_count: 3
   slug: amazon-polly-plans-pricing
-random_paper: 91
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Amazon Polly Rate Limits
@@ -777,7 +777,7 @@ rules:
 score:
   band: strong
   composite: 64.0
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 73.3
@@ -785,7 +785,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 66.1
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -794,7 +794,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 15
@@ -106,13 +106,10 @@ apis:
   name: Kernel Proxies API
   slug: kernel-proxies-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: End-to-end cloud browser automation on Kernel.
   name: Kernel - create a browser, run Playwright, screenshot, tear down
   slug: kernel-browser-automate
-artifact_total: 30
+artifact_total: 29
 common:
 - group: other
   title: ''
@@ -262,7 +259,7 @@ overview: 'Kernel publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kernel''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
-random_paper: 61
+random_paper: 41
 scopes:
 - name: Kernel Scopes
   scope_count: 2
@@ -271,7 +268,7 @@ scopes:
 score:
   band: developing
   composite: 54.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.1
@@ -279,7 +276,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 55.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/screenshots/kernel-2026-07-25T223632.png
 security:

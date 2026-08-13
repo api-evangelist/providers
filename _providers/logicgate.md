@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -210,11 +210,11 @@ overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
-random_paper: 15
+random_paper: 103
 score:
   band: developing
   composite: 48.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 64.3
@@ -222,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 50.4
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -169,7 +169,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 1
   slug: knock-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Knock Rate Limits
@@ -186,7 +186,7 @@ rules:
 score:
   band: thin
   composite: 32.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 65.8
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,7 +209,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

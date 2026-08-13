@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ name: GEICO
 nav: Providers
 network: true
 overview: GEICO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Property & Casualty, and Direct-to-Consumer.
-random_paper: 55
+random_paper: 39
 score:
   band: emerging
   composite: 24.2
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/screenshots/geico-2026-06-20T181721.png
 security:

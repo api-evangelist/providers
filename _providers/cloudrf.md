@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Cloudrf Plans Pricing
   plan_count: 3
   slug: cloudrf-plans-pricing
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Cloudrf Rate Limits
@@ -167,7 +167,7 @@ rules:
 score:
   band: thin
   composite: 35.7
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 63.9
@@ -175,7 +175,7 @@ score:
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/screenshots/cloudrf-2026-06-20T174617.png
 security:
 - kind: authentication

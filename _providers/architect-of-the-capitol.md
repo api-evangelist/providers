@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Architect Of The Capitol Plans Pricing
   plan_count: 3
   slug: architect-of-the-capitol-plans-pricing
-random_paper: 48
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Architect Of The Capitol Rate Limits
@@ -247,7 +247,7 @@ rules:
 score:
   band: thin
   composite: 30.5
-  delta: -10.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 55.7
@@ -255,7 +255,7 @@ score:
     discoverability: 64.8
     governance: 31.3
     operational_transparency: 7.9
-  previous_composite: 40.6
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +270,8 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png
 security:
 - kind: domain-security

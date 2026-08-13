@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Optimistic Etherscan Plans Pricing
   plan_count: 7
   slug: optimistic-etherscan-plans-pricing
-random_paper: 7
+random_paper: 55
 rate_limits:
 - limit_count: 13
   name: Optimistic Etherscan Rate Limits
@@ -146,7 +146,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.9
@@ -154,7 +154,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -163,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

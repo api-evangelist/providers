@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -61,16 +61,13 @@ apis:
   name: Ziina Webhook API
   slug: ziina-webhook-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a payment intent, then poll it until the payment reaches a terminal status. Seed inputs with test=true to run in Ziina test mode.
   name: Ziina - accept a payment and confirm
   slug: ziina-accept-payment.arazzo
 - description: Issue a refund against an existing payment intent, then poll the refund until it reaches a terminal status.
   name: Ziina - refund a payment and confirm
   slug: ziina-refund-payment.arazzo
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: Event surface for Ziina payment webhooks. When a webhook URL is registered (POST /webhook), Ziina delivers events as HTTP POST callbacks over HTTPS to that URL. Non-2xx responses are retried up to 3 t
   name: Ziina Webhooks
@@ -289,7 +286,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 75
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -302,7 +299,7 @@ scopes:
 score:
   band: strong
   composite: 64.1
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 57.2
@@ -310,7 +307,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 66.5
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,7 +325,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

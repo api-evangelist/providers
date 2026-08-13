@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ overview: 'Prezent publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 28 more developer resources.'
-random_paper: 80
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
@@ -266,7 +266,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.6
@@ -274,7 +274,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 58.7
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +292,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

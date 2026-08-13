@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,16 +63,13 @@ apis:
   name: Zest Equity System API
   slug: zest-equity-system-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Mint an access token then submit and read back a contract-validated SPV creation request.
   name: Zest — authenticate and create an SPV request
   slug: zest-equity-create-spv-request
 - description: Bulk-create investors, subscribe one to an SPV, then upload the signed form and funding receipt in strict order.
   name: Zest — onboard investors and record a subscription
   slug: zest-equity-onboard-and-subscribe
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Zest Equity Webhooks
@@ -217,11 +214,11 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 12
+random_paper: 92
 score:
   band: developing
   composite: 49.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 66.6
@@ -229,7 +226,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 51.6
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -241,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

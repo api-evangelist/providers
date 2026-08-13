@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -83,7 +83,7 @@ overview: 'Notable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Notable''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 45
+random_paper: 21
 score:
   band: emerging
   composite: 17.3
@@ -103,7 +103,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/screenshots/notable-2026-08-07T185548.png
 security:

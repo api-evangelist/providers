@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Performs image upscaling by adding detail to images through multiple super-resolution algorithms
@@ -56,7 +56,7 @@ name: Smart Image Enhancement API
 nav: Providers
 network: true
 overview: Smart Image Enhancement API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 5
+random_paper: 33
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-image-enhancement-api/refs/heads/main/screenshots/smart-image-enhancement-api-2026-06-20T194038.png
 security:

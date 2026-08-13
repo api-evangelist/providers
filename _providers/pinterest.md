@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 117
 apis:
 - description: The Access API from Pinterest — 3 operation(s) for access.
@@ -536,7 +536,7 @@ plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
   slug: pinterest-plans-pricing
-random_paper: 62
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Pinterest Rate Limits
@@ -544,7 +544,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.3
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 61.0
@@ -552,7 +552,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 44.3
   provenance:
     contracts:
       callable: 99.2
@@ -560,8 +560,8 @@ score:
       marker_coverage: 0.0
       total: 118
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png
 security:
 - kind: domain-security

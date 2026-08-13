@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: JSON Schema for validating Apache Avro schema definitions. Covers all Avro types including primitive types (null, boolean, int, long, float, double, bytes, string), complex types (records, enums, arra
@@ -117,7 +117,7 @@ plans:
 - name: Avro Plans Pricing
   plan_count: 3
   slug: avro-plans-pricing
-random_paper: 92
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Avro Rate Limits
@@ -142,7 +142,7 @@ rules:
 score:
   band: emerging
   composite: 23.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 9.7
@@ -150,10 +150,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 31.0
+  previous_composite: 23.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avro/refs/heads/main/screenshots/avro-2026-06-20T172729.png
 security:
 - kind: domain-security

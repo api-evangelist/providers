@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 75
+random_paper: 47
 scopes:
 - name: Twentyci Scopes
   scope_count: 1
@@ -223,7 +223,7 @@ scopes:
 score:
   band: thin
   composite: 30.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 14.9
@@ -231,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 31.3
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -268,11 +268,11 @@ overview: 'LanzaTech publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 26
+random_paper: 114
 score:
   band: thin
   composite: 32.9
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.1
@@ -280,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 34.3
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,7 +298,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:

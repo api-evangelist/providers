@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'The Co-operative Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 21 more developer resources.'
-random_paper: 63
+random_paper: 7
 scopes:
 - name: Co Operative Bank Scopes
   scope_count: 6
@@ -183,7 +183,7 @@ scopes:
 score:
   band: thin
   composite: 41.3
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 39.6
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,8 +207,8 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:
 - kind: authentication

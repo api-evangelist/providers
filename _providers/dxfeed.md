@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -185,11 +185,11 @@ overview: 'dxFeed publishes 2 APIs on the [APIs.io](https://apis.io/) network: d
 
 
   dxFeed''s developer surface includes authentication, sandbox, getting-started guide, API reference, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 44
+random_paper: 24
 score:
   band: developing
   composite: 45.9
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.3
@@ -197,7 +197,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.7
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,7 +210,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

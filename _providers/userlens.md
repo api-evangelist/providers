@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: User identification, company grouping, and event ingestion
@@ -152,11 +152,11 @@ overview: 'Userlens publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Userlens'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 69
+random_paper: 41
 score:
   band: thin
   composite: 35.1
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 15.7
@@ -164,7 +164,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 36.4
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     contracts:
@@ -175,7 +175,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

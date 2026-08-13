@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the True & Co Shopify storefront: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, and checkout, backed by Shopify Customer Account O'
@@ -88,7 +88,7 @@ overview: 'True & Co publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   True & Co''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 11
+random_paper: 95
 scopes:
 - name: True And Co Scopes
   scope_count: 0
@@ -97,7 +97,7 @@ scopes:
 score:
   band: emerging
   composite: 15.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -105,11 +105,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 15.7
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

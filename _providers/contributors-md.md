@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: CONTRIBUTORS.md
 nav: Providers
 network: true
-random_paper: 72
+random_paper: 20
 slug: contributors-md
 tags:
 - All Contributors

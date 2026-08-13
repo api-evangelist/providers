@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,9 +62,6 @@ apis:
   name: Sprift Data and API (v2, advertised)
   slug: sprift-data-and-api-v2
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Resolve a held address to a UPRN and Sprift property ID, then enrich with EPC, council tax, nearby schools, nearby transport, TV availability and imagery.
   name: Sprift — enrich a CRM record with property data
   slug: sprift-crm-enrichment
@@ -80,7 +77,7 @@ arazzos:
 - description: Resolve a UPRN to Sprift's internal property ID, then collect the price estimate, unified comparables, recently sold evidence and live for-sale stock.
   name: Sprift — valuation evidence pack
   slug: sprift-valuation-evidence
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Sprift Webhooks
@@ -271,11 +268,11 @@ overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sprift''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, engineering blog, and 34 more developer resources.'
-random_paper: 84
+random_paper: 64
 score:
   band: developing
   composite: 43.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.5
@@ -283,7 +280,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

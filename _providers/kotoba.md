@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -213,11 +213,11 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
 
 
   Kotoba''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: developing
   composite: 47.5
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.0
@@ -225,7 +225,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:

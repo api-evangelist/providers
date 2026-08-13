@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with distributors, retailers, and large contractor
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Ducker Carlisle Adds Data and AI Services to Help Clients ...
   url: https://www.prnewswire.com/news-releases/ducker-carlisle-adds-data-and-ai-services-to-help-clients-accelerate-growth-302309287.html
-random_paper: 35
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Carlisle Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.3
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -133,10 +133,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.1
+  previous_composite: 14.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carlisle/refs/heads/main/screenshots/carlisle-2026-07-25T204623.png
 security:
 - kind: domain-security

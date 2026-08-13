@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -142,7 +142,7 @@ plans:
 - name: Hathora Plans Pricing
   plan_count: 3
   slug: hathora-plans-pricing
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Hathora Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.9
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.0
@@ -158,7 +158,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.5
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:

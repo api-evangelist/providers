@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -288,11 +288,11 @@ plans:
 - name: Kondukto Plans
   plan_count: 2
   slug: kondukto-plans
-random_paper: 67
+random_paper: 39
 score:
   band: exemplar
   composite: 66.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 70.6
@@ -300,7 +300,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 67.2
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

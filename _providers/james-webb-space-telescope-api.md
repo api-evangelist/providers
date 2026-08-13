@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic access to JWST images and observations sourced from the MAST archive. Filter and query by program, observation type, and other attributes. Requires an API key obtained via signup at jwsta
@@ -65,7 +65,7 @@ plans:
 - name: James Webb Space Telescope Api Plans Pricing
   plan_count: 3
   slug: james-webb-space-telescope-api-plans-pricing
-random_paper: 26
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: James Webb Space Telescope Api Rate Limits
@@ -73,7 +73,7 @@ rate_limits:
 score:
   band: emerging
   composite: 13.1
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -81,10 +81,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.0
+  previous_composite: 13.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/james-webb-space-telescope-api/refs/heads/main/screenshots/james-webb-space-telescope-api-2026-06-20T183655.png
 security:
 - kind: domain-security

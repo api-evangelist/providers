@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ overview: 'Coin Metrics publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coin Metrics'' developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, API reference, and 25 more developer resources.'
-random_paper: 69
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: Coin Metrics Rate Limits
@@ -255,7 +255,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 67.7
@@ -263,7 +263,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 54.0
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,7 +281,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:

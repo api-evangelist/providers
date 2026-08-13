@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: REST API to programmatically create and manage Firebase projects, apps (Web, Android, Apple), and their configuration.
@@ -197,7 +197,7 @@ overview: 'Firebase publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 27 more developer resources.'
-random_paper: 21
+random_paper: 113
 scopes:
 - name: Firebase Scopes
   scope_count: 8
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 44.6
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -214,11 +214,11 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 47.9
+  previous_composite: 44.6
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/screenshots/firebase-2026-07-25T214552.png
 security:

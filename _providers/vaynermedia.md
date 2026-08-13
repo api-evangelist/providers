@@ -9,40 +9,88 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 36.5
+  scored_at: '2026-08-12'
+api_count: 1
+apis:
+- description: vaynermedia.com is a self-hosted WordPress site on WP Engine, and it leaves the WordPress REST API open for anonymous reads at https://vaynermedia.com/wp-json/. The site's own route index registers 36
+  name: VaynerMedia WordPress Content API
+  slug: wordpress-content-api
+artifact_total: 5
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/vaynermedia-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/vaynermedia-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/vaynermedia-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/vaynermedia-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/vaynermedia-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vaynermedia-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/vaynermedia-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/vaynermedia-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vaynermedia-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/vaynermedia-data-model.yml
 - group: company
   title: ''
   type: Website
   url: https://vaynermedia.com/
-- group: start
+- group: agent
   title: ''
-  type: Portal
-  url: https://vaynermedia.com/services/
+  type: LLMsTxt
+  url: https://vaynermedia.com/llms.txt
+- group: other
+  title: ''
+  type: Services
+  url: https://vaynermedia.com/integrated/
 - group: other
   title: ''
   type: CaseStudies
@@ -50,11 +98,11 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://vaynermedia.com/insights/
+  url: https://vaynermedia.com/blog/
 - group: other
   title: ''
-  type: Locations
-  url: https://vaynermedia.com/offices/
+  type: Research
+  url: https://vaynermedia.com/reports/
 - group: company
   title: ''
   type: Careers
@@ -62,7 +110,23 @@ common:
 - group: operate
   title: ''
   type: Contact
-  url: https://vaynermedia.com/connect/
+  url: https://vaynermedia.com/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://vaynermedia.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://vaynermedia.com/privacy-policy/
+- group: other
+  title: ''
+  type: RSSFeed
+  url: https://vaynermedia.com/feed/
+- group: other
+  title: ''
+  type: Sitemap
+  url: https://vaynermedia.com/sitemap_index.xml
 - group: other
   title: ''
   type: ParentCompany
@@ -124,36 +188,48 @@ common:
   type: YouTube
   url: https://www.youtube.com/vaynermedia
 created: '2026-05-23'
-description: VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as "The Modern Agency of Record" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx)
-  consists primarily of forked open source libraries and internal build tooling rather than maintained API products.
+description: 'VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as "The Modern Agency of Record" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John''s, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and
+  github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency''s own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vaynermedia.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-12'
 name: VaynerMedia
 nav: Providers
 network: true
-overview: 'VaynerMedia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
+overview: 'VaynerMedia publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress Content API. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
 
 
-  VaynerMedia''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 13
+  VaynerMedia''s developer surface includes authentication, engineering blog, YouTube channel, and 35 more developer resources.'
+plans:
+- name: Vaynermedia Plans Pricing
+  plan_count: 0
+  slug: vaynermedia-plans-pricing
+random_paper: 93
+rate_limits:
+- limit_count: 0
+  name: Vaynermedia Rate Limits
+  slug: vaynermedia-rate-limits
 score:
-  band: minimal
-  composite: 7.3
-  delta: 0.0
+  band: thin
+  composite: 33.7
+  delta: 26.4
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 44.4
-    governance: 0.0
+    commercial_clarity: 21.1
+    contract_quality: 59.0
+    developer_ergonomics: 19.6
+    discoverability: 75.9
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 7.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png
 security:
+- kind: authentication
+  name: Vaynermedia Authentication
+  slug: vaynermedia-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Vaynermedia Domain Security
   slug: vaynermedia-domain-security

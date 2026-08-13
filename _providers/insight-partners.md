@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Insight Partners
 nav: Providers
 network: true
-random_paper: 58
+random_paper: 2
 slug: insight-partners
 tags:
 - Venture Capital

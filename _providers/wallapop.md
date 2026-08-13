@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -187,7 +187,7 @@ overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Wallapop''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
-random_paper: 52
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Wallapop Rate Limits
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 55.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.5
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 56.0
+  previous_composite: 55.4
   provenance:
     conformance: derived
     contracts:
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

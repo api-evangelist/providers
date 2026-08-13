@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Open source distributed load testing tool. Tests are written in Python by defining User classes and tasks; tests can be run from a web UI, the command line, or embedded as a library.
@@ -100,7 +100,7 @@ plans:
 - name: Locust Plans Pricing
   plan_count: 3
   slug: locust-plans-pricing
-random_paper: 86
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Locust Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.7
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 20.4
+  previous_composite: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/screenshots/locust-2026-06-20T184648.png
 security:

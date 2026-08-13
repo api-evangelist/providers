@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Xoserve Plans
   plan_count: 4
   slug: xoserve-plans
-random_paper: 84
+random_paper: 60
 rate_limits:
 - limit_count: 6
   name: Xoserve Rate Limits
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.3
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 38.8
@@ -242,7 +242,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 60.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,8 +260,8 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Xoserve Authentication

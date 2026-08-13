@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Modeled surface for submitting dental radiographs (bitewing, periapical, panoramic, CBCT) to Overjet's FDA-cleared Vision AI for analysis. In production this is fed by connector software and DICOM ima
@@ -92,11 +92,11 @@ overview: 'Overjet publishes 5 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Overjet''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 71
+random_paper: 47
 score:
   band: minimal
   composite: 10.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -104,7 +104,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.2
+  previous_composite: 10.8
   regulatory:
     applies: true
     matched_via: tags
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overjet/refs/heads/main/screenshots/overjet-2026-08-07T191136.png
 security:

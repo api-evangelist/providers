@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -164,7 +164,7 @@ overview: 'Epic Systems publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Epic Systems'' developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 18 more developer resources.'
-random_paper: 94
+random_paper: 54
 scopes:
 - name: Epic Systems Scopes
   scope_count: 0
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 42.0
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.0
@@ -181,7 +181,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 18.4
-  previous_composite: 44.6
+  previous_composite: 42.0
   provenance:
     conformance: derived
   regulatory:
@@ -191,7 +191,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:

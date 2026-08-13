@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,7 +44,7 @@ name: Meet Cute
 nav: Providers
 network: true
 overview: Meet Cute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Podcasts, Audio, and Entertainment.
-random_paper: 93
+random_paper: 65
 score:
   band: minimal
   composite: 5.0
@@ -58,7 +58,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meet-cute/refs/heads/main/screenshots/meet-cute-2026-08-07T172422.png
 slug: meet-cute

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Falcon's RESTful embedded-finance API for card issuance, lending, and program management. All responses are JSON; authentication is a JWT bearer token obtained from a client-id/client-secret login, wi
@@ -124,11 +124,11 @@ overview: 'Falcon publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Falcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 47
+random_paper: 27
 score:
   band: thin
   composite: 30.5
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -136,7 +136,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 29.2
+  previous_composite: 30.5
   provenance:
     conformance: first-party
   regulatory:
@@ -146,7 +146,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png
 security:

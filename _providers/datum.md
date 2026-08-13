@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Kubernetes-style declarative control-plane API for managing Datum Cloud resources — projects, domains, DNS zones and record sets, gateways, HTTPProxies, HTTPRoutes, traffic protection policies (WAF), '
@@ -160,7 +160,7 @@ overview: 'Datum publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Datum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 75
+random_paper: 59
 scopes:
 - name: Datum Scopes
   scope_count: 6
@@ -169,7 +169,7 @@ scopes:
 score:
   band: thin
   composite: 32.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -177,13 +177,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 33.1
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datum/refs/heads/main/screenshots/datum-2026-07-25T211422.png
 security:

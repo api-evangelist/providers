@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -47,31 +47,83 @@ common:
   title: ''
   type: About
   url: https://linkett.com/about/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/linkett-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://linkett.com/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://linkett.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://linkett.com/contact/
+- group: start
+  title: ''
+  type: Login
+  url: https://portal3.linkett.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://linkett.com/terms-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://linkett.com/privacy-policy/
+coverage:
+  checked: '2026-08-12'
+  detail: Linkett sells a WiFi sensor and a hosted reporting dashboard as an end-user product only — its real application host portal3.linkett.com is a Rails customer login that returns 404 for /openapi.json, /api, /graphql and every /.well-known path, and the marketing site's full 300-URL archive history contains no developer, docs or API page at all.
+  evidence:
+  - status: 200
+    url: https://portal3.linkett.com/login
+  - status: 404
+    url: https://portal3.linkett.com/openapi.json
+  - status: 404
+    url: https://portal3.linkett.com/graphql
+  - status: 404
+    url: https://sync3-1.linkett.com/.well-known/agent-card.json
+  - status: 202
+    url: https://linkett.com/robots.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Linkett is a digital out-of-home (DOOH) analytics platform for digital signage and retail displays. Its proprietary technology passively gathers audience data at the screen and reports real-time campaign performance metrics such as impressions, dwell time, and engagement, giving advertising agencies detailed client reporting and giving advertisers measurement they can tie back to return on ad spend. Linkett is headquartered in Canada with offices in Toronto and California, and was surfaced through the 500 Global portfolio. As of this enrichment pass Linkett publishes no public developer portal, API reference, or machine-readable API specification, and its website is served behind a bot/CAPTCHA challenge that blocks automated retrieval.
+description: Linkett is a digital out-of-home (DOOH) analytics platform for digital signage and retail displays. A proprietary WiFi sensor mounted at the screen passively gathers audience data from nearby smartphones with no app required, and a hosted dashboard reports real-time campaign performance metrics such as impressions, dwell time, frequency and conversion rate, alongside demographic and behavioural insight, giving advertising agencies detailed client reporting and giving advertisers measurement they can tie back to return on ad spend. Linkett is a WestonExpressions Inc. company with offices in Toronto, Ontario and Mountain View, California, says it is used by 100+ digital out-of-home networks, and was surfaced through the 500 Global portfolio. It sells self-serve at $25 and $50 per month plus a one-time $130 hardware fee, with custom integrations offered only on a contact-sales enterprise tier. As of this enrichment pass Linkett publishes no public developer portal, API reference,
+  SDK, or machine-readable API specification on any host it controls, and its marketing site is served behind a bot/CAPTCHA challenge that blocks automated retrieval of every path.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/linkett.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-08-12'
 name: Linkett
 nav: Providers
 network: true
-overview: Linkett is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Signage, Digital Out Of Home, and DOOH.
-random_paper: 67
+overview: 'Linkett is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Signage, Digital Out Of Home, and DOOH.
+
+
+  Linkett''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
+plans:
+- name: Linkett Plans Pricing
+  plan_count: 3
+  slug: linkett-plans-pricing
+random_paper: 43
 score:
-  band: minimal
-  composite: 5.7
-  delta: 0.0
+  band: emerging
+  composite: 22.3
+  delta: 16.6
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 6.5
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 security:
 - kind: domain-security
   name: Linkett Domain Security

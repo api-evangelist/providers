@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 25
 common:
@@ -119,11 +119,11 @@ overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://
 
 
   CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 11 more developer resources.'
-random_paper: 30
+random_paper: 110
 score:
   band: minimal
   composite: 10.9
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -131,9 +131,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 8.8
+  previous_composite: 10.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -147,11 +147,11 @@ overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Coral''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 18 more developer resources.'
-random_paper: 47
+random_paper: 27
 score:
   band: thin
   composite: 30.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -159,13 +159,13 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 31.7
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

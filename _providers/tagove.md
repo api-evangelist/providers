@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for the Acquire (formerly Tagove) customer support platform: conversations/cases, messages, notes, contacts, companies, phone, chatbots, cards, analytics, knowledge base, and account settings'
@@ -147,11 +147,11 @@ overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tagove''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 16 more developer resources.'
-random_paper: 66
+random_paper: 46
 score:
   band: thin
   composite: 41.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -159,11 +159,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 13.2
-  previous_composite: 42.3
+  previous_composite: 41.2
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

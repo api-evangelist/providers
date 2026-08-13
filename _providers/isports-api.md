@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -534,7 +534,7 @@ plans:
 - name: Isports Api Plans
   plan_count: 14
   slug: isports-api-plans
-random_paper: 103
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Isports Api Rate Limits
@@ -542,7 +542,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.4
-  delta: -12.6
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 14.4
@@ -550,7 +550,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 58.0
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -560,8 +560,8 @@ score:
       total: 15
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Isports Api Authentication

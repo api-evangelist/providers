@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
@@ -213,7 +213,7 @@ plans:
 - name: Solidus Labs Plans
   plan_count: 2
   slug: solidus-labs-plans
-random_paper: 74
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Solidus Labs Rate Limits
@@ -221,7 +221,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 68.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 71.9
@@ -229,7 +229,7 @@ score:
     discoverability: 92.6
     governance: 31.3
     operational_transparency: 60.5
-  previous_composite: 68.1
+  previous_composite: 68.4
   provenance:
     conformance: first-party
     contracts:
@@ -240,7 +240,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'Reservation data model and delivery surface published at api.exploretock.com. Reservation records (bookings, ticketed experiences, takeout/delivery orders, parties, pricing, payments, refunds, notes, '
@@ -597,7 +597,7 @@ plans:
 - name: Tock Plans Pricing
   plan_count: 2
   slug: tock-plans-pricing
-random_paper: 85
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Tock Rate Limits
@@ -614,7 +614,7 @@ rules:
 score:
   band: developing
   composite: 42.2
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 46.3
@@ -622,10 +622,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 48.9
+  previous_composite: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:
 - kind: authentication

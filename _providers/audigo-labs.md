@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,11 +115,11 @@ overview: 'Audigo Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Audigo Labs'' developer surface includes engineering blog, support, getting-started guide, pricing, signup flow, and 12 more developer resources.'
-random_paper: 52
+random_paper: 16
 score:
   band: emerging
   composite: 20.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -127,11 +127,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.7
+  previous_composite: 20.6
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audigo-labs/refs/heads/main/screenshots/audigo-labs-2026-08-07T161923.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -892,7 +892,7 @@ overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 50
+random_paper: 86
 rules:
 - name: Amazon CodeGuru Security API Rules
   rule_count: 5
@@ -913,7 +913,7 @@ rules:
 score:
   band: strong
   composite: 60.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 72.4
@@ -921,7 +921,7 @@ score:
     discoverability: 81.5
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 61.8
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -932,7 +932,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

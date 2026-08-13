@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Read-only HTTP API returning the latest stETH staking APR and a 7-day simple moving average APR. Used by integrators, dashboards, and DeFi protocols to display Lido's current annualized yield. The Lid
@@ -319,11 +319,11 @@ overview: 'Lido publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lido''s developer surface includes documentation, developer portal, engineering blog, CLI, tooling, YouTube channel, and 54 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: thin
   composite: 29.2
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 43.2
@@ -331,9 +331,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.1
+  previous_composite: 29.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/screenshots/lido-2026-06-20T184507.png
 security:

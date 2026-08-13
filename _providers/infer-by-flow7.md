@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
@@ -134,7 +134,7 @@ plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
   slug: infer-by-flow7-plans-pricing
-random_paper: 60
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Infer By Flow7 Rate Limits
@@ -147,6 +147,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 32.3
@@ -154,8 +155,10 @@ score:
     discoverability: 70.4
     governance: 20.8
     operational_transparency: 42.1
+  previous_composite: 49.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Infer By Flow7 Authentication

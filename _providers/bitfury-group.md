@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -237,11 +237,11 @@ overview: 'BitFury publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   BitFury''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, changelog, and 41 more developer resources.'
-random_paper: 99
+random_paper: 55
 score:
   band: developing
   composite: 44.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -249,11 +249,11 @@ score:
     discoverability: 66.7
     governance: 3.1
     operational_transparency: 42.1
-  previous_composite: 45.1
+  previous_composite: 44.0
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/screenshots/bitfury-group-2026-08-07T162553.png
 security:

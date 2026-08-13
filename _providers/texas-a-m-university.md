@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Free geocoding, address normalization/standardization, and GIS data capture REST and SOAP API from TAMU GeoServices. Version 5 returns up to 172 output fields; an API key (from the account profile) is
@@ -111,7 +111,7 @@ plans:
 - name: Texas A M University Plans Pricing
   plan_count: 2
   slug: texas-a-m-university-plans-pricing
-random_paper: 40
+random_paper: 92
 rate_limits:
 - limit_count: 1
   name: Texas A M University Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/screenshots/texas-a-m-university-2026-06-20T195203.png
 security:

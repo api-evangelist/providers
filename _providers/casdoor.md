@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
   slug: casdoor-plans-pricing
-random_paper: 51
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Casdoor Rate Limits
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.9
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 55.2
@@ -258,7 +258,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 46.9
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +267,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:
 - kind: authentication

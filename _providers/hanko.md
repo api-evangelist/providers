@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Hanko Plans Pricing
   plan_count: 4
   slug: hanko-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Hanko Rate Limits
@@ -236,7 +236,7 @@ rules:
 score:
   band: developing
   composite: 54.2
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.5
@@ -244,7 +244,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 53.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/screenshots/hanko-2026-06-20T182504.png
 security:

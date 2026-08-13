@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
-random_paper: 78
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Teco Energy Rate Limits
@@ -189,7 +189,7 @@ rules:
 score:
   band: thin
   composite: 39.5
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 74.6
@@ -197,7 +197,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/screenshots/teco-energy-2026-06-20T195017.png
 security:
 - kind: authentication

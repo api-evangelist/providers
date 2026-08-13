@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Remitian Plans Pricing
   plan_count: 3
   slug: remitian-plans-pricing
-random_paper: 45
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Remitian Rate Limits
@@ -183,7 +183,7 @@ rules:
 score:
   band: thin
   composite: 38.8
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 75.4
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 41.7
     operational_transparency: 7.9
-  previous_composite: 45.5
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +206,8 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/screenshots/remitian-2026-06-20T192840.png
 security:
 - kind: authentication

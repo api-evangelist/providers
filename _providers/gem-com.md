@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -122,7 +122,7 @@ plans:
 - name: Gem Com Plans Pricing
   plan_count: 1
   slug: gem-com-plans-pricing
-random_paper: 97
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Gem Com Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/screenshots/gem-com-2026-06-20T181713.png
 security:

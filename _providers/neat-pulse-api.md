@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Pulse API enables direct management of your Pulse devices and organisation. Update device settings, create new rooms and locations, access device sensor data and more.
@@ -72,7 +72,7 @@ plans:
 - name: Neat Pulse Api Plans Pricing
   plan_count: 3
   slug: neat-pulse-api-plans-pricing
-random_paper: 105
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Neat Pulse Api Rate Limits
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -88,10 +88,10 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 17.2
+  previous_composite: 9.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neat-pulse-api/refs/heads/main/screenshots/neat-pulse-api-2026-06-20T190123.png
 security:
 - kind: domain-security

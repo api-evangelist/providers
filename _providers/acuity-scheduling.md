@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,11 +114,11 @@ overview: 'Acuity Scheduling publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Acuity Scheduling''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 22
+random_paper: 82
 score:
   band: thin
   composite: 30.2
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 55.4
@@ -126,7 +126,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.2
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -135,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/screenshots/acuity-scheduling-2026-06-20T164418.png
 security:

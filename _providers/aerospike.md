@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -117,11 +117,11 @@ overview: 'Aerospike publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aerospike''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: thin
   composite: 28.9
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 40.3
@@ -129,7 +129,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.7
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -138,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/screenshots/aerospike-2026-06-20T165533.png
 security:

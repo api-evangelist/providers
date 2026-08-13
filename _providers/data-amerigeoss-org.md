@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CKAN Action API for AmeriGEOSS Community Platform, a consistent JSON-over-HTTP interface over a catalog of 645,296 datasets. Standard actions include package_search, package_show, package_list, organi
@@ -84,7 +84,7 @@ plans:
 - name: Data Amerigeoss Org Plans Pricing
   plan_count: 1
   slug: data-amerigeoss-org-plans-pricing
-random_paper: 43
+random_paper: 99
 rate_limits:
 - limit_count: 1
   name: Data Amerigeoss Org Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-amerigeoss-org/refs/heads/main/screenshots/data-amerigeoss-org-2026-06-20T175505.png
 security:

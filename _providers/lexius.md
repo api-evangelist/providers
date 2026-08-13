@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,11 +75,11 @@ overview: 'Lexius is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lexius'' developer surface includes pricing, signup flow, and 6 more developer resources.'
-random_paper: 86
+random_paper: 66
 score:
   band: minimal
   composite: 12.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -87,9 +87,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.7
+  previous_composite: 12.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexius/refs/heads/main/screenshots/lexius-2026-07-25T224959.png
 security:

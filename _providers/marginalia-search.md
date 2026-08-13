@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ plans:
 - name: Marginalia Search Plans Pricing
   plan_count: 3
   slug: marginalia-search-plans-pricing
-random_paper: 96
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Marginalia Search Rate Limits
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.1
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 60.4
@@ -111,7 +111,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.5
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     contracts:
@@ -120,8 +120,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/screenshots/marginalia-search-2026-06-20T184938.png
 security:
 - kind: authentication

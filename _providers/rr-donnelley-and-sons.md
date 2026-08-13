@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 6
 common:
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: 'RRD Survey: Marketers Embrace Technology to ...'
   url: https://www.businesswire.com/news/home/20240411726617/en/RRD-Survey-Marketers-Embrace-Technology-to-Strategically-Integrate-Print-and-Digital
-random_paper: 3
+random_paper: 51
 rules:
 - name: RR Donnelley And Sons API Rules
   rule_count: 5
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rr-donnelley-and-sons/refs/heads/main/screenshots/rr-donnelley-and-sons-2026-06-20T193234.png
 security:

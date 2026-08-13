@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 52
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -329,7 +329,7 @@ scopes:
 score:
   band: exemplar
   composite: 67.3
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.6
@@ -337,7 +337,7 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 28.9
-  previous_composite: 74.4
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,8 +355,8 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:
 - kind: authentication

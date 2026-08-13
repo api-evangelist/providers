@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
@@ -138,11 +138,11 @@ overview: 'SearchApi publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 104
 score:
   band: thin
   composite: 38.6
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 15.1
@@ -150,7 +150,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 38.8
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     contracts:
@@ -160,7 +160,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

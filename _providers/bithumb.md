@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 51
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.1
@@ -172,7 +172,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 44.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -187,7 +187,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:

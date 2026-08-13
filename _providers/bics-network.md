@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -164,7 +164,7 @@ plans:
 - name: Bics Network Plans Pricing
   plan_count: 0
   slug: bics-network-plans-pricing
-random_paper: 80
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Bics Network Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.9
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 53.9
@@ -180,7 +180,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 22.9
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +195,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png
 security:

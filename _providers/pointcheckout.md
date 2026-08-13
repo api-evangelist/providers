@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: API endpoints for branch management.
@@ -185,11 +185,11 @@ overview: 'PointCheckout publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   PointCheckout''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, quickstart, support, and 22 more developer resources.'
-random_paper: 16
+random_paper: 88
 score:
   band: developing
   composite: 49.5
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 65.7
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 52.8
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     contracts:
@@ -214,7 +214,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

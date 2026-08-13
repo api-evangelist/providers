@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -363,7 +363,7 @@ overview: 'Visier publishes 50 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Visier''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Visier Rate Limits
@@ -376,7 +376,7 @@ scopes:
 score:
   band: strong
   composite: 56.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.7
@@ -384,7 +384,7 @@ score:
     discoverability: 57.4
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 57.6
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,7 +396,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

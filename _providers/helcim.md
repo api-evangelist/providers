@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
-random_paper: 46
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
@@ -243,7 +243,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.4
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 56.8
@@ -251,7 +251,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 60.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,7 +264,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

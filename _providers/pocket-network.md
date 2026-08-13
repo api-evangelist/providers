@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -410,7 +410,7 @@ plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
   slug: pocket-network-plans-pricing
-random_paper: 77
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Pocket Network Rate Limits
@@ -435,7 +435,7 @@ rules:
 score:
   band: exemplar
   composite: 67.4
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 66.0
@@ -443,7 +443,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 67.2
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     contracts:
@@ -452,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:

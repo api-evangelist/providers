@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,11 +95,11 @@ overview: 'Agile Loop L.L.C. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Agile Loop L.L.C.''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 85
+random_paper: 41
 score:
   band: minimal
   composite: 11.1
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -107,9 +107,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 8.2
+  previous_composite: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-loop-llc/refs/heads/main/screenshots/agile-loop-llc-2026-07-25T195306.png
 security:

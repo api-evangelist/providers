@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -122,7 +122,7 @@ overview: 'Popmenu publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Popmenu''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 76
+random_paper: 52
 score:
   band: minimal
   composite: 9.7
@@ -136,7 +136,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/popmenu/refs/heads/main/screenshots/popmenu-2026-06-20T191922.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: National Archives And Records Administration Plans Pricing
   plan_count: 3
   slug: national-archives-and-records-administration-plans-pricing
-random_paper: 50
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: National Archives And Records Administration Rate Limits
@@ -144,7 +144,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.6
-  delta: -10.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 50.7
@@ -152,7 +152,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 34.1
+  previous_composite: 23.6
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
 security:
 - kind: domain-security

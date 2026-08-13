@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -115,7 +115,7 @@ overview: 'Splashtop is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Splashtop''s developer surface includes documentation, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 62
+random_paper: 30
 score:
   band: emerging
   composite: 25.7
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

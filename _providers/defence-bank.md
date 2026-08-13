@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'Defence Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Defence Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 91
 scopes:
 - name: Defence Bank Scopes
   scope_count: 5
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 39.2
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 52.2
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 41.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,7 +200,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png
 security:

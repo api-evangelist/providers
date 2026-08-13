@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -403,7 +403,7 @@ plans:
 - name: Sensible So Plans Pricing
   plan_count: 4
   slug: sensible-so-plans-pricing
-random_paper: 80
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Sensible So Rate Limits
@@ -428,7 +428,7 @@ rules:
 score:
   band: exemplar
   composite: 69.0
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 72.8
@@ -436,7 +436,7 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 67.1
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     contracts:
@@ -445,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

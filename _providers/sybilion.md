@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Sybilion Plans Pricing
   plan_count: 5
   slug: sybilion-plans-pricing
-random_paper: 61
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Sybilion Rate Limits
@@ -211,7 +211,7 @@ scopes:
 score:
   band: developing
   composite: 54.5
-  delta: 40.1
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 50.7
@@ -219,10 +219,10 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 14.4
+  previous_composite: 54.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: rising
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Sybilion Authentication

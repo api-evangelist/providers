@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Programmatic access to the Lumigo observability platform, authenticated with an API token (x-api-key header) generated in Lumigo Settings. Host confirmed live (returns 401 without credentials); no pub
@@ -163,7 +163,7 @@ overview: 'Lumigo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Lumigo''s developer surface includes documentation, engineering blog, pricing, support, CLI, authentication, changelog, and 19 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: developing
   composite: 52.6
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/screenshots/lumigo-2026-07-25T225711.png
 security:

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -448,7 +448,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 32
+random_paper: 112
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -465,7 +465,7 @@ rules:
 score:
   band: exemplar
   composite: 66.9
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 66.9
@@ -473,7 +473,7 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 44.7
-  previous_composite: 75.3
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -484,8 +484,8 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication

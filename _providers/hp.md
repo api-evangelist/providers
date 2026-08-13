@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: HP acquires Humane Platform and team for $116M
   url: https://www.facebook.com/groups/AIUGM/posts/4020109041603394/
-random_paper: 100
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: Hp Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.6
-  delta: -7.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 55.5
@@ -133,7 +133,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.9
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     contracts:
@@ -142,8 +142,8 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/screenshots/hp-2026-06-20T182854.png
 security:
 - kind: domain-security

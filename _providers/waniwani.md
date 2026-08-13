@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
@@ -184,7 +184,7 @@ overview: 'Waniwani publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Waniwani''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
-random_paper: 50
+random_paper: 22
 scopes:
 - name: Waniwani Scopes
   scope_count: 25
@@ -213,7 +213,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

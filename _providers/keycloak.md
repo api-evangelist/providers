@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -266,7 +266,7 @@ plans:
 - name: Keycloak Plans Pricing
   plan_count: 3
   slug: keycloak-plans-pricing
-random_paper: 39
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Keycloak Rate Limits
@@ -283,7 +283,7 @@ rules:
 score:
   band: developing
   composite: 47.5
-  delta: -9.0
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 58.7
@@ -291,7 +291,7 @@ score:
     discoverability: 72.2
     governance: 79.2
     operational_transparency: 28.9
-  previous_composite: 56.5
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,8 +302,8 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -140,11 +140,11 @@ overview: 'Plan A is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plan A''s developer surface includes academy / training, pricing, YouTube channel, and 21 more developer resources.'
-random_paper: 102
+random_paper: 66
 score:
   band: minimal
   composite: 7.5
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -152,7 +152,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.1
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: tags
@@ -160,7 +160,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plan-a-earth/refs/heads/main/screenshots/plan-a-earth-2026-06-20T191750.png
 security:

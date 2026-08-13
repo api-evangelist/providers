@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 72
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -363,7 +363,7 @@ scopes:
 score:
   band: developing
   composite: 52.7
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 75.1
@@ -371,7 +371,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 57.8
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -386,8 +386,8 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:
 - kind: authentication

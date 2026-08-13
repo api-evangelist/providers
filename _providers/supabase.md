@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ plans:
 - name: Supabase Plans Pricing
   plan_count: 4
   slug: supabase-plans-pricing
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Supabase Rate Limits
@@ -293,7 +293,7 @@ rules:
 score:
   band: developing
   composite: 48.6
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 73.2
@@ -301,7 +301,7 @@ score:
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 28.9
-  previous_composite: 55.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +310,8 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:
 - kind: authentication

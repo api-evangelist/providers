@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -1737,7 +1737,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 73
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1754,7 +1754,7 @@ rules:
 score:
   band: developing
   composite: 42.2
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.3
@@ -1762,7 +1762,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 42.7
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1771,7 +1771,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png
 security:

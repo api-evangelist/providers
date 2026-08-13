@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ plans:
 - name: Ollama Plans Pricing
   plan_count: 4
   slug: ollama-plans-pricing
-random_paper: 50
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Ollama Rate Limits
@@ -330,7 +330,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.3
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.7
@@ -338,7 +338,7 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 47.8
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -347,8 +347,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/screenshots/ollama-2026-06-20T190657.png
 security:
 - kind: authentication

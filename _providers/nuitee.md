@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ plans:
 - name: Nuitee Plans Pricing
   plan_count: 3
   slug: nuitee-plans-pricing
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Nuitee Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.0
@@ -133,7 +133,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.2
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/screenshots/nuitee-2026-08-07T185721.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 2
@@ -196,11 +196,11 @@ overview: 'Clockify publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clockify''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 40
+random_paper: 12
 score:
   band: thin
   composite: 32.4
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 48.1
@@ -208,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.5
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/screenshots/clockify-2026-06-20T174530.png
 security:

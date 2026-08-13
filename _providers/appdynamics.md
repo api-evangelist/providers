@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -403,7 +403,7 @@ plans:
 - name: Appdynamics Plans Pricing
   plan_count: 7
   slug: appdynamics-plans-pricing
-random_paper: 17
+random_paper: 97
 rate_limits:
 - limit_count: 3
   name: Appdynamics Rate Limits
@@ -420,7 +420,7 @@ rules:
 score:
   band: developing
   composite: 45.8
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 65.0
@@ -428,7 +428,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 54.2
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -437,8 +437,8 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/screenshots/appdynamics-2026-06-20T172314.png
 security:
 - kind: authentication

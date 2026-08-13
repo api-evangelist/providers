@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: Account information, stats, balance and preferred translators.
@@ -182,11 +182,11 @@ overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Gengo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 64
+random_paper: 48
 score:
   band: developing
   composite: 47.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.4
@@ -194,7 +194,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 48.7
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:

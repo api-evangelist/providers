@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Implements the Pusher protocol (channels, private channels, presence channels, encrypted channels) for drop-in compatibility with Pusher client SDKs. Server-side publish via REST, client-side subscrib
@@ -100,7 +100,7 @@ plans:
 - name: Soketi Plans Pricing
   plan_count: 1
   slug: soketi-plans-pricing
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Soketi Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.4
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -116,10 +116,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 20.9
+  previous_composite: 15.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soketi/refs/heads/main/screenshots/soketi-2026-06-20T194139.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,11 +87,11 @@ overview: 'HiHello is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HiHello''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 45
+random_paper: 21
 score:
   band: emerging
   composite: 21.3
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -99,7 +99,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.8
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: tags
@@ -107,7 +107,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihello/refs/heads/main/screenshots/hihello-2026-07-25T221220.png
 security:

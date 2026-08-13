@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,11 +115,11 @@ overview: 'KRY is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   KRY''s developer surface includes support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 110
+random_paper: 102
 score:
   band: emerging
   composite: 18.5
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -127,7 +127,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.4
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
@@ -135,7 +135,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kry/refs/heads/main/screenshots/kry-2026-07-25T224307.png
 security:

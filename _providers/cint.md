@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -114,13 +114,10 @@ apis:
   name: Cint Target Groups (Batch) API
   slug: cint-target-groups-batch-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a project and target group, check feasibility, then launch a fielding run.
   name: Launch a Cint Exchange Target Group
   slug: cint-launch-target-group
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Cint Webhooks
@@ -257,11 +254,11 @@ overview: 'Cint publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cint''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 82
+random_paper: 70
 score:
   band: developing
   composite: 53.1
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.8
@@ -269,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 54.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

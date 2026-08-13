@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -190,11 +190,11 @@ overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ev
 
 
   UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: strong
   composite: 56.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 62.7
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 56.7
+  previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
@@ -213,7 +213,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Basware Plans Pricing
   plan_count: 4
   slug: basware-plans-pricing
-random_paper: 45
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Basware Rate Limits
@@ -303,7 +303,7 @@ scopes:
 score:
   band: developing
   composite: 42.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.7
@@ -311,7 +311,7 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 42.6
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -326,7 +326,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:

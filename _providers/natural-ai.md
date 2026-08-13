@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 72.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -306,7 +306,7 @@ overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 31 more developer resources.'
-random_paper: 78
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Natural Ai Rate Limits
@@ -319,7 +319,7 @@ scopes:
 score:
   band: strong
   composite: 63.0
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 71.6
@@ -327,7 +327,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 65.5
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,7 +345,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/screenshots/natural-ai-2026-08-07T184702.png
 security:

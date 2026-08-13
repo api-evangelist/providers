@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 1
@@ -223,7 +223,7 @@ plans:
 - name: Apache Superset Plans Pricing
   plan_count: 3
   slug: apache-superset-plans-pricing
-random_paper: 38
+random_paper: 106
 rate_limits:
 - limit_count: 5
   name: Apache Superset Rate Limits
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.5
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 38.1
@@ -239,7 +239,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.3
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +248,8 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/screenshots/apache-superset-2026-06-20T172150.png
 security:
 - kind: domain-security

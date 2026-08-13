@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -259,7 +259,7 @@ plans:
 - name: Trigger Dev Plans Pricing
   plan_count: 4
   slug: trigger-dev-plans-pricing
-random_paper: 76
+random_paper: 40
 rate_limits:
 - limit_count: 23
   name: Trigger Dev Rate Limits
@@ -284,7 +284,7 @@ rules:
 score:
   band: strong
   composite: 58.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 74.9
@@ -292,7 +292,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 64.7
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -301,8 +301,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/screenshots/trigger-dev-2026-06-20T195710.png
 security:
 - kind: authentication

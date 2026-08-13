@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Health API from Checkmate — 1 operation(s) for health.
@@ -158,11 +158,11 @@ overview: 'Checkmate publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 93
 score:
   band: developing
   composite: 43.1
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 52.0
@@ -170,7 +170,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 42.7
+  previous_composite: 43.1
   provenance:
     conformance: derived
     contracts:
@@ -187,7 +187,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/screenshots/checkmate-2026-07-25T205130.png
 security:

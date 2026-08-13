@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'Amazon Braket publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 48
+random_paper: 4
 rules:
 - name: Amazon Braket API Rules
   rule_count: 5
@@ -210,7 +210,7 @@ rules:
 score:
   band: developing
   composite: 55.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 72.5
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 5.3
-  previous_composite: 55.9
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,7 +229,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/screenshots/amazon-braket-2026-07-25T195944.png
 security:

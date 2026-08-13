@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,11 +72,11 @@ name: Puddle
 nav: Providers
 network: true
 overview: Puddle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technical Interviews, Hiring, Developer Assessment, and Recruiting.
-random_paper: 58
+random_paper: 38
 score:
   band: minimal
   composite: 9.7
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -84,9 +84,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 10.9
+  previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

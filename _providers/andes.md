@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ overview: 'Andes is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Andes'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 59
+random_paper: 43
 score:
   band: minimal
   composite: 8.4
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andes/refs/heads/main/screenshots/andes-2026-08-07T161407.png
 security:

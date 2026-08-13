@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -522,7 +522,7 @@ plans:
 - name: Automation Anywhere Plans Pricing
   plan_count: 4
   slug: automation-anywhere-plans-pricing
-random_paper: 29
+random_paper: 81
 rate_limits:
 - limit_count: 2
   name: Automation Anywhere Rate Limits
@@ -539,7 +539,7 @@ rules:
 score:
   band: developing
   composite: 44.8
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 72.2
@@ -547,7 +547,7 @@ score:
     discoverability: 40.7
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 52.3
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -556,8 +556,8 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/screenshots/automation-anywhere-2026-06-20T172657.png
 security:
 - kind: authentication

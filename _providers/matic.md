@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,11 +99,11 @@ overview: 'Matic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Matic''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: emerging
   composite: 16.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.3
+  previous_composite: 16.4
   regulatory:
     applies: true
     matched_via: tags
@@ -119,7 +119,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matic/refs/heads/main/screenshots/matic-2026-07-25T230412.png
 security:

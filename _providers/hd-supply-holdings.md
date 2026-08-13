@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,11 +80,11 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Completes Acquisition of HD Supply
   url: https://www.prnewswire.com/news-releases/the-home-depot-completes-acquisition-of-hd-supply-301198405.html
-random_paper: 95
+random_paper: 35
 score:
   band: minimal
   composite: 5.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -92,9 +92,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hd-supply-holdings/refs/heads/main/screenshots/hd-supply-holdings-2026-06-20T182550.png
 security:

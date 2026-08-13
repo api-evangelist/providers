@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Rossum Plans Pricing
   plan_count: 5
   slug: rossum-plans-pricing
-random_paper: 101
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Rossum Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 53.1
@@ -158,7 +158,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.3
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/screenshots/rossum-2026-06-20T193224.png
 security:
 - kind: authentication

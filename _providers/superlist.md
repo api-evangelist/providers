@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol (MCP) server that acts as the task layer for AI agents. Exposes tools to add, get, update, complete, delete, move, assign, label, and search tasks and lists, plu
@@ -148,11 +148,11 @@ overview: 'Superlist publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Superlist''s developer surface includes documentation, support, engineering blog, changelog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 75
+random_paper: 43
 score:
   band: thin
   composite: 30.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -160,13 +160,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 31.6
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

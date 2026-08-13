@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -174,11 +174,11 @@ overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 73
+random_paper: 45
 score:
   band: developing
   composite: 42.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.7
@@ -186,7 +186,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 43.1
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:

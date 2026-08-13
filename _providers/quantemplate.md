@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
@@ -167,11 +167,11 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   QuanTemplate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 21
+random_paper: 97
 score:
   band: developing
   composite: 47.9
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.2
@@ -179,7 +179,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.5
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -196,7 +196,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

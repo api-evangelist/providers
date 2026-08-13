@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ plans:
 - name: Trackingmore Plans
   plan_count: 4
   slug: trackingmore-plans
-random_paper: 10
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Trackingmore Rate Limits
@@ -201,7 +201,7 @@ rules:
 score:
   band: developing
   composite: 51.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.5
@@ -209,7 +209,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 52.2
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/screenshots/trackingmore-2026-06-20T195521.png
 security:

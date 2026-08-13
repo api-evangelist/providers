@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1002,7 +1002,7 @@ plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
   slug: power-bi-plans-pricing
-random_paper: 109
+random_paper: 85
 rate_limits:
 - limit_count: 4
   name: Power Bi Rate Limits
@@ -1032,7 +1032,7 @@ scopes:
 score:
   band: exemplar
   composite: 68.6
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 71.6
@@ -1040,7 +1040,7 @@ score:
     discoverability: 100.0
     governance: 69.8
     operational_transparency: 39.5
-  previous_composite: 75.8
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1051,8 +1051,8 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication

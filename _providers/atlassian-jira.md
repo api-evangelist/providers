@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Atlassian Jira Plans Pricing
   plan_count: 3
   slug: atlassian-jira-plans-pricing
-random_paper: 35
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Atlassian Jira Rate Limits
@@ -208,7 +208,7 @@ scopes:
 score:
   band: developing
   composite: 42.5
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 51.5
@@ -216,7 +216,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 50.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:
 - kind: authentication

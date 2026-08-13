@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -111,7 +111,7 @@ plans:
 - name: Payhip Plans Pricing
   plan_count: 3
   slug: payhip-plans-pricing
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Payhip Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 62.7
@@ -127,7 +127,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +142,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/screenshots/payhip-2026-08-07T191637.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 36 more developer resources.'
-random_paper: 103
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits
@@ -250,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.1
@@ -258,7 +258,7 @@ score:
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 56.1
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,7 +276,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

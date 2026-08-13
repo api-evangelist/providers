@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: Assignments between KMS configurations and tenants
@@ -204,11 +204,11 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
-random_paper: 52
+random_paper: 8
 score:
   band: developing
   composite: 54.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 56.2
@@ -216,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 55.7
+  previous_composite: 54.0
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

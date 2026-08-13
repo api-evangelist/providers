@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ apis:
   name: StayingAPI Jobs API
   slug: stayingapi-jobs-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Confirm a listing is bookable for a date window, then get a real quote and its reviews.
   name: StayingAPI — check availability, then price the stay
   slug: stayingapi-availability-then-price
 - description: Find a property, compare its price across OTAs, and read the cheapest offer.
   name: StayingAPI — cross-OTA price comparison
   slug: stayingapi-cross-ota-price-comparison
-artifact_total: 15
+artifact_total: 14
 common:
 - group: auth
   title: ''
@@ -236,7 +233,7 @@ plans:
 - name: Stayingapi Plans
   plan_count: 5
   slug: stayingapi-plans
-random_paper: 37
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Stayingapi Rate Limits
@@ -249,7 +246,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.8
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 61.2
@@ -257,7 +254,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 66.5
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,7 +266,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

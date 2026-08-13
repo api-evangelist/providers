@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 21
 apis:
 - description: The Auth API from TrustLayer — 1 operation(s) for auth.
@@ -223,11 +223,11 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 75
+random_paper: 39
 score:
   band: developing
   composite: 46.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 61.9
@@ -235,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -252,7 +252,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 88
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -178,7 +178,7 @@ rules:
 score:
   band: developing
   composite: 47.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.7
@@ -186,7 +186,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 48.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/screenshots/tenor-2026-06-20T195116.png
 security:

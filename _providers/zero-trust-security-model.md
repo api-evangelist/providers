@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The foundational specification of the Zero Trust security model. Defines the seven tenets, the PDP/PEP/PA logical components, and the deployment variants (enhanced identity governance, microsegmentati
@@ -192,7 +192,7 @@ plans:
 - name: Zero Trust Security Model Plans Pricing
   plan_count: 3
   slug: zero-trust-security-model-plans-pricing
-random_paper: 26
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Zero Trust Security Model Rate Limits
@@ -209,7 +209,7 @@ rules:
 score:
   band: thin
   composite: 29.4
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 12.9
@@ -217,7 +217,7 @@ score:
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 36.0
+  previous_composite: 29.4
   regulatory:
     applies: true
     matched_via: tags
@@ -225,8 +225,8 @@ score:
     regime_id: government
     score: 40.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/screenshots/zero-trust-security-model-2026-06-20T201831.png
 security:
 - kind: domain-security

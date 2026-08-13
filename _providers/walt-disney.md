@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: The Walt Disney Company and OpenAI Reach Agreement ...
   url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
-random_paper: 93
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Walt Disney Rate Limits
@@ -180,7 +180,7 @@ rules:
 score:
   band: thin
   composite: 39.3
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 70.1
@@ -188,7 +188,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 45.2
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: domain-security
   name: Walt Disney Domain Security

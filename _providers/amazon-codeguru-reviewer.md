@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1128,7 +1128,7 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 35
+random_paper: 71
 rules:
 - name: Amazon CodeGuru Reviewer API Rules
   rule_count: 5
@@ -1149,7 +1149,7 @@ rules:
 score:
   band: strong
   composite: 61.1
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 72.4
@@ -1157,7 +1157,7 @@ score:
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 61.4
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1168,7 +1168,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

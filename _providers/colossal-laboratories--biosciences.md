@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ overview: 'Colossal Laboratories & Biosciences publishes 9 APIs on the [APIs.io]
 
 
   Colossal Laboratories & Biosciences'' developer surface includes engineering blog, product news, authentication, and 24 more developer resources.'
-random_paper: 81
+random_paper: 85
 score:
   band: emerging
   composite: 21.9
-  delta: -10.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 14.4
@@ -197,7 +197,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.7
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 security:
 - kind: authentication
   name: Colossal Laboratories  Biosciences Authentication

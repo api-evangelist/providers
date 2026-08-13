@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: RESTful access to ERCOT Market Information List (EMIL) public data products — 106 documented endpoints spanning real-time and day-ahead locational marginal prices, settlement point prices, SCED system
@@ -222,7 +222,7 @@ overview: 'ERCOT publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   ERCOT''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, support, and 30 more developer resources.'
-random_paper: 77
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Ercot Rate Limits
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 52.6
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 67.9
@@ -243,7 +243,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 54.7
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -260,7 +260,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ercot/refs/heads/main/screenshots/ercot-2026-08-07T164957.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 87
+random_paper: 71
 scopes:
 - name: Onpay Scopes
   scope_count: 6
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 44.0
@@ -193,7 +193,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 43.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:

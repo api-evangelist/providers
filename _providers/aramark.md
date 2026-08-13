@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ press:
 - date: '2026-05-25'
   title: From Dining to Facilities, Aramark Celebrates Innovation ...
   url: https://www.aramark.com/newsroom/news/2026/february/aramark-celebrates-national-innovation-day
-random_paper: 39
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Aramark Rate Limits
@@ -322,7 +322,7 @@ rules:
 score:
   band: thin
   composite: 34.0
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 24.3
@@ -330,7 +330,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 36.8
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -339,7 +339,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png
 security:

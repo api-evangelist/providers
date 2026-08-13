@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 89
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits
@@ -187,7 +187,7 @@ rules:
 score:
   band: developing
   composite: 47.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
@@ -195,7 +195,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 47.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/screenshots/open-meteo-2026-06-20T190840.png
 security:

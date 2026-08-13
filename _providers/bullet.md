@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,13 +66,10 @@ apis:
   name: Bullet User Data (Beta) API
   slug: bullet-user-data-beta-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Discover markets then pull the order book, 24h ticker, and recent trades for a symbol.
   name: Bullet market-data snapshot
   slug: bullet-market-data-snapshot
-artifact_total: 15
+artifact_total: 14
 common:
 - group: docs
   title: ''
@@ -222,11 +219,11 @@ overview: 'Bullet publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bullet''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, pricing, and 26 more developer resources.'
-random_paper: 68
+random_paper: 48
 score:
   band: developing
   composite: 46.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.5
@@ -234,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.2
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,7 +249,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/screenshots/bullet-2026-07-25T204059.png
 security:

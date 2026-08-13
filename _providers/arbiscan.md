@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Arbiscan Plans Pricing
   plan_count: 7
   slug: arbiscan-plans-pricing
-random_paper: 23
+random_paper: 115
 rate_limits:
 - limit_count: 14
   name: Arbiscan Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.3
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.9
@@ -153,7 +153,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 47.6
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -162,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/screenshots/arbiscan-2026-06-20T172358.png
 security:

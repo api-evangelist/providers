@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ plans:
 - name: Amazon Resource Explorer Plans Pricing
   plan_count: 3
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 53
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits
@@ -360,7 +360,7 @@ rules:
 score:
   band: developing
   composite: 53.4
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 61.9
@@ -368,7 +368,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 61.8
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -377,8 +377,8 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:
 - kind: authentication

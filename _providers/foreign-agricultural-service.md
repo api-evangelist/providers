@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ plans:
 - name: Foreign Agricultural Service Plans Pricing
   plan_count: 3
   slug: foreign-agricultural-service-plans-pricing
-random_paper: 100
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Foreign Agricultural Service Rate Limits
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: -8.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 52.2
@@ -113,7 +113,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -128,8 +128,8 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/screenshots/foreign-agricultural-service-2026-06-20T181418.png
 security:
 - kind: authentication

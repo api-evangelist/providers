@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg Data Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg data d
@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Excel Plug Ins Plans Pricing
   plan_count: 3
   slug: bloomberg-excel-plug-ins-plans-pricing
-random_paper: 67
+random_paper: 107
 rate_limits:
 - limit_count: 5
   name: Bloomberg Excel Plug Ins Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.6
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.3
+  previous_composite: 21.6
   regulatory:
     applies: true
     matched_via: tags
@@ -120,8 +120,8 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-excel-plug-ins/refs/heads/main/screenshots/bloomberg-excel-plug-ins-2026-06-20T173424.png
 security:
 - kind: domain-security

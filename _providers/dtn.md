@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -338,7 +338,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 94
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -360,7 +360,7 @@ scopes:
 score:
   band: developing
   composite: 55.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 65.9
@@ -368,7 +368,7 @@ score:
     discoverability: 57.4
     governance: 69.8
     operational_transparency: 36.8
-  previous_composite: 61.7
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,8 +386,8 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:
 - kind: authentication

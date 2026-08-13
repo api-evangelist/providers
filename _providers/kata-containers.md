@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Kata Containers is an open source container runtime that uses lightweight virtual machines to provide the speed of containers with the security of traditional VMs. It is compatible with the OCI runtim
@@ -112,7 +112,7 @@ plans:
 - name: Kata Containers Plans Pricing
   plan_count: 3
   slug: kata-containers-plans-pricing
-random_paper: 32
+random_paper: 100
 rate_limits:
 - limit_count: 5
   name: Kata Containers Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.3
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 20.8
+  previous_composite: 17.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kata-containers/refs/heads/main/screenshots/kata-containers-2026-06-20T183924.png
 security:

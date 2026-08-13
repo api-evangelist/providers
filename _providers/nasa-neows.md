@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Nasa Neows Plans Pricing
   plan_count: 3
   slug: nasa-neows-plans-pricing
-random_paper: 92
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Nasa Neows Rate Limits
@@ -179,7 +179,7 @@ rules:
 score:
   band: developing
   composite: 54.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.2
@@ -187,7 +187,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 52.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -202,7 +202,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/screenshots/nasa-neows-2026-06-20T185953.png
 security:

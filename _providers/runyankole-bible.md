@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Free REST API for the Runyankore-Rukiga Bible — 66 books, 31106 verses
@@ -56,7 +56,7 @@ name: Runyankole Bible
 nav: Providers
 network: true
 overview: Runyankole Bible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 27
+random_paper: 91
 score:
   band: minimal
   composite: 5.7
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runyankole-bible/refs/heads/main/screenshots/runyankole-bible-2026-06-20T193257.png
 security:

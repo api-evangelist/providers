@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 7
 apis:
 - description: APIs for processing, cleaning and validating data
@@ -245,11 +245,11 @@ overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
-random_paper: 83
+random_paper: 43
 score:
   band: developing
   composite: 52.1
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 63.8
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 52.9
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     contracts:
@@ -274,7 +274,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

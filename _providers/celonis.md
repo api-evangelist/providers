@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -315,7 +315,7 @@ overview: 'Celonis publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 53
+random_paper: 29
 scopes:
 - name: Celonis Scopes
   scope_count: 2
@@ -324,7 +324,7 @@ scopes:
 score:
   band: strong
   composite: 65.4
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.6
@@ -332,7 +332,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 65.1
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,7 +344,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:

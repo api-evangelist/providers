@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: JNJ Innovation - News & Events
   url: https://jnjinnovation.com/news
-random_paper: 75
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Johnson And Johnson Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.3
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.5
@@ -126,7 +126,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.2
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     contracts:
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png
 security:

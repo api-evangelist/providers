@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Automated access to residential and commercial billing history and electricity usage as measured by CenterPoint's Interval Data Recorders (IDRs), exposed through the Smart Meter Texas platform that Ce
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Palantir Launches Chain Reaction to Build American AI ...
   url: https://www.businesswire.com/news/home/20251204391468/en/Palantir-Launches-Chain-Reaction-to-Build-American-AI-Infrastructure-Founding-Partners-Include-CenterPoint-Energy-and-NVIDIA
-random_paper: 34
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Centerpoint Energy Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.9
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -123,7 +123,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.5
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: tags
@@ -131,8 +131,8 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centerpoint-energy/refs/heads/main/screenshots/centerpoint-energy-2026-06-20T174124.png
 security:
 - kind: domain-security

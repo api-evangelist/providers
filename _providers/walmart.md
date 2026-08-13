@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -246,7 +246,7 @@ press:
 - date: '2026-05-25'
   title: Walmart Partners with OpenAI to Create AI-First Shopping ...
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Walmart Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: developing
   composite: 45.4
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 65.9
@@ -279,7 +279,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 51.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -288,8 +288,8 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:
 - kind: authentication

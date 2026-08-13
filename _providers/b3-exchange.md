@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -190,7 +190,7 @@ overview: 'B3 (Brasil Bolsa Balcão) publishes 8 APIs on the [APIs.io](https://a
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
-random_paper: 101
+random_paper: 69
 scopes:
 - name: B3 Exchange Scopes
   scope_count: 2
@@ -199,7 +199,7 @@ scopes:
 score:
   band: developing
   composite: 44.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 32.3
@@ -207,7 +207,7 @@ score:
     discoverability: 72.2
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 45.3
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,7 +219,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

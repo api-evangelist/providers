@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -940,7 +940,7 @@ plans:
 - name: 7Digital Plans Pricing
   plan_count: 1
   slug: 7digital-plans-pricing
-random_paper: 93
+random_paper: 69
 rate_limits:
 - limit_count: 7
   name: 7Digital Rate Limits
@@ -965,7 +965,7 @@ rules:
 score:
   band: developing
   composite: 48.5
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 26.9
@@ -973,7 +973,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 48.8
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -982,7 +982,7 @@ score:
       marker_coverage: 100.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png
 security:

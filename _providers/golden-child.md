@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'Golden Child is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Golden Child''s developer surface includes support and 7 more developer resources.'
-random_paper: 34
+random_paper: 114
 score:
   band: minimal
   composite: 10.1
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-child/refs/heads/main/screenshots/golden-child-2026-07-25T220031.png
 security:

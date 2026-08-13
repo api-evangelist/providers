@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabri
@@ -103,7 +103,7 @@ plans:
 - name: Adaptigent Plans Pricing
   plan_count: 3
   slug: adaptigent-plans-pricing
-random_paper: 13
+random_paper: 97
 rate_limits:
 - limit_count: 5
   name: Adaptigent Rate Limits
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -119,10 +119,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.2
+  previous_composite: 14.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/screenshots/adaptigent-2026-06-20T164608.png
 security:
 - kind: domain-security

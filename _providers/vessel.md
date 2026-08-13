@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Vessel Plans Pricing
   plan_count: 3
   slug: vessel-plans-pricing
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Vessel Rate Limits
@@ -219,7 +219,7 @@ rules:
 score:
   band: developing
   composite: 44.1
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 74.9
@@ -227,7 +227,7 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 51.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
 - kind: authentication

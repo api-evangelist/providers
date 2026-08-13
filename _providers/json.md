@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: JSON (JavaScript Object Notation) specification and related resources. Standardized by IETF as RFC 8259 (December 2017, edited by Tim Bray) and by Ecma International as ECMA-404. Defines the grammar a
@@ -87,7 +87,7 @@ plans:
 - name: Json Plans Pricing
   plan_count: 3
   slug: json-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Json Rate Limits
@@ -104,7 +104,7 @@ rules:
 score:
   band: emerging
   composite: 23.4
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -112,10 +112,10 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 7.9
-  previous_composite: 31.2
+  previous_composite: 23.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/json/refs/heads/main/screenshots/json-2026-06-20T183812.png
 security:
 - kind: domain-security

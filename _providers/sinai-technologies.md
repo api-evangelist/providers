@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
@@ -154,7 +154,7 @@ overview: 'Sinai Technologies publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Sinai Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 5
+random_paper: 61
 scopes:
 - name: Sinai Technologies Scopes
   scope_count: 6
@@ -163,7 +163,7 @@ scopes:
 score:
   band: developing
   composite: 46.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.8
@@ -171,7 +171,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 46.6
+  previous_composite: 46.0
   provenance:
     conformance: first-party
     contracts:
@@ -182,7 +182,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

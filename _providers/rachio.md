@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for Rachio smart irrigation controllers, Smart Hose Timers and lighting controllers: read people, devices and zones; start/stop watering; manage schedules and rain delays; subscribe to webhoo'
@@ -151,7 +151,7 @@ overview: 'Rachio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rachio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 50
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Rachio Rate Limits
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: developing
   composite: 42.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
@@ -167,13 +167,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 43.2
+  previous_composite: 42.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

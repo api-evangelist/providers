@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Pinata Plans Pricing
   plan_count: 5
   slug: pinata-plans-pricing
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Pinata Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 61.9
@@ -143,7 +143,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 36.5
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/screenshots/pinata-2026-06-20T191714.png
 security:
 - kind: authentication

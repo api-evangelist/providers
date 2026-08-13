@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: Account/application metadata.
@@ -157,11 +157,11 @@ overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 76
+random_paper: 56
 score:
   band: developing
   composite: 44.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 61.6
@@ -169,7 +169,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.8
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
@@ -180,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/screenshots/moises-2026-08-07T184046.png
 security:

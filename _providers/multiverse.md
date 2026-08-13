@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Multiverse is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Multiverse''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 60
+random_paper: 24
 score:
   band: emerging
   composite: 14.8
@@ -97,7 +97,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiverse/refs/heads/main/screenshots/multiverse-2026-08-07T184438.png
 security:

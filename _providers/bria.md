@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -240,7 +240,7 @@ overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
-random_paper: 66
+random_paper: 54
 scopes:
 - name: Bria Scopes
   scope_count: 3
@@ -249,7 +249,7 @@ scopes:
 score:
   band: strong
   composite: 58.9
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.9
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 59.1
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,7 +269,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

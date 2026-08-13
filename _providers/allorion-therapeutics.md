@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,11 +106,11 @@ overview: 'Allorion Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Allorion Therapeutics'' developer surface includes product news and 13 more developer resources.'
-random_paper: 2
+random_paper: 46
 score:
   band: minimal
   composite: 6.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -118,7 +118,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.9
+  previous_composite: 6.0
   regulatory:
     applies: true
     matched_via: tags
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allorion-therapeutics/refs/heads/main/screenshots/allorion-therapeutics-2026-08-07T161224.png
 security:

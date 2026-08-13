@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -246,11 +246,11 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 67
+random_paper: 43
 score:
   band: developing
   composite: 48.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 46.3
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +276,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

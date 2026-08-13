@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ overview: 'Propel Software (Propel PLM) publishes 15 APIs on the [APIs.io](https
 
 
   Propel Software (Propel PLM)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 59
+random_paper: 27
 scopes:
 - name: Propelplm Scopes
   scope_count: 4
@@ -250,7 +250,7 @@ scopes:
 score:
   band: developing
   composite: 53.4
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 56.5
@@ -258,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

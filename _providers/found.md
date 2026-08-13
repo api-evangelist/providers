@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Found is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Found''s developer surface includes pricing, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: emerging
   composite: 20.1
@@ -109,7 +109,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/found/refs/heads/main/screenshots/found-2026-07-25T215038.png
 security:

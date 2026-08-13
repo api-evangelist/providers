@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,11 +140,11 @@ overview: 'Diagrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Diagrid''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: thin
   composite: 35.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -152,11 +152,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 36.2
+  previous_composite: 35.1
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/screenshots/diagrid-2026-07-25T211904.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 19
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -166,7 +166,7 @@ plans:
 - name: Fcc Plans Pricing
   plan_count: 1
   slug: fcc-plans-pricing
-random_paper: 68
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Fcc Rate Limits
@@ -196,7 +196,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

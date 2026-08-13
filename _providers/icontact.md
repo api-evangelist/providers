@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
@@ -83,11 +83,11 @@ overview: 'iContact publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   iContact''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: emerging
   composite: 14.5
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -95,9 +95,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.8
+  previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
 security:

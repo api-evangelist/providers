@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Rogers Control Centre is Rogers' managed IoT and M2M connectivity management platform, a white-labelled deployment of Cisco IoT Control Center (formerly Jasper). Rogers' own product pages list "Access
@@ -123,7 +123,7 @@ plans:
 - name: Rogers Plans
   plan_count: 3
   slug: rogers-plans
-random_paper: 78
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Rogers Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.4
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 45.6
+  previous_composite: 43.4
   provenance:
     conformance: first-party
   regulatory:
@@ -149,7 +149,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

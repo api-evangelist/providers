@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,11 +99,11 @@ overview: 'HAMAMA is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HAMAMA''s developer surface includes engineering blog, support, FAQ, getting-started guide, pricing, signup flow, and 8 more developer resources.'
-random_paper: 33
+random_paper: 13
 score:
   band: emerging
   composite: 17.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.5
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
@@ -119,7 +119,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamama/refs/heads/main/screenshots/hamama-2026-08-07T165925.png
 security:

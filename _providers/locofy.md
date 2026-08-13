@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Figma and Adobe XD plugin that tags layers, applies responsive behavior, and exports production-ready front-end code (React, Next.js, HTML/CSS, React Native, Gatsby). Acts as the primary entry point i
@@ -90,7 +90,7 @@ plans:
 - name: Locofy Plans Pricing
   plan_count: 1
   slug: locofy-plans-pricing
-random_paper: 72
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Locofy Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locofy/refs/heads/main/screenshots/locofy-2026-06-20T184650.png
 security:

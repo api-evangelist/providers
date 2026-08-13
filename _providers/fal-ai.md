@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -476,7 +476,7 @@ plans:
 - name: Fal Ai Plans Pricing
   plan_count: 2
   slug: fal-ai-plans-pricing
-random_paper: 90
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Fal Ai Rate Limits
@@ -509,7 +509,7 @@ rules:
 score:
   band: exemplar
   composite: 76.0
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 80.7
@@ -517,7 +517,7 @@ score:
     discoverability: 81.5
     governance: 53.1
     operational_transparency: 68.4
-  previous_composite: 75.1
+  previous_composite: 76.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -528,7 +528,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:

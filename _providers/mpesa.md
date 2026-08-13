@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -287,7 +287,7 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits
@@ -295,7 +295,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.3
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 63.1
@@ -303,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 65.6
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +321,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/screenshots/mpesa-2026-08-07T184414.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ overview: 'Blindmate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blindmate''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 16
+random_paper: 104
 score:
   band: emerging
   composite: 14.5
@@ -93,7 +93,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindmate/refs/heads/main/screenshots/blindmate-2026-07-25T203331.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The customer-authenticated REST API behind ChromaCode Cloud 6.1, the browser application that decodes HDPCR run files. Observed resource surface includes analyses, assays and assay downloads, batch re
@@ -131,7 +131,7 @@ overview: 'ChromaCode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ChromaCode''s developer surface includes support, authentication, and 21 more developer resources.'
-random_paper: 1
+random_paper: 85
 scopes:
 - name: Chromacode Scopes
   scope_count: 12
@@ -158,7 +158,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chromacode/refs/heads/main/screenshots/chromacode-2026-08-07T163339.png
 security:

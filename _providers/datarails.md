@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Datarails Plans
   plan_count: 3
   slug: datarails-plans
-random_paper: 21
+random_paper: 109
 rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits
@@ -218,7 +218,7 @@ scopes:
 score:
   band: strong
   composite: 56.9
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 38.1
@@ -226,14 +226,14 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 58.3
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

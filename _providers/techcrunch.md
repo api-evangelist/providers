@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: Techcrunch Plans Pricing
   plan_count: 3
   slug: techcrunch-plans-pricing
-random_paper: 19
+random_paper: 103
 rate_limits:
 - limit_count: 5
   name: Techcrunch Rate Limits
@@ -207,7 +207,7 @@ rules:
 score:
   band: thin
   composite: 41.7
-  delta: -8.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 67.9
@@ -215,7 +215,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 50.2
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +224,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png
 security:
 - kind: domain-security

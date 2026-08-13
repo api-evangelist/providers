@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -559,7 +559,7 @@ plans:
 - name: Colorfulclouds Plans Pricing
   plan_count: 3
   slug: colorfulclouds-plans-pricing
-random_paper: 12
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Colorfulclouds Rate Limits
@@ -584,7 +584,7 @@ rules:
 score:
   band: thin
   composite: 40.5
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 22.9
@@ -592,7 +592,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 40.7
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -601,7 +601,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:

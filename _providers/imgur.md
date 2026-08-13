@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
@@ -258,7 +258,7 @@ plans:
 - name: Imgur Plans Pricing
   plan_count: 4
   slug: imgur-plans-pricing
-random_paper: 84
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Imgur Rate Limits
@@ -283,7 +283,7 @@ rules:
 score:
   band: strong
   composite: 57.7
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.5
@@ -291,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.8
+  previous_composite: 57.7
   provenance:
     contracts:
       callable: 100.0
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:

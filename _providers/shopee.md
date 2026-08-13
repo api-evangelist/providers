@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -148,7 +148,7 @@ plans:
 - name: Shopee Plans Pricing
   plan_count: 1
   slug: shopee-plans-pricing
-random_paper: 64
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Shopee Rate Limits
@@ -156,7 +156,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.2
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -164,9 +164,9 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.4
+  previous_composite: 20.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/screenshots/shopee-2026-06-20T193833.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ overview: 'MarkIt is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   MarkIt''s developer surface includes tooling and 2 more developer resources.'
-random_paper: 68
+random_paper: 48
 score:
   band: minimal
   composite: 5.0
@@ -69,7 +69,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markit/refs/heads/main/screenshots/markit-2026-07-25T230225.png
 security:

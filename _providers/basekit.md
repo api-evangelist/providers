@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Partner-facing REST API to provision and manage brands, users, packages, sites, custom domains, SSL certificates and webhook subscriptions on the BaseKit platform. HTTP Basic auth (recommended) or OAu
@@ -139,11 +139,11 @@ overview: 'Basekit publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Basekit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: developing
   composite: 42.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -151,11 +151,11 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 43.4
+  previous_composite: 42.3
   provenance:
     conformance: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basekit/refs/heads/main/screenshots/basekit-2026-07-25T202419.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Dragoneye API provides programmatic access to custom and prebuilt computer vision models for image and video recognition. Developers can classify images, detect objects, and run custom-trained mod
@@ -88,7 +88,7 @@ plans:
 - name: Dragoneye Plans Pricing
   plan_count: 3
   slug: dragoneye-plans-pricing
-random_paper: 30
+random_paper: 118
 rate_limits:
 - limit_count: 5
   name: Dragoneye Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.8
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 22.9
+  previous_composite: 15.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragoneye/refs/heads/main/screenshots/dragoneye-2026-06-20T180216.png
 security:
 - kind: domain-security

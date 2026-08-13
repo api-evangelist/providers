@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -87,13 +87,10 @@ apis:
   name: AZA Finance Webhooks API
   slug: aza-finance-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Quote FX, create a sender, create a transaction, fund it, and confirm settlement.
   name: AZA Finance — send a cross-border payout
   slug: aza-finance-send-payout
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Aza Finance Webhooks
@@ -226,11 +223,11 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 20 more developer resources.'
-random_paper: 41
+random_paper: 5
 score:
   band: developing
   composite: 47.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.2
@@ -238,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 49.0
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +253,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

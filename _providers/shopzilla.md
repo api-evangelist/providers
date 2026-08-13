@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,7 +49,7 @@ name: Shopzilla
 nav: Providers
 network: true
 overview: Shopzilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Comparison Shopping, Retail, E-Commerce, and Affiliate Marketing.
-random_paper: 54
+random_paper: 22
 score:
   band: minimal
   composite: 5.0
@@ -63,7 +63,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

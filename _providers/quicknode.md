@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Quicknode Plans Pricing
   plan_count: 5
   slug: quicknode-plans-pricing
-random_paper: 35
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Quicknode Rate Limits
@@ -195,7 +195,7 @@ rules:
 score:
   band: thin
   composite: 37.2
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 64.5
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 13.2
-  previous_composite: 45.5
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/screenshots/quicknode-2026-06-20T192434.png
 security:
 - kind: authentication

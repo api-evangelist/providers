@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Green Button Connect My Data is the OAuth2-based ESPI service that lets Con Edison customers authorize a registered third party to receive their interval energy usage and account data on a recurring b
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Con Edison posts higher 2025 earnings, sets 2026 EPS view
   url: https://www.stocktitan.net/sec-filings/ED/8-k-consolidated-edison-inc-reports-material-event-0907b1b03c4d.html
-random_paper: 104
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Consolidated Edison Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.6
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 20.0
+  previous_composite: 15.6
   regulatory:
     applies: true
     matched_via: tags
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/screenshots/consolidated-edison-2026-07-25T210311.png
 security:

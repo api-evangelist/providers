@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -379,7 +379,7 @@ plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 53
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Klarna Rate Limits
@@ -404,7 +404,7 @@ rules:
 score:
   band: thin
   composite: 33.5
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 64.4
@@ -412,7 +412,7 @@ score:
     discoverability: 72.2
     governance: 41.7
     operational_transparency: 10.5
-  previous_composite: 37.7
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -427,7 +427,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

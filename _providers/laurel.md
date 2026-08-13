@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -292,11 +292,11 @@ overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 65
+random_paper: 45
 score:
   band: developing
   composite: 44.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 41.8
@@ -304,7 +304,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 46.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:

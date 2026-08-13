@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Ann Taylor's affiliate program enables publishers and content creators to earn commissions on sales generated through affiliate links to anntaylor.com. Available through affiliate networks including F
@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: How Artificial Intelligence is Powering Education with Dr. Ann ...
   url: https://www.youtube.com/watch?v=2h3LcP7IAiQ
-random_paper: 85
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Ann Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 14.7
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -128,10 +128,10 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.9
+  previous_composite: 14.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/screenshots/ann-2026-06-20T172011.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,7 +52,7 @@ name: Novus (SEI Investments)
 nav: Providers
 network: true
 overview: Novus (SEI Investments) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Portfolio Analytics, Investment Management, and Wealth Management.
-random_paper: 110
+random_paper: 38
 score:
   band: minimal
   composite: 7.6
@@ -66,7 +66,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novus-sei-investments/refs/heads/main/screenshots/novus-sei-investments-2026-08-07T185632.png
 security:

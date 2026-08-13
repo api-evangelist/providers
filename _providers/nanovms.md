@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -135,11 +135,11 @@ overview: 'NanoVMs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NanoVMs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, and 16 more developer resources.'
-random_paper: 74
+random_paper: 50
 score:
   band: emerging
   composite: 21.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -147,11 +147,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 19.8
+  previous_composite: 21.1
   provenance:
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanovms/refs/heads/main/screenshots/nanovms-2026-08-07T184622.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ plans:
 - name: Scalable Inference Serving Plans Pricing
   plan_count: 1
   slug: scalable-inference-serving-plans-pricing
-random_paper: 70
+random_paper: 102
 rate_limits:
 - limit_count: 1
   name: Scalable Inference Serving Rate Limits
@@ -253,7 +253,7 @@ rules:
 score:
   band: thin
   composite: 35.1
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 64.9
@@ -261,7 +261,7 @@ score:
     discoverability: 55.6
     governance: 37.5
     operational_transparency: 10.5
-  previous_composite: 40.9
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +270,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving
 tags:

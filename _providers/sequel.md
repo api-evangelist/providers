@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 12
 apis:
 - description: The Analytics API from Sequel — 2 operation(s) for analytics.
@@ -213,11 +213,11 @@ overview: 'Sequel publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: developing
   composite: 52.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.8
@@ -225,7 +225,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.3
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -236,7 +236,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

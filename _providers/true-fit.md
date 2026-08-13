@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -260,11 +260,11 @@ overview: 'True Fit publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
 
   True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 4
+random_paper: 96
 score:
   band: developing
   composite: 45.3
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.5
@@ -272,7 +272,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 45.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

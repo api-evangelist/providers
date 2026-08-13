@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 24
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -475,7 +475,7 @@ rules:
 score:
   band: exemplar
   composite: 71.8
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 71.9
@@ -483,7 +483,7 @@ score:
     discoverability: 94.4
     governance: 80.2
     operational_transparency: 39.5
-  previous_composite: 77.7
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -494,8 +494,8 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Extension-facing API (via the vsls npm module) that allows other VS Code and Visual Studio extensions to start, join, and end Live Share collaborative sessions and expose shared RPC services to guests
@@ -90,7 +90,7 @@ overview: 'Visual Studio publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Visual Studio''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 93
+random_paper: 49
 score:
   band: minimal
   composite: 11.8
@@ -104,7 +104,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visual-studio/refs/heads/main/screenshots/visual-studio-2026-06-20T201100.png
 security:

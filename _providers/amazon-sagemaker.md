@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ plans:
 - name: Amazon Sagemaker Plans Pricing
   plan_count: 3
   slug: amazon-sagemaker-plans-pricing
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Amazon Sagemaker Rate Limits
@@ -507,7 +507,7 @@ rules:
 score:
   band: exemplar
   composite: 69.8
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 73.9
@@ -515,7 +515,7 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 55.3
-  previous_composite: 73.6
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     contracts:
@@ -524,7 +524,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:

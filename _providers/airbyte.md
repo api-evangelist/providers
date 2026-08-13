@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -2555,7 +2555,7 @@ plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
   slug: airbyte-plans-pricing
-random_paper: 56
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Airbyte Rate Limits
@@ -2585,7 +2585,7 @@ scopes:
 score:
   band: exemplar
   composite: 71.3
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 63.4
@@ -2593,7 +2593,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 50.0
-  previous_composite: 75.7
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2604,7 +2604,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

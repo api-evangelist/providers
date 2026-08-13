@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Production API host backing the Lendo web and mobile applications. Discovered by probe at https://api.lendo.sa - it is live and returns a structured bilingual (Arabic/English) JSON envelope, but every
@@ -120,11 +120,11 @@ overview: 'Lendo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lendo''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 66
+random_paper: 50
 score:
   band: emerging
   composite: 26.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -132,11 +132,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 27.1
+  previous_composite: 26.0
   provenance:
     conformance: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendo/refs/heads/main/screenshots/lendo-2026-07-25T224908.png
 security:

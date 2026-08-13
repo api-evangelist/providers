@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint serving the Data API (browse IP-NFTs, IPTs, and market data), the Tokenization API (mint IP-NFTs and fractionalize into IPTs), and the Labs API (manage research datarooms, file
@@ -128,7 +128,7 @@ overview: 'Molecule publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Molecule''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 42
+random_paper: 14
 score:
   band: emerging
   composite: 24.4
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/molecule/refs/heads/main/screenshots/molecule-2026-08-07T184106.png
 security:

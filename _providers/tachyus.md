@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Daily/monthly production records for a well.
@@ -146,7 +146,7 @@ overview: 'Tachyus publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Tachyus'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Tachyus Rate Limits
@@ -159,7 +159,7 @@ scopes:
 score:
   band: developing
   composite: 45.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 58.2
@@ -167,7 +167,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 45.6
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -184,7 +184,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

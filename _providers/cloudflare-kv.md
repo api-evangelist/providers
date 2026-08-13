@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ plans:
 - name: Cloudflare Kv Plans Pricing
   plan_count: 2
   slug: cloudflare-kv-plans-pricing
-random_paper: 51
+random_paper: 7
 rate_limits:
 - limit_count: 21
   name: Cloudflare Kv Rate Limits
@@ -278,7 +278,7 @@ rules:
 score:
   band: developing
   composite: 50.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.2
@@ -286,7 +286,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 50.9
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -295,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/screenshots/cloudflare-kv-2026-06-20T174555.png
 security:

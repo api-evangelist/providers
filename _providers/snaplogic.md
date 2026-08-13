@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -286,7 +286,7 @@ plans:
 - name: Snaplogic Plans Pricing
   plan_count: 1
   slug: snaplogic-plans-pricing
-random_paper: 32
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Snaplogic Rate Limits
@@ -311,7 +311,7 @@ rules:
 score:
   band: developing
   composite: 54.9
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 70.9
@@ -319,7 +319,7 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.8
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/screenshots/snaplogic-2026-06-20T194106.png
 security:
 - kind: authentication

@@ -27,9 +27,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: auth
   title: ''
@@ -47,37 +47,66 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.gomultiply.com/privacy
-- group: start
+- group: company
   title: ''
-  type: Login
-  url: https://app.getkalos.com
+  type: Blog
+  url: https://www.gomultiply.com/blog
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/multiply-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/multiply-llms.txt
+coverage:
+  checked: '2026-08-12'
+  detail: Multiply sells a human-plus-AI managed media service, not software — its own llms.txt enumerates nine marketing pages and eight browser games and names no API, docs host or developer surface, and api./docs./developer./developers.gomultiply.com have no DNS records at all.
+  evidence:
+  - status: 200
+    url: https://www.gomultiply.com/llms.txt
+  - status: 200
+    url: https://www.gomultiply.com/sitemap.xml
+  - status: 404
+    url: https://www.gomultiply.com/openapi.json
+  - status: 404
+    url: https://www.gomultiply.com/.well-known/agent-card.json
+  - status: 404
+    url: https://app.getkalos.com/login
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: Multiply is an AI-native media agency built specifically for B2B companies, pairing human paid-media strategists with a fleet of 25+ specialized AI agents to run and continuously optimize LinkedIn and Google Search advertising. Its "Self-Learning Advertising" platform plugs into a company's own data — sales call recordings (e.g. Gong), CRM closed-won outcomes, case studies, website content, competitive kill sheets and product documentation — and runs hundreds of structured ad experiments that refine audiences, copy and creative from real revenue signals. Multiply is a managed service (not a self-serve API product), founded by Matt Jayson (ex-Google, ex-Brex) and Ashish Warty (ex-HackerOne SVP Engineering, ex-Dropbox), and raised $9.5M led by Mayfield in March 2026. It was added to the API Evangelist network as a Mayfield portfolio company; this pass confirmed it publishes no public API, developer documentation, SDK, or well-known discovery surface.
+description: Multiply is an AI-native media agency built specifically for B2B companies, pairing human paid-media strategists with a fleet of 25+ specialized AI agents to run and continuously optimize LinkedIn and Google Search advertising. Its "Self-Learning Advertising" platform plugs into a company's own data — sales call recordings (e.g. Gong), CRM closed-won outcomes, case studies, website content, competitive kill sheets and product documentation — and runs hundreds of structured ad experiments that refine audiences, copy and creative from real revenue signals. Multiply is a managed service (not a self-serve API product), founded by Matt Jayson (ex-Google, ex-Brex) and Ashish Warty (ex-HackerOne SVP Engineering, ex-Dropbox), and raised $9.5M led by Mayfield in March 2026. It was added to the API Evangelist network as a Mayfield portfolio company; two enrichment passes confirmed it publishes no public API, developer documentation, SDK, or /.well-known/ discovery surface. It does publish
+  an llms.txt and three named service tiers — Growth (from $6K/mo), Scale (from $12K/mo) and Enterprise — priced against monthly ad spend rather than API usage.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/multiply.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-12'
 name: Multiply
 nav: Providers
 network: true
 overview: 'Multiply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, B2B, and Artificial Intelligence.
 
 
-  Multiply''s developer surface includes pricing and 4 more developer resources.'
-random_paper: 84
+  Multiply''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
+plans:
+- name: Multiply Plans Pricing
+  plan_count: 3
+  slug: multiply-plans-pricing
+random_paper: 56
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: emerging
+  composite: 16.7
+  delta: 4.9
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 2.2
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiply/refs/heads/main/screenshots/multiply-2026-08-07T184437.png
 security:

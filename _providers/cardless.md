@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -125,7 +125,7 @@ overview: 'Cardless publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Cardless'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 37
+random_paper: 9
 scopes:
 - name: Cardless Scopes
   scope_count: 1
@@ -153,7 +153,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/screenshots/cardless-2026-08-07T162953.png
 security:

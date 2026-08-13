@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ random_paper: 27
 score:
   band: minimal
   composite: 11.7
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 12.9
@@ -112,7 +112,7 @@ score:
     discoverability: 50.0
     governance: 10.4
     operational_transparency: 5.3
-  previous_composite: 10.2
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: tags
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-applications-international/refs/heads/main/screenshots/science-applications-international-2026-06-20T193532.png
 security:

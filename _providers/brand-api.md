@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 3
 apis:
 - description: Logo Link delivers brand logos directly via CDN URL embedding. Supports lookup by domain, stock ticker, crypto symbol, or ISIN. Parameters include logo type (icon, symbol, logo), theme (light/dark), h
@@ -130,7 +130,7 @@ plans:
 - name: Brand Api Plans Pricing
   plan_count: 3
   slug: brand-api-plans-pricing
-random_paper: 66
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Brand Api Rate Limits
@@ -138,7 +138,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -7.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.5
@@ -146,7 +146,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 38.9
   provenance:
     contracts:
       callable: 100.0
@@ -154,8 +154,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,11 +123,11 @@ overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 13 more developer resources.'
-random_paper: 43
+random_paper: 23
 score:
   band: emerging
   composite: 23.6
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -135,9 +135,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.7
+  previous_composite: 23.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/screenshots/o1-labs-2026-08-07T185836.png
 security:

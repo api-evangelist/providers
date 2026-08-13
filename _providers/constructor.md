@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'REST API for AI-powered product discovery — autocomplete, search, browse, recommendations, quizzes, catalog management, searchandising, and behavioral tracking. A public API key identifies the index; '
@@ -156,11 +156,11 @@ overview: 'Constructor publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Constructor''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, release notes, and 19 more developer resources.'
-random_paper: 62
+random_paper: 22
 score:
   band: thin
   composite: 35.8
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -168,12 +168,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 36.9
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/screenshots/constructor-2026-07-25T210311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: provides endpoints to access to commands sent to the submission API
@@ -169,11 +169,11 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 71
+random_paper: 43
 score:
   band: developing
   composite: 44.1
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.8
@@ -181,7 +181,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.6
+  previous_composite: 44.1
   provenance:
     conformance: derived
     contracts:
@@ -198,7 +198,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:

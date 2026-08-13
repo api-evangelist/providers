@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -211,7 +211,7 @@ overview: 'Hotmart publishes 8 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 71
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Hotmart Rate Limits
@@ -219,7 +219,7 @@ rate_limits:
 score:
   band: developing
   composite: 52.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -227,7 +227,7 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 76.3
-  previous_composite: 52.7
+  previous_composite: 52.1
   provenance:
     conformance: derived
     mcp: derived
@@ -239,7 +239,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:

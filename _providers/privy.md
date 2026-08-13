@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Privy Plans Pricing
   plan_count: 3
   slug: privy-plans-pricing
-random_paper: 106
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Privy Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.5
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 62.7
@@ -144,7 +144,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/screenshots/privy-2026-06-20T192122.png
 security:
 - kind: authentication

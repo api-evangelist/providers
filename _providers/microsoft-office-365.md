@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -958,7 +958,7 @@ plans:
 - name: Microsoft Office 365 Plans Pricing
   plan_count: 5
   slug: microsoft-office-365-plans-pricing
-random_paper: 110
+random_paper: 50
 rate_limits:
 - limit_count: 8
   name: Microsoft Office 365 Rate Limits
@@ -988,7 +988,7 @@ scopes:
 score:
   band: strong
   composite: 60.9
-  delta: -8.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 75.7
@@ -996,7 +996,7 @@ score:
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 69.5
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1005,8 +1005,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:
 - kind: authentication

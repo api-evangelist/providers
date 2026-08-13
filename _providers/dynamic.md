@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Dynamic's REST API for wallet infrastructure — admin and environment management endpoints plus SDK-facing endpoints for auth, passkeys, embedded wallets, MPC/WaaS, users, sessions, MFA, gates, and web
@@ -175,11 +175,11 @@ overview: 'Dynamic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Dynamic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 22 more developer resources.'
-random_paper: 45
+random_paper: 21
 score:
   band: developing
   composite: 55.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 56.3
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,7 +198,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic/refs/heads/main/screenshots/dynamic-2026-07-25T212559.png
 security:

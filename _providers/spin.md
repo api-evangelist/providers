@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 5
 apis:
 - description: The Spin HTTP Trigger API handles incoming HTTP requests and routes them to the appropriate Spin component. Components receive an HTTP request object and return an HTTP response. Supported via the Spi
@@ -156,7 +156,7 @@ plans:
 - name: Spin Plans Pricing
   plan_count: 3
   slug: spin-plans-pricing
-random_paper: 94
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Spin Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: thin
   composite: 29.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 12.9
@@ -189,10 +189,10 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 34.2
-  previous_composite: 37.7
+  previous_composite: 29.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/screenshots/spin-2026-06-20T194314.png
 security:
 - kind: domain-security

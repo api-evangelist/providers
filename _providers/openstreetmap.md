@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
   slug: openstreetmap-plans-pricing
-random_paper: 23
+random_paper: 95
 rate_limits:
 - limit_count: 4
   name: Openstreetmap Rate Limits
@@ -305,7 +305,7 @@ scopes:
 score:
   band: developing
   composite: 54.6
-  delta: -6.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 72.8
@@ -313,7 +313,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 13.2
-  previous_composite: 61.0
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:
 - kind: authentication

@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -68,16 +68,13 @@ apis:
   name: Zerion wallets API
   slug: zerion-wallets-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a transaction webhook subscription for a set of wallets, confirm it, then verify the watched-wallet count.
   name: Zerion wallet activity subscription
   slug: zerion-wallet-activity-subscription.arazzo
 - description: Pull a wallet's portfolio, positions, transaction history, and PnL in one flow.
   name: Zerion wallet overview
   slug: zerion-wallet-overview.arazzo
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Zerion Transactions Webhooks
@@ -270,7 +267,7 @@ plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 83
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Zerion Rate Limits
@@ -278,7 +275,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 70.8
@@ -286,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 68.4
-  previous_composite: 63.9
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +301,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

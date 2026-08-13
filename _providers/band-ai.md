@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -241,11 +241,11 @@ overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: strong
   composite: 56.0
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 66.4
@@ -253,7 +253,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 56.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
 security:

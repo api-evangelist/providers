@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 42
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -468,7 +468,7 @@ overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 34 more developer resources.'
-random_paper: 47
+random_paper: 23
 scopes:
 - name: Laravel Scopes
   scope_count: 62
@@ -477,7 +477,7 @@ scopes:
 score:
   band: strong
   composite: 64.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.9
@@ -485,7 +485,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 64.8
+  previous_composite: 64.2
   provenance:
     conformance: derived
     contracts:
@@ -496,7 +496,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

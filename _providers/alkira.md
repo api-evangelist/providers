@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: REST API behind the Alkira Portal (Cloud Services Exchange). Manages tenant networks, segments, cloud and site connectors (AWS, Azure, GCP, OCI, and SD-WAN vendors), integrated network services, routi
@@ -116,11 +116,11 @@ overview: 'Alkira publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkira''s developer surface includes authentication, changelog, and 14 more developer resources.'
-random_paper: 48
+random_paper: 28
 score:
   band: emerging
   composite: 19.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -128,13 +128,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 44.7
-  previous_composite: 20.4
+  previous_composite: 19.3
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkira/refs/heads/main/screenshots/alkira-2026-07-25T195633.png
 security:

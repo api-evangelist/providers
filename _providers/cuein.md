@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -150,11 +150,11 @@ overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: an
 
 
   Cuein''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 68
+random_paper: 52
 score:
   band: developing
   composite: 42.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.7
@@ -162,7 +162,7 @@ score:
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 43.7
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,7 +174,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

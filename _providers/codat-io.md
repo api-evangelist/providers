@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Codat Io Plans Pricing
   plan_count: 3
   slug: codat-io-plans-pricing
-random_paper: 88
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Codat Io Rate Limits
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.8
@@ -160,7 +160,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.6
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -175,7 +175,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/screenshots/codat-io-2026-07-25T205918.png
 security:

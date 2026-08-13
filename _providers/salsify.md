@@ -19,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ overview: 'Salsify publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 67
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Salsify Rate Limits
@@ -252,7 +252,7 @@ scopes:
 score:
   band: strong
   composite: 60.7
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.7
@@ -260,7 +260,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 60.3
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

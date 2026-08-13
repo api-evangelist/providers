@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,11 +71,11 @@ name: Savvly
 nav: Providers
 network: true
 overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company.'
-random_paper: 97
+random_paper: 77
 score:
   band: emerging
   composite: 20.9
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 53.5
@@ -83,7 +83,7 @@ score:
     discoverability: 40.7
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.5
+  previous_composite: 20.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -95,7 +95,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

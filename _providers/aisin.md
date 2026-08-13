@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -80,7 +80,7 @@ plans:
 - name: Aisin Plans Pricing
   plan_count: 1
   slug: aisin-plans-pricing
-random_paper: 68
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Aisin Rate Limits
@@ -98,7 +98,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aisin/refs/heads/main/screenshots/aisin-2026-06-20T171439.png
 security:

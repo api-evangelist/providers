@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Respeecher Plans Pricing
   plan_count: 6
   slug: respeecher-plans-pricing
-random_paper: 18
+random_paper: 102
 rate_limits:
 - limit_count: 0
   name: Respeecher Rate Limits
@@ -183,7 +183,7 @@ rules:
 score:
   band: thin
   composite: 36.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 56.0
@@ -191,7 +191,7 @@ score:
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 37.1
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -200,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

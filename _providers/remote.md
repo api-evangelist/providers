@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -800,7 +800,7 @@ overview: 'Remote publishes 101 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 72
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Remote Rate Limits
@@ -813,7 +813,7 @@ scopes:
 score:
   band: strong
   composite: 61.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.6
@@ -821,7 +821,7 @@ score:
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 62.0
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -832,7 +832,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

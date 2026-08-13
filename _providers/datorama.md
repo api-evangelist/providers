@@ -1,40 +1,45 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Paid, sales-assisted, API access separately entitled
   onboarding: unknown
-  pricing: unknown
+  pricing: paid
   public: false
-  source: []
+  source:
+  - https://www.salesforce.com/marketing/analytics/pricing/
+  - https://developers.datorama.com/docs/manage/introduction/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-11'
-api_count: 0
-artifact_total: 1
+  score: 30.2
+  scored_at: '2026-08-12'
+api_count: 2
+apis:
+- description: REST API to set up, manage and administer a Marketing Cloud Intelligence (Datorama) account — accounts, workspaces, users, permission sets, data streams, connectors, data source authentications, bucke
+  name: Intelligence Platform API
+  slug: intelligence-platform-api
+- description: Synchronous JSON query API for reading harmonized Marketing Cloud Intelligence (Datorama) data out into any other platform, including all classifications and calculations. POST /v1/query and POST /v1/
+  name: Intelligence Query API
+  slug: intelligence-query-api
+artifact_total: 9
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/datorama-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -42,38 +47,190 @@ common:
 - group: other
   title: ''
   type: Product
-  url: https://www.salesforce.com/products/marketing-cloud/marketing-intelligence/
+  url: https://www.salesforce.com/marketing/analytics/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.datorama.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.datorama.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.datorama.com/docs/manage/reference/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.datorama.com/docs/build/apps/quick-start/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.salesforce.com/s/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.salesforce.com/marketing/analytics/pricing/
+- group: start
+  title: ''
+  type: Login
+  url: https://platform.datorama.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.salesforce.com/company/legal/privacy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.salesforce.com/products/Datorama
+- group: auth
+  title: ''
+  type: Security
+  url: https://security.salesforce.com/responsible-disclosure-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://compliance.salesforce.com/en/services/marketing-cloud-intelligence
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/datorama-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/datorama-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/datorama-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/datorama-rate-limits.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/datorama-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/datorama-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/datorama-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/datorama-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/datorama-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/datorama-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/datorama-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/datorama-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/datorama-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/datorama-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/datorama-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/datorama-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/datorama-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/datorama-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/datorama-domain-security.yml
 created: '2026-07-17'
-description: Datorama was a cloud-based marketing intelligence and analytics platform founded in 2012 in Tel Aviv and New York. It unified marketing, advertising, and sales data from thousands of disparate sources into a single AI-powered reporting and dashboarding layer, using its "Genius" machine-learning engine to automate data harmonization across ad, social, web, and CRM APIs. Salesforce acquired Datorama in August 2018 for a reported ~$800 million and rebranded it as Salesforce Marketing Cloud Intelligence (Marketing Intelligence). The standalone datorama.com domain now 301-redirects to the Salesforce Marketing Intelligence product page, and the former standalone developer/API surface has been folded into Salesforce documentation. This profile entered the API Evangelist network as a lightspeed-venture-partners portfolio lead.
+description: 'Datorama was a cloud-based marketing intelligence and analytics platform founded in 2012 in Tel Aviv and New York. It unified marketing, advertising, and sales data from thousands of disparate sources into a single AI-powered reporting and dashboarding layer, using its "Genius" machine learning engine to automate data harmonization across ad, social, web, and CRM APIs. Salesforce acquired Datorama in August 2018 for a reported ~$800 million and rebranded it as Salesforce Marketing Cloud Intelligence. The marketing, pricing, legal, trust and support surfaces have moved to salesforce.com, but the developer surface is still live on the original domain: a Gatsby developer portal at developers.datorama.com documents an Intelligence Platform API and a synchronous Query API on https://api.datorama.com/v1, both authenticated with a per-user personal access token in an Authorization header, both rate limited per user (60 platform req/min, 200 query req/min, 20,000 calls/day UTC) with
+  X-PlatformRateLimit-*, X-QueryRateLimit-* and X-DailyQuota-* response headers, plus an asynchronous Reporting API for large exports, a header-switched sandbox mode, an Apps JavaScript SDK and a `dato` CLI on npm, a custom-connector framework, and — new in July 2026 — a first-party MCP server (@datorama/mci-mcp-sdk) that proxies MCP JSON-RPC to a tenant /api/mcp endpoint using an OAuth2 service-account key. No OpenAPI, AsyncAPI, GraphQL SDL, llms.txt, /.well-known/ document or A2A agent card is published anywhere on the surface. This profile entered the API Evangelist network as a lightspeed-venture-partners portfolio lead.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datorama.png
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: ''
+  name: datorama-mcp.yml
+  slug: datorama-mcpyml
+modified: '2026-08-12'
 name: Datorama
 nav: Providers
 network: true
-overview: Datorama is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Marketing, Marketing Intelligence, and Advertising.
-random_paper: 29
+overview: 'Datorama publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Marketing, Marketing Intelligence, and Advertising.
+
+
+  Datorama''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 26 more developer resources.'
+plans:
+- name: Datorama Plans Pricing
+  plan_count: 2
+  slug: datorama-plans-pricing
+random_paper: 1
+rate_limits:
+- limit_count: 3
+  name: Datorama Rate Limits
+  slug: datorama-rate-limits
 score:
-  band: minimal
-  composite: 5.0
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  delta: 46.8
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 81.6
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 78.3
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 73.7
   previous_composite: 5.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: flat
+  scored_at: '2026-08-12'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/screenshots/datorama-2026-07-25T211413.png
 security:
+- kind: authentication
+  name: Datorama Authentication
+  slug: datorama-authentication
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Datorama Domain Security
   slug: datorama-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Datorama Vulnerability Disclosure
+  slug: datorama-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Datorama Trust Center
+  slug: datorama-trust-center
+  summary_line: SOC 2, SOC 3, C5 (ISAE 3000), UK Cyber Essentials, UK Cyber Essentials Plus, Spain ENS High, EU Processor Binding Corporate Rules
 slug: datorama
 tags:
 - Company
@@ -85,5 +242,9 @@ tags:
 - Business Intelligence
 - Reporting
 - Salesforce
+- Marketing Analytics
+- Data Harmonization
+- Dashboards
+- MCP
 website: https://datorama.com
 ---

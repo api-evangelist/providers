@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 10
 apis:
 - description: The Assignments API from Sana — 1 operation(s) for assignments.
@@ -174,7 +174,7 @@ overview: 'Sana publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 17 more developer resources.'
-random_paper: 71
+random_paper: 59
 scopes:
 - name: Sana Scopes
   scope_count: 2
@@ -183,7 +183,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.3
@@ -191,7 +191,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 46.9
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     contracts:
@@ -202,7 +202,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

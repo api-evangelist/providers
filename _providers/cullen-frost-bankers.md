@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Cullen/Frost Bankers API provides access to platform services and data for enterprise integration and automation.
@@ -61,7 +61,7 @@ plans:
 - name: Cullen Frost Bankers Plans Pricing
   plan_count: 1
   slug: cullen-frost-bankers-plans-pricing
-random_paper: 61
+random_paper: 113
 rate_limits:
 - limit_count: 1
   name: Cullen Frost Bankers Rate Limits
@@ -69,7 +69,7 @@ rate_limits:
 score:
   band: minimal
   composite: 7.9
-  delta: -4.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -77,7 +77,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.3
+  previous_composite: 7.9
   regulatory:
     applies: true
     matched_via: tags
@@ -85,7 +85,7 @@ score:
     regime_id: banking_open_finance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: cullen-frost-bankers
 tags:

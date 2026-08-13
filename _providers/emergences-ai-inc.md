@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ overview: 'EMERGENCES AI, INC. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   EMERGENCES AI, INC.''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 36
+random_paper: 100
 score:
   band: minimal
   composite: 9.7
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emergences-ai-inc/refs/heads/main/screenshots/emergences-ai-inc-2026-07-25T213236.png
 security:

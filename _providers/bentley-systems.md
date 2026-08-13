@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -855,7 +855,7 @@ plans:
 - name: Bentley Systems Plans Pricing
   plan_count: 4
   slug: bentley-systems-plans-pricing
-random_paper: 84
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Bentley Systems Rate Limits
@@ -885,7 +885,7 @@ scopes:
 score:
   band: exemplar
   composite: 72.7
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 60.5
@@ -893,7 +893,7 @@ score:
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 69.8
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     contracts:
@@ -902,7 +902,7 @@ score:
       marker_coverage: 0.0
       total: 86
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:

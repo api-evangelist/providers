@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: 'RESTful HTTP API for the Zenput operations-execution platform — retrieve activity/form submissions (including large-batch paged retrieval), manage locations, users, user roles, teams, tasks, sensors, '
@@ -116,11 +116,11 @@ overview: 'Zenput publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zenput''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 9 more developer resources.'
-random_paper: 98
+random_paper: 78
 score:
   band: emerging
   composite: 22.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -128,11 +128,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 23.2
+  previous_composite: 22.1
   provenance:
     mcp: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

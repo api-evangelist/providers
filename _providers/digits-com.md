@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ plans:
 - name: Digits Com Plans Pricing
   plan_count: 2
   slug: digits-com-plans-pricing
-random_paper: 80
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Digits Com Rate Limits
@@ -279,7 +279,7 @@ scopes:
 score:
   band: exemplar
   composite: 66.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 64.7
@@ -287,7 +287,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 68.1
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,7 +299,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:

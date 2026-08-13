@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ plans:
 - name: Amazon Ses Plans Pricing
   plan_count: 4
   slug: amazon-ses-plans-pricing
-random_paper: 94
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Amazon Ses Rate Limits
@@ -317,7 +317,7 @@ rules:
 score:
   band: developing
   composite: 48.8
-  delta: -7.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 59.0
@@ -325,7 +325,7 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 34.2
-  previous_composite: 55.8
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:
 - kind: domain-security

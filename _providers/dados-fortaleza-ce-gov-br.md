@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: CKAN Action API for Fortaleza Dados Abertos, a consistent JSON-over-HTTP interface over a catalog of 635 datasets. Standard actions include package_search, package_show, package_list, organization_lis
@@ -84,7 +84,7 @@ plans:
 - name: Dados Fortaleza Ce Gov Br Plans Pricing
   plan_count: 1
   slug: dados-fortaleza-ce-gov-br-plans-pricing
-random_paper: 95
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Dados Fortaleza Ce Gov Br Rate Limits
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dados-fortaleza-ce-gov-br/refs/heads/main/screenshots/dados-fortaleza-ce-gov-br-2026-06-20T175427.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 6
 apis:
 - description: The BMW Vehicle Identification API allows users to access detailed information about BMW vehicles by inputting their unique vehicle identification number (VIN). Provides essential data about a vehicle
@@ -115,7 +115,7 @@ plans:
 - name: Bmw Plans Pricing
   plan_count: 3
   slug: bmw-plans-pricing
-random_paper: 94
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Bmw Rate Limits
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.8
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 48.1
@@ -131,10 +131,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.6
+  previous_composite: 32.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/screenshots/bmw-2026-06-20T173545.png
 security:
 - kind: domain-security

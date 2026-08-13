@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 9
 apis:
 - description: 'The Angular Core API provides the fundamental building blocks of the Angular framework including components, directives, pipes, dependency injection, Signals for reactive state management, standalone '
@@ -140,7 +140,7 @@ plans:
 - name: Angular Plans Pricing
   plan_count: 3
   slug: angular-plans-pricing
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Angular Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.7
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -156,10 +156,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 22.4
+  previous_composite: 16.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/screenshots/angular-2026-06-20T171952.png
 security:
 - kind: domain-security

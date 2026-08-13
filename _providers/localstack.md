@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -187,11 +187,11 @@ overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 13
+random_paper: 97
 score:
   band: developing
   composite: 49.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 41.0
@@ -199,7 +199,7 @@ score:
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,7 +211,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/screenshots/localstack-2026-07-25T225424.png
 security:

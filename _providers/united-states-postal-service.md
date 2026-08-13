@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
   slug: united-states-postal-service-plans-pricing
-random_paper: 72
+random_paper: 96
 rate_limits:
 - limit_count: 2
   name: United States Postal Service Rate Limits
@@ -406,7 +406,7 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 32.1
@@ -414,7 +414,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 10.5
-  previous_composite: 43.2
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -429,7 +429,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:

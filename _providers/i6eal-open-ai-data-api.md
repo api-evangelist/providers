@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 17
 apis:
 - description: Officially published AI-related investigations, orders, fines and remedies with separate procedural stages and exact technology evidence.
@@ -201,11 +201,11 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
 
 
   i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 18 more developer resources.'
-random_paper: 33
+random_paper: 85
 score:
   band: thin
   composite: 39.6
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.7
@@ -213,7 +213,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.1
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -230,7 +230,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

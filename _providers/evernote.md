@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: The Evernote Cloud API (EDAM) is a Thrift-based service exposing UserStore and NoteStore operations to create, read, update, search, share, and synchronize notes, notebooks, tags, and resources in a u
@@ -192,11 +192,11 @@ overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   evernote''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 60
+random_paper: 32
 score:
   band: developing
   composite: 55.0
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -204,12 +204,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 56.1
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evernote/refs/heads/main/screenshots/evernote-2026-07-25T213733.png
 security:

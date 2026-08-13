@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Cfpb Plans Pricing
   plan_count: 2
   slug: cfpb-plans-pricing
-random_paper: 63
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Cfpb Rate Limits
@@ -205,7 +205,7 @@ rules:
 score:
   band: developing
   composite: 43.9
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.7
@@ -213,7 +213,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 42.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -228,7 +228,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/screenshots/cfpb-2026-06-20T174148.png
 security:

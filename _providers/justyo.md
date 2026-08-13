@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: Read account/subscriber information.
@@ -119,7 +119,7 @@ overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   justyo''s developer surface includes documentation, signup flow, authentication, and 13 more developer resources.'
-random_paper: 106
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Justyo Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 59.0
@@ -135,7 +135,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 26.3
-  previous_composite: 35.5
+  previous_composite: 37.1
   provenance:
     contracts:
       callable: 100.0
@@ -145,7 +145,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
@@ -127,7 +127,7 @@ overview: 'MyFitnessPal publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   MyFitnessPal''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 35
+random_paper: 111
 scopes:
 - name: Myfitnesspal Scopes
   scope_count: 4
@@ -136,7 +136,7 @@ scopes:
 score:
   band: thin
   composite: 39.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 49.4
@@ -144,7 +144,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 37.8
+  previous_composite: 39.1
   provenance:
     conformance: derived
     mcp: derived
@@ -156,7 +156,7 @@ score:
     regime_id: health
     score: 46.3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
 security:

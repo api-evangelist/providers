@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Zeffy Plans Pricing
   plan_count: 1
   slug: zeffy-plans-pricing
-random_paper: 84
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Zeffy Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.1
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
@@ -129,7 +129,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.6
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -144,7 +144,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -272,7 +272,7 @@ plans:
 - name: Vanta Plans Pricing
   plan_count: 3
   slug: vanta-plans-pricing
-random_paper: 74
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Vanta Rate Limits
@@ -302,7 +302,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 71.3
@@ -310,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 58.2
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +319,8 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/screenshots/vanta-2026-06-20T200811.png
 security:
 - kind: authentication

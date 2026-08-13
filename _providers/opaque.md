@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 11
 apis:
 - description: Asset Configurations
@@ -177,11 +177,11 @@ overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: developing
   composite: 44.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.4
@@ -189,7 +189,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 45.4
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     contracts:
@@ -200,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:

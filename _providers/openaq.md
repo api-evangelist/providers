@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Openaq Plans Pricing
   plan_count: 3
   slug: openaq-plans-pricing
-random_paper: 64
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Openaq Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.5
-  delta: -8.3
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 53.0
@@ -193,7 +193,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 36.8
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:
 - kind: authentication

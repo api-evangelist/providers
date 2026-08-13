@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Omdb Plans Pricing
   plan_count: 2
   slug: omdb-plans-pricing
-random_paper: 70
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Omdb Rate Limits
@@ -171,7 +171,7 @@ rules:
 score:
   band: developing
   composite: 50.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 75.4
@@ -179,7 +179,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 48.8
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -194,7 +194,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/screenshots/omdb-2026-06-20T190703.png
 security:

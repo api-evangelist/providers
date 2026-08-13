@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,11 +103,11 @@ overview: 'Cadence Solutions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Cadence Solutions'' developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 20
+random_paper: 80
 score:
   band: emerging
   composite: 16.9
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -115,7 +115,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 15.5
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: tags
@@ -123,7 +123,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: domain-security

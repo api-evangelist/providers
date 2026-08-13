@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Chubb Studio is Chubb's embedded insurance technology platform that enables digital partners (banks, retailers, travel platforms, fintechs, OEMs, and other distributors) to integrate Chubb's insurance
@@ -190,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: Chubb Launches AI-Powered Embedded Insurance Engine
   url: https://www.prnewswire.com/news-releases/chubb-launches-ai-powered-embedded-insurance-engine-302611988.html
-random_paper: 52
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Chubb Rate Limits
@@ -198,7 +198,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.7
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -206,7 +206,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 20.2
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
@@ -214,7 +214,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chubb/refs/heads/main/screenshots/chubb-2026-06-20T174331.png
 security:

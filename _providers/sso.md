@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -167,7 +167,7 @@ plans:
 - name: Sso Plans Pricing
   plan_count: 3
   slug: sso-plans-pricing
-random_paper: 109
+random_paper: 101
 rate_limits:
 - limit_count: 5
   name: Sso Rate Limits
@@ -192,7 +192,7 @@ rules:
 score:
   band: thin
   composite: 37.9
-  delta: -8.4
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 61.4
@@ -200,7 +200,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 13.2
-  previous_composite: 46.3
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/screenshots/sso-2026-06-20T194436.png
 security:
 - kind: authentication

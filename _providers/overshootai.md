@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 43
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Overshootai Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 48.8
@@ -156,7 +156,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 38.7
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshootai/refs/heads/main/screenshots/overshootai-2026-08-07T191137.png
 security:

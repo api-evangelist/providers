@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -39,7 +39,7 @@ name: SLM Software Company
 nav: Providers
 network: true
 overview: SLM Software Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Transaction Processing, and Banking.
-random_paper: 84
+random_paper: 16
 score:
   band: minimal
   composite: 4.3
@@ -59,7 +59,7 @@ score:
     regime_id: banking_open_finance
     score: 0.0
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 slug: slm-software-company
 tags:

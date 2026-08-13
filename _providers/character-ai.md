@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -88,7 +88,7 @@ plans:
 - name: Character Ai Plans Pricing
   plan_count: 3
   slug: character-ai-plans-pricing
-random_paper: 28
+random_paper: 108
 rate_limits:
 - limit_count: 3
   name: Character Ai Rate Limits
@@ -96,7 +96,7 @@ rate_limits:
 score:
   band: minimal
   composite: 12.1
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -104,10 +104,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 19.9
+  previous_composite: 12.1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/character-ai/refs/heads/main/screenshots/character-ai-2026-06-20T174219.png
 security:
 - kind: domain-security

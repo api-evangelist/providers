@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -96,16 +96,13 @@ apis:
   name: Finix Payments Webhooks API
   slug: finix-payments-webhooks-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Create a buyer Identity, tokenize a card, authorize, then capture into a Transfer.
   name: Finix — Accept a card payment (auth + capture)
   slug: finix-payments-accept-a-card-payment
 - description: Create a seller Identity, provision a Merchant, and run verification/underwriting.
   name: Finix — Onboard a seller/merchant
   slug: finix-payments-onboard-a-merchant
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Finix Payments Webhooks
@@ -344,7 +341,7 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
 
 
   Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 76
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Finix Payments Rate Limits
@@ -352,7 +349,7 @@ rate_limits:
 score:
   band: strong
   composite: 59.9
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 67.2
@@ -360,7 +357,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 64.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -378,7 +375,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:

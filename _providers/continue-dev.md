@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ plans:
 - name: Continue Dev Plans Pricing
   plan_count: 4
   slug: continue-dev-plans-pricing
-random_paper: 73
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Continue Dev Rate Limits
@@ -360,7 +360,7 @@ rules:
 score:
   band: strong
   composite: 57.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.4
@@ -368,7 +368,7 @@ score:
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 39.5
-  previous_composite: 58.9
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -377,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:

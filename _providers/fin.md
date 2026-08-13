@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -191,11 +191,11 @@ overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 18 more developer resources.'
-random_paper: 85
+random_paper: 77
 score:
   band: developing
   composite: 42.4
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 68.0
@@ -203,7 +203,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 43.0
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,7 +221,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:

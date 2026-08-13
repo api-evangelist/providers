@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -242,11 +242,11 @@ overview: 'Optibus publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Optibus'' developer surface includes documentation, API reference, engineering blog, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 78
+random_paper: 54
 score:
   band: developing
   composite: 48.6
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 66.3
@@ -254,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 48.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/screenshots/optibus-2026-08-07T190805.png
 security:

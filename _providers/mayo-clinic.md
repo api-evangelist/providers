@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Review and try the existing APIs in the Mayo Clinic Apigee API catalog portal. Provides programmatic access to healthcare data and clinical services.
@@ -72,7 +72,7 @@ plans:
 - name: Mayo Clinic Plans Pricing
   plan_count: 3
   slug: mayo-clinic-plans-pricing
-random_paper: 65
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Mayo Clinic Rate Limits
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: minimal
   composite: 10.4
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -88,7 +88,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.1
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
@@ -96,8 +96,8 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mayo-clinic/refs/heads/main/screenshots/mayo-clinic-2026-06-20T185105.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -116,7 +116,7 @@ plans:
 - name: 1X Technologies Plans Pricing
   plan_count: 1
   slug: 1x-technologies-plans-pricing
-random_paper: 106
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: 1X Technologies Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 14.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1x-technologies/refs/heads/main/screenshots/1x-technologies-2026-06-20T162615.png
 security:

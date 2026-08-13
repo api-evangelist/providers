@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ overview: 'Aletiq is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aletiq''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: emerging
   composite: 13.8
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -83,7 +83,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: tags
@@ -91,7 +91,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aletiq/refs/heads/main/screenshots/aletiq-2026-07-25T195600.png
 security:

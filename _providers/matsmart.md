@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,11 +79,11 @@ overview: 'Matsmart is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Matsmart''s developer surface includes support and 8 more developer resources.'
-random_paper: 61
+random_paper: 33
 score:
   band: minimal
   composite: 11.4
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 12.6
+  previous_composite: 11.4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matsmart/refs/heads/main/screenshots/matsmart-2026-07-25T230429.png
 security:

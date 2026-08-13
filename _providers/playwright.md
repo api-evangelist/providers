@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 1
 apis:
 - description: Open-source framework for reliable end-to-end browser testing and web automation supporting Chromium, Firefox, and WebKit. Distributed as a library/CLI; there is no public hosted HTTP API.
@@ -96,7 +96,7 @@ plans:
 - name: Playwright Plans Pricing
   plan_count: 3
   slug: playwright-plans-pricing
-random_paper: 55
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Playwright Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.2
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -112,10 +112,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 25.0
+  previous_composite: 17.2
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playwright/refs/heads/main/screenshots/playwright-2026-06-20T191808.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -177,11 +177,11 @@ overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 40
+random_paper: 12
 score:
   band: developing
   composite: 42.2
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 52.2
@@ -189,7 +189,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 44.2
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ plans:
 - name: Cuboh Plans Pricing
   plan_count: 5
   slug: cuboh-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Cuboh Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.2
@@ -126,7 +126,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.7
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -135,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/screenshots/cuboh-2026-07-25T210903.png
 security:

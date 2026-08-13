@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -395,7 +395,7 @@ press:
 - date: '2026-05-25'
   title: Advance Auto Parts reshapes footprint and 2025 results
   url: https://www.stocktitan.net/sec-filings/AAP/10-k-advance-auto-parts-inc-files-annual-report-a1f015e6e77e.html
-random_paper: 67
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Advance Auto Parts Rate Limits
@@ -425,7 +425,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 74.6
@@ -433,7 +433,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 55.1
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -442,8 +442,8 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:
 - kind: authentication

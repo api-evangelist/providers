@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 4
 apis:
 - description: 'Modeled resource for enrolling and managing monitored patients on the Biobeat patient management platform - create, list, and update patient records, assign devices, and set per-patient alarm limits. '
@@ -81,11 +81,11 @@ plans:
 - name: Biobeat Plans Pricing
   plan_count: 2
   slug: biobeat-plans-pricing
-random_paper: 30
+random_paper: 6
 score:
   band: minimal
   composite: 12.5
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -93,7 +93,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.4
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: tags
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biobeat/refs/heads/main/screenshots/biobeat-2026-07-25T203024.png
 security:

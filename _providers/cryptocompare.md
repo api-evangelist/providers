@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -440,7 +440,7 @@ plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 24
+random_paper: 96
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits
@@ -473,7 +473,7 @@ rules:
 score:
   band: exemplar
   composite: 71.6
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 77.8
@@ -481,7 +481,7 @@ score:
     discoverability: 87.0
     governance: 63.5
     operational_transparency: 60.5
-  previous_composite: 70.0
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,7 +499,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

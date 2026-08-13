@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ACI.dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 29 more developer resources.'
-random_paper: 85
+random_paper: 65
 rules:
 - name: ACI.dev API Rules
   rule_count: 5
@@ -286,7 +286,7 @@ rules:
 score:
   band: developing
   composite: 42.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 72.8
@@ -294,7 +294,7 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 43.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -303,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/screenshots/aci-dev-2026-06-20T163831.png
 security:

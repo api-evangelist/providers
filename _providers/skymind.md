@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 api_count: 2
 apis:
 - description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
@@ -110,11 +110,11 @@ overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 14 more developer resources.'
-random_paper: 71
+random_paper: 47
 score:
   band: thin
   composite: 31.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 55.2
@@ -122,7 +122,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 30.9
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -132,7 +132,7 @@ score:
       total: 2
     skills: derived
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,13 @@ apis:
   name: ISO New England Web Services API v1.1
   slug: iso-ne-web-services-api
 arazzos:
-- description: ''
-  name: _Index
-  slug: _index
 - description: Build a complete current picture of the New England power system - resolve the location registry, check feed freshness, then pull system load, generation fuel mix, Hub price and the hourly load foreca
   name: ISO New England grid snapshot
   slug: iso-new-england-grid-snapshot
 - description: 'Explain a price event on a past operating day: pull the day-ahead hourly prices, the day''s transmission constraints, the fuel mix and the demand-response dispatch, then correlate the congestion compon'
   name: ISO New England price spike diagnosis
   slug: iso-new-england-price-spike-diagnosis
-artifact_total: 23
+artifact_total: 22
 common:
 - group: agent
   title: ''
@@ -290,11 +287,11 @@ overview: 'ISO New England publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 36 more developer resources.'
-random_paper: 88
+random_paper: 40
 score:
   band: developing
   composite: 48.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 67.2
@@ -302,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 21.9
     operational_transparency: 26.3
-  previous_composite: 51.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,7 +317,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/screenshots/iso-new-england-2026-08-07T170922.png
 security:

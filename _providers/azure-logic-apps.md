@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-11'
+  scored_at: '2026-08-12'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -443,7 +443,7 @@ plans:
 - name: Azure Logic Apps Plans Pricing
   plan_count: 3
   slug: azure-logic-apps-plans-pricing
-random_paper: 95
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Azure Logic Apps Rate Limits
@@ -473,7 +473,7 @@ scopes:
 score:
   band: thin
   composite: 37.0
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 60.9
@@ -481,7 +481,7 @@ score:
     discoverability: 53.7
     governance: 68.8
     operational_transparency: 7.9
-  previous_composite: 44.6
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -490,8 +490,8 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.11.0
-  scored_at: '2026-08-11'
-  trend: falling
+  scored_at: '2026-08-12'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/screenshots/azure-logic-apps-2026-06-20T172902.png
 security:
 - kind: authentication
