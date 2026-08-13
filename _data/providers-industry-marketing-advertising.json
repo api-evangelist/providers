@@ -1,5 +1,5 @@
 {
- "total": 1445,
+ "total": 1446,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -166,7 +166,7 @@
     {
      "name": "Omnisend",
      "slug": "omnisend",
-     "description": "Omnisend is a Lithuanian-headquartered email and SMS marketing automation platform purpose-built for ecommerce, with first-class integrations into Shopify, BigCommerce, WooCommerce, Magento, Wix, Square Online, and other storefronts. The platform unifies automation workflows, campaign builders, segmentation, popups and forms, web push, product recommendations, A/B testing, and reporting to drive customer engagement and revenue. Omnisend's REST API exposes contacts, events, products, product categories, segments, campaigns, batches, email templates, email content, universal layouts, images, brands, and analytics reports. Authentication uses an API key passed via the `X-API-KEY` header, or OAuth 2.0 authorization-code flow with resource-scoped permissions for app-based integrations on the Omnisend App Market.",
+     "description": "Omnisend is a Lithuanian-headquartered email and SMS marketing automation platform purpose-built for ecommerce, with first-class integrations into Shopify, BigCommerce, WooCommerce, Magento, Wix, Square Online, and other storefronts. The platform unifies automation workflows, campaign builders, segmentation, popups and forms, web push, product recommendations, A/B testing, and reporting to drive customer engagement and revenue. The REST API at version 2026-03-15 is served from https://api.omnisend.com/api and covers contacts, events and custom event metadata, products, product categories, segments, campaigns, automations, batches, email templates, email content, universal layouts, images, brands and analytics — 82 published operations across 15 OpenAPI 3.0.0 documents. Authentication is an API key on the Authorization header (Omnisend-API-Key {key}) or OAuth 2.0 authorization code with PKCE and 26 resource scopes; every request must also carry an Omnisend-Version header, and a retired version returns 410. Omnisend additionally operates two first-party hosted MCP servers at mcp.omnisend.com and is listed in Claude's Connector Directory.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png",
      "score": 69.3,
      "band": "exemplar",
@@ -1500,7 +1500,7 @@
     {
      "name": "UserGems",
      "slug": "usergems",
-     "description": "UserGems is a San Francisco-based sales intelligence platform that tracks champion job changes and surfaces buying signals so sales and marketing teams can prioritize outbound and ABM motions. The platform packages 30+ native signals (job changes, contact-level intent, M&A, hiring, web visits), Gem-E AI agents for prospect list building and email personalization, and custom AI scoring trained on 600+ closed-won patterns. UserGems exposes a public REST API at api.usergems.com/v1 that lets customers programmatically add and remove contacts to track for job changes, add and remove target accounts, and honor data-subject deletion requests. The API uses an X-Api-Key header for authentication and processes submissions asynchronously. Native integrations include Salesforce, HubSpot, Microsoft Dynamics, Outreach, Salesloft, Gong Engage, Marketo, LinkedIn Ads, Meta Ads, and Google Ads.",
+     "description": "UserGems is a San Francisco-based sales intelligence platform that tracks champion job changes and surfaces buying signals so sales and marketing teams can prioritize outbound and ABM motions. The platform packages 30+ native signals (job changes, contact-level intent, M&A, hiring, web visits), Gem-E AI agents for prospect list building and email personalization, and custom AI scoring trained on 600+ closed-won patterns. UserGems exposes a public REST API at api.usergems.com/v1 that lets customers programmatically add and remove contacts to track for job changes, add and remove target accounts, and honor data-subject deletion requests. That API is deliberately write-only — there are no read or GET endpoints — authenticates with a single company-wide X-Api-Key header, is capped at 20 requests per second with one record per request, and acknowledges enqueueing rather than completion. UserGems also ships a hosted remote MCP server at app.usergems.com/mcp/usergems, in gated early access as of August 2026, that lets agents in Claude or ChatGPT search accounts and prospects, pull signal and score history, run research, draft Gem-E messages, and build and run campaigns including CRM writes, sequence enrollment and ad-audience sync — authorized with OAuth 2.0, dynamic client registration, PKCE S256 and a single mcp:use scope. Native integrations include Salesforce, HubSpot, Microsoft Dynamics, Outreach, Salesloft, Gong Engage, Marketo, LinkedIn Ads, Meta Ads, and Google Ads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png",
      "score": 61.6,
      "band": "strong",
@@ -3061,7 +3061,7 @@
     {
      "name": "Canva",
      "slug": "canva",
-     "description": "APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.",
+     "description": "Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run inside the Canva editor), the SCIM and Audit Logs APIs for enterprise identity and compliance, and the partner-gated Print API. Canva publishes its own OpenAPI description, a dated changelog, per-product llms.txt indexes, a hosted MCP server and a public set of Agent Skills.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png",
      "score": 58.4,
      "band": "strong",
@@ -4942,7 +4942,7 @@
     {
      "name": "Unify",
      "slug": "unify",
-     "description": "Unify is a B2B outbound and go-to-market platform that combines 25+ intent signals with AI agents and automated multi-channel sequences to help companies identify, qualify, and engage buyers automatically. Founded in 2023 and backed by the OpenAI Startup Fund, Thrive Capital, Battery Ventures, and Emergence Capital, Unify exposes developer APIs for analytics event collection, object data management, and sequence automation, plus official Python and TypeScript SDKs, a hosted MCP server, and published agent skills.",
+     "description": "Unify is a B2B outbound and go-to-market platform that pairs AI agents with reps to find buyers already in market and reach them with the right message, combining 40+ data sources, 1.1B+ contacts and 65M+ companies with intent signals, automated Plays and multi-channel sequences. Founded in 2023 and backed by $52M+ from the OpenAI Startup Fund, Thrive Capital, Battery Ventures and Emergence Capital, Unify publishes four anonymous OpenAPI 3.0 documents covering 68 operations across Data, Sequences, Tasks and Analytics, official Python and TypeScript SDKs, browser intent clients, a hosted OAuth-protected MCP server exposing 71 tools, provider-published agent skills, and an A2A agent card.",
      "score": 54.4,
      "band": "developing",
      "band_label": "Developing",
@@ -5471,7 +5471,7 @@
     {
      "name": "Salesforce Marketing Cloud",
      "slug": "salesforce-marketing-cloud",
-     "description": "Salesforce Marketing Cloud is a comprehensive digital marketing platform that enables businesses to manage customer journeys, email marketing, mobile messaging, social media marketing, advertising, and data analytics.",
+     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
      "score": 53.7,
      "band": "developing",
@@ -7351,7 +7351,7 @@
     {
      "name": "Bloomreach",
      "slug": "bloomreach",
-     "description": "Digital commerce experience platform with REST APIs for search, merchandising, recommendations, CDP, and email/SMS marketing automation.",
+     "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png",
      "score": 51.7,
      "band": "developing",
@@ -8095,7 +8095,7 @@
     {
      "name": "SimilarWeb",
      "slug": "similarweb",
-     "description": "SimilarWeb is a digital intelligence platform offering a REST API for accessing website traffic estimates, audience demographics, keyword analytics, competitive benchmarking, app intelligence data, and lead generation insights. The API provides real-time and historical data covering traffic sources, search behavior, technographics, e-commerce shopper intelligence, and firmographic company data, enabling developers to integrate market intelligence into applications, dashboards, and data pipelines.",
+     "description": "SimilarWeb is a digital intelligence platform offering a REST API for accessing website traffic estimates, audience demographics, keyword analytics, competitive benchmarking, app intelligence data, and lead generation insights. The API provides real-time and historical data covering traffic sources, search behavior, technographics, e-commerce shopper intelligence, and firmographic company data, enabling developers to integrate market intelligence into applications, dashboards, and data pipelines. The current generation is API V5, launched March 2026, which unified the REST and Batch API keys, added multi-metric requests, and shipped a first-party hosted MCP server at mcp.similarweb.com for AI agents; legacy v1-v4 REST endpoints carry a published sunset date of 2026-10-06.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/screenshots/similarweb-2026-06-20T193927.png",
      "score": 51.0,
      "band": "developing",
@@ -9199,7 +9199,7 @@
     {
      "name": "Intelligems",
      "slug": "intelligems",
-     "description": "Intelligems is an AI-powered A/B testing, pricing optimization, and personalization platform for ecommerce stores, built primarily as a Shopify app. Merchants use it to test and personalize product and subscription pricing, discounts and offers, shipping strategies, content and landing pages, the checkout experience, and post-purchase offers, then measure the profit impact with built-in analytics. For developers, Intelligems exposes a REST External API (manage experiences and pull experiment and sitewide analytics), a client-side JavaScript API (window.igData), a headless React SDK (@intelligems/headless), and an official hosted MCP server with 30 tools that connects experiments, Shopify store data, and analytics to Claude, ChatGPT, and Gemini.",
+     "description": "Intelligems is an AI-powered A/B testing, pricing optimization, and personalization platform for ecommerce stores, built primarily as a Shopify app. Merchants use it to test and personalize product and subscription pricing, discounts and offers, shipping strategies, content and landing pages, the checkout experience, and post-purchase offers, then measure the profit impact with built-in analytics. For developers, Intelligems publishes a REST External API (v25-10-beta) that manages experiences, defines custom events, and pulls experiment, sitewide and seasonal-benchmark analytics — with its own OpenAPI 3.1 published inside the reference — plus signed webhooks for the experience lifecycle, a client-side JavaScript API (window.igData), a headless React SDK (@intelligems/headless), and an official hosted MCP server with 46 OAuth-authenticated tools that connects experiments, Shopify store data, and analytics to Claude, ChatGPT, and Gemini.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png",
      "score": 49.9,
      "band": "developing",
@@ -10815,7 +10815,7 @@
     {
      "name": "Bazaarvoice",
      "slug": "bazaarvoice",
-     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, and syndicates ratings, reviews, questions and answers, and product-sampling content across thousands of brand and retailer sites. Its developer platform exposes a family of APIs - the flagship Conversations API for retrieving and submitting UGC, the V2.0 Content Search API for searching reviews/questions/answers/contributors and product catalog lookahead, plus the Transactions, Response, Social Commerce, and Authentic Discovery APIs, and structured-data (JSON-LD/Microdata) endpoints for SEO. APIs authenticate with a Bazaarvoice Portal-managed passkey (Bv-Passkey header) or, for the Transactions and Response APIs, 2-legged OAuth2 client credentials. Official iOS, Android, SEO, Magento, and Salesforce Commerce SDKs are published on GitHub.",
+     "description": "Bazaarvoice operates a retail and brand user-generated-content network that collects, moderates, syndicates and now makes machine-discoverable the ratings, reviews, questions and answers, and visual content published across thousands of brand and retailer sites. Its developer portal publishes twelve product sections and eleven distinct OpenAPI documents: the Conversations Display and Conversations Submission APIs for retrieving and posting UGC, the V2.0 Content Search API, the Response API for brand replies, the Transactions API for scheduling review requests, the Product Sentiment API for NLP-derived feature insight, the Notifications Subscriptions and Privacy APIs, the Social Commerce Display API for visual UGC, bulk Displayable Content and Product Sentiment exports, and the Authentic Discovery API, which returns Schema.org JSON-LD so AI crawlers that do not run JavaScript can read a product's reviews. Authentication varies by product - a Portal-managed passkey (Bv-Passkey header or Passkey query parameter), HTTP bearer tokens from 2-legged or 3-legged OAuth2, or an X-Curalate-Api-Key header on the acquired Curalate social-commerce platform. Bazaarvoice serves a real llms.txt on every documentation section, publishes first-party Postman collections and iOS, Android, SEO, Magento and Salesforce Commerce SDKs on GitHub, and is ISO/IEC 27001 certified with a HackerOne vulnerability disclosure policy.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png",
      "score": 48.2,
      "band": "developing",
@@ -11170,7 +11170,7 @@
     {
      "name": "Simon Data",
      "slug": "simon-data",
-     "description": "Simon Data is an AI-first customer data platform (CDP) that empowers marketing teams with faster, more precise segmentation and personalization. It provides a REST API for managing audiences, activating segments across channels, tracking events via the Simon Signal event collection API, and syncing customer data with downstream marketing tools including Salesforce, Klaviyo, Google Ads, and Facebook.",
+     "description": "Simon Data — now trading as Simon AI, and acquired by Monetate on 30 July 2026 — is a composable, AI-first customer data platform for marketing teams. It reads customer data directly from a cloud warehouse (Snowflake, BigQuery, Redshift, Azure) without ETL, resolves identity into unified profiles, and activates segments across email, SMS, push, paid media and 70-plus downstream tools including Braze, Iterable, Attentive, Klaviyo, Salesforce Marketing Cloud, Amazon Ads and The Trade Desk. Two callable APIs are published: the Simon Signal Event Ingestion API, which accepts fourteen documented behavioural and transactional event types at a single collect endpoint, and the premium Audience API, which returns one contact profile at a time for send-time personalisation. Outbound webhooks and a Real-Time Content client cover the reverse direction, calling customer endpoints at send time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png",
      "score": 47.8,
      "band": "developing",
@@ -14584,8 +14584,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 279,
-   "shown": 279,
+   "count": 281,
+   "shown": 281,
    "providers": [
     {
      "name": "engageSPARK",
@@ -15696,7 +15696,7 @@
     {
      "name": "Criteo",
      "slug": "criteo",
-     "description": "Criteo is a global commerce media company best known for its Retail Media platform, enabling retailers, brands, agencies, and partners to create, launch, and measure on-site and off-site retail media campaigns. The Criteo Retail Media API surface provides programmatic access to campaign management, audience segmentation, line item bidding and budgeting, retailer catalogs, balances and billing, and demand-side and supply-side reporting. Criteo's APIs use OAuth 2.0 with client credentials, authorization code, and PKCE flows and ship with a published Swagger specification and Postman collection.",
+     "description": "Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com covering 219 operations: campaign and line-item management, keyword and promoted-product targeting, audience segments and contact lists, retailer catalogs, account and brand hierarchies, balances and billing, creative and product-boost management, and demand-side and supply-side analytics. Authentication is OAuth 2.0 with client-credentials and authorization-code grants and 22 scopes of the form <Service>_<Domain>_<Level>. Criteo ships officially supported Python, PHP and Java SDKs, a public Postman workspace, an llms.txt docs index, an A2A agent card, a published Agent Skill, and two remote MCP servers — an anonymous documentation server and an OAuth-protected API server at mcp.criteo.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png",
      "score": 40.5,
      "band": "thin",
@@ -16838,7 +16838,7 @@
     {
      "name": "Frontify",
      "slug": "frontify",
-     "description": "Frontify is a brand management and digital asset management (DAM) platform that gives teams a single, governed home for brand guidelines, logos, images, video, templates, and creative workflows. Its public developer surface is a per-instance GraphQL API (https://{instance}.frontify.com/graphql) for discovering brands, searching and retrieving assets, managing metadata, collaborating, browsing guidelines, exporting creative templates, and automating creative workflows, plus a Brand SDK (App Bridge, Frontify Finder, Frontify CLI) for building Content Blocks and Platform Apps, an official hosted MCP server for AI assistants, and a curated Agent Skills catalog. Frontify was added to the API Evangelist network as a portfolio company of EQT Ventures and enriched here from its public developer, package, and trust surfaces.",
+     "description": "Frontify is a brand management and digital asset management (DAM) platform that gives teams a single, governed home for brand guidelines, logos, images, video, templates, and creative workflows. Its public developer surface is a per-instance GraphQL API (https://{instance}.frontify.com/graphql) for discovering brands, searching and retrieving assets, managing metadata, collaborating, browsing guidelines, exporting creative templates, and automating creative workflows, plus a Brand SDK (App Bridge, Frontify Finder, Frontify CLI) for building Content Blocks and Platform Apps, project-scoped webhooks across a 24-event vocabulary, an official hosted MCP server (54 tools in 10 role-scoped packs) for AI assistants, and a curated Agent Skills catalog. GraphQL introspection is open and unauthenticated, so the full schema is captured in this repository as the machine-readable contract; Frontify publishes no OpenAPI. Frontify was added to the API Evangelist network as a portfolio company of EQT Ventures and enriched here from its public developer, package, event, and trust surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/screenshots/frontify-2026-07-25T215242.png",
      "score": 39.2,
      "band": "thin",
@@ -18599,7 +18599,7 @@
     {
      "name": "Brevo",
      "slug": "brevo",
-     "description": "Send transactional emails with static or dynamic content using the Messaging API.",
+     "description": "Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine behind a single REST API at api.brevo.com/v3. Brevo publishes thirteen OpenAPI 3.1 definitions covering 285 operations, advertises them through an RFC 9727 API catalog at its developer portal, ships seven official SDKs and a first-party CLI for OAuth app management, and operates a hosted MCP server exposing 27 modules to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png",
      "score": 37.2,
      "band": "thin",
@@ -19151,7 +19151,7 @@
     {
      "name": "Unbounce",
      "slug": "unbounce",
-     "description": "Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using OAuth 2.0 Authorization Code flow.",
+     "description": "Unbounce is a landing page, popup, and sticky bar builder with conversion rate optimization features including drag-and-drop design, A/B testing, AI copywriting (Smart Copy), and AI traffic routing (Smart Traffic) for marketers, agencies, SaaS, and ecommerce. The platform integrates with HubSpot, Salesforce, Google Analytics, and other marketing platforms to capture, qualify, and route leads. The Unbounce REST API provides programmatic access to pages, leads, sub-accounts, and domains using an API key over HTTP Basic or OAuth 2.0 Authorization Code, described by a published RAML 0.8 definition. Unbounce also operates an official hosted Model Context Protocol server at mcp.unbounce.com with 37 tools — the only public write surface for pages, variants, publishing and traffic — plus three Agent Skills shipped in its own agent-plugin marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png",
      "score": 36.6,
      "band": "thin",
@@ -19225,6 +19225,44 @@
      "rank": 491
     },
     {
+     "name": "Choozle",
+     "slug": "choozle",
+     "description": "Choozle is a Denver-based self-service demand-side platform (DSP) for programmatic digital advertising across Display, Connected TV, Video, Audio, Native, DOOH, Search and Social, with buying routed through The Trade Desk and Amazon DSP. Its public developer surface is a single read-only product, the Choozle Outbound Reporting API: three operations that exchange an HMAC-SHA256 signature for a two-hour token, return the account/campaign/ad group tree, and return daily per-ad-group performance rows. Campaign, audience, creative and deal management are performed in the web application only — no public API writes to them. Keys are issued by support ticket rather than self-service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 62.2,
+      "governance": 58.3,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 492
+    },
+    {
      "name": "Moosend",
      "slug": "moosend",
      "description": "Moosend is an email marketing and automation platform with a REST API for managing mailing lists, campaigns, subscribers, automations, and tracking email performance metrics. The API uses HTTPS with API key authentication and provides programmatic access to email lists, subscriber management, campaign creation and scheduling, audience segmentation, transactional emails, and real-time reporting.",
@@ -19267,7 +19305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "Census",
@@ -19305,7 +19343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "Morpho",
@@ -19343,7 +19381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "Paedae",
@@ -19381,7 +19419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "PRIMIS",
@@ -19418,7 +19456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "LiveRamp",
@@ -19456,7 +19494,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "Xiaoe (小鹅通)",
@@ -19493,7 +19531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "BrightEdge Technologies",
@@ -19531,7 +19569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "Constructor",
@@ -19569,7 +19607,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "Peakon",
@@ -19607,7 +19645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "SugarCRM",
@@ -19644,7 +19682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "TPS Engage",
@@ -19681,7 +19719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "Hootsuite",
@@ -19719,7 +19757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "AOL",
@@ -19757,7 +19795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Campaign Monitor",
@@ -19802,7 +19840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "Kudobuzz",
@@ -19840,7 +19878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Marriott International",
@@ -19878,7 +19916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Klue",
@@ -19916,12 +19954,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "Liquid M",
      "slug": "liquid-m",
-     "description": "LiquidM Technology GmbH is a Berlin-based demand-side platform for programmatic advertising, backed by Earlybird. Its platform at platform.liquidm.com exposes two developer surfaces: a Reporting API that returns the same data as the platform's Visual Reports UI, split across more than thirty dimensions (campaign, ad, site, domain, device, geo, audience) and thirty-plus metrics (impressions, bids, bid requests, clicks, CTR, win rate, eCPM, conversion funnels, video quartiles); and a campaign Management API covering campaigns, budgets and ads. LiquidM publishes a first-party MIT-licensed JavaScript client for the Management API and an example Ruby client for the Reporting API from a 100-repo public GitHub organization. The liquidm.com marketing domain now redirects to Equativ, though the platform host and its APIs remain reachable.",
+     "description": "LiquidM Technology GmbH is a Berlin-based demand-side platform for programmatic advertising, founded in 2013 and backed early by Earlybird, later Bertelsmann-owned, and acquired by Smart AdServer — now Equativ — in December 2019. Its platform at platform.liquidm.com exposes two developer surfaces: a Reporting API that returns the same data as the platform's Visual Reports UI, split across more than thirty dimensions (campaign, ad, site, domain, device, geo, audience) and thirty-plus metrics (impressions, bids, bid requests, clicks, CTR, win rate, eCPM, conversion funnels, video quartiles); and a campaign Management API covering campaigns, budgets and ads. LiquidM publishes a first-party MIT-licensed JavaScript client for the Management API and an example Ruby client for the Reporting API from a 100-repo public GitHub organization, neither released to a package registry. Both APIs remain live and authenticate, but the published surface has fallen well behind the deployed one: probing confirms fifteen live v1 collections against the three the client documents, and an entirely undocumented v2 generation that answers in JSON:API. The liquidm.com marketing domain no longer serves HTTPS — its certificate expired in July 2026 — and over plain HTTP redirects to Equativ.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png",
      "score": 35.4,
      "band": "thin",
@@ -19954,7 +19992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Push",
@@ -19998,7 +20036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "PlusThis",
@@ -20042,7 +20080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "Qeen.AI",
@@ -20079,7 +20117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Linq.gg",
@@ -20124,7 +20162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Madvertise",
@@ -20162,7 +20200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Albertsons",
@@ -20199,12 +20237,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Bynder",
      "slug": "bynder",
-     "description": "Bynder is a cloud-based digital asset management (DAM) platform that helps organizations store, organize, distribute, and analyze brand and marketing assets. The Bynder REST API enables developers to programmatically manage assets, metadata, collections, taxonomies, workflows, and brand guidelines, with OAuth 2.0 authentication against each customer's portal domain.",
+     "description": "Bynder is a cloud-based digital asset management (DAM) platform used to store, organize, distribute and analyze brand and marketing assets. Its REST API is not one service but a federation of them behind each customer's own portal domain: the /api/v4 asset bank (assets, collections, metaproperties, brands, tags, smart filters, users and security profiles), an /api/1 taxonomy and content-access layer, /v6 OAuth 2.0 authorization, /v7 upload, webhooks and antivirus services, /api/workflow campaigns and jobs, and /api/store Brandstore ordering. Bynder publishes 34 OpenAPI 3.1 definitions covering 156 operations through its own API registry, a dated changelog, a documentation llms.txt, first-party SDKs for JavaScript, Python, PHP, Java and C#, and an embeddable asset-picker component. Authentication is OAuth 2.0 with JWT bearer tokens, layered on top of named security roles that gate operations independently of scope.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png",
      "score": 35.1,
      "band": "thin",
@@ -20237,7 +20275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Stamped",
@@ -20274,7 +20312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Vita Mojo International",
@@ -20311,7 +20349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "Grab",
@@ -20356,7 +20394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "Whippy",
@@ -20401,7 +20439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "Chatfuel",
@@ -20439,7 +20477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "Doceree",
@@ -20484,7 +20522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "Kuaishou",
@@ -20522,7 +20560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "GetResponse",
@@ -20560,7 +20598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Invoca",
@@ -20598,7 +20636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Regal Entertainment Group",
@@ -20635,7 +20673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "Terminus",
@@ -20672,7 +20710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "Kapost",
@@ -20710,7 +20748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Koah Labs",
@@ -20748,7 +20786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Adobe Suite",
@@ -20786,7 +20824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "Kentico",
@@ -20824,7 +20862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "SendPulse",
@@ -20868,7 +20906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Uniphore",
@@ -20905,7 +20943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "Talkdesk",
@@ -20943,7 +20981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "NaviStone",
@@ -20981,7 +21019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Jampp",
@@ -21018,7 +21056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Zendesk Sell",
@@ -21056,7 +21094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "Amagi",
@@ -21094,7 +21132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "CharacterQuilt",
@@ -21132,7 +21170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "Contentsquare",
@@ -21170,7 +21208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Paperform",
@@ -21215,7 +21253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "Tenfold",
@@ -21252,7 +21290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Zoho Forms",
@@ -21290,7 +21328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "AdColony",
@@ -21328,12 +21366,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Buffer",
      "slug": "buffer",
-     "description": "Buffer is a social media scheduling and analytics platform with a GraphQL API for scheduling posts, managing content queues, accessing engagement metrics, and publishing across multiple social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon, and Google Business Profiles.",
+     "description": "Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.",
      "score": 33.8,
      "band": "thin",
      "band_label": "Thin",
@@ -21365,7 +21403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Fillout",
@@ -21403,7 +21441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Gravity Forms",
@@ -21441,7 +21479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "Microsoft Advertising",
@@ -21479,7 +21517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "Nexad",
@@ -21517,7 +21555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "VaynerMedia",
@@ -21555,7 +21593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Hello Retail",
@@ -21593,12 +21631,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Insider",
      "slug": "insider",
-     "description": "Insider (rebranded Insider One, useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform (CDP), cross-channel journey orchestration (Architect), personalization, predictive segmentation, and behavioral analytics, delivering across Web, Email, SMS/RCS, WhatsApp, Web Push, Mobile App, Site Search, InStory and conversational CX. For developers it exposes a Unified Customer Database via the Upsert User Data API (POST unification.useinsider.com/api/user/v1/upsert, authenticated with X-REQUEST-TOKEN and X-PARTNER-NAME headers), a Product Catalog API, Web and Mobile (iOS, Android, React Native, Flutter, Cordova) SDKs, and an outbound \"Call an API\" journey channel. Recognized by Gartner and Forrester as a leader in personalization engines, CDP and omnichannel marketing platforms.",
+     "description": "Insider (rebranded Insider One; useinsider.com now redirects to insiderone.com) is an AI-native customer engagement and personalization platform used by 2,000+ global brands. It unifies a Customer Data Platform, cross-channel journey orchestration (Architect), personalization, predictive segmentation, product discovery (Eureka) and behavioural analytics across Web, Email, SMS/RCS, WhatsApp, Web Push, Mobile App, Site Search, InStory and conversational CX. Its developer surface is substantial and public: 113 REST operations across 18 hosts, published as a public Postman collection at developers.insiderone.com, covering the Unified Customer Database, consent and subscription management, transactional email/SMS/WhatsApp, web and app push, iOS Live Activities, OTP verification, product catalog, recommendations, Eureka search and campaign and journey analytics. Insider One also ships a first-party remote MCP server at mcp.insiderone.com with 35 OAuth-scoped tools, an llms.txt indexing ~2,800 markdown-retrievable doc pages, and an account-generated Agent Skill (SKILL.md) for Claude Code. It publishes per-endpoint rate limits, a cross-API status-and-error-code reference, and SOC 2 / ISO 27001 / ISO 27701 / CSA STAR attestations — but no OpenAPI, no pricing, no status page and no deprecation policy.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png",
      "score": 33.6,
      "band": "thin",
@@ -21631,7 +21669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "Bigtincan",
@@ -21669,7 +21707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Nutshell",
@@ -21707,7 +21745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "Reprise",
@@ -21745,7 +21783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "Showpad",
@@ -21783,7 +21821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "Tally",
@@ -21821,7 +21859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Apollo API Documentation",
@@ -21859,7 +21897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Braze",
@@ -21904,7 +21942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "Cheerfy",
@@ -21949,7 +21987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "ClickFunnels",
@@ -21994,7 +22032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Blobr",
@@ -22031,7 +22069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "Drift",
@@ -22069,7 +22107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Shakr Media",
@@ -22106,7 +22144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "Cooklist",
@@ -22144,7 +22182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Instapage",
@@ -22182,7 +22220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "Leanplum",
@@ -22220,7 +22258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Alaska Airlines",
@@ -22258,7 +22296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Lawmatics",
@@ -22296,7 +22334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "Olark",
@@ -22334,7 +22372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Encharge",
@@ -22372,7 +22410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Gamebeast",
@@ -22410,7 +22448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Snap",
@@ -22447,7 +22485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "Bounti",
@@ -22485,7 +22523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "Marin Software",
@@ -22523,7 +22561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "SimpleTexting",
@@ -22568,7 +22606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Salesgraph",
@@ -22605,7 +22643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Enterpret",
@@ -22643,7 +22681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Allianz Engagement Survey",
@@ -22688,7 +22726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Nextdoor",
@@ -22726,7 +22764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "American Express",
@@ -22771,7 +22809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "Sierra",
@@ -22809,7 +22847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Demostack",
@@ -22847,7 +22885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "Drip",
@@ -22885,7 +22923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "Eder Labs",
@@ -22923,7 +22961,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 587
+    },
+    {
+     "name": "Fundz",
+     "slug": "fundz",
+     "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
+     "score": 31.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-13",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 20.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 588
     },
     {
      "name": "SevenRooms",
@@ -22961,7 +23043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 589
     },
     {
      "name": "WorkRamp",
@@ -22999,7 +23081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 590
     },
     {
      "name": "Apptopia",
@@ -23037,7 +23119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 591
     },
     {
      "name": "Dynamic Yield",
@@ -23075,7 +23157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 592
     },
     {
      "name": "Stonly",
@@ -23112,7 +23194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 593
     },
     {
      "name": "Agentio",
@@ -23150,7 +23232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 594
     },
     {
      "name": "ManyChat",
@@ -23188,7 +23270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 595
     },
     {
      "name": "GoTo Webinar",
@@ -23226,7 +23308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 596
     },
     {
      "name": "Highspot",
@@ -23264,7 +23346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 597
     },
     {
      "name": "The Trade Desk",
@@ -23302,7 +23384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 598
     },
     {
      "name": "DAS Technology",
@@ -23340,7 +23422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 599
     },
     {
      "name": "Facebook Lead Ads",
@@ -23378,7 +23460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 600
     },
     {
      "name": "Handwrite IO",
@@ -23416,7 +23498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 601
     },
     {
      "name": "JW Player",
@@ -23454,7 +23536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 602
     },
     {
      "name": "lemlist",
@@ -23492,7 +23574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 603
     },
     {
      "name": "Ontraport",
@@ -23530,7 +23612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 604
     },
     {
      "name": "Sojern",
@@ -23567,7 +23649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 605
     },
     {
      "name": "Kameleoon",
@@ -23605,7 +23687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 606
     },
     {
      "name": "LinkedIn Marketing API",
@@ -23643,7 +23725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 607
     },
     {
      "name": "Lusha",
@@ -23681,7 +23763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 608
     },
     {
      "name": "The Org",
@@ -23718,7 +23800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 609
     },
     {
      "name": "Appgain",
@@ -23763,7 +23845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 610
     },
     {
      "name": "NeverBounce",
@@ -23801,7 +23883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 611
     },
     {
      "name": "OwnLocal",
@@ -23839,7 +23921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 612
     },
     {
      "name": "NewVoiceMedia",
@@ -23877,7 +23959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 613
     },
     {
      "name": "Zoho Campaigns",
@@ -23922,7 +24004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 614
     },
     {
      "name": "Samora AI",
@@ -23959,7 +24041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 615
     },
     {
      "name": "WoowUp",
@@ -23996,7 +24078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 616
     },
     {
      "name": "Convert",
@@ -24034,7 +24116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
+     "rank": 617
     },
     {
      "name": "FlyteDesk",
@@ -24072,7 +24154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 616
+     "rank": 618
     },
     {
      "name": "Haus",
@@ -24110,7 +24192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 619
     },
     {
      "name": "Silveredge",
@@ -24147,7 +24229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 620
     },
     {
      "name": "LeadSquared",
@@ -24185,7 +24267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 621
     },
     {
      "name": "Hilton",
@@ -24222,7 +24304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 622
     },
     {
      "name": "Loops",
@@ -24260,7 +24342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 623
     },
     {
      "name": "MAI",
@@ -24298,7 +24380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 624
     },
     {
      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
@@ -24336,7 +24418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 625
     },
     {
      "name": "Sirius XM",
@@ -24374,12 +24456,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 626
     },
     {
      "name": "Dotdigital",
      "slug": "dotdigital",
-     "description": "Marketing automation platform with a REST API for managing contacts, email campaigns, SMS, automation programs, pages, and accessing engagement data.",
+     "description": "Dotdigital is a UK-headquartered customer engagement platform (LSE: DOTD) whose Marketing product combines email, SMS, MMS, WhatsApp, push, app messaging, chat and web personalization behind one contact database. Its API estate is unusually large and unusually well published: 42 OpenAPI descriptions are served from a public catalog at developer.dotdigital.com/openapi and enumerated in an RFC 9727 api-catalog linkset, spanning contacts, lists, segments, preferences and consent, email and SMS campaigns, transactional email, programs, pages and forms, insight data, ecommerce, product recommendations, scoring, and the whole CPaaS omnichannel messaging stack. Two frameworks run side by side — legacy v2 at /v2/* and the current v3 services at /<service>/v3/* built around unified contacts — and most integrations need both. Everything authenticates with HTTP Basic API-user credentials against a mandatory regional host (r1 Europe, r2 North America, r3 Asia Pacific). Dotdigital also runs a remote MCP server over its developer hub and publishes webhooks, a durable Events in/out API and a Data Firehose for streaming engagement data to cloud storage.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/screenshots/dotdigital-2026-06-20T180203.png",
      "score": 29.6,
      "band": "thin",
@@ -24419,7 +24501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 627
     },
     {
      "name": "Agile CRM",
@@ -24457,7 +24539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 628
     },
     {
      "name": "Allego",
@@ -24495,7 +24577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 629
     },
     {
      "name": "Crayon",
@@ -24533,7 +24615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 630
     },
     {
      "name": "DinMo",
@@ -24571,7 +24653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 631
     },
     {
      "name": "Decagon",
@@ -24609,7 +24691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 632
     },
     {
      "name": "Creatio",
@@ -24647,7 +24729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 633
     },
     {
      "name": "Black Crow AI",
@@ -24685,7 +24767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 634
     },
     {
      "name": "Cardless",
@@ -24730,7 +24812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 635
     },
     {
      "name": "Swiftly",
@@ -24767,7 +24849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 636
     },
     {
      "name": "Yum Brands",
@@ -24805,7 +24887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 637
     },
     {
      "name": "Quiq",
@@ -24842,7 +24924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 638
     },
     {
      "name": "VWO",
@@ -24880,7 +24962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 639
     },
     {
      "name": "Rox",
@@ -24917,12 +24999,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 640
     },
     {
      "name": "CrossEngage",
      "slug": "crossenagage",
-     "description": "CrossEngage is a Berlin-based customer data and cross-channel marketing platform (a Customer Data Platform / CDP) founded in 2015 and backed by Earlybird Venture Capital. It unifies first-party customer data into 360-degree profiles, builds no-code predictive AI/ML models for customer lifetime value and behavior, manages audiences with drag-and-drop segmentation, and orchestrates real-time cross-channel customer journeys. Following its acquisition by Spotler, the product is offered as Spotler Activate Pro. CrossEngage exposes a REST API at api.crossengage.io documented at api.documentation.crossengage.io, covering User Management (v1.0 and v2.0), Product Feed, File Attachments, Export, and Statistics.",
+     "description": "CrossEngage is a Berlin-based customer data and cross-channel marketing platform (a Customer Data Platform / CDP) founded in 2015 and backed by Earlybird Venture Capital. It unifies first-party customer data into 360-degree profiles, builds no-code predictive AI/ML models for customer lifetime value and behavior, manages audiences with drag-and-drop segmentation, and orchestrates real-time cross-channel customer journeys across email, push, SMS, WhatsApp and webhooks. Following its acquisition by Spotler, the product is sold as Spotler Activate Pro. CrossEngage exposes six REST APIs on api.crossengage.io — User Management v1 and v2, Product Feed, Raw Export, Statistics and File Attachments — totalling 37 operations. Five are published as API Blueprint documents and one (Product Feed) as Swagger 2.0, all served from Apiary and embedded in the reference site at api.documentation.crossengage.io. Authentication is a static X-XNG-AuthToken header paired with a required X-XNG-ApiVersion header; there is no OAuth surface. Product documentation is published at documentation.crossengage.io, which serves a first-party llms.txt index of all 219 pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png",
      "score": 28.6,
      "band": "thin",
@@ -24955,7 +25037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 639
+     "rank": 641
     },
     {
      "name": "MailerSend",
@@ -24993,7 +25075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 642
     },
     {
      "name": "Zemanta",
@@ -25030,7 +25112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 643
     },
     {
      "name": "Audigent",
@@ -25068,7 +25150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 644
     },
     {
      "name": "Kata.ai",
@@ -25106,7 +25188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 645
     },
     {
      "name": "PebblePost",
@@ -25143,7 +25225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 646
     },
     {
      "name": "Chatsimple",
@@ -25181,7 +25263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 647
     },
     {
      "name": "Cosmose AI",
@@ -25218,7 +25300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 648
     },
     {
      "name": "Clearbit (HubSpot Breeze Intelligence)",
@@ -25256,7 +25338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 649
     },
     {
      "name": "Interpublic Group",
@@ -25294,7 +25376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 650
     },
     {
      "name": "Rokt",
@@ -25332,7 +25414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 651
     },
     {
      "name": "ZeroBounce",
@@ -25370,7 +25452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 652
     }
    ]
   },
@@ -25379,8 +25461,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 358,
-   "shown": 350,
+   "count": 357,
+   "shown": 348,
    "providers": [
     {
      "name": "Semrush",
@@ -25418,7 +25500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 653
     },
     {
      "name": "Storylane",
@@ -25456,7 +25538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 654
     },
     {
      "name": "Sesame Labs",
@@ -25493,7 +25575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 655
     },
     {
      "name": "Fetch Rewards",
@@ -25531,7 +25613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 656
     },
     {
      "name": "HockeyStack",
@@ -25569,7 +25651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 657
     },
     {
      "name": "Stotles",
@@ -25613,7 +25695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 658
     },
     {
      "name": "DISQO",
@@ -25651,7 +25733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 659
     },
     {
      "name": "Podium",
@@ -25696,7 +25778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 660
     },
     {
      "name": "Rybbon",
@@ -25741,7 +25823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 661
     },
     {
      "name": "Schema.org",
@@ -25779,7 +25861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 662
     },
     {
      "name": "TikTok Marketing API",
@@ -25817,7 +25899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 663
     },
     {
      "name": "Catnip",
@@ -25855,7 +25937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 664
     },
     {
      "name": "Integral Ad Science",
@@ -25893,7 +25975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 665
     },
     {
      "name": "Paramark",
@@ -25931,7 +26013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 666
     },
     {
      "name": "SocialSign.in",
@@ -25968,7 +26050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 667
     },
     {
      "name": "Fxiaoke",
@@ -26006,7 +26088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 668
     },
     {
      "name": "Mattermark",
@@ -26044,7 +26126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 669
     },
     {
      "name": "Zep",
@@ -26082,7 +26164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 670
     },
     {
      "name": "Copper Banking",
@@ -26127,7 +26209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 671
     },
     {
      "name": "A Place for Mom",
@@ -26172,7 +26254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 672
     },
     {
      "name": "Capterra",
@@ -26209,7 +26291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 673
     },
     {
      "name": "EasySize",
@@ -26247,7 +26329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 674
     },
     {
      "name": "Huuray",
@@ -26292,7 +26374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 675
     },
     {
      "name": "Cognism",
@@ -26330,7 +26412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 676
     },
     {
      "name": "Mutiny HQ",
@@ -26368,7 +26450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 677
     },
     {
      "name": "Reform",
@@ -26406,7 +26488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 678
     },
     {
      "name": "Grin",
@@ -26444,7 +26526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 679
     },
     {
      "name": "Markerly",
@@ -26489,12 +26571,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 680
     },
     {
      "name": "OneSignal",
      "slug": "onesignal",
-     "description": "OneSignal is a customer engagement platform with push notifications, in-app messaging, email, SMS, and live activities. Free tier serves billions of messages monthly.",
+     "description": "OneSignal is a lifecycle customer engagement platform for mobile push, web push, email, SMS/RCS, in-app messaging and iOS Live Activities, orchestrated through Journeys, segments and a single REST API at api.onesignal.com. It reports 1.3 trillion messages a year across 200k apps and 1.5 billion monthly active users. The developer surface is a published OpenAPI 3.1 contract, a full set of first-party server and client SDKs, a hosted OAuth-authenticated MCP server, an A2A agent card and six provider-published Agent Skills.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png",
      "score": 26.3,
      "band": "emerging",
@@ -26534,7 +26616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 681
     },
     {
      "name": "Datafy",
@@ -26572,7 +26654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 682
     },
     {
      "name": "Prismic",
@@ -26610,12 +26692,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 683
     },
     {
      "name": "Screaming Frog",
      "slug": "screaming-frog",
-     "description": "Screaming Frog is a UK-based SEO software company and search marketing agency, best known for the SEO Spider website crawler tool used by SEO professionals worldwide to perform technical SEO audits, crawl analysis, and integrations with third-party APIs. The SEO Spider integrates with Google Analytics (GA4), Google Search Console, PageSpeed Insights, Ahrefs, Majestic, Moz, OpenAI, Gemini, Ollama, and Anthropic. Screaming Frog also offers a free Log File Analyser for analyzing server log files to understand search bot behavior.",
+     "description": "Screaming Frog is a UK-based SEO software company and search marketing agency, best known for the SEO Spider website crawler tool used by SEO professionals worldwide to perform technical SEO audits, crawl analysis, and integrations with third-party APIs. The SEO Spider integrates with Google Analytics (GA4), Google Search Console, PageSpeed Insights, Ahrefs, Majestic, Moz, OpenAI, Gemini, Ollama, and Anthropic. Screaming Frog also offers a free Log File Analyser for analyzing server log files to understand search bot behavior. Screaming Frog operates no public web API. Its machine-callable surfaces are the SEO Spider command line interface, which runs the product fully headless, and — since version 24.0, released 19 May 2026 — a first-party Model Context Protocol server built into the desktop application, exposing 29 tools for crawl control, reports, bulk exports, URL inspection, screenshots, embeddings, Node scripting and sandboxed file access. The MCP server is a paid licence feature and runs inside the user's own installation over stdio or a loopback HTTP transport; there is no hosted endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png",
      "score": 26.2,
      "band": "emerging",
@@ -26648,7 +26730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 684
     },
     {
      "name": "Parloa",
@@ -26686,7 +26768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 685
     },
     {
      "name": "Profound",
@@ -26723,7 +26805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 686
     },
     {
      "name": "Gleeful AI",
@@ -26761,7 +26843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 687
     },
     {
      "name": "Spotwise, Inc.",
@@ -26798,7 +26880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 688
     },
     {
      "name": "VIA Rail Canada",
@@ -26842,7 +26924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 689
     },
     {
      "name": "Adsmom Inc.",
@@ -26880,7 +26962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 690
     },
     {
      "name": "Cresta",
@@ -26918,7 +27000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 691
     },
     {
      "name": "Hopper",
@@ -26956,7 +27038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 692
     },
     {
      "name": "AdRoll",
@@ -26994,7 +27076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 693
     },
     {
      "name": "Lucky Cart",
@@ -27032,7 +27114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 694
     },
     {
      "name": "Motiva",
@@ -27070,7 +27152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 695
     },
     {
      "name": "Affise",
@@ -27108,7 +27190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 696
     },
     {
      "name": "Amperity",
@@ -27146,7 +27228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 697
     },
     {
      "name": "Catch&Release",
@@ -27183,7 +27265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 698
     },
     {
      "name": "Crossing Minds",
@@ -27221,7 +27303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 699
     },
     {
      "name": "Navattic",
@@ -27259,7 +27341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 700
     },
     {
      "name": "Reachdesk",
@@ -27297,7 +27379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 701
     },
     {
      "name": "Supportlogic",
@@ -27334,7 +27416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 702
     },
     {
      "name": "Tattle",
@@ -27372,7 +27454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 703
     },
     {
      "name": "Bombora",
@@ -27410,7 +27492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 704
     },
     {
      "name": "MadKudu",
@@ -27448,7 +27530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 705
     },
     {
      "name": "Namogoo",
@@ -27486,7 +27568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 706
     },
     {
      "name": "Lotame Solutions",
@@ -27524,7 +27606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 707
     },
     {
      "name": "TVbeat",
@@ -27561,7 +27643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 708
     },
     {
      "name": "SOCi",
@@ -27598,7 +27680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 709
     },
     {
      "name": "Carnival Mobile *",
@@ -27636,7 +27718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 710
     },
     {
      "name": "Groupboss",
@@ -27673,7 +27755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 711
     },
     {
      "name": "Spekit",
@@ -27710,7 +27792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 712
     },
     {
      "name": "Media Radar",
@@ -27748,7 +27830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 713
     },
     {
      "name": "Lightspeed Commerce",
@@ -27793,7 +27875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 714
     },
     {
      "name": "Ushur",
@@ -27837,7 +27919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 715
     },
     {
      "name": "AdQuick",
@@ -27875,7 +27957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 716
     },
     {
      "name": "App Onboard",
@@ -27913,7 +27995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 717
     },
     {
      "name": "AskSenti",
@@ -27951,7 +28033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 718
     },
     {
      "name": "Sendlane",
@@ -27989,7 +28071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 719
     },
     {
      "name": "Stllr Network",
@@ -28026,7 +28108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 720
     },
     {
      "name": "Laurence",
@@ -28064,7 +28146,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 721
     },
     {
      "name": "Wyndham Hotels & Resorts",
@@ -28101,7 +28183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 722
     },
     {
      "name": "Chick-fil-A",
@@ -28139,7 +28221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 723
     },
     {
      "name": "Tvscientific",
@@ -28176,7 +28258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 724
     },
     {
      "name": "Infutor",
@@ -28214,7 +28296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 725
     },
     {
      "name": "Linkable Networks (Collinson Group)",
@@ -28259,7 +28341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 726
     },
     {
      "name": "Siena",
@@ -28296,7 +28378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 727
     },
     {
      "name": "WeStock",
@@ -28333,7 +28415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 728
     },
     {
      "name": "1mind",
@@ -28371,7 +28453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 729
     },
     {
      "name": "iSpot.tv",
@@ -28409,7 +28491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 730
     },
     {
      "name": "Maze",
@@ -28446,7 +28528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 731
     },
     {
      "name": "LivePerson",
@@ -28484,7 +28566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 732
     },
     {
      "name": "Metamarkets",
@@ -28522,7 +28604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 733
     },
     {
      "name": "CallMiner",
@@ -28559,7 +28641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 734
     },
     {
      "name": "Fibr",
@@ -28597,7 +28679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 733
+     "rank": 735
     },
     {
      "name": "LeO",
@@ -28642,7 +28724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 736
     },
     {
      "name": "AdEspresso",
@@ -28680,7 +28762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
+     "rank": 737
     },
     {
      "name": "TheMonetizr",
@@ -28717,7 +28799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 736
+     "rank": 738
     },
     {
      "name": "Erxes",
@@ -28755,7 +28837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 739
     },
     {
      "name": "Latana",
@@ -28793,7 +28875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 740
     },
     {
      "name": "OPOWER",
@@ -28838,7 +28920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 741
     },
     {
      "name": "Revel Systems",
@@ -28883,7 +28965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
+     "rank": 742
     },
     {
      "name": "Snappy",
@@ -28920,7 +29002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 741
+     "rank": 743
     },
     {
      "name": "Act! CRM",
@@ -28957,7 +29039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 744
     },
     {
      "name": "Pabbly",
@@ -28995,12 +29077,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 745
     },
     {
      "name": "Acoustic",
      "slug": "acoustic",
-     "description": "Acoustic is a real-time behavioral marketing platform for B2C companies, delivering omnichannel customer engagement across email, SMS, WhatsApp, and mobile push. Its flagship product, Acoustic Connect, turns customer behavior and intent into timely, relevant messages through real-time orchestration and audience segmentation. Acoustic's developer surface at developer.goacoustic.com documents the Acoustic Content headless CMS / digital asset management REST API and the Acoustic Personalization library for delivering tailored content to each visitor in real time. Formerly IBM Watson Marketing, Acoustic was carved out as an independent martech company and is a portfolio company of Sapphire Ventures.",
+     "description": "Acoustic is a real-time behavioral marketing platform for B2C companies, delivering omnichannel customer engagement across email, SMS, WhatsApp, mobile push and web. Its developer portal at developer.goacoustic.com publishes an RFC 9727 api-catalog advertising six API products: Acoustic Connect (a GraphQL API for contacts, consent, audiences, product catalog and signals), Acoustic Campaign (a long-lived REST + XML API estate inherited from Silverpop, with a live Swagger service description per regional pod), Acoustic Content (a headless CMS / digital asset management REST API covering authoring, delivery, rendering, publishing and webhooks), Acoustic Personalization (a client-side library for real-time content and product recommendations), Acoustic Experience Analytics (Tealeaf) and Acoustic Exchange. Formerly IBM Watson Marketing, Acoustic was carved out as an independent martech company and is a portfolio company of Sapphire Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png",
      "score": 22.6,
      "band": "emerging",
@@ -29033,7 +29115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 746
     },
     {
      "name": "Rosetta.ai",
@@ -29070,7 +29152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 747
     },
     {
      "name": "LiftLab",
@@ -29108,7 +29190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 748
     },
     {
      "name": "On24",
@@ -29146,7 +29228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 749
     },
     {
      "name": "CloutJam",
@@ -29184,7 +29266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 750
     },
     {
      "name": "Linkett",
@@ -29221,7 +29303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 751
     },
     {
      "name": "Nimble",
@@ -29258,7 +29340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 752
     },
     {
      "name": "Octane AI",
@@ -29296,7 +29378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 753
     },
     {
      "name": "Breef",
@@ -29340,7 +29422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 754
     },
     {
      "name": "AdMagica AI",
@@ -29378,7 +29460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 755
     },
     {
      "name": "Amtrak",
@@ -29423,7 +29505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 756
     },
     {
      "name": "imbee",
@@ -29461,7 +29543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 757
     },
     {
      "name": "Adelphic Mobile *",
@@ -29499,7 +29581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 758
     },
     {
      "name": "Commsor",
@@ -29537,7 +29619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 759
     },
     {
      "name": "Microsoft Forms",
@@ -29575,7 +29657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 760
     },
     {
      "name": "Expected Parrot",
@@ -29613,7 +29695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 761
     },
     {
      "name": "Metricwire",
@@ -29658,7 +29740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 762
     },
     {
      "name": "Assembly",
@@ -29696,7 +29778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 763
     },
     {
      "name": "Exclaimer",
@@ -29734,7 +29816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 764
     },
     {
      "name": "Minute Media",
@@ -29772,7 +29854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 765
     },
     {
      "name": "Nicereply",
@@ -29810,7 +29892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 766
     },
     {
      "name": "Opensense (formerly SenderGen)",
@@ -29848,7 +29930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 767
     },
     {
      "name": "Teads",
@@ -29885,7 +29967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 768
     },
     {
      "name": "Walnut",
@@ -29923,7 +30005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 769
     },
     {
      "name": "Keatext",
@@ -29961,7 +30043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 770
     },
     {
      "name": "Philo",
@@ -29998,12 +30080,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 771
     },
     {
      "name": "PubMatic",
      "slug": "pubmatic",
-     "description": "PubMatic is a Redwood City, California-headquartered independent technology company (NASDAQ: PUBM) operating a supply-side platform (SSP) that powers programmatic advertising for publishers, media buyers, commerce media, and AI agents across CTV, mobile app, online video, display, and audio. Its unified platform combines an SSP for monetization and demand access, the OpenWrap header-bidding wrapper (an open-source Prebid-based wrapper with web, iOS, Android, Flutter, and Unity SDKs), Connect for curation and audience activation, Activate for buyer-side supply-path optimization and direct-to-publisher deals, Convert for commerce/retail media, Identity Hub for identity orchestration, and AgenticOS for agent-driven campaign planning and execution. PubMatic processes trillions of bids per day across global infrastructure, and exposes its programmatic surface primarily via the OpenRTB protocol, prebid integrations, and embedded SDKs rather than a public REST developer portal — making this profile a directory of PubMatic's products, OpenWrap repos, sample apps, and supply-chain endpoints rather than a tier-1 OpenAPI-backed catalog.",
+     "description": "PubMatic is a Redwood City, California-headquartered independent technology company (NASDAQ: PUBM) operating a supply-side platform (SSP) that powers programmatic advertising for publishers, media buyers, commerce media, and AI agents across CTV, mobile app, online video, display, and audio. Its unified platform combines an SSP for monetization and demand access, the OpenWrap header-bidding wrapper (an open-source Prebid-based wrapper with web, iOS, Android, Flutter, and Unity SDKs), Connect for curation and audience activation, Activate for buyer-side supply-path optimization and direct-to-publisher deals, Convert for commerce/retail media, Identity Hub for identity orchestration, and AgenticOS for agent-driven campaign planning and execution. PubMatic processes trillions of bids per day across global infrastructure, and exposes its programmatic surface primarily via the OpenRTB protocol, prebid integrations, and embedded SDKs rather than a public REST developer portal — making this profile a directory of PubMatic's products, OpenWrap repos, sample apps, and supply-chain endpoints rather than a tier-1 OpenAPI-backed catalog. Its one reachable agent-facing API is the PubMatic MCP Server at https://mcp.pubmatic.com/mcp, whose specifications, integration guides and packaged Agent Skills PubMatic publishes openly at github.com/PubMatic/pubmatic-mcp-server even though the endpoint itself is account-gated; the customer API reference at help.pubmatic.com sits behind an Okta/Auth0 login, and no OpenAPI, AsyncAPI, GraphQL or A2A agent card is served on any PubMatic host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pubmatic/refs/heads/main/screenshots/pubmatic-2026-06-20T192244.png",
      "score": 21.6,
      "band": "emerging",
@@ -30036,7 +30118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 772
     },
     {
      "name": "StoreHub",
@@ -30080,7 +30162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 773
     },
     {
      "name": "Intricately",
@@ -30118,7 +30200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 774
     },
     {
      "name": "Wellth",
@@ -30162,7 +30244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 775
     },
     {
      "name": "AgentIQ",
@@ -30207,7 +30289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 776
     },
     {
      "name": "Flurry",
@@ -30245,7 +30327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 777
     },
     {
      "name": "Donna",
@@ -30283,7 +30365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 778
     },
     {
      "name": "Fluidity",
@@ -30321,7 +30403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 779
     },
     {
      "name": "My AI",
@@ -30366,7 +30448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 780
     },
     {
      "name": "Yesware",
@@ -30403,7 +30485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 781
     },
     {
      "name": "Evolv",
@@ -30441,7 +30523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 782
     },
     {
      "name": "Google Optimize",
@@ -30479,7 +30561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 783
     },
     {
      "name": "Workhuman",
@@ -30516,7 +30598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 784
     },
     {
      "name": "Peer39",
@@ -30553,7 +30635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 785
     },
     {
      "name": "UJET",
@@ -30590,7 +30672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 786
     },
     {
      "name": "Giveffect",
@@ -30628,7 +30710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 787
     },
     {
      "name": "Inventive",
@@ -30666,7 +30748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 788
     },
     {
      "name": "Antavo",
@@ -30704,7 +30786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 789
     },
     {
      "name": "DoubleVerify",
@@ -30742,7 +30824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 790
     },
     {
      "name": "Nickelytics",
@@ -30780,7 +30862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 791
     },
     {
      "name": "RR Donnelley And Sons",
@@ -30818,7 +30900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 792
     },
     {
      "name": "Algolia",
@@ -30856,7 +30938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 793
     },
     {
      "name": "Co:Create",
@@ -30894,7 +30976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 794
     },
     {
      "name": "6Sense Insights",
@@ -30932,7 +31014,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 795
     },
     {
      "name": "Cloverleaf AI",
@@ -30977,7 +31059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 796
     },
     {
      "name": "Satisfi Labs",
@@ -31014,7 +31096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 797
     },
     {
      "name": "Sintra",
@@ -31051,7 +31133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 798
     },
     {
      "name": "Tofu",
@@ -31088,7 +31170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 799
     },
     {
      "name": "Yum China",
@@ -31126,7 +31208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 800
     },
     {
      "name": "KGeN",
@@ -31164,7 +31246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 801
     },
     {
      "name": "TermScout",
@@ -31201,7 +31283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 802
     },
     {
      "name": "Uplight",
@@ -31245,7 +31327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 803
     },
     {
      "name": "Zefr",
@@ -31282,7 +31364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 804
     },
     {
      "name": "Awardco",
@@ -31320,7 +31402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 805
     },
     {
      "name": "Function of Beauty",
@@ -31358,7 +31440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 806
     },
     {
      "name": "Act-On",
@@ -31396,7 +31478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 807
     },
     {
      "name": "ActionIQ",
@@ -31434,7 +31516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 808
     },
     {
      "name": "Atmosphere",
@@ -31472,7 +31554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 809
     },
     {
      "name": "AcuityMD",
@@ -31517,7 +31599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 810
     },
     {
      "name": "Magnite",
@@ -31555,7 +31637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 811
     },
     {
      "name": "Pixis",
@@ -31592,7 +31674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 812
     },
     {
      "name": "Teikametrics",
@@ -31629,7 +31711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 813
     },
     {
      "name": "Annex Cloud",
@@ -31667,7 +31749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 814
     },
     {
      "name": "Audiomob",
@@ -31705,7 +31787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 815
     },
     {
      "name": "StoryTap",
@@ -31742,7 +31824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 816
     },
     {
      "name": "Gomultiply",
@@ -31780,7 +31862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 817
     },
     {
      "name": "Tremor Video",
@@ -31817,7 +31899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 818
     },
     {
      "name": "JetBlue",
@@ -31855,7 +31937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 819
     },
     {
      "name": "Tdaycom",
@@ -31892,7 +31974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 820
     },
     {
      "name": "Lavender",
@@ -31930,7 +32012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 821
     },
     {
      "name": "RecappED",
@@ -31967,7 +32049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 822
     },
     {
      "name": "Slang Ai",
@@ -32004,7 +32086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 823
     },
     {
      "name": "Upside",
@@ -32041,7 +32123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 824
     },
     {
      "name": "B12",
@@ -32086,7 +32168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 825
     },
     {
      "name": "Gyft",
@@ -32131,7 +32213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 826
     },
     {
      "name": "Pulse Labs",
@@ -32168,7 +32250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 827
     },
     {
      "name": "Firefly",
@@ -32206,7 +32288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 828
     },
     {
      "name": "Feedvisor",
@@ -32244,7 +32326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 829
     },
     {
      "name": "Panorama Education",
@@ -32282,12 +32364,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 830
     },
     {
      "name": "Mutiny",
      "slug": "mutiny",
-     "description": "Mutiny (mutinyhq.com) is the GTM assistant built for customer-facing work and workflow automation — vertical AI built specifically for sales execution. Founded in 2018 as part of Y Combinator's S18 batch by Jaleh Rezaei (CEO) and Nikhil Mathew (CTO) and headquartered in New York City, Mutiny helps B2B revenue teams generate on-brand, deal-ready assets (self-updating deal rooms, pitch decks, pricing proposals, business cases, competitive comparisons, and AI-generated ABM campaigns) and automate the repetitive work around deals through agents, skills, and routines. The platform advertises Model Context Protocol (MCP) interoperability with Claude and other MCP-compatible tools and integrates with common GTM systems (CRM, email, the wider revenue stack). It is used by revenue teams at Snowflake, Uber, Rippling, GitLab, Figma, and BMC. Mutiny has raised $72M from Sequoia Capital, Insight Partners, Tiger Global, Cowboy Ventures, and Y Combinator. Note: Mutiny publishes no public REST API, OpenAPI, or developer portal at this time — this profile captures its identity, provider-authored LLM information, and probed security posture. (Its earlier website-personalization / A/B-testing product has been retired.)",
+     "description": "Mutiny (mutinyhq.com) is the GTM assistant built for customer-facing work and workflow automation — vertical AI built specifically for sales execution. Founded in 2018 as part of Y Combinator's S18 batch by Jaleh Rezaei (CEO) and Nikhil Mathew (CTO) and headquartered in New York City, Mutiny helps B2B revenue teams generate on-brand, deal-ready assets (self-updating deal rooms, pitch decks, pricing proposals, business cases, competitive comparisons, and AI-generated ABM campaigns) and automate the repetitive work around deals through agents, skills, and routines. The platform advertises Model Context Protocol (MCP) interoperability with Claude and other MCP-compatible tools and integrates with common GTM systems (CRM, email, the wider revenue stack). It is used by revenue teams at Snowflake, Uber, Rippling, GitLab, Figma, and BMC. Mutiny has raised $72M from Sequoia Capital, Insight Partners, Tiger Global, Cowboy Ventures, and Y Combinator. Mutiny's machine-callable surface is a first-party hosted, remote Model Context Protocol server at https://mcp.mutinyhq.com/mcp, protected by OAuth 2.1 with PKCE and dynamic client registration and publishing five scopes covering asset creation, publication, and content-library management. There is no public REST API, no OpenAPI, no GraphQL endpoint, and no developer portal — MCP is the whole contract. (Its earlier website-personalization / A/B-testing product has been retired, along with the React SDK that served it.)",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/screenshots/mutiny-2026-08-07T184451.png",
      "score": 18.4,
      "band": "emerging",
@@ -32320,7 +32402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 831
     },
     {
      "name": "Rezo",
@@ -32357,7 +32439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 832
     },
     {
      "name": "Fermat",
@@ -32395,51 +32477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
-    },
-    {
-     "name": "Fundz",
-     "slug": "fundz",
-     "description": "Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user's criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.",
-     "score": 18.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 20.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 832
+     "rank": 833
     },
     {
      "name": "OneShot",
@@ -32477,7 +32515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 834
     },
     {
      "name": "Ciro",
@@ -32515,7 +32553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 835
     },
     {
      "name": "JOLT",
@@ -32560,7 +32598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 836
     },
     {
      "name": "Superside",
@@ -32597,7 +32635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 837
     },
     {
      "name": "Valid",
@@ -32634,7 +32672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 838
     },
     {
      "name": "Arphie",
@@ -32672,7 +32710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 839
     },
     {
      "name": "Docket",
@@ -32710,7 +32748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 840
     },
     {
      "name": "Ripl",
@@ -32747,7 +32785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 841
     },
     {
      "name": "Vidjet",
@@ -32784,7 +32822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 842
     },
     {
      "name": "Emotive",
@@ -32829,7 +32867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 843
     },
     {
      "name": "Optimity",
@@ -32874,7 +32912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 844
     },
     {
      "name": "Anonym",
@@ -32912,7 +32950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 845
     },
     {
      "name": "Karumi",
@@ -32950,7 +32988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 846
     },
     {
      "name": "Raise",
@@ -32994,7 +33032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 847
     },
     {
      "name": "Brandripe",
@@ -33032,7 +33070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 848
     },
     {
      "name": "USADATA, Inc.",
@@ -33069,7 +33107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 849
     },
     {
      "name": "graph8",
@@ -33107,7 +33145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 850
     },
     {
      "name": "Viewabo",
@@ -33144,7 +33182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 851
     },
     {
      "name": "ViralGains",
@@ -33188,7 +33226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 852
     },
     {
      "name": "Atmosplay",
@@ -33226,7 +33264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 853
     },
     {
      "name": "ChowNow",
@@ -33264,7 +33302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 854
     },
     {
      "name": "Innertrends",
@@ -33302,7 +33340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 855
     },
     {
      "name": "Pico",
@@ -33346,7 +33384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 856
     },
     {
      "name": "PlayPlay",
@@ -33383,7 +33421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 857
     },
     {
      "name": "Reevo",
@@ -33420,7 +33458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 858
     },
     {
      "name": "SPOTIO",
@@ -33457,7 +33495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 859
     },
     {
      "name": "Winn.ai",
@@ -33494,7 +33532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 860
     },
     {
      "name": "Blng",
@@ -33532,7 +33570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 861
     },
     {
      "name": "Bookbub",
@@ -33570,7 +33608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 862
     },
     {
      "name": "Brand.ai",
@@ -33607,7 +33645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 863
     },
     {
      "name": "Metamarkets Group",
@@ -33645,7 +33683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 864
     },
     {
      "name": "Rocksalt",
@@ -33682,7 +33720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 865
     },
     {
      "name": "Upside Services",
@@ -33719,7 +33757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 866
     },
     {
      "name": "Simulmedia",
@@ -33756,7 +33794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 867
     },
     {
      "name": "Multiply",
@@ -33794,7 +33832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 868
     },
     {
      "name": "Five9",
@@ -33832,7 +33870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 869
     },
     {
      "name": "TelevisaUnivision (Univision Communications)",
@@ -33870,7 +33908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 870
     },
     {
      "name": "Analytics",
@@ -33908,7 +33946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 871
     },
     {
      "name": "KeepFace",
@@ -33946,7 +33984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 872
     },
     {
      "name": "Comscore",
@@ -33984,7 +34022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 873
     },
     {
      "name": "LevelUp",
@@ -34029,7 +34067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 874
     },
     {
      "name": "MYR",
@@ -34074,7 +34112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 875
     },
     {
      "name": "The Ticket Fairy",
@@ -34118,7 +34156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 876
     },
     {
      "name": "Bilt Rewards",
@@ -34163,7 +34201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 877
     },
     {
      "name": "Chimelabs Holdings PTY LTD",
@@ -34201,7 +34239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 878
     },
     {
      "name": "CoolerX",
@@ -34238,7 +34276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 879
     },
     {
      "name": "EchoLeads",
@@ -34275,7 +34313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 880
     },
     {
      "name": "Moxtra",
@@ -34313,7 +34351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 881
     },
     {
      "name": "Nookly",
@@ -34351,7 +34389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 882
     },
     {
      "name": "Pomo",
@@ -34388,7 +34426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 883
     },
     {
      "name": "Virgin Australia",
@@ -34425,7 +34463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 884
     },
     {
      "name": "Wingstop",
@@ -34463,7 +34501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 885
     },
     {
      "name": "Animoto",
@@ -34500,7 +34538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 886
     },
     {
      "name": "CAVA",
@@ -34538,7 +34576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 887
     },
     {
      "name": "Ebrandvalue",
@@ -34576,7 +34614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 888
     },
     {
      "name": "Escale",
@@ -34614,7 +34652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 889
     },
     {
      "name": "Postcron",
@@ -34651,7 +34689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 890
     },
     {
      "name": "STORI AI Inc.",
@@ -34688,7 +34726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 891
     },
     {
      "name": "Textla Inc.",
@@ -34732,7 +34770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 892
     },
     {
      "name": "Rallyware",
@@ -34769,7 +34807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 893
     },
     {
      "name": "Docket",
@@ -34807,7 +34845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 894
     },
     {
      "name": "Taizen",
@@ -34844,7 +34882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 895
     },
     {
      "name": "TNL Mediagene",
@@ -34881,7 +34919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 896
     },
     {
      "name": "Tongal",
@@ -34918,7 +34956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 897
     },
     {
      "name": "GoSky AI",
@@ -34956,7 +34994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 898
     },
     {
      "name": "Plink",
@@ -35000,7 +35038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 899
     },
     {
      "name": "Quantum Metric",
@@ -35037,7 +35075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 900
     },
     {
      "name": "Ara",
@@ -35075,7 +35113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 901
     },
     {
      "name": "CStorePro",
@@ -35113,7 +35151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 902
     },
     {
      "name": "LaunchRock",
@@ -35151,7 +35189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 903
     },
     {
      "name": "Construction Monitor",
@@ -35189,7 +35227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 904
     },
     {
      "name": "DocSend",
@@ -35226,7 +35264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 905
     },
     {
      "name": "Responsys",
@@ -35263,7 +35301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 906
     },
     {
      "name": "TapAd",
@@ -35300,7 +35338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 907
     },
     {
      "name": "Horizon Media",
@@ -35337,7 +35375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 908
     },
     {
      "name": "QwikCilver",
@@ -35381,7 +35419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 909
     },
     {
      "name": "Choice Hotels",
@@ -35418,7 +35456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 910
     },
     {
      "name": "Enplug",
@@ -35456,7 +35494,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 911
     },
     {
      "name": "Home From College",
@@ -35494,12 +35532,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 912
     },
     {
      "name": "LocBox Labs",
      "slug": "locbox-labs",
-     "description": "LocBox Labs is associated with Hownd, Inc. (formerly FetchRev), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, and retail merchants generate new and repeat customers. The platform runs automated marketing across web popups, email drip campaigns, social media, a MyHownd consumer mobile app, buy-now buttons, and guest-WiFi capture on a pay-per-visit billing model. The merchant application runs at app.locbox.com. This provider was surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this enrichment pass no public API, developer portal, SDK, or OpenAPI surface could be found on the provider's public properties.",
+     "description": "LocBox Labs is the engineering identity behind Hownd, Inc. (formerly FetchRev, originally LocBox), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, attractions and retail merchants generate new and repeat customers. The platform runs automated marketing across website popups, email drip and birthday campaigns, social media, buy-now promos, gift cards, a promo discovery portal, the MyHownd consumer mobile app, and guest-WiFi capture, billed at a flat monthly fee plus a share of each transaction. Merchants work in the Hownd app at hownd.app, with the legacy FetchRev merchant application still served at app.locbox.com. Hownd operates a partner-gated REST API at partner-api.hownd.com that lets approved partners manage subscribers on behalf of Hownd merchants; it is authenticated with OAuth 2.0 client-credentials against the company's Auth0 tenant and scoped per merchant with an X-Tenant-Id header. No OpenAPI, public API reference, or developer portal is published for it — the only public documentation is the first-party example repository in the company's LocBoxLabs GitHub org.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/screenshots/locbox-labs-2026-07-25T225435.png",
      "score": 15.2,
      "band": "emerging",
@@ -35532,7 +35570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 913
     },
     {
      "name": "MyFavorito",
@@ -35570,7 +35608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 914
     },
     {
      "name": "Newoldstamp",
@@ -35608,7 +35646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 915
     },
     {
      "name": "Noosh",
@@ -35646,7 +35684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 916
     },
     {
      "name": "OpenSponsorship",
@@ -35684,7 +35722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 917
     },
     {
      "name": "Owler",
@@ -35722,7 +35760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 918
     },
     {
      "name": "Owner.com",
@@ -35760,7 +35798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 919
     },
     {
      "name": "Pixc",
@@ -35797,7 +35835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 920
     },
     {
      "name": "Plixi",
@@ -35834,7 +35872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 921
     },
     {
      "name": "RedCircle",
@@ -35871,7 +35909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 922
     },
     {
      "name": "SpeedyBrand",
@@ -35908,12 +35946,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 923
     },
     {
      "name": "Trend",
      "slug": "trend",
-     "description": "Trend (branded \"Trend by soona\") is a user-generated content (UGC) platform that connects brands with a network of vetted independent creators to produce custom photo and video content — product and lifestyle photography, testimonial, unboxing, and product-in-action videos — optimized for TikTok, Instagram, Facebook, YouTube, and Amazon. Brands post a creative brief, hire creators from a network of 3,700+, and receive full licensing and distribution rights to the delivered content. Pricing is credit-based with no subscriptions or contracts. Trend is part of soona.co. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network; enrichment found no public developer API, documentation, or developer portal — the surface is a brand/creator web application, not a programmable API.",
+     "description": "Trend (branded \"Trend by soona\") is a user-generated content (UGC) platform that connects brands with a network of vetted independent creators to produce custom photo and video content — product and lifestyle photography, testimonial, unboxing, and product-in-action videos — optimized for TikTok, Instagram, Facebook, YouTube, and Amazon. Brands post a creative brief, hire creators from a network of 3,700+, and receive full licensing and distribution rights to the delivered content. Pricing is credit-based with no subscriptions or contracts. Trend is part of soona.co. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Trend publishes no developer program or developer portal, but the platform's own NestJS backend at api.trend.io serves a public, machine-readable OpenAPI 3.0 document at /docs-json covering 124 operations across brands, campaigns, creators, partnerships, content submission, messaging, shipments, AI image generation, and Stripe credit purchases. The Swagger UI at /docs is password-protected; the specification behind it is not.",
      "score": 15.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -35945,7 +35983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 924
     },
     {
      "name": "Xtime",
@@ -35982,7 +36020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 925
     },
     {
      "name": "Zoca",
@@ -36019,7 +36057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 926
     },
     {
      "name": "Kompyte",
@@ -36057,7 +36095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 927
     },
     {
      "name": "Kudos",
@@ -36102,7 +36140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 928
     },
     {
      "name": "StoragePug",
@@ -36139,7 +36177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 929
     },
     {
      "name": "SundaySky",
@@ -36176,7 +36214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 930
     },
     {
      "name": "Afiniti",
@@ -36214,7 +36252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 930
+     "rank": 931
     },
     {
      "name": "Atlas Card",
@@ -36259,7 +36297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 931
+     "rank": 932
     },
     {
      "name": "Chatter Research",
@@ -36297,7 +36335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 932
+     "rank": 933
     },
     {
      "name": "checkout51",
@@ -36335,7 +36373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 933
+     "rank": 934
     },
     {
      "name": "Revie",
@@ -36372,7 +36410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 934
+     "rank": 935
     },
     {
      "name": "Serve First",
@@ -36409,7 +36447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 935
+     "rank": 936
     },
     {
      "name": "ALLSALE Corp.",
@@ -36447,7 +36485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 936
+     "rank": 937
     },
     {
      "name": "Memoir",
@@ -36485,7 +36523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 937
+     "rank": 938
     },
     {
      "name": "Skupos",
@@ -36522,7 +36560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 938
+     "rank": 939
     },
     {
      "name": "Blackbird Labs",
@@ -36567,7 +36605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 939
+     "rank": 940
     },
     {
      "name": "Databook",
@@ -36605,7 +36643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 940
+     "rank": 941
     },
     {
      "name": "MadeThis",
@@ -36643,7 +36681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 941
+     "rank": 942
     },
     {
      "name": "OneScreen AI",
@@ -36681,7 +36719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 942
+     "rank": 943
     },
     {
      "name": "SetSail",
@@ -36718,7 +36756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 943
+     "rank": 944
     },
     {
      "name": "Snackpass",
@@ -36762,7 +36800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 944
+     "rank": 945
     },
     {
      "name": "Pimento",
@@ -36799,7 +36837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 945
+     "rank": 946
     },
     {
      "name": "PraxisPro AI",
@@ -36843,7 +36881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 946
+     "rank": 947
     },
     {
      "name": "Promolta",
@@ -36880,7 +36918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 947
+     "rank": 948
     },
     {
      "name": "Upwave",
@@ -36917,7 +36955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 948
+     "rank": 949
     },
     {
      "name": "WebinarJam",
@@ -36955,7 +36993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 949
+     "rank": 950
     },
     {
      "name": "Beengo",
@@ -37000,7 +37038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 950
+     "rank": 951
     },
     {
      "name": "Giftly",
@@ -37044,7 +37082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 951
+     "rank": 952
     },
     {
      "name": "iContact",
@@ -37082,7 +37120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 952
+     "rank": 953
     },
     {
      "name": "Ipsy",
@@ -37120,7 +37158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 953
+     "rank": 954
     },
     {
      "name": "Opal",
@@ -37158,7 +37196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 954
+     "rank": 955
     },
     {
      "name": "Podia",
@@ -37195,7 +37233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 955
+     "rank": 956
     },
     {
      "name": "Quantcast",
@@ -37233,7 +37271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 956
+     "rank": 957
     },
     {
      "name": "BBDO Worldwide",
@@ -37271,7 +37309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 957
+     "rank": 958
     },
     {
      "name": "Gruve",
@@ -37309,7 +37347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 958
+     "rank": 959
     },
     {
      "name": "Repeat",
@@ -37346,7 +37384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 959
+     "rank": 960
     },
     {
      "name": "Samu",
@@ -37383,7 +37421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 960
+     "rank": 961
     },
     {
      "name": "Healthcare.com",
@@ -37428,7 +37466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 961
+     "rank": 962
     },
     {
      "name": "Spot Runner",
@@ -37465,7 +37503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 962
+     "rank": 963
     },
     {
      "name": "StoreCash",
@@ -37509,7 +37547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 963
+     "rank": 964
     },
     {
      "name": "Targetspot",
@@ -37546,7 +37584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 964
+     "rank": 965
     },
     {
      "name": "Joko",
@@ -37591,7 +37629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 965
+     "rank": 966
     },
     {
      "name": "Kasheesh",
@@ -37636,7 +37674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 966
+     "rank": 967
     },
     {
      "name": "Makrwatch",
@@ -37674,7 +37712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 967
+     "rank": 968
     },
     {
      "name": "Beacons.ai",
@@ -37712,7 +37750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 968
+     "rank": 969
     },
     {
      "name": "Chowbus",
@@ -37757,7 +37795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 969
+     "rank": 970
     },
     {
      "name": "IgniteTech",
@@ -37795,7 +37833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 970
+     "rank": 971
     },
     {
      "name": "Infusionsoft (Keap)",
@@ -37833,7 +37871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 971
+     "rank": 972
     },
     {
      "name": "Nibbles PBC",
@@ -37878,7 +37916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 972
+     "rank": 973
     },
     {
      "name": "Bluefish AI",
@@ -37916,7 +37954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 973
+     "rank": 974
     },
     {
      "name": "Caretta",
@@ -37954,12 +37992,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 974
+     "rank": 975
     },
     {
      "name": "Heyo",
      "slug": "heyo",
-     "description": "Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global.",
+     "description": "Heyo is a social marketing platform for building and running online promotions such as sweepstakes, contests, giveaways, quizzes, and coupons. Businesses use Heyo's drag-and-drop campaign builder and landing pages to create interactive campaign apps that publish to the web, mobile, and social networks including Facebook, Instagram, and Twitter. It is used to grow email marketing lists, generate sales leads, acquire new customers, reward existing customers, and increase social followers, with templated promotion apps and a free trial. Heyo is a portfolio company of 500 Global and was acquired by Votigo, Inc. in January 2016, continuing to operate as a stand-alone self-serve brand. Heyo publishes no public API, SDK or developer portal; the product is used entirely through the web dashboard at platform.heyo.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heyo/refs/heads/main/screenshots/heyo-2026-07-25T221123.png",
      "score": 13.9,
      "band": "emerging",
@@ -37992,7 +38030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 975
+     "rank": 976
     },
     {
      "name": "Rilla",
@@ -38029,7 +38067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 976
+     "rank": 977
     },
     {
      "name": "Tungee",
@@ -38066,7 +38104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 977
+     "rank": 978
     },
     {
      "name": "Wallet Studio",
@@ -38110,7 +38148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 978
+     "rank": 979
     },
     {
      "name": "GetCraft",
@@ -38147,7 +38185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 979
+     "rank": 980
     },
     {
      "name": "Goin",
@@ -38192,7 +38230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 980
+     "rank": 981
     },
     {
      "name": "Porter Airlines",
@@ -38229,7 +38267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 981
+     "rank": 982
     },
     {
      "name": "PowerReviews",
@@ -38267,7 +38305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 982
+     "rank": 983
     },
     {
      "name": "Spredfast",
@@ -38304,7 +38342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 983
+     "rank": 984
     },
     {
      "name": "AirPR",
@@ -38342,7 +38380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 984
+     "rank": 985
     },
     {
      "name": "Incentivio",
@@ -38380,7 +38418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 985
+     "rank": 986
     },
     {
      "name": "Layer3",
@@ -38425,7 +38463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 986
+     "rank": 987
     },
     {
      "name": "Audacy",
@@ -38463,7 +38501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 987
+     "rank": 988
     },
     {
      "name": "Triblio",
@@ -38501,7 +38539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 988
+     "rank": 989
     },
     {
      "name": "Bloomy",
@@ -38539,7 +38577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 989
+     "rank": 990
     },
     {
      "name": "Flockjay",
@@ -38577,7 +38615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 990
+     "rank": 991
     },
     {
      "name": "Hilbert's AI",
@@ -38615,7 +38653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 991
+     "rank": 992
     },
     {
      "name": "IHG Hotels & Resorts",
@@ -38653,7 +38691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 992
+     "rank": 993
     },
     {
      "name": "Personetics",
@@ -38697,7 +38735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 993
+     "rank": 994
     },
     {
      "name": "Rex Airlines",
@@ -38734,7 +38772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 994
+     "rank": 995
     },
     {
      "name": "PC Financial",
@@ -38779,7 +38817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 995
+     "rank": 996
     },
     {
      "name": "Datalot",
@@ -38824,7 +38862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 996
+     "rank": 997
     },
     {
      "name": "CarNow",
@@ -38862,7 +38900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 997
+     "rank": 998
     },
     {
      "name": "Dare Drop",
@@ -38900,51 +38938,13 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 998
+     "rank": 999
     },
     {
      "name": "Kale",
      "slug": "kale",
      "description": "Kale (operated by Palette Technologies, Inc., dba Kale) is a creator-rewards and user-generated-content marketplace that connects social-media content creators with brands. Creators join brand challenges and tournaments, post authentic sponsored content about products they use, and earn cash, merchandise, and perks; brands source authentic UGC and micro-influencer marketing at scale. The platform is delivered through the getkale.com and kalecard.com web apps and native iOS/Android apps, with a merchant network spanning consumer brands such as Chili's, Planet Fitness, Urban Outfitters, DoorDash, Southwest, and Starbucks. Kale is backed by Forerunner Ventures. No public developer/API surface is published; this profile captures the company's public identity and security posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kale/refs/heads/main/screenshots/kale-2026-07-25T223431.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 999
-    },
-    {
-     "name": "Marketing Evolution",
-     "slug": "marketing-evolution",
-     "description": "Marketing Evolution is a marketing measurement and analytics company that provides an AI-driven operating system for marketing operations. Its platform unifies audience data, media exposure, third-party signals, and proprietary sources into a single view of marketing performance and customer behavior, connecting strategy, creative, media, and measurement through an AI-powered loop that enables real-time campaign adaptation rather than static launches. Core products include its Data Platform and Decision Engine, delivering unified marketing measurement (UMM) and person-level attribution to enterprise marketers. The company is backed by Insight Partners. As of this enrichment pass it publishes no public developer portal, API documentation, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketing-evolution/refs/heads/main/screenshots/marketing-evolution-2026-07-25T230228.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",

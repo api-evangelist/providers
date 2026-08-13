@@ -822,7 +822,7 @@
     {
      "name": "Canva",
      "slug": "canva",
-     "description": "APIs for the Canva design platform, enabling developers to integrate Canva's design tools and functionality into their applications.",
+     "description": "Canva is the visual design platform used by hundreds of millions of people, and it exposes four distinct developer surfaces: the Connect APIs (a REST API for creating, autofilling, exporting, resizing, importing and commenting on designs from another application), the Apps SDK (React apps that run inside the Canva editor), the SCIM and Audit Logs APIs for enterprise identity and compliance, and the partner-gated Print API. Canva publishes its own OpenAPI description, a dated changelog, per-product llms.txt indexes, a hosted MCP server and a public set of Agent Skills.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png",
      "score": 58.4,
      "band": "strong",
@@ -2162,7 +2162,7 @@
     {
      "name": "Salesforce Marketing Cloud",
      "slug": "salesforce-marketing-cloud",
-     "description": "Salesforce Marketing Cloud is a comprehensive digital marketing platform that enables businesses to manage customer journeys, email marketing, mobile messaging, social media marketing, advertising, and data analytics.",
+     "description": "Salesforce Marketing Cloud Engagement is an enterprise digital marketing platform for customer journeys, email marketing, mobile messaging (SMS/MMS and push), advertising, content management and marketing data. Its API surface is tenant-scoped: every REST call goes to https://{subdomain}.rest.marketingcloudapis.com and every SOAP call to https://{subdomain}.soap.marketingcloudapis.com, with OAuth 2.0 tokens issued per tenant from https://{subdomain}.auth.marketingcloudapis.com/v2/token and scopes granted to an Installed Package rather than requested at authorization time. Product areas are versioned independently at v1 behind route prefixes (/asset, /contacts, /interaction, /data, /messaging, /push, /sms, /automation, /hub, /platform). Salesforce also operates a first-party hosted MCP server for Marketing Cloud Engagement, generally available since June 2026, exposing 142 tools across eleven product areas, and an outbound webhook product, the Event Notification Service, with HMAC-SHA256 signed callbacks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png",
      "score": 53.7,
      "band": "developing",
@@ -7505,7 +7505,7 @@
     {
      "name": "Brevo",
      "slug": "brevo",
-     "description": "Send transactional emails with static or dynamic content using the Messaging API.",
+     "description": "Brevo (formerly Sendinblue) is a French customer-relationship platform that combines email marketing, transactional email and SMTP relay, transactional and campaign SMS, WhatsApp messaging, web and mobile push, live chat, a sales CRM, an ecommerce attribution layer and a loyalty and rewards engine behind a single REST API at api.brevo.com/v3. Brevo publishes thirteen OpenAPI 3.1 definitions covering 285 operations, advertises them through an RFC 9727 API catalog at its developer portal, ships seven official SDKs and a first-party CLI for OAuth app management, and operates a hosted MCP server exposing 27 modules to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png",
      "score": 37.2,
      "band": "thin",
@@ -9402,7 +9402,7 @@
     {
      "name": "Dotdigital",
      "slug": "dotdigital",
-     "description": "Marketing automation platform with a REST API for managing contacts, email campaigns, SMS, automation programs, pages, and accessing engagement data.",
+     "description": "Dotdigital is a UK-headquartered customer engagement platform (LSE: DOTD) whose Marketing product combines email, SMS, MMS, WhatsApp, push, app messaging, chat and web personalization behind one contact database. Its API estate is unusually large and unusually well published: 42 OpenAPI descriptions are served from a public catalog at developer.dotdigital.com/openapi and enumerated in an RFC 9727 api-catalog linkset, spanning contacts, lists, segments, preferences and consent, email and SMS campaigns, transactional email, programs, pages and forms, insight data, ecommerce, product recommendations, scoring, and the whole CPaaS omnichannel messaging stack. Two frameworks run side by side — legacy v2 at /v2/* and the current v3 services at /<service>/v3/* built around unified contacts — and most integrations need both. Everything authenticates with HTTP Basic API-user credentials against a mandatory regional host (r1 Europe, r2 North America, r3 Asia Pacific). Dotdigital also runs a remote MCP server over its developer hub and publishes webhooks, a durable Events in/out API and a Data Firehose for streaming engagement data to cloud storage.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/screenshots/dotdigital-2026-06-20T180203.png",
      "score": 29.6,
      "band": "thin",
@@ -15777,7 +15777,7 @@
     {
      "name": "LocBox Labs",
      "slug": "locbox-labs",
-     "description": "LocBox Labs is associated with Hownd, Inc. (formerly FetchRev), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, and retail merchants generate new and repeat customers. The platform runs automated marketing across web popups, email drip campaigns, social media, a MyHownd consumer mobile app, buy-now buttons, and guest-WiFi capture on a pay-per-visit billing model. The merchant application runs at app.locbox.com. This provider was surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this enrichment pass no public API, developer portal, SDK, or OpenAPI surface could be found on the provider's public properties.",
+     "description": "LocBox Labs is the engineering identity behind Hownd, Inc. (formerly FetchRev, originally LocBox), a Tempe, Arizona automated promotions and local-merchant marketing platform that helps restaurants, health and beauty businesses, family entertainment centers, attractions and retail merchants generate new and repeat customers. The platform runs automated marketing across website popups, email drip and birthday campaigns, social media, buy-now promos, gift cards, a promo discovery portal, the MyHownd consumer mobile app, and guest-WiFi capture, billed at a flat monthly fee plus a share of each transaction. Merchants work in the Hownd app at hownd.app, with the legacy FetchRev merchant application still served at app.locbox.com. Hownd operates a partner-gated REST API at partner-api.hownd.com that lets approved partners manage subscribers on behalf of Hownd merchants; it is authenticated with OAuth 2.0 client-credentials against the company's Auth0 tenant and scoped per merchant with an X-Tenant-Id header. No OpenAPI, public API reference, or developer portal is published for it — the only public documentation is the first-party example repository in the company's LocBoxLabs GitHub org.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/screenshots/locbox-labs-2026-07-25T225435.png",
      "score": 15.2,
      "band": "emerging",
