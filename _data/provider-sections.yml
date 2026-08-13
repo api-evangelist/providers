@@ -278,6 +278,180 @@
       href: /management/
       cta: Browse API Management
 
+    - name: Authentication & Identity
+      icon: key
+      unit: providers
+      count: { from: total, key: providers-authentication }
+      description: >-
+        Enterprise IAM and workforce identity, the cloud platform identity services, the
+        developer-first CIAM providers, the open source identity servers, and the authorization
+        and policy engines — the strongest-publishing area in the catalog, where 97.5% ship a
+        machine-readable contract, ranked by Kin Score.
+      href: /authentication/
+      cta: Browse Authentication
+
+    - name: API Documentation
+      icon: menu_book
+      unit: providers
+      count: { from: total, key: providers-documentation }
+      description: >-
+        The market whose entire job is making APIs legible, measured on whether its own products
+        are — the hosted platforms you buy, the reference renderers you embed, and the
+        docs-as-code static site generators you build with, ranked by Kin Score.
+      href: /documentation/
+      cta: Browse Documentation
+
+    - name: API Testing
+      icon: science
+      unit: providers
+      count: { from: total, key: providers-testing }
+      description: >-
+        The commercial testing and quality platforms, the mocking and service-virtualization
+        layer, load and performance testing, contract testing and test frameworks, the security
+        scanners, and the browser and end-to-end frameworks — the first market in the series
+        actually building for agents, ranked by Kin Score.
+      href: /testing/
+      cta: Browse API Testing
+
+    - name: API Clients
+      icon: terminal
+      unit: providers
+      count: { from: total, key: providers-api-clients }
+      description: >-
+        The client platforms that operate a hosted service, the local-first and offline-first
+        clients that deliberately ship no cloud at all, and the command-line clients and HTTP
+        libraries the whole industry runs on. Only three publish an API of their own — a market
+        deliberately building without a service surface, read as a movement rather than a ranking.
+      href: /api-clients/
+      cta: Browse API Clients
+
+- id: market-reports
+  title: Industry Market Reports
+  intro: Twelve of the 71 industries are scored end to end and written up as Market Reports — the whole tag cohort read as a market, not a curated roster. Every other industry is one click into Browse Industries.
+  columns: col-md-4
+  cards:
+
+    - name: Artificial Intelligence
+      icon: smart_toy
+      unit: providers
+      count: { from: total, key: providers-industry-artificial-intelligence }
+      description: >-
+        Model providers, agent frameworks, inference platforms, and the applied AI companies
+        putting them to work behind an API — the industry selling agents, with a median
+        agent-readiness of zero.
+      href: /industries/artificial-intelligence/
+      cta: Browse Artificial Intelligence
+
+    - name: Developer Tools & DevOps
+      icon: build
+      unit: providers
+      count: { from: total, key: providers-industry-developer-tools }
+      description: >-
+        The companies developers build on — SDKs and CLIs, CI/CD, containers, observability,
+        API gateways, and the platforms that run it all.
+      href: /industries/developer-tools/
+      cta: Browse Developer Tools
+
+    - name: Data & Analytics
+      icon: insights
+      unit: providers
+      count: { from: total, key: providers-industry-data-analytics }
+      description: >-
+        Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers
+        companies expose as APIs.
+      href: /industries/data-analytics/
+      cta: Browse Data & Analytics
+
+    - name: Cybersecurity & Identity
+      icon: security
+      unit: providers
+      count: { from: total, key: providers-industry-cybersecurity }
+      description: >-
+        Security and identity providers — authentication and authorization, threat detection,
+        application and cloud security, fraud, and privacy.
+      href: /industries/cybersecurity/
+      cta: Browse Cybersecurity
+
+    - name: Digital Health & Telehealth
+      icon: monitor_heart
+      unit: providers
+      count: { from: total, key: providers-industry-digital-health }
+      description: >-
+        Care delivered and coordinated through software — telehealth, EHR interoperability,
+        patient engagement, remote monitoring, and behavioral health.
+      href: /industries/digital-health/
+      cta: Browse Digital Health
+
+    - name: Blockchain, Crypto & Web3
+      icon: currency_bitcoin
+      unit: providers
+      count: { from: total, key: providers-industry-blockchain-crypto }
+      description: >-
+        Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the
+        digital-asset economy runs on.
+      href: /industries/blockchain-crypto/
+      cta: Browse Blockchain & Crypto
+
+    - name: Marketing & Advertising
+      icon: campaign
+      unit: providers
+      count: { from: total, key: providers-industry-marketing-advertising }
+      description: >-
+        AdTech and MarTech — campaigns, attribution, customer data, personalization, and the
+        demand-generation stack.
+      href: /industries/marketing-advertising/
+      cta: Browse Marketing & Advertising
+
+    - name: Supply Chain & Procurement
+      icon: inventory_2
+      unit: providers
+      count: { from: total, key: providers-industry-supply-chain }
+      description: >-
+        Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems
+        that move goods — the one industry where a retried request dispatches a second truck.
+      href: /industries/supply-chain/
+      cta: Browse Supply Chain
+
+    - name: Legal & Compliance Tech
+      icon: gavel
+      unit: providers
+      count: { from: total, key: providers-industry-legal-compliance }
+      description: >-
+        Legal software and the compliance, RegTech, and risk platforms companies use to stay
+        inside the rules.
+      href: /industries/legal-compliance/
+      cta: Browse Legal & Compliance
+
+    - name: Education & EdTech
+      icon: school
+      unit: providers
+      count: { from: total, key: providers-industry-education }
+      description: >-
+        Universities, school systems, and the learning platforms, credentialing, and research
+        infrastructure around them.
+      href: /industries/education/
+      cta: Browse Education
+
+    - name: Robotics & Autonomous Systems
+      icon: precision_manufacturing
+      unit: providers
+      count: { from: total, key: providers-industry-robotics }
+      description: >-
+        Robots, drones, autonomous vehicles, and the perception and control stacks that let
+        machines act on their own.
+      href: /industries/robotics/
+      cta: Browse Robotics
+
+    - name: Semiconductors & Hardware
+      icon: memory
+      unit: providers
+      count: { from: total, key: providers-industry-semiconductors-hardware }
+      description: >-
+        Chips, compute, consumer electronics, and the data-center hardware everything else is
+        built on.
+      href: /industries/semiconductors-hardware/
+      cta: Browse Semiconductors & Hardware
+
 - id: collections
   title: Collections
   intro: Standing rosters of providers drawn from public indexes, government registries, universities, private-market venues, venture portfolios, and open-source foundations.
