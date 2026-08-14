@@ -3,7 +3,7 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 333
+  "count": 334
  },
  {
   "slug": "india",
@@ -27,13 +27,13 @@
   "slug": "australia",
   "name": "Australia",
   "flag": "🇦🇺",
-  "count": 199
+  "count": 200
  },
  {
   "slug": "germany",
   "name": "Germany",
   "flag": "🇩🇪",
-  "count": 198
+  "count": 199
  },
  {
   "slug": "canada",
@@ -123,7 +123,7 @@
   "slug": "ireland",
   "name": "Ireland",
   "flag": "🇮🇪",
-  "count": 21
+  "count": 22
  },
  {
   "slug": "taiwan",

@@ -8,28 +8,28 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
-     "name": "Salesforce",
-     "slug": "salesforce",
-     "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 74.3,
+     "name": "Adobe",
+     "slug": "adobe",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "score": 82.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 81.3,
-      "governance": 80.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 68.4
+      "discoverability": 66.7,
+      "contract_quality": 89.0,
+      "governance": 89.6,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 91.3,
+      "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 56.3,
+     "agent_score": 70.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -39,33 +39,33 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 1
     },
     {
-     "name": "HubSpot",
-     "slug": "hubspot",
-     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 70.5,
+     "name": "Salesforce",
+     "slug": "salesforce",
+     "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
+     "score": 80.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 84.4,
-      "governance": 47.9,
-      "operational_transparency": 55.3,
+      "discoverability": 87.0,
+      "contract_quality": 81.3,
+      "governance": 80.2,
+      "operational_transparency": 63.2,
       "developer_ergonomics": 93.5,
-      "commercial_clarity": 68.4
+      "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -86,6 +86,44 @@
       "dry_run_mode": false
      },
      "rank": 2
+    },
+    {
+     "name": "HubSpot",
+     "slug": "hubspot",
+     "description": "HubSpot is an AI-native customer platform built around the Smart CRM, unifying marketing, sales, customer service, content, commerce and operations on a single shared customer record. Its developer platform exposes that record through a broad REST surface at api.hubapi.com covering CRM objects and associations, engagements, lists and segments, marketing and transactional email, CMS pages, blogs and HubDB, conversations, commerce payments and subscriptions, custom workflow actions, webhooks and analytics events. HubSpot ships first-party Node, Python, Ruby and PHP clients, a CLI, OAuth 2.0 with a granular scope model, a public developer changelog, date-based API versioning and a hosted MCP server for agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
+     "score": 79.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 78.6,
+      "governance": 68.8,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 100.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 63.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
     },
     {
      "name": "ServiceNow",
@@ -123,7 +161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "IBM",
@@ -161,7 +199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Avalara",
@@ -199,7 +237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Autodesk",
@@ -237,7 +275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Meta",
@@ -275,7 +313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Workday",
@@ -313,7 +351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Airtable",
@@ -351,7 +389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -361,8 +399,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 13,
-   "shown": 13,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Slack",
@@ -400,7 +438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Docusign",
@@ -438,7 +476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Okta",
@@ -476,7 +514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Palo Alto Networks",
@@ -514,7 +552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Atlassian",
@@ -551,44 +589,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": true
-     },
-     "rank": 14
-    },
-    {
-     "name": "Adobe",
-     "slug": "adobe",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 61.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 78.3,
-      "governance": 68.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
      },
      "rank": 15
     },

@@ -14,19 +14,19 @@
     {
      "name": "Xiaoman (OKKI)",
      "slug": "xiaoman",
-     "description": "Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-trade sales platform under Alibaba International Station, serving Chinese B2B exporters with the OKKI CRM, OKKI AiReach multi-channel customer acquisition, OKKI Shops site building, and OKKI Go, a B2B prospecting engine built for AI agents. The OKKI CRM Open API (open.xiaoman.cn) exposes 125 OAuth2 module-scoped operations across customers, leads, opportunities, products, sales and purchase orders, quotations, payments, suppliers, inventory, users, and Pro-plan webhook message-push subscriptions. The OKKI Go API (go.okki.ai) provides company search, contact unlock, and cold-email outreach, shipped with a provider-published Agent Skill on npm (@okki-global/okki-go) that installs into Claude Code, Cursor, and other agent runtimes. Originally surfaced as a Qiming portfolio company.",
-     "score": 61.2,
+     "description": "Xiaoman Technology (小满科技, OKKI) is an AI-powered foreign-trade sales platform under Alibaba International Station, serving Chinese B2B exporters with the OKKI CRM, OKKI AiReach multi-channel customer acquisition, OKKI Shops site building, and OKKI Go, a B2B prospecting engine built for AI agents. The OKKI CRM Open API (open.xiaoman.cn) exposes 119 OAuth2 module-scoped operations across customers, leads, opportunities, products, sales and purchase orders, quotations, payments, suppliers, inventory, users, and Pro-plan webhook message-push subscriptions. The OKKI Go API (go.okki.ai) provides company search, contact unlock, and cold-email outreach, shipped with a provider-published Agent Skill on npm (@okki-global/okki-go) that installs into Claude Code, Cursor, and other agent runtimes. Originally surfaced as a Qiming portfolio company.",
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 62.5,
       "governance": 11.5,
-      "operational_transparency": 39.5,
+      "operational_transparency": 44.7,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -56,8 +56,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "LianLian Global",
@@ -268,7 +268,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -463,6 +463,82 @@
      "rank": 11
     },
     {
+     "name": "Fxiaoke",
+     "slug": "fxiaoke",
+     "description": "Fxiaoke (纷享销客 / Fenxiang) is a Chinese enterprise SaaS company providing a connected, AI-driven \"Agentic CRM\" platform that spans marketing, sales, and customer service for 6,000+ enterprise customers across manufacturing, consumer goods, healthcare, and technology. Its Open API v2 platform (developer.fxiaoke.com) exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services such as approval workflows, contact/directory sync, and business-data sync over a JSON/HTTP RPC interface hosted at open.fxiaoke.com. Authentication uses a self-built enterprise application (appId + appSecret + permanentCode) exchanged for a corp/app access token, alongside a modern OAuth 2.1 authorization server (PKCE, dynamic client registration) discoverable via RFC 8414 metadata. Backed by DCM Ventures and Qiming Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png",
+     "score": 44.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "EZR",
+     "slug": "ezr",
+     "description": "EZR (上海驿氪 / Shanghai EasyRetailPro) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The EZR Open Platform (开放平台) at open.ezrpro.com publishes a reference for 236 interfaces across 11 business domains — stores and staff, member master data, loyalty points, coupons, sales receipts, WeChat mall, gift cards, messaging and third-party platform binding — of which 31 are EZR-to-integrator push callbacks. Every interface is an HTTP POST with a form-encoded, SHA1/MD5-signed envelope carrying the business payload as a JSON string; there is no OpenAPI, no OAuth, no versioning scheme and no self-service onboarding. EZR does publish a packaged Agent Skill for generating integration code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png",
+     "score": 44.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 45.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Cosmoplat",
      "slug": "cosmoplat",
      "description": "COSMOPlat (卡奥斯 COSMOPlat) is the industrial internet platform incubated by Haier Group and operated by COSMOPlat Digital Technology (Qingdao) Co., Ltd. Launched in 2017, it was China's first self-developed industrial internet platform built around mass customization, digitally integrating user interaction, R&D, procurement, production and service across a factory and its supply chain. Its product line spans smart-factory and MES systems, industrial IoT device connectivity, chemical-park management, smart energy control, equipment health management and a D3OS digital-twin offering, and it has been applied across roughly twenty industries and more than twenty countries. The developer-facing surface is the 物联开发平台 (IoT development platform), which publishes a public HTML API reference covering product, device, alarm, rule-chain, thing-model, telemetry and device-RPC operations, alongside an MQTT telemetry publish/subscribe surface. COSMOPlat also runs an open-source developer community at openlab.cosmoplat.com and a GitHub organization at cosmoplat-dev.",
@@ -497,7 +573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "Ekuaibao",
@@ -535,7 +611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Kimi (Moonshot AI)",
@@ -573,7 +649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "City University of Hong Kong",
@@ -611,7 +687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Fenbeitong",
@@ -656,7 +732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 18
     }
    ],
    "open": true
@@ -705,7 +781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "酷学院 (Cool College)",
@@ -743,7 +819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "AgiBot",
@@ -781,7 +857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Tsinghua University",
@@ -819,7 +895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "China Mobile",
@@ -864,7 +940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Gitee",
@@ -902,7 +978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Xiaoe (小鹅通)",
@@ -939,7 +1015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Yanyin Technology",
@@ -983,7 +1059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "qingflow",
@@ -1020,7 +1096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Kuaishou",
@@ -1038,7 +1114,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1058,7 +1134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "XSKY",
@@ -1095,7 +1171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Qiniu Cloud",
@@ -1132,7 +1208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     }
    ]
   },
@@ -1141,47 +1217,9 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 32,
-   "shown": 32,
+   "count": 31,
+   "shown": 31,
    "providers": [
-    {
-     "name": "Fxiaoke",
-     "slug": "fxiaoke",
-     "description": "Fxiaoke (纷享销客 / Fenxiang) is a Chinese enterprise SaaS company providing a connected, AI-driven \"Agentic CRM\" platform that spans marketing, sales, and customer service for 6,000+ enterprise customers across manufacturing, consumer goods, healthcare, and technology. Its Open API v2 platform (developer.fxiaoke.com) exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services such as approval workflows, contact/directory sync, and business-data sync over a JSON/HTTP RPC interface hosted at open.fxiaoke.com. Authentication uses a self-built enterprise application (appId + appSecret + permanentCode) exchanged for a corp/app access token, alongside a modern OAuth 2.1 authorization server (PKCE, dynamic client registration) discoverable via RFC 8414 metadata. Backed by DCM Ventures and Qiming Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png",
-     "score": 27.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 12.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
     {
      "name": "University of Macau",
      "slug": "university-of-macau",
@@ -1225,7 +1263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "VIPShop",
@@ -1262,7 +1300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Peking University",
@@ -1307,7 +1345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Hong Kong University of Science and Technology",
@@ -1352,7 +1390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Shanghai Jiao Tong University",
@@ -1390,7 +1428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Xiao-Y Technology (小y科技)",
@@ -1427,7 +1465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "University of Science and Technology of China",
@@ -1465,7 +1503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Toutiao",
@@ -1502,7 +1540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Nanjing University",
@@ -1540,7 +1578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Zhejiang University",
@@ -1578,7 +1616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "JD.com (Jingdong)",
@@ -1616,7 +1654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Baidu",
@@ -1654,7 +1692,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Transwarp",
@@ -1691,7 +1729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "ChinaCache (EdgeNext)",
@@ -1729,7 +1767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "JD Technology",
@@ -1767,7 +1805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Fudan University",
@@ -1812,7 +1850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Tongji University",
@@ -1850,7 +1888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Yum China",
@@ -1888,7 +1926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Tianjin University",
@@ -1926,7 +1964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Wuhan University",
@@ -1964,7 +2002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "DXY",
@@ -2009,7 +2047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Huice",
@@ -2047,7 +2085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Xpeng",
@@ -2084,7 +2122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Tungee",
@@ -2101,9 +2139,9 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 0.0,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2113,7 +2151,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -2121,7 +2159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "WeiMai",
@@ -2165,7 +2203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Tuniu",
@@ -2202,7 +2240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Avatr Technology",
@@ -2240,7 +2278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "wacai",
@@ -2277,7 +2315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "China Southern Air Logistics",
@@ -2314,7 +2352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Chinese Medicine Online",
@@ -2358,7 +2396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Lagou",
@@ -2396,7 +2434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     }
    ]
   },
@@ -2405,8 +2443,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 252,
-   "shown": 252,
+   "count": 251,
+   "shown": 251,
    "providers": [
     {
      "name": "caimitech",
@@ -2444,7 +2482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "1hai",
@@ -2482,7 +2520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Dewu (POIZON)",
@@ -2520,7 +2558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Sunyur",
@@ -2557,7 +2595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "AusperBio",
@@ -2602,7 +2640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Hundsun Technologies",
@@ -2646,7 +2684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Leapmotor",
@@ -2684,7 +2722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Gan & Lee Pharmaceuticals",
@@ -2729,7 +2767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Vongi Health (芝兰健康)",
@@ -2773,7 +2811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Deppon Express",
@@ -2811,7 +2849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Lilith Games",
@@ -2849,7 +2887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "B612",
@@ -2887,7 +2925,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
+    },
+    {
+     "name": "Xinhe Technology",
+     "slug": "xinhe-technology",
+     "description": "Xinhe Technology (Shanghai Xinhe Box Technology Co., Ltd. / 上海心盒科技有限公司) operates 心愿盒 Match Box, a consumer experience co-creation platform. Brands distribute product samples to precisely targeted consumer segments matched on age, gender, occupation, and consumption-preference tags, collect structured questionnaire feedback and reviews for agile marketing iteration, and convert triallists into private-domain traffic on WeChat official accounts and mini programs. A DCM Ventures portfolio company; it publishes no public developer portal or API surface as of July 2026.",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 74
     },
     {
      "name": "Hesi",
@@ -2925,7 +3000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "51job",
@@ -2963,45 +3038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
-    },
-    {
-     "name": "EZR",
-     "slug": "ezr",
-     "description": "EZR (上海驿氪 / Shanghai Yike Information Technology) is a Shanghai-based retail marketing technology company founded in 2015 that builds SCRM and new-retail CRM software for multi-store and chain brands. Its platform combines a Marketing Cloud and in-store CRM to deliver omnichannel member management, WeChat mini-program malls, guide (导购) distribution and full-staff sales tools, live-streaming commerce, points malls, and campaign automation. EZR serves 800+ brands across fashion, beauty, home goods, food, and pharmacy, and is backed by Tencent, JD.com, DCM, and Lenovo Star. The company advertises an open platform of 100+ APIs covering products, users, transactions, and marketing, though it publishes no public developer portal, OpenAPI, or API reference.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Guazi",
@@ -3039,7 +3076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "99Bill",
@@ -3084,7 +3121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Zhangmen",
@@ -3121,7 +3158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "beva",
@@ -3159,7 +3196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "coohua",
@@ -3176,7 +3213,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3189,43 +3226,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "Xinhe Technology",
-     "slug": "xinhe-technology",
-     "description": "Xinhe Technology (Shanghai Xinhe Box Technology Co., Ltd. / 上海心盒科技有限公司) operates 心愿盒 Match Box, a consumer experience co-creation platform. Brands distribute product samples to precisely targeted consumer segments matched on age, gender, occupation, and consumption-preference tags, collect structured questionnaire feedback and reviews for agile marketing iteration, and convert triallists into private-domain traffic on WeChat official accounts and mini programs. A DCM Ventures portfolio company; it publishes no public developer portal or API surface as of July 2026.",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -5859,6 +5859,43 @@
      "rank": 146
     },
     {
+     "name": "ruhnn",
+     "slug": "ruhnn",
+     "description": "Ruhnn Holding Limited (如涵控股) is a Hangzhou-based Chinese influencer (KOL) incubation, marketing, and e-commerce company. It pioneered the \"internet celebrity\" (wanghong) commercialization model, signing and developing influencers and monetizing their audiences through self-operated online stores on marketplaces such as Taobao and Tmall, as well as through a platform/advertising business that connects its network of KOLs with third-party brands for social-marketing campaigns. The company listed on NASDAQ under the ticker RUHN in 2019 and was subsequently taken private. It is surfaced here as a portfolio company of Qiming Venture Partners. Ruhnn is a consumer-facing influencer marketing and commerce operator and does not publish a public developer platform, API, or SDK surface.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 147
+    },
+    {
      "name": "Singular Medical",
      "slug": "singularmedical",
      "description": "Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司) is a Chinese medical-device company pioneering the domestic research, development, and manufacturing of cardiac rhythm management (CRM) products. It builds China's own implantable cardioverter defibrillators (ICD) and implantable cardiac monitors (ICM) — devices that automatically identify malignant arrhythmias, deliver anti-tachycardia pacing and defibrillation to prevent sudden cardiac death, and provide long-term subcutaneous ECG monitoring for the diagnosis of unexplained syncope, atrial fibrillation, and cryptogenic stroke, with cloud-based event transmission for remote clinical review. Backed by Qiming Venture Partners. This is a medical-device hardware manufacturer with a corporate marketing web presence and no public developer, API, or documentation program at this time.",
@@ -5900,7 +5937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Xiaomishu (订餐小秘书)",
@@ -5937,7 +5974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "LeapStack",
@@ -5982,7 +6019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Yuanbao (元保)",
@@ -6026,7 +6063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "yuanxinjituan",
@@ -6070,7 +6107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Chery",
@@ -6115,7 +6152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "DeepWay 深向",
@@ -6160,7 +6197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "dstzc",
@@ -6205,7 +6242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "FangTek",
@@ -6249,7 +6286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "aistarfish",
@@ -6294,7 +6331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Arrail Group",
@@ -6339,7 +6376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "besunyen",
@@ -6383,7 +6420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Boohee",
@@ -6428,7 +6465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Brosmed",
@@ -6473,7 +6510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "cansinotech",
@@ -6518,7 +6555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Centreherbs (Beijing Shengtaier Biotechnology)",
@@ -6563,7 +6600,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "cmlabs",
@@ -6607,7 +6644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "dezhentech",
@@ -6652,7 +6689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "dkmedtech",
@@ -6697,7 +6734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "firstgrid",
@@ -6742,7 +6779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "guahao",
@@ -6787,7 +6824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "guokang",
@@ -6832,7 +6869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "huimei",
@@ -6877,7 +6914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "innostic",
@@ -6922,7 +6959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "jfkbio",
@@ -6967,7 +7004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "kechowpharma",
@@ -7012,7 +7049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "LIH Healthcare (长和医疗)",
@@ -7057,7 +7094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "longwill",
@@ -7102,7 +7139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "medmotion",
@@ -7146,7 +7183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "MedSci",
@@ -7191,7 +7228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "My China Roots",
@@ -7229,7 +7266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Prime Life Science",
@@ -7273,7 +7310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Sai De Yang Guang Oral Care",
@@ -7317,7 +7354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "sh-eco",
@@ -7361,7 +7398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "shsongli",
@@ -7405,7 +7442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "shukun",
@@ -7449,7 +7486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Simple Love Yogurt",
@@ -7486,7 +7523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "SinoMDT",
@@ -7530,7 +7567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Sinotau",
@@ -7574,7 +7611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "SinoUnited Health",
@@ -7618,7 +7655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "snssurgical",
@@ -7662,7 +7699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "tisenc",
@@ -7706,7 +7743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "venusmedtech",
@@ -7750,7 +7787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "VINNO",
@@ -7794,7 +7831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "xiaoniaokuaiyan",
@@ -7838,7 +7875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "zeenhealth",
@@ -7882,7 +7919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "zhaohu365",
@@ -7926,7 +7963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "大易有塑 (dayi35.com)",
@@ -7970,7 +8007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "2duche",
@@ -8007,7 +8044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "61draw",
@@ -8045,7 +8082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "7k7k",
@@ -8083,7 +8120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "afujingyou",
@@ -8120,7 +8157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "AInnovation",
@@ -8158,7 +8195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "airquality",
@@ -8196,7 +8233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Alibaba Local Services",
@@ -8233,7 +8270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "aplum",
@@ -8271,7 +8308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "appconomy",
@@ -8308,7 +8345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Babycare",
@@ -8345,7 +8382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Baicai",
@@ -8383,7 +8420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "BAMA TEA",
@@ -8421,7 +8458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "baoyugame",
@@ -8459,7 +8496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "beijingyuanxin",
@@ -8497,7 +8534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Belle International",
@@ -8534,7 +8571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "black-unique",
@@ -8572,7 +8609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "bomming",
@@ -8610,7 +8647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "BrandCT",
@@ -8648,7 +8685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "cashbus",
@@ -8685,7 +8722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "cehome",
@@ -8723,7 +8760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "changeducation",
@@ -8761,7 +8798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "chatail",
@@ -8799,7 +8836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "chushou",
@@ -8836,7 +8873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "cutt",
@@ -8873,7 +8910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "CYGIA",
@@ -8910,7 +8947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "dajiabao",
@@ -8947,7 +8984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Dangdang",
@@ -8985,7 +9022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "Dingdong",
@@ -9022,7 +9059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Dingdong Maicai",
@@ -9060,7 +9097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "DMall",
@@ -9098,7 +9135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "docin",
@@ -9136,7 +9173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Eigentech",
@@ -9173,7 +9210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "fanli",
@@ -9211,7 +9248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "Fenxiang Life",
@@ -9249,7 +9286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Fortune Technology (China FIF)",
@@ -9287,7 +9324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "Full Truck Alliance",
@@ -9325,7 +9362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "GAGO Group",
@@ -9363,7 +9400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "galbot",
@@ -9401,7 +9438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "gohoo",
@@ -9439,7 +9476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Goodme",
@@ -9477,7 +9514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "H World Group",
@@ -9515,7 +9552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "Hanqi Group",
@@ -9553,7 +9590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "haoyiku",
@@ -9591,7 +9628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "Herbeast",
@@ -9628,7 +9665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "Heytea",
@@ -9666,7 +9703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "Hortor Games",
@@ -9704,7 +9741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Huixiaoer",
@@ -9742,7 +9779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "iceonline",
@@ -9780,7 +9817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Ihaveu",
@@ -9817,7 +9854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "inbilin",
@@ -9854,7 +9891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "jiayuan",
@@ -9892,7 +9929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Jiumaojiu",
@@ -9930,7 +9967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "jsgaiya",
@@ -9967,7 +10004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Julu Mobile",
@@ -10004,7 +10041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Junlebao",
@@ -10041,7 +10078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "juren",
@@ -10079,7 +10116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "kaiheikeji",
@@ -10116,7 +10153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "Kaixin001",
@@ -10153,7 +10190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Kuwo Music",
@@ -10190,7 +10227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "liangzizhige",
@@ -10227,7 +10264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Lu Pu Investment (陆浦投资)",
@@ -10265,7 +10302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Luckin Coffee",
@@ -10303,7 +10340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Luckypai",
@@ -10340,7 +10377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Mafengwo",
@@ -10378,7 +10415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Maimai",
@@ -10416,7 +10453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "mobike",
@@ -10453,7 +10490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "mogujie",
@@ -10491,7 +10528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "MoreTickets",
@@ -10529,7 +10566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "nasn-auto",
@@ -10566,7 +10603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "nvxclouds",
@@ -10604,7 +10641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "OneASP",
@@ -10641,7 +10678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Pinduoduo",
@@ -10678,7 +10715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "PPS (pps.tv)",
@@ -10715,7 +10752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "prmeasure",
@@ -10752,7 +10789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Qunar Com",
@@ -10789,7 +10826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "reetian",
@@ -10826,7 +10863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Renren",
@@ -10863,49 +10900,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "roxmotor",
      "slug": "roxmotor",
      "description": "ROX Motor (roxmotor.com) is a Chinese electric-vehicle manufacturer, a portfolio company of Qiming Venture Partners, best known for the ROX 01 electric off-road SUV. It is a consumer automotive brand with no public developer API surface; this profile was added to the API Evangelist network as a portfolio lead and enriched with a domain-security probe. The site is hosted on Tencent Cloud and was not reachable from the enrichment environment for content search.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 272
-    },
-    {
-     "name": "ruhnn",
-     "slug": "ruhnn",
-     "description": "Ruhnn Holding Limited (如涵控股) is a Hangzhou-based Chinese influencer (KOL) incubation, marketing, and e-commerce company. It pioneered the \"internet celebrity\" (wanghong) commercialization model, signing and developing influencers and monetizing their audiences through self-operated online stores on marketplaces such as Taobao and Tmall, as well as through a platform/advertising business that connects its network of KOLs with third-party brands for social-marketing campaigns. The company listed on NASDAQ under the ticker RUHN in 2019 and was subsequently taken private. It is surfaced here as a portfolio company of Qiming Venture Partners. Ruhnn is a consumer-facing influencer marketing and commerce operator and does not publish a public developer platform, API, or SDK surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",

@@ -478,7 +478,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 67.6,
      "agent_band": "agent-native",
@@ -1742,8 +1742,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 44,
-   "shown": 44,
+   "count": 45,
+   "shown": 45,
    "providers": [
     {
      "name": "Getnet",
@@ -2354,7 +2354,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2962,6 +2962,43 @@
      "rank": 67
     },
     {
+     "name": "Cuponomia",
+     "slug": "cuponomia",
+     "description": "Cuponomia is a Brazilian coupons and cashback platform that helps consumers save money on online purchases from more than 2,000 partner retailers. A pioneer in popularizing free discount coupons in Brazil, the company expanded into cashback in 2019 and now operates a website, a browser extension, and mobile apps alongside a Prime membership tier. It is backed by 500 Global. Cuponomia does not currently publish a public developer API, SDK, or OpenAPI definition; this profile captures its public web presence and domain-security posture for the API Evangelist network.",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 68
+    },
+    {
      "name": "Noodle",
      "slug": "noodle",
      "description": "Noodle is a Brazilian fintech building financial infrastructure for the creator economy. It provides automated payouts to creators, influencers, and vendors; FastPay early access to future earnings; noodleOS, a unified platform for campaigns, creator data, payments, and asset tracking; global payouts powered by Ebanx; foreign-exchange settlement; and credit and capital products underwritten in part on a creator's social presence. Backed by QED Investors, Noodle serves media companies, agencies, and platforms that pay content creators. The company references API-based integrations but publishes no public developer portal or API documentation.",
@@ -3004,7 +3041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Juno",
@@ -3048,7 +3085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Ideal Invest",
@@ -3086,7 +3123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Pitzi",
@@ -3130,7 +3167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Bhub",
@@ -3168,7 +3205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Descomplica",
@@ -3206,7 +3243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Mottu",
@@ -3244,7 +3281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Noh",
@@ -3289,7 +3326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Creditas",
@@ -3334,7 +3371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Acre Open Data",
@@ -3379,7 +3416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Bahia Open Data",
@@ -3424,7 +3461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Espirito Santo Open Data",
@@ -3469,7 +3506,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Onze",
@@ -3514,7 +3551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Pernambuco Open Data",
@@ -3559,7 +3596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Rondonia Open Data",
@@ -3604,7 +3641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Santa Catarina Open Data",
@@ -3649,7 +3686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     }
    ]
   },
@@ -3658,8 +3695,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 42,
-   "shown": 42,
+   "count": 41,
+   "shown": 41,
    "providers": [
     {
      "name": "Olist",
@@ -3704,7 +3741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Carreira Beauty",
@@ -3742,7 +3779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Loft",
@@ -3780,7 +3817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Enjoei",
@@ -3817,7 +3854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Azos",
@@ -3862,7 +3899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Quinto Andar",
@@ -3899,7 +3936,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "NG.Cash",
@@ -3926,43 +3963,6 @@
       "score": 21.9,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 90
-    },
-    {
-     "name": "Cuponomia",
-     "slug": "cuponomia",
-     "description": "Cuponomia is a Brazilian coupons and cashback platform that helps consumers save money on online purchases from more than 2,000 partner retailers. A pioneer in popularizing free discount coupons in Brazil, the company expanded into cashback in 2019 and now operates a website, a browser extension, and mobile apps alongside a Prime membership tier. It is backed by 500 Global. Cuponomia does not currently publish a public developer API, SDK, or OpenAPI definition; this profile captures its public web presence and domain-security posture for the API Evangelist network.",
-     "score": 11.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4828,7 +4828,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -1100,7 +1100,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2330,7 +2330,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",

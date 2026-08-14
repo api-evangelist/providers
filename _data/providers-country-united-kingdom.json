@@ -1,6 +1,6 @@
 {
- "total": 333,
- "shown": 333,
+ "total": 334,
+ "shown": 334,
  "limit": 1000,
  "bands": [
   {
@@ -410,8 +410,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 78,
-   "shown": 78,
+   "count": 79,
+   "shown": 79,
    "providers": [
     {
      "name": "GSMA",
@@ -1117,6 +1117,50 @@
      "rank": 25
     },
     {
+     "name": "Stotles",
+     "slug": "stotles",
+     "description": "Stotles is a B2G (business-to-government) public sector procurement and sales intelligence platform for the UK and Ireland. It aggregates procurement notices, contract awards, framework agreements, buyer spend history, and verified decision-maker contacts from public sources such as Find a Tender, Contracts Finder, Digital Marketplace, TED, and Public Contracts Scotland, then layers tender discovery, market intelligence, AI-assisted bid qualification (Bid Studio), account targeting (Sales Studio), and pipeline management on top so suppliers can find, qualify, and win government contracts. Delivered as a SaaS web application at app.stotles.com, and — since 2026 — as a programmable surface: the Stotles Public API is a documented OpenAPI 3.1.0 REST service at api.stotles.com/v1 covering notices, buyers, suppliers and framework agreements, alongside a hosted Model Context Protocol server at api.stotles.com/mcp that brings the same market data into AI chat tools and agents. Both authenticate with a static x-api-key header; keys are issued by a Customer Success Manager rather than self-serve, and MCP access is in beta behind a waitlist.",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 61.9,
+      "governance": 20.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 44.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 26
+    },
+    {
      "name": "Semble",
      "slug": "semble",
      "description": "Semble is a London-headquartered (7 Bell Yard, London, WC2A 2JR) cloud clinical and practice-management platform for United Kingdom private and independent healthcare providers, from solo clinicians to corporate and enterprise clinics. Its modular EHR unifies patient records, appointment scheduling and online booking, video consultations, e-prescribing, pathology/lab ordering, clinical documentation, invoicing and payments (Semble Pay) and patient communications. Semble exposes a single open, secure public GraphQL API at https://open.semble.io/graphql, available to Semble clinics at no extra cost, letting developers read and write patients, bookings, availability, consultations, clinical pathways, prescriptions, labs, invoices, tasks, forms, questionnaires and webhooks. Authentication is API-key / token based (an x-token header carrying a role-scoped token that expires after 12 hours) rather than SMART-on-FHIR; the API is GraphQL-native and does not publish an HL7 FHIR CapabilityStatement or a downloadable OpenAPI. Semble emphasises GDPR compliance and UK healthcare security standards, with data encrypted in transit and at rest.",
@@ -1158,7 +1202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Modulr",
@@ -1203,7 +1247,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Hildebrand",
@@ -1248,7 +1292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Alto (Vebra / Zoopla)",
@@ -1286,7 +1330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Land Insight",
@@ -1324,7 +1368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "first direct",
@@ -1369,7 +1413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Adfin",
@@ -1414,7 +1458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Trust Payments",
@@ -1458,7 +1502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Centrica",
@@ -1503,7 +1547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "ECOMMPAY",
@@ -1548,7 +1592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Triodos Bank UK",
@@ -1592,7 +1636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Kriya",
@@ -1637,7 +1681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Coutts",
@@ -1682,7 +1726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Algbra",
@@ -1727,7 +1771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Arthur Online",
@@ -1765,7 +1809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "UK Open Banking",
@@ -1810,7 +1854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Bud Financial",
@@ -1855,7 +1899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "GOV.UK Notify",
@@ -1900,7 +1944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Royal Mail",
@@ -1938,7 +1982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Cardstream",
@@ -1983,7 +2027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Tribe Payments",
@@ -2027,7 +2071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Cashflows",
@@ -2072,7 +2116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "n3rgy",
@@ -2117,7 +2161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Hometrack",
@@ -2155,7 +2199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "ClearBank",
@@ -2200,7 +2244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Danske Bank (UK)",
@@ -2245,7 +2289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Humaans",
@@ -2283,7 +2327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Whitespace",
@@ -2327,7 +2371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "PPL",
@@ -2371,7 +2415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Scottish and Southern Electricity Networks",
@@ -2415,7 +2459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "UCL",
@@ -2460,7 +2504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "WealthKernel",
@@ -2504,7 +2548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Rightmove",
@@ -2541,7 +2585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "zopa",
@@ -2585,7 +2629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Ofcom",
@@ -2630,7 +2674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Thriva",
@@ -2674,7 +2718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "King's College London",
@@ -2719,7 +2763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Zoopla",
@@ -2756,7 +2800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Loughborough University",
@@ -2794,7 +2838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Starling Bank",
@@ -2838,7 +2882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "NHS England",
@@ -2883,7 +2927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Virgin Atlantic",
@@ -2920,7 +2964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Allica Bank",
@@ -2965,7 +3009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Hampden & Co",
@@ -3010,7 +3054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Thredd",
@@ -3054,7 +3098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Yorkshire Building Society",
@@ -3098,7 +3142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Elexon",
@@ -3143,7 +3187,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "University of Sheffield",
@@ -3181,7 +3225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Kroo",
@@ -3226,7 +3270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "TMT ID",
@@ -3270,7 +3314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Apex27",
@@ -3308,7 +3352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Bank of Ireland (UK)",
@@ -3353,7 +3397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Sprift",
@@ -3390,7 +3434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "GP Connect",
@@ -3435,7 +3479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Utilita",
@@ -3479,7 +3523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "University of Cambridge",
@@ -3517,7 +3561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Carbon Intensity API",
@@ -3562,7 +3606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "University of Bristol",
@@ -3607,7 +3651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Chase UK",
@@ -3652,7 +3696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Mettle",
@@ -3697,7 +3741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "WorldFirst",
@@ -3741,7 +3785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Cardiff University",
@@ -3786,7 +3830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     }
    ]
   },
@@ -3834,7 +3878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "UK Civil Aviation Authority",
@@ -3878,7 +3922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "C. Hoare & Co.",
@@ -3923,7 +3967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "The Co-operative Bank",
@@ -3968,7 +4012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "GOV.UK Pay",
@@ -4013,7 +4057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "char.gy",
@@ -4058,7 +4102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Halifax",
@@ -4103,7 +4147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Smart DCC",
@@ -4148,7 +4192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Lloyds Banking Group",
@@ -4193,7 +4237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Nationwide Building Society",
@@ -4238,7 +4282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Huma",
@@ -4283,7 +4327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Ki Insurance",
@@ -4328,7 +4372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "University of Sussex",
@@ -4366,7 +4410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Investec",
@@ -4411,7 +4455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Covatic",
@@ -4429,7 +4473,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -4449,7 +4493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Queen's University Belfast",
@@ -4486,7 +4530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Thought Machine",
@@ -4530,7 +4574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "University of Bath",
@@ -4575,7 +4619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "University of Manchester",
@@ -4620,7 +4664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "NHS Digital",
@@ -4665,7 +4709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Vanquis Banking Group",
@@ -4709,7 +4753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "NHS API",
@@ -4754,7 +4798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "TSB Bank",
@@ -4798,7 +4842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Coventry Building Society",
@@ -4843,7 +4887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "ScottishPower",
@@ -4887,7 +4931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Cashplus Bank",
@@ -4932,7 +4976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "University of Edinburgh",
@@ -4977,7 +5021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Virgin Money UK",
@@ -5021,7 +5065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Paysend",
@@ -5066,7 +5110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Muse Finance",
@@ -5104,7 +5148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "AIB Group (UK)",
@@ -5149,7 +5193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Cynergy Bank",
@@ -5194,7 +5238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "University of St Andrews",
@@ -5232,7 +5276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Weatherbys Bank",
@@ -5276,7 +5320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Ordo",
@@ -5321,7 +5365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Purplebricks",
@@ -5358,7 +5402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Lancaster University",
@@ -5403,7 +5447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Imperial College London",
@@ -5441,7 +5485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Aldermore Bank",
@@ -5486,7 +5530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Fnatic",
@@ -5524,7 +5568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "University of York",
@@ -5562,7 +5606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Ripe Insurance",
@@ -5606,7 +5650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Santander UK",
@@ -5650,7 +5694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "INSTANDA",
@@ -5695,7 +5739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Bank of Scotland",
@@ -5740,7 +5784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "University of Birmingham",
@@ -5785,7 +5829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "RICS (Royal Institution of Chartered Surveyors)",
@@ -5822,7 +5866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Newcastle University",
@@ -5867,7 +5911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Secure Trust Bank",
@@ -5911,7 +5955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "EMIS Health",
@@ -5956,7 +6000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Tandem Bank",
@@ -6000,7 +6044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Monument Bank",
@@ -6045,7 +6089,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Liberty Global",
@@ -6090,7 +6134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Recognise Bank",
@@ -6134,7 +6178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Science Museum Group",
@@ -6179,7 +6223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Lightning Social Ventures",
@@ -6224,7 +6268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Bupa",
@@ -6269,7 +6313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Artificial Labs",
@@ -6314,7 +6358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Cuvva",
@@ -6359,7 +6403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Metro Bank",
@@ -6404,7 +6448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "OpenPrescribing",
@@ -6449,7 +6493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Paragon Bank",
@@ -6493,7 +6537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "takepayments",
@@ -6537,7 +6581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Breathe HR",
@@ -6575,7 +6619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "British Airways",
@@ -6613,7 +6657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "GB Bank",
@@ -6658,7 +6702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Handelsbanken UK",
@@ -6703,7 +6747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Hiscox",
@@ -6748,7 +6792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Cytora",
@@ -6793,7 +6837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Financial Conduct Authority",
@@ -6838,7 +6882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Kraken Technologies",
@@ -6883,7 +6927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Ofgem",
@@ -6928,7 +6972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Knight Frank",
@@ -6973,7 +7017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Sage Accounting",
@@ -7010,7 +7054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Lloyd's of London",
@@ -7055,7 +7099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Shawbrook Bank",
@@ -7099,7 +7143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "TwentyCi",
@@ -7136,7 +7180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "E.ON Next",
@@ -7181,7 +7225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "National Energy System Operator (NESO)",
@@ -7226,7 +7270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "National Grid Electricity Distribution",
@@ -7271,7 +7315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Omaze",
@@ -7309,7 +7353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Aviva plc",
@@ -7354,7 +7398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Good Energy",
@@ -7399,7 +7443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Skipton Building Society",
@@ -7443,7 +7487,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Clear Books",
@@ -7481,7 +7525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     }
    ]
   },
@@ -7536,7 +7580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Heathrow Airport",
@@ -7574,7 +7618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "National Energy System Operator",
@@ -7619,7 +7663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Principality Building Society",
@@ -7663,7 +7707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Connells Group",
@@ -7708,7 +7752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Freetrade",
@@ -7753,7 +7797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Marshmallow",
@@ -7798,7 +7842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Coadjute",
@@ -7836,7 +7880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Vitality",
@@ -7880,7 +7924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "RSA Insurance",
@@ -7924,7 +7968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Virgin Media O2",
@@ -7968,7 +8012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Pod Point",
@@ -8012,7 +8056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "TPP (SystmOne)",
@@ -8056,7 +8100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Legal & General",
@@ -8101,7 +8145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "NHS England Digital",
@@ -8146,7 +8190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Connected Kerb",
@@ -8191,7 +8235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "VAT API",
@@ -8229,7 +8273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "University of Exeter",
@@ -8274,7 +8318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "ManyPets",
@@ -8318,7 +8362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Leeds Building Society",
@@ -8363,7 +8407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "By Miles",
@@ -8408,7 +8452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "KRY | LIVI",
@@ -8453,7 +8497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "London School of Economics and Political Science",
@@ -8491,7 +8535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "University of Glasgow",
@@ -8529,7 +8573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "University of Southampton",
@@ -8574,7 +8618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "OVO Energy",
@@ -8619,7 +8663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Trainline",
@@ -8656,7 +8700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Open GI",
@@ -8701,7 +8745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Tide",
@@ -8745,7 +8789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Zilch",
@@ -8789,7 +8833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Send Technology",
@@ -8833,7 +8877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Three UK",
@@ -8877,7 +8921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "University of Warwick",
@@ -8915,7 +8959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Howden Group",
@@ -8960,7 +9004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "University of Nottingham",
@@ -8998,7 +9042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "Motics Technologies",
@@ -9043,7 +9087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Paua",
@@ -9088,7 +9132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "University of Oxford",
@@ -9126,7 +9170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "Huel",
@@ -9171,7 +9215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Zapmap",
@@ -9215,7 +9259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "LendInvest",
@@ -9253,7 +9297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "University of Aberdeen",
@@ -9291,7 +9335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "University of Liverpool",
@@ -9329,7 +9373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "University of Leeds",
@@ -9366,7 +9410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "Pay.UK",
@@ -9411,7 +9455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "University of Reading",
@@ -9449,7 +9493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Foxtons",
@@ -9487,7 +9531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "Accord",
@@ -9531,7 +9575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Admiral Group",
@@ -9576,7 +9620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "Flexitricity",
@@ -9621,7 +9665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Briefcase",
@@ -9659,7 +9703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Calderdale Data Works",
@@ -9704,7 +9748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "easyJet",
@@ -9748,7 +9792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Essex Open Data",
@@ -9793,7 +9837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "UK Government Open Data",
@@ -9838,7 +9882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "Heriot-Watt University",
@@ -9876,7 +9920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "BT Group",
@@ -9921,7 +9965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "REalyse",
@@ -9958,7 +10002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Propertymark",
@@ -9995,7 +10039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "Queen Mary University of London",
@@ -10032,7 +10076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "Redwood Bank",
@@ -10076,7 +10120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Urban Jungle",
@@ -10120,7 +10164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "Lawhive",
@@ -10158,7 +10202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "Investly",
@@ -10196,7 +10240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Accurx",
@@ -10241,7 +10285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "ANNA Money",
@@ -10286,7 +10330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "data.gov.uk CKAN Publishing Service",
@@ -10331,7 +10375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "OnTheMarket",
@@ -10369,7 +10413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Barnet Open Data",
@@ -10414,7 +10458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Convex",
@@ -10459,7 +10503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Data Mill North (Leeds)",
@@ -10504,7 +10548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Leeds Data Mill",
@@ -10549,7 +10593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "NHS Scotland Open Data",
@@ -10594,7 +10638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "OpenDataNI (Northern Ireland)",
@@ -10639,7 +10683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Spatial Hub Scotland",
@@ -10684,7 +10728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Prudential plc",
@@ -10728,7 +10772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Bloom & Wild",
@@ -10766,7 +10810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Click Mechanic",
@@ -10804,7 +10848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Satago",
@@ -10841,7 +10885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "Butternut Box",
@@ -10879,7 +10923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Direct Line Group",
@@ -10924,7 +10968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "HomeTouch",
@@ -10968,7 +11012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Lendable",
@@ -11006,7 +11050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Tem",
@@ -11050,7 +11094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Atom Learning",
@@ -11088,7 +11132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "BorrowMyDoggy",
@@ -11126,7 +11170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Immigram LTD",
@@ -11164,7 +11208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Lantum",
@@ -11209,7 +11253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "KareInn",
@@ -11254,7 +11298,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "Wayhome",
@@ -11291,7 +11335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "Tooth Fairy",
@@ -11335,7 +11379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "Gousto",
@@ -11373,7 +11417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "Acturis",
@@ -11418,7 +11462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Concirrus",
@@ -11463,7 +11507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "MyBuilder",
@@ -11501,7 +11545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "DoorFeed",
@@ -11539,7 +11583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Fuse",
@@ -11584,7 +11628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Fuse Energy",
@@ -11629,7 +11673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Electric Car Scheme",
@@ -11667,7 +11711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "IHG Hotels & Resorts",
@@ -11705,7 +11749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Tuli",
@@ -11749,7 +11793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "On the Beach",
@@ -11787,7 +11831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "Carmoola",
@@ -11825,7 +11869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "flatfair",
@@ -11863,7 +11907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "London House Exchange (Property Partner)",
@@ -11900,7 +11944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "Sidekick",
@@ -11937,7 +11981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 279
     }
    ]
   },
@@ -11992,7 +12036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "Healthera",
@@ -12037,7 +12081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Tripledot",
@@ -12074,7 +12118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Nutmeg (J.P. Morgan Personal Investing)",
@@ -12112,7 +12156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 283
     },
     {
      "name": "Numan",
@@ -12157,7 +12201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 284
     },
     {
      "name": "Savills",
@@ -12201,7 +12245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 285
     },
     {
      "name": "Atom Bank",
@@ -12246,7 +12290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 286
     },
     {
      "name": "Yonder",
@@ -12290,7 +12334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 287
     },
     {
      "name": "Reposit",
@@ -12334,7 +12378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "Superscript",
@@ -12378,7 +12422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "So Sure",
@@ -12422,7 +12466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 290
     },
     {
      "name": "Medefer",
@@ -12467,7 +12511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 291
     },
     {
      "name": "IMP Software",
@@ -12505,7 +12549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 292
     },
     {
      "name": "The Modern Milkman",
@@ -12542,7 +12586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 293
     },
     {
      "name": "Carwow",
@@ -12579,7 +12623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 294
     },
     {
      "name": "Close Brothers",
@@ -12624,7 +12668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 295
     },
     {
      "name": "Push Doctor",
@@ -12668,7 +12712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 296
     },
     {
      "name": "Cera",
@@ -12713,7 +12757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 297
     },
     {
      "name": "Lottie",
@@ -12758,7 +12802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 298
     },
     {
      "name": "Dwelly",
@@ -12796,7 +12840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 299
     },
     {
      "name": "Tiney",
@@ -12833,7 +12877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "Chipper Cash",
@@ -12878,7 +12922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 301
     },
     {
      "name": "ProGrad",
@@ -12915,7 +12959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 302
     },
     {
      "name": "Proportunity",
@@ -12952,7 +12996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 303
     },
     {
      "name": "Truly Experiences",
@@ -12989,7 +13033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 304
     },
     {
      "name": "Oxa",
@@ -13027,7 +13071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 305
     },
     {
      "name": "Evri",
@@ -13065,7 +13109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 306
     },
     {
      "name": "Fuse Energy",
@@ -13109,7 +13153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 307
     },
     {
      "name": "Dishpatch",
@@ -13147,7 +13191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 308
     },
     {
      "name": "Wollit",
@@ -13184,7 +13228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 309
     },
     {
      "name": "Habito",
@@ -13222,7 +13266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 310
     },
     {
      "name": "Taxscouts",
@@ -13259,7 +13303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 311
     },
     {
      "name": "Jet2",
@@ -13304,7 +13348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 312
     },
     {
      "name": "Sourceful",
@@ -13342,7 +13386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 313
     },
     {
      "name": "NOTHS",
@@ -13379,7 +13423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 314
     },
     {
      "name": "THG",
@@ -13416,7 +13460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 315
     },
     {
      "name": "Vsim",
@@ -13453,7 +13497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 316
     },
     {
      "name": "Tuza",
@@ -13497,7 +13541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 317
     },
     {
      "name": "Trussle",
@@ -13541,7 +13585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 318
     },
     {
      "name": "Getagent",
@@ -13578,7 +13622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 319
     },
     {
      "name": "getdinghy",
@@ -13622,7 +13666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 320
     },
     {
      "name": "Circle Health Group",
@@ -13667,7 +13711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 321
     },
     {
      "name": "Tekever",
@@ -13705,7 +13749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 322
     },
     {
      "name": "Cambridge Aerospace",
@@ -13743,7 +13787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 323
     },
     {
      "name": "Cazoo",
@@ -13780,7 +13824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "crowdcube",
@@ -13817,7 +13861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "Fluidly",
@@ -13855,7 +13899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Hassle",
@@ -13893,7 +13937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "nested",
@@ -13931,7 +13975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 328
     },
     {
      "name": "OneSwoop",
@@ -13968,7 +14012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 329
     },
     {
      "name": "PrimaryBid",
@@ -14005,7 +14049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 330
     },
     {
      "name": "rentify",
@@ -14042,7 +14086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 331
     },
     {
      "name": "City Reach International",
@@ -14087,7 +14131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 332
     },
     {
      "name": "Lanistar",
@@ -14132,7 +14176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 333
     }
    ]
   },
@@ -14149,7 +14193,7 @@
      "slug": "anthemis",
      "description": "Anthemis Group is a London-based venture capital and asset management firm founded in 2010 by Amy Nauiokas (Group CEO) and Sean Park (Group CIO), both former capital-markets executives. Anthemis invests to \"architect the digital economy,\" concentrating on financial technology and its adjacencies: embedded finance, payments and banking infrastructure, insurtech, wealthtech, crypto and digital assets, climate and agtech finance, and applied AI for financial services. The firm invests primarily at pre-seed, seed, Series A and early Series B, writing checks generally in the ~$2M-$3M range, and pairs venture investing with an advisory and platform practice aimed at systematically transforming financial services. Anthemis is headquartered in London with additional presence in New York, Geneva, Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthemis/refs/heads/main/screenshots/anthemis-2026-07-25T200409.png",
-     "rank": 333
+     "rank": 334
     }
    ]
   }

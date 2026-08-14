@@ -16,18 +16,18 @@
      "slug": "crescendo-lab",
      "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png",
-     "score": 44.0,
+     "score": 55.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 64.3,
       "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 58.2,
-      "commercial_clarity": 44.7
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 82.1,
+      "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -36,7 +36,7 @@
       "score": 27.8,
       "matched_via": "tags"
      },
-     "agent_score": 57.0,
+     "agent_score": 60.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -46,7 +46,7 @@
       "idempotency": "documented",
       "error_semantics": "verified",
       "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -491,7 +491,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

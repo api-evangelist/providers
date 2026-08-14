@@ -1,5 +1,5 @@
 {
- "total": 1286,
+ "total": 1287,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -655,8 +655,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 59,
-   "shown": 59,
+   "count": 60,
+   "shown": 60,
    "providers": [
     {
      "name": "Chainstack",
@@ -1688,6 +1688,44 @@
      "rank": 39
     },
     {
+     "name": "Paragraph",
+     "slug": "paragraph",
+     "description": "Paragraph is a web3-native publishing and newsletter platform where writers get a website, a newsletter, an owned subscriber list, and an AI agent that drafts, distributes, and maintains their publication. It supports custom domains, Substack import, subscriber management, and onchain monetization through writer coins and post coins. Paragraph ships a full public REST API (public.api.paragraph.com), an official TypeScript SDK, a CLI, a hosted Model Context Protocol server, and published Agent Skills so developers and AI agents can manage posts, publications, subscribers, and coins programmatically. Backed by Union Square Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png",
+     "score": 60.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 62.1,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 52.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 40
+    },
+    {
      "name": "Livepeer",
      "slug": "livepeer",
      "description": "Livepeer is a decentralized video infrastructure network. Independent orchestrators run GPU hardware to provide live and on-demand video transcoding services, paid for in ETH/LPT on the Livepeer protocol. Livepeer Studio is the managed gateway and developer platform sitting on top of the network, exposing a REST API at livepeer.studio/api for live streams, on- demand assets, multistream targets, transcoding jobs, sessions, playback, signing keys, AI generation (text-to-image, image-to-image, image-to-video, upscale, audio-to-text), and webhooks. Official SDKs are published for JavaScript/TypeScript, Python, Go, and Ruby, with React Player and React Broadcast components for client-side playback and ingest.",
@@ -1723,7 +1761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "iOS",
@@ -1768,7 +1806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Blockchain.com",
@@ -1813,7 +1851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "ALTR",
@@ -1851,7 +1889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "EOD Historical Data",
@@ -1896,7 +1934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "ProcessOut",
@@ -1940,7 +1978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Barchart",
@@ -1984,7 +2022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Payabli",
@@ -2029,7 +2067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "PayPal",
@@ -2074,7 +2112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Cash App",
@@ -2119,7 +2157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Arweave",
@@ -2157,7 +2195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Figment",
@@ -2195,7 +2233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Triton One",
@@ -2233,7 +2271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Conduit",
@@ -2271,7 +2309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Copper.co",
@@ -2316,7 +2354,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "CipherOwl",
@@ -2354,7 +2392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Algorand",
@@ -2392,7 +2430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Avalanche",
@@ -2430,7 +2468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Scale3",
@@ -2467,7 +2505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Coinme",
@@ -2512,7 +2550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "LI.FI",
@@ -2557,7 +2595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Utila",
@@ -2601,7 +2639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Amazon Managed Blockchain",
@@ -2639,7 +2677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Dinari",
@@ -2684,7 +2722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Inference",
@@ -2722,7 +2760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Ripple Labs",
@@ -2766,7 +2804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Amazon WorkMail",
@@ -2811,7 +2849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "N3XT",
@@ -2856,7 +2894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "IOTA",
@@ -2894,7 +2932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Blockfrost",
@@ -2932,7 +2970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Agentcard",
@@ -2977,7 +3015,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Civic",
@@ -3022,7 +3060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Kaiko",
@@ -3067,7 +3105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Gitcoin",
@@ -3104,7 +3142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Voltage",
@@ -3148,7 +3186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     }
    ],
    "open": true
@@ -3158,8 +3196,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 270,
-   "shown": 270,
+   "count": 271,
+   "shown": 271,
    "providers": [
     {
      "name": "Bitpanda",
@@ -3204,7 +3242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Tiingo",
@@ -3249,7 +3287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "OpenZeppelin",
@@ -3287,7 +3325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "MoonPay",
@@ -3332,7 +3370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Coinflow",
@@ -3377,7 +3415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Dynamic",
@@ -3422,7 +3460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Unstoppable Finance (Iron)",
@@ -3466,7 +3504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Allium",
@@ -3511,7 +3549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Fat Zebra",
@@ -3556,7 +3594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Fiat Republic",
@@ -3601,7 +3639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Magic Eden",
@@ -3639,7 +3677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Spiko",
@@ -3683,7 +3721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Fordefi",
@@ -3728,7 +3766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Amazon QLDB",
@@ -3766,7 +3804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Mesh",
@@ -3811,7 +3849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Finage",
@@ -3856,7 +3894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Anchorage Digital",
@@ -3901,7 +3939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Mudrex",
@@ -3946,7 +3984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Tensor",
@@ -3991,7 +4029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Misskey",
@@ -4029,7 +4067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "CoinGecko",
@@ -4074,7 +4112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "OpenSea",
@@ -4119,7 +4157,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Ava Labs",
@@ -4157,7 +4195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Sentio",
@@ -4194,7 +4232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Tether",
@@ -4238,7 +4276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Qfex",
@@ -4282,7 +4320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Mesh Connect",
@@ -4327,7 +4365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Binance.US",
@@ -4372,7 +4410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "AltoIRA",
@@ -4410,7 +4448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Coin Metrics",
@@ -4455,7 +4493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Linea",
@@ -4493,7 +4531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Paxos",
@@ -4538,7 +4576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Ansa",
@@ -4583,7 +4621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "ByKaranteli",
@@ -4627,7 +4665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Coins.ph",
@@ -4672,7 +4710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "CryptoNews API",
@@ -4717,7 +4755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Halliday",
@@ -4762,7 +4800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "OpenNode",
@@ -4807,7 +4845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Block",
@@ -4852,7 +4890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Octav",
@@ -4897,7 +4935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Coinbase Commerce",
@@ -4942,7 +4980,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Deutsche Börse",
@@ -4987,7 +5025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Rarible",
@@ -5032,7 +5070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Basis Theory",
@@ -5077,7 +5115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "AT Protocol",
@@ -5114,7 +5152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Payrails",
@@ -5159,7 +5197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Circle",
@@ -5204,7 +5242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "LianLian Global",
@@ -5249,7 +5287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Luno",
@@ -5294,7 +5332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Ondo Finance",
@@ -5339,7 +5377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Merit Systems",
@@ -5384,7 +5422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Transpose",
@@ -5422,7 +5460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "NALA",
@@ -5467,7 +5505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Coinbase Global",
@@ -5512,7 +5550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "BCB Group",
@@ -5557,7 +5595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Nym Technologies",
@@ -5595,7 +5633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Hedera",
@@ -5633,7 +5671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Kyber Network",
@@ -5678,7 +5716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Safello",
@@ -5722,7 +5760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Horizon Blockchain Games",
@@ -5767,7 +5805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Coinbase",
@@ -5812,7 +5850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "CurrencyBeacon",
@@ -5850,7 +5888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "JPX (Japan Exchange Group)",
@@ -5895,7 +5933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "LBank",
@@ -5940,7 +5978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "SIX",
@@ -5985,7 +6023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Upbit",
@@ -6030,7 +6068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Defined",
@@ -6075,7 +6113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Google Wallet",
@@ -6120,7 +6158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Hibachi",
@@ -6165,7 +6203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Optimism Etherscan",
@@ -6202,7 +6240,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
+    },
+    {
+     "name": "Orthogonal",
+     "slug": "orthogonal",
+     "description": "Orthogonal is a unified API and payment layer for AI agents, backed by Pantera Capital and Y Combinator. An agent describes what it needs in natural language and Orthogonal returns the right service from a catalog of 40+ third-party APIs (web search, data enrichment, scraping, email finding/verification, identity), then proxies the call and meters a per-call price. Access is available through a REST API (api.orthogonal.com), a TypeScript SDK (@orth/sdk), a Python SDK (orth), a CLI (@orth/cli), and an official hosted MCP server (mcp.orthogonal.com) for Claude, Cursor, and other agents. Billing is prepaid credits or pay-per-call stablecoin micropayments over x402 (USDC on Base) and MPP (USDC.e on Tempo). Orthogonal also publishes an open library of 88 installable Agent Skills.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 14.6,
+      "governance": 11.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 82.6,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 64.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false
+     },
+     "rank": 146
     },
     {
      "name": "Anchorage Digital",
@@ -6247,7 +6330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "Malga",
@@ -6291,45 +6374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
-    },
-    {
-     "name": "Paragraph",
-     "slug": "paragraph",
-     "description": "Paragraph is a web3-native publishing and newsletter platform where writers get a website, a newsletter, an owned subscriber list, and an AI agent that drafts, distributes, and maintains their publication. It supports custom domains, Substack import, subscriber management, and onchain monetization through writer coins and post coins. Paragraph ships a full public REST API (public.api.paragraph.com), an official TypeScript SDK, a CLI, a hosted Model Context Protocol server, and published Agent Skills so developers and AI agents can manage posts, publications, subscribers, and coins programmatically. Backed by Union Square Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 62.1,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 46.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Shift4",
@@ -6373,7 +6418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "TRM Labs",
@@ -6410,7 +6455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Augustus",
@@ -6455,7 +6500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Arkham",
@@ -6500,7 +6545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Deribit",
@@ -6545,7 +6590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Pocket Network",
@@ -6583,7 +6628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "MetaLend",
@@ -6628,7 +6673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Ostium Labs",
@@ -6673,7 +6718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Pimlico",
@@ -6717,7 +6762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "0G Labs",
@@ -6755,7 +6800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Arbiscan",
@@ -6793,7 +6838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Numerai",
@@ -6831,7 +6876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Obol",
@@ -6869,7 +6914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "CoinGate",
@@ -6914,7 +6959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Bridge",
@@ -6959,7 +7004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Cadana",
@@ -7004,7 +7049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "MEXC",
@@ -7049,7 +7094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Bitstamp",
@@ -7094,7 +7139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Finnhub",
@@ -7139,7 +7184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Forum",
@@ -7184,7 +7229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Jito Labs",
@@ -7222,7 +7267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Mercado Pago",
@@ -7267,7 +7312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Apple Pay",
@@ -7312,7 +7357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Request Finance",
@@ -7356,7 +7401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Uniswap",
@@ -7401,7 +7446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Dialect",
@@ -7446,7 +7491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Idle Finance",
@@ -7484,7 +7529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Caliza",
@@ -7529,7 +7574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "PayU",
@@ -7573,7 +7618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Euler Finance",
@@ -7611,7 +7656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Kusama",
@@ -7649,7 +7694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Pyth",
@@ -7693,7 +7738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "TOP Group (The Open Platform)",
@@ -7737,7 +7782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Bitski",
@@ -7781,7 +7826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Mammoth Media",
@@ -7826,7 +7871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Sponge",
@@ -7870,7 +7915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Totalis",
@@ -7914,7 +7959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Trust Payments",
@@ -7958,7 +8003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Filebase",
@@ -7996,7 +8041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "tastytrade",
@@ -8041,7 +8086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Unlock Protocol",
@@ -8085,7 +8130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Yield.xyz",
@@ -8122,7 +8167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Blockdaemon",
@@ -8167,7 +8212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Merkle Science",
@@ -8205,7 +8250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Revolut",
@@ -8249,7 +8294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Routescan (Snowtrace)",
@@ -8286,7 +8331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Walrus Protocol",
@@ -8323,7 +8368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Cubist",
@@ -8368,7 +8413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Hivemapper",
@@ -8406,7 +8451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Nopan",
@@ -8451,7 +8496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Clusters",
@@ -8496,7 +8541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Gauntlet",
@@ -8534,7 +8579,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "PolygonScan",
@@ -8572,7 +8617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "CoinList",
@@ -8616,7 +8661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Footprint Analytics",
@@ -8654,7 +8699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Kuru",
@@ -8699,7 +8744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Sui",
@@ -8737,7 +8782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Korbit",
@@ -8782,7 +8827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "BitPay",
@@ -8827,7 +8872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Roivant Sciences",
@@ -8872,7 +8917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "BitPowr Technologies, Inc.",
@@ -8917,7 +8962,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 209
+    },
+    {
+     "name": "Deluxe Corporation",
+     "slug": "deluxe",
+     "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
+     "score": 47.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.2,
+      "governance": 20.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 210
     },
     {
      "name": "Flexa",
@@ -8962,7 +9052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 211
     },
     {
      "name": "Tesser",
@@ -9006,7 +9096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 212
     },
     {
      "name": "Oumla Ltd",
@@ -9051,7 +9141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 213
     },
     {
      "name": "PancakeSwap",
@@ -9096,7 +9186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 214
     },
     {
      "name": "Uniblock",
@@ -9134,7 +9224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 215
     },
     {
      "name": "Biconomy",
@@ -9178,7 +9268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 216
     },
     {
      "name": "Due",
@@ -9223,7 +9313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 217
     },
     {
      "name": "Hifi",
@@ -9268,7 +9358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 218
     },
     {
      "name": "InfStones",
@@ -9306,7 +9396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 219
     },
     {
      "name": "Syndicate",
@@ -9350,7 +9440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 220
     },
     {
      "name": "B3",
@@ -9395,7 +9485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 221
     },
     {
      "name": "Bitbond",
@@ -9440,7 +9530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 222
     },
     {
      "name": "Zircuit",
@@ -9477,7 +9567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 223
     },
     {
      "name": "Cryptomus",
@@ -9522,7 +9612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 224
     },
     {
      "name": "D3",
@@ -9560,7 +9650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 225
     },
     {
      "name": "Orderly Network",
@@ -9605,7 +9695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 226
     },
     {
      "name": "Digital Asset",
@@ -9643,7 +9733,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 227
     },
     {
      "name": "Overflow",
@@ -9688,7 +9778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 228
     },
     {
      "name": "WazirX",
@@ -9733,7 +9823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 229
     },
     {
      "name": "Injective",
@@ -9778,7 +9868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 230
     },
     {
      "name": "Bullet",
@@ -9823,7 +9913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 231
     },
     {
      "name": "Pendle",
@@ -9861,7 +9951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 232
     },
     {
      "name": "Robinhood",
@@ -9905,7 +9995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 233
     },
     {
      "name": "Cardstream",
@@ -9950,7 +10040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 234
     },
     {
      "name": "Arbitrum",
@@ -9988,7 +10078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 235
     },
     {
      "name": "TradeStation",
@@ -10032,7 +10122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 236
     },
     {
      "name": "Bakkt",
@@ -10077,7 +10167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 237
     },
     {
      "name": "FastForex",
@@ -10122,7 +10212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 238
     },
     {
      "name": "Figure Technology Solutions",
@@ -10160,7 +10250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 239
     },
     {
      "name": "Enso",
@@ -10198,7 +10288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 240
     },
     {
      "name": "Exactly Protocol",
@@ -10236,7 +10326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 241
     },
     {
      "name": "Kamino",
@@ -10274,7 +10364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "Lido Finance",
@@ -10312,7 +10402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "Worldpay",
@@ -10356,7 +10446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "ACI Worldwide",
@@ -10401,7 +10491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 245
     },
     {
      "name": "NOWPayments",
@@ -10446,7 +10536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 246
     },
     {
      "name": "Mysten Labs",
@@ -10484,7 +10574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 247
     },
     {
      "name": "TaxBit",
@@ -10521,7 +10611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 248
     },
     {
      "name": "Sfox",
@@ -10565,7 +10655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 249
     },
     {
      "name": "Reachware Inc.",
@@ -10609,7 +10699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 250
     },
     {
      "name": "Routefusion",
@@ -10653,7 +10743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 251
     },
     {
      "name": "Agora",
@@ -10698,7 +10788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 252
     },
     {
      "name": "BTC War Live Market Data API",
@@ -10742,7 +10832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 253
     },
     {
      "name": "Consola Finance",
@@ -10780,7 +10870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 254
     },
     {
      "name": "dxFeed",
@@ -10825,7 +10915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 255
     },
     {
      "name": "Safe (Gnosis Safe)",
@@ -10870,7 +10960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 256
     },
     {
      "name": "Stellar",
@@ -10915,7 +11005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 257
     },
     {
      "name": "ThunderCore",
@@ -10952,7 +11042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 258
     },
     {
      "name": "Tezos",
@@ -10990,7 +11080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 259
     },
     {
      "name": "Capital.com Public API",
@@ -11035,7 +11125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 260
     },
     {
      "name": "Cardano",
@@ -11073,7 +11163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 261
     },
     {
      "name": "Gunzilla Games",
@@ -11111,7 +11201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 262
     },
     {
      "name": "Paidy",
@@ -11156,7 +11246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 263
     },
     {
      "name": "Shapeshift",
@@ -11200,7 +11290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 264
     },
     {
      "name": "Nexus Mutual",
@@ -11245,7 +11335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 265
     },
     {
      "name": "Sahara AI",
@@ -11282,7 +11372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 266
     },
     {
      "name": "M0",
@@ -11327,7 +11417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 267
     },
     {
      "name": "Nestcoin",
@@ -11372,7 +11462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 268
     },
     {
      "name": "WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)",
@@ -11409,7 +11499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 269
     },
     {
      "name": "Aleo",
@@ -11447,7 +11537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 270
     },
     {
      "name": "Securitize",
@@ -11491,7 +11581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 271
     },
     {
      "name": "LooksRare",
@@ -11529,7 +11619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 272
     },
     {
      "name": "Pred",
@@ -11573,7 +11663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 273
     },
     {
      "name": "OKX",
@@ -11618,7 +11708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 274
     },
     {
      "name": "PayFast",
@@ -11663,7 +11753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 275
     },
     {
      "name": "Blackbird",
@@ -11708,7 +11798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 276
     },
     {
      "name": "1Forge",
@@ -11753,7 +11843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 277
     },
     {
      "name": "Bluesky",
@@ -11791,7 +11881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 278
     },
     {
      "name": "Tesseract",
@@ -11828,7 +11918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 279
     },
     {
      "name": "Ava Protocol",
@@ -11873,7 +11963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 280
     },
     {
      "name": "LegendTrade",
@@ -11918,7 +12008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 281
     },
     {
      "name": "Monad",
@@ -11956,7 +12046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 282
     },
     {
      "name": "Pintu",
@@ -12000,7 +12090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 283
     },
     {
      "name": "Binance",
@@ -12045,7 +12135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 284
     },
     {
      "name": "B3 (Brasil Bolsa Balcão)",
@@ -12090,7 +12180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 285
     },
     {
      "name": "ETHGas",
@@ -12135,7 +12225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 286
     },
     {
      "name": "CyberSource",
@@ -12180,7 +12270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 287
     },
     {
      "name": "Sorare",
@@ -12217,7 +12307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 288
     },
     {
      "name": "Fluence",
@@ -12255,7 +12345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 289
     },
     {
      "name": "Sequence",
@@ -12299,7 +12389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 290
     },
     {
      "name": "Skyflow",
@@ -12343,7 +12433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 291
     },
     {
      "name": "BitFury",
@@ -12381,7 +12471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 292
     },
     {
      "name": "CME Group",
@@ -12426,7 +12516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 293
     },
     {
      "name": "Phemex",
@@ -12471,7 +12561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 294
     },
     {
      "name": "Veem",
@@ -12515,7 +12605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 295
     },
     {
      "name": "CoinSwitch",
@@ -12560,7 +12650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 296
     },
     {
      "name": "Dunamu",
@@ -12577,7 +12667,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -12604,7 +12694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 297
     },
     {
      "name": "bloXroute",
@@ -12649,7 +12739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 298
     },
     {
      "name": "CertiK",
@@ -12687,7 +12777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 299
     },
     {
      "name": "DMarket",
@@ -12732,7 +12822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 300
     },
     {
      "name": "Forta",
@@ -12770,7 +12860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 301
     },
     {
      "name": "Gallop",
@@ -12808,7 +12898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 302
     },
     {
      "name": "SushiSwap",
@@ -12853,7 +12943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 303
     },
     {
      "name": "EBANX",
@@ -12898,7 +12988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 304
     },
     {
      "name": "Bithumb",
@@ -12943,7 +13033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 305
     },
     {
      "name": "Blowfish",
@@ -12988,7 +13078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 306
     },
     {
      "name": "Celsius Network",
@@ -13033,7 +13123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 307
     },
     {
      "name": "Elliptic",
@@ -13078,7 +13168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 308
     },
     {
      "name": "Hyperbeat",
@@ -13116,7 +13206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 309
     },
     {
      "name": "Polygon ID",
@@ -13154,7 +13244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 310
     },
     {
      "name": "Mobula",
@@ -13199,7 +13289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 311
     },
     {
      "name": "Recall Labs",
@@ -13243,7 +13333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 312
     },
     {
      "name": "Unstoppable Domains",
@@ -13281,7 +13371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 313
     },
     {
      "name": "Diaspora",
@@ -13319,7 +13409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 314
     },
     {
      "name": "Exponential",
@@ -13357,7 +13447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 315
     },
     {
      "name": "Hevn Inc",
@@ -13402,7 +13492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 316
     },
     {
      "name": "Synapse",
@@ -13440,7 +13530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 317
     },
     {
      "name": "Manifold",
@@ -13478,7 +13568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 318
     },
     {
      "name": "Odos",
@@ -13516,7 +13606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 319
     },
     {
      "name": "Zora",
@@ -13554,7 +13644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 320
     },
     {
      "name": "Gameflip",
@@ -13599,7 +13689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 321
     },
     {
      "name": "Sequence Markets",
@@ -13643,7 +13733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 322
     },
     {
      "name": "Optimism",
@@ -13681,7 +13771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 323
     },
     {
      "name": "Blockaid",
@@ -13726,7 +13816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 324
     },
     {
      "name": "M 0",
@@ -13771,7 +13861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 325
     },
     {
      "name": "PayPay",
@@ -13816,7 +13906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 326
     },
     {
      "name": "Tendermint",
@@ -13853,7 +13943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 327
     },
     {
      "name": "Cosmos",
@@ -13891,7 +13981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 328
     },
     {
      "name": "Gondi",
@@ -13929,7 +14019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 329
     },
     {
      "name": "Radicle",
@@ -13966,7 +14056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 330
     },
     {
      "name": "Blast",
@@ -14004,7 +14094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 331
     },
     {
      "name": "CrunchDAO",
@@ -14042,7 +14132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 332
     },
     {
      "name": "DFlow",
@@ -14087,7 +14177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 333
     },
     {
      "name": "Akash Network",
@@ -14125,7 +14215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 334
     },
     {
      "name": "API3",
@@ -14163,7 +14253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 335
     },
     {
      "name": "Basescan",
@@ -14200,7 +14290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 336
     },
     {
      "name": "Fin",
@@ -14245,52 +14335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
-    },
-    {
-     "name": "Orthogonal",
-     "slug": "orthogonal",
-     "description": "Orthogonal is a unified API and payment layer for AI agents, backed by Pantera Capital and Y Combinator. An agent describes what it needs in natural language and Orthogonal returns the right service from a catalog of 40+ third-party APIs (web search, data enrichment, scraping, email finding/verification, identity), then proxies the call and meters a per-call price. Access is available through a REST API (api.orthogonal.com), a TypeScript SDK (@orth/sdk), a Python SDK (orth), a CLI (@orth/cli), and an official hosted MCP server (mcp.orthogonal.com) for Claude, Cursor, and other agents. Billing is prepaid credits or pay-per-call stablecoin micropayments over x402 (USDC on Base) and MPP (USDC.e on Tempo). Orthogonal also publishes an open library of 88 installable Agent Skills.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 14.6,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 64.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "SingularityNET",
@@ -14328,7 +14373,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 338
+    },
+    {
+     "name": "Spindl",
+     "slug": "spindl",
+     "description": "Spindl is a Web3 growth platform providing onchain attribution, web3-native analytics, audiences, short links, referrals, and ads in one place, helping developers understand where their users come from and how they behave across onchain apps. It offers a JavaScript/HTML SDK, Android and iOS SDKs, and a Server-to-Server REST API for campaign and attribution management, short (redirect) links, server-side custom event ingestion, and daily data exports. Positioned as Web3's answer to Mixpanel and Amplitude, Spindl is used by teams including Uniswap, Base, Safe, and Morpho. A separate publisher-facing Ads API on e.spindlembed.com serves targeted onchain ad recommendations and records impressions and clicks, with a React BannerEmbed component and a hosted iframe as no-code alternatives. Spindl announced in January 2025 that it was joining Coinbase and now operates as a product team inside Base. Originally added to the API Evangelist network as a portfolio-lead stub, now enriched from its published developer documentation and live host probes.",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 64.5,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 339
     },
     {
      "name": "The Token Company",
@@ -14365,7 +14447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 340
     },
     {
      "name": "DeBank",
@@ -14382,7 +14464,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -14409,7 +14491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 341
     },
     {
      "name": "Liquity",
@@ -14447,7 +14529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 342
     },
     {
      "name": "Neynar",
@@ -14485,7 +14567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 343
     },
     {
      "name": "Boost",
@@ -14523,7 +14605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 344
     },
     {
      "name": "Kalshi",
@@ -14568,7 +14650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 345
     },
     {
      "name": "ParaSwap",
@@ -14606,7 +14688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 346
     }
    ]
   },
@@ -14615,8 +14697,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 292,
-   "shown": 292,
+   "count": 291,
+   "shown": 291,
    "providers": [
     {
      "name": "Autonomys",
@@ -14654,7 +14736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 347
     },
     {
      "name": "Consensys",
@@ -14699,7 +14781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 348
     },
     {
      "name": "Targon",
@@ -14736,7 +14818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 349
     },
     {
      "name": "Axelar",
@@ -14774,44 +14856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
-    },
-    {
-     "name": "Spindl",
-     "slug": "spindl",
-     "description": "Spindl is a Web3 growth platform providing onchain attribution, web3-native analytics, audiences, short links, referrals, and ads in one place, helping developers understand where their users come from and how they behave across onchain apps. It offers a JavaScript/HTML SDK, Android and iOS SDKs, and a Server-to-Server REST API for campaign and attribution management, short (redirect) links, server-side custom event ingestion, and daily data exports. Positioned as Web3's answer to Mixpanel and Amplitude, Spindl is used by teams including Uniswap, Base, Safe, and Morpho. Originally added to the API Evangelist network as a portfolio-lead stub, now enriched from its published developer documentation.",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 64.9,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 42.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 349
+     "rank": 350
     },
     {
      "name": "TMX Group",
@@ -14856,7 +14901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 351
     },
     {
      "name": "Recall",
@@ -14893,7 +14938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 352
     },
     {
      "name": "Starkware",
@@ -14930,7 +14975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 353
     },
     {
      "name": "CryptoQuant",
@@ -14975,7 +15020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "IDRX",
@@ -15020,7 +15065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 355
     },
     {
      "name": "Polygon.io",
@@ -15065,7 +15110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 356
     },
     {
      "name": "Wormhole",
@@ -15103,7 +15148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "PeerTube",
@@ -15141,7 +15186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "Rain",
@@ -15185,7 +15230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "Terminal 3",
@@ -15222,7 +15267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "Flashbots",
@@ -15260,7 +15305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "Lemon Cash",
@@ -15305,7 +15350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Polymarket",
@@ -15350,7 +15395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "Surf",
@@ -15394,7 +15439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "Bitso",
@@ -15439,7 +15484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "OPay",
@@ -15484,7 +15529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Orca",
@@ -15522,7 +15567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 367
     },
     {
      "name": "Nervos",
@@ -15559,7 +15604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 368
     },
     {
      "name": "Sapien",
@@ -15596,7 +15641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 369
     },
     {
      "name": "CoinAPI",
@@ -15641,7 +15686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Meter",
@@ -15679,7 +15724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "Etherscan",
@@ -15717,7 +15762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "Epoint",
@@ -15762,7 +15807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "Akash Network",
@@ -15800,7 +15845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Eco",
@@ -15845,7 +15890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "OpenMind",
@@ -15883,7 +15928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "RockSolid",
@@ -15920,7 +15965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Tenderly",
@@ -15958,7 +16003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "Cobre",
@@ -16003,7 +16048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 379
     },
     {
      "name": "GMX",
@@ -16048,7 +16093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 380
     },
     {
      "name": "Pave Bank",
@@ -16093,7 +16138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 381
     },
     {
      "name": "Rho Protocol",
@@ -16137,7 +16182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 382
     },
     {
      "name": "Taurus",
@@ -16181,7 +16226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 383
     },
     {
      "name": "BscScan",
@@ -16218,7 +16263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 383
+     "rank": 384
     },
     {
      "name": "Quadrata",
@@ -16262,7 +16307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 384
+     "rank": 385
     },
     {
      "name": "Re",
@@ -16306,7 +16351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 385
+     "rank": 386
     },
     {
      "name": "Thought Machine",
@@ -16350,7 +16395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 386
+     "rank": 387
     },
     {
      "name": "Tristero",
@@ -16394,7 +16439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 387
+     "rank": 388
     },
     {
      "name": "THORChain",
@@ -16438,7 +16483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 388
+     "rank": 389
     },
     {
      "name": "Visa",
@@ -16483,7 +16528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 389
+     "rank": 390
     },
     {
      "name": "Xignite",
@@ -16528,7 +16573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 390
+     "rank": 391
     },
     {
      "name": "Blocktorch",
@@ -16566,7 +16611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 391
+     "rank": 392
     },
     {
      "name": "BRL",
@@ -16611,7 +16656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 392
+     "rank": 393
     },
     {
      "name": "Dapper Labs",
@@ -16649,7 +16694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 394
     },
     {
      "name": "Hyperliquid",
@@ -16694,7 +16739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 395
     },
     {
      "name": "Bitnomial",
@@ -16739,7 +16784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 396
     },
     {
      "name": "AVORA Agent Forge",
@@ -16783,7 +16828,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 397
     },
     {
      "name": "Dynamic",
@@ -16828,7 +16873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 398
     },
     {
      "name": "EigenLayer",
@@ -16866,7 +16911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 399
     },
     {
      "name": "zkMe",
@@ -16903,7 +16948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 400
     },
     {
      "name": "zkSync",
@@ -16941,7 +16986,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 401
     },
     {
      "name": "Frostbyte",
@@ -16986,7 +17031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "GTE",
@@ -17031,7 +17076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "Helika",
@@ -17069,7 +17114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "NFTgo",
@@ -17114,7 +17159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Vesper Finance",
@@ -17152,7 +17197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "Ceramic",
@@ -17190,7 +17235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "Flipside Crypto",
@@ -17228,7 +17273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "Public",
@@ -17272,7 +17317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "bKash",
@@ -17317,7 +17362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "Polkadot",
@@ -17355,7 +17400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "eToro",
@@ -17400,7 +17445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Squads",
@@ -17444,7 +17489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "Webull",
@@ -17488,7 +17533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "Teahouse Finance",
@@ -17525,7 +17570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "Bitwise",
@@ -17570,7 +17615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "Blockchain.com",
@@ -17615,7 +17660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Stooq",
@@ -17660,7 +17705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "DerivaDEX",
@@ -17705,7 +17750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "Prestmit",
@@ -17750,7 +17795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "Alpaca",
@@ -17795,7 +17840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Here Not There Labs",
@@ -17833,7 +17878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "Monero",
@@ -17878,7 +17923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "Tweed",
@@ -17922,7 +17967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Synthetix",
@@ -17967,7 +18012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "Starknet",
@@ -18005,7 +18050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "Gradient",
@@ -18043,7 +18088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "Parafi",
@@ -18088,7 +18133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "_done",
@@ -18132,7 +18177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "Classic",
@@ -18177,7 +18222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "BTCPay Server",
@@ -18222,7 +18267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "eWAY",
@@ -18267,7 +18312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Hummingbot",
@@ -18312,7 +18357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "Story Protocol",
@@ -18349,7 +18394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "SynFutures",
@@ -18393,7 +18438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Very Good Security",
@@ -18438,7 +18483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Gate.io",
@@ -18483,7 +18528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Blockchair",
@@ -18520,7 +18565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "Ethereum",
@@ -18558,7 +18603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "IPFS",
@@ -18596,7 +18641,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "Matter Labs",
@@ -18634,7 +18679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "LedgerX (MIAX Derivatives Exchange)",
@@ -18679,7 +18724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "Loot Rush Games",
@@ -18724,7 +18769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 443
     },
     {
      "name": "Galxe",
@@ -18762,7 +18807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 444
     },
     {
      "name": "Kite",
@@ -18807,7 +18852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 445
     },
     {
      "name": "Yearn Finance",
@@ -18845,7 +18890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 446
     },
     {
      "name": "BarnBridge",
@@ -18883,7 +18928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 447
     },
     {
      "name": "Bitquery",
@@ -18921,7 +18966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 448
     },
     {
      "name": "Dune Analytics",
@@ -18959,7 +19004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 449
     },
     {
      "name": "Flow",
@@ -18997,7 +19042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 450
     },
     {
      "name": "Mantle Network",
@@ -19035,7 +19080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "SuperRare",
@@ -19073,7 +19118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "BitOasis",
@@ -19118,7 +19163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "Brave",
@@ -19156,7 +19201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "Breeze",
@@ -19201,7 +19246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "Espresso",
@@ -19239,7 +19284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "Loon Finance",
@@ -19284,7 +19329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "QuickNode",
@@ -19322,7 +19367,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "Syndica",
@@ -19360,7 +19405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "CyberConnect",
@@ -19398,7 +19443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "One Trading",
@@ -19443,7 +19488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "Pixelfed",
@@ -19481,7 +19526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "Proof of Play",
@@ -19518,7 +19563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "Turnkey",
@@ -19563,7 +19608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "Helius",
@@ -19601,7 +19646,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "Infura",
@@ -19639,7 +19684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "First Digital Trust",
@@ -19656,7 +19701,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -19683,7 +19728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "Jupiter",
@@ -19721,7 +19766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "HiPay",
@@ -19766,7 +19811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "Babylon Labs",
@@ -19804,7 +19849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "Ribbon Finance",
@@ -19842,7 +19887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "BanQu",
@@ -19880,7 +19925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "Self.ID",
@@ -19918,7 +19963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Capitalist",
@@ -19963,7 +20008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "Kadena",
@@ -20001,7 +20046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "PowerTrade",
@@ -20045,7 +20090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "BitMart",
@@ -20090,7 +20135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "Loop Crypto",
@@ -20134,7 +20179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "LootRush",
@@ -20179,7 +20224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "Bigchaindb",
@@ -20217,7 +20262,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "Hegic",
@@ -20262,7 +20307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "Matrix",
@@ -20300,7 +20345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "Morpho",
@@ -20338,7 +20383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Superform",
@@ -20375,7 +20420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "Mobilecoin",
@@ -20420,7 +20465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "BitGo",
@@ -20465,7 +20510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Foundation",
@@ -20503,7 +20548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "Grapes Finance",
@@ -20548,7 +20593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "Alchemy",
@@ -20586,7 +20631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "Chimoney",
@@ -20631,7 +20676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "DSCVR",
@@ -20669,7 +20714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "Envio",
@@ -20707,7 +20752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "Rugspull Read API",
@@ -20744,7 +20789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "Eldorado",
@@ -20789,7 +20834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "Lemonway",
@@ -20834,7 +20879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "OneKey",
@@ -20879,7 +20924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "Reown",
@@ -20924,7 +20969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "Sky Mavis",
@@ -20968,7 +21013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "Vana",
@@ -21005,7 +21050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "Ajaib",
@@ -21050,7 +21095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "Chainlens",
@@ -21088,7 +21133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "Code",
@@ -21133,7 +21178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "Linq.gg",
@@ -21178,7 +21223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "MetaDAO",
@@ -21223,7 +21268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "thirdweb",
@@ -21268,7 +21313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "Dfns",
@@ -21313,7 +21358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Gluwa",
@@ -21358,7 +21403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "EOSIO",
@@ -21395,7 +21440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Filecoin",
@@ -21433,7 +21478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Google Pay",
@@ -21478,7 +21523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "WAODAO",
@@ -21515,7 +21560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Dopex",
@@ -21553,7 +21598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "Freeverse",
@@ -21591,7 +21636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "Glassnode",
@@ -21629,7 +21674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Shipyard Software",
@@ -21673,7 +21718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Everclear",
@@ -21710,7 +21755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Frax Finance",
@@ -21748,7 +21793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Morpho Labs",
@@ -21786,7 +21831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Jupiter",
@@ -21824,7 +21869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Nano",
@@ -21869,7 +21914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "Omise",
@@ -21914,7 +21959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "Everledger",
@@ -21952,7 +21997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "LayerZero",
@@ -21990,7 +22035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "Nexo",
@@ -22035,7 +22080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "Rocket Pool",
@@ -22073,7 +22118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "Sila",
@@ -22117,7 +22162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Angle",
@@ -22155,7 +22200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Art Blocks",
@@ -22193,7 +22238,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "Blue Square Group Limited",
@@ -22238,7 +22283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "Perp",
@@ -22282,7 +22327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Scroll",
@@ -22320,7 +22365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Stablesea",
@@ -22364,7 +22409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "Vauld",
@@ -22408,7 +22453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "PayStand",
@@ -22453,7 +22498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "1inch",
@@ -22491,7 +22536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "EDX Markets",
@@ -22536,7 +22581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "Overlay",
@@ -22581,7 +22626,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Skyfire",
@@ -22625,7 +22670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Reservoir",
@@ -22670,7 +22715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "DODO",
@@ -22715,7 +22760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "OpenWallet Foundation",
@@ -22760,7 +22805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "Hyperledger",
@@ -22798,7 +22843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "BNY (Bank of New York Mellon)",
@@ -22843,7 +22888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "DAZ 3D",
@@ -22860,7 +22905,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -22880,7 +22925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Messari",
@@ -22918,7 +22963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Chain",
@@ -22963,7 +23008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Seismic Systems",
@@ -23000,7 +23045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Timeswap",
@@ -23037,7 +23082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Base",
@@ -23082,7 +23127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "Paymentus",
@@ -23126,7 +23171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "HTX",
@@ -23171,7 +23216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "Solscan",
@@ -23209,7 +23254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Celo",
@@ -23254,7 +23299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Urbit",
@@ -23291,7 +23336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "brapi",
@@ -23329,7 +23374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Ant Group",
@@ -23374,7 +23419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "BurstIQ",
@@ -23419,7 +23464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "American Express",
@@ -23464,7 +23509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "Arkham Intelligence",
@@ -23509,7 +23554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Constellation Brands",
@@ -23547,7 +23592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Zip",
@@ -23592,7 +23637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "DefiLlama",
@@ -23630,7 +23675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "Airstack",
@@ -23675,7 +23720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Mezo",
@@ -23713,7 +23758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "Ethena Labs",
@@ -23751,7 +23796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Toucan",
@@ -23795,7 +23840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "1inch",
@@ -23840,7 +23885,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Bastion",
@@ -23885,7 +23930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "HKEX",
@@ -23930,7 +23975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Vault12",
@@ -23974,7 +24019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Braintrust (Talent Network)",
@@ -24011,7 +24056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "River Financial",
@@ -24055,7 +24100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "XMTP",
@@ -24100,7 +24145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "ZeroDev",
@@ -24145,7 +24190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Commonwealth",
@@ -24183,7 +24228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "Tatum",
@@ -24228,7 +24273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "Farcaster",
@@ -24266,7 +24311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "LunarCrush",
@@ -24311,7 +24356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Moralis",
@@ -24349,7 +24394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Origin Protocol",
@@ -24387,7 +24432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Nansen",
@@ -24432,7 +24477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "SimpleHash",
@@ -24470,7 +24515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Veli",
@@ -24508,7 +24553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "Bitget",
@@ -24553,7 +24598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Blockstream",
@@ -24591,7 +24636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "OlympusDAO",
@@ -24629,7 +24674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "PolySign",
@@ -24673,7 +24718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "Privy",
@@ -24718,7 +24763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Santiment",
@@ -24756,7 +24801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Venmo",
@@ -24800,7 +24845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "Alien",
@@ -24838,7 +24883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "CoinPaprika",
@@ -24883,7 +24928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Berachain",
@@ -24921,7 +24966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "Maverick Protocol",
@@ -24966,7 +25011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "Valora",
@@ -25010,7 +25055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "WAX",
@@ -25054,7 +25099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Audius",
@@ -25092,7 +25137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Spacemesh",
@@ -25129,7 +25174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Filament",
@@ -25174,7 +25219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Pinata",
@@ -25212,7 +25257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Curve Finance",
@@ -25250,7 +25295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "FalconX",
@@ -25295,7 +25340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "Opyn",
@@ -25340,7 +25385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "Certora",
@@ -25378,7 +25423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Chia Network",
@@ -25416,7 +25461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Doodles",
@@ -25433,7 +25478,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -25453,7 +25498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "Fawry",
@@ -25498,7 +25543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Qiwi",
@@ -25543,7 +25588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "X2Y2",
@@ -25588,7 +25633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Band Protocol",
@@ -25626,7 +25671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Dynamic",
@@ -25671,7 +25716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "XRP Ledger",
@@ -25709,7 +25754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Demox Labs",
@@ -25754,7 +25799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Limit Break",
@@ -25792,7 +25837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Skale Labs",
@@ -25836,7 +25881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Lido",
@@ -25874,7 +25919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Litecoin",
@@ -25919,7 +25964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Mina",
@@ -25957,7 +26002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Blockscout",
@@ -25995,7 +26040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Hiro",
@@ -26033,7 +26078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Raydium",
@@ -26071,7 +26116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "Hashflow",
@@ -26116,7 +26161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "Parsec Finance",
@@ -26160,7 +26205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "Lyra",
@@ -26205,7 +26250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Crossmint",
@@ -26250,7 +26295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "Electronx",
@@ -26295,7 +26340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Euronext",
@@ -26340,7 +26385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "Push Protocol",
@@ -26385,7 +26430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "Unto Labs",
@@ -26422,7 +26467,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "WinCL",
@@ -26466,7 +26511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "The Graph",
@@ -26504,7 +26549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Lit Protocol",
@@ -26542,7 +26587,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "Minerstat",
@@ -26580,7 +26625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 633
     },
     {
      "name": "Shakepay",
@@ -26624,7 +26669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 634
     },
     {
      "name": "Iron Fish",
@@ -26669,7 +26714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 635
     },
     {
      "name": "Linea",
@@ -26707,7 +26752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 636
     },
     {
      "name": "Sling (Morse)",
@@ -26751,7 +26796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 637
     }
    ]
   },
@@ -26760,8 +26805,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 299,
-   "shown": 299,
+   "count": 300,
+   "shown": 300,
    "providers": [
     {
      "name": "Phantom",
@@ -26806,7 +26851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 638
     },
     {
      "name": "Flowdesk",
@@ -26851,7 +26896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 639
     },
     {
      "name": "Electronic payment Exchange Inc",
@@ -26895,7 +26940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 639
+     "rank": 640
     },
     {
      "name": "CoinEx",
@@ -26940,7 +26985,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 641
     },
     {
      "name": "Sei",
@@ -26985,7 +27030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 642
     },
     {
      "name": "Ernst & Young (EY)",
@@ -27023,7 +27068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 643
     },
     {
      "name": "Exchange Data International",
@@ -27068,7 +27113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 644
     },
     {
      "name": "Sommelier",
@@ -27105,7 +27150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 645
     },
     {
      "name": "Magic",
@@ -27149,7 +27194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 646
     },
     {
      "name": "Toss",
@@ -27194,7 +27239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 647
     },
     {
      "name": "Aurora",
@@ -27232,7 +27277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 648
     },
     {
      "name": "KyberSwap",
@@ -27270,7 +27315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 649
     },
     {
      "name": "Chia",
@@ -27308,7 +27353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 650
     },
     {
      "name": "io.net",
@@ -27346,7 +27391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 651
     },
     {
      "name": "Mobillis",
@@ -27391,7 +27436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 652
     },
     {
      "name": "Getnet",
@@ -27436,7 +27481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 653
     },
     {
      "name": "Opentrade",
@@ -27474,7 +27519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 654
     },
     {
      "name": "BitClout (DeSo)",
@@ -27512,7 +27557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 655
     },
     {
      "name": "Romit",
@@ -27556,7 +27601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 656
     },
     {
      "name": "Sling Money",
@@ -27600,7 +27645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 657
     },
     {
      "name": "Morph",
@@ -27638,7 +27683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 658
     },
     {
      "name": "Coinbase Pro",
@@ -27676,7 +27721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 659
     },
     {
      "name": "=nil; Foundation",
@@ -27714,7 +27759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 660
     },
     {
      "name": "Across",
@@ -27759,7 +27804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 661
     },
     {
      "name": "AI Arena",
@@ -27797,7 +27842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 662
     },
     {
      "name": "NEAR Protocol",
@@ -27835,7 +27880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 663
     },
     {
      "name": "Succinct",
@@ -27872,7 +27917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 664
     },
     {
      "name": "NMI",
@@ -27917,7 +27962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 665
     },
     {
      "name": "Violet",
@@ -27954,7 +27999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 666
     },
     {
      "name": "WIBMO",
@@ -27998,7 +28043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 667
     },
     {
      "name": "Bitwise Investments",
@@ -28043,7 +28088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 668
     },
     {
      "name": "Sudoswap",
@@ -28081,7 +28126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 669
     },
     {
      "name": "AstroPay",
@@ -28126,7 +28171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 670
     },
     {
      "name": "BitClout",
@@ -28164,7 +28209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 671
     },
     {
      "name": "dYdX",
@@ -28202,7 +28247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 672
     },
     {
      "name": "Axie Infinity",
@@ -28240,7 +28285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 673
     },
     {
      "name": "BlockVision",
@@ -28278,7 +28323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 674
     },
     {
      "name": "Celo Foundation",
@@ -28323,7 +28368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 675
     },
     {
      "name": "Maple Finance",
@@ -28361,7 +28406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 676
     },
     {
      "name": "Bitmex",
@@ -28399,7 +28444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 677
     },
     {
      "name": "Harmonic GG",
@@ -28437,7 +28482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 678
     },
     {
      "name": "Oasis Labs",
@@ -28475,7 +28520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 679
     },
     {
      "name": "Unchained Capital",
@@ -28519,7 +28564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 680
     },
     {
      "name": "Erebor",
@@ -28564,7 +28609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 681
     },
     {
      "name": "Bybit",
@@ -28601,7 +28646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 682
     },
     {
      "name": "CoinDCX",
@@ -28639,7 +28684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 683
     },
     {
      "name": "Huobi",
@@ -28677,7 +28722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 684
     },
     {
      "name": "OKEx",
@@ -28714,7 +28759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 685
     },
     {
      "name": "Poloniex",
@@ -28752,7 +28797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 686
     },
     {
      "name": "Quai Network",
@@ -28789,7 +28834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 687
     },
     {
      "name": "Xapo",
@@ -28833,7 +28878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 688
     },
     {
      "name": "Warblerlabs",
@@ -28870,7 +28915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Wave Mobile Money",
@@ -28915,7 +28960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "Aztec",
@@ -28953,7 +28998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "Bitfinex",
@@ -28991,7 +29036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "KuCoin",
@@ -29029,7 +29074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "Pendle Finance",
@@ -29067,7 +29112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "Wealthsimple",
@@ -29111,7 +29156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "Molecule",
@@ -29156,7 +29201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 696
     },
     {
      "name": "String Technology Inc",
@@ -29200,7 +29245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 697
     },
     {
      "name": "Hamsa",
@@ -29245,7 +29290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 698
     },
     {
      "name": "Redotpay",
@@ -29289,7 +29334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 699
     },
     {
      "name": "RLY Network",
@@ -29333,7 +29378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 700
     },
     {
      "name": "Zcash",
@@ -29371,7 +29416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 701
     },
     {
      "name": "Chainflip",
@@ -29409,7 +29454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 702
     },
     {
      "name": "Mina Protocol",
@@ -29447,7 +29492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 703
     },
     {
      "name": "Notional Finance",
@@ -29485,7 +29530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 704
     },
     {
      "name": "Talos",
@@ -29529,7 +29574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 705
     },
     {
      "name": "Mirror",
@@ -29567,7 +29612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 706
     },
     {
      "name": "RedStone",
@@ -29604,7 +29649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 707
     },
     {
      "name": "Zebec",
@@ -29648,7 +29693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 708
     },
     {
      "name": "Zot",
@@ -29686,7 +29731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 709
     },
     {
      "name": "5ire",
@@ -29723,7 +29768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 710
     },
     {
      "name": "Acala",
@@ -29761,7 +29806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 711
     },
     {
      "name": "BreederDAO",
@@ -29799,7 +29844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 712
     },
     {
      "name": "Gateio",
@@ -29837,7 +29882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 713
     },
     {
      "name": "IYK",
@@ -29875,7 +29920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 714
     },
     {
      "name": "o1 Labs",
@@ -29913,7 +29958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "Sorella Labs",
@@ -29957,7 +30002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 716
     },
     {
      "name": "Aave",
@@ -29995,7 +30040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 717
     },
     {
      "name": "TradeBB",
@@ -30032,7 +30077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 718
     },
     {
      "name": "Kyash",
@@ -30077,7 +30122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 719
     },
     {
      "name": "Offchain Labs",
@@ -30115,7 +30160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 720
     },
     {
      "name": "InfinitySwap",
@@ -30153,7 +30198,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 721
+    },
+    {
+     "name": "Mainframe",
+     "slug": "mainframe",
+     "description": "Mainframe (Mainframe Group, Inc.) is a software development and marketing services company building products for the decentralized finance (DeFi) ecosystem. It offers three service areas — Risk Management (protocol parameter optimization and stability), Development (DeFi and blockchain financial solutions), and Marketing (brand reach and audience engagement) — and has produced projects including Hifi, Pooled NFT, Sheet Heads, and Crown Ribbon. It was surfaced as a portfolio company of a16z and Techstars and added to the API Evangelist network. Mainframe itself publishes only a three-page Webflow marketing site, with no API host and no developer portal (api., docs. and developer.mainframe.co do not resolve), and its MainframeHQ GitHub organization has zero public repositories. Its developer surface lives under its Hifi product instead — the docs.hifi.finance protocol documentation (footer copyright \"Mainframe Group Inc.\"), the github.com/hifi-finance organization, five first-party npm packages in the @hifi scope, and a GraphQL subgraph schema for the Hifi lending protocol. That surface is a smart-contract SDK rather than an HTTP API — there is no REST API and no OpenAPI anywhere — and it has gone quiet, with the newest package release dated 2024-01-12 and the documented GraphQL endpoint on The Graph's retired hosted service returning HTTP 404.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mainframe/refs/heads/main/screenshots/mainframe-2026-07-25T225915.png",
+     "score": 22.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 42.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 722
     },
     {
      "name": "Agoric",
@@ -30191,7 +30274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 723
     },
     {
      "name": "Multipli",
@@ -30229,7 +30312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 724
     },
     {
      "name": "Catena",
@@ -30274,7 +30357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 725
     },
     {
      "name": "Reflexer",
@@ -30311,7 +30394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 726
     },
     {
      "name": "DFINITY",
@@ -30349,7 +30432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 727
     },
     {
      "name": "DolarApp",
@@ -30366,7 +30449,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -30393,7 +30476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 728
     },
     {
      "name": "Helium Network",
@@ -30431,7 +30514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 729
     },
     {
      "name": "Provenance",
@@ -30468,7 +30551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 730
     },
     {
      "name": "Forte Labs",
@@ -30506,7 +30589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 731
     },
     {
      "name": "Rain (Raincards)",
@@ -30550,7 +30633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 732
     },
     {
      "name": "Unisub LLC",
@@ -30594,7 +30677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 733
     },
     {
      "name": "Mango Markets",
@@ -30638,7 +30721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 734
     },
     {
      "name": "Alpen Labs",
@@ -30676,7 +30759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 733
+     "rank": 735
     },
     {
      "name": "Superfluid",
@@ -30720,7 +30803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 736
     },
     {
      "name": "Offchain Labs (Arbitrum)",
@@ -30758,7 +30841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
+     "rank": 737
     },
     {
      "name": "Ramper",
@@ -30802,7 +30885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 736
+     "rank": 738
     },
     {
      "name": "The Giving Block",
@@ -30846,7 +30929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 739
     },
     {
      "name": "BNY Mellon",
@@ -30891,7 +30974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 740
     },
     {
      "name": "Bittensor",
@@ -30929,7 +31012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 741
     },
     {
      "name": "Discover Financial Services",
@@ -30974,7 +31057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
+     "rank": 742
     },
     {
      "name": "HashKey Cloud (HashQuark)",
@@ -31012,7 +31095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 741
+     "rank": 743
     },
     {
      "name": "Manta Network",
@@ -31050,7 +31133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 744
     },
     {
      "name": "Amber Group",
@@ -31095,7 +31178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 745
     },
     {
      "name": "Staircase",
@@ -31132,7 +31215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 746
     },
     {
      "name": "Dash",
@@ -31177,7 +31260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 747
     },
     {
      "name": "Zilch",
@@ -31221,7 +31304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 748
     },
     {
      "name": "Andalusia Labs",
@@ -31266,7 +31349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 749
     },
     {
      "name": "dClimate",
@@ -31304,7 +31387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 750
     },
     {
      "name": "Fluidity",
@@ -31342,7 +31425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 751
     },
     {
      "name": "Sender",
@@ -31386,7 +31469,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 752
     },
     {
      "name": "CipherTrust",
@@ -31424,7 +31507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 753
     },
     {
      "name": "Jeeves",
@@ -31469,7 +31552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 754
     },
     {
      "name": "Lens Protocol",
@@ -31506,7 +31589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 755
     },
     {
      "name": "Merkle Manufactory Inc.",
@@ -31544,7 +31627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 756
     },
     {
      "name": "My AI",
@@ -31589,7 +31672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 757
     },
     {
      "name": "big xyt",
@@ -31634,7 +31717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 758
     },
     {
      "name": "Chronicled",
@@ -31679,7 +31762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 759
     },
     {
      "name": "INFINIT",
@@ -31724,7 +31807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 760
     },
     {
      "name": "Puffer Finance",
@@ -31761,7 +31844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 761
     },
     {
      "name": "Huma Technologies Inc.",
@@ -31806,7 +31889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 762
     },
     {
      "name": "Cozy Finance",
@@ -31851,7 +31934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 763
     },
     {
      "name": "World (Worldcoin)",
@@ -31889,7 +31972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 764
     },
     {
      "name": "Gensyn",
@@ -31927,7 +32010,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 765
     },
     {
      "name": "Infinifi",
@@ -31965,7 +32048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 766
     },
     {
      "name": "Zefchain",
@@ -32002,7 +32085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 767
     },
     {
      "name": "Forte",
@@ -32040,7 +32123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 768
     },
     {
      "name": "OXIO",
@@ -32085,7 +32168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 769
     },
     {
      "name": "Sunscreen",
@@ -32122,7 +32205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 770
     },
     {
      "name": "Coinbase OnchainKit",
@@ -32167,7 +32250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 771
     },
     {
      "name": "Faraway",
@@ -32205,7 +32288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 772
     },
     {
      "name": "Finary",
@@ -32242,7 +32325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 773
     },
     {
      "name": "Ronin Network",
@@ -32280,7 +32363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 774
     },
     {
      "name": "Co:Create",
@@ -32318,7 +32401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 775
     },
     {
      "name": "Celer Network",
@@ -32356,7 +32439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 776
     },
     {
      "name": "3Jane",
@@ -32394,7 +32477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 777
     },
     {
      "name": "KGeN",
@@ -32432,7 +32515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 778
     },
     {
      "name": "Obligate",
@@ -32477,7 +32560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 779
     },
     {
      "name": "PicPay",
@@ -32522,7 +32605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 780
     },
     {
      "name": "Goldsky",
@@ -32560,7 +32643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 781
     },
     {
      "name": "Ready (formerly Argent)",
@@ -32604,7 +32687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 782
     },
     {
      "name": "Tari",
@@ -32648,7 +32731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 783
     },
     {
      "name": "Level",
@@ -32686,7 +32769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 784
     },
     {
      "name": "Mythical Games",
@@ -32724,7 +32807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 785
     },
     {
      "name": "Pipe Network",
@@ -32761,7 +32844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 786
     },
     {
      "name": "Beefy Finance",
@@ -32799,7 +32882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 787
     },
     {
      "name": "Alchemix",
@@ -32837,7 +32920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 788
     },
     {
      "name": "Blockskye",
@@ -32882,7 +32965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 789
     },
     {
      "name": "Chainalysis",
@@ -32920,7 +33003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 790
     },
     {
      "name": "Instadapp",
@@ -32965,7 +33048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 791
     },
     {
      "name": "April",
@@ -33003,7 +33086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 792
     },
     {
      "name": "FastLane",
@@ -33041,7 +33124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 793
     },
     {
      "name": "Anoma",
@@ -33079,7 +33162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 794
     },
     {
      "name": "Coinigy",
@@ -33117,7 +33200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 795
     },
     {
      "name": "CoinMarketCap",
@@ -33162,7 +33245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 796
     },
     {
      "name": "Coral",
@@ -33200,7 +33283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 797
     },
     {
      "name": "iTrustCapital",
@@ -33238,7 +33321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 798
     },
     {
      "name": "marginfi",
@@ -33276,7 +33359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 799
     },
     {
      "name": "PiggyVest",
@@ -33321,7 +33404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 800
     },
     {
      "name": "Wynd Network",
@@ -33358,7 +33441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 801
     },
     {
      "name": "Dabba",
@@ -33396,7 +33479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 802
     },
     {
      "name": "EigenDA",
@@ -33434,7 +33517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 803
     },
     {
      "name": "Entropy",
@@ -33472,7 +33555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 804
     },
     {
      "name": "Frax Finance",
@@ -33509,7 +33592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 805
     },
     {
      "name": "LifeSite",
@@ -33547,7 +33630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 806
     },
     {
      "name": "MakerDAO",
@@ -33585,7 +33668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 807
     },
     {
      "name": "TransCrypts",
@@ -33622,7 +33705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 808
     },
     {
      "name": "Omni Network",
@@ -33660,7 +33743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 809
     },
     {
      "name": "Element",
@@ -33698,7 +33781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 810
     },
     {
      "name": "HealthVerity",
@@ -33743,7 +33826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 811
     },
     {
      "name": "Lightning Labs",
@@ -33788,7 +33871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 812
     },
     {
      "name": "Mountain Protocol",
@@ -33826,7 +33909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 813
     },
     {
      "name": "Accountable",
@@ -33863,7 +33946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 814
     },
     {
      "name": "Aerodrome",
@@ -33908,7 +33991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 815
     },
     {
      "name": "Arch Network",
@@ -33946,7 +34029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 816
     },
     {
      "name": "Structure",
@@ -33990,7 +34073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 817
     },
     {
      "name": "InvestaX",
@@ -34035,7 +34118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 818
     },
     {
      "name": "Arc",
@@ -34080,7 +34163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 819
     },
     {
      "name": "Asset Reality",
@@ -34125,7 +34208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 820
     },
     {
      "name": "Baxus",
@@ -34163,7 +34246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 821
     },
     {
      "name": "Offchain",
@@ -34201,7 +34284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 822
     },
     {
      "name": "Spheron",
@@ -34246,7 +34329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 823
     },
     {
      "name": "EZKL",
@@ -34284,7 +34367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 824
     },
     {
      "name": "Chaoslabs",
@@ -34322,7 +34405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 825
     },
     {
      "name": "Deblock",
@@ -34367,7 +34450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 826
     },
     {
      "name": "Integral",
@@ -34412,7 +34495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 827
     },
     {
      "name": "Moola",
@@ -34450,7 +34533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 828
     },
     {
      "name": "Ithaca",
@@ -34495,7 +34578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 829
     },
     {
      "name": "Cross River Bank",
@@ -34540,7 +34623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 830
     },
     {
      "name": "Karak",
@@ -34578,7 +34661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 831
     },
     {
      "name": "MoreMarkets",
@@ -34616,7 +34699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 832
     },
     {
      "name": "Voatz",
@@ -34660,7 +34743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 833
     },
     {
      "name": "Convex Finance",
@@ -34698,7 +34781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 834
     },
     {
      "name": "Figure Markets",
@@ -34743,7 +34826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 835
     },
     {
      "name": "The Block",
@@ -34787,7 +34870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 836
     },
     {
      "name": "Boardroom Governance",
@@ -34825,7 +34908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 837
     },
     {
      "name": "Lithium Finance",
@@ -34863,7 +34946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 838
     },
     {
      "name": "Bitmain",
@@ -34901,7 +34984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 839
     },
     {
      "name": "Balancer",
@@ -34939,7 +35022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 840
     },
     {
      "name": "Hubble Protocol",
@@ -34977,7 +35060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 841
     },
     {
      "name": "Ancient8",
@@ -35015,7 +35098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 842
     },
     {
      "name": "Code4rena",
@@ -35053,7 +35136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 843
     },
     {
      "name": "Coinshift",
@@ -35097,7 +35180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 844
     },
     {
      "name": "Trust Token",
@@ -35134,7 +35217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 845
     },
     {
      "name": "Arf",
@@ -35179,7 +35262,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 846
     },
     {
      "name": "Based",
@@ -35224,7 +35307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 847
     },
     {
      "name": "Fhenix",
@@ -35262,7 +35345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 848
     },
     {
      "name": "Sumer",
@@ -35299,7 +35382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 849
     },
     {
      "name": "Term Finance",
@@ -35336,7 +35419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 850
     },
     {
      "name": "Chainlink",
@@ -35374,7 +35457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 851
     },
     {
      "name": "Courtyard",
@@ -35412,7 +35495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 852
     },
     {
      "name": "Ellipsis Labs",
@@ -35457,7 +35540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 853
     },
     {
      "name": "Tranched",
@@ -35494,7 +35577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 854
     },
     {
      "name": "Unlonely",
@@ -35531,7 +35614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 855
     },
     {
      "name": "Zama",
@@ -35568,7 +35651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 856
     },
     {
      "name": "BitTorrent",
@@ -35606,7 +35689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 857
     },
     {
      "name": "Compound Finance",
@@ -35644,7 +35727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 858
     },
     {
      "name": "DoubleZero",
@@ -35682,7 +35765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 859
     },
     {
      "name": "Orchid Labs",
@@ -35720,7 +35803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 860
     },
     {
      "name": "Talus Network",
@@ -35757,7 +35840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 861
     },
     {
      "name": "NATIX",
@@ -35795,7 +35878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 862
     },
     {
      "name": "Royco",
@@ -35832,7 +35915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 863
     },
     {
      "name": "TipLink",
@@ -35876,7 +35959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 864
     },
     {
      "name": "Azura",
@@ -35921,7 +36004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 865
     },
     {
      "name": "Dework",
@@ -35959,7 +36042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 866
     },
     {
      "name": "VeeFriends",
@@ -36003,7 +36086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 867
     },
     {
      "name": "Argent",
@@ -36048,7 +36131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 868
     },
     {
      "name": "Enosys Markets",
@@ -36093,7 +36176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 869
     },
     {
      "name": "Rain Financial",
@@ -36137,7 +36220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 870
     },
     {
      "name": "Rialo",
@@ -36174,7 +36257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 871
     },
     {
      "name": "Parallel Universe",
@@ -36219,7 +36302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 872
     },
     {
      "name": "Upstream",
@@ -36256,7 +36339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 873
     },
     {
      "name": "Curve",
@@ -36301,7 +36384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 874
     },
     {
      "name": "Palm",
@@ -36339,7 +36422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 875
     },
     {
      "name": "Primodium Inc.",
@@ -36376,7 +36459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 876
     },
     {
      "name": "Pump.fun",
@@ -36414,7 +36497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 877
     },
     {
      "name": "Lore",
@@ -36459,7 +36542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 878
     },
     {
      "name": "Pluang",
@@ -36503,7 +36586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 879
     },
     {
      "name": "Cryptio",
@@ -36541,7 +36624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 880
     },
     {
      "name": "Perennial Labs",
@@ -36585,7 +36668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 881
     },
     {
      "name": "Brevis",
@@ -36623,7 +36706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 882
     },
     {
      "name": "ClassWallet",
@@ -36668,7 +36751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 883
     },
     {
      "name": "Candy Fanatics (fka Candy Digital)",
@@ -36713,7 +36796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 884
     },
     {
      "name": "Pontem",
@@ -36757,7 +36840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 885
     },
     {
      "name": "Cocos Capital",
@@ -36802,7 +36885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 886
     },
     {
      "name": "One",
@@ -36847,7 +36930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 887
     },
     {
      "name": "Blackbird Labs",
@@ -36892,7 +36975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 888
     },
     {
      "name": "fomo",
@@ -36937,7 +37020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 889
     },
     {
      "name": "GEODNET",
@@ -36975,7 +37058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 890
     },
     {
      "name": "Maker",
@@ -37013,7 +37096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 891
     },
     {
      "name": "Milo Credit",
@@ -37051,7 +37134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 892
     },
     {
      "name": "Moai.cash",
@@ -37096,7 +37179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 893
     },
     {
      "name": "Stride",
@@ -37133,7 +37216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 894
     },
     {
      "name": "Web3Auth",
@@ -37178,7 +37261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 895
     },
     {
      "name": "Arq",
@@ -37223,7 +37306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 896
     },
     {
      "name": "Clearing",
@@ -37268,7 +37351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 897
     },
     {
      "name": "Endl",
@@ -37312,7 +37395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 898
     },
     {
      "name": "Finoa",
@@ -37357,7 +37440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 899
     },
     {
      "name": "OpenFX",
@@ -37402,7 +37485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 900
     },
     {
      "name": "Community Labs",
@@ -37440,7 +37523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 901
     },
     {
      "name": "DLT Payments",
@@ -37485,7 +37568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 902
     },
     {
      "name": "Eunice",
@@ -37523,7 +37606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 903
     },
     {
      "name": "Genopets",
@@ -37561,7 +37644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 904
     },
     {
      "name": "Coin98",
@@ -37606,7 +37689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 905
     },
     {
      "name": "Nebex",
@@ -37651,7 +37734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 906
     },
     {
      "name": "Neptune Networks",
@@ -37696,7 +37779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 907
     },
     {
      "name": "OnePay",
@@ -37741,7 +37824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 908
     },
     {
      "name": "Silo Finance",
@@ -37778,7 +37861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 909
     },
     {
      "name": "UXD Protocol",
@@ -37815,7 +37898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 910
     },
     {
      "name": "Ejara",
@@ -37860,7 +37943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 911
     },
     {
      "name": "Meanwhile",
@@ -37905,7 +37988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 912
     },
     {
      "name": "Fab.com",
@@ -37943,7 +38026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 913
     },
     {
      "name": "Wallet Studio",
@@ -37987,7 +38070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 914
     },
     {
      "name": "Goin",
@@ -38032,7 +38115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 915
     },
     {
      "name": "Thruster",
@@ -38069,7 +38152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 916
     },
     {
      "name": "Layer3",
@@ -38114,7 +38197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 917
     },
     {
      "name": "Exa Finance",
@@ -38152,7 +38235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 918
     },
     {
      "name": "T2P",
@@ -38196,7 +38279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 919
     },
     {
      "name": "Braiins",
@@ -38234,7 +38317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 920
     },
     {
      "name": "Datavant",
@@ -38279,7 +38362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 921
     },
     {
      "name": "Earn.com",
@@ -38324,7 +38407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 922
     },
     {
      "name": "Lootex",
@@ -38362,7 +38445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 923
     },
     {
      "name": "Cartesi",
@@ -38400,7 +38483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 924
     },
     {
      "name": "Cypherium",
@@ -38438,7 +38521,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 925
     },
     {
      "name": "Evertas",
@@ -38455,7 +38538,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -38482,7 +38565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 926
     },
     {
      "name": "Plural Finance",
@@ -38526,7 +38609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 927
     },
     {
      "name": "Abra",
@@ -38564,7 +38647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 928
     },
     {
      "name": "Bloxtel, Inc.",
@@ -38609,7 +38692,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 929
     },
     {
      "name": "Freeport Markets",
@@ -38654,7 +38737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 930
     },
     {
      "name": "Halogen Capital",
@@ -38691,7 +38774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 931
     },
     {
      "name": "MonkeyTilt",
@@ -38729,7 +38812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 930
+     "rank": 932
     },
     {
      "name": "Regular Finance",
@@ -38766,7 +38849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 931
+     "rank": 933
     },
     {
      "name": "Amp",
@@ -38811,7 +38894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 932
+     "rank": 934
     },
     {
      "name": "Fold",
@@ -38856,7 +38939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 933
+     "rank": 935
     },
     {
      "name": "LedgiFi",
@@ -38894,7 +38977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 934
+     "rank": 936
     },
     {
      "name": "Quant Network",
@@ -38932,7 +39015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 935
+     "rank": 937
     }
    ]
   },
@@ -38941,8 +39024,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 334,
-   "shown": 65,
+   "count": 333,
+   "shown": 63,
    "providers": [
     {
      "name": "Stader Labs",
@@ -38979,7 +39062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 936
+     "rank": 938
     },
     {
      "name": "Bright Moments DAO",
@@ -39017,7 +39100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 937
+     "rank": 939
     },
     {
      "name": "Mukuru",
@@ -39062,7 +39145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 938
+     "rank": 940
     },
     {
      "name": "Vosbor",
@@ -39106,7 +39189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 939
+     "rank": 941
     },
     {
      "name": "Geode",
@@ -39144,7 +39227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 940
+     "rank": 942
     },
     {
      "name": "Hourglass",
@@ -39182,7 +39265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 941
+     "rank": 943
     },
     {
      "name": "Stockbit",
@@ -39226,7 +39309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 942
+     "rank": 944
     },
     {
      "name": "BitAccess",
@@ -39271,7 +39354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 943
+     "rank": 945
     },
     {
      "name": "Planetary",
@@ -39308,7 +39391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 944
+     "rank": 946
     },
     {
      "name": "Warbler Labs Incorporated",
@@ -39345,7 +39428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 945
+     "rank": 947
     },
     {
      "name": "Skip",
@@ -39382,7 +39465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 946
+     "rank": 948
     },
     {
      "name": "Tibles",
@@ -39426,7 +39509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 947
+     "rank": 949
     },
     {
      "name": "Autograph",
@@ -39464,7 +39547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 948
+     "rank": 950
     },
     {
      "name": "Nova Labs",
@@ -39509,7 +39592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 949
+     "rank": 951
     },
     {
      "name": "Aella Credit",
@@ -39554,7 +39637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 950
+     "rank": 952
     },
     {
      "name": "Bitculator",
@@ -39599,7 +39682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 951
+     "rank": 953
     },
     {
      "name": "Cogni",
@@ -39644,7 +39727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 952
+     "rank": 954
     },
     {
      "name": "Delphia",
@@ -39682,7 +39765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 953
+     "rank": 955
     },
     {
      "name": "Konga",
@@ -39727,7 +39810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 954
+     "rank": 956
     },
     {
      "name": "MyStars FaaS — Fulfilment API",
@@ -39772,7 +39855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 955
+     "rank": 957
     },
     {
      "name": "Ballet",
@@ -39817,7 +39900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 956
+     "rank": 958
     },
     {
      "name": "Grapes",
@@ -39855,7 +39938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 957
+     "rank": 959
     },
     {
      "name": "HODL Media",
@@ -39900,7 +39983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 958
+     "rank": 960
     },
     {
      "name": "Improbable",
@@ -39938,7 +40021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 959
+     "rank": 961
     },
     {
      "name": "LF Decentralized Trust",
@@ -39976,7 +40059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 960
+     "rank": 962
     },
     {
      "name": "Adanos Market Sentiment API",
@@ -40021,7 +40104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 961
+     "rank": 963
     },
     {
      "name": "Jingle Pay",
@@ -40066,7 +40149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 962
+     "rank": 964
     },
     {
      "name": "Xalts",
@@ -40110,7 +40193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 963
+     "rank": 965
     },
     {
      "name": "Sovryn",
@@ -40154,7 +40237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 964
+     "rank": 966
     },
     {
      "name": "Braavos",
@@ -40199,7 +40282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 965
+     "rank": 967
     },
     {
      "name": "OneConnect",
@@ -40244,7 +40327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 966
+     "rank": 968
     },
     {
      "name": "PROOF",
@@ -40281,7 +40364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 967
+     "rank": 969
     },
     {
      "name": "Auto Finance",
@@ -40319,7 +40402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 968
+     "rank": 970
     },
     {
      "name": "Baton Systems",
@@ -40364,7 +40447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 969
+     "rank": 971
     },
     {
      "name": "openIDL",
@@ -40409,7 +40492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 970
+     "rank": 972
     },
     {
      "name": "PsyOptions",
@@ -40453,7 +40536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 971
+     "rank": 973
     },
     {
      "name": "Saffron Finance",
@@ -40490,7 +40573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 972
+     "rank": 974
     },
     {
      "name": "Stablecore",
@@ -40534,7 +40617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 973
+     "rank": 975
     },
     {
      "name": "Sweatcoin",
@@ -40578,7 +40661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 974
+     "rank": 976
     },
     {
      "name": "Vixtra",
@@ -40622,7 +40705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 975
+     "rank": 977
     },
     {
      "name": "Satellite",
@@ -40659,7 +40742,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 976
+     "rank": 978
     },
     {
      "name": "Blocto",
@@ -40704,7 +40787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 977
+     "rank": 979
     },
     {
      "name": "MyCrypto",
@@ -40749,7 +40832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 978
+     "rank": 980
     },
     {
      "name": "BlockFi",
@@ -40787,7 +40870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 979
+     "rank": 981
     },
     {
      "name": "Calastone",
@@ -40825,7 +40908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 980
+     "rank": 982
     },
     {
      "name": "Irreverent Labs",
@@ -40870,7 +40953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 981
+     "rank": 983
     },
     {
      "name": "Rapyd",
@@ -40915,7 +40998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 982
+     "rank": 984
     },
     {
      "name": "Web3 Foundation",
@@ -40952,7 +41035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 983
+     "rank": 985
     },
     {
      "name": "Anchor Protocol",
@@ -40990,7 +41073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 984
+     "rank": 986
     },
     {
      "name": "Betdex",
@@ -41028,7 +41111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 985
+     "rank": 987
     },
     {
      "name": "Bridg Payment Solutions",
@@ -41073,7 +41156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 986
+     "rank": 988
     },
     {
      "name": "dForce",
@@ -41111,7 +41194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 987
+     "rank": 989
     },
     {
      "name": "InfiniGods",
@@ -41149,7 +41232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 988
+     "rank": 990
     },
     {
      "name": "Lolli",
@@ -41187,7 +41270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 989
+     "rank": 991
     },
     {
      "name": "Saber",
@@ -41224,7 +41307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 990
+     "rank": 992
     },
     {
      "name": "Fintech",
@@ -41269,7 +41352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 991
+     "rank": 993
     },
     {
      "name": "MathWallet",
@@ -41314,7 +41397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 992
+     "rank": 994
     },
     {
      "name": "Cega",
@@ -41358,7 +41441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 993
+     "rank": 995
     },
     {
      "name": "Exotic Markets",
@@ -41403,7 +41486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 994
+     "rank": 996
     },
     {
      "name": "Pool",
@@ -41441,7 +41524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 995
+     "rank": 997
     },
     {
      "name": "Altius Labs",
@@ -41479,7 +41562,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 996
+     "rank": 998
     },
     {
      "name": "AminoChain",
@@ -41524,7 +41607,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 997
+     "rank": 999
     },
     {
      "name": "RACE Protocol",
@@ -41555,88 +41638,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 998
-    },
-    {
-     "name": "Yield Guild Games",
-     "slug": "yield-guide-games",
-     "description": "Yield Guild Games (YGG) is a decentralized autonomous organization (DAO) and one of the world's first and largest web3 gaming guilds, founded in 2020 by Gabby Dizon, Beryl Li, and the pseudonymous \"Owl of Moistness\" out of the Philippines. YGG invests in NFTs and blockchain-game assets, lends them to players, and shares the resulting yield with its community and YGG token holders. Its onchain Guild Protocol (launched on Base) equips guilds with a modular library of smart-contract tooling for treasury wallets, programmable quests, and contribution tracking, while YGG Play acts as a publisher for casual crypto games. The company was backed by Andreessen Horowitz (a16z), which led a $4.6M round in 2021. Note: this repository slug \"yield-guide-games\" preserves an upstream typo of the real company name, Yield Guild Games.",
-     "score": 10.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 999
-    },
-    {
-     "name": "Bitcoin",
-     "slug": "bitcoin",
-     "description": "Bitcoin is the original decentralized peer-to-peer digital currency and open-source protocol, first described in the 2008 whitepaper by Satoshi Nakamoto. It is not a company or a hosted commercial API; the reference implementation, Bitcoin Core, exposes a local JSON-RPC interface for node operators and application developers to query the blockchain, manage wallets, build and broadcast transactions, and interact with the peer-to-peer network. bitcoin.org and the developer documentation site at developer.bitcoin.org publish developer guides, an extensive RPC API command reference, worked examples, and reference material for building Bitcoin applications. This profile was seeded as a Ribbit Capital portfolio-sector lead and enriched from Bitcoin's public developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitcoin/refs/heads/main/screenshots/bitcoin-2026-07-25T203139.png",
-     "score": 10.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 1.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

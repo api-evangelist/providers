@@ -1119,8 +1119,46 @@ def separated_tiers(entries, overrides=None):
     return labels, {label: blurbs[label] for label in labels}
 
 
+# ---------------------------------------------------------------------------
+# SECTION_TOOLS — the interactive tools that sit above a ranked listing, keyed
+# by page slug. Emitted from here for the same reason paper-promo is: the first
+# pass was hand-added to management/index.html front matter and the next rebuild
+# of this file silently deleted it. Anything a section page needs must be
+# GENERATED or it does not survive.
+#
+# TWO SIDES, DELIBERATELY EQUAL. A market report has a buy side and a sell side
+# and both arrive on the same page. The listing include renders these as
+# same-size cards rather than a primary button and a secondary link, so whoever
+# lands here finds one addressed to them and neither reads as the afterthought.
+# Order matters: buyers first, providers second, matching the cards left to right.
+SECTION_TOOLS = {
+    "management": [
+        {
+            "side": "For buyers",
+            "label": "Pick your priorities",
+            "icon": "tune",
+            "blurb": "Weight what your team is actually optimizing for and the "
+                     "shortlist of 36 re-sorts underneath you.",
+            "note": "36 providers · one public rubric",
+            "url": "/management/priorities.html",
+            "report": "https://papers.apievangelist.com/papers/state-of-management-apis/",
+        },
+        {
+            "side": "For providers",
+            "label": "Find your opening",
+            "icon": "target",
+            "blurb": "See every check in the rubric, who in this market already "
+                     "passes it, and what shipping it is worth to your score.",
+            "note": "14 checks · 20 points nobody holds",
+            "url": "/management/opportunities.html",
+            "report": "https://papers.apievangelist.com/papers/state-of-management-apis/",
+        },
+    ],
+}
+
+
 def listing_page(title, summary, data_key, rated=False, paper=None,
-                 papers=None, entries=None, tier_blurbs=None):
+                 papers=None, entries=None, tier_blurbs=None, tools=None):
     include = "company-listing-rated.html" if rated else "company-listing-plain.html"
     lines = [
         "---",
@@ -1169,6 +1207,17 @@ def listing_page(title, summary, data_key, rated=False, paper=None,
             if paper.get("kind"):
                 lines.append('  kind: "%s"' % paper["kind"])
         body.append("{% include paper-promo.html %}")
+
+    # Interactive tools band (see SECTION_TOOLS and _includes/company-listing-rated.html).
+    if tools:
+        lines.append("tools:")
+        for t in tools:
+            lines.append('  - side: "%s"' % esc(t["side"]))
+            lines.append('    label: "%s"' % esc(t["label"]))
+            for key in ("icon", "blurb", "note", "url", "report"):
+                if t.get(key):
+                    lines.append('    %s: "%s"' % (key, esc(t[key])))
+
     lines.append("---")
     body.append("{%% include %s %%}" % include)
     return "\n".join(lines + body + [""])
@@ -1229,7 +1278,8 @@ def build_roster_section_group(data_dir, meta_of, scores, sections,
             os.path.join(SITE, slug_page, "index.html"),
             listing_page(title, summary, data_key, rated=True, paper=paper,
                          papers=extras.get("papers"), entries=entries,
-                         tier_blurbs=extras.get("tier_blurbs")),
+                         tier_blurbs=extras.get("tier_blurbs"),
+                         tools=SECTION_TOOLS.get(slug_page)),
         )
         counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
     return counts
@@ -2067,6 +2117,105 @@ def main():
         "platform": "Full-Stack API Management Platforms",
         "gateway":  "Gateways, Ingress and the Data Plane",
     }
+
+    # --- Programmable Revenue + Programmable Marketing -------------------
+    # Roster-driven from the planning cohorts, which are built on four axes
+    # (domain / confidence / liveness / vertical) with a two-tier tag boundary —
+    # a filter no tag match can express. Rebuild with:
+    #   python3 planning/<cohort>/pipeline/area_spine.py
+    #   python3 planning/build_rosters.py
+    # The roll-up pages tier by function area so a reader sees immediately that
+    # each is many markets; the marketing area pages tier by buy/sell side.
+    PROGRAMMABLE_TIER_LABELS = {
+        "buy-side": "Sold to the advertiser (buy side)",
+        "sell-side": "Sold to the publisher (sell side)",
+        "both-sides": "Sold to both sides",
+    }
+    PROGRAMMABLE_SECTIONS = [
+        ("programmable-revenue", "state-of-revenue-apis-roster.json", "Programmable Revenue",
+         "Programmable Revenue providers ranked by their Kin Score. 517 companies, 300 (58%) publishing a machine-readable contract, 238 (46%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-revenue-apis", "title": "The State of Revenue APIs",
+          "blurb": "517 companies scored, every one named and banded. Kin Score median 53.8, Agent Readiness median 48.0. This market has made itself readable by machines and has not made itself operable by them. Fifty-eight percent publish a contract and forty-six percent run their own MCP server, both high figures by any standard in the catalog. Zero describe a workflow. The distance between those two facts is the whole opportunity.", "price": "500"}),
+        ("data-prospecting", "state-of-data-prospecting-apis-roster.json", "Data & Prospecting",
+         "Data & Prospecting providers ranked by their Kin Score. 234 companies, 142 (61%) publishing a machine-readable contract, 118 (50%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-data-prospecting-apis", "title": "The State of Data and Prospecting APIs",
+          "blurb": "234 companies scored, every one named and banded. Kin Score median 55.5, Agent Readiness median 49.1. This area publishes contracts at a higher rate than the market around it and still fails every delegation dimension. The data moves; the permission to act on it does not.", "price": "500"}),
+        ("engagement-outreach", "state-of-engagement-outreach-apis-roster.json", "Engagement & Outreach",
+         "Engagement & Outreach providers ranked by their Kin Score. 221 companies, 148 (67%) publishing a machine-readable contract, 104 (47%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-engagement-outreach-apis", "title": "The State of Engagement and Outreach APIs",
+          "blurb": "221 companies scored, every one named and banded. Kin Score median 59.8, Agent Readiness median 50.9. Sixty-seven percent publish a contract — the highest of any large area in this report. Ninety percent cannot tell an agent whether a call was already made.", "price": "500"}),
+        ("pipeline-forecast", "state-of-pipeline-forecast-apis-roster.json", "Pipeline & Forecast",
+         "Pipeline & Forecast providers ranked by their Kin Score. 178 companies, 93 (52%) publishing a machine-readable contract, 77 (43%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-pipeline-forecast-apis", "title": "The State of Pipeline and Forecast APIs",
+          "blurb": "178 companies scored, every one named and banded. Kin Score median 51.6, Agent Readiness median 46.8. This is the most connected software in go-to-market and it sits 1.2 points below the market median on Agent Readiness. Being integrated by everyone is not the same as being operable by anything.", "price": "500"}),
+        ("conversation-coaching", "state-of-conversation-coaching-apis-roster.json", "Conversation & Coaching",
+         "Conversation & Coaching providers ranked by their Kin Score. 122 companies, 56 (46%) publishing a machine-readable contract, 58 (48%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-conversation-coaching-apis", "title": "The State of Conversation and Coaching APIs",
+          "blurb": "122 companies scored, every one named and banded. Kin Score median 45.7, Agent Readiness median 38.0. The weakest area in revenue software, and it holds at full coverage. Governance averages 18.1 in the market that holds recordings of every customer conversation.", "price": "500"}),
+        ("revenue-plumbing", "state-of-plumbing-apis-roster.json", "Revenue Plumbing",
+         "Revenue Plumbing providers ranked by their Kin Score. 66 companies, 46 (70%) publishing a machine-readable contract, 35 (53%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-plumbing-apis", "title": "The State of Revenue Plumbing APIs",
+          "blurb": "66 companies scored, every one named and banded. Kin Score median 60.5, Agent Readiness median 52.7. The best-scoring area in revenue software on every artifact measure, and it fails consent and idempotency at 91% each. Even the market's integration specialists have not built for a caller that acts on someone else's behalf.", "price": "500"}),
+        ("quote-to-cash", "state-of-quote-to-cash-apis-roster.json", "Quote-to-Cash",
+         "Quote-to-Cash providers ranked by their Kin Score. 23 companies, 15 (65%) publishing a machine-readable contract, 10 (43%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-quote-to-cash-apis", "title": "The State of Quote-to-Cash APIs",
+          "blurb": "23 companies scored, every one named and banded. Kin Score median 57.0, Agent Readiness median 52.7. Twenty-three companies, scoring above the market on every artifact measure and failing consent at 96%. The step immediately before money moves is the step least prepared to be delegated.", "price": "500"}),
+        ("retention-expansion", "state-of-retention-expansion-apis-roster.json", "Retention & Expansion",
+         "Retention & Expansion providers ranked by their Kin Score. 20 companies, 10 (50%) publishing a machine-readable contract, 7 (35%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-retention-expansion-apis", "title": "The State of Retention and Expansion APIs",
+          "blurb": "20 companies scored, every one named and banded. Kin Score median 49.4, Agent Readiness median 40.3. Twenty companies, and four of the market's own core terms carry no company at all. This is the one area in the report where coverage is a live question.", "price": "500"}),
+        ("programmable-marketing", "state-of-marketing-apis-roster.json", "Programmable Marketing",
+         "Programmable Marketing providers ranked by their Kin Score. 814 companies, 419 (51%) publishing a machine-readable contract, 301 (37%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-marketing-apis", "title": "The State of Marketing APIs",
+          "blurb": "814 companies scored, every one named and banded. Kin Score median 49.1, Agent Readiness median 42.7. The strongest divide in marketing software is not category, it is customer. Software sold to the advertiser scores 53.3; software sold to the publisher scores 39.0. Both sides run the same real-time auctions against each other. One of them documents how.", "price": "500"}),
+        ("marketing-orchestration", "state-of-orchestration-apis-roster.json", "Marketing Orchestration",
+         "Marketing Orchestration providers ranked by their Kin Score. 551 companies, 278 (50%) publishing a machine-readable contract, 191 (35%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-orchestration-apis", "title": "The State of Marketing Orchestration APIs",
+          "blurb": "551 companies scored, every one named and banded. Kin Score median 48.9, Agent Readiness median 41.9. The area that automates marketing scores at the marketing average. Orchestration software that cannot itself be orchestrated is the clearest irony in this research.", "price": "500"}),
+        ("audience-measurement", "state-of-audience-measurement-apis-roster.json", "Audience & Measurement",
+         "Audience & Measurement providers ranked by their Kin Score. 263 companies, 157 (60%) publishing a machine-readable contract, 115 (44%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-audience-measurement-apis", "title": "The State of Audience and Measurement APIs",
+          "blurb": "263 companies scored, every one named and banded. Kin Score median 54.8, Agent Readiness median 48.2. One of marketing's strongest areas, with an eleven-point buy/sell split inside a single function. The same capability, measured differently depending on who pays for it.", "price": "500"}),
+        ("paid-media-buy-side", "state-of-paid-media-buy-side-apis-roster.json", "Paid Media — Buy Side",
+         "Paid Media — Buy Side providers ranked by their Kin Score. 252 companies, 100 (40%) publishing a machine-readable contract, 76 (30%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-paid-media-buy-side-apis", "title": "The State of Paid Media APIs — The Buy Side",
+          "blurb": "252 companies scored, every one named and banded. Kin Score median 35.7, Agent Readiness median 30.1. This market transacts entirely by machine and describes itself to the outside world less than almost any other. The bid stream is a specification. The platform is not.", "price": "500"}),
+        ("sales-handoff", "state-of-the-sales-handoff-apis-roster.json", "The Sales Handoff",
+         "The Sales Handoff providers ranked by their Kin Score. 156 companies, 86 (55%) publishing a machine-readable contract, 69 (44%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-the-sales-handoff-apis", "title": "The State of the Sales Handoff APIs",
+          "blurb": "156 companies scored, every one named and banded. Kin Score median 53.6, Agent Readiness median 48.6. The area that connects the two cohorts in this research scores like the stronger one. Software defined by a handoff gets good at handing off.", "price": "500"}),
+        ("where-the-spend-lands", "state-of-where-the-spend-lands-apis-roster.json", "Where the Spend Lands",
+         "Where the Spend Lands providers ranked by their Kin Score. 146 companies, 79 (54%) publishing a machine-readable contract, 50 (34%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-where-the-spend-lands-apis", "title": "The State of Where the Spend Lands",
+          "blurb": "146 companies scored, every one named and banded. Kin Score median 48.8, Agent Readiness median 44.2. The newest money in marketing arrives on the least described surfaces. Retail media grew into a major channel without building a public interface layer.", "price": "500"}),
+        ("owned-channels", "state-of-owned-channels-apis-roster.json", "Owned Channels",
+         "Owned Channels providers ranked by their Kin Score. 135 companies, 90 (67%) publishing a machine-readable contract, 60 (44%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-owned-channels-apis", "title": "The State of Owned Channel APIs",
+          "blurb": "135 companies scored, every one named and banded. Kin Score median 60.2, Agent Readiness median 50.9. The strongest area in marketing, built by companies whose product was always an interface. Even here, delegation is missing at over eighty percent.", "price": "500"}),
+        ("earned-social", "state-of-earned-social-apis-roster.json", "Earned & Social",
+         "Earned & Social providers ranked by their Kin Score. 116 companies, 52 (45%) publishing a machine-readable contract, 41 (35%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-earned-social-apis", "title": "The State of Earned and Social APIs",
+          "blurb": "116 companies scored, every one named and banded. Kin Score median 44.9, Agent Readiness median 35.8. The one area in this report where a low score is partly not the company's fault — and one of only two where the sell side outscores the buy side.", "price": "500"}),
+        ("content-brand", "state-of-content-brand-apis-roster.json", "Content & Brand",
+         "Content & Brand providers ranked by their Kin Score. 115 companies, 49 (43%) publishing a machine-readable contract, 42 (37%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-content-brand-apis", "title": "The State of Content and Brand APIs",
+          "blurb": "115 companies scored, every one named and banded. Kin Score median 44.5, Agent Readiness median 34.7. The lowest governance figure in marketing, in the area whose entire product is an asset other systems depend on retrieving.", "price": "500"}),
+        ("demand-capture", "state-of-demand-capture-apis-roster.json", "Demand Capture",
+         "Demand Capture providers ranked by their Kin Score. 115 companies, 67 (58%) publishing a machine-readable contract, 51 (44%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-demand-capture-apis", "title": "The State of Demand Capture APIs",
+          "blurb": "115 companies scored, every one named and banded. Kin Score median 57.2, Agent Readiness median 47.7. The second-strongest area in marketing, and the one where the product only works if the handoff works. Programmability here is not a virtue, it is the business model.", "price": "500"}),
+        ("paid-media-sell-side", "state-of-paid-media-sell-side-apis-roster.json", "Paid Media — Sell Side",
+         "Paid Media — Sell Side providers ranked by their Kin Score. 104 companies, 40 (38%) publishing a machine-readable contract, 25 (24%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-paid-media-sell-side-apis", "title": "The State of Paid Media APIs — The Sell Side",
+          "blurb": "104 companies scored, every one named and banded. Kin Score median 34.0, Agent Readiness median 26.6. The lowest scores in either cohort, and the clearest single finding in this research: the side of the transaction with no customer demanding transparency did not build any.", "price": "500"}),
+        ("retention-advocacy", "state-of-retention-advocacy-apis-roster.json", "Retention & Advocacy",
+         "Retention & Advocacy providers ranked by their Kin Score. 56 companies, 32 (57%) publishing a machine-readable contract, 18 (32%) running their own MCP server, and 0 describing a multi-step workflow.",
+         {"slug": "state-of-retention-advocacy-apis", "title": "The State of Retention and Advocacy APIs",
+          "blurb": "56 companies scored, every one named and banded. Kin Score median 49.1, Agent Readiness median 47.1. The tightest Kin-to-Agent-Readiness gap in either cohort. What these companies publish, an agent can mostly use — there is simply not very much of it.", "price": "500"}),
+    ]
+    programmable_counts = {}
+    build_roster_sections(PROGRAMMABLE_SECTIONS, PROGRAMMABLE_TIER_LABELS, programmable_counts)
+
     MANAGEMENT_SECTIONS = [
         ("management", "management-roster.json", "API Management",
          "The API management market ranked by Kin Score — the 21 full-stack platforms that sell the whole lifecycle as one product (Apigee, Boomi, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Red Hat 3scale, SAP, TIBCO, Software AG, Broadcom, APIwiz, APIIDA, APIPark, Apiman, Apidog) and the 15 gateways, ingress controllers and data planes you put in front of an API (Amazon API Gateway, Google Cloud API Gateway, NGINX, Traefik, Envoy, Envoy Gateway, Apache APISIX, KrakenD, Higress, Solo.io, Emissary-Ingress, Spring Cloud Gateway, Netflix Zuul, Apinizer, Bifrost). API management is a fuzzy category, so this cohort is named by hand rather than matched — developer portals, documentation, metering, analytics, API security and service mesh are real adjacent markets and are covered in their own areas.",

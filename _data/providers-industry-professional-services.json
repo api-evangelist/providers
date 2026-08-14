@@ -57,9 +57,47 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Advantage Solutions",
+     "slug": "advantage-solutions",
+     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
+     "score": 39.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 59.0,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 63.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    },
     {
      "name": "KPMG",
      "slug": "kpmg",
@@ -96,7 +134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "CBRE",
@@ -134,7 +172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -183,7 +221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Accenture",
@@ -221,7 +259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Gartner",
@@ -259,7 +297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Robert Half International",
@@ -297,7 +335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "UL Solutions",
@@ -335,7 +373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     }
    ]
   },
@@ -344,8 +382,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Bain & Company",
@@ -382,7 +420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Cognizant Technology Solutions",
@@ -420,7 +458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Concentrix",
@@ -458,7 +496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "EPAM Systems",
@@ -495,7 +533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "FTI Consulting",
@@ -533,7 +571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Conduent",
@@ -564,44 +602,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Advantage Solutions",
-     "slug": "advantage-solutions",
-     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights. Advantage Solutions does not publish a public developer API portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
-     "score": 9.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

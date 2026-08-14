@@ -1,6 +1,6 @@
 {
- "total": 869,
- "shown": 869,
+ "total": 872,
+ "shown": 872,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,85 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 7,
-   "shown": 7,
+   "count": 11,
+   "shown": 11,
    "providers": [
+    {
+     "name": "LinkedIn",
+     "slug": "linkedin",
+     "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png",
+     "score": 79.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 83.3,
+      "governance": 80.2,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 59.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Coresignal",
+     "slug": "coresignal",
+     "description": "Coresignal is a data-as-a-service company providing access to public web data on companies, employees, and jobs through a suite of REST APIs. The platform aggregates and refines more than 4.5 billion data records covering 75M+ companies (with 500+ data fields), 865M+ employee profiles (300+ fields), and 461M+ job postings (85+ fields). Coresignal offers Multi-source, Clean, and Base data tiers across Company, Employee, and Jobs APIs, plus specialized real-time, employee posts, agentic search, and company enrichment endpoints. Authentication uses a single apikey HTTP header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png",
+     "score": 75.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 76.1,
+      "governance": 89.6,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 68.4
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    },
     {
      "name": "Remote",
      "slug": "remote-com",
@@ -47,7 +123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 3
     },
     {
      "name": "Ashby",
@@ -85,7 +161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 4
     },
     {
      "name": "Affinda",
@@ -130,7 +206,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 5
+    },
+    {
+     "name": "Drippay",
+     "slug": "drippay",
+     "description": "Drippay, Inc. is a Y Combinator company (YC P26) that operates two connected products. dreach — renamed from drip in 2026, with usedrip.ai now redirecting to dreach.ai — is a local-first Mac app for staffing, recruiting and executive search firms: an Opportunity Radar that watches hiring demand and leadership changes, drafts outreach in the user's voice, follows up, and books meetings, with a hosted MCP server at mcp.drippay.dev exposing seven outbound tools to any HTTP MCP client over OAuth. The Drip API is a separate usage-based billing and execution-ledger platform for AI agents — a Stripe-like metering and monetization backend covering customers, subscriptions, pricing plans, billable metrics, usage events, invoices, credit notes, coupons, entitlements, charges, dunning, tax, contracts, drift detection and webhooks across 245 REST operations at api.drippay.dev. It ships official Node, Python and C++ SDKs and a drip-cli binary, an idempotencyKey contract, cursor pagination, role-scoped secret keys, an x402 payment-required flow for agent self-settlement, and a SOC 2 Type I posture monitored with Vanta.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png",
+     "score": 69.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 67.0,
+      "governance": 11.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 82.1,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 71.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 65.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
     },
     {
      "name": "Factorial",
@@ -168,7 +289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 7
     },
     {
      "name": "Assembled",
@@ -206,7 +327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 8
     },
     {
      "name": "Connecteam",
@@ -244,7 +365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 9
     },
     {
      "name": "Workday",
@@ -282,7 +403,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 10
+    },
+    {
+     "name": "RocketReach",
+     "slug": "rocketreach",
+     "description": "RocketReach is a Seattle-based B2B contact data and sales intelligence provider that maintains a database of 700M+ professional profiles and 60M+ companies and exposes it through a REST API for email, phone, and social-handle discovery plus company firmographics. The platform is used for sales prospecting, recruiting, marketing enrichment, and CRM hydration, with results returned as structured profile and company objects and optional webhook delivery for asynchronous lookups.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png",
+     "score": 66.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 71.6,
+      "governance": 20.8,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
     }
    ],
    "open": true
@@ -296,42 +455,42 @@
    "shown": 31,
    "providers": [
     {
-     "name": "LinkedIn",
-     "slug": "linkedin",
-     "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png",
-     "score": 64.3,
+     "name": "Microsoft LinkedIn",
+     "slug": "microsoft-linkedin",
+     "description": "LinkedIn, owned by Microsoft, operates a versioned Rest.li API platform covering advertising and marketing, company page and community management, talent and recruiting, sales navigation, learning, and consumer sign-in. The versioned Marketing surface lives under https://api.linkedin.com/rest/ and requires a Linkedin-Version YYYYMM header on every call, with each monthly version supported for a minimum of twelve months before it is sunset. Authentication is OAuth 2.0, and Sign In with LinkedIn is a conformant OpenID Connect provider with a live discovery document. Access to the Marketing, Talent, Sales and Learning APIs is gated behind product approval and, in most cases, a commercial partner relationship; LinkedIn publishes no API pricing and no OpenAPI definitions of its own.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png",
+     "score": 64.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 75.4,
-      "governance": 69.8,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 50.0
+      "discoverability": 81.5,
+      "contract_quality": 64.2,
+      "governance": 20.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 84.8,
+      "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 49.5,
+     "agent_score": 57.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": "derived",
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
+      "event_surface_described": true,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 12
     },
     {
      "name": "Puzzle",
@@ -368,7 +527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 13
     },
     {
      "name": "Argyle",
@@ -413,7 +572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 14
     },
     {
      "name": "Workday Extend",
@@ -451,7 +610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 15
     },
     {
      "name": "Niural",
@@ -496,7 +655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 16
     },
     {
      "name": "Greenhouse",
@@ -534,7 +693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 17
     },
     {
      "name": "Remote",
@@ -571,7 +730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 18
     },
     {
      "name": "Deel",
@@ -609,7 +768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 19
     },
     {
      "name": "Deel",
@@ -647,7 +806,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 20
+    },
+    {
+     "name": "Supaglue",
+     "slug": "supaglue",
+     "description": "Supaglue was an open-source unified API platform for B2B SaaS product integrations: a single contract for CRM, engagement, ticketing, enrichment and marketing-automation objects projected across 30+ third-party providers (Salesforce, HubSpot, Pipedrive, Outreach, Salesloft, Zendesk, Apollo and more), plus managed OAuth to those providers, managed syncs into the customer's own warehouse (Postgres, BigQuery, Snowflake, Redshift, S3), a passthrough escape hatch to native provider APIs, and a Management API to configure customers, connections, schemas, entities and sync schedules. Nine first-party OpenAPI documents (v2, x-api-key auth) and nine typed webhook events were published. THE SERVICE IS RETIRED: the GitHub repository (github.com/supaglue-labs) was archived by its owner on 2024-03-10, api.supaglue.io and app.supaglue.io no longer resolve, and supaglue.com now redirects to a HugeDomains sale listing. The MIT-licensed code remains self-hostable, and the contract is preserved here as the historical record of a well-shaped unified API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-06-20T194702.png",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 76.7,
+      "governance": 79.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 47.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "Rocketlane",
@@ -684,7 +881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 22
     },
     {
      "name": "Lever",
@@ -721,7 +918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 23
     },
     {
      "name": "HR Partner",
@@ -759,45 +956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
-    },
-    {
-     "name": "Coresignal",
-     "slug": "coresignal",
-     "description": "Coresignal is a data-as-a-service company providing access to public web data on companies, employees, and jobs through a suite of REST APIs. The platform aggregates and refines more than 4.5 billion data records covering 75M+ companies (with 500+ data fields), 865M+ employee profiles (300+ fields), and 461M+ job postings (85+ fields). Coresignal offers Multi-source, Clean, and Base data tiers across Company, Employee, and Jobs APIs, plus specialized real-time, employee posts, agentic search, and company enrichment endpoints. Authentication uses a single apikey HTTP header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 67.2,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 20
+     "rank": 24
     },
     {
      "name": "Intuit",
@@ -842,7 +1001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 25
     },
     {
      "name": "Culture Amp",
@@ -880,7 +1039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 26
     },
     {
      "name": "Genesys",
@@ -925,7 +1084,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 23
+     "rank": 27
     },
     {
      "name": "Wingspan",
@@ -969,7 +1128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 28
     },
     {
      "name": "Kota",
@@ -1014,7 +1173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 29
     },
     {
      "name": "Nursa",
@@ -1059,7 +1218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 30
     },
     {
      "name": "HeyMilo",
@@ -1097,7 +1256,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 31
     },
     {
      "name": "Absentify",
@@ -1135,7 +1294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 32
     },
     {
      "name": "DailyPay",
@@ -1180,7 +1339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 33
     },
     {
      "name": "Workday Integration",
@@ -1218,7 +1377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 34
     },
     {
      "name": "Justworks",
@@ -1263,7 +1422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 35
     },
     {
      "name": "Smart Pension",
@@ -1300,7 +1459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 36
     },
     {
      "name": "360Learning",
@@ -1338,7 +1497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 37
     },
     {
      "name": "Xero",
@@ -1383,7 +1542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 38
     },
     {
      "name": "Hi Bob",
@@ -1421,7 +1580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 39
     },
     {
      "name": "Visier",
@@ -1458,7 +1617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 40
     },
     {
      "name": "Lattice",
@@ -1496,7 +1655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 41
     },
     {
      "name": "WakaTime",
@@ -1534,7 +1693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 42
     }
    ],
    "open": true
@@ -1544,8 +1703,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 127,
-   "shown": 127,
+   "count": 128,
+   "shown": 128,
    "providers": [
     {
      "name": "Workday Studio",
@@ -1583,7 +1742,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 43
     },
     {
      "name": "Paradox",
@@ -1628,7 +1787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 44
     },
     {
      "name": "Reflektive",
@@ -1666,7 +1825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 45
     },
     {
      "name": "Indeed",
@@ -1704,7 +1863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 46
     },
     {
      "name": "Workday Payroll",
@@ -1742,7 +1901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 47
     },
     {
      "name": "Credentially",
@@ -1787,7 +1946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 48
     },
     {
      "name": "Google Cloud Batch",
@@ -1825,7 +1984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 49
     },
     {
      "name": "Ethena",
@@ -1863,7 +2022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 50
     },
     {
      "name": "Zoho People",
@@ -1901,7 +2060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 51
     },
     {
      "name": "7shifts",
@@ -1939,7 +2098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 52
     },
     {
      "name": "Financial Data Exchange (FDX)",
@@ -1984,7 +2143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 53
     },
     {
      "name": "Check Technologies",
@@ -2029,7 +2188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 54
     },
     {
      "name": "PlanSource",
@@ -2073,7 +2232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 55
     },
     {
      "name": "Palenca (Vech)",
@@ -2111,7 +2270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 56
     },
     {
      "name": "Small Improvements",
@@ -2149,7 +2308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 57
     },
     {
      "name": "KolayIK",
@@ -2187,7 +2346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 58
     },
     {
      "name": "Skedulo",
@@ -2224,7 +2383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 59
     },
     {
      "name": "TalentLMS",
@@ -2262,7 +2421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 60
     },
     {
      "name": "KUFU",
@@ -2307,7 +2466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 61
     },
     {
      "name": "Leapsome",
@@ -2345,7 +2504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 62
     },
     {
      "name": "Paychex",
@@ -2383,7 +2542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 63
     },
     {
      "name": "Goethena",
@@ -2421,7 +2580,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 64
+    },
+    {
+     "name": "LeO",
+     "slug": "leo",
+     "description": "LeO is an AI-powered sales and prospecting platform for commercial insurance professionals, serving property & casualty (P&C) brokers, employee benefits advisors, and nonprofit insurance specialists. The platform pairs a commercial-lines prospect database of 25M+ US businesses and 200+ filters -- NAICS codes, revenue thresholds, workers' compensation, DOT/FMCSA records, OSHA compliance history, Form 5500 benefits and pension filings, and IRS 990 nonprofit data -- with a renewal-date (X-date) database carrying key contacts and AI-predicted renewal months. LeO generates AI-personalized email outreach, produces pre-meeting intelligence on incumbent carriers, brokers, coverage and risk gaps, and pushes qualified prospects to CRM or CSV export. Founded by CEO Liri Halperin Segal, LeO is a Techstars portfolio company and has been certified HIPAA compliant by an external auditing firm. Alongside the subscription web application it ships two programmatic surfaces: a REST \"Leo Public API\" at api.meetleo.com with a published OpenAPI 3.0.0 definition covering account, credits, prospect search and asynchronous contact enrichment, and a first-party, OAuth-protected MCP Connector at mcp.meetleo.com marketed for Claude, ChatGPT, Gemini and Copilot. Both are entitlement-gated to existing customers and metered in credits.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 54.5,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 71.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 65
     },
     {
      "name": "Argyle",
@@ -2459,7 +2663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 66
     },
     {
      "name": "Leena AI",
@@ -2497,7 +2701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 67
     },
     {
      "name": "Workday Recruiting",
@@ -2535,7 +2739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 68
     },
     {
      "name": "Weavix",
@@ -2572,7 +2776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 69
     },
     {
      "name": "When I Work",
@@ -2610,7 +2814,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 70
+    },
+    {
+     "name": "QuotaPath",
+     "slug": "quotapath",
+     "description": "QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 47.5,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 71
     },
     {
      "name": "Workleap",
@@ -2648,7 +2889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 72
     },
     {
      "name": "Deskera",
@@ -2685,7 +2926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 73
     },
     {
      "name": "Wagestream",
@@ -2722,7 +2963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 74
     },
     {
      "name": "Buk",
@@ -2759,7 +3000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 75
     },
     {
      "name": "Fama",
@@ -2797,7 +3038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 76
     },
     {
      "name": "Trakstar",
@@ -2835,7 +3076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 77
     },
     {
      "name": "Pinwheel",
@@ -2880,7 +3121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 78
     },
     {
      "name": "Fountain",
@@ -2918,7 +3159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 79
     },
     {
      "name": "Bright Pattern",
@@ -2962,7 +3203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 80
     },
     {
      "name": "SAP Fieldglass",
@@ -3000,7 +3241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 81
     },
     {
      "name": "SAP S/4HANA",
@@ -3038,7 +3279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 82
     },
     {
      "name": "Harri",
@@ -3076,7 +3317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 83
     },
     {
      "name": "ActivTrak",
@@ -3114,7 +3355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 84
     },
     {
      "name": "Codesignal",
@@ -3152,7 +3393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 85
     },
     {
      "name": "FlowAccount",
@@ -3190,7 +3431,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 86
     },
     {
      "name": "Rippling",
@@ -3228,7 +3469,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 87
     },
     {
      "name": "Rentahuman",
@@ -3272,7 +3513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 88
     },
     {
      "name": "Cadana",
@@ -3317,7 +3558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 89
     },
     {
      "name": "Databricks Asset Bundles",
@@ -3355,7 +3596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 90
     },
     {
      "name": "Willo",
@@ -3392,7 +3633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 91
     },
     {
      "name": "Smokeball",
@@ -3430,7 +3671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 92
     },
     {
      "name": "ZenHR Inc",
@@ -3467,7 +3708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 93
     },
     {
      "name": "Tadeus API",
@@ -3504,7 +3745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 94
     },
     {
      "name": "Thatch Health",
@@ -3548,7 +3789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 95
     },
     {
      "name": "Request Finance",
@@ -3592,7 +3833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 96
     },
     {
      "name": "Truto",
@@ -3630,7 +3871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 97
     },
     {
      "name": "Workday Tracking System",
@@ -3668,7 +3909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 98
     },
     {
      "name": "Rollee",
@@ -3712,7 +3953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 99
     },
     {
      "name": "The Predictive Index",
@@ -3749,7 +3990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 100
     },
     {
      "name": "Charthop",
@@ -3787,7 +4028,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 95
+     "rank": 101
     },
     {
      "name": "Workday Integrations",
@@ -3825,7 +4066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 102
     },
     {
      "name": "VA Lighthouse",
@@ -3870,7 +4111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 103
     },
     {
      "name": "Teambridge",
@@ -3907,7 +4148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 104
     },
     {
      "name": "Optibus",
@@ -3945,7 +4186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 105
     },
     {
      "name": "Papaya Global",
@@ -3990,7 +4231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 106
     },
     {
      "name": "Wellhub",
@@ -4034,7 +4275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 107
     },
     {
      "name": "Sage HR",
@@ -4072,7 +4313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 108
     },
     {
      "name": "Phenom",
@@ -4109,7 +4350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 109
     },
     {
      "name": "Keka HR",
@@ -4147,7 +4388,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 110
     },
     {
      "name": "QGenda",
@@ -4191,7 +4432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 111
     },
     {
      "name": "Telleroo",
@@ -4235,7 +4476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 112
     },
     {
      "name": "Avito",
@@ -4273,7 +4514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 113
     },
     {
      "name": "Nayya",
@@ -4318,7 +4559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 114
     },
     {
      "name": "Ashby",
@@ -4356,7 +4597,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 115
     },
     {
      "name": "Get On Board",
@@ -4394,7 +4635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 116
     },
     {
      "name": "micro1",
@@ -4432,7 +4673,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 117
     },
     {
      "name": "Quinyx",
@@ -4469,7 +4710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 118
     },
     {
      "name": "Sun Life",
@@ -4513,7 +4754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 119
     },
     {
      "name": "Work Market",
@@ -4557,7 +4798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 120
     },
     {
      "name": "Flash App",
@@ -4602,7 +4843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 121
     },
     {
      "name": "TeamOhana",
@@ -4639,7 +4880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 122
     },
     {
      "name": "ERPNext",
@@ -4677,7 +4918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 123
     },
     {
      "name": "MyCase",
@@ -4722,7 +4963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 124
     },
     {
      "name": "401GO",
@@ -4760,7 +5001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 125
     },
     {
      "name": "Cobee by Pluxee",
@@ -4798,7 +5039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 126
     },
     {
      "name": "Humaans",
@@ -4836,7 +5077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 127
     },
     {
      "name": "Thatch",
@@ -4880,7 +5121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 128
     },
     {
      "name": "UKG",
@@ -4918,7 +5159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 129
     },
     {
      "name": "Clio",
@@ -4956,7 +5197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 130
     },
     {
      "name": "Consola Finance",
@@ -4994,7 +5235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 131
     },
     {
      "name": "VidGrid",
@@ -5031,7 +5272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 132
     },
     {
      "name": "Hakuna",
@@ -5069,7 +5310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 133
     },
     {
      "name": "Clockodo",
@@ -5107,7 +5348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 134
     },
     {
      "name": "Lever",
@@ -5145,7 +5386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 135
     },
     {
      "name": "Enboarder",
@@ -5162,7 +5403,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -5182,7 +5423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 136
     },
     {
      "name": "Garner Health",
@@ -5227,7 +5468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 137
     },
     {
      "name": "OnPay",
@@ -5265,7 +5506,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 138
     },
     {
      "name": "Timeular",
@@ -5302,7 +5543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 139
     },
     {
      "name": "Laurel",
@@ -5340,7 +5581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 140
     },
     {
      "name": "PracticePanther",
@@ -5378,7 +5619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 141
     },
     {
      "name": "SmartRecruiters",
@@ -5416,7 +5657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 142
     },
     {
      "name": "Vistra",
@@ -5454,7 +5695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 143
     },
     {
      "name": "Yoobic",
@@ -5491,7 +5732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 144
     },
     {
      "name": "COR",
@@ -5529,7 +5770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 145
     },
     {
      "name": "Gloat",
@@ -5567,7 +5808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 146
     },
     {
      "name": "ADP",
@@ -5605,7 +5846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 147
     },
     {
      "name": "Noyo",
@@ -5650,7 +5891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 148
     },
     {
      "name": "CareAcademy",
@@ -5695,7 +5936,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 149
     },
     {
      "name": "Sage",
@@ -5733,7 +5974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 150
     },
     {
      "name": "Cachet",
@@ -5778,7 +6019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 151
     },
     {
      "name": "Calm",
@@ -5823,7 +6064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 152
     },
     {
      "name": "GoGet",
@@ -5861,7 +6102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 153
     },
     {
      "name": "Human Interest",
@@ -5899,7 +6140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 154
     },
     {
      "name": "Pinwheel",
@@ -5937,7 +6178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 155
     },
     {
      "name": "Finch",
@@ -5975,7 +6216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 156
     },
     {
      "name": "Workable",
@@ -6013,7 +6254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 157
     },
     {
      "name": "Workstream",
@@ -6050,44 +6291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
-    },
-    {
-     "name": "QuotaPath",
-     "slug": "quotapath",
-     "description": "QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.",
-     "score": 43.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 47.5,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 45.1,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 31.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 153
+     "rank": 158
     },
     {
      "name": "Kombo",
@@ -6125,7 +6329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 159
     },
     {
      "name": "Mosaic",
@@ -6163,7 +6367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 160
     },
     {
      "name": "AlayaCare",
@@ -6208,45 +6412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
-    },
-    {
-     "name": "RocketReach",
-     "slug": "rocketreach",
-     "description": "RocketReach is a Seattle-based B2B contact data and sales intelligence provider that maintains a database of 700M+ professional profiles and 60M+ companies and exposes it through a REST API for email, phone, and social-handle discovery plus company firmographics. The platform is used for sales prospecting, recruiting, marketing enrichment, and CRM hydration, with results returned as structured profile and company objects and optional webhook delivery for asynchronous lookups.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png",
-     "score": 42.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 62.7,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 39.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 157
+     "rank": 161
     },
     {
      "name": "Everhour",
@@ -6284,7 +6450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 162
     },
     {
      "name": "Hubstaff",
@@ -6322,7 +6488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 163
     },
     {
      "name": "Ease",
@@ -6367,7 +6533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 164
     },
     {
      "name": "Google Cloud Talent Solution",
@@ -6405,7 +6571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 165
     },
     {
      "name": "Gusto",
@@ -6443,7 +6609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 166
     },
     {
      "name": "Onsi",
@@ -6488,7 +6654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 167
     },
     {
      "name": "Veterans Affairs",
@@ -6533,7 +6699,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 168
+    },
+    {
+     "name": "The Org",
+     "slug": "theorg",
+     "description": "The Org operates the world's largest network of public organizational charts, mapping companies, their teams, and reporting hierarchies. Its developer platform exposes a metered REST API and an official MCP server for retrieving a company's public org chart by domain or LinkedIn URL, prospecting positions and people with rich filters, resolving a person's manager, and monitoring credit usage. Authentication is via an account-scoped X-Api-Key header over HTTPS, usage is metered in monthly credits, and the same key powers a remote Model Context Protocol endpoint exposing thirteen tools for agent-native access — company and person lookup, job search, reporting-line traversal, work-email resolution, and lead-list management. The MCP surface is materially wider than the REST API: eight of the thirteen tools have no REST equivalent, and list creation is the only write operation The Org exposes anywhere. Originally added to the API Evangelist network as a portfolio company of Balderton Capital.",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 27.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 169
     },
     {
      "name": "Great-West Lifeco",
@@ -6578,7 +6781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 170
     }
    ]
   },
@@ -6587,8 +6790,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 137,
-   "shown": 137,
+   "count": 135,
+   "shown": 135,
    "providers": [
     {
      "name": "Harver",
@@ -6626,7 +6829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 171
     },
     {
      "name": "Knit",
@@ -6664,7 +6867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 172
     },
     {
      "name": "Comeet",
@@ -6702,7 +6905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 173
     },
     {
      "name": "Nmbrs",
@@ -6740,7 +6943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 174
     },
     {
      "name": "handy",
@@ -6778,7 +6981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 175
     },
     {
      "name": "Litmus Hiring",
@@ -6816,7 +7019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 176
     },
     {
      "name": "Rhumbix",
@@ -6853,7 +7056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 177
     },
     {
      "name": "15Five",
@@ -6891,7 +7094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 178
     },
     {
      "name": "Eightfold AI",
@@ -6929,7 +7132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 179
     },
     {
      "name": "Contalink",
@@ -6967,7 +7170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 180
     },
     {
      "name": "TalkPush",
@@ -7004,7 +7207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 181
     },
     {
      "name": "VCV",
@@ -7041,45 +7244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
-    },
-    {
-     "name": "Supaglue",
-     "slug": "supaglue",
-     "description": "Supaglue is an open-source unified API platform that enables B2B SaaS developers to build product integrations with CRM, HRIS, sales engagement, ticketing, and other business applications. It provides a unified API layer that abstracts away provider-specific differences, managed OAuth authentication, data syncing to data warehouses (BigQuery, Snowflake, Redshift, Postgres), and a management API for configuring customers, connections, and sync configurations. Supported providers include Salesforce, HubSpot, Pipedrive, Zendesk, Slack, and 15+ others. The platform is available as a managed cloud service (api.supaglue.io) and as a self-hosted open-source deployment. The GitHub organization is github.com/supaglue-labs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-06-20T194702.png",
-     "score": 40.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 68.2,
-      "governance": 58.3,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 39.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 178
+     "rank": 182
     },
     {
      "name": "GoodHire",
@@ -7117,7 +7282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 183
     },
     {
      "name": "TimeCamp",
@@ -7154,7 +7319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 184
     },
     {
      "name": "Sterling",
@@ -7191,7 +7356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 185
     },
     {
      "name": "Zoho",
@@ -7229,7 +7394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 186
     },
     {
      "name": "Accurate Background",
@@ -7267,7 +7432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 187
     },
     {
      "name": "Bonusly",
@@ -7305,7 +7470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 188
     },
     {
      "name": "Certn",
@@ -7343,7 +7508,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 189
     },
     {
      "name": "Popp",
@@ -7380,7 +7545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 190
     },
     {
      "name": "Staffbase",
@@ -7417,7 +7582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 191
     },
     {
      "name": "FreshBooks",
@@ -7455,7 +7620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 192
     },
     {
      "name": "Truv",
@@ -7492,7 +7657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 193
     },
     {
      "name": "Karat",
@@ -7530,7 +7695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 194
     },
     {
      "name": "SmartHR",
@@ -7567,7 +7732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 195
     },
     {
      "name": "酷学院 (Cool College)",
@@ -7605,7 +7770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 196
     },
     {
      "name": "AbsenceSoft",
@@ -7643,7 +7808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 197
     },
     {
      "name": "CharlieHR",
@@ -7681,7 +7846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 198
     },
     {
      "name": "forecast",
@@ -7719,7 +7884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 199
     },
     {
      "name": "KPMG",
@@ -7757,7 +7922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 200
     },
     {
      "name": "Nectar",
@@ -7795,7 +7960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 201
     },
     {
      "name": "Nova Lima",
@@ -7833,7 +7998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 202
     },
     {
      "name": "Contra",
@@ -7871,7 +8036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 203
     },
     {
      "name": "Guusto",
@@ -7916,7 +8081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 204
     },
     {
      "name": "Nowsta",
@@ -7954,7 +8119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 205
     },
     {
      "name": "Google Cloud Scheduler",
@@ -7992,7 +8157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 206
     },
     {
      "name": "Mosey",
@@ -8030,7 +8195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 207
     },
     {
      "name": "Checkr",
@@ -8068,7 +8233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 208
     },
     {
      "name": "Fountain",
@@ -8106,7 +8271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 209
     },
     {
      "name": "Freshteam",
@@ -8144,7 +8309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 210
     },
     {
      "name": "Docebo",
@@ -8182,7 +8347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 211
     },
     {
      "name": "Replicon",
@@ -8219,7 +8384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 212
     },
     {
      "name": "Sesame HR",
@@ -8256,7 +8421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 213
     },
     {
      "name": "BambooHR",
@@ -8294,7 +8459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 214
     },
     {
      "name": "freee",
@@ -8332,7 +8497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 215
     },
     {
      "name": "Zeal",
@@ -8369,7 +8534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 216
     },
     {
      "name": "Bullhorn",
@@ -8407,7 +8572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 217
     },
     {
      "name": "OpenProject",
@@ -8445,45 +8610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
-    },
-    {
-     "name": "Microsoft LinkedIn",
-     "slug": "microsoft-linkedin",
-     "description": "LinkedIn, owned by Microsoft, provides APIs for accessing professional networking data, marketing and advertising capabilities, talent solutions, and consumer features including sign-in with LinkedIn.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png",
-     "score": 36.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 55.2,
-      "governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 215
+     "rank": 218
     },
     {
      "name": "Fourth",
@@ -8521,7 +8648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 219
     },
     {
      "name": "Absence.io",
@@ -8559,7 +8686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 220
     },
     {
      "name": "Towers Watson",
@@ -8603,7 +8730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 221
     },
     {
      "name": "BigChange",
@@ -8641,7 +8768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 222
     },
     {
      "name": "Paylocity",
@@ -8679,7 +8806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 223
     },
     {
      "name": "BetterWorks",
@@ -8717,7 +8844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 224
     },
     {
      "name": "WorkMotion",
@@ -8754,7 +8881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 225
     },
     {
      "name": "Kenjo",
@@ -8792,7 +8919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 226
     },
     {
      "name": "Peakon",
@@ -8830,7 +8957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 227
     },
     {
      "name": "Spark Hire",
@@ -8867,7 +8994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 228
     },
     {
      "name": "Workwell Technologies",
@@ -8904,7 +9031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 229
     },
     {
      "name": "Toggl Track",
@@ -8942,7 +9069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 230
     },
     {
      "name": "Workiz",
@@ -8979,7 +9106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 231
     },
     {
      "name": "Harvest",
@@ -9017,7 +9144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 232
     },
     {
      "name": "Simpro",
@@ -9054,7 +9181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 233
     },
     {
      "name": "Atomic",
@@ -9092,7 +9219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 234
     },
     {
      "name": "Joblogic",
@@ -9130,7 +9257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 235
     },
     {
      "name": "Pinpoint",
@@ -9167,7 +9294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 236
     },
     {
      "name": "Teamwork.com",
@@ -9205,7 +9332,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 237
     },
     {
      "name": "Vector Solutions",
@@ -9242,7 +9369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 238
     },
     {
      "name": "QuickBooks",
@@ -9280,7 +9407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 239
     },
     {
      "name": "The Muse",
@@ -9318,7 +9445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 240
     },
     {
      "name": "QuickBooks Online",
@@ -9363,7 +9490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 241
     },
     {
      "name": "Salsa",
@@ -9407,7 +9534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 242
     },
     {
      "name": "Bitrix24",
@@ -9445,7 +9572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 243
     },
     {
      "name": "FreeAgent",
@@ -9483,7 +9610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 244
     },
     {
      "name": "Oyster HR",
@@ -9521,7 +9648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 245
     },
     {
      "name": "Tsenta",
@@ -9558,7 +9685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 246
     },
     {
      "name": "UKG Ready",
@@ -9596,7 +9723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 247
     },
     {
      "name": "Automatic Data Processing (ADP)",
@@ -9634,7 +9761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 248
     },
     {
      "name": "Personio",
@@ -9672,7 +9799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 249
     },
     {
      "name": "Zoho Projects",
@@ -9710,7 +9837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 250
     },
     {
      "name": "Frappe",
@@ -9748,7 +9875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 251
     },
     {
      "name": "Pyn",
@@ -9785,7 +9912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 252
     },
     {
      "name": "Shyft",
@@ -9822,7 +9949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 253
     },
     {
      "name": "CosmoLex",
@@ -9860,7 +9987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 254
     },
     {
      "name": "Handshake",
@@ -9898,7 +10025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 255
     },
     {
      "name": "Zego",
@@ -9942,7 +10069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 256
     },
     {
      "name": "Employment Hero",
@@ -9980,7 +10107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 257
     },
     {
      "name": "Hive",
@@ -10018,7 +10145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 258
     },
     {
      "name": "Nory",
@@ -10056,7 +10183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 259
     },
     {
      "name": "Upwork",
@@ -10094,7 +10221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 260
     },
     {
      "name": "PayFit",
@@ -10132,7 +10259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 261
     },
     {
      "name": "Rescale",
@@ -10169,7 +10296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 262
     },
     {
      "name": "iCIMS",
@@ -10207,7 +10334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 263
     },
     {
      "name": "Facturama",
@@ -10245,7 +10372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 264
     },
     {
      "name": "HiBob",
@@ -10283,7 +10410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 265
     },
     {
      "name": "Breathe HR",
@@ -10321,7 +10448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 266
     },
     {
      "name": "Planday",
@@ -10358,7 +10485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 267
     },
     {
      "name": "Arist",
@@ -10396,7 +10523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 268
     },
     {
      "name": "Clockify",
@@ -10434,7 +10561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 269
     },
     {
      "name": "TaskRabbit",
@@ -10471,7 +10598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 270
     },
     {
      "name": "Bupa Australia",
@@ -10516,7 +10643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 271
     },
     {
      "name": "Allianz Engagement Survey",
@@ -10534,7 +10661,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -10561,7 +10688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 272
     },
     {
      "name": "Lynx",
@@ -10606,7 +10733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 273
     },
     {
      "name": "Opkit",
@@ -10650,7 +10777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 274
     },
     {
      "name": "Greenhouse",
@@ -10688,7 +10815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 275
     },
     {
      "name": "Braintrust (Talent Network)",
@@ -10725,7 +10852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 276
     },
     {
      "name": "OurPeople",
@@ -10763,7 +10890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 277
     },
     {
      "name": "Memory",
@@ -10801,7 +10928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 278
     },
     {
      "name": "PageUp People",
@@ -10839,7 +10966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 279
     },
     {
      "name": "Highline",
@@ -10884,7 +11011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 280
     },
     {
      "name": "Nirvana Health",
@@ -10929,7 +11056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 281
     },
     {
      "name": "Nomad Health",
@@ -10974,7 +11101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 282
     },
     {
      "name": "Multiplier",
@@ -11012,7 +11139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 283
     },
     {
      "name": "Simpplr",
@@ -11049,7 +11176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 284
     },
     {
      "name": "Factorial",
@@ -11087,7 +11214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 285
     },
     {
      "name": "UKG Pro",
@@ -11125,7 +11252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 286
     },
     {
      "name": "G-P",
@@ -11163,7 +11290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 287
     },
     {
      "name": "Bridgit",
@@ -11201,7 +11328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 288
     },
     {
      "name": "Cornerstone OnDemand",
@@ -11239,7 +11366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 289
     },
     {
      "name": "MainStreet",
@@ -11277,7 +11404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 290
     },
     {
      "name": "Kanban Tool",
@@ -11315,7 +11442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 291
     },
     {
      "name": "Deputy",
@@ -11353,7 +11480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 292
     },
     {
      "name": "Bindbee",
@@ -11391,7 +11518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 293
     },
     {
      "name": "humi.ca",
@@ -11429,7 +11556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 294
     },
     {
      "name": "Homebase",
@@ -11467,7 +11594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 295
     },
     {
      "name": "Recuro Health",
@@ -11511,7 +11638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 296
     },
     {
      "name": "Accelo",
@@ -11549,7 +11676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 297
     },
     {
      "name": "Velocity Global",
@@ -11587,7 +11714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 298
     },
     {
      "name": "Zoho Recruit",
@@ -11625,7 +11752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 299
     },
     {
      "name": "Employee Navigator",
@@ -11670,7 +11797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 300
     },
     {
      "name": "Humanity",
@@ -11708,7 +11835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 301
     },
     {
      "name": "Atomic",
@@ -11753,7 +11880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 302
     },
     {
      "name": "HiBob",
@@ -11791,7 +11918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 303
     },
     {
      "name": "MYOB",
@@ -11829,7 +11956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 304
     },
     {
      "name": "Getro",
@@ -11867,7 +11994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 305
     }
    ]
   },
@@ -11876,8 +12003,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 319,
-   "shown": 319,
+   "count": 320,
+   "shown": 320,
    "providers": [
     {
      "name": "PayActiv",
@@ -11922,7 +12049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 306
     },
     {
      "name": "Centrical",
@@ -11959,7 +12086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 307
     },
     {
      "name": "Bonsai",
@@ -11997,7 +12124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 308
     },
     {
      "name": "Canada Life",
@@ -12042,7 +12169,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 309
     },
     {
      "name": "Everlance",
@@ -12080,7 +12207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 310
     },
     {
      "name": "Instawork",
@@ -12118,7 +12245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 311
     },
     {
      "name": "ADP Workforce Now",
@@ -12156,7 +12283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 312
     },
     {
      "name": "Quikr",
@@ -12193,7 +12320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 313
     },
     {
      "name": "Nivelo",
@@ -12238,7 +12365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 314
     },
     {
      "name": "Lanes & Planes",
@@ -12276,7 +12403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 315
     },
     {
      "name": "AstroPay",
@@ -12321,7 +12448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 316
     },
     {
      "name": "PeopleForce",
@@ -12359,7 +12486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 317
     },
     {
      "name": "Department of Labor",
@@ -12404,7 +12531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 318
     },
     {
      "name": "Sharebite",
@@ -12448,7 +12575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 319
     },
     {
      "name": "Blue Cross Canada",
@@ -12492,7 +12619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 320
     },
     {
      "name": "Carrum Health",
@@ -12537,7 +12664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 321
     },
     {
      "name": "Vitality",
@@ -12581,7 +12708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 322
     },
     {
      "name": "Arthur J. Gallagher",
@@ -12626,7 +12753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 323
     },
     {
      "name": "Redmine",
@@ -12664,7 +12791,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 324
     },
     {
      "name": "Codility",
@@ -12702,7 +12829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 325
     },
     {
      "name": "Raken",
@@ -12740,7 +12867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 326
     },
     {
      "name": "Ubeya",
@@ -12777,7 +12904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 327
     },
     {
      "name": "Gravie",
@@ -12822,7 +12949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 328
     },
     {
      "name": "SAP SuccessFactors",
@@ -12860,7 +12987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 329
     },
     {
      "name": "Open (open.money)",
@@ -12905,7 +13032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 330
     },
     {
      "name": "TartanHQ",
@@ -12949,7 +13076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 331
     },
     {
      "name": "Legal & General",
@@ -12994,7 +13121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 332
     },
     {
      "name": "Lincoln National",
@@ -13039,7 +13166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 333
     },
     {
      "name": "HackerRank",
@@ -13077,7 +13204,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 334
     },
     {
      "name": "Worky",
@@ -13114,7 +13241,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 335
+    },
+    {
+     "name": "Peopleix",
+     "slug": "peopleix",
+     "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps. That knowledge layer is exposed to agents through a real, hosted, remote MCP server at https://app.peopleix.com/mcp — confirmed live, OAuth 2.1-gated (PKCE S256, dynamic client registration, Clerk-backed), and advertised through RFC 8414 and RFC 9728 discovery documents the application host serves anonymously. peopleIX publishes no OpenAPI, no REST developer portal, and no SDK; the MCP endpoint is the entire developer-facing surface, and its tool inventory sits behind customer authentication. The service is EU-resident end-to-end, GDPR compliant and ISO 27001 certified with a Vanta-hosted trust center at https://trust.peopleix.com, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels.",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 336
     },
     {
      "name": "JobGet",
@@ -13152,7 +13316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 337
     },
     {
      "name": "Rightway",
@@ -13196,7 +13360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 338
     },
     {
      "name": "SideCare",
@@ -13240,7 +13404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 339
     },
     {
      "name": "Zebec",
@@ -13284,7 +13448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 340
     },
     {
      "name": "SmithRx",
@@ -13328,7 +13492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 341
     },
     {
      "name": "NoBueno",
@@ -13365,7 +13529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 342
     },
     {
      "name": "Localyze",
@@ -13403,52 +13567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
-    },
-    {
-     "name": "LeO",
-     "slug": "leo",
-     "description": "LeO is an AI-powered sales and prospecting platform for commercial insurance professionals, serving property & casualty (P&C) brokers, employee benefits advisors, and nonprofit insurance specialists. The platform pairs a commercial-lines prospect database with more than 150 filters -- NAICS codes, revenue thresholds, workers' compensation, DOT, OSHA compliance history and IRS 990 nonprofit data -- with a renewal-date (X-date) database carrying key contacts and AI-predicted renewal months. LeO generates AI-personalized email outreach, produces pre-meeting intelligence on incumbent carriers, brokers, coverage and risk gaps, and pushes qualified prospects to CRM or CSV export. Founded by CEO Liri Halperin Segal, LeO is a Techstars portfolio company and has been certified HIPAA compliant by an external auditing firm. It is delivered as a subscription web application and publishes no public developer API, SDKs or documentation; its only machine-readable surfaces are an llms.txt and a live Wix-provided site MCP endpoint covering public marketing content.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 36.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 340
+     "rank": 343
     },
     {
      "name": "Paychex",
@@ -13486,7 +13605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 344
     },
     {
      "name": "Symetra Financial",
@@ -13530,7 +13649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 345
     },
     {
      "name": "Snappy",
@@ -13567,7 +13686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 346
     },
     {
      "name": "University of Wisconsin-Madison",
@@ -13605,7 +13724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 347
     },
     {
      "name": "Benepass",
@@ -13650,7 +13769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 348
     },
     {
      "name": "SeekOut",
@@ -13687,7 +13806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 349
     },
     {
      "name": "CareRev",
@@ -13732,7 +13851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 350
     },
     {
      "name": "Fountain",
@@ -13770,7 +13889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 351
     },
     {
      "name": "Canditech Ltd.",
@@ -13808,7 +13927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 352
     },
     {
      "name": "AngelList",
@@ -13846,7 +13965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 353
     },
     {
      "name": "Dolibarr",
@@ -13891,7 +14010,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 354
     },
     {
      "name": "Final Round AI",
@@ -13929,7 +14048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 355
     },
     {
      "name": "Forma",
@@ -13974,7 +14093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 356
     },
     {
      "name": "Collective Health",
@@ -14019,7 +14138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 357
     },
     {
      "name": "Complete",
@@ -14064,7 +14183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 358
     },
     {
      "name": "Assembly",
@@ -14102,7 +14221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 359
     },
     {
      "name": "Julaya",
@@ -14147,7 +14266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 360
     },
     {
      "name": "Recruitee",
@@ -14185,7 +14304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 361
     },
     {
      "name": "bswift",
@@ -14229,7 +14348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 362
     },
     {
      "name": "Modern Health",
@@ -14274,7 +14393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 363
     },
     {
      "name": "Wrapbook",
@@ -14311,7 +14430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 364
     },
     {
      "name": "Firefly Health",
@@ -14356,7 +14475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 365
     },
     {
      "name": "Garten",
@@ -14394,7 +14513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 366
     },
     {
      "name": "Apron",
@@ -14439,7 +14558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 367
     },
     {
      "name": "Miter",
@@ -14477,7 +14596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 368
     },
     {
      "name": "Angle Health",
@@ -14522,7 +14641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 369
     },
     {
      "name": "ExecOnline",
@@ -14560,7 +14679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 370
     },
     {
      "name": "Jack & Jill",
@@ -14598,7 +14717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 371
     },
     {
      "name": "Pave",
@@ -14643,7 +14762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 372
     },
     {
      "name": "Sana Benefits",
@@ -14687,7 +14806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 373
     },
     {
      "name": "HR & People",
@@ -14725,7 +14844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 374
     },
     {
      "name": "AllWork",
@@ -14763,7 +14882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 375
     },
     {
      "name": "ChangeEngine",
@@ -14801,7 +14920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 376
     },
     {
      "name": "Valence (FKA Shift)",
@@ -14838,7 +14957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 377
     },
     {
      "name": "Workhuman",
@@ -14875,7 +14994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 378
     },
     {
      "name": "HealthJoy",
@@ -14920,7 +15039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 379
     },
     {
      "name": "Juno Journey",
@@ -14958,7 +15077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 380
     },
     {
      "name": "Stack Health",
@@ -15002,7 +15121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 381
     },
     {
      "name": "TestGorilla",
@@ -15039,7 +15158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 382
     },
     {
      "name": "ThreeFlow",
@@ -15083,7 +15202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 383
     },
     {
      "name": "UBIO Automation Cloud",
@@ -15120,7 +15239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 384
     },
     {
      "name": "Hireology",
@@ -15165,7 +15284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 385
     },
     {
      "name": "Intrro",
@@ -15203,7 +15322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 383
+     "rank": 386
     },
     {
      "name": "Back Office",
@@ -15248,7 +15367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 384
+     "rank": 387
     },
     {
      "name": "Howden Group",
@@ -15293,7 +15412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 385
+     "rank": 388
     },
     {
      "name": "Unit4",
@@ -15338,7 +15457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 386
+     "rank": 389
     },
     {
      "name": "Boon",
@@ -15376,7 +15495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 387
+     "rank": 390
     },
     {
      "name": "Elevate",
@@ -15421,7 +15540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 388
+     "rank": 391
     },
     {
      "name": "Asendia AI",
@@ -15459,7 +15578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 389
+     "rank": 392
     },
     {
      "name": "Pequity",
@@ -15497,7 +15616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 390
+     "rank": 393
     },
     {
      "name": "Awardco",
@@ -15535,7 +15654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 391
+     "rank": 394
     },
     {
      "name": "Check",
@@ -15580,7 +15699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 392
+     "rank": 395
     },
     {
      "name": "Darwinbox",
@@ -15618,7 +15737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 396
     },
     {
      "name": "EIS Group",
@@ -15663,7 +15782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 397
     },
     {
      "name": "Origin Financial",
@@ -15700,7 +15819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 398
     },
     {
      "name": "Remofirst",
@@ -15737,7 +15856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 399
     },
     {
      "name": "Monograph",
@@ -15775,7 +15894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 400
     },
     {
      "name": "Vervoe",
@@ -15812,7 +15931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 401
     },
     {
      "name": "Gem",
@@ -15850,7 +15969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 402
     },
     {
      "name": "Playroll",
@@ -15887,7 +16006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 403
     },
     {
      "name": "Department of Labor",
@@ -15932,7 +16051,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 404
     },
     {
      "name": "Disclo",
@@ -15977,7 +16096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 405
     },
     {
      "name": "F6S",
@@ -16015,7 +16134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 406
     },
     {
      "name": "Nilo Health",
@@ -16060,7 +16179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 407
     },
     {
      "name": "Symmetrical",
@@ -16097,7 +16216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 408
     },
     {
      "name": "Clipboard Health",
@@ -16142,7 +16261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 409
     },
     {
      "name": "Clipboard Health",
@@ -16187,7 +16306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 410
     },
     {
      "name": "Guideline",
@@ -16225,7 +16344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 411
     },
     {
      "name": "ModernLoop",
@@ -16263,7 +16382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 412
     },
     {
      "name": "Talentium",
@@ -16300,7 +16419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 413
     },
     {
      "name": "Trusted Health",
@@ -16344,7 +16463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 414
     },
     {
      "name": "Wonolo",
@@ -16381,7 +16500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 415
     },
     {
      "name": "Lively",
@@ -16426,7 +16545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 416
     },
     {
      "name": "Taito.ai",
@@ -16463,7 +16582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 417
     },
     {
      "name": "TriNet Group",
@@ -16501,7 +16620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 418
     },
     {
      "name": "BrightHire",
@@ -16539,7 +16658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 419
     },
     {
      "name": "Worksmith",
@@ -16576,7 +16695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 420
     },
     {
      "name": "Unmind",
@@ -16620,7 +16739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 421
     },
     {
      "name": "Workrise",
@@ -16664,7 +16783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 422
     },
     {
      "name": "Zinc",
@@ -16701,7 +16820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 423
     },
     {
      "name": "Athena",
@@ -16739,7 +16858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 424
     },
     {
      "name": "Earnin",
@@ -16784,7 +16903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 425
     },
     {
      "name": "Groundswell",
@@ -16822,7 +16941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 426
     },
     {
      "name": "HireRight",
@@ -16860,7 +16979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 427
     },
     {
      "name": "Litify",
@@ -16898,7 +17017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 428
     },
     {
      "name": "AccessHope",
@@ -16943,7 +17062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 429
     },
     {
      "name": "DataPeople",
@@ -16981,7 +17100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 430
     },
     {
      "name": "Guardian Life",
@@ -17026,7 +17145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 431
     },
     {
      "name": "Hallo",
@@ -17064,7 +17183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 432
     },
     {
      "name": "Metaview",
@@ -17101,7 +17220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 433
     },
     {
      "name": "Simpatico Project",
@@ -17145,44 +17264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
-    },
-    {
-     "name": "Peopleix",
-     "slug": "peopleix",
-     "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish.",
-     "score": 18.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 432
+     "rank": 434
     },
     {
      "name": "Carrot",
@@ -17227,7 +17309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 435
     },
     {
      "name": "Pasito",
@@ -17272,7 +17354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 436
     },
     {
      "name": "Pie Insurance",
@@ -17317,7 +17399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 437
     },
     {
      "name": "Successfactors",
@@ -17354,7 +17436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 438
     },
     {
      "name": "Cocoon",
@@ -17392,7 +17474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 439
     },
     {
      "name": "HireVue",
@@ -17430,7 +17512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 440
     },
     {
      "name": "MentorCloud",
@@ -17468,7 +17550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 441
     },
     {
      "name": "Palm HR",
@@ -17506,7 +17588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 442
     },
     {
      "name": "Paradox",
@@ -17544,7 +17626,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 443
     },
     {
      "name": "ConstructionOnline",
@@ -17582,7 +17664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 444
     },
     {
      "name": "Hackajob",
@@ -17620,7 +17702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 445
     },
     {
      "name": "Empathy",
@@ -17665,7 +17747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 446
     },
     {
      "name": "Family First",
@@ -17710,7 +17792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 447
     },
     {
      "name": "Nomi Health",
@@ -17755,7 +17837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 448
     },
     {
      "name": "Shiftsmart",
@@ -17799,7 +17881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 449
     },
     {
      "name": "Aware Health",
@@ -17844,7 +17926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 450
     },
     {
      "name": "TriNet Zenefits",
@@ -17882,7 +17964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 451
     },
     {
      "name": "Beamery",
@@ -17920,7 +18002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 452
     },
     {
      "name": "Lantern",
@@ -17965,7 +18047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 453
     },
     {
      "name": "Voiio",
@@ -18003,7 +18085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 454
     },
     {
      "name": "Zenjob",
@@ -18040,7 +18122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 455
     },
     {
      "name": "Entelo",
@@ -18078,7 +18160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 456
     },
     {
      "name": "Glassdoor",
@@ -18116,7 +18198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 457
     },
     {
      "name": "Wolf",
@@ -18153,7 +18235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 458
     },
     {
      "name": "WorkForce Software",
@@ -18190,7 +18272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 459
     },
     {
      "name": "BetterUp",
@@ -18228,7 +18310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 460
     },
     {
      "name": "ConnectRN",
@@ -18272,7 +18354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 461
     },
     {
      "name": "Heard",
@@ -18317,7 +18399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 462
     },
     {
      "name": "Openroll",
@@ -18355,7 +18437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 463
     },
     {
      "name": "Traba",
@@ -18392,7 +18474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 464
     },
     {
      "name": "ShiftMed",
@@ -18436,7 +18518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 465
     },
     {
      "name": "Bippit",
@@ -18474,7 +18556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 466
     },
     {
      "name": "Collective",
@@ -18512,7 +18594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 467
     },
     {
      "name": "Incredible Health",
@@ -18557,7 +18639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 468
     },
     {
      "name": "Jify",
@@ -18602,7 +18684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 469
     },
     {
      "name": "Newfront",
@@ -18647,7 +18729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 470
     },
     {
      "name": "Pointone",
@@ -18684,7 +18766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 471
     },
     {
      "name": "Workhint",
@@ -18728,7 +18810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 472
     },
     {
      "name": "Wuzzuf",
@@ -18765,7 +18847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 473
     },
     {
      "name": "Ebix",
@@ -18810,7 +18892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 474
     },
     {
      "name": "Inkling",
@@ -18848,7 +18930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 475
     },
     {
      "name": "Brightfield",
@@ -18886,7 +18968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 476
     },
     {
      "name": "Coursebase",
@@ -18924,7 +19006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 477
     },
     {
      "name": "Donut",
@@ -18962,7 +19044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 478
     },
     {
      "name": "HireArt",
@@ -19000,7 +19082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 479
     },
     {
      "name": "Lockton",
@@ -19045,7 +19127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 480
     },
     {
      "name": "PickTrace",
@@ -19082,7 +19164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 481
     },
     {
      "name": "Poplin",
@@ -19119,7 +19201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 482
     },
     {
      "name": "Yulife",
@@ -19163,7 +19245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 483
     },
     {
      "name": "Ben",
@@ -19201,7 +19283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 484
     },
     {
      "name": "Employee Cycle",
@@ -19239,7 +19321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 485
     },
     {
      "name": "Uno Health",
@@ -19283,7 +19365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 486
     },
     {
      "name": "Zone & Company",
@@ -19320,7 +19402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 487
     },
     {
      "name": "Every",
@@ -19365,7 +19447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 488
     },
     {
      "name": "Figures",
@@ -19403,7 +19485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 489
     },
     {
      "name": "Minu",
@@ -19448,7 +19530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 490
     },
     {
      "name": "Upwage",
@@ -19485,7 +19567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 491
     },
     {
      "name": "Gnowbe",
@@ -19523,7 +19605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 492
     },
     {
      "name": "Meisterwerk",
@@ -19561,7 +19643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 493
     },
     {
      "name": "Peppy",
@@ -19605,7 +19687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 494
     },
     {
      "name": "Skuad",
@@ -19642,7 +19724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 495
     },
     {
      "name": "TransparentBusiness",
@@ -19679,7 +19761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 496
     },
     {
      "name": "VanHack",
@@ -19716,7 +19798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 497
     },
     {
      "name": "Vela",
@@ -19753,7 +19835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 498
     },
     {
      "name": "Findem",
@@ -19791,7 +19873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 499
     },
     {
      "name": "HelloVerify",
@@ -19829,7 +19911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 500
     },
     {
      "name": "Indinero",
@@ -19867,7 +19949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 501
     },
     {
      "name": "Prescience Inc",
@@ -19911,7 +19993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 502
     },
     {
      "name": "TransferRoom",
@@ -19948,7 +20030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 503
     },
     {
      "name": "Brigad",
@@ -19993,7 +20075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 504
     },
     {
      "name": "Mona Ai",
@@ -20031,7 +20113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 505
     },
     {
      "name": "Spill",
@@ -20075,7 +20157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 506
     },
     {
      "name": "Teamtailor",
@@ -20113,7 +20195,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 507
+    },
+    {
+     "name": "Braid Social",
+     "slug": "braid-social",
+     "description": "Braid Social, Inc. is a venture-backed startup that has run two products under the Braid name. It launched as a creator-economy, direct-to-fan engagement platform — founded by former Facebook product designer Matthew Cahill and software engineer Chris Piro — letting creators build customizable landing pages that consolidated their work across the web (blog posts, videos, podcasts, and commerce links), collect fan phone numbers, and reach followers directly through SMS, push notifications, and mailing lists, with link tracking and cross-platform analytics. It raised a $6.8M seed round in August 2023 led by Andreessen Horowitz (a16z) with Initialized Capital. The original domain braid.ai is now a domain-for-sale listing at atom.com and braid.social no longer resolves. The same legal entity now ships \"Braid Teams\" at trybraid.io (mirrored at braidsocial.com) — an AI-powered employee-engagement copilot that runs inside Slack, automating icebreakers, games, polls, events, reminders, leaderboards, and engagement reporting for distributed teams, on a free / $5-per-user Premium / contact-us Enterprise plan. Braid Teams is a Slack-app product with no public developer program: no developer portal, no documentation, no OpenAPI, no SDKs, and no GitHub organization. The only machine surface is the private application backend at core.trybraid.io, which answers {\"status\":\"ok\"} at its root and 404s every spec, docs and /.well-known/ path. The homepage states the product is \"Currently not accepting new users\" and the Slack install endpoint returns HTTP 500.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/screenshots/braid-social-2026-07-25T203659.png",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 508
     },
     {
      "name": "Ellis",
@@ -20158,7 +20278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 509
     },
     {
      "name": "Meritfirst",
@@ -20196,7 +20316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
+     "rank": 510
     },
     {
      "name": "Back",
@@ -20234,7 +20354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 508
+     "rank": 511
     },
     {
      "name": "JobAdder",
@@ -20272,7 +20392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 512
     },
     {
      "name": "Jobvite",
@@ -20310,7 +20430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 513
     },
     {
      "name": "Bambee",
@@ -20348,7 +20468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 514
     },
     {
      "name": "Blomma",
@@ -20386,7 +20506,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 515
     },
     {
      "name": "Bolster",
@@ -20424,7 +20544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 516
     },
     {
      "name": "CLAP",
@@ -20462,7 +20582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 517
     },
     {
      "name": "hampr",
@@ -20500,7 +20620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 515
+     "rank": 518
     },
     {
      "name": "Helpling",
@@ -20538,7 +20658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 519
     },
     {
      "name": "Home From College",
@@ -20576,7 +20696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 520
     },
     {
      "name": "Jobbatical",
@@ -20614,7 +20734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 521
     },
     {
      "name": "Simbel",
@@ -20651,7 +20771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 522
     },
     {
      "name": "Visibly",
@@ -20695,7 +20815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 523
     },
     {
      "name": "Wishup",
@@ -20732,7 +20852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
+     "rank": 524
     },
     {
      "name": "Happy5",
@@ -20770,7 +20890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 522
+     "rank": 525
     },
     {
      "name": "Lara AI",
@@ -20808,7 +20928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 526
     },
     {
      "name": "Brown & Brown",
@@ -20853,7 +20973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 527
     },
     {
      "name": "Jobandtalent",
@@ -20891,7 +21011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 528
     },
     {
      "name": "Lantum",
@@ -20936,7 +21056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 529
     },
     {
      "name": "RippleHire",
@@ -20973,7 +21093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 530
     },
     {
      "name": "Upkid",
@@ -21010,7 +21130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 531
     },
     {
      "name": "Vida Health",
@@ -21054,7 +21174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 532
     },
     {
      "name": "WellTheory",
@@ -21098,7 +21218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 533
     },
     {
      "name": "Kinside",
@@ -21143,7 +21263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 534
     },
     {
      "name": "GLORRI, INC.",
@@ -21181,7 +21301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 535
     },
     {
      "name": "Paycor",
@@ -21219,7 +21339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 536
     },
     {
      "name": "The Mom Project",
@@ -21256,7 +21376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 537
     },
     {
      "name": "Billables Ai",
@@ -21294,7 +21414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 538
     },
     {
      "name": "Keep Financial",
@@ -21332,7 +21452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 539
     },
     {
      "name": "Twill",
@@ -21369,7 +21489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 540
     },
     {
      "name": "doinstruct",
@@ -21407,7 +21527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 541
     },
     {
      "name": "Heartland Payment Systems",
@@ -21452,7 +21572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 542
     },
     {
      "name": "Hrmony",
@@ -21490,7 +21610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 543
     },
     {
      "name": "LaborUp",
@@ -21528,7 +21648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 544
     },
     {
      "name": "Liftoff",
@@ -21566,7 +21686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 545
     },
     {
      "name": "Nova Benefits",
@@ -21611,7 +21731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 546
     },
     {
      "name": "Voya Financial",
@@ -21656,7 +21776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 547
     },
     {
      "name": "Carrot Fertility",
@@ -21701,7 +21821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 548
     },
     {
      "name": "Clair",
@@ -21745,7 +21865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 549
     },
     {
      "name": "dopay",
@@ -21790,7 +21910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 550
     },
     {
      "name": "Fastwork",
@@ -21835,7 +21955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 551
     },
     {
      "name": "Fiverr",
@@ -21873,7 +21993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 549
+     "rank": 552
     },
     {
      "name": "Terminal",
@@ -21910,7 +22030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 553
     },
     {
      "name": "Torch",
@@ -21947,7 +22067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 554
     },
     {
      "name": "Arc",
@@ -21985,7 +22105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 555
     },
     {
      "name": "AllCare",
@@ -22030,7 +22150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 556
     },
     {
      "name": "Centivo",
@@ -22075,7 +22195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 557
     },
     {
      "name": "Newfront Insurance",
@@ -22120,7 +22240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 558
     },
     {
      "name": "Simplyinsured",
@@ -22164,7 +22284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 559
     },
     {
      "name": "TaTiO",
@@ -22201,7 +22321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 560
     },
     {
      "name": "Swept",
@@ -22238,7 +22358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 561
     },
     {
      "name": "EAT Club",
@@ -22255,7 +22375,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -22275,7 +22395,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 562
+    },
+    {
+     "name": "PitchMe",
+     "slug": "pitchme",
+     "description": "PitchMe is a recruitment data intelligence platform that enriches, verifies, and deduplicates candidate records to turn an existing ATS or CRM database into an activated talent pool. It cleans and appends verified contact details, employment history, and skills data, then surfaces career-intelligence signals that power AI-driven sourcing and outreach. PitchMe connects to applicant tracking systems such as Bullhorn, Greenhouse, Salesforce, Lever, JobDiva, Vincere, Avionte, Jobvite, and Ashby via native and certified integrations, plus a custom API for connecting any ATS or recruitment platform. Backed by Techstars.",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 563
     },
     {
      "name": "Robert Half International",
@@ -22313,7 +22470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 564
     },
     {
      "name": "BrightPlan",
@@ -22350,7 +22507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 565
     },
     {
      "name": "Calvis",
@@ -22388,7 +22545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 566
     },
     {
      "name": "Clockster",
@@ -22426,7 +22583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 567
     },
     {
      "name": "Epsor",
@@ -22464,7 +22621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 568
     },
     {
      "name": "Fertifa",
@@ -22509,7 +22666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 569
     },
     {
      "name": "Incluyeme",
@@ -22547,7 +22704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 570
     },
     {
      "name": "Paro",
@@ -22585,7 +22742,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 571
     },
     {
      "name": "RippleMatch",
@@ -22622,7 +22779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 572
     },
     {
      "name": "Saffron",
@@ -22659,7 +22816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 573
     },
     {
      "name": "Topia",
@@ -22696,7 +22853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 574
     },
     {
      "name": "XP Health",
@@ -22740,7 +22897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 575
     },
     {
      "name": "Andela",
@@ -22778,7 +22935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 576
     },
     {
      "name": "BallerTV",
@@ -22816,7 +22973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 573
+     "rank": 577
     },
     {
      "name": "Foodsmart",
@@ -22861,7 +23018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 578
     },
     {
      "name": "M7 Health",
@@ -22906,7 +23063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 579
     },
     {
      "name": "Medely",
@@ -22951,7 +23108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 580
     },
     {
      "name": "Radish Health",
@@ -22995,7 +23152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 581
     },
     {
      "name": "Refyne",
@@ -23032,7 +23189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 582
     },
     {
      "name": "SafelyYou",
@@ -23076,7 +23233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 583
     },
     {
      "name": "Zehitomo",
@@ -23113,7 +23270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 584
     },
     {
      "name": "coachhub",
@@ -23151,7 +23308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 585
     },
     {
      "name": "Electric Car Scheme",
@@ -23189,7 +23346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 586
     },
     {
      "name": "Grade",
@@ -23234,7 +23391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 587
     },
     {
      "name": "Spring Health",
@@ -23279,7 +23436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 588
     },
     {
      "name": "Headspace",
@@ -23324,7 +23481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 589
     },
     {
      "name": "Lumity",
@@ -23369,7 +23526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 590
     },
     {
      "name": "Accolade",
@@ -23414,7 +23571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 591
     },
     {
      "name": "Leland",
@@ -23451,7 +23608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 592
     },
     {
      "name": "Milu Health",
@@ -23496,7 +23653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 593
     },
     {
      "name": "Mottu",
@@ -23534,7 +23691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 594
     },
     {
      "name": "The Helper Bees",
@@ -23578,7 +23735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 595
     },
     {
      "name": "Knoetic",
@@ -23616,7 +23773,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 596
     },
     {
      "name": "Lagou",
@@ -23654,7 +23811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 597
     },
     {
      "name": "Wisq",
@@ -23691,7 +23848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 598
     },
     {
      "name": "Chief Human Capital Officers Council",
@@ -23736,7 +23893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 599
     },
     {
      "name": "Nava",
@@ -23781,7 +23938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 600
     },
     {
      "name": "Betterleap",
@@ -23826,7 +23983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 601
     },
     {
      "name": "Brightside",
@@ -23864,7 +24021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 602
     },
     {
      "name": "CyberTalents",
@@ -23902,7 +24059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 603
     },
     {
      "name": "Easop",
@@ -23940,7 +24097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 604
     },
     {
      "name": "Firstjob.me",
@@ -23978,7 +24135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 605
     },
     {
      "name": "HeavyConnect",
@@ -24016,7 +24173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 606
     },
     {
      "name": "JobToday",
@@ -24053,7 +24210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 607
     },
     {
      "name": "Magic",
@@ -24091,7 +24248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 608
     },
     {
      "name": "Manara",
@@ -24129,7 +24286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 609
     },
     {
      "name": "Onze",
@@ -24174,7 +24331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 610
     },
     {
      "name": "Paraform",
@@ -24212,7 +24369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 611
     },
     {
      "name": "Pintarnya",
@@ -24249,7 +24406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 612
     },
     {
      "name": "Powerplay",
@@ -24286,7 +24443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 613
     },
     {
      "name": "Qwick",
@@ -24323,7 +24480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 614
     },
     {
      "name": "Sabbar",
@@ -24360,7 +24517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 615
     },
     {
      "name": "Seso",
@@ -24397,7 +24554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 616
     },
     {
      "name": "Shakers",
@@ -24434,7 +24591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 617
     },
     {
      "name": "Summer",
@@ -24471,7 +24628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 618
     },
     {
      "name": "TriNet",
@@ -24509,7 +24666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
+     "rank": 619
     },
     {
      "name": "wayup",
@@ -24546,7 +24703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 616
+     "rank": 620
     },
     {
      "name": "A.Team",
@@ -24584,7 +24741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 621
     },
     {
      "name": "Apna",
@@ -24621,7 +24778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 622
     },
     {
      "name": "BeyondHQ",
@@ -24658,7 +24815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 623
     },
     {
      "name": "Happypal",
@@ -24696,7 +24853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 624
     },
     {
      "name": "Praxis Labs",
@@ -24733,7 +24890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 625
     }
    ]
   },
@@ -24742,8 +24899,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 248,
-   "shown": 248,
+   "count": 247,
+   "shown": 247,
    "providers": [
     {
      "name": "Byteboard",
@@ -24781,7 +24938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 626
     },
     {
      "name": "StanCorp Financial Group",
@@ -24825,7 +24982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 627
     },
     {
      "name": "Assemble",
@@ -24863,7 +25020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 628
     },
     {
      "name": "Bandana",
@@ -24901,7 +25058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 629
     },
     {
      "name": "Carreira Beauty",
@@ -24939,7 +25096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 630
     },
     {
      "name": "Cooleaf",
@@ -24977,7 +25134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 631
     },
     {
      "name": "Crowdplat",
@@ -25015,7 +25172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 632
     },
     {
      "name": "Execthread",
@@ -25053,7 +25210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 633
     },
     {
      "name": "Gustav",
@@ -25091,7 +25248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 634
     },
     {
      "name": "Jolly",
@@ -25129,7 +25286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 635
     },
     {
      "name": "Reflex Careers",
@@ -25166,7 +25323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 636
     },
     {
      "name": "River Health",
@@ -25210,7 +25367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 637
     },
     {
      "name": "Crosschq",
@@ -25248,7 +25405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 638
     },
     {
      "name": "Minu Holdings Limited",
@@ -25286,7 +25443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 639
     },
     {
      "name": "The Ladders",
@@ -25323,7 +25480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 640
     },
     {
      "name": "Standout",
@@ -25360,7 +25517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 641
     },
     {
      "name": "Auditocity",
@@ -25398,7 +25555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 642
     },
     {
      "name": "Getsona",
@@ -25436,7 +25593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 639
+     "rank": 643
     },
     {
      "name": "Guild",
@@ -25474,7 +25631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 644
     },
     {
      "name": "Helio AI LLC",
@@ -25512,7 +25669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 645
     },
     {
      "name": "Nexus AI",
@@ -25550,7 +25707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 646
     },
     {
      "name": "OnMyGrad",
@@ -25588,7 +25745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 647
     },
     {
      "name": "Edme Insurance Brokers",
@@ -25633,7 +25790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 648
     },
     {
      "name": "Nuevo Método",
@@ -25678,7 +25835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 649
     },
     {
      "name": "Reliance Health",
@@ -25722,7 +25879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 650
     },
     {
      "name": "Stride Health",
@@ -25766,7 +25923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 651
     },
     {
      "name": "Nava Benefits",
@@ -25811,7 +25968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 652
     },
     {
      "name": "Backstartup",
@@ -25849,7 +26006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 653
     },
     {
      "name": "Gebeya",
@@ -25887,7 +26044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 654
     },
     {
      "name": "Miso Robotics",
@@ -25925,7 +26082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 655
     },
     {
      "name": "VidCruiter",
@@ -25962,7 +26119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 656
     },
     {
      "name": "Aura Finance",
@@ -26000,7 +26157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 657
     },
     {
      "name": "Crew",
@@ -26038,7 +26195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 658
     },
     {
      "name": "EarnBetter",
@@ -26076,7 +26233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 659
     },
     {
      "name": "Moonhub",
@@ -26114,7 +26271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 660
     },
     {
      "name": "Perfectly",
@@ -26151,7 +26308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 661
     },
     {
      "name": "ContinuumCloud",
@@ -26196,7 +26353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 662
     },
     {
      "name": "Qualifi",
@@ -26233,7 +26390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 663
     },
     {
      "name": "Well",
@@ -26277,7 +26434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 664
     },
     {
      "name": "Loop Health",
@@ -26322,7 +26479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 665
     },
     {
      "name": "Skello",
@@ -26359,7 +26516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 666
     },
     {
      "name": "Artemis Health",
@@ -26404,7 +26561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 667
     },
     {
      "name": "Beam Dental",
@@ -26449,7 +26606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 668
     },
     {
      "name": "Equitable",
@@ -26494,7 +26651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 669
     },
     {
      "name": "Gridwise",
@@ -26532,7 +26689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 670
     },
     {
      "name": "Howdy",
@@ -26569,7 +26726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 671
     },
     {
      "name": "Paynas",
@@ -26614,7 +26771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 672
     },
     {
      "name": "Lightcast",
@@ -26652,7 +26809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 673
     },
     {
      "name": "Bonum Coaching",
@@ -26690,7 +26847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 674
     },
     {
      "name": "Compt",
@@ -26728,7 +26885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 675
     },
     {
      "name": "Medley",
@@ -26766,7 +26923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 676
     },
     {
      "name": "Spokn",
@@ -26803,7 +26960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 677
     },
     {
      "name": "HERP",
@@ -26841,7 +26998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 678
     },
     {
      "name": "PwC (PricewaterhouseCoopers)",
@@ -26879,7 +27036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 679
     },
     {
      "name": "Take2.ai",
@@ -26923,7 +27080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 680
     },
     {
      "name": "LIMRA",
@@ -26968,7 +27125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 681
     },
     {
      "name": "Come Bien",
@@ -27006,7 +27163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 682
     },
     {
      "name": "sherpa",
@@ -27043,7 +27200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 683
     },
     {
      "name": "Squadio",
@@ -27080,7 +27237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 684
     },
     {
      "name": "Swing Education",
@@ -27117,7 +27274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 685
     },
     {
      "name": "Asap Work",
@@ -27155,7 +27312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 686
     },
     {
      "name": "CareGuide",
@@ -27193,7 +27350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 687
     },
     {
      "name": "CodeMentor",
@@ -27231,7 +27388,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 688
     },
     {
      "name": "conrizon",
@@ -27269,7 +27426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 689
     },
     {
      "name": "Guild Education",
@@ -27307,7 +27464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 690
     },
     {
      "name": "Mochacare",
@@ -27352,7 +27509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 691
     },
     {
      "name": "Onsitedental",
@@ -27397,7 +27554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 692
     },
     {
      "name": "Ovia Health",
@@ -27442,7 +27599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 693
     },
     {
      "name": "Rightway Healthcare",
@@ -27486,7 +27643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 694
     },
     {
      "name": "ShiftSouth",
@@ -27523,7 +27680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 695
     },
     {
      "name": "Slik",
@@ -27560,7 +27717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 696
     },
     {
      "name": "Medwing",
@@ -27604,7 +27761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 697
     },
     {
      "name": "Virtual Internship Partners",
@@ -27641,7 +27798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 698
     },
     {
      "name": "Jobvetta",
@@ -27679,7 +27836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 699
     },
     {
      "name": "BrightGo",
@@ -27717,7 +27874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 700
     },
     {
      "name": "51job",
@@ -27755,7 +27912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 701
     },
     {
      "name": "Comento",
@@ -27793,7 +27950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 702
     },
     {
      "name": "HealthEquity",
@@ -27838,7 +27995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 703
     },
     {
      "name": "Joblocal",
@@ -27876,7 +28033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 704
     },
     {
      "name": "Nexiu",
@@ -27914,7 +28071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 705
     },
     {
      "name": "Numbi",
@@ -27952,7 +28109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 706
     },
     {
      "name": "Trace",
@@ -27989,7 +28146,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 707
     },
     {
      "name": "TrueBlue",
@@ -28027,7 +28184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 708
     },
     {
      "name": "Lyra Health",
@@ -28072,7 +28229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 709
     },
     {
      "name": "Zebec Network",
@@ -28117,7 +28274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 710
     },
     {
      "name": "Convergys",
@@ -28155,7 +28312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 711
     },
     {
      "name": "EMERGENCES AI, INC.",
@@ -28193,7 +28350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 712
     },
     {
      "name": "FutureFit AI",
@@ -28231,7 +28388,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 713
     },
     {
      "name": "Northstar",
@@ -28269,7 +28426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 714
     },
     {
      "name": "Pack",
@@ -28307,7 +28464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 715
     },
     {
      "name": "PayScale",
@@ -28345,7 +28502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 716
     },
     {
      "name": "Puddle",
@@ -28382,7 +28539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 717
     },
     {
      "name": "Schedex",
@@ -28419,7 +28576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 718
     },
     {
      "name": "Sona",
@@ -28456,7 +28613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 719
     },
     {
      "name": "Sounding Board",
@@ -28493,7 +28650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 720
     },
     {
      "name": "Trayd",
@@ -28530,7 +28687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 721
     },
     {
      "name": "Zolvers",
@@ -28567,7 +28724,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 722
+    },
+    {
+     "name": "Free Agency",
+     "slug": "free-agency",
+     "description": "Free Agency is a careers company and talent marketplace that pairs technology professionals with an AI-powered Talent Agent which proactively surfaces relevant work — full-time roles and short project engagements with defined deliverables, duration, and compensation. Founded by Sherveen Mashayekhi and backed by Bloomberg Beta, the company has raised a $10M Series A and counts talent placed at companies such as OpenAI, Stripe, and Figma. It also publishes Intent, a newsletter for careerists, and runs CareerMakers, a cohort course hosted on Maven. As of August 2026 the entire public surface is a single waitlist landing page with two Tally intake forms — one for individual talent and one \"For AI companies\" — plus the Intent newsletter and an Ashby-hosted job board. Free Agency exposes no public API, SDK, developer portal, or machine-readable contract of any kind; this profile tracks it in the API Evangelist network as a company stub with a probed, verified absence rather than an unexamined gap.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/free-agency/refs/heads/main/screenshots/free-agency-2026-07-25T215123.png",
+     "score": 9.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 723
     },
     {
      "name": "Betterfly",
@@ -28612,7 +28807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 724
     },
     {
      "name": "Handl Health",
@@ -28657,7 +28852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 725
     },
     {
      "name": "Calificadas",
@@ -28695,7 +28890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 726
     },
     {
      "name": "MindSumo",
@@ -28732,7 +28927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 727
     },
     {
      "name": "OVIA",
@@ -28770,7 +28965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 728
     },
     {
      "name": "Pariti",
@@ -28808,7 +29003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 729
     },
     {
      "name": "Alan",
@@ -28853,7 +29048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 730
     },
     {
      "name": "ANSR",
@@ -28891,7 +29086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 731
     },
     {
      "name": "Morgan, Lewis & Bockius LLP",
@@ -28929,7 +29124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 732
     },
     {
      "name": "Beisen",
@@ -28967,7 +29162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 733
     },
     {
      "name": "Swile",
@@ -29011,7 +29206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 734
     },
     {
      "name": "Glint",
@@ -29056,7 +29251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 735
     },
     {
      "name": "Meta4",
@@ -29094,7 +29289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 736
     },
     {
      "name": "ConverzAI",
@@ -29132,7 +29327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 737
     },
     {
      "name": "Knowify",
@@ -29170,7 +29365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 733
+     "rank": 738
     },
     {
      "name": "MicroBenefits",
@@ -29208,7 +29403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 739
     },
     {
      "name": "Peoplise",
@@ -29245,44 +29440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
-    },
-    {
-     "name": "PitchMe",
-     "slug": "pitchme",
-     "description": "PitchMe is a recruitment data intelligence platform that enriches, verifies, and deduplicates candidate records to turn an existing ATS or CRM database into an activated talent pool. It cleans and appends verified contact details, employment history, and skills data, then surfaces career-intelligence signals that power AI-driven sourcing and outreach. PitchMe connects to applicant tracking systems such as Bullhorn, Greenhouse, Salesforce, Lever, JobDiva, Vincere, Avionte, Jobvite, and Ashby via native and certified integrations, plus a custom API for connecting any ATS or recruitment platform. Backed by Techstars.",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 736
+     "rank": 740
     },
     {
      "name": "SALARY HERO PTE. LTD",
@@ -29319,7 +29477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 741
     },
     {
      "name": "Karpatia Benefits",
@@ -29364,7 +29522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 742
     },
     {
      "name": "Hireguide",
@@ -29402,7 +29560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 743
     },
     {
      "name": "YOURIKA",
@@ -29446,45 +29604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
-    },
-    {
-     "name": "Free Agency",
-     "slug": "free-agency",
-     "description": "Free Agency is a careers company and talent marketplace that pairs technology professionals with an AI-powered Talent Agent which proactively surfaces relevant work — full-time roles and short project engagements with defined deliverables, duration, and compensation. Founded by Sherveen Mashayekhi and backed by Bloomberg Beta, the company has raised a $10M Series A and counts talent placed at companies such as OpenAI, Stripe, and Figma. It also publishes Intent, a newsletter for careerists. Free Agency is a consumer, waitlist-stage product and does not currently expose a public API, SDK, or developer platform; this profile tracks it in the API Evangelist network as a company stub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/free-agency/refs/heads/main/screenshots/free-agency-2026-07-25T215123.png",
-     "score": 8.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 741
+     "rank": 744
     },
     {
      "name": "Homethrive",
@@ -29529,7 +29649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 745
     },
     {
      "name": "Truveris",
@@ -29573,7 +29693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 746
     },
     {
      "name": "Aon",
@@ -29618,7 +29738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 747
     },
     {
      "name": "Altru",
@@ -29656,7 +29776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 748
     },
     {
      "name": "bannerman",
@@ -29694,7 +29814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 749
     },
     {
      "name": "Mogul",
@@ -29732,7 +29852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 750
     },
     {
      "name": "Powerus",
@@ -29769,7 +29889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 751
     },
     {
      "name": "Resti Inc.",
@@ -29806,7 +29926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 752
     },
     {
      "name": "JOBDOH",
@@ -29844,7 +29964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 753
     },
     {
      "name": "Fond",
@@ -29882,7 +30002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 754
     },
     {
      "name": "Textio",
@@ -29919,7 +30039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 755
     },
     {
      "name": "Tryprism",
@@ -29956,7 +30076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 756
     },
     {
      "name": "58.com",
@@ -29994,7 +30114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 757
     },
     {
      "name": "Smashfly",
@@ -30031,7 +30151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 758
     },
     {
      "name": "Ravio",
@@ -30068,7 +30188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 759
     },
     {
      "name": "Lendtable",
@@ -30105,7 +30225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 760
     },
     {
      "name": "UrbanHire",
@@ -30142,7 +30262,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 761
     },
     {
      "name": "Utopia Labs",
@@ -30186,7 +30306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 762
     },
     {
      "name": "Arbeitnow",
@@ -30224,7 +30344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 763
     },
     {
      "name": "Bright Horizons Family Solutions",
@@ -30262,7 +30382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 764
     },
     {
      "name": "Healthcaresource.com",
@@ -30307,7 +30427,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 765
     },
     {
      "name": "Korn Ferry",
@@ -30345,7 +30465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 766
     },
     {
      "name": "Tokaido Health",
@@ -30389,7 +30509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 767
     },
     {
      "name": "AI Dev Jobs",
@@ -30427,7 +30547,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 768
     },
     {
      "name": "Day & Zimmermann",
@@ -30472,7 +30592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 769
     },
     {
      "name": "HeroHunt People Search",
@@ -30510,7 +30630,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 770
     },
     {
      "name": "Adzuna",
@@ -30548,7 +30668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 771
     },
     {
      "name": "Arbeitsamt",
@@ -30586,7 +30706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 772
     },
     {
      "name": "Careerjet",
@@ -30624,7 +30744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 773
     },
     {
      "name": "DevITjobs UK",
@@ -30661,7 +30781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 774
     },
     {
      "name": "Findwork",
@@ -30699,7 +30819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 775
     },
     {
      "name": "GraphQL Jobs",
@@ -30736,7 +30856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 776
     },
     {
      "name": "Jobs2Careers",
@@ -30774,7 +30894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 777
     },
     {
      "name": "Jooble",
@@ -30812,7 +30932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 778
     },
     {
      "name": "Juju",
@@ -30850,7 +30970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 779
     },
     {
      "name": "Leade.rs",
@@ -30887,7 +31007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 780
     },
     {
      "name": "LegalPad",
@@ -30925,7 +31045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 781
     },
     {
      "name": "LookSharp",
@@ -30963,7 +31083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 782
     },
     {
      "name": "Nowpay",
@@ -31008,7 +31128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 783
     },
     {
      "name": "Reed",
@@ -31046,7 +31166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 784
     },
     {
      "name": "Stoke Talent",
@@ -31090,7 +31210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 785
     },
     {
      "name": "Talently",
@@ -31127,7 +31247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 786
     },
     {
      "name": "USAJOBS",
@@ -31165,7 +31285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 787
     },
     {
      "name": "WhatJobs",
@@ -31203,7 +31323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 788
     },
     {
      "name": "WorkAmerica",
@@ -31240,7 +31360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 789
     },
     {
      "name": "Workpop",
@@ -31277,7 +31397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 790
     },
     {
      "name": "ZipRecruiter",
@@ -31315,7 +31435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 791
     },
     {
      "name": "Brighter",
@@ -31360,7 +31480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 792
     },
     {
      "name": "Gigmile",
@@ -31405,7 +31525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 793
     },
     {
      "name": "Liazon",
@@ -31449,7 +31569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 794
     },
     {
      "name": "Poppins Health",
@@ -31493,7 +31613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 795
     },
     {
      "name": "Wagmo",
@@ -31537,7 +31657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 796
     },
     {
      "name": "Awork",
@@ -31575,7 +31695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 797
     },
     {
      "name": "Dechert",
@@ -31620,7 +31740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 798
     },
     {
      "name": "Open",
@@ -31664,7 +31784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 799
     },
     {
      "name": "Rumarocket",
@@ -31701,7 +31821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 800
     },
     {
      "name": "silversheet",
@@ -31745,7 +31865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 801
     },
     {
      "name": "Sprout Wellness Solutions",
@@ -31789,7 +31909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 802
     },
     {
      "name": "Suitable",
@@ -31826,7 +31946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 803
     },
     {
      "name": "TechieMatter",
@@ -31863,7 +31983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 804
     },
     {
      "name": "Alight",
@@ -31901,7 +32021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 805
     },
     {
      "name": "Alassio",
@@ -31939,7 +32059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 806
     },
     {
      "name": "Ally",
@@ -31977,7 +32097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 807
     },
     {
      "name": "AllyO",
@@ -32015,7 +32135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 808
     },
     {
      "name": "andjaro",
@@ -32053,7 +32173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 809
     },
     {
      "name": "atSpoke",
@@ -32090,7 +32210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 810
     },
     {
      "name": "Boss",
@@ -32128,7 +32248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 811
     },
     {
      "name": "Bravado",
@@ -32145,7 +32265,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -32165,7 +32285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 812
     },
     {
      "name": "CenterForce Technologies",
@@ -32202,7 +32322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 813
     },
     {
      "name": "Circular",
@@ -32239,7 +32359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 814
     },
     {
      "name": "Clustree",
@@ -32276,7 +32396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 815
     },
     {
      "name": "Crew32",
@@ -32314,7 +32434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 816
     },
     {
      "name": "CubeTree",
@@ -32351,7 +32471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 817
     },
     {
      "name": "Cultivate",
@@ -32388,7 +32508,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 818
     },
     {
      "name": "Dexterra",
@@ -32425,7 +32545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 819
     },
     {
      "name": "Drafted",
@@ -32462,7 +32582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 820
     },
     {
      "name": "Elite Business Ventures",
@@ -32500,7 +32620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 821
     },
     {
      "name": "Endeavor",
@@ -32538,7 +32658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 822
     },
     {
      "name": "Endeavor Group Holdings",
@@ -32576,7 +32696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 823
     },
     {
      "name": "Folhamatic",
@@ -32613,7 +32733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 824
     },
     {
      "name": "Getlinks",
@@ -32651,7 +32771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 825
     },
     {
      "name": "Glintinc",
@@ -32689,7 +32809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 826
     },
     {
      "name": "Glints",
@@ -32726,7 +32846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 827
     },
     {
      "name": "GoDays",
@@ -32764,7 +32884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 828
     },
     {
      "name": "Good & Co.",
@@ -32802,7 +32922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 829
     },
     {
      "name": "HomeJoy",
@@ -32839,7 +32959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 830
     },
     {
      "name": "Hyphen",
@@ -32877,7 +32997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 831
     },
     {
      "name": "iMedeon",
@@ -32914,7 +33034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 832
     },
     {
      "name": "Jibe",
@@ -32952,7 +33072,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 833
     },
     {
      "name": "Jopwell",
@@ -32989,7 +33109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 834
     },
     {
      "name": "Kelly Services",
@@ -33027,7 +33147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 835
     },
     {
      "name": "Koru Careers",
@@ -33064,7 +33184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 836
     },
     {
      "name": "Likeplum",
@@ -33102,7 +33222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 837
     },
     {
      "name": "Lytmus",
@@ -33139,7 +33259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 838
     },
     {
      "name": "Maimai",
@@ -33177,7 +33297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 839
     },
     {
      "name": "Manpower",
@@ -33215,7 +33335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 840
     },
     {
      "name": "ManpowerGroup",
@@ -33253,7 +33373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 841
     },
     {
      "name": "Mayflower",
@@ -33291,7 +33411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 842
     },
     {
      "name": "Mya Systems",
@@ -33329,7 +33449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 843
     },
     {
      "name": "NodeFlair",
@@ -33367,7 +33487,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 844
     },
     {
      "name": "Open Skills",
@@ -33405,7 +33525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 845
     },
     {
      "name": "Orgspace",
@@ -33442,7 +33562,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 846
     },
     {
      "name": "Pento",
@@ -33479,7 +33599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 847
     },
     {
      "name": "Platypus",
@@ -33516,7 +33636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 848
     },
     {
      "name": "Plerk",
@@ -33553,7 +33673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 849
     },
     {
      "name": "Qapa",
@@ -33590,7 +33710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 850
     },
     {
      "name": "Qerja",
@@ -33627,7 +33747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 851
     },
     {
      "name": "Raised",
@@ -33664,7 +33784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 852
     },
     {
      "name": "RolePoint",
@@ -33701,7 +33821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 853
     },
     {
      "name": "ShearShare",
@@ -33738,7 +33858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 854
     },
     {
      "name": "Skillbridge",
@@ -33775,7 +33895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 855
     },
     {
      "name": "SnapShyft",
@@ -33812,7 +33932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 856
     },
     {
      "name": "SpringRole",
@@ -33849,7 +33969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 857
     },
     {
      "name": "Surfboard",
@@ -33886,7 +34006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 858
     },
     {
      "name": "Syft",
@@ -33923,7 +34043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 859
     },
     {
      "name": "Talentpluto",
@@ -33960,7 +34080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 860
     },
     {
      "name": "Tapchief",
@@ -33997,7 +34117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 861
     },
     {
      "name": "Teamnote",
@@ -34034,7 +34154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 862
     },
     {
      "name": "VNDLY",
@@ -34071,7 +34191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 863
     },
     {
      "name": "Walzay Inc.",
@@ -34108,7 +34228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 864
     },
     {
      "name": "Wanted",
@@ -34145,7 +34265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 865
     },
     {
      "name": "WorkClass",
@@ -34182,7 +34302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 866
     },
     {
      "name": "Zugata",
@@ -34219,7 +34339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 867
     },
     {
      "name": "Smalt",
@@ -34263,7 +34383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 868
     },
     {
      "name": "Humu",
@@ -34301,7 +34421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 869
     },
     {
      "name": "Speedlancer",
@@ -34338,7 +34458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 870
     },
     {
      "name": "Viva Benefits",
@@ -34375,7 +34495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 871
     },
     {
      "name": "Insperity",
@@ -34413,7 +34533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 872
     }
    ]
   }

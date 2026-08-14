@@ -1,6 +1,6 @@
 {
- "total": 198,
- "shown": 198,
+ "total": 199,
+ "shown": 199,
  "limit": 1000,
  "bands": [
   {
@@ -57,8 +57,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Langdock",
@@ -113,7 +113,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -141,6 +141,44 @@
       "dry_run_mode": false
      },
      "rank": 3
+    },
+    {
+     "name": "CrossEngage",
+     "slug": "crossenagage",
+     "description": "CrossEngage is a Berlin-based customer data and cross-channel marketing platform (a Customer Data Platform / CDP) founded in 2015 and backed by Earlybird Venture Capital. It unifies first-party customer data into 360-degree profiles, builds no-code predictive AI/ML models for customer lifetime value and behavior, manages audiences with drag-and-drop segmentation, and orchestrates real-time cross-channel customer journeys across email, push, SMS, WhatsApp and webhooks. Following its acquisition by Spotler, the product is sold as Spotler Activate Pro. CrossEngage exposes six REST APIs on api.crossengage.io — User Management v1 and v2, Product Feed, Raw Export, Statistics and File Attachments — totalling 37 operations. Five are published as API Blueprint documents and one (Product Feed) as Swagger 2.0, all served from Apiary and embedded in the reference site at api.documentation.crossengage.io. Authentication is a static X-XNG-AuthToken header paired with a required X-XNG-ApiVersion header; there is no OAuth surface. Product documentation is published at documentation.crossengage.io, which serves a first-party llms.txt index of all 219 pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png",
+     "score": 58.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 59.8,
+      "governance": 20.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 59.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
     },
     {
      "name": "Cobot",
@@ -184,7 +222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "CI HUB",
@@ -201,7 +239,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -221,7 +259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -231,8 +269,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Polyteia",
@@ -276,7 +314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Xentral",
@@ -313,7 +351,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Candis",
@@ -351,7 +389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Aleph Alpha",
@@ -396,7 +434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Remberg",
@@ -433,7 +471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "lemon.markets",
@@ -478,7 +516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Ostrom",
@@ -523,7 +561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Nfon",
@@ -568,7 +606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Nomos",
@@ -613,7 +651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Solaris",
@@ -657,7 +695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Billie",
@@ -702,7 +740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Causa Prima",
@@ -747,7 +785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Interhyp",
@@ -792,7 +830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Topi",
@@ -836,7 +874,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
+    },
+    {
+     "name": "Moonscale",
+     "slug": "moonscale",
+     "description": "Moonscale (formerly VidLab7) is a Munich-based AI sales advisor platform whose \"Digital Sales Human\" avatars automate top-of-funnel sales conversations — pitching products, qualifying inbound buyers, running interactive demos, handling objections, booking meetings and following up around the clock across websites, landing pages, emails and apps, with support for 130+ languages and CRM connections to Salesforce, HubSpot, Pipedrive, Slack and Clay. Moonscale does publish a real, machine-readable API: an OpenAPI 3.0.1 document titled \"Moonscale API\" served from its Mintlify documentation site, covering four operations across two surfaces — live-avatar meeting rooms with conversation transcripts and summaries (/api/v1/), and asynchronous studio-avatar video generation with a caller-registered completion webhook (/api/studio-avatar/). Requests authenticate with an x-api-key header against https://api-prd.moonscale.com; keys are issued from Moonscale Studio, but API access is feature-flagged per account and must be requested from support. There is no first-party SDK, MCP server, agent card, status page, changelog, published rate limit or published price. Backed by EQT Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/screenshots/moonscale-2026-08-07T184246.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 56.0,
+      "governance": 20.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 52.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     }
    ]
   },
@@ -845,8 +921,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "RWTH Aachen University",
@@ -884,7 +960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Koppla",
@@ -922,7 +998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Humboldt-Universität zu Berlin",
@@ -960,7 +1036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "sevdesk",
@@ -997,7 +1073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "i6eal Open AI Data API",
@@ -1041,7 +1117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "aWATTar",
@@ -1086,7 +1162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "lexoffice",
@@ -1124,7 +1200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "University of Göttingen",
@@ -1162,7 +1238,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Technical University of Munich",
@@ -1207,7 +1283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "University of Bonn",
@@ -1252,7 +1328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "TU Dresden",
@@ -1297,7 +1373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "1KOMMA5°",
@@ -1342,7 +1418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Number26",
@@ -1387,7 +1463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "weclapp",
@@ -1424,7 +1500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "konfetti",
@@ -1469,7 +1545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 36
     },
     {
      "name": "Kitchen Stories",
@@ -1507,7 +1583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 37
     },
     {
      "name": "Lufthansa Cargo",
@@ -1545,7 +1621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 38
     },
     {
      "name": "Deutsche Telekom",
@@ -1590,7 +1666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Omaze",
@@ -1628,45 +1704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
-    },
-    {
-     "name": "CrossEngage",
-     "slug": "crossenagage",
-     "description": "CrossEngage is a Berlin-based customer data and cross-channel marketing platform (a Customer Data Platform / CDP) founded in 2015 and backed by Earlybird Venture Capital. It unifies first-party customer data into 360-degree profiles, builds no-code predictive AI/ML models for customer lifetime value and behavior, manages audiences with drag-and-drop segmentation, and orchestrates real-time cross-channel customer journeys across email, push, SMS, WhatsApp and webhooks. Following its acquisition by Spotler, the product is sold as Spotler Activate Pro. CrossEngage exposes six REST APIs on api.crossengage.io — User Management v1 and v2, Product Feed, Raw Export, Statistics and File Attachments — totalling 37 operations. Five are published as API Blueprint documents and one (Product Feed) as Swagger 2.0, all served from Apiary and embedded in the reference site at api.documentation.crossengage.io. Authentication is a static X-XNG-AuthToken header paired with a required X-XNG-ApiVersion header; there is no OAuth surface. Product documentation is published at documentation.crossengage.io, which serves a first-party llms.txt index of all 219 pages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png",
-     "score": 28.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 39
+     "rank": 40
     }
    ]
   },
@@ -1713,7 +1751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Aleph Alpha2",
@@ -1751,7 +1789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "samedi",
@@ -1795,7 +1833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Lanes & Planes",
@@ -1833,7 +1871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "AEB",
@@ -1878,7 +1916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Linguidoor",
@@ -1915,7 +1953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "DB Schenker",
@@ -1953,7 +1991,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
+    },
+    {
+     "name": "Peopleix",
+     "slug": "peopleix",
+     "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps. That knowledge layer is exposed to agents through a real, hosted, remote MCP server at https://app.peopleix.com/mcp — confirmed live, OAuth 2.1-gated (PKCE S256, dynamic client registration, Clerk-backed), and advertised through RFC 8414 and RFC 9728 discovery documents the application host serves anonymously. peopleIX publishes no OpenAPI, no REST developer portal, and no SDK; the MCP endpoint is the entire developer-facing surface, and its tool inventory sits behind customer authentication. The service is EU-resident end-to-end, GDPR compliant and ISO 27001 certified with a Vanta-hosted trust center at https://trust.peopleix.com, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels.",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 48
     },
     {
      "name": "Lendis",
@@ -1991,7 +2066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "Technical University of Darmstadt",
@@ -2029,7 +2104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "Technical University of Berlin",
@@ -2067,7 +2142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "Sliplane",
@@ -2105,7 +2180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "Lassie",
@@ -2150,7 +2225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Kipu Quantum",
@@ -2188,7 +2263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
@@ -2226,7 +2301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "University of Freiburg",
@@ -2271,7 +2346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Karlsruhe Institute of Technology",
@@ -2316,7 +2391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "HOLY",
@@ -2354,7 +2429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "University of Tübingen",
@@ -2399,7 +2474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 59
     },
     {
      "name": "Universität Hamburg",
@@ -2437,7 +2512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "Laserhub",
@@ -2475,7 +2550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "Afilio",
@@ -2520,44 +2595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
-    },
-    {
-     "name": "Peopleix",
-     "slug": "peopleix",
-     "description": "peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the \"what\") with AI-led conversations across the workforce (conversation intelligence — the \"why\") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish.",
-     "score": 18.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Afori",
@@ -2602,7 +2640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Caya",
@@ -2640,7 +2678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Datenregister Berlin",
@@ -2685,7 +2723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Open Data Schleswig-Holstein",
@@ -2730,7 +2768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "open NRW",
@@ -2775,7 +2813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "muffintech",
@@ -2820,7 +2858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Voiio",
@@ -2858,7 +2896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Limehome",
@@ -2896,7 +2934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "plancraft",
@@ -2933,7 +2971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Simpleclub",
@@ -2970,7 +3008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "GovData Deutschland",
@@ -3015,7 +3053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "GovData Germany",
@@ -3060,7 +3098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "OpenData.HRO - Portal für offene Data der Hansestadt Rostock",
@@ -3105,7 +3143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Transparency Portal for the City of Karlsruhe, Germany",
@@ -3150,7 +3188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "claimsforce",
@@ -3195,7 +3233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Meisterwerk",
@@ -3233,7 +3271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "ablefy",
@@ -3278,7 +3316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Mona Ai",
@@ -3316,7 +3354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Roger",
@@ -3360,7 +3398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Amperecloud",
@@ -3405,7 +3443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Complori",
@@ -3443,7 +3481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Helpling",
@@ -3481,7 +3519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Hey",
@@ -3519,7 +3557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "SellerX",
@@ -3556,7 +3594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Tacto",
@@ -3593,7 +3631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "METYCLE",
@@ -3638,7 +3676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Hrmony",
@@ -3676,7 +3714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Ottonova",
@@ -3721,7 +3759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "trawa",
@@ -3765,7 +3803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Comstruct",
@@ -3803,7 +3841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Getsafe",
@@ -3848,7 +3886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "KoRo",
@@ -3886,7 +3924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "CERPRO",
@@ -3924,7 +3962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Clark",
@@ -3968,7 +4006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Urbia",
@@ -4005,7 +4043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Greator",
@@ -4043,7 +4081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "One Data",
@@ -4081,7 +4119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Fincompare",
@@ -4126,7 +4164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Careship",
@@ -4171,7 +4209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Lendorse",
@@ -4209,7 +4247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "CNC24",
@@ -4247,7 +4285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Leipzig Open Data",
@@ -4292,7 +4330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Homeday",
@@ -4337,7 +4375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Kraka",
@@ -4375,7 +4413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Kyrok",
@@ -4413,7 +4451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Xayn (now Noxtua)",
@@ -4450,7 +4488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     }
    ]
   },
@@ -4498,7 +4536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Donnerstag Ai",
@@ -4543,7 +4581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Taxfix",
@@ -4580,7 +4618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Exporo",
@@ -4625,7 +4663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Reiner.ai",
@@ -4662,7 +4700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Enter",
@@ -4707,7 +4745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Lilium",
@@ -4745,7 +4783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "ecoplanet",
@@ -4790,7 +4828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Enpal",
@@ -4835,7 +4873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Green Fusion",
@@ -4880,7 +4918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Agile Robots",
@@ -4918,7 +4956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Balance Re",
@@ -4963,7 +5001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "rabot.energy",
@@ -5007,7 +5045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Auxmoney",
@@ -5044,7 +5082,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
+    },
+    {
+     "name": "i2x",
+     "slug": "i2x",
+     "description": "i2x is a German real-time AI platform for contact centers, built by i2x GmbH in Mönchengladbach. It provides live agent assistance that surfaces contextual recommendations during calls in under 0.4 seconds, including automatic detection of purchase signals and faster agent onboarding; full-coverage call analysis with automatic transcription plus quality, compliance, and sales-opportunity scoring across 100% of conversations; and voicebots for automated inbound/outbound telephony and virtual agent-training scenarios. The platform emphasizes DSGVO/GDPR compliance with EU-only hosting in German data centers, prepared works-council documentation, and EU AI Act alignment, positioning itself as an alternative to US-cloud-dependent conversation-intelligence tools. i2x publishes no developer program: no API reference, no OpenAPI/AsyncAPI/GraphQL specification, no SDK on any package registry, no public GitHub organization, no MCP server, no agent card, no status page and no pricing — the only commercial entry point is a demo-request form. A private, login-gated API host does exist at api.eu.i2x.ai serving the customer web application at app.i2x.ai, but it is undocumented and is not offered as an integration surface. This profile was surfaced as a portfolio company of hv-capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/i2x/refs/heads/main/screenshots/i2x-2026-07-25T221936.png",
+     "score": 10.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 123
     },
     {
      "name": "LAP Coffee",
@@ -5082,7 +5158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Wellster",
@@ -5126,7 +5202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "QPLIX",
@@ -5163,7 +5239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "conrizon",
@@ -5201,7 +5277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Cylib",
@@ -5239,7 +5315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "digitaleseiten",
@@ -5277,7 +5353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Fidor Bank",
@@ -5322,7 +5398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "Momox",
@@ -5360,7 +5436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "Raus",
@@ -5397,7 +5473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "The Exploration Company",
@@ -5434,7 +5510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "Medwing",
@@ -5478,7 +5554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 134
     },
     {
      "name": "MPIRIQ",
@@ -5523,7 +5599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 135
     },
     {
      "name": "Volocopter",
@@ -5561,7 +5637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 136
     },
     {
      "name": "Felmo",
@@ -5606,45 +5682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
-    },
-    {
-     "name": "i2x",
-     "slug": "i2x",
-     "description": "i2x is a German real-time AI platform for contact centers, built by i2x GmbH in Mönchengladbach. It provides live agent assistance that surfaces contextual recommendations during calls in under 0.4 seconds, including automatic detection of purchase signals and faster agent onboarding; full-coverage call analysis with automatic transcription plus quality, compliance, and sales-opportunity scoring across 100% of conversations; and voicebots for automated inbound/outbound telephony and virtual agent-training scenarios. The platform emphasizes DSGVO/GDPR compliance with EU-only hosting in German data centers, prepared works-council documentation, and EU AI Act alignment, positioning itself as an alternative to US-cloud-dependent conversation-intelligence tools. No public API, developer portal, or SDKs are currently published; this profile was surfaced as a portfolio company of hv-capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/i2x/refs/heads/main/screenshots/i2x-2026-07-25T221936.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Joblocal",
@@ -5682,7 +5720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "KUKA",
@@ -5720,7 +5758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Scondoo",
@@ -5757,7 +5795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Lanch",
@@ -5795,7 +5833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Schüttflix",
@@ -5832,7 +5870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Check24",
@@ -5877,7 +5915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Kenbi",
@@ -5922,7 +5960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Encentive",
@@ -5967,7 +6005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "feld.energy",
@@ -6012,7 +6050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "INURU",
@@ -6057,7 +6095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Razor Group",
@@ -6094,7 +6132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Audi Connect / myAudi",
@@ -6139,7 +6177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Doctorly",
@@ -6184,7 +6222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "PraxiPal",
@@ -6228,7 +6266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "DailyDeal.de",
@@ -6266,7 +6304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Eleqtron",
@@ -6304,7 +6342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "ExpressSteuer (fka Express Group)",
@@ -6342,7 +6380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "hallo theo",
@@ -6380,7 +6418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Serviceware SE",
@@ -6417,7 +6455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Craftview",
@@ -6455,7 +6493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "wefox",
@@ -6500,7 +6538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Schuettflix",
@@ -6537,7 +6575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Hades",
@@ -6582,7 +6620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Warehousing1",
@@ -6619,7 +6657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "sento",
@@ -6656,7 +6694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Rizm",
@@ -6700,7 +6738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Powerus",
@@ -6737,7 +6775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Buena",
@@ -6775,7 +6813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "dehaze",
@@ -6820,7 +6858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Alphora Holdings",
@@ -6858,7 +6896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "CatalYm",
@@ -6896,7 +6934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Purpose Green",
@@ -6940,7 +6978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Home24",
@@ -6978,7 +7016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "mcmakler",
@@ -7023,7 +7061,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Finiata",
@@ -7060,7 +7098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Kiwilogic",
@@ -7098,7 +7136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Klima",
@@ -7136,7 +7174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Planqc",
@@ -7173,7 +7211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Purmeo",
@@ -7217,7 +7255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Smava",
@@ -7254,7 +7292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "avimedical",
@@ -7299,7 +7337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Heartbeat Medical",
@@ -7344,7 +7382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Savedo",
@@ -7388,7 +7426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Thalamed",
@@ -7432,7 +7470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "6 Wunderkinder",
@@ -7469,7 +7507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "asgoodasnew",
@@ -7506,7 +7544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Chemtura",
@@ -7544,7 +7582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Conjectag",
@@ -7581,7 +7619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "DaWanda.com",
@@ -7618,7 +7656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "DCS-Touristik (DCS Travel)",
@@ -7656,7 +7694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Dooyoo De",
@@ -7693,7 +7731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Honest Food Company",
@@ -7730,7 +7768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Hundeland",
@@ -7768,7 +7806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Institut für Produktqualität",
@@ -7805,7 +7843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Milano Vice",
@@ -7843,7 +7881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Tipp24",
@@ -7880,7 +7918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Zeitgold",
@@ -7917,7 +7955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Kwest",
@@ -7962,7 +8000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "element 5 AG",
@@ -8007,7 +8045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Roclub",
@@ -8051,7 +8089,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     }
    ]
   },
@@ -8067,13 +8105,13 @@
      "name": "HV Capital",
      "slug": "hv-capital",
      "description": "HV Capital is one of Europe's leading early-stage and growth venture capital firms, headquartered in Munich with an office in Berlin. Founded in 2000 as Holtzbrinck Ventures (the venture arm associated with Verlagsgruppe Georg von Holtzbrinck), the partnership completed a management buyout and rebranded to HV Capital in 2018, establishing full operational and investment independence. The firm backs European founders with global ambitions across the full lifecycle: its Venture fund writes seed and Series A checks from roughly €500K to €10M, while its Growth fund invests through Series B and beyond with checks up to €60M and follow-on reserves reaching €100M per company. HV invests across consumer internet, enterprise software and SaaS, fintech, deep tech, healthcare, climate and energy, cybersecurity, and AI. The firm reports more than €2.8B in assets under management across nine fund generations spanning Venture and Growth, over 290 portfolio companies, and 12 IPOs. Its investment philosophy — \"too new is our baseline, too bold is our reason, too complex is our edge\" — reflects a willingness to back complex, category-defining companies. Early and notable investments include Zalando, Delivery Hero, FlixBus, SumUp, Depop, Scalable Capital, Enpal, and Isar Aerospace. This profile tracks HV Capital's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Point Nine Capital",
      "slug": "point-nine",
      "description": "Point Nine Capital is a thesis-driven, early-stage venture capital firm founded in 2011 and headquartered in Berlin, Germany. It is one of Europe's best-known seed investors, specializing in B2B SaaS, B2B marketplaces, developer tools and infrastructure, fintech, digital health, and increasingly AI across digital, physical, and biological domains. Point Nine typically writes initial checks of roughly $1M-$10M (EUR 0.5M-5M) and aims to be the first institutional investor for \"v0.9\" founders graduating from friends-and-family capital. The firm runs a deliberately small, equal partnership in which each partner works closely with only 6-8 companies at a time to provide deep operational support. Since inception it has backed more than 160 startups across 30+ countries, including early bets on Algolia, Chainalysis, Clio, Contentful, Delivery Hero, Docplanner, Factorial, Front, Loom, Mambu, NexHealth, Revolut, Typeform, Zendesk, and Westwing, with 11+ companies reaching unicorn status.",
-     "rank": 198
+     "rank": 199
     }
    ]
   }

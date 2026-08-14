@@ -1,6 +1,6 @@
 {
- "total": 199,
- "shown": 199,
+ "total": 200,
+ "shown": 200,
  "limit": 1000,
  "bands": [
   {
@@ -5798,8 +5798,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 54,
-   "shown": 54,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "HCF",
@@ -6623,6 +6623,51 @@
      "rank": 150
     },
     {
+     "name": "SmartData",
+     "slug": "smart-data",
+     "description": "SmartData is a hosted drone-data workspace built and operated by National Drones, a CASA ReOC holder and Registered Training Organisation headquartered at Level 34, 1 Eagle Street, Brisbane, Australia. Teams bring processed, viewer-ready outputs from DJI Terra, Agisoft Metashape or their own photogrammetry workflow into SmartData and share one secure browser workspace where clients and asset owners can inspect, measure, compare and sign off on the data instead of passing files around. The platform hosts orthomosaic views, Cesium 3D Tiles, tiled point clouds and Gaussian Splat packages, layers AI-assisted inspection review, measurements, change detection, reporting and role-based team governance over them, and is expanding into processing and analytics workflows for DJI L3 LiDAR, Elios confined-space data, powerline corridor analytics and forestry intelligence. It serves power and utilities, telecommunications, mining and resources, forestry and environment, and infrastructure and construction. SmartData is sold as an end-user SaaS product: it publishes pricing, a public demo sandbox and self-service signup, but no API, developer portal, SDK, webhook surface or machine-readable contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smart-data/refs/heads/main/screenshots/smart-data-2026-06-20T194035.png",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 151
+    },
+    {
      "name": "Griffith University",
      "slug": "griffith",
      "description": "Griffith University is a public research university in Queensland, Australia, ranked #255 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on research and library infrastructure rather than a formal developer portal. Griffith Research Online (GRO), the institutional repository, runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH 2.0 endpoint for harvesting publication and research-output metadata. The university also operates a Canvas LMS instance whose Instructure REST API documentation is publicly reachable, and maintains active GitHub organizations for its Library and eResearch Services teams. No unified, self-service Griffith developer portal was found; most administrative, course, timetable, and identity interfaces are gated behind institutional affiliation.",
@@ -6665,7 +6710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "PayTo",
@@ -6710,7 +6755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "University of Queensland",
@@ -6755,7 +6800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Australian National University",
@@ -6800,7 +6845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "University of Sydney",
@@ -6845,7 +6890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "University of Wollongong",
@@ -6883,7 +6928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Curtin University",
@@ -6928,7 +6973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Transport for NSW Open Data Hub",
@@ -6973,7 +7018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "JOLT",
@@ -7018,7 +7063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "NSW Government Open Data",
@@ -7063,7 +7108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Queensland University of Technology",
@@ -7107,7 +7152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Limepay",
@@ -7152,7 +7197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Ray White",
@@ -7196,7 +7241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Queensland Government Data",
@@ -7241,7 +7286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Real Estate Institute of Australia",
@@ -7279,7 +7324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Sydney Airport",
@@ -7316,7 +7361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "data.gov.au Federal",
@@ -7361,7 +7406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "data.sa.gov.au South Australia",
@@ -7406,7 +7451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "DataVic Victoria",
@@ -7451,7 +7496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Northern Territory Open Data",
@@ -7496,7 +7541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Queensland Geoscience Data",
@@ -7541,7 +7586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Western Australia Data Catalogue",
@@ -7586,7 +7631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Chimelabs Holdings PTY LTD",
@@ -7624,7 +7669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Virgin Australia",
@@ -7661,7 +7706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Butn",
@@ -7706,7 +7751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Suncorp Group",
@@ -7750,7 +7795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Flight Centre Travel Group",
@@ -7788,7 +7833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Kismet",
@@ -7833,7 +7878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "HealthEngine",
@@ -7878,7 +7923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Evie Networks",
@@ -7923,7 +7968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "McGrath",
@@ -7967,7 +8012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "LJ Hooker",
@@ -8012,7 +8057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Rex Airlines",
@@ -8049,7 +8094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "CBRE Australia",
@@ -8087,7 +8132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Helloworld Travel",
@@ -8125,7 +8170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     }
    ]
   },
@@ -8173,7 +8218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Care GP",
@@ -8218,7 +8263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Transfercar",
@@ -8255,7 +8300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Diraq",
@@ -8272,7 +8317,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8292,7 +8337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Eucalyptus",
@@ -8337,7 +8382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Booko",
@@ -8375,7 +8420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Insurance Australia Group",
@@ -8420,7 +8465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Collabra",
@@ -8457,7 +8502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Ensurance",
@@ -8502,7 +8547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Refundid",
@@ -8539,7 +8584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Fixed",
@@ -8577,7 +8622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Gilmour Space",
@@ -8615,7 +8660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "MYSALE GROUP PLC",
@@ -8652,7 +8697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "DGIT",
@@ -8697,7 +8742,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     }
    ]
   }

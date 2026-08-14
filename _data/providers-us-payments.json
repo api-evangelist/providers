@@ -797,8 +797,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "TabaPay",
@@ -1443,6 +1443,52 @@
      "rank": 31
     },
     {
+     "name": "Deluxe Corporation",
+     "slug": "deluxe",
+     "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
+     "score": 47.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.2,
+      "governance": 20.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Acquirers & Processors",
+     "rank": 32
+    },
+    {
      "name": "Clover",
      "slug": "clover",
      "description": "Clover is a Fiserv-owned point-of-sale platform for small and mid-size merchants. The Clover developer platform exposes the Clover REST API for inventory/orders/customers/transactions, the Ecommerce API for online payments, an Android Payments API and Clover Android SDK for native apps on Clover devices, the REST Pay Display API for semi-integrated POS, the Remote Pay SDKs (cloud, Windows, iOS, Android), and the Clover Go SDK.",
@@ -1486,7 +1532,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Worldpay",
@@ -1531,7 +1577,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "ACI Worldwide",
@@ -1577,7 +1623,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Orum",
@@ -1623,7 +1669,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Fiserv",
@@ -1669,7 +1715,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Affirm",
@@ -1715,7 +1761,7 @@
       "dry_run_mode": false
      },
      "tier": "Buy Now, Pay Later",
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Cross River",
@@ -1761,7 +1807,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 38
+     "rank": 39
     }
    ]
   },
@@ -1817,7 +1863,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Braintree",
@@ -1856,7 +1902,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Euronet Worldwide",
@@ -1902,7 +1948,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Melio",
@@ -1948,7 +1994,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Visa",
@@ -1994,7 +2040,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Payoneer",
@@ -2040,7 +2086,7 @@
       "dry_run_mode": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Increase",
@@ -2086,7 +2132,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "FIS Global",
@@ -2132,7 +2178,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Nacha",
@@ -2178,7 +2224,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Column",
@@ -2223,7 +2269,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "NCR",
@@ -2269,7 +2315,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "FedNow Service",
@@ -2315,7 +2361,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Recurly",
@@ -2361,7 +2407,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Brex",
@@ -2407,7 +2453,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Paymentus",
@@ -2452,7 +2498,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "American Express",
@@ -2498,7 +2544,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Venmo",
@@ -2543,7 +2589,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Zuora",
@@ -2589,7 +2635,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Global Payments",
@@ -2635,7 +2681,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 57
+     "rank": 58
     }
    ]
   },
@@ -2691,7 +2737,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Maxio",
@@ -2737,7 +2783,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Remitly",
@@ -2782,7 +2828,7 @@
       "dry_run_mode": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Billtrust",
@@ -2828,7 +2874,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "The Clearing House (RTP)",
@@ -2873,7 +2919,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Galileo",
@@ -2919,7 +2965,7 @@
       "dry_run_mode": false
      },
      "tier": "Issuer-Processors",
-     "rank": 63
+     "rank": 64
     }
    ]
   },
@@ -2928,8 +2974,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Corpay",
@@ -2975,7 +3021,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "WEX",
@@ -3014,52 +3060,6 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 65
-    },
-    {
-     "name": "Deluxe Corporation",
-     "slug": "deluxe",
-     "description": "Deluxe Corporation is a major US corporation and Fortune 1000 company. The Deluxe Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
-     "score": 9.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Acquirers & Processors",
      "rank": 66
     },
     {

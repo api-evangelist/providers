@@ -296,20 +296,20 @@
      "name": "Albertsons",
      "slug": "albertsons",
      "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 35.1,
+     "score": 36.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 92.6,
       "contract_quality": 32.1,
       "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 34.2
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 44.1,
+     "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -322,7 +322,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

@@ -8,26 +8,26 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Svix",
      "slug": "svix",
      "description": "Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for streaming (Stream) and webhook ingestion (Ingest). Hosted offering is multi-region (US, EU, CA, AU, IN) with SOC 2 Type II, HIPAA, PCI-DSS attestations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png",
-     "score": 75.7,
+     "score": 84.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 65.6,
-      "governance": 68.8,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 84.8,
+      "discoverability": 83.3,
+      "contract_quality": 74.5,
+      "governance": 89.6,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 100.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -36,21 +36,21 @@
       "score": 56.3,
       "matched_via": "tags"
      },
-     "agent_score": 51.4,
+     "agent_score": 73.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": false,
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -102,6 +102,44 @@
      "rank": 2
     },
     {
+     "name": "Synthflow",
+     "slug": "synthflow",
+     "description": "Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses can build, deploy, and operate voice agents without third-party carriers. Synthflow exposes a REST Platform API for assistants, calls, phone numbers, knowledge bases, and custom actions, with bearer token authentication. The platform claims more than 200 integrations including HubSpot, Salesforce, Cal.com, Zapier, and CCaaS systems, plus custom webhook actions. Compliance covers SOC 2, HIPAA, PCI DSS, and GDPR with end-to-end encryption and audit logging.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png",
+     "score": 68.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 63.6,
+      "governance": 20.8,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 89.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 58.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
      "name": "1upHealth",
      "slug": "1uphealth",
      "description": "1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).",
@@ -144,7 +182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -154,8 +192,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 22,
-   "shown": 22,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "123FormBuilder",
@@ -200,7 +238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Spoonacular",
@@ -238,7 +276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Heidi Health",
@@ -283,7 +321,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Vital",
@@ -328,7 +366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "WHOOP",
@@ -373,7 +411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "AWS HealthLake",
@@ -418,7 +456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Amigo",
@@ -463,7 +501,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Lifen",
@@ -508,7 +546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Autoderm – AI Dermatology API",
@@ -552,7 +590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "fatsecret",
@@ -570,7 +608,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -597,7 +635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Amazon HealthLake",
@@ -642,7 +680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "b.well",
@@ -687,7 +725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Amazon HealthImaging",
@@ -732,7 +770,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
+    },
+    {
+     "name": "Freshpaint",
+     "slug": "freshpaint",
+     "description": "Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at https://api.perfalytics.com/track authenticated with an environment token.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png",
+     "score": 57.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 61.9,
+      "governance": 20.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     },
     {
      "name": "Independence Blue Cross",
@@ -777,7 +860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Oura",
@@ -822,7 +905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Inkit",
@@ -860,7 +943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Elation Health",
@@ -905,7 +988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "FormAssembly",
@@ -950,7 +1033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Aidbox",
@@ -995,7 +1078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Band AI",
@@ -1033,7 +1116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Microsoft Azure Health Data Services",
@@ -1078,7 +1161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "SignWell",
@@ -1116,7 +1199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     }
    ],
    "open": true
@@ -1172,7 +1255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "NexHealth",
@@ -1217,7 +1300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Google Cloud Healthcare",
@@ -1262,7 +1345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Android",
@@ -1300,7 +1383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Halo Connect",
@@ -1345,7 +1428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Orion Health",
@@ -1390,7 +1473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Suki AI",
@@ -1435,7 +1518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Aptible",
@@ -1473,7 +1556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "ModMed",
@@ -1518,7 +1601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 36
     },
     {
      "name": "Google Cloud Assured Workloads",
@@ -1556,7 +1639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 37
     },
     {
      "name": "Athelas",
@@ -1601,7 +1684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 38
     },
     {
      "name": "Particle Health",
@@ -1646,7 +1729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Acuity Scheduling",
@@ -1684,7 +1767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "PointClickCare",
@@ -1729,7 +1812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Oura Ring",
@@ -1774,7 +1857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "Penn Medicine",
@@ -1819,7 +1902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Coviu",
@@ -1864,7 +1947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "AdvancedMD",
@@ -1909,7 +1992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Doximity",
@@ -1954,7 +2037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "Semble",
@@ -1998,7 +2081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Canvas Medical",
@@ -2043,7 +2126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Cigna",
@@ -2088,7 +2171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "Moxe Health",
@@ -2133,7 +2216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "OpenMenu",
@@ -2171,7 +2254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "LetsGetChecked",
@@ -2216,7 +2299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "drchrono",
@@ -2261,7 +2344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Smokeball",
@@ -2299,7 +2382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Stedi",
@@ -2344,7 +2427,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Zus Health",
@@ -2388,7 +2471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "athenahealth",
@@ -2433,7 +2516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "Morf",
@@ -2478,7 +2561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "VA Lighthouse",
@@ -2523,7 +2606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 59
     },
     {
      "name": "Andel",
@@ -2568,7 +2651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "Aquant",
@@ -2613,7 +2696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "August Health",
@@ -2658,7 +2741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "Diagnostic Robotics",
@@ -2675,7 +2758,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -2702,7 +2785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Photon",
@@ -2746,7 +2829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Predoc",
@@ -2790,7 +2873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Sunbit",
@@ -2834,7 +2917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Best Practice Software",
@@ -2879,7 +2962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "CharmHealth",
@@ -2924,7 +3007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Dexcom",
@@ -2969,7 +3052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "Ribbon Health",
@@ -3014,7 +3097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "Vim",
@@ -3058,7 +3141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Edamam",
@@ -3096,7 +3179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "H1",
@@ -3141,7 +3224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "DocStation",
@@ -3186,7 +3269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "Qualio",
@@ -3230,7 +3313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Recipe API",
@@ -3267,7 +3350,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Roivant Sciences",
@@ -3312,7 +3395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Buoy Health",
@@ -3356,7 +3439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "NextGen Healthcare",
@@ -3401,7 +3484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "WHOOP",
@@ -3446,7 +3529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "FoodData Central",
@@ -3491,7 +3574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Temple Health",
@@ -3536,7 +3619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "Sun Life",
@@ -3580,7 +3663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "AmeriHealth Caritas",
@@ -3625,7 +3708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "Elation Health",
@@ -3670,7 +3753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Practice Fusion",
@@ -3714,7 +3797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Wahoo Fitness",
@@ -3759,7 +3842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Children's Hospital of Philadelphia",
@@ -3804,7 +3887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "MyCase",
@@ -3849,7 +3932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Clever Care Health Plan",
@@ -3894,7 +3977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "Color",
@@ -3939,7 +4022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "HL7 FHIR",
@@ -3984,7 +4067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "Clio",
@@ -4022,7 +4105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "CMS — Centers for Medicare & Medicaid Services",
@@ -4067,7 +4150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Trustwell",
@@ -4105,7 +4188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Withings",
@@ -4150,7 +4233,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "Develop Health",
@@ -4195,7 +4278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "Calm",
@@ -4239,7 +4322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Clever Care",
@@ -4284,7 +4367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Prosper AI",
@@ -4328,7 +4411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Rhizome Ai",
@@ -4372,7 +4455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 101
     },
     {
      "name": "Arccos Golf",
@@ -4410,7 +4493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 102
     },
     {
      "name": "Liesheng Group",
@@ -4455,7 +4538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "WeFitter",
@@ -4499,7 +4582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "Human API",
@@ -4544,7 +4627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Kareo",
@@ -4589,7 +4672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Thriva",
@@ -4633,7 +4716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "Under Armour",
@@ -4678,7 +4761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "Brellium",
@@ -4723,7 +4806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Daytona",
@@ -4761,7 +4844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "USDA",
@@ -4806,7 +4889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "Suggestic",
@@ -4850,7 +4933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Garner Health",
@@ -4895,7 +4978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Koko",
@@ -4940,7 +5023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Laurel",
@@ -4978,7 +5061,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "NHS England",
@@ -5023,7 +5106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Candid Health",
@@ -5068,7 +5151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Commure",
@@ -5113,7 +5196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "Element5",
@@ -5158,7 +5241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Jefferson Health",
@@ -5203,7 +5286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Walgreens",
@@ -5248,7 +5331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "Calm",
@@ -5293,7 +5376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "Luma Health",
@@ -5338,7 +5421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "HumanAPI",
@@ -5383,7 +5466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Google Fit REST",
@@ -5428,7 +5511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Mon Ami",
@@ -5473,7 +5556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "GP Connect",
@@ -5518,7 +5601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Nutritionix",
@@ -5563,7 +5646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Orderly Health",
@@ -5608,7 +5691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Devoted Health",
@@ -5653,7 +5736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "Patients Know Best",
@@ -5698,7 +5781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "Devoted Health",
@@ -5743,7 +5826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "Weave",
@@ -5787,7 +5870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "Veterans Affairs",
@@ -5832,7 +5915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 134
     },
     {
      "name": "Alleva",
@@ -5877,7 +5960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 135
     },
     {
      "name": "Actionstep",
@@ -5915,7 +5998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 136
     },
     {
      "name": "BigOven",
@@ -5953,7 +6036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 137
     },
     {
      "name": "Epic Systems",
@@ -5998,7 +6081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 138
     }
    ]
   },
@@ -6007,8 +6090,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 179,
-   "shown": 179,
+   "count": 177,
+   "shown": 177,
    "providers": [
     {
      "name": "CloudEvents",
@@ -6046,7 +6129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "Axelar",
@@ -6084,7 +6167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 140
     },
     {
      "name": "Zocdoc",
@@ -6129,7 +6212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "Wormhole",
@@ -6167,7 +6250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "UNICEF Data",
@@ -6211,7 +6294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "Alivecor",
@@ -6256,7 +6339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "Haekka",
@@ -6294,7 +6377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 145
     },
     {
      "name": "Centers for Medicare and Medicaid Services",
@@ -6339,7 +6422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 146
     },
     {
      "name": "NutrientsDB",
@@ -6383,7 +6466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "CalorieNinjas",
@@ -6421,7 +6504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 148
     },
     {
      "name": "Eko Health",
@@ -6466,7 +6549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 149
     },
     {
      "name": "Manage BGL",
@@ -6511,45 +6594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
-    },
-    {
-     "name": "Synthflow",
-     "slug": "synthflow",
-     "description": "Synthflow is an enterprise-ready no-code Voice AI platform for automating phone conversations at scale. The product combines a visual agent designer with in-house telephony, sub-100ms latency, and a 99.99% uptime guarantee, so businesses can build, deploy, and operate voice agents without third-party carriers. Synthflow exposes a REST Platform API for assistants, calls, phone numbers, knowledge bases, and custom actions, with bearer token authentication. The platform claims more than 200 integrations including HubSpot, Salesforce, Cal.com, Zapier, and CCaaS systems, plus custom webhook actions. Compliance covers SOC 2, HIPAA, PCI DSS, and GDPR with end-to-end encryption and audit logging.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png",
-     "score": 41.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 54.7,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Garner",
@@ -6594,7 +6639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Huma",
@@ -6639,7 +6684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Nabla",
@@ -6684,7 +6729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Samsung",
@@ -6722,7 +6767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Documo",
@@ -6760,7 +6805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "MEDITECH",
@@ -6805,7 +6850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Substance Abuse and Mental Health Services Administration",
@@ -6850,7 +6895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "HHS (US Department of Health and Human Services)",
@@ -6895,7 +6940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Varian Medical Systems",
@@ -6940,7 +6985,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Clover Health",
@@ -6985,7 +7030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Ultrahuman",
@@ -7029,7 +7074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "NHS Digital",
@@ -7074,7 +7119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Orange Health",
@@ -7119,7 +7164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Hi Health",
@@ -7164,7 +7209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "NHS API",
@@ -7209,7 +7254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Botkeeper",
@@ -7253,7 +7298,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Community Health Systems",
@@ -7298,7 +7343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Jotform",
@@ -7336,7 +7381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Polar",
@@ -7381,7 +7426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Harbinger Health",
@@ -7426,7 +7471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Tenet Healthcare",
@@ -7471,7 +7516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "PlayerData",
@@ -7508,7 +7553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "CMS Blue Button 2.0",
@@ -7553,7 +7598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "TrainingPeaks",
@@ -7597,7 +7642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "MyFitnessPal",
@@ -7642,7 +7687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "FitBark",
@@ -7687,7 +7732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "AG1",
@@ -7732,7 +7777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Ketryx",
@@ -7777,7 +7822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Komodo Health",
@@ -7822,7 +7867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Digitail",
@@ -7867,7 +7912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Inflammatix",
@@ -7912,7 +7957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "MV sistemas",
@@ -7957,7 +8002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Azumio",
@@ -8002,7 +8047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Canada Health Infoway",
@@ -8047,7 +8092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Confrere",
@@ -8092,7 +8137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Labayh",
@@ -8137,7 +8182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Food Info",
@@ -8181,7 +8226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Nookal",
@@ -8226,7 +8271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "AristaMD",
@@ -8271,7 +8316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Healthie",
@@ -8316,7 +8361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Kate Farms",
@@ -8361,7 +8406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Scratchpay",
@@ -8405,7 +8450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "UnitedHealth Group",
@@ -8450,7 +8495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Validic",
@@ -8494,7 +8539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Provet Cloud",
@@ -8538,7 +8583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "steute Technologies GmbH & Co. KG",
@@ -8582,7 +8627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Tebra",
@@ -8626,7 +8671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "VivaLNK",
@@ -8670,7 +8715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Aerin Medical",
@@ -8715,7 +8760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "UnitedHealthcare",
@@ -8760,7 +8805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Collectly",
@@ -8805,7 +8850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "MedAdvisor",
@@ -8850,7 +8895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Cresilon",
@@ -8895,7 +8940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Slingshot Biosciences",
@@ -8939,7 +8984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Empatica",
@@ -8956,7 +9001,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -8983,7 +9028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "GenHealth.ai",
@@ -9028,7 +9073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Rokid",
@@ -9065,7 +9110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Bobbie",
@@ -9105,51 +9150,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 207
-    },
-    {
-     "name": "Freshpaint",
-     "slug": "freshpaint",
-     "description": "Freshpaint is a healthcare privacy platform and customer-data platform that collects first-party event data and governs it for HIPAA compliance before fanning it out to 100+ marketing, analytics, and data destinations. Its server-side HTTP API ingests track, identify, page, and screen events at https://api.perfalytics.com/track authenticated with an environment token.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png",
-     "score": 36.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -9426,6 +9426,43 @@
      "rank": 214
     },
     {
+     "name": "Albertsons",
+     "slug": "albertsons",
+     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
+     "score": 36.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.1,
+      "governance": 68.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 215
+    },
+    {
      "name": "Engrail Therapeutics",
      "slug": "engrail-therapeutics",
      "description": "Engrail Therapeutics is a clinical-stage precision-neuroscience pharmaceutical company founded in 2019 and headquartered in San Diego, California. It applies precision chemistry and pharmacology to scientifically validated mechanisms of action, developing targeted small-molecule therapies for neuropsychiatric and neurodevelopmental diseases with significant unmet need — including generalized anxiety disorder, major depressive disorder characterized by anhedonia, post-traumatic stress disorder and rare neurodegenerative conditions. Its lead program, ENX-102, is a highly selective GABA-A alpha-2,3,5 positive allosteric modulator in Phase 2 (the ENCALM trial) for generalized anxiety disorder; ENX-104 is in clinical development for anhedonic depression. The company closed an oversubscribed $157M Series B in March 2024 co-led by F-Prime Capital, Forbion and Norwest Venture Partners, bringing total capital raised since inception past $220M. Engrail publishes no product or developer API; the machine-readable surfaces catalogued here are the public read-only content API and the OAuth-protected Model Context Protocol servers exposed by its corporate website.",
@@ -9468,7 +9505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "Exo",
@@ -9513,7 +9550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "Terra",
@@ -9557,7 +9594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "Cerner (Oracle Health)",
@@ -9602,7 +9639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Cliniko",
@@ -9647,7 +9684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "HealthEx",
@@ -9692,7 +9729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Neurable",
@@ -9736,7 +9773,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "EMIS Health",
@@ -9781,7 +9818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "CareStack",
@@ -9826,7 +9863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Eight Sleep",
@@ -9871,7 +9908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "ezyVet",
@@ -9916,7 +9953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Synthego",
@@ -9955,43 +9992,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 226
-    },
-    {
-     "name": "Albertsons",
-     "slug": "albertsons",
-     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 32.1,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -10276,7 +10276,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -11397,7 +11397,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -15051,7 +15051,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -15319,7 +15319,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -15752,7 +15752,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -18479,6 +18479,51 @@
      "rank": 419
     },
     {
+     "name": "AcuityMD",
+     "slug": "acuitymd",
+     "description": "AcuityMD is a MedTech commercial intelligence platform that combines precise medical device market data, AI-powered insights (AcuityAI), and workflow tools to help commercial teams accelerate product adoption and revenue growth. Used by 500+ medical device companies, the platform spans Market Intelligence, Care Journeys, Targeting, Pipeline, Contracts, Territories and Forecasting. AcuityMD is a closed enterprise SaaS product: it exposes no public developer API, but integrates via a Salesforce AppExchange app, a Snowflake Marketplace listing, and an enterprise Data Connector that delivers market intelligence into customer data warehouses. Backed by ICONIQ Capital and Redpoint Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acuitymd/refs/heads/main/screenshots/acuitymd-2026-07-25T181538.png",
+     "score": 21.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 30.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 420
+    },
+    {
      "name": "Firefly Health",
      "slug": "firefly-health",
      "description": "Firefly Health is a virtual-first primary care practice and clinically integrated health plan founded in 2016 and headquartered in Watertown, Massachusetts. Members get a dedicated care team - a primary care physician, nurse practitioner, health guide and behavioral health specialist - reachable by chat and video through the Firefly Health app, backed by the Firefly Nearby network for in-person, at-home and specialty care. Firefly sells an employer-sponsored alternative health plan alongside its virtual primary care service, and in 2025 became the first national primary care practice to earn NCQA Virtual Care Accreditation. Firefly publishes no public developer program, portal, documentation or specification: the member web and mobile apps are served by a private first-party API at api-prod.firefly.health under an /api/v2/ base path. Included Health signed an agreement to acquire Firefly Health in July 2026.",
@@ -18521,7 +18566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Glytec",
@@ -18566,7 +18611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "Pelago",
@@ -18610,7 +18655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "Vivoo",
@@ -18654,7 +18699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Life360",
@@ -18692,7 +18737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "CaptureProof",
@@ -18737,7 +18782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "IDOVEN",
@@ -18782,7 +18827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "Ecton",
@@ -18827,7 +18872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Journey Clinical",
@@ -18872,7 +18917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "Klara",
@@ -18917,7 +18962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Nutritics",
@@ -18962,7 +19007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "Alaffia",
@@ -19007,7 +19052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Apero",
@@ -19052,7 +19097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "Archy",
@@ -19097,7 +19142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Tuva Health",
@@ -19141,7 +19186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Vital",
@@ -19185,7 +19230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "HealthJoy",
@@ -19230,7 +19275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Stack Health",
@@ -19274,7 +19319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "WebPT",
@@ -19318,7 +19363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "Arine",
@@ -19363,7 +19408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "Birdie",
@@ -19408,7 +19453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "DigiLens",
@@ -19446,7 +19491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "Fortuna Health",
@@ -19491,7 +19536,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 443
+    },
+    {
+     "name": "PraxisPro AI",
+     "slug": "praxispro-ai",
+     "description": "PraxisPro AI is an AI-powered training platform built to modernize pharmaceutical and medical device sales training for life sciences organizations. Its modules include PraxisPlay (AI roleplay simulations with realistic healthcare-provider agents), PraxisCertify (certification tracking and knowledge-gap identification), PraxisCoach (performance coaching and feedback), and PraxisIntelligence (analytics and insights for management). The platform serves sales reps, trainers, managers, MSLs, compliance, and marketing teams with personalized, AI-driven scenarios, immediate feedback, and performance tracking. Backed by Techstars. Delivered as a SaaS product; no public developer API surface is published at the time of enrichment.",
+     "score": 20.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 32.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 444
     },
     {
      "name": "Scene Health",
@@ -19535,7 +19624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 445
     },
     {
      "name": "Alife",
@@ -19580,7 +19669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 446
     },
     {
      "name": "Array Behavioral Care",
@@ -19625,7 +19714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 447
     },
     {
      "name": "Juli",
@@ -19670,7 +19759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 448
     },
     {
      "name": "kaiahealth",
@@ -19715,7 +19804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 449
     },
     {
      "name": "Omada Health",
@@ -19760,7 +19849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 450
     },
     {
      "name": "Waystar",
@@ -19804,7 +19893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 451
     },
     {
      "name": "Enzyme",
@@ -19849,7 +19938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 452
     },
     {
      "name": "Flinn",
@@ -19894,7 +19983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 453
     },
     {
      "name": "Standardization",
@@ -19932,7 +20021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 454
     },
     {
      "name": "Boulder Care",
@@ -19976,7 +20065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 455
     },
     {
      "name": "Expressable",
@@ -19993,7 +20082,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -20020,7 +20109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 456
     },
     {
      "name": "HumanFirst",
@@ -20065,7 +20154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 457
     },
     {
      "name": "Owletcare",
@@ -20110,7 +20199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 458
     },
     {
      "name": "Ultralight",
@@ -20154,7 +20243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 459
     },
     {
      "name": "WELL Health Technologies",
@@ -20198,7 +20287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 460
     },
     {
      "name": "Workit Health",
@@ -20242,7 +20331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 461
     },
     {
      "name": "Celer Network",
@@ -20280,7 +20369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 462
     },
     {
      "name": "Infinitus",
@@ -20325,7 +20414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 463
     },
     {
      "name": "Lena Health",
@@ -20370,7 +20459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 464
     },
     {
      "name": "Fast Healthcare Interoperability Resources",
@@ -20415,7 +20504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 465
     },
     {
      "name": "Axxess",
@@ -20460,7 +20549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 466
     },
     {
      "name": "Guardhat",
@@ -20505,7 +20594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 467
     },
     {
      "name": "Legacy",
@@ -20550,7 +20639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 468
     },
     {
      "name": "Magical",
@@ -20595,7 +20684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 469
     },
     {
      "name": "Ambience",
@@ -20640,7 +20729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 470
     },
     {
      "name": "Dentrix",
@@ -20685,7 +20774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 471
     },
     {
      "name": "Forus",
@@ -20730,7 +20819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 472
     },
     {
      "name": "Huel",
@@ -20775,52 +20864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
-    },
-    {
-     "name": "AcuityMD",
-     "slug": "acuitymd",
-     "description": "AcuityMD is a MedTech commercial intelligence platform that combines precise medical device market data, AI-powered insights (AcuityAI), and workflow tools to help commercial teams accelerate product adoption and revenue growth. Used by 500+ medical device companies, the platform spans Market Intelligence, Care Journeys, Targeting, Pipeline, Contracts, Territories and Forecasting. AcuityMD is a closed enterprise SaaS product: it exposes no public developer API, but integrates via a Salesforce AppExchange app, a Snowflake Marketplace listing, and an enterprise Data Connector that delivers market intelligence into customer data warehouses. Backed by ICONIQ Capital and Redpoint Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acuitymd/refs/heads/main/screenshots/acuitymd-2026-07-25T181538.png",
-     "score": 19.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 30.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Koda Health",
@@ -20865,7 +20909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "Medigate",
@@ -20910,7 +20954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "CarMD",
@@ -20948,7 +20992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Cyberpsyc",
@@ -20993,7 +21037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "Quartet Health",
@@ -21037,7 +21081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "AiVF",
@@ -21082,7 +21126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "Clara 2",
@@ -21127,7 +21171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "Disclo",
@@ -21172,7 +21216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "Mabel",
@@ -21217,7 +21261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "Nilo Health",
@@ -21262,7 +21306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Rivet Health",
@@ -21306,7 +21350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "Clipboard Health",
@@ -21351,7 +21395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "Agilemd",
@@ -21396,7 +21440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Aidoc",
@@ -21441,7 +21485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "Anthem",
@@ -21486,7 +21530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "Curebase",
@@ -21531,7 +21575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "Force Therapeutics",
@@ -21576,7 +21620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "Lighten",
@@ -21621,7 +21665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "Lively",
@@ -21666,7 +21710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "MeetAsh",
@@ -21711,7 +21755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "Glass Health",
@@ -21756,7 +21800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "RealWear",
@@ -21793,7 +21837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "Boat Lifestyle",
@@ -21830,7 +21874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "Carecloud",
@@ -21875,7 +21919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "Sword",
@@ -21919,7 +21963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "House Rx",
@@ -21964,7 +22008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "Unmind",
@@ -22008,7 +22052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "KRY",
@@ -22053,7 +22097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "LifeSite",
@@ -22091,7 +22135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "Tendo",
@@ -22135,7 +22179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "TransCrypts",
@@ -22172,7 +22216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "AccessHope",
@@ -22217,7 +22261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "Ellipsis Health",
@@ -22262,7 +22306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Nolla Health",
@@ -22307,7 +22351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "Omni Network",
@@ -22345,7 +22389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Ritten",
@@ -22389,7 +22433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Simpatico Project",
@@ -22433,7 +22477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "Abridge",
@@ -22478,7 +22522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Attuned Intelligence",
@@ -22523,7 +22567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "CaaMTech",
@@ -22567,7 +22611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "EDDA Technology",
@@ -22612,7 +22656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Evidation Health",
@@ -22657,7 +22701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Patientdesk.ai",
@@ -22702,7 +22746,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "23andMe",
@@ -22746,7 +22790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Carepatron",
@@ -22791,7 +22835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Cognoa",
@@ -22835,7 +22879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Equip Health",
@@ -22880,7 +22924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "ExaCare AI",
@@ -22925,7 +22969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "Findoctave",
@@ -22970,7 +23014,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "HealthVerity",
@@ -23015,7 +23059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "9am Health",
@@ -23060,7 +23104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "BoaConsulta",
@@ -23105,7 +23149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "Latent",
@@ -23150,7 +23194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Sword Health",
@@ -23194,7 +23238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Walgreens Boots Alliance",
@@ -23239,7 +23283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "Headway",
@@ -23284,7 +23328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "Machinify",
@@ -23329,7 +23373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Dentsply Sirona",
@@ -23367,7 +23411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Theator",
@@ -23411,7 +23455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "Viome",
@@ -23455,7 +23499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "Virgo",
@@ -23499,7 +23543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Basata",
@@ -23544,7 +23588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "Bevel",
@@ -23589,7 +23633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "Chefaa",
@@ -23634,7 +23678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Radial Analytics",
@@ -23678,7 +23722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "RapidClaims",
@@ -23722,7 +23766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "Artera",
@@ -23767,7 +23811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "Parachute Health",
@@ -23812,7 +23856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "Aware Health",
@@ -23857,7 +23901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Cleerly",
@@ -23902,7 +23946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "Eden Health",
@@ -23946,7 +23990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "FirstVet",
@@ -23991,7 +24035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Halo Health (Symplr)",
@@ -24036,7 +24080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Hello Heart",
@@ -24081,7 +24125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Imagen",
@@ -24126,7 +24170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Plume Health",
@@ -24170,7 +24214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "QUIBIM",
@@ -24214,7 +24258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "Sage Care",
@@ -24258,7 +24302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "98point6 Technologies",
@@ -24303,7 +24347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Caresyntax",
@@ -24347,7 +24391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Dialogue",
@@ -24392,7 +24436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "Eleos Health",
@@ -24437,7 +24481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Limbic",
@@ -24482,7 +24526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "TytoCare",
@@ -24526,7 +24570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "Novoic",
@@ -24571,7 +24615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "UptimeHealth",
@@ -24615,7 +24659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Md Ally",
@@ -24660,7 +24704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Nitra",
@@ -24705,7 +24749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "Revel Ai Health",
@@ -24749,7 +24793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "ConnectRN",
@@ -24793,7 +24837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Heard",
@@ -24838,7 +24882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "Proximie",
@@ -24882,7 +24926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Reinsurance Group of America",
@@ -24927,7 +24971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "Vetcove",
@@ -24971,7 +25015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Wheel",
@@ -25015,7 +25059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "Cadence Solutions",
@@ -25059,7 +25103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Docquity",
@@ -25076,7 +25120,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -25103,7 +25147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Smile Digital Health",
@@ -25148,7 +25192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "Wheel",
@@ -25192,7 +25236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Accurx",
@@ -25237,7 +25281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Aiwyn",
@@ -25282,7 +25326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "DayDream Dental",
@@ -25327,7 +25371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "NutriSense",
@@ -25372,7 +25416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "Siemens Healthineers",
@@ -25417,7 +25461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "Tomorrow Health",
@@ -25461,7 +25505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Unobravo",
@@ -25505,7 +25549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "BestDoc",
@@ -25550,7 +25594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Genalyte",
@@ -25595,7 +25639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Insightec",
@@ -25640,7 +25684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Medmonk",
@@ -25685,7 +25729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "nference",
@@ -25730,7 +25774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Oscar",
@@ -25775,7 +25819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "Pointone",
@@ -25812,7 +25856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "Prenetics",
@@ -25856,7 +25900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "RefleXion Medical",
@@ -25900,7 +25944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Snap-on",
@@ -25938,7 +25982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Sonar Mental Health",
@@ -25982,7 +26026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "Virta Health",
@@ -26026,7 +26070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "voize",
@@ -26070,7 +26114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Defense Health Agency",
@@ -26115,7 +26159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "Mars",
@@ -26153,7 +26197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "10x Genomics",
@@ -26198,7 +26242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "BrainCo",
@@ -26243,7 +26287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "7 Cups",
@@ -26287,7 +26331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Ambiq Micro",
@@ -26332,7 +26376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Floy",
@@ -26377,7 +26421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Hello Patient",
@@ -26422,7 +26466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Oviva",
@@ -26467,7 +26511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Docura Health",
@@ -26512,7 +26556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "Swift Medical",
@@ -26556,7 +26600,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "Brightline",
@@ -26601,7 +26645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Capim",
@@ -26646,7 +26690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Dandy",
@@ -26691,7 +26735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "Decorte Future Industries",
@@ -26736,7 +26780,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Dutch",
@@ -26781,7 +26825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Evvy",
@@ -26826,7 +26870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Petfolk",
@@ -26870,7 +26914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Tia Health",
@@ -26914,7 +26958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "8fit",
@@ -26959,7 +27003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Aidence",
@@ -27004,7 +27048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Apricot",
@@ -27049,7 +27093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Cala Health",
@@ -27094,7 +27138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Faks",
@@ -27139,7 +27183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Gaia",
@@ -27184,7 +27228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Genome Medical",
@@ -27229,7 +27273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Lucis",
@@ -27274,7 +27318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Opalite Health",
@@ -27319,7 +27363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "PathAI",
@@ -27364,7 +27408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "SimplePractice",
@@ -27408,7 +27452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "Sofia",
@@ -27452,7 +27496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "Solace",
@@ -27496,7 +27540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Transcarent",
@@ -27540,7 +27584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "Ultromics",
@@ -27584,7 +27628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Zentist",
@@ -27628,7 +27672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "Blooming Health",
@@ -27673,7 +27717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "LUMICKS",
@@ -27718,7 +27762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "Peppy",
@@ -27762,7 +27806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "All In",
@@ -27800,7 +27844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Almanac Health",
@@ -27845,7 +27889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "Bamboo Health",
@@ -27890,7 +27934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 633
     },
     {
      "name": "Cleardata",
@@ -27935,7 +27979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 634
     },
     {
      "name": "Latent Health",
@@ -27980,7 +28024,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 635
     },
     {
      "name": "ABILITY Network (Inovalon)",
@@ -28025,7 +28069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 636
     },
     {
      "name": "Framewise Health",
@@ -28070,7 +28114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 637
     },
     {
      "name": "Allara",
@@ -28115,7 +28159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 638
     },
     {
      "name": "Allara Health",
@@ -28160,7 +28204,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 639
     },
     {
      "name": "Aumet",
@@ -28205,7 +28249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 639
+     "rank": 640
     },
     {
      "name": "Backpack Healthcare",
@@ -28250,7 +28294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 641
     },
     {
      "name": "Big Sky Health",
@@ -28295,7 +28339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 642
     },
     {
      "name": "Caliber Fitness",
@@ -28340,7 +28384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 643
     },
     {
      "name": "Calibrate",
@@ -28385,7 +28429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 644
     },
     {
      "name": "Calm",
@@ -28429,7 +28473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 645
     },
     {
      "name": "Ezra",
@@ -28474,7 +28518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 646
     },
     {
      "name": "Fightcamp",
@@ -28519,7 +28563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 647
     },
     {
      "name": "Floreo",
@@ -28564,7 +28608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 648
     },
     {
      "name": "Headlight",
@@ -28609,7 +28653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 649
     },
     {
      "name": "Headspace",
@@ -28654,7 +28698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 650
     },
     {
      "name": "Homage",
@@ -28699,7 +28743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 651
     },
     {
      "name": "Hormona",
@@ -28744,7 +28788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 652
     },
     {
      "name": "Joinmidi",
@@ -28789,7 +28833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 653
     },
     {
      "name": "kelaHealth",
@@ -28834,7 +28878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 654
     },
     {
      "name": "Meditopia",
@@ -28878,7 +28922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 655
     },
     {
      "name": "MTN OPS",
@@ -28916,7 +28960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 656
     },
     {
      "name": "Ophelia Health",
@@ -28961,7 +29005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 657
     },
     {
      "name": "Pear Suite",
@@ -29006,7 +29050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 658
     },
     {
      "name": "Physiohome",
@@ -29050,7 +29094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 659
     },
     {
      "name": "Prenuvo",
@@ -29094,7 +29138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 660
     },
     {
      "name": "Roger",
@@ -29138,7 +29182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 661
     },
     {
      "name": "Rupa Health",
@@ -29182,7 +29226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 662
     },
     {
      "name": "Seer",
@@ -29226,7 +29270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 663
     },
     {
      "name": "Spill",
@@ -29270,7 +29314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 664
     },
     {
      "name": "Summer Health",
@@ -29314,7 +29358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 665
     },
     {
      "name": "Teal Health",
@@ -29358,7 +29402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 666
     },
     {
      "name": "Terapify",
@@ -29402,7 +29446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 667
     },
     {
      "name": "Vitrue Health",
@@ -29446,7 +29490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 668
     },
     {
      "name": "Clivi",
@@ -29491,7 +29535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 669
     },
     {
      "name": "Ferrum Health",
@@ -29536,7 +29580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 670
     },
     {
      "name": "Grow Therapy",
@@ -29581,7 +29625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 671
     },
     {
      "name": "HealthEngine",
@@ -29626,7 +29670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 672
     },
     {
      "name": "Almanac Health",
@@ -29671,7 +29715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 673
     },
     {
      "name": "Blackrock Neurotech",
@@ -29716,7 +29760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 674
     },
     {
      "name": "DeepScribe",
@@ -29761,7 +29805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 675
     },
     {
      "name": "Octave Bioscience",
@@ -29806,7 +29850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 676
     },
     {
      "name": "Somethings",
@@ -29850,7 +29894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 677
     },
     {
      "name": "Virgin Pulse",
@@ -29894,7 +29938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 678
     },
     {
      "name": "Camber",
@@ -29939,7 +29983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 679
     },
     {
      "name": "Collective Medical",
@@ -29984,7 +30028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 680
     },
     {
      "name": "Juniper Behavioral Health",
@@ -30029,7 +30073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 681
     },
     {
      "name": "Prax Health",
@@ -30073,7 +30117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 682
     },
     {
      "name": "28 labs",
@@ -30118,7 +30162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 683
     },
     {
      "name": "Aledade",
@@ -30163,7 +30207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 684
     },
     {
      "name": "Aluna",
@@ -30208,7 +30252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 685
     },
     {
      "name": "Becton Dickinson",
@@ -30253,7 +30297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 686
     },
     {
      "name": "BillionToOne",
@@ -30298,7 +30342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 687
     },
     {
      "name": "Birches Health",
@@ -30343,7 +30387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 688
     },
     {
      "name": "Caer",
@@ -30381,7 +30425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Fort",
@@ -30426,7 +30470,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "Hykso",
@@ -30471,7 +30515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "Irhythmtech",
@@ -30516,7 +30560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "Naluri",
@@ -30561,7 +30605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "Pluto",
@@ -30605,7 +30649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "SAVA",
@@ -30649,7 +30693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "Tendo Systems",
@@ -30693,7 +30737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 696
     },
     {
      "name": "TMRW Life Sciences *",
@@ -30737,7 +30781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 697
     },
     {
      "name": "Lunabill",
@@ -30782,7 +30826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 698
     },
     {
      "name": "Nines",
@@ -30827,7 +30871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 699
     },
     {
      "name": "ScreenPoint Medical",
@@ -30871,7 +30915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 700
     },
     {
      "name": "Bold",
@@ -30916,7 +30960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 701
     },
     {
      "name": "Hippocratic AI",
@@ -30961,7 +31005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 702
     },
     {
      "name": "Lantum",
@@ -31006,7 +31050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 703
     },
     {
      "name": "Lenus eHealth",
@@ -31051,7 +31095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 704
     },
     {
      "name": "NOCD",
@@ -31096,7 +31140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 705
     },
     {
      "name": "Petsapp",
@@ -31140,7 +31184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 706
     },
     {
      "name": "Stellar Sleep",
@@ -31184,7 +31228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 707
     },
     {
      "name": "Vida Health",
@@ -31228,7 +31272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 708
     },
     {
      "name": "WellTheory",
@@ -31272,7 +31316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 709
     },
     {
      "name": "Allswell",
@@ -31317,7 +31361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 710
     },
     {
      "name": "BrightInsight",
@@ -31362,7 +31406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 711
     },
     {
      "name": "Curative",
@@ -31407,7 +31451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 712
     },
     {
      "name": "Medzoomer",
@@ -31452,7 +31496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 713
     },
     {
      "name": "Calo",
@@ -31497,7 +31541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 714
     },
     {
      "name": "CareFusion (BD)",
@@ -31542,7 +31586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "Modern Fertility",
@@ -31586,7 +31630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 716
     },
     {
      "name": "Cortico",
@@ -31631,7 +31675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 717
     },
     {
      "name": "CVS Health",
@@ -31676,7 +31720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 718
     },
     {
      "name": "Field Medical",
@@ -31693,7 +31737,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -31720,7 +31764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 719
     },
     {
      "name": "Gireve",
@@ -31765,7 +31809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 720
     },
     {
      "name": "LabDoor",
@@ -31790,50 +31834,6 @@
       "regime": "Health",
       "regime_id": "health",
       "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 720
-    },
-    {
-     "name": "PraxisPro AI",
-     "slug": "praxispro-ai",
-     "description": "PraxisPro AI is an AI-powered training platform built to modernize pharmaceutical and medical device sales training for life sciences organizations. Its modules include PraxisPlay (AI roleplay simulations with realistic healthcare-provider agents), PraxisCertify (certification tracking and knowledge-gap identification), PraxisCoach (performance coaching and feedback), and PraxisIntelligence (analytics and insights for management). The platform serves sales reps, trainers, managers, MSLs, compliance, and marketing teams with personalized, AI-driven scenarios, immediate feedback, and performance tracking. Backed by Techstars. Delivered as a SaaS product; no public developer API surface is published at the time of enrichment.",
-     "score": 14.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.3,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -40848,7 +40848,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -42924,7 +42924,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -43321,7 +43321,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

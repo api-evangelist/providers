@@ -164,7 +164,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
@@ -586,8 +586,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Toss",
@@ -718,6 +718,43 @@
      "rank": 16
     },
     {
+     "name": "PUBLY",
+     "slug": "publy",
+     "description": "PUBLY is a Korean career-development and content membership platform operated by NEWNEEK Co., Ltd. (뉴닉). It offers a subscription-based Career Membership giving working professionals access to curated career content, series, templates and job-transition guides, personalized daily recommendations by career stage, an AI feature (Perdy, beta), and a newsletter. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; PUBLY publishes a consumer web product and does not expose a public developer API, so this profile carries identity and security-posture signal only.",
+     "score": 19.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Pohang University of Science and Technology",
      "slug": "postech",
      "description": "Pohang University of Science and Technology (POSTECH) is a private research university in Pohang, South Korea, founded in 1986 by the steelmaker POSCO and ranked #87 in the QS World University Rankings 2025. POSTECH operates a public English-language website and a range of authenticated institutional systems (PODIUM portal, PLMS learning management, admissions, and certificate services). Its primary confirmed public, machine-readable API surface is the POSTECH Library OASIS institutional repository, a DSpace platform that exposes a live OAI-PMH 2.0 metadata-harvesting endpoint. No general-purpose developer portal or open-data API program was found; most other systems are login-gated.",
@@ -753,7 +790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Seoul National University",
@@ -791,7 +828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Sungkyunkwan University",
@@ -829,7 +866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Simpatico Project",
@@ -873,7 +910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Coupang",
@@ -911,7 +948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Naver",
@@ -956,7 +993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "CLAP",
@@ -994,7 +1031,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
+    },
+    {
+     "name": "Newneek",
+     "slug": "newneek",
+     "description": "Newneek (뉴닉) is a South Korean knowledge and media platform that makes news and current events easy and fun to follow. Founded by Kim So-yeon and operated by Newneek Co., Ltd. from Seoul's Mapo district, the company is best known for its conversational email newsletter delivered by the mascot \"Gosuni,\" alongside a mobile app, a Slack news bot, and active social channels. Newneek is a consumer content brand rather than an API producer: it publishes no public developer portal, API documentation, or machine-readable API surface. It appears in the API Evangelist network as a 500 Global portfolio company, and this profile captures its identity and domain-security posture. Enrichment probes found no OpenAPI, well-known, OAuth, MCP, or webhook surface to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 25
     },
     {
      "name": "Levit",
@@ -1032,45 +1107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
-    },
-    {
-     "name": "Newneek",
-     "slug": "newneek",
-     "description": "Newneek (뉴닉) is a South Korean knowledge and media platform that makes news and current events easy and fun to follow. Founded by Kim So-yeon and operated by Newneek Co., Ltd. from Seoul's Mapo district, the company is best known for its conversational email newsletter delivered by the mascot \"Gosuni,\" alongside a mobile app, a Slack news bot, and active social channels. Newneek is a consumer content brand rather than an API producer: it publishes no public developer portal, API documentation, or machine-readable API surface. It appears in the API Evangelist network as a 500 Global portfolio company, and this profile captures its identity and domain-security posture. Enrichment probes found no OpenAPI, well-known, OAuth, MCP, or webhook surface to harvest.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 25
+     "rank": 26
     }
    ]
   },
@@ -1079,8 +1116,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 38,
-   "shown": 38,
+   "count": 37,
+   "shown": 37,
    "providers": [
     {
      "name": "WE11DONE",
@@ -1117,7 +1154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Sankun",
@@ -1154,7 +1191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "VCNC",
@@ -1191,7 +1228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "KokkanLogis Co.,Ltd.",
@@ -1229,7 +1266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Woowa Brothers",
@@ -1266,7 +1303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "B612",
@@ -1304,7 +1341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Comento",
@@ -1342,7 +1379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Finda",
@@ -1380,50 +1417,13 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "lunchlab Corp.",
      "slug": "lunchlab-corp",
      "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "PUBLY",
-     "slug": "publy",
-     "description": "PUBLY is a Korean career-development and content membership platform operated by NEWNEEK Co., Ltd. (뉴닉). It offers a subscription-based Career Membership giving working professionals access to curated career content, series, templates and job-transition guides, personalized daily recommendations by career stage, an AI feature (Perdy, beta), and a newsletter. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; PUBLY publishes a consumer web product and does not expose a public developer API, so this profile carries identity and security-posture signal only.",
      "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",

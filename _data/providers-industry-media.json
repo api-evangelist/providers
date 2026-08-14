@@ -8,9 +8,47 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "TEGNA",
+     "slug": "tegna",
+     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. Its digital marketing portfolio includes AudienceOne first-party data targeting, OTT/CTV advertising through the Premion platform, and the TEGNA Marketing Solutions full-service agency. TEGNA runs no public developer program and publishes no developer portal: those advertising products are transacted through insertion orders, programmatic deal IDs and agency contracts. The only publicly callable, machine-readable API surfaces TEGNA serves are the WordPress REST content APIs behind its corporate site and premion.com; the Premion advertising platform API at api.premion.com is live but token-gated and undocumented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
+     "score": 47.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 59.7,
+      "governance": 89.6,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 45.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
     {
      "name": "Warner Music Group",
      "slug": "warner-music-group",
@@ -47,7 +85,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Warner Bros. Discovery",
@@ -85,7 +123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
     }
    ],
    "open": true
@@ -95,47 +133,9 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
-    {
-     "name": "TEGNA",
-     "slug": "tegna",
-     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. TEGNA offers digital marketing solutions including AudienceOne first-party data targeting, OTT/CTV advertising through its Premion platform, and the TEGNA Marketing Solutions full-service agency. The company provides advertising APIs and programmatic integrations for digital, broadcast, streaming, and connected TV advertising campaigns.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
-     "score": 39.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 69.9,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 3
-    },
     {
      "name": "Elsevier",
      "slug": "elsevier",
@@ -227,8 +227,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Condé Nast",
@@ -268,6 +268,44 @@
      "rank": 6
     },
     {
+     "name": "Gannett",
+     "slug": "gannett",
+     "description": "Gannett Co., Inc. is a diversified media and digital marketing solutions company and the publisher of USA TODAY and a network of more than 200 local daily newspapers across the United States. It now presents its corporate identity as USA TODAY Co. — www.gannett.com 301-redirects its corporate pages to www.usatodayco.com, and investors.gannett.com resolves to investors.usatodayco.com. Through the USA TODAY Network and LocaliQ, its digital marketing services arm for small and medium-sized businesses, Gannett delivers news, audience and advertising technology. Gannett publishes no developer portal, no API reference and no machine-readable API contract: developer.gannett.com and developer.usatoday.com both redirect to consumer sites, and no OpenAPI, AsyncAPI, GraphQL, MCP or A2A surface is served on any of its hosts. What it does publish machine-readably is a publisher-side control surface — an RFC 9116 security.txt, a Global Privacy Control signal, an llms.txt on localiq.com, and a 958-line robots.txt that denies the major AI crawlers site-wide while re-allowing a commercial subset of shopping, money and sponsor-content paths.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gannett/refs/heads/main/screenshots/gannett-2026-06-20T181644.png",
+     "score": 17.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 5.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
      "name": "TelevisaUnivision (Univision Communications)",
      "slug": "univision-communications",
      "description": "TelevisaUnivision (formerly Univision Communications) is the world's leading Spanish-language media company, operating television networks (Univision, UniMás, TUDN, Galavisión), the ViX streaming platform, Uforia audio platform, and a suite of advanced advertising technology solutions. The company serves advertisers and media partners through programmatic ad platforms, first-party audience data, and content partnerships rather than a public developer API.",
@@ -303,7 +341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -312,8 +350,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 16,
-   "shown": 16,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "AMC Networks",
@@ -351,7 +389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "CBS (Paramount Global)",
@@ -367,44 +405,6 @@
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Gannett",
-     "slug": "gannett",
-     "description": "Gannett Co., Inc. is a diversified media and digital marketing solutions company and the publisher of USA TODAY and a network of more than 200 local daily newspapers across the United States. Through its USA TODAY Network and LocaliQ digital marketing services, Gannett delivers news, information, and digital marketing technology to consumers and small-to-medium-sized businesses. Gannett does not currently publish a publicly accessible developer API portal with open documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gannett/refs/heads/main/screenshots/gannett-2026-06-20T181644.png",
-     "score": 8.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-08-12",

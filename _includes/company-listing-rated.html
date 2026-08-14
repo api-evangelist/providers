@@ -75,12 +75,33 @@
 .rd-pts b { color: #0b6b4f; } .rd-pts.miss b { color: #dc3545; }
 .rd-col-agent-rows .rd-pts b { color: #0a4b8c; }
 
-/* Priority tool: brand button + modal. Bootstrap CSS is loaded here but not its
-   JS, so the dialog is hand-rolled rather than data-bs-toggle. */
-.priority-cta { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600;
-  box-shadow: 0 2px 10px rgba(48,152,216,0.28); }
-.priority-cta .material-symbols-outlined { font-size: 20px; }
-.priority-sub { font-size: 0.82rem; color: #6c757d; margin: -0.4rem 0 1rem; text-align: right; }
+/* Report tools: the two-sided band + modal. Bootstrap CSS is loaded here but not
+   its JS, so the dialog is hand-rolled rather than data-bs-toggle.
+
+   TWO SIDES, EQUAL WEIGHT. A market report has a buy side and a sell side and
+   both of them arrive on this page. One CTA served only the first, so the band
+   below gives each an identical card — same size, same type scale, different
+   colour — rather than a primary button and a secondary link. Whoever you are,
+   one of these two is addressed to you and neither looks like the afterthought. */
+.tool-band { display: grid; grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+  gap: 0.75rem; margin: 0 0 1.25rem; }
+.tool-card { display: flex; flex-direction: column; gap: 0.3rem; text-align: left;
+  border: 0; border-radius: 12px; padding: 0.95rem 1.15rem 1rem; cursor: pointer; color: #fff;
+  background: var(--ae-green, #3098d8); box-shadow: 0 2px 12px rgba(48,152,216,0.26);
+  transition: transform 0.12s ease, box-shadow 0.12s ease; }
+.tool-card-alt { background: var(--ae-dark, #1a1a2e); box-shadow: 0 2px 12px rgba(26,26,46,0.28); }
+.tool-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(48,152,216,0.34); }
+.tool-card-alt:hover { box-shadow: 0 6px 18px rgba(26,26,46,0.36); }
+.tool-card:focus-visible { outline: 3px solid #ffc107; outline-offset: 2px; }
+.tool-side { font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.11em; opacity: 0.82; }
+.tool-label { display: flex; align-items: center; gap: 0.45rem; font-size: 1.12rem;
+  font-weight: 650; line-height: 1.2; }
+.tool-label .material-symbols-outlined { font-size: 21px; }
+.tool-label .go { margin-left: auto; opacity: 0.7; font-weight: 400; }
+.tool-blurb { font-size: 0.85rem; line-height: 1.4; opacity: 0.9; }
+.tool-note { font-size: 0.72rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  opacity: 0.72; margin-top: 0.15rem; }
 .pt-back { position: fixed; inset: 0; background: rgba(33,37,41,0.55); backdrop-filter: blur(3px);
   z-index: 1080; display: none; }
 .pt-back[open-state="1"] { display: block; }
@@ -98,18 +119,27 @@
   height: 32px; border-radius: 8px; cursor: pointer; font-size: 20px; line-height: 1; }
 .pt-bar button:hover { background: rgba(255,255,255,0.28); }
 .pt-dialog iframe { flex: 1 1 auto; width: 100%; border: 0; }
-@media (max-width: 640px) { .pt-dialog { inset: 0; border-radius: 0; }
-  .priority-cta { width: 100%; justify-content: center; } .priority-sub { text-align: left; } }
+@media (max-width: 640px) { .pt-dialog { inset: 0; border-radius: 0; } }
 </style>
-<div class="d-flex align-items-center flex-wrap gap-2 mb-3">
-  <h1 class="mb-0 fs-4">{{ page.title }}</h1>
-  {%- if page.priority_tool %}
-  <button type="button" class="btn btn-success btn-lg ms-auto priority-cta" id="priority-open">
-    <span class="material-symbols-outlined" aria-hidden="true">tune</span>
-    <span>{{ page.priority_tool.label | default: "Pick your priorities" }}</span>
+<h1 class="mb-3 fs-4">{{ page.title }}</h1>
+
+{%- if page.tools %}
+<div class="tool-band">
+  {%- for t in page.tools %}
+  <button type="button" class="tool-card{% if forloop.index0 == 1 %} tool-card-alt{% endif %}"
+          data-tool="{{ forloop.index0 }}">
+    <span class="tool-side">{{ t.side }}</span>
+    <span class="tool-label">
+      <span class="material-symbols-outlined" aria-hidden="true">{{ t.icon | default: "tune" }}</span>
+      <span>{{ t.label }}</span>
+      <span class="go" aria-hidden="true">&rsaquo;</span>
+    </span>
+    {%- if t.blurb %}<span class="tool-blurb">{{ t.blurb }}</span>{% endif %}
+    {%- if t.note %}<span class="tool-note">{{ t.note }}</span>{% endif %}
   </button>
-  {%- endif %}
+  {%- endfor %}
 </div>
+{%- endif %}
 
 {% assign listing = site.data[page.data_key] %}
 {% assign rubric = site.data.scoring %}
@@ -118,45 +148,54 @@
 <p class="text-muted mb-4">Grouped by <a href="https://apievangelist.com/rating/">Kin Score</a> band and ranked by composite score within each, with the separate agent-readiness score alongside. Click the scores on any row to open the full facet and dimension breakdown behind both numbers, and click again to close it.</p>
 
 
-{%- if page.priority_tool %}
-<div class="pt-back" id="priority-back" open-state="0"></div>
-<div class="pt-dialog" id="priority-dialog" open-state="0" role="dialog" aria-modal="true"
-     aria-label="{{ page.priority_tool.label | default: 'Pick your priorities' }}">
+{%- if page.tools %}
+<div class="pt-back" id="pt-back" open-state="0"></div>
+{%- for t in page.tools %}
+<div class="pt-dialog" id="pt-dialog-{{ forloop.index0 }}" open-state="0" role="dialog"
+     aria-modal="true" aria-label="{{ t.label }}">
   <div class="pt-bar">
-    <b>{{ page.priority_tool.label | default: "Pick your priorities" }}</b>
-    <span class="sep d-none d-sm-inline">{{ page.priority_tool.note }}</span>
+    <b>{{ t.label }}</b>
+    <span class="sep d-none d-sm-inline">{{ t.note }}</span>
     <span class="grow"></span>
-    {%- if page.priority_tool.report %}
-    <a href="{{ page.priority_tool.report }}" target="_blank" rel="noopener">Read the full report</a>
+    {%- if t.report %}
+    <a href="{{ t.report }}" target="_blank" rel="noopener">Read the full report</a>
     {%- endif %}
-    <button type="button" id="priority-close" aria-label="Close">&times;</button>
+    <button type="button" class="pt-close" data-close="{{ forloop.index0 }}" aria-label="Close">&times;</button>
   </div>
-  <iframe id="priority-frame" title="{{ page.priority_tool.label | default: 'Pick your priorities' }}"
-          data-src="{{ page.priority_tool.url }}" loading="lazy"></iframe>
+  <iframe id="pt-frame-{{ forloop.index0 }}" title="{{ t.label }}"
+          data-src="{{ t.url }}" loading="lazy"></iframe>
 </div>
+{%- endfor %}
 <script>
 (function () {
-  var open = document.getElementById('priority-open'),
-      back = document.getElementById('priority-back'),
-      dlg  = document.getElementById('priority-dialog'),
-      shut = document.getElementById('priority-close'),
-      frame= document.getElementById('priority-frame'), last = null;
-  function show() {
+  var back = document.getElementById('pt-back'), last = null, openIdx = null;
+  function show(i) {
+    var dlg = document.getElementById('pt-dialog-' + i),
+        frame = document.getElementById('pt-frame-' + i);
+    if (!dlg) return;
     // Load on first open so the page weight is not paid by everyone.
     if (!frame.src) frame.src = frame.dataset.src;
-    last = document.activeElement;
+    last = document.activeElement; openIdx = i;
     back.setAttribute('open-state', '1'); dlg.setAttribute('open-state', '1');
-    document.body.style.overflow = 'hidden'; shut.focus();
+    document.body.style.overflow = 'hidden';
+    dlg.querySelector('.pt-close').focus();
   }
   function hide() {
-    back.setAttribute('open-state', '0'); dlg.setAttribute('open-state', '0');
+    document.querySelectorAll('.pt-dialog').forEach(function (d) {
+      d.setAttribute('open-state', '0');
+    });
+    back.setAttribute('open-state', '0'); openIdx = null;
     document.body.style.overflow = ''; if (last) last.focus();
   }
-  open.addEventListener('click', show);
-  shut.addEventListener('click', hide);
+  document.querySelectorAll('[data-tool]').forEach(function (b) {
+    b.addEventListener('click', function () { show(b.dataset.tool); });
+  });
+  document.querySelectorAll('.pt-close').forEach(function (b) {
+    b.addEventListener('click', hide);
+  });
   back.addEventListener('click', hide);
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && dlg.getAttribute('open-state') === '1') hide();
+    if (e.key === 'Escape' && openIdx !== null) hide();
   });
 })();
 </script>

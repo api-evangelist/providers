@@ -471,8 +471,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 10,
-   "shown": 10,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "Factset",
@@ -567,6 +567,52 @@
      "rank": 12
     },
     {
+     "name": "Dow Jones",
+     "slug": "dow-jones",
+     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
+     "score": 64.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 63.8,
+      "governance": 11.5,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 86.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Enterprise Platform",
+     "rank": 13
+    },
+    {
      "name": "Market Data",
      "slug": "marketdata-app",
      "description": "Market Data (marketdata.app) is a financial market data provider offering a REST API for real-time and historical U.S. stock, options, and index data. The API (base https://api.marketdata.app/v1, Bearer-token authenticated) covers stock candles and quotes - single and bulk - plus earnings and news; full options chains with per-contract quotes, expirations, strikes, and OCC symbol lookup; index candles and quotes; and market open/closed status. Responses are JSON or CSV and are billed on a daily API-credit model, where multi-symbol responses (bulk quotes, options chains) consume one credit per symbol. A 30-day trial, a Free Forever tier, and paid Starter, Trader, and Prime plans are available. Note that the API may return HTTP 203 from its caching tier and clients must treat it as success.",
@@ -610,7 +656,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Amberdata",
@@ -656,7 +702,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto Market Data",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "ThetaData",
@@ -702,7 +748,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Intrinio",
@@ -748,7 +794,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Alpha Vantage",
@@ -794,7 +840,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Barchart",
@@ -839,7 +885,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Moody's",
@@ -885,7 +931,7 @@
       "dry_run_mode": false
      },
      "tier": "Enterprise Platform",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Kaiko",
@@ -931,7 +977,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto Market Data",
-     "rank": 20
+     "rank": 21
     }
    ],
    "open": true
@@ -941,8 +987,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 22,
-   "shown": 22,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Tiingo",
@@ -988,7 +1034,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "DTN",
@@ -1034,7 +1080,7 @@
       "dry_run_mode": false
      },
      "tier": "Feed & Infrastructure",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Marketstack",
@@ -1080,7 +1126,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Finage",
@@ -1126,7 +1172,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Coin Metrics",
@@ -1172,7 +1218,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto Market Data",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Morningstar",
@@ -1213,52 +1259,6 @@
       "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 26
-    },
-    {
-     "name": "Dow Jones",
-     "slug": "dow-jones",
-     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.8,
-      "governance": 11.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

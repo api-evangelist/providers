@@ -8,9 +8,47 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "LINE",
+     "slug": "line",
+     "description": "LINE is a Japan-based messaging platform operated by LY Corporation, with over 200 million monthly active users across Japan, Taiwan, Thailand and Indonesia, offering messaging, payments, news and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots and Official Accounts (Messaging API), issuing and rotating credentials (Channel Access Token API), reading delivery and audience analytics (Insight API), building marketing audiences (Manage Audience API), running web apps inside the LINE client (LIFF), and social login via LINE Login v2.1 over OAuth 2.0 and OpenID Connect. LINE publishes nine first-party OpenAPI documents covering 111 operations at github.com/line/line-openapi and generates all six official server SDKs from them. Server API calls authenticate with a channel access token presented as an HTTP Bearer credential and scoped to a single LINE channel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png",
+     "score": 74.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 61.3,
+      "governance": 47.9,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 67.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
     {
      "name": "PAY.JP",
      "slug": "payjp",
@@ -54,7 +92,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -110,7 +148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
     }
    ],
    "open": true
@@ -166,7 +204,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "JPX (Japan Exchange Group)",
@@ -211,7 +249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Logiless",
@@ -249,7 +287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Paidy",
@@ -294,7 +332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "PayPay",
@@ -339,7 +377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -352,42 +390,42 @@
    "shown": 14,
    "providers": [
     {
-     "name": "LINE",
-     "slug": "line",
-     "description": "LINE is a Japan-based messaging platform with over 200 million monthly active users across Japan, Taiwan, Thailand, and Indonesia, offering messaging, payments, news, and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots, mini-apps, social login, and audience marketing, all documented as OpenAPI specifications. APIs use Bearer token authentication with channel access tokens issued per LINE channel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png",
-     "score": 41.3,
+     "name": "Magic Moment",
+     "slug": "magic-moment",
+     "description": "Magic Moment is a Tokyo-based AI sales-automation company whose Magic Moment Playbook platform captures real business facts from deals, calls, email, and meetings and writes them back into Salesforce, HubSpot, and other CRMs as structured sales data. Products include Magic Moment Playbook (AI auto-recording SFA/CRM), Playbook Capture, MM Claw, the Revenue Platform performance-based demand service, and the Magic Moment X managed AI department. The company publishes a Playbook API for developers and partners (announced 2024-04-03, documented at developer.magicmoment.co.jp behind the product login) and serves five anonymous Swagger 2.0 contracts for its Playbook integration services on its production hosts — Salesforce, HubSpot, Office suite (Google Workspace / Microsoft 365), call integration (MiiTel, Zoom Phone), and the reporting/aggregation service. The company is ISO/IEC 27001:2022 certified and publishes an llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png",
+     "score": 41.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.3,
-      "governance": 27.1,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 37.0,
-      "commercial_clarity": 23.7
+      "contract_quality": 41.6,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 39.6,
+     "agent_score": 45.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
+      "agentic_access": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "SmartHR",
@@ -424,7 +462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Kyoto University",
@@ -469,7 +507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "freee",
@@ -507,7 +545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "KOMOJU",
@@ -552,7 +590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Rakuten",
@@ -597,7 +635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "TableCheck",
@@ -634,7 +672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "LegalOn",
@@ -672,7 +710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "J-Quants",
@@ -710,7 +748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Woodstock",
@@ -754,7 +792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "JAXA",
@@ -799,7 +837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Kyushu University",
@@ -837,7 +875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "NTT Docomo",
@@ -882,7 +920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "MakeLeaps",
@@ -927,7 +965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     }
    ]
   },
@@ -936,8 +974,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 25,
-   "shown": 25,
+   "count": 24,
+   "shown": 24,
    "providers": [
     {
      "name": "Kyash",
@@ -982,7 +1020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Keio University",
@@ -1020,7 +1058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Nagoya University",
@@ -1058,7 +1096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Waseda University",
@@ -1096,7 +1134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -1134,7 +1172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "University of Tokyo",
@@ -1179,7 +1217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "ANDPAD",
@@ -1217,7 +1255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Tohoku University",
@@ -1255,7 +1293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Hokkaido University",
@@ -1293,7 +1331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Trustdock",
@@ -1330,7 +1368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Ulysses (Kaminashi)",
@@ -1367,7 +1405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Graffer",
@@ -1412,7 +1450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Leaner Technologies",
@@ -1450,7 +1488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "BODIK ODCS",
@@ -1495,7 +1533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "DATA GO JP",
@@ -1540,7 +1578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "e-Gov Data Catalog",
@@ -1585,7 +1623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Gifu Prefecture Open Data",
@@ -1630,7 +1668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Tokyo Metropolitan Open Data",
@@ -1675,7 +1713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Yokohama City Open Data",
@@ -1720,7 +1758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "NTT",
@@ -1765,7 +1803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Souco",
@@ -1781,44 +1819,6 @@
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Magic Moment",
-     "slug": "magic-moment",
-     "description": "Magic Moment is a Tokyo-based AI sales-automation company whose platform captures real business facts from deals, emails, and calls and turns them into actionable insight for sales forecasting and execution. Its flagship products — Magic Moment Playbook and Playbook Capture — layer AI over existing CRM systems (Salesforce, HubSpot) through no-code bidirectional sync, plus a Revenue Platform performance model and the Magic Moment X managed service. The company is ISO/IEC 27001:2022 certified. It does not currently publish a public developer API, developer portal, or OpenAPI specification; CRM integration is delivered as no-code sync rather than a documented API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 26.3
      },
      "scored_at": "2026-08-12",
      "schema_version": "0.11.0",
@@ -2168,7 +2168,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3308,7 +3308,7 @@
     {
      "name": "HiCustomer",
      "slug": "hicustomer",
-     "description": "HiCustomer (ハイカスタマー) was a Japanese Customer Success Management (CSM) SaaS built specifically for SaaS companies. Its platform aggregated customer data scattered across BI tools, CRMs, and chat tools to visualize product usage, communication history, revenue, and contract information in one place. Teams used configurable health-score rules to monitor account health across the customer lifecycle, and custom alerts to surface churn and upsell signals at the right moment, with time-series analysis to make customer-success outreach repeatable. The company also offered customer-success consulting. As of this enrichment pass the hicustomer.jp domain no longer resolves to a live site (its authoritative AWS Route 53 zone is empty) and the product appears discontinued; the last archived homepage (Oct 2024) shows only a minimal \"About the company\" page. No public developer API, documentation, SDK, or developer portal was ever published.",
+     "description": "HiCustomer (ハイカスタマー) was a Japanese Customer Success Management (CSM) SaaS built specifically for SaaS companies. Its platform aggregated customer data scattered across BI tools, CRMs, and chat tools to visualize product usage, communication history, revenue, and contract information in one place. Teams used configurable health-score rules to monitor account health across the customer lifecycle, and custom alerts to surface churn and upsell signals at the right moment, with time-series analysis to make customer-success outreach repeatable. The company also offered customer-success consulting, and later pivoted to a digital sales room product, \"Arch by HiCustomer\". On 2024-09-13 HiCustomer Inc. sold the Arch business to the Tokyo-listed adtech company Geniee, Inc. (TSE 6562), which absorbed it into GENIEE SFA/CRM and rebranded it Geniee DSR. As of this enrichment pass the hicustomer.jp domain no longer resolves to a live site (its authoritative AWS Route 53 zone is delegated but empty) and the product is discontinued; the last archived homepage (Oct 2024) is a STUDIO-built single-page \"About the company\" placeholder. No public developer API, documentation, SDK, or developer portal was ever published — the Wayback record for hicustomer.jp contains no /api, /docs, /developers, /pricing or /status path at any point in its history.",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3320,7 +3320,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,

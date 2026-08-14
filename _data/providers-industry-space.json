@@ -158,7 +158,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -4253,7 +4253,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-13",
      "schema_version": "0.11.0",
      "agent_score": 55.4,
      "agent_band": "agent-ready",

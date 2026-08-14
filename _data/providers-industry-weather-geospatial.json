@@ -1,6 +1,6 @@
 {
- "total": 493,
- "shown": 493,
+ "total": 495,
+ "shown": 495,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,92 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 7,
-   "shown": 7,
+   "count": 11,
+   "shown": 11,
    "providers": [
+    {
+     "name": "OpenMercantil",
+     "slug": "openmercantil",
+     "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 80+ official public sources (BOE, CNMV, CNMC, AEAT, AEPD, PLACSP, TED EU, BDNS, OEPM, EPO, WIPO, CENDOJ, GLEIF, OpenSanctions, ICIJ and more) to expose company and person search, structured company reports, BORME registry event timelines, documentary officer mentions, CNAE sector navigation and ratios, daily BORME summaries, public-procurement notices and rankings, documentary risk signals, a corporate relationship graph, a Spanish mercantile-law corpus that bridges registry acts to the governing BOE norm, account-plane datasets and HMAC-signed outbound webhooks, and CSV/JSON bulk exports. The live OpenAPI 3.1 contract (v1.9.3) declares 118 paths and 139 operations. The public read plane is free and anonymous with no API key, rate-limited at 60 req/min and 200 req/day per IP, with paid Profesional, MAX and Enterprise tiers raising the quota. Derived data is CC BY 4.0 and every response carries its own source and attribution metadata. The project is informational and does not replace official Registro Mercantil certificates.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
+     "score": 82.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 78.0,
+      "governance": 89.6,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 85.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Serper",
+     "slug": "serper",
+     "description": "Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in AI agents, LLM pipelines, and SEO tooling, Serper uses a credit-based model with 2,500 free queries and volume pricing down to $0.30 per 1,000 requests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png",
+     "score": 74.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 71.7,
+      "governance": 79.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 55.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    },
     {
      "name": "Bentley Systems",
      "slug": "bentley-systems",
@@ -47,7 +130,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 3
+    },
+    {
+     "name": "Zenserp",
+     "slug": "zenserp",
+     "description": "Zenserp is a Google SERP API that enables developers to fetch live, structured search engine results in real time without interruption. The API supports web, image, video, news, shopping, maps, YouTube, Bing, Yandex, DuckDuckGo, reverse image, and trends search types across 200+ countries, returning clean JSON responses. It offers geolocation-based queries, batch endpoints, keyword search volume and CPC data, and a bulk index checker tool, with a 99.9% uptime SLA.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png",
+     "score": 72.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 76.9,
+      "governance": 79.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 50.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
     },
     {
      "name": "Tomorrow.io",
@@ -85,7 +206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 5
     },
     {
      "name": "OpenWeatherMap",
@@ -123,7 +244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 6
     },
     {
      "name": "Onfleet",
@@ -161,7 +282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 7
     },
     {
      "name": "APIFreaks - API Hub for Developers",
@@ -198,7 +319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 8
     },
     {
      "name": "positionstack",
@@ -236,7 +357,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 9
+    },
+    {
+     "name": "Badger Maps",
+     "slug": "badger-maps",
+     "description": "Badger Maps is field sales route planning, mapping, and CRM software for outside sales and field teams - it optimizes daily driving routes, maps and filters accounts on a territory, captures check-ins, and reports on rep activity. Badger Maps also exposes a token-authenticated REST API (base https://badgerapis.badgermapping.com/api/2) that lets teams programmatically manage accounts (customers), account locations, routes, check-ins, and users, and sync data with CRMs and other systems. API/Developer Key access is included with paid plans (max 25k requests per day, per team); the key must be enabled by contacting Badger Maps support.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png",
+     "score": 67.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 70.1,
+      "governance": 20.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
     },
     {
      "name": "Ordnance Survey",
@@ -281,7 +440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 11
     }
    ],
    "open": true
@@ -291,8 +450,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 13,
-   "shown": 13,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Yelp",
@@ -330,7 +489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 12
     },
     {
      "name": "WeatherAPI",
@@ -368,7 +527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 13
     },
     {
      "name": "DroneDeploy",
@@ -406,7 +565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 14
     },
     {
      "name": "OpenUV",
@@ -444,7 +603,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 15
+    },
+    {
+     "name": "SPOTIO",
+     "slug": "spotio",
+     "description": "SPOTIO is a field sales engagement and territory management platform for outside sales teams - lead and prospect tracking, activity logging, territory mapping and assignment, route optimization, appointment setting, and pipeline visibility, delivered through a mobile-first field app and a web console. Behind that product is a substantial and genuinely public API: SPOTIO 2.0 is an OpenAPI 3.0.1 contract of 238 paths and 295 operations across 39 capabilities, published from SPOTIO's own Stoplight project at developer.spotio2.com and exportable without authentication. Authentication is a bearer JWT minted from a clientId/secret pair; collections page on a scrollId cursor; and SPOTIO's data model is polymorphic - there is no fixed Lead entity, only a tenant-defined DataObject whose types, stages and fields are read from a Workflow before anything can be written. SPOTIO also operates a first-party remote MCP server at app.spotio2.com/mcp, authenticated with a SPOTIO-MCP-KEY that the API itself mints, plus a signed outbound webhook system covering ten lead, activity and appointment events. It publishes no SDK in any language, no idempotency contract, no rate limits and no security.txt.",
+     "score": 62.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 59.6,
+      "governance": 20.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 68.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
     },
     {
      "name": "Maxar Technologies",
@@ -482,7 +678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 17
     },
     {
      "name": "Google Maps Platform",
@@ -520,7 +716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 18
     },
     {
      "name": "Wherobots",
@@ -557,7 +753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 19
     },
     {
      "name": "Amazon Location Service",
@@ -595,7 +791,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 20
     },
     {
      "name": "VesselFinder",
@@ -633,7 +829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 21
     },
     {
      "name": "IPGeolocation.io",
@@ -671,7 +867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 22
     },
     {
      "name": "Smarty",
@@ -709,7 +905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 23
     },
     {
      "name": "Solcast",
@@ -754,7 +950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 24
     },
     {
      "name": "Terabase Energy",
@@ -798,7 +994,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 25
     }
    ],
    "open": true
@@ -808,8 +1004,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 91,
-   "shown": 91,
+   "count": 90,
+   "shown": 90,
    "providers": [
     {
      "name": "DTN",
@@ -854,7 +1050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 26
     },
     {
      "name": "Umbra",
@@ -891,7 +1087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 27
     },
     {
      "name": "ShipFinder AIS Data API",
@@ -928,7 +1124,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 28
+    },
+    {
+     "name": "VOYGR",
+     "slug": "voygr",
+     "description": "VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures across multiple attributes with up to 99.62% validation precision and configurable decision thresholds. Its Location Data Enrichment populates and continuously enriches place records from web, social, authoritative, and other sources, spanning foundational attributes (address, contacts, web presence), operating data (hours, menus, prices), and fresh context (articles, reviews, news, events). Two APIs are public and self-serve. The Voygr Calls API (api.voygr.tech) places real outbound phone calls with an AI voice agent — submit a task, the agent dials, conducts the conversation, and returns a structured outcome with a full transcript — which is how VOYGR reaches the businesses that have a phone but no API. The Voygr Business Validation API (dev.voygr.tech) returns existence and open/closed status for a business name and address. Both authenticate with an X-API-Key header, share one prepaid credit balance, and issue keys self-serve by email. VOYGR is a Y Combinator (Winter 2026) and SNR.VC backed seed-stage company based in San Francisco, founded by Vlad Baskakov (CEO, ex-Google Maps) and Yarik Markov (CTO, ex-Google/Meta/Apple ML). Its maps API goes beyond the 10-15 standard attributes of existing mapping providers. The location-data products themselves remain demo-gated on voygr.tech, but the calling and validation APIs are documented, priced, and reachable without a sales conversation.",
+     "score": 55.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.5,
+      "governance": 20.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 37.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
     },
     {
      "name": "OpenStreetMap",
@@ -973,7 +1206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 30
     },
     {
      "name": "Felt",
@@ -1011,7 +1244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 31
     },
     {
      "name": "Google Earth Engine REST",
@@ -1049,7 +1282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 32
     },
     {
      "name": "HM Land Registry",
@@ -1094,7 +1327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 33
     },
     {
      "name": "Atmospore Pollen Forecasts",
@@ -1138,7 +1371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 34
     },
     {
      "name": "TELUS",
@@ -1182,7 +1415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 35
     },
     {
      "name": "Stormglass",
@@ -1220,7 +1453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 36
     },
     {
      "name": "Landmark Information Group",
@@ -1258,45 +1491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
-    },
-    {
-     "name": "Zenserp",
-     "slug": "zenserp",
-     "description": "Zenserp is a Google SERP API that enables developers to fetch live, structured search engine results in real time without interruption. The API supports web, image, video, news, shopping, maps, YouTube, Bing, Yandex, DuckDuckGo, reverse image, and trends search types across 200+ countries, returning clean JSON responses. It offers geolocation-based queries, batch endpoints, keyword search volume and CPC data, and a bulk index checker tool, with a 99.9% uptime SLA.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png",
-     "score": 52.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.4,
-      "governance": 58.3,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 32
+     "rank": 37
     },
     {
      "name": "Regrid",
@@ -1334,7 +1529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 38
     },
     {
      "name": "MapTiler",
@@ -1372,7 +1567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 39
     },
     {
      "name": "Rainbow.AI",
@@ -1410,7 +1605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 40
     },
     {
      "name": "TimezoneDB",
@@ -1448,7 +1643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 41
     },
     {
      "name": "REST Countries",
@@ -1486,7 +1681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 42
     },
     {
      "name": "OpenRouteService",
@@ -1524,7 +1719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 43
     },
     {
      "name": "Skymerse",
@@ -1561,52 +1756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
-    },
-    {
-     "name": "OpenMercantil",
-     "slug": "openmercantil",
-     "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 51.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 64.9,
-      "governance": 68.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 40
+     "rank": 44
     },
     {
      "name": "Meteomatics",
@@ -1644,7 +1794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 45
     },
     {
      "name": "Sofar Ocean",
@@ -1681,45 +1831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
-    },
-    {
-     "name": "Serper",
-     "slug": "serper",
-     "description": "Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in AI agents, LLM pipelines, and SEO tooling, Serper uses a credit-based model with 2,500 free queries and volume pricing down to $0.30 per 1,000 requests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png",
-     "score": 51.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.4,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 43
+     "rank": 46
     },
     {
      "name": "Ocient",
@@ -1757,7 +1869,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 47
     },
     {
      "name": "ATTOM",
@@ -1801,7 +1913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 48
     },
     {
      "name": "NASA FIRMS",
@@ -1846,7 +1958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 49
     },
     {
      "name": "Stadia Maps",
@@ -1884,7 +1996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 50
     },
     {
      "name": "Placer",
@@ -1921,7 +2033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "Estated",
@@ -1959,7 +2071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "Foursquare",
@@ -1997,7 +2109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Azure Maps",
@@ -2035,7 +2147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "Dark Sky",
@@ -2073,7 +2185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "INRIX",
@@ -2111,7 +2223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Land Insight",
@@ -2149,7 +2261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Carto",
@@ -2187,7 +2299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "Mireye",
@@ -2232,7 +2344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Hivemapper",
@@ -2270,7 +2382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Weather Underground",
@@ -2308,7 +2420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Aloft",
@@ -2346,7 +2458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Tomorrow.io",
@@ -2384,7 +2496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "SpotHero",
@@ -2422,7 +2534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "TomTom",
@@ -2460,7 +2572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Xweather",
@@ -2498,7 +2610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "Sentinel Hub",
@@ -2536,7 +2648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "AccuWeather",
@@ -2574,7 +2686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "Open-Meteo",
@@ -2612,7 +2724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "MileIQ",
@@ -2650,7 +2762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "NASA CMR",
@@ -2695,7 +2807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Landgate",
@@ -2740,7 +2852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "US Census Bureau",
@@ -2785,7 +2897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Nominatim",
@@ -2823,7 +2935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "OpenTripMap",
@@ -2861,7 +2973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "Yr",
@@ -2906,7 +3018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "MarineTraffic",
@@ -2944,7 +3056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Library of Congress",
@@ -2989,7 +3101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Arccos Golf",
@@ -3027,7 +3139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "IQAir AirVisual",
@@ -3065,7 +3177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "Capella Space",
@@ -3103,7 +3215,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 81
+    },
+    {
+     "name": "Paedae",
+     "slug": "paedae",
+     "description": "Paedae is the company behind the Gimbal proximity and location platform (a 500 Global portfolio company; paedae.com now redirects to gimbal.com, operated under Infillion). Gimbal provides beacons, geofencing, and a proximity SDK for iOS and Android, plus a Gimbal Manager REST API to manage applications, places, beacons, beacon configurations, and location-triggered communications. Beacon sighting events (Arrived/Departed/Sighted) are delivered via HTTP callbacks. This profile was enriched from the live Gimbal developer surface at docs.gimbal.com and manager.gimbal.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png",
+     "score": 45.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 63.6,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 40.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 37.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 82
     },
     {
      "name": "Google Places",
@@ -3141,7 +3291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 83
     },
     {
      "name": "HOVER",
@@ -3186,7 +3336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 84
     },
     {
      "name": "NSW Land Registry Services",
@@ -3231,7 +3381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 85
     },
     {
      "name": "USDA",
@@ -3276,7 +3426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 86
     },
     {
      "name": "Trimble",
@@ -3314,7 +3464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 87
     },
     {
      "name": "Weatherbit",
@@ -3352,7 +3502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 88
     },
     {
      "name": "Fulcrum",
@@ -3390,7 +3540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 89
     },
     {
      "name": "Walk Score",
@@ -3428,7 +3578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 90
     },
     {
      "name": "DLR",
@@ -3473,7 +3623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 91
     },
     {
      "name": "World Air Quality Index (WAQI)",
@@ -3518,7 +3668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 92
     },
     {
      "name": "Precisely APIs",
@@ -3556,7 +3706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 93
     },
     {
      "name": "Base Operations",
@@ -3594,7 +3744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 94
     },
     {
      "name": "Estimote",
@@ -3632,7 +3782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 95
     },
     {
      "name": "GenLogs",
@@ -3677,7 +3827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 96
     },
     {
      "name": "Geofabrik",
@@ -3715,7 +3865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 97
     },
     {
      "name": "Moody's RMS",
@@ -3760,7 +3910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 98
     },
     {
      "name": "Open Charge Map",
@@ -3805,7 +3955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "Sunrise Sunset",
@@ -3843,7 +3993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "ClimateAI",
@@ -3881,7 +4031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Picogrid",
@@ -3918,7 +4068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "SK Telecom",
@@ -3962,7 +4112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 103
     },
     {
      "name": "AgStack Foundation",
@@ -4000,7 +4150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 104
     },
     {
      "name": "Mapbox",
@@ -4038,7 +4188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 105
     },
     {
      "name": "NOAA",
@@ -4083,7 +4233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
@@ -4127,7 +4277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "ParkWhiz",
@@ -4165,7 +4315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "PostalCodes.info",
@@ -4210,7 +4360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 109
     },
     {
      "name": "Valhalla",
@@ -4247,7 +4397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 110
     },
     {
      "name": "Hydrosat",
@@ -4285,7 +4435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "Redfin",
@@ -4322,7 +4472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 112
     },
     {
      "name": "The Climate Corporation",
@@ -4359,7 +4509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 113
     },
     {
      "name": "Airbus",
@@ -4397,7 +4547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 114
     },
     {
      "name": "Pixxel",
@@ -4434,7 +4584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 115
     }
    ]
   },
@@ -4443,8 +4593,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 90,
-   "shown": 90,
+   "count": 88,
+   "shown": 88,
    "providers": [
     {
      "name": "Department of Interior",
@@ -4489,7 +4639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 116
     },
     {
      "name": "Weather.gov",
@@ -4534,7 +4684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 117
     },
     {
      "name": "Agromonitoring",
@@ -4572,7 +4722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 118
     },
     {
      "name": "Kinetica",
@@ -4610,7 +4760,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 119
     },
     {
      "name": "Planet",
@@ -4647,7 +4797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 120
     },
     {
      "name": "Propeller Aero",
@@ -4684,7 +4834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 121
     },
     {
      "name": "Sinay",
@@ -4721,7 +4871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 122
     },
     {
      "name": "Air Quality Programmatic APIs",
@@ -4766,7 +4916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 123
     },
     {
      "name": "RealEstateAPI",
@@ -4804,7 +4954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 124
     },
     {
      "name": "Rentberry",
@@ -4848,7 +4998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 125
     },
     {
      "name": "OpenWeather",
@@ -4886,7 +5036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 126
     },
     {
      "name": "PostGrid",
@@ -4924,7 +5074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 127
     },
     {
      "name": "CARTO",
@@ -4962,7 +5112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 128
     },
     {
      "name": "ColorfulClouds",
@@ -5000,7 +5150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 129
     },
     {
      "name": "Geocodio",
@@ -5038,7 +5188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 130
     },
     {
      "name": "Danish Meteorological Institutes",
@@ -5083,7 +5233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 131
     },
     {
      "name": "Telenav",
@@ -5127,7 +5277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 132
     },
     {
      "name": "ISS Location API (Open Notify)",
@@ -5165,7 +5315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 133
     },
     {
      "name": "AISStream",
@@ -5203,7 +5353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 134
     },
     {
      "name": "Sensibo",
@@ -5240,45 +5390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
-    },
-    {
-     "name": "Badger Maps",
-     "slug": "badger-maps",
-     "description": "Badger Maps is field sales route planning, mapping, and CRM software for outside sales and field teams - it optimizes daily driving routes, maps and filters accounts on a territory, captures check-ins, and reports on rep activity. Badger Maps also exposes a token-authenticated REST API (base https://badgerapis.badgermapping.com/api/2) that lets teams programmatically manage accounts (customers), account locations, routes, check-ins, and users, and sync data with CRMs and other systems. API/Developer Key access is included with paid plans (max 25k requests per day, per team); the key must be enabled by contacting Badger Maps support.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png",
-     "score": 39.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 61.2,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 132
+     "rank": 135
     },
     {
      "name": "Reelables",
@@ -5316,7 +5428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 136
     },
     {
      "name": "Pelias",
@@ -5354,7 +5466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 137
     },
     {
      "name": "Aviation Weather Center",
@@ -5399,7 +5511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 138
     },
     {
      "name": "Placekey",
@@ -5436,7 +5548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 139
     },
     {
      "name": "Jawg Maps",
@@ -5474,7 +5586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 140
     },
     {
      "name": "UP42",
@@ -5511,7 +5623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 141
     },
     {
      "name": "Bitfinder",
@@ -5556,7 +5668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 142
     },
     {
      "name": "Agricultural Statistics Service",
@@ -5601,7 +5713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 143
     },
     {
      "name": "Western Power",
@@ -5645,7 +5757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 144
     },
     {
      "name": "NOAA CO-OPS",
@@ -5690,7 +5802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 145
     },
     {
      "name": "Urban Sky",
@@ -5727,7 +5839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 146
     },
     {
      "name": "Orange",
@@ -5772,7 +5884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 147
     },
     {
      "name": "Searoutes",
@@ -5809,7 +5921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 148
     },
     {
      "name": "Revolutio",
@@ -5847,7 +5959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 149
     },
     {
      "name": "MyShipTracking",
@@ -5885,7 +5997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 150
     },
     {
      "name": "Windy",
@@ -5922,7 +6034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 151
     },
     {
      "name": "FlightAware",
@@ -5959,7 +6071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 152
     },
     {
      "name": "Trimble Navigation",
@@ -5997,7 +6109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 153
     },
     {
      "name": "HERE",
@@ -6035,7 +6147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 154
     },
     {
      "name": "Planet Labs",
@@ -6073,7 +6185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 155
     },
     {
      "name": "Maxar",
@@ -6111,7 +6223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 156
     },
     {
      "name": "Point One Navigation",
@@ -6148,7 +6260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 157
     },
     {
      "name": "SkyWatch",
@@ -6185,7 +6297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 158
     },
     {
      "name": "Cintoo",
@@ -6223,7 +6335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 159
     },
     {
      "name": "Arlula",
@@ -6261,7 +6373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 160
     },
     {
      "name": "Department of the Interior",
@@ -6306,7 +6418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 161
     },
     {
      "name": "Geocode Earth",
@@ -6351,7 +6463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 162
     },
     {
      "name": "ESRI ArcGIS",
@@ -6389,7 +6501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 163
     },
     {
      "name": "Radar",
@@ -6426,7 +6538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 164
     },
     {
      "name": "Ambee",
@@ -6464,7 +6576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 165
     },
     {
      "name": "Maia-analytics",
@@ -6502,7 +6614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 166
     },
     {
      "name": "MapQuest",
@@ -6540,45 +6652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
-    },
-    {
-     "name": "Paedae",
-     "slug": "paedae",
-     "description": "Paedae is the company behind the Gimbal proximity and location platform (a 500 Global portfolio company; paedae.com now redirects to gimbal.com, operated under Infillion). Gimbal provides beacons, geofencing, and a proximity SDK for iOS and Android, plus a Gimbal Manager REST API to manage applications, places, beacons, beacon configurations, and location-triggered communications. Beacon sighting events (Arrived/Departed/Sighted) are delivered via HTTP callbacks. This profile was enriched from the live Gimbal developer surface at docs.gimbal.com and manager.gimbal.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png",
-     "score": 36.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 63.6,
-      "governance": 3.1,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 34.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 165
+     "rank": 167
     },
     {
      "name": "World Meteorological Organization",
@@ -6623,7 +6697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 168
     },
     {
      "name": "Alphageo",
@@ -6661,7 +6735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 169
     },
     {
      "name": "University of North Carolina at Chapel Hill",
@@ -6706,7 +6780,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 168
+     "rank": 170
     },
     {
      "name": "Ola",
@@ -6743,7 +6817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 171
     },
     {
      "name": "Protomaps",
@@ -6781,7 +6855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 172
     },
     {
      "name": "EPCOR",
@@ -6826,7 +6900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 173
     },
     {
      "name": "ICEYE",
@@ -6864,7 +6938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 174
     },
     {
      "name": "Geoapify",
@@ -6902,7 +6976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 175
     },
     {
      "name": "The National Aeronautics and Space Administration",
@@ -6947,7 +7021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 176
     },
     {
      "name": "European Space Agency (ESA)",
@@ -6985,7 +7059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 177
     },
     {
      "name": "Climate Engine",
@@ -7023,7 +7097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 178
     },
     {
      "name": "MeteoSource Air Quality Data API",
@@ -7061,7 +7135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 179
     },
     {
      "name": "Kakao",
@@ -7106,7 +7180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 180
     },
     {
      "name": "NASA Earthdata",
@@ -7144,7 +7218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 181
     },
     {
      "name": "US Geological Survey",
@@ -7189,7 +7263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 182
     },
     {
      "name": "AISHub",
@@ -7227,7 +7301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 183
     },
     {
      "name": "Blassa Inc.",
@@ -7265,7 +7339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 184
     },
     {
      "name": "Otonomo",
@@ -7302,7 +7376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 185
     },
     {
      "name": "what3words",
@@ -7340,7 +7414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 186
     },
     {
      "name": "ATCO",
@@ -7385,7 +7459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 187
     },
     {
      "name": "Airspace Link",
@@ -7423,7 +7497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 188
     },
     {
      "name": "HERE Technologies",
@@ -7461,7 +7535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 189
     },
     {
      "name": "Spire Maritime",
@@ -7498,7 +7572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 190
     },
     {
      "name": "DroneDeploy",
@@ -7536,7 +7610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 191
     },
     {
      "name": "LeoLabs",
@@ -7574,7 +7648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 192
     },
     {
      "name": "Drillinginfo",
@@ -7619,7 +7693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 193
     },
     {
      "name": "Teranet",
@@ -7663,7 +7737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 194
     },
     {
      "name": "OpenTopography API",
@@ -7701,7 +7775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 195
     },
     {
      "name": "Voltair",
@@ -7745,7 +7819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 196
     },
     {
      "name": "Ellipsis Drive",
@@ -7783,7 +7857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 197
     },
     {
      "name": "MixerBox",
@@ -7821,7 +7895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 198
     },
     {
      "name": "Farmers Edge",
@@ -7859,7 +7933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 199
     },
     {
      "name": "Niantic",
@@ -7897,7 +7971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 200
     },
     {
      "name": "Pointonenav",
@@ -7934,7 +8008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 201
     },
     {
      "name": "JAXA",
@@ -7979,7 +8053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 202
     },
     {
      "name": "Esri",
@@ -8017,7 +8091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 203
     }
    ]
   },
@@ -8026,8 +8100,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 89,
-   "shown": 89,
+   "count": 91,
+   "shown": 91,
    "providers": [
     {
      "name": "4M Analytics",
@@ -8072,7 +8146,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 204
     },
     {
      "name": "Radar",
@@ -8110,7 +8184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 205
     },
     {
      "name": "National Weather Service",
@@ -8155,7 +8229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 206
     },
     {
      "name": "Rome2Rio",
@@ -8192,7 +8266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 207
     },
     {
      "name": "VertiGIS",
@@ -8236,7 +8310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 208
     },
     {
      "name": "Canada Energy Regulator",
@@ -8281,7 +8355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 209
     },
     {
      "name": "Essential Energy",
@@ -8326,7 +8400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 210
     },
     {
      "name": "LightBox Zoning API",
@@ -8364,7 +8438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 211
     },
     {
      "name": "Replica",
@@ -8408,7 +8482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 212
     },
     {
      "name": "ZaiNar",
@@ -8445,7 +8519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 213
     },
     {
      "name": "ENMAX",
@@ -8490,7 +8564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 214
     },
     {
      "name": "National Interagency Fire Center",
@@ -8535,7 +8609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 215
     },
     {
      "name": "National Geospatial-Intelligence Agency",
@@ -8580,7 +8654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 216
     },
     {
      "name": "National Oceanic and Atmospheric Administration",
@@ -8625,7 +8699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 217
     },
     {
      "name": "AiDASH",
@@ -8670,7 +8744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 218
     },
     {
      "name": "DJI",
@@ -8708,7 +8782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 219
     },
     {
      "name": "FarmLogs",
@@ -8746,7 +8820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 220
     },
     {
      "name": "Arbol",
@@ -8791,7 +8865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 221
     },
     {
      "name": "EarthOptics",
@@ -8836,7 +8910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 222
     },
     {
      "name": "USDA SNAP Retailer Locator",
@@ -8880,7 +8954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 223
     },
     {
      "name": "Hammerhead",
@@ -8918,7 +8992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 224
     },
     {
      "name": "Satellogic",
@@ -8963,7 +9037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 225
     },
     {
      "name": "Leaf Agriculture",
@@ -9001,7 +9075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 226
     },
     {
      "name": "RapidSOS",
@@ -9038,7 +9112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 227
     },
     {
      "name": "Precisely",
@@ -9076,7 +9150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 228
     },
     {
      "name": "Climacell",
@@ -9114,7 +9188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 229
     },
     {
      "name": "HEAVY.AI",
@@ -9152,7 +9226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 230
     },
     {
      "name": "Waze",
@@ -9189,7 +9263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 231
     },
     {
      "name": "Local Logic",
@@ -9227,7 +9301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 232
     },
     {
      "name": "Carbyne",
@@ -9272,7 +9346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 233
     },
     {
      "name": "FloodMapp",
@@ -9310,7 +9384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 234
     },
     {
      "name": "Overpass API",
@@ -9355,7 +9429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 235
     },
     {
      "name": "British Columbia Data Catalogue",
@@ -9400,7 +9474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 236
     },
     {
      "name": "Environmental Protection Agency",
@@ -9445,7 +9519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 237
     },
     {
      "name": "Wyvern",
@@ -9489,7 +9563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 238
     },
     {
      "name": "AerisWeather",
@@ -9527,7 +9601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 239
     },
     {
      "name": "Cropio",
@@ -9565,7 +9639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 240
     },
     {
      "name": "Bonneville Power Administration",
@@ -9610,7 +9684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 241
     },
     {
      "name": "Irth Solutions",
@@ -9655,7 +9729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "UrbanFootprint",
@@ -9692,7 +9766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "dClimate",
@@ -9730,7 +9804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "Baidu",
@@ -9768,7 +9842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 245
     },
     {
      "name": "Life360",
@@ -9806,7 +9880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 246
     },
     {
      "name": "University of Minnesota",
@@ -9851,7 +9925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 247
     },
     {
      "name": "Attentive.ai",
@@ -9889,7 +9963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 248
     },
     {
      "name": "BreezoMeter",
@@ -9927,7 +10001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 249
     },
     {
      "name": "CeresAI",
@@ -9972,7 +10046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 250
     },
     {
      "name": "OurAirports",
@@ -10017,7 +10091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 251
     },
     {
      "name": "Wikimapia",
@@ -10055,7 +10129,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 252
+    },
+    {
+     "name": "SmartData",
+     "slug": "smart-data",
+     "description": "SmartData is a hosted drone-data workspace built and operated by National Drones, a CASA ReOC holder and Registered Training Organisation headquartered at Level 34, 1 Eagle Street, Brisbane, Australia. Teams bring processed, viewer-ready outputs from DJI Terra, Agisoft Metashape or their own photogrammetry workflow into SmartData and share one secure browser workspace where clients and asset owners can inspect, measure, compare and sign off on the data instead of passing files around. The platform hosts orthomosaic views, Cesium 3D Tiles, tiled point clouds and Gaussian Splat packages, layers AI-assisted inspection review, measurements, change detection, reporting and role-based team governance over them, and is expanding into processing and analytics workflows for DJI L3 LiDAR, Elios confined-space data, powerline corridor analytics and forestry intelligence. It serves power and utilities, telecommunications, mining and resources, forestry and environment, and infrastructure and construction. SmartData is sold as an end-user SaaS product: it publishes pricing, a public demo sandbox and self-service signup, but no API, developer portal, SDK, webhook surface or machine-readable contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smart-data/refs/heads/main/screenshots/smart-data-2026-06-20T194035.png",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 253
     },
     {
      "name": "Texas A&M University",
@@ -10093,7 +10212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 254
     },
     {
      "name": "Department of Housing and Urban Development",
@@ -10138,7 +10257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 255
     },
     {
      "name": "Molekule",
@@ -10176,7 +10295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 256
     },
     {
      "name": "BetterView Marketplace",
@@ -10221,7 +10340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 257
     },
     {
      "name": "Overture Maps Foundation",
@@ -10266,7 +10385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 258
     },
     {
      "name": "WindBorne Systems",
@@ -10303,7 +10422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 259
     },
     {
      "name": "Urban SDK",
@@ -10347,7 +10466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 260
     },
     {
      "name": "Beeline",
@@ -10385,7 +10504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 261
     },
     {
      "name": "REalyse",
@@ -10422,7 +10541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 262
     },
     {
      "name": "Naver",
@@ -10467,7 +10586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 263
     },
     {
      "name": "Cape Analytics",
@@ -10512,7 +10631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 264
     },
     {
      "name": "SafeGraph",
@@ -10549,7 +10668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 265
     },
     {
      "name": "Bureau of Land Management",
@@ -10594,7 +10713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 266
     },
     {
      "name": "NDBC — National Data Buoy Center",
@@ -10639,7 +10758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 267
     },
     {
      "name": "Spire Global",
@@ -10677,7 +10796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 268
     },
     {
      "name": "Kayrros",
@@ -10722,7 +10841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 269
     },
     {
      "name": "NATIX",
@@ -10760,7 +10879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 270
     },
     {
      "name": "Upciti",
@@ -10797,7 +10916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 271
     },
     {
      "name": "Descartes Labs",
@@ -10842,7 +10961,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 272
     },
     {
      "name": "Bikemap",
@@ -10880,7 +10999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 273
     },
     {
      "name": "Bureau of Ocean Energy Management",
@@ -10925,7 +11044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 274
     },
     {
      "name": "Premise",
@@ -10969,7 +11088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 275
     },
     {
      "name": "BlockChalk",
@@ -11007,7 +11126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 276
     },
     {
      "name": "Aino World Inc.",
@@ -11045,7 +11164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 277
     },
     {
      "name": "Neara",
@@ -11090,7 +11209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 278
     },
     {
      "name": "OnStation",
@@ -11128,7 +11247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 279
     },
     {
      "name": "PSD Citywide",
@@ -11172,7 +11291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 280
     },
     {
      "name": "Agreena",
@@ -11210,7 +11329,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 281
+    },
+    {
+     "name": "PREDIK Data-Driven",
+     "slug": "predikt-ai",
+     "description": "PREDIK Data-Driven is a big-data analytics and location-intelligence research firm (founded 2008, Coral Gables, Florida) that builds enriched geospatial datasets for site selection, demand forecasting, and web/reference intelligence. Its products cover Point-of-Interest (POI) data, aggregated foot-traffic and human mobility data derived from anonymized mobile devices, company and commercial-area intelligence, and socio-demographic enrichment - divided into geohash-7 (150x150m) cells with 100-200+ variables and coverage of up to 96 countries. PREDIK is a data-delivery / contact-sales provider - datasets are licensed and delivered as managed feeds via REST API, SOAP API, Feed API, or S3 bucket in JSON, CSV, and SQL formats. There is no public self-serve developer API portal or published API reference; access is arranged directly with PREDIK or through the Datarade marketplace. Endpoints are not publicly documented and are therefore not modeled here.",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 5.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 282
     },
     {
      "name": "GEODNET",
@@ -11248,7 +11404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 283
     },
     {
      "name": "Sunairio",
@@ -11292,7 +11448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 284
     },
     {
      "name": "Aclima",
@@ -11337,7 +11493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 285
     },
     {
      "name": "Bureau of Indian Affairs",
@@ -11382,7 +11538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 286
     },
     {
      "name": "Orbio",
@@ -11427,7 +11583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 287
     },
     {
      "name": "Overstory",
@@ -11472,7 +11628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 288
     },
     {
      "name": "RoxyAPI",
@@ -11509,7 +11665,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 289
     },
     {
      "name": "Juxta",
@@ -11554,7 +11710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 290
     },
     {
      "name": "Vake",
@@ -11591,7 +11747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 291
     },
     {
      "name": "Datumate",
@@ -11629,7 +11785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 292
     },
     {
      "name": "LocateAI",
@@ -11667,7 +11823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 293
     },
     {
      "name": "Piinpoint",
@@ -11704,7 +11860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 294
     }
    ]
   },
@@ -11713,8 +11869,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 202,
-   "shown": 202,
+   "count": 200,
+   "shown": 200,
    "providers": [
     {
      "name": "Vodafone",
@@ -11759,7 +11915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 295
     },
     {
      "name": "2NDNATURE",
@@ -11804,7 +11960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 296
     },
     {
      "name": "EyeLights",
@@ -11842,7 +11998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 297
     },
     {
      "name": "Mozi",
@@ -11880,7 +12036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 298
     },
     {
      "name": "Rever Moto",
@@ -11917,7 +12073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 299
     },
     {
      "name": "Overture Maps Foundation",
@@ -11962,7 +12118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 300
     },
     {
      "name": "Exodigo",
@@ -12007,7 +12163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 301
     },
     {
      "name": "Aerospacelab",
@@ -12052,7 +12208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 302
     },
     {
      "name": "Tile (thetileapp)",
@@ -12089,7 +12245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 303
     },
     {
      "name": "Duranta",
@@ -12126,7 +12282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 304
     },
     {
      "name": "INGU",
@@ -12171,44 +12327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
-    },
-    {
-     "name": "VOYGR",
-     "slug": "voygr",
-     "description": "VOYGR provides real-world place intelligence for AI apps and agents, delivering continuous location and point-of-interest (POI) data validation and enrichment. Its Location Freshness Validation confirms historical existence and current operating status, detecting relocations, rebrands, and closures across multiple attributes with up to 99.62% validation precision and configurable decision thresholds. Its Location Data Enrichment populates and continuously enriches place records from web, social, authoritative, and other sources, spanning foundational attributes (address, contacts, web presence), operating data (hours, menus, prices), and fresh context (articles, reviews, news, events). VOYGR is a Y Combinator (Winter 2026) and SNR.VC backed seed-stage company based in San Francisco, founded by Vlad Baskakov (CEO, ex-Google Maps) and Yarik Markov (CTO, ex-Google/Meta/Apple ML). Its maps API goes beyond the 10-15 standard attributes of existing mapping providers. The developer surface is currently demo-gated and no public API documentation is published yet.",
-     "score": 11.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 302
+     "rank": 305
     },
     {
      "name": "Zeitview",
@@ -12252,7 +12371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 306
     },
     {
      "name": "Understory",
@@ -12296,7 +12415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 307
     },
     {
      "name": "Bedrock",
@@ -12341,7 +12460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 308
     },
     {
      "name": "World View",
@@ -12378,7 +12497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 309
     },
     {
      "name": "Hula Earth",
@@ -12416,7 +12535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 310
     },
     {
      "name": "Parkopedia",
@@ -12454,7 +12573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 311
     },
     {
      "name": "Geopipe",
@@ -12492,7 +12611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 312
     },
     {
      "name": "Humatics",
@@ -12530,7 +12649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 313
     },
     {
      "name": "Jiobit",
@@ -12568,7 +12687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 314
     },
     {
      "name": "NCX",
@@ -12606,7 +12725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 315
     },
     {
      "name": "oneNav",
@@ -12644,7 +12763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 316
     },
     {
      "name": "PierSight Space",
@@ -12681,7 +12800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 317
     },
     {
      "name": "Renoster Systems",
@@ -12718,7 +12837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 318
     },
     {
      "name": "OnXMaps",
@@ -12756,7 +12875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 319
     },
     {
      "name": "Sylvera",
@@ -12794,7 +12913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 320
     },
     {
      "name": "Atmosfy",
@@ -12832,7 +12951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 321
     },
     {
      "name": "Insitu",
@@ -12870,7 +12989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 322
     },
     {
      "name": "Kiki",
@@ -12908,7 +13027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 323
     },
     {
      "name": "NNG",
@@ -12946,7 +13065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 324
     },
     {
      "name": "TrustPoint",
@@ -12983,7 +13102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 325
     },
     {
      "name": "Skycatch",
@@ -13020,7 +13139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 326
     },
     {
      "name": "Earth AI",
@@ -13058,7 +13177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 327
     },
     {
      "name": "Pano",
@@ -13096,7 +13215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 328
     },
     {
      "name": "Rexby",
@@ -13133,7 +13252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 329
     },
     {
      "name": "SATIM",
@@ -13170,7 +13289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 330
     },
     {
      "name": "Windward",
@@ -13208,7 +13327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 331
     },
     {
      "name": "Esper Satellite Imagery",
@@ -13246,7 +13365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 332
     },
     {
      "name": "Insurdata",
@@ -13291,7 +13410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 333
     },
     {
      "name": "Tractive",
@@ -13335,7 +13454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 334
     },
     {
      "name": "Aerodyne",
@@ -13373,7 +13492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 335
     },
     {
      "name": "Brumby",
@@ -13411,7 +13530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 336
     },
     {
      "name": "Involve Space",
@@ -13449,7 +13568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 337
     },
     {
      "name": "Vermeer",
@@ -13486,7 +13605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 338
     },
     {
      "name": "Muon Space",
@@ -13524,7 +13643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 339
     },
     {
      "name": "Hyundai Bluelink",
@@ -13569,7 +13688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 340
     },
     {
      "name": "Civil Maps",
@@ -13606,7 +13725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 341
     },
     {
      "name": "Climavision",
@@ -13651,7 +13770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 342
     },
     {
      "name": "Geocod.io",
@@ -13689,7 +13808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 343
     },
     {
      "name": "Praan",
@@ -13726,44 +13845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
-    },
-    {
-     "name": "PREDIK Data-Driven",
-     "slug": "predikt-ai",
-     "description": "PREDIK Data-Driven is a big-data analytics and location-intelligence research firm (founded 2008, Coral Gables, Florida) that builds enriched geospatial datasets for site selection, demand forecasting, and web/reference intelligence. Its products cover Point-of-Interest (POI) data, aggregated foot-traffic and human mobility data derived from anonymized mobile devices, company and commercial-area intelligence, and socio-demographic enrichment - divided into geohash-7 (150x150m) cells with 100-200+ variables and coverage of up to 96 countries. PREDIK is a data-delivery / contact-sales provider - datasets are licensed and delivered as managed feeds via REST API, SOAP API, Feed API, or S3 bucket in JSON, CSV, and SQL formats. There is no public self-serve developer API portal or published API reference; access is arranged directly with PREDIK or through the Datarade marketplace. Endpoints are not publicly documented and are therefore not modeled here.",
-     "score": 7.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 342
+     "rank": 344
     },
     {
      "name": "Birdstop",
@@ -13801,7 +13883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 345
     },
     {
      "name": "Bing Maps",
@@ -13839,7 +13921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 346
     },
     {
      "name": "GeographQL",
@@ -13877,7 +13959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 347
     },
     {
      "name": "Factual",
@@ -13915,7 +13997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 348
     },
     {
      "name": "AllTrails",
@@ -13953,7 +14035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 349
     },
     {
      "name": "Indoo Rs",
@@ -13991,7 +14073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 350
     },
     {
      "name": "Mississippi River Commission",
@@ -14036,7 +14118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 351
     },
     {
      "name": "Blue Vision Labs",
@@ -14074,7 +14156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 352
     },
     {
      "name": "Lready",
@@ -14112,7 +14194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 353
     },
     {
      "name": "Tile",
@@ -14149,7 +14231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 354
     },
     {
      "name": "VerAI",
@@ -14186,7 +14268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 355
     },
     {
      "name": "Ducks Unlimited",
@@ -14224,7 +14306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 356
     },
     {
      "name": "GeoDB Cities",
@@ -14262,7 +14344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 357
     },
     {
      "name": "IP Address Details",
@@ -14300,7 +14382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 358
     },
     {
      "name": "IPstack",
@@ -14338,7 +14420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 359
     },
     {
      "name": "ipstack",
@@ -14376,7 +14458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 360
     },
     {
      "name": "keycdn IP Location Finder",
@@ -14414,7 +14496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 361
     },
     {
      "name": "LocationIQ",
@@ -14451,7 +14533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 362
     },
     {
      "name": "Longdo Map",
@@ -14489,7 +14571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 363
     },
     {
      "name": "OpenCage",
@@ -14527,7 +14609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 364
     },
     {
      "name": "Pinball Map",
@@ -14565,7 +14647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 365
     },
     {
      "name": "Postcodes.io",
@@ -14603,7 +14685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 366
     },
     {
      "name": "RainViewer",
@@ -14641,7 +14723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 367
     },
     {
      "name": "Utah AGRC",
@@ -14679,7 +14761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 368
     },
     {
      "name": "Xona Space Systems",
@@ -14716,7 +14798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 369
     },
     {
      "name": "Cassie",
@@ -14761,7 +14843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 370
     },
     {
      "name": "Citymapper",
@@ -14799,7 +14881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 371
     },
     {
      "name": "Orbital Insight",
@@ -14844,7 +14926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 372
     },
     {
      "name": "Pachama",
@@ -14882,7 +14964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 373
     },
     {
      "name": "SubVysion",
@@ -14926,7 +15008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 374
     },
     {
      "name": "Arctus Aerospace",
@@ -14964,7 +15046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 375
     },
     {
      "name": "Spotangels",
@@ -15001,7 +15083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 376
     },
     {
      "name": "VICTUS Technologies",
@@ -15038,7 +15120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 377
     },
     {
      "name": "7Timer!",
@@ -15076,7 +15158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 378
     },
     {
      "name": "Actinia Grass GIS",
@@ -15114,7 +15196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 379
     },
     {
      "name": "adresse.data.gouv.fr",
@@ -15152,7 +15234,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 380
     },
     {
      "name": "Aemet",
@@ -15190,7 +15272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 381
     },
     {
      "name": "Airtel IP",
@@ -15228,7 +15310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 382
     },
     {
      "name": "Apiip",
@@ -15266,7 +15348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 383
     },
     {
      "name": "APIXU",
@@ -15304,7 +15386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 384
     },
     {
      "name": "ApogeoAPI",
@@ -15342,7 +15424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 383
+     "rank": 385
     },
     {
      "name": "AQICN",
@@ -15380,7 +15462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 384
+     "rank": 386
     },
     {
      "name": "Axionorbital Space",
@@ -15418,7 +15500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 385
+     "rank": 387
     },
     {
      "name": "Battuta",
@@ -15456,7 +15538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 386
+     "rank": 388
     },
     {
      "name": "BdAPIs",
@@ -15494,7 +15576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 387
+     "rank": 389
     },
     {
      "name": "BigDataCloud",
@@ -15532,7 +15614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 388
+     "rank": 390
     },
     {
      "name": "bng2latlong",
@@ -15570,7 +15652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 389
+     "rank": 391
     },
     {
      "name": "Cep.la",
@@ -15608,7 +15690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 390
+     "rank": 392
     },
     {
      "name": "CitySDK",
@@ -15646,7 +15728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 391
+     "rank": 393
     },
     {
      "name": "Country",
@@ -15684,7 +15766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 392
+     "rank": 394
     },
     {
      "name": "CountryStateCity",
@@ -15721,7 +15803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 395
     },
     {
      "name": "Euskalmet",
@@ -15759,7 +15841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 396
     },
     {
      "name": "Foreca",
@@ -15797,7 +15879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 397
     },
     {
      "name": "GeoApi",
@@ -15835,7 +15917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 398
     },
     {
      "name": "Geocode.xyz",
@@ -15873,7 +15955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 399
     },
     {
      "name": "Geocodify.com",
@@ -15911,7 +15993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 400
     },
     {
      "name": "Geodata.gov.gr",
@@ -15948,7 +16030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 401
     },
     {
      "name": "GeoDataSource",
@@ -15986,7 +16068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 402
     },
     {
      "name": "GeoJS",
@@ -16024,7 +16106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 403
     },
     {
      "name": "Geokeo",
@@ -16062,7 +16144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 404
     },
     {
      "name": "GeoNames",
@@ -16100,7 +16182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 405
     },
     {
      "name": "geoPlugin",
@@ -16137,7 +16219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 406
     },
     {
      "name": "HackMyIP",
@@ -16175,7 +16257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 407
     },
     {
      "name": "HelloSalut",
@@ -16213,7 +16295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 408
     },
     {
      "name": "HERE Maps",
@@ -16251,7 +16333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 409
     },
     {
      "name": "HG Weather",
@@ -16289,7 +16371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 410
     },
     {
      "name": "Hirak IP to Country",
@@ -16327,7 +16409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 411
     },
     {
      "name": "Hong Kong GeoData Store",
@@ -16364,7 +16446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 412
     },
     {
      "name": "Hong Kong Obervatory",
@@ -16402,7 +16484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 413
     },
     {
      "name": "IBGE",
@@ -16440,7 +16522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 414
     },
     {
      "name": "IP 2 Country",
@@ -16478,7 +16560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 415
     },
     {
      "name": "IP Geolocation",
@@ -16516,7 +16598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 416
     },
     {
      "name": "IP Vigilante",
@@ -16554,7 +16636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 417
     },
     {
      "name": "ip-api",
@@ -16592,7 +16674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 418
     },
     {
      "name": "IP2Location",
@@ -16630,7 +16712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 419
     },
     {
      "name": "IP2Proxy",
@@ -16668,7 +16750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 420
     },
     {
      "name": "ipapi.co",
@@ -16706,7 +16788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 421
     },
     {
      "name": "ipapi.com",
@@ -16744,7 +16826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 422
     },
     {
      "name": "IPGEO",
@@ -16782,7 +16864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 423
     },
     {
      "name": "IPInfoDB",
@@ -16819,7 +16901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 424
     },
     {
      "name": "IPMA",
@@ -16857,7 +16939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 425
     },
     {
      "name": "Kakao Maps",
@@ -16895,7 +16977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 426
     },
     {
      "name": "Kuva Space",
@@ -16933,7 +17015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 427
     },
     {
      "name": "MetaWeather",
@@ -16971,7 +17053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 428
     },
     {
      "name": "Meteorologisk Institutt",
@@ -17009,7 +17091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 429
     },
     {
      "name": "Micro Weather",
@@ -17047,7 +17129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 430
     },
     {
      "name": "ODWeather",
@@ -17085,7 +17167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 431
     },
     {
      "name": "Oikolab",
@@ -17123,7 +17205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 432
     },
     {
      "name": "One Map, Singapore",
@@ -17161,7 +17243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 433
     },
     {
      "name": "OnWater",
@@ -17199,7 +17281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 434
     },
     {
      "name": "Open Topo Data",
@@ -17237,7 +17319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 435
     },
     {
      "name": "openSenseMap",
@@ -17275,7 +17357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 436
     },
     {
      "name": "Pirate Weather",
@@ -17313,7 +17395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 437
     },
     {
      "name": "PostalCodes",
@@ -17351,7 +17433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 438
     },
     {
      "name": "Postali",
@@ -17389,7 +17471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 439
     },
     {
      "name": "PostcodeData.nl",
@@ -17427,7 +17509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 440
     },
     {
      "name": "Queimadas INPE",
@@ -17465,7 +17547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 441
     },
     {
      "name": "QWeather",
@@ -17503,7 +17585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 442
     },
     {
      "name": "RoadGoat Cities",
@@ -17540,7 +17622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 443
     },
     {
      "name": "Rwanda Locations",
@@ -17578,7 +17660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 444
     },
     {
      "name": "SpotSense",
@@ -17615,7 +17697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 445
     },
     {
      "name": "Telize",
@@ -17653,7 +17735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 446
     },
     {
      "name": "Uebermaps",
@@ -17691,7 +17773,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 447
     },
     {
      "name": "Urban Engines",
@@ -17728,7 +17810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 448
     },
     {
      "name": "US Weather",
@@ -17766,7 +17848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 449
     },
     {
      "name": "US ZipCode",
@@ -17804,7 +17886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 450
     },
     {
      "name": "ViaCep",
@@ -17842,7 +17924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 451
     },
     {
      "name": "Visual Crossing",
@@ -17880,7 +17962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 452
     },
     {
      "name": "Weatherstack",
@@ -17918,7 +18000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 453
     },
     {
      "name": "wttr.in",
@@ -17956,7 +18038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 454
     },
     {
      "name": "Yandex.Maps Geocoder",
@@ -17994,7 +18076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 455
     },
     {
      "name": "Yandex.Weather",
@@ -18032,7 +18114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 456
     },
     {
      "name": "ZipCodeAPI",
@@ -18070,7 +18152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 457
     },
     {
      "name": "Zippopotam.us",
@@ -18108,7 +18190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 458
     },
     {
      "name": "Ziptastic",
@@ -18146,7 +18228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 459
     },
     {
      "name": "Atomionics",
@@ -18184,7 +18266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 460
     },
     {
      "name": "BlackSky",
@@ -18222,7 +18304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 461
     },
     {
      "name": "Neoplants",
@@ -18260,7 +18342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 462
     },
     {
      "name": "Quantum Systems",
@@ -18298,7 +18380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 463
     },
     {
      "name": "administrative-divisons-db",
@@ -18336,7 +18418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 464
     },
     {
      "name": "AirMap",
@@ -18374,7 +18456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 465
     },
     {
      "name": "airquality",
@@ -18412,7 +18494,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 466
     },
     {
      "name": "Albedo",
@@ -18449,7 +18531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 467
     },
     {
      "name": "American Aerospace Advisors",
@@ -18487,7 +18569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 468
     },
     {
      "name": "Carmera *",
@@ -18524,7 +18606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 469
     },
     {
      "name": "Cartes.io",
@@ -18562,7 +18644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 470
     },
     {
      "name": "Digby",
@@ -18600,7 +18682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 471
     },
     {
      "name": "Dverse",
@@ -18638,7 +18720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 472
     },
     {
      "name": "GAGO Group",
@@ -18676,7 +18758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 473
     },
     {
      "name": "Gowalla",
@@ -18713,7 +18795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 474
     },
     {
      "name": "Graph Countries",
@@ -18751,7 +18833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 475
     },
     {
      "name": "Kairos Aerospace",
@@ -18796,7 +18878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 476
     },
     {
      "name": "Lunasonde",
@@ -18834,7 +18916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 477
     },
     {
      "name": "Mantari",
@@ -18871,7 +18953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 478
     },
     {
      "name": "Mexico",
@@ -18909,7 +18991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 479
     },
     {
      "name": "Mixer Labs",
@@ -18946,7 +19028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 480
     },
     {
      "name": "Northstar Technology",
@@ -18983,7 +19065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 481
     },
     {
      "name": "OGSystems",
@@ -19021,7 +19103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 482
     },
     {
      "name": "Poncho",
@@ -19058,7 +19140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 483
     },
     {
      "name": "Right Hear",
@@ -19095,7 +19177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 484
     },
     {
      "name": "RiskPulse",
@@ -19132,7 +19214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 485
     },
     {
      "name": "Skybox Imaging",
@@ -19169,7 +19251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 486
     },
     {
      "name": "Skyboximaging",
@@ -19206,7 +19288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 487
     },
     {
      "name": "SLF",
@@ -19244,7 +19326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 488
     },
     {
      "name": "Terra Bella (fka Skybox Imaging)",
@@ -19281,7 +19363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 489
     },
     {
      "name": "Ursa Space Systems",
@@ -19319,7 +19401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 490
     },
     {
      "name": "weather-api",
@@ -19357,7 +19439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 491
     },
     {
      "name": "Kespry",
@@ -19401,7 +19483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 492
     },
     {
      "name": "OptoAtmospherics",
@@ -19445,7 +19527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 493
     },
     {
      "name": "Location Based Tracking",
@@ -19482,7 +19564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 494
     }
    ]
   },
@@ -19499,7 +19581,7 @@
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 493
+     "rank": 495
     }
    ]
   }

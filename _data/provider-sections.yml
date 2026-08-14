@@ -260,6 +260,93 @@
 # which is published as its own <slug>.apievangelist.com research site, and
 # each cohort here is a CURATED roster rather than a tag match — tag matching
 # returns 6 providers for Management. More land here as they are built.
+- id: programmable
+  title: Programmable Go-to-Market
+  intro: >-
+    The two horizontal markets every company buys from, measured on what they actually publish
+    rather than what they claim. 1,331 companies across eighteen segments — and not one of them
+    describes a multi-step workflow an agent could execute.
+  columns: col-md-6
+  cards:
+
+    - name: Programmable Revenue
+      icon: trending_up
+      description: >-
+        Revenue software is the most programmable corner of go-to-market — 300
+        of 517 publish a machine-readable contract and 238 run their own MCP
+        server. None describes a workflow. Seven segments, each scored and ranked, from prospecting
+        data to the last human step before money moves.
+      markets:
+        - name: The whole market
+          href: /programmable-revenue/
+          count: { from: total, key: providers-programmable-revenue }
+        - name: Data & Prospecting
+          href: /data-prospecting/
+          count: { from: total, key: providers-data-prospecting }
+        - name: Engagement & Outreach
+          href: /engagement-outreach/
+          count: { from: total, key: providers-engagement-outreach }
+        - name: Pipeline & Forecast
+          href: /pipeline-forecast/
+          count: { from: total, key: providers-pipeline-forecast }
+        - name: Conversation & Coaching
+          href: /conversation-coaching/
+          count: { from: total, key: providers-conversation-coaching }
+        - name: Revenue Plumbing
+          href: /revenue-plumbing/
+          count: { from: total, key: providers-revenue-plumbing }
+        - name: Quote-to-Cash
+          href: /quote-to-cash/
+          count: { from: total, key: providers-quote-to-cash }
+        - name: Retention & Expansion
+          href: /retention-expansion/
+          count: { from: total, key: providers-retention-expansion }
+
+    - name: Programmable Marketing
+      icon: campaign
+      description: >-
+        Not one market and it does not behave like one — twenty-six points of Kin Score separate
+        owned channels from sell-side paid media. The durable split is who the customer is:
+        software sold to the advertiser scores 53.3, software sold to the publisher 39.0. Eleven
+        segments, each scored and ranked.
+      markets:
+        - name: The whole market
+          href: /programmable-marketing/
+          count: { from: total, key: providers-programmable-marketing }
+        - name: Marketing Orchestration
+          href: /marketing-orchestration/
+          count: { from: total, key: providers-marketing-orchestration }
+        - name: Audience & Measurement
+          href: /audience-measurement/
+          count: { from: total, key: providers-audience-measurement }
+        - name: Paid Media — Buy Side
+          href: /paid-media-buy-side/
+          count: { from: total, key: providers-paid-media-buy-side }
+        - name: Paid Media — Sell Side
+          href: /paid-media-sell-side/
+          count: { from: total, key: providers-paid-media-sell-side }
+        - name: Owned Channels
+          href: /owned-channels/
+          count: { from: total, key: providers-owned-channels }
+        - name: The Sales Handoff
+          href: /sales-handoff/
+          count: { from: total, key: providers-sales-handoff }
+        - name: Where the Spend Lands
+          href: /where-the-spend-lands/
+          count: { from: total, key: providers-where-the-spend-lands }
+        - name: Demand Capture
+          href: /demand-capture/
+          count: { from: total, key: providers-demand-capture }
+        - name: Earned & Social
+          href: /earned-social/
+          count: { from: total, key: providers-earned-social }
+        - name: Content & Brand
+          href: /content-brand/
+          count: { from: total, key: providers-content-brand }
+        - name: Retention & Advocacy
+          href: /retention-advocacy/
+          count: { from: total, key: providers-retention-advocacy }
+
 - id: areas
   title: Areas
   intro: The catalog cut by what an API does rather than who it sells to — the API Evangelist areas, each read as a market and ranked by Kin Score.

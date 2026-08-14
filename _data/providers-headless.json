@@ -8,9 +8,87 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 3,
-   "shown": 3,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "Bloomreach",
+     "slug": "bloomreach",
+     "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png",
+     "score": 87.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 81.6,
+      "governance": 89.6,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 84.8,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 65.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
+     "rank": 1
+    },
+    {
+     "name": "Optimizely",
+     "slug": "optimizely",
+     "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
+     "score": 78.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 80.4,
+      "governance": 72.9,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 91.3,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Platforms & Suites Going Headless",
+     "rank": 2
+    },
     {
      "name": "Salla",
      "slug": "salla",
@@ -55,7 +133,46 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 1
+     "rank": 3
+    },
+    {
+     "name": "Prismic",
+     "slug": "prismic",
+     "description": "Prismic is a headless CMS and page builder that lets marketing teams create and manage website content independently while developers work in their preferred stack. Content is modelled as custom types and reusable \"slices\", authored in a visual Page Builder or locally in Slice Machine, and delivered over a CDN-backed API. Prismic runs seven public HTTP APIs across four hosts: a Content API and Repository API for reads, a beta Tags API, a Types API for content models, an Asset API for the media library, a Migration API for bulk content creation, and a read-only GraphQL endpoint whose schema is generated per repository from the customer's own content model. Every read is addressed to a content \"ref\" naming a specific published version. Prismic also ships a first-party CLI, a published Agent Skill, and a remote OAuth-protected MCP server with sixteen tools, and supports Next.js, Nuxt and SvelteKit with first-party rendering components.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png",
+     "score": 70.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.8,
+      "governance": 12.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 82.6,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 41.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless CMS & Content Platforms",
+     "rank": 4
     },
     {
      "name": "Commerce Layer",
@@ -101,7 +218,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 2
+     "rank": 5
     },
     {
      "name": "Bright Data",
@@ -140,7 +257,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 3
+     "rank": 6
     }
    ],
    "open": true
@@ -150,8 +267,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 12,
-   "shown": 12,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Webflow",
@@ -190,7 +307,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 4
+     "rank": 7
     },
     {
      "name": "Swell",
@@ -236,7 +353,92 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 5
+     "rank": 8
+    },
+    {
+     "name": "Virto Commerce",
+     "slug": "virto-commerce",
+     "description": "Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png",
+     "score": 64.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 54.7,
+      "governance": 20.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
+     "rank": 9
+    },
+    {
+     "name": "Kentico",
+     "slug": "kentico",
+     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
+     "score": 63.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 42.0,
+      "governance": 12.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 86.8
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 50.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Platforms & Suites Going Headless",
+     "rank": 10
     },
     {
      "name": "Storyblok",
@@ -275,7 +477,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 6
+     "rank": 11
     },
     {
      "name": "Hyperbrowser",
@@ -314,7 +516,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 7
+     "rank": 12
     },
     {
      "name": "Wix.com",
@@ -359,7 +561,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 8
+     "rank": 13
     },
     {
      "name": "Browserbase",
@@ -398,7 +600,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 9
+     "rank": 14
     },
     {
      "name": "Browserless",
@@ -437,7 +639,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 10
+     "rank": 15
     },
     {
      "name": "Shopify",
@@ -483,7 +685,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 11
+     "rank": 16
     },
     {
      "name": "Sanity",
@@ -522,7 +724,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 12
+     "rank": 17
     },
     {
      "name": "Oxylabs",
@@ -561,7 +763,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 13
+     "rank": 18
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -600,7 +802,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 14
+     "rank": 19
     },
     {
      "name": "ZenRows",
@@ -639,7 +841,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 15
+     "rank": 20
     }
    ],
    "open": true
@@ -649,8 +851,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 33,
-   "shown": 33,
+   "count": 32,
+   "shown": 32,
    "providers": [
     {
      "name": "WooCommerce",
@@ -689,7 +891,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 16
+     "rank": 21
     },
     {
      "name": "Uniform",
@@ -727,7 +929,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 17
+     "rank": 22
     },
     {
      "name": "Builder.io",
@@ -766,7 +968,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 18
+     "rank": 23
     },
     {
      "name": "Ninetailed",
@@ -805,7 +1007,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 19
+     "rank": 24
     },
     {
      "name": "WordPress",
@@ -844,7 +1046,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 20
+     "rank": 25
     },
     {
      "name": "Shopware",
@@ -883,7 +1085,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 21
+     "rank": 26
     },
     {
      "name": "API Snap",
@@ -929,46 +1131,46 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 22
+     "rank": 27
     },
     {
-     "name": "Bloomreach",
-     "slug": "bloomreach",
-     "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png",
-     "score": 51.7,
+     "name": "Chord",
+     "slug": "chord-commerce",
+     "description": "Chord is a New York / Santa Barbara-based commerce data and AI platform founded in 2021 by Bryan Mahoney (CEO) and Henry Davis (President & Chairman), both former Glossier executives. Chord began as a headless commerce backbone built on top of Solidus — the open-source Spree Commerce fork written in Ruby on Rails — and has since evolved into an AI-native commerce data platform with three layers: a Data Foundation that unifies sources such as Shopify, ad platforms, and CDPs; a Context Stack that grounds AI in store-specific business context; and a set of Agents that take action across the commerce stack. Its current product surface includes Chord OMS (a Solidus-based order management system covering orders, products, promotions, subscriptions, affiliates, gift cards, returns, shipping, tax, and digital products documented at chord.stoplight.io), Chord CDP (customer data platform with identity resolution, RFM scoring, customer lifetime revenue, and destination activations), Chord Event Tracking (client- and server-side eventing with Shopify Web Pixel integration and consent management via OneTrust and Shopify Customer Privacy API), Chord Data Platform (analytics, predictive modeling, attribution, recommendations, Fivetran ingestion, GA4 compatibility), and Chord AI / Copilot Chat, powered by Anthropic Claude (Opus 4.5 for SQL generation, Haiku 4.5 for response generation and classification) with charts, monitors, context modeling, and natural-language data querying. Chord's GitHub org (github.com/chordcommerce) maintains a fleet of Solidus extensions (solidus_stripe, solidus_braintree, solidus_paypal_braintree, solidus_subscriptions, solidus_virtual_gift_card, solidus_importer, solidus_avatax_certified), a consent-manager TypeScript library, a Jitsu fork for event ingestion, and example repos for eventing and analytics. Notable customers include Sonos, Blue Bottle Coffee, Rodan + Fields, MrBeast, and Ritual. Funding has come from M13 Ventures, Equal Ventures, Act One Ventures, Chingona Ventures, and CEAS Investments, with an $18M Series A reported by TechCrunch in 2021. The commercial model is sales-led with custom enterprise pricing gated behind a demo request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png",
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 72.6,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-12",
+     "scored_at": "2026-08-14",
      "schema_version": "0.11.0",
-     "agent_score": 41.0,
+     "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
+      "agentic_access": false,
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
+      "event_surface_described": true,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 23
+     "rank": 28
     },
     {
      "name": "Apache OFBiz",
@@ -1007,7 +1209,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 24
+     "rank": 29
     },
     {
      "name": "Spider",
@@ -1046,7 +1248,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 25
+     "rank": 30
     },
     {
      "name": "DatoCMS",
@@ -1085,7 +1287,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 26
+     "rank": 31
     },
     {
      "name": "SnapAPI",
@@ -1124,46 +1326,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 27
-    },
-    {
-     "name": "Optimizely",
-     "slug": "optimizely",
-     "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
-     "score": 49.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 77.4,
-      "governance": 41.7,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 32.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 28
+     "rank": 32
     },
     {
      "name": "ScrapingBee",
@@ -1202,7 +1365,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 29
+     "rank": 33
     },
     {
      "name": "Django CMS",
@@ -1241,7 +1404,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 30
+     "rank": 34
     },
     {
      "name": "Acquia",
@@ -1280,7 +1443,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 31
+     "rank": 35
     },
     {
      "name": "Vendure",
@@ -1319,7 +1482,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 32
+     "rank": 36
     },
     {
      "name": "Makeswift",
@@ -1358,7 +1521,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 33
+     "rank": 37
     },
     {
      "name": "commercetools",
@@ -1397,7 +1560,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 34
+     "rank": 38
     },
     {
      "name": "Alokai (formerly Vue Storefront)",
@@ -1436,7 +1599,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 35
+     "rank": 39
     },
     {
      "name": "Strapi",
@@ -1475,7 +1638,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 36
+     "rank": 40
     },
     {
      "name": "Contentful",
@@ -1514,7 +1677,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 37
+     "rank": 41
     },
     {
      "name": "Spree Commerce",
@@ -1560,7 +1723,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 38
+     "rank": 42
     },
     {
      "name": "Apify",
@@ -1599,7 +1762,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 39
+     "rank": 43
     },
     {
      "name": "Snipcart",
@@ -1645,7 +1808,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 40
+     "rank": 44
     },
     {
      "name": "BigCommerce",
@@ -1691,7 +1854,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 41
+     "rank": 45
     },
     {
      "name": "Zesty",
@@ -1730,7 +1893,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 42
+     "rank": 46
     },
     {
      "name": "Firecrawl",
@@ -1769,7 +1932,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 43
+     "rank": 47
     },
     {
      "name": "fabric",
@@ -1814,7 +1977,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 44
+     "rank": 48
     },
     {
      "name": "Sitefinity CMS",
@@ -1853,7 +2016,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 45
+     "rank": 49
     },
     {
      "name": "Elastic Path",
@@ -1899,7 +2062,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 46
+     "rank": 50
     },
     {
      "name": "VTEX",
@@ -1945,7 +2108,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 47
+     "rank": 51
     },
     {
      "name": "Subbly",
@@ -1983,7 +2146,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 48
+     "rank": 52
     }
    ]
   },
@@ -1992,8 +2155,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 34,
-   "shown": 34,
+   "count": 32,
+   "shown": 32,
    "providers": [
     {
      "name": "Kernel",
@@ -2032,7 +2195,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 49
+     "rank": 53
     },
     {
      "name": "Medusa",
@@ -2071,53 +2234,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 50
-    },
-    {
-     "name": "Virto Commerce",
-     "slug": "virto-commerce",
-     "description": "Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png",
-     "score": 41.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 46.4,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 42.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "Scrapfly",
@@ -2156,7 +2273,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "Saleor",
@@ -2195,7 +2312,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Contentstack",
@@ -2234,7 +2351,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Crawlbase",
@@ -2273,7 +2390,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "Airtop",
@@ -2312,7 +2429,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Bagisto",
@@ -2351,7 +2468,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Zenscrape",
@@ -2390,7 +2507,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Sitecore",
@@ -2429,7 +2546,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Bold Commerce",
@@ -2475,7 +2592,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Lightpanda",
@@ -2514,7 +2631,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "Craft CMS",
@@ -2553,7 +2670,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Steel",
@@ -2591,7 +2708,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "PDFEndpoint",
@@ -2630,7 +2747,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "Diffbot",
@@ -2669,7 +2786,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "TYPO3",
@@ -2708,7 +2825,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Crystallize",
@@ -2747,7 +2864,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Salesforce Commerce Cloud",
@@ -2786,7 +2903,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Drupal",
@@ -2825,7 +2942,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "Payload",
@@ -2864,7 +2981,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Plasmic",
@@ -2903,7 +3020,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Magento",
@@ -2942,46 +3059,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 72
-    },
-    {
-     "name": "Kentico",
-     "slug": "kentico",
-     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 42.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "TinaCMS",
@@ -3020,7 +3098,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Packdigital",
@@ -3059,7 +3137,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Decap CMS",
@@ -3098,7 +3176,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "KeystoneJS",
@@ -3137,7 +3215,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Kontent AI",
@@ -3176,7 +3254,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "SAP Commerce Cloud",
@@ -3215,7 +3293,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Directus",
@@ -3254,7 +3332,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "dotCMS",
@@ -3293,7 +3371,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Browser Use",
@@ -3332,7 +3410,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 82
+     "rank": 84
     }
    ]
   },
@@ -3341,8 +3419,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Sylius",
@@ -3388,7 +3466,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Dutchie",
@@ -3433,7 +3511,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Adobe Experience Manager",
@@ -3472,7 +3550,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Contensis",
@@ -3511,7 +3589,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "ScrapingAnt",
@@ -3550,46 +3628,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 87
-    },
-    {
-     "name": "Prismic",
-     "slug": "prismic",
-     "description": "Prismic is a headless CMS and page builder that empowers marketing teams to create and manage website content independently while developers work in their preferred tech stack. It provides a GraphQL API and REST Content API for fetching structured content from Prismic repositories, enabling fast, CDN-backed delivery for modern web applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png",
-     "score": 26.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 48.1,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Shogun",
@@ -3627,7 +3666,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Liferay",
@@ -3666,7 +3705,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Agility CMS",
@@ -3705,7 +3744,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Hygraph",
@@ -3744,7 +3783,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Caisy",
@@ -3783,7 +3822,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Selenium",
@@ -3822,7 +3861,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "WPGraphQL",
@@ -3861,7 +3900,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "BaseHub",
@@ -3900,7 +3939,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Flotiq",
@@ -3939,7 +3978,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Apache Sling",
@@ -3978,7 +4017,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Wagtail",
@@ -4017,7 +4056,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Reaction Commerce",
@@ -4055,7 +4094,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Playwright",
@@ -4094,7 +4133,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "El-Dokan",
@@ -4133,7 +4172,7 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 102
+     "rank": 103
     }
    ]
   },
@@ -4142,8 +4181,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Zyte",
@@ -4182,45 +4221,6 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 103
-    },
-    {
-     "name": "Chord",
-     "slug": "chord-commerce",
-     "description": "Chord is a New York / Santa Barbara-based commerce data and AI platform founded in 2021 by Bryan Mahoney (CEO) and Henry Davis (President & Chairman), both former Glossier executives. Chord began as a headless commerce backbone built on top of Solidus — the open-source Spree Commerce fork written in Ruby on Rails — and has since evolved into an AI-native commerce data platform with three layers: a Data Foundation that unifies sources such as Shopify, ad platforms, and CDPs; a Context Stack that grounds AI in store-specific business context; and a set of Agents that take action across the commerce stack. Its current product surface includes Chord OMS (a Solidus-based order management system covering orders, products, promotions, subscriptions, affiliates, gift cards, returns, shipping, tax, and digital products documented at chord.stoplight.io), Chord CDP (customer data platform with identity resolution, RFM scoring, customer lifetime revenue, and destination activations), Chord Event Tracking (client- and server-side eventing with Shopify Web Pixel integration and consent management via OneTrust and Shopify Customer Privacy API), Chord Data Platform (analytics, predictive modeling, attribution, recommendations, Fivetran ingestion, GA4 compatibility), and Chord AI / Copilot Chat, powered by Anthropic Claude (Opus 4.5 for SQL generation, Haiku 4.5 for response generation and classification) with charts, monitors, context modeling, and natural-language data querying. Chord's GitHub org (github.com/chordcommerce) maintains a fleet of Solidus extensions (solidus_stripe, solidus_braintree, solidus_paypal_braintree, solidus_subscriptions, solidus_virtual_gift_card, solidus_importer, solidus_avatax_certified), a consent-manager TypeScript library, a Jitsu fork for event ingestion, and example repos for eventing and analytics. Notable customers include Sonos, Blue Bottle Coffee, Rodan + Fields, MrBeast, and Ritual. Funding has come from M13 Ventures, Equal Ventures, Act One Ventures, Chingona Ventures, and CEAS Investments, with an $18M Series A reported by TechCrunch in 2021. The commercial model is sales-led with custom enterprise pricing gated behind a demo request.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png",
-     "score": 11.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
      "rank": 104
     },
     {
