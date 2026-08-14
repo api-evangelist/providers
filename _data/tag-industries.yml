@@ -837,3 +837,68 @@
   - orbital
   - ground station
   - space situational awareness
+- slug: nutrition
+  name: Nutrition
+  icon: nutrition
+  description: Food composition databases, recipe and meal-planning platforms, food logging and diet tracking, supplements, and the dietitian and weight-management services built on top of them.
+  tags:
+  - nutrition
+  - personalized nutrition
+  - sports nutrition
+  - infant nutrition
+  - medical nutrition
+  - medical nutrition therapy
+  - enteral nutrition
+  - telenutrition
+  - animal nutrition
+  - pet nutrition
+  - food and nutrition
+  - nutritional supplements
+  - supplements
+  - dietary supplements
+  - vitamins
+  - diet
+  - diets
+  - dietitian
+  - dietitians
+  - dietetics
+  - calories
+  - food diary
+  - weight tracking
+  - weight loss
+  - weight management
+  - recipes
+  - recipe search
+  - cooking
+  - meal planning
+  - meal plans
+  - meal kit
+  - meal kits
+  - meal replacement
+  - meal subscription
+  - food labeling
+  - branded foods
+  - baby food
+  exclude:
+  - apicbase
+  - boosted-commerce
+  - brava-home
+  - datacor
+  - everytv
+  - free-cocktail-api
+  - gronda
+  - hamptons-lane
+  - jelly-belly
+  - new-york-times-company
+  - posha
+  - punkapi
+  - rakuten
+  - spoon-university
+  - thecocktaildb
+  include:
+  - chomp
+  - edamam-nutrition
+  - fruityvice
+  - open-food-facts
+  - recipeapi
+  - tasty

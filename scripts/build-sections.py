@@ -263,6 +263,26 @@ TAG_INDUSTRY_EXCLUDE = {
         "sap-s4hana", "sap-bydesign", "erpnext", "apache-ofbiz", "infor", "aptean",
         "workday-financials", "anaplan", "softwareone", "sap-fieldglass",
     },
+    # `recipes` and `cooking` are the leaky ones here: they land on media
+    # companies that publish a recipe section, on appliance and robotics
+    # makers, and on drinks databases that carry no nutrition data at all.
+    "nutrition": {
+        # cooking hardware and kitchen robotics — an appliance, not nutrition
+        "brava-home", "posha", "hamptons-lane",
+        # media and marketplaces that happen to publish recipes
+        "new-york-times-company", "everytv", "spoon-university", "rakuten",
+        # drinks databases — recipes with no nutrition in them
+        "punkapi", "thecocktaildb", "free-cocktail-api",
+        # confectionery and packaged-goods brands carrying a `recipes` tag
+        "jelly-belly",
+        # restaurant and kitchen back office — costing and rostering, filed
+        # under Food Service
+        "apicbase", "gronda",
+        # horizontal software carrying one `animal nutrition` tag
+        "datacor",
+        # consumer-brand aggregator, not a nutrition business
+        "boosted-commerce",
+    },
     "semiconductors-hardware": {
         # software sold TO hardware companies, not hardware
         "telemetron-ai", "first-resonance", "cofactr", "violetlabs",
@@ -284,6 +304,13 @@ TAG_INDUSTRY_INCLUDE = {
         "e2open", "manhattan-associates", "blue-yonder", "1worldsync",
         "tech-data", "pax8", "protonai", "scansource", "synnex",
         "sap-sales-and-distribution-sd",
+    },
+    # Food-composition APIs filed only under the generic `food and drink` tag,
+    # plus Open Food Facts — the largest open food-product database in the
+    # world, which carries no tags at all.
+    "nutrition": {
+        "chomp", "recipeapi", "edamam-nutrition", "open-food-facts",
+        "fruityvice", "tasty",
     },
     # The silicon layer is invisible to tag matching. Intel is tagged only
     # `fortune 100`, Qualcomm only `fortune 500`, Synopsys is filed as a
@@ -649,6 +676,28 @@ TAG_INDUSTRIES = [
             "space", "space technology", "satellite", "satellites", "launch", "spacecraft",
             "earth observation", "remote sensing", "aviation", "orbital", "ground station",
             "space situational awareness",
+        ],
+    },
+    # Drawn deliberately NARROW — what a food is made of and what a person eats,
+    # not the food business. Agriculture, Food Delivery and Food Service are
+    # already their own industries, so the broad `food` / `food and beverage` /
+    # `grocery` / `restaurant` tags stay out; a Fortune 500 packaged-foods
+    # manufacturer is a consumer-goods company, not a nutrition provider.
+    {
+        "slug": "nutrition",
+        "name": "Nutrition",
+        "icon": "nutrition",
+        "description": "Food composition databases, recipe and meal-planning platforms, food logging and diet tracking, supplements, and the dietitian and weight-management services built on top of them.",
+        "tags": [
+            "nutrition", "personalized nutrition", "sports nutrition", "infant nutrition",
+            "medical nutrition", "medical nutrition therapy", "enteral nutrition",
+            "telenutrition", "animal nutrition", "pet nutrition", "food and nutrition",
+            "nutritional supplements", "supplements", "dietary supplements", "vitamins",
+            "diet", "diets", "dietitian", "dietitians", "dietetics",
+            "calories", "food diary", "weight tracking", "weight loss", "weight management",
+            "recipes", "recipe search", "cooking", "meal planning", "meal plans",
+            "meal kit", "meal kits", "meal replacement", "meal subscription",
+            "food labeling", "branded foods", "baby food",
         ],
     },
 ]

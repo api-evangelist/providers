@@ -343,6 +343,13 @@
   "count": 843
  },
  {
+  "slug": "nutrition",
+  "name": "Nutrition",
+  "description": "Food composition databases, recipe and meal-planning platforms, food logging and diet tracking, supplements, and the dietitian and weight-management services built on top of them.",
+  "icon": "nutrition",
+  "count": 188
+ },
+ {
   "slug": "pet-care",
   "name": "Pet Care",
   "description": "Companies providing pet food, health products, veterinary pharmaceuticals, and retail services for companion animals and livestock.",
