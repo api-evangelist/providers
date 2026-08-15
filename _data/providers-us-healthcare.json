@@ -1,6 +1,6 @@
 {
- "total": 76,
- "shown": 76,
+ "total": 75,
+ "shown": 75,
  "limit": 1000,
  "bands": [
   {
@@ -214,8 +214,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 22,
-   "shown": 22,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Particle Health",
@@ -266,7 +266,7 @@
     {
      "name": "Veeva",
      "slug": "veeva",
-     "description": "Veeva Systems is a leader in cloud-based software for the global life sciences industry, providing solutions to help pharmaceutical and biotechnology companies bring products to market more efficiently.",
+     "description": "Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud whose REST API covers documents, binders, configurable Vault objects, workflows, users, groups, SCIM provisioning, sandbox management and the Direct Data API for high-speed bulk export, all queryable with VQL and extensible through the Vault Java SDK, Custom Pages and Spark Messaging. Veeva also ships two first-party MCP servers: a public Vault Documentation MCP and a tenant-scoped Vault MCP Server that exposes Vault AI agent actions as MCP tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
      "score": 52.3,
      "band": "developing",
@@ -443,7 +443,7 @@
     {
      "name": "drchrono",
      "slug": "drchrono",
-     "description": "drchrono is an EHR platform with a REST API for managing patient records, clinical encounters, appointments, prescriptions, billing, and HIPAA-compliant medical data exchange. It provides OAuth 2.0-secured endpoints covering patient management, clinical documentation, lab integration, scheduling, billing, and practice administration, enabling healthcare app developers to build integrations with the drchrono EHR ecosystem.",
+     "description": "drchrono, part of EverCommerce's EverHealth portfolio, is an all-in-one EHR, practice management and medical billing platform for independent US medical practices. It publishes two distinct machine-readable API surfaces. The proprietary REST v4 API (codename Hunt Valley) is an OAuth 2.0-secured contract of 170 paths and 329 operations covering patients, scheduling, clinical documentation, e-prescribing, labs, tasks, messaging and the full revenue cycle, published as a live OpenAPI 3.0 at https://app.drchrono.com/openapi-schema and complemented by a 27-event webhook surface. Alongside it drchrono runs a read-only, ONC-certified SMART on FHIR R4 server exposing 27 US Core resource types for USCDI interoperability, with SMART App Launch and OpenID Connect discovery, FHIR Bulk Data Export, and a public service base directory covering 105 practices. The two estates share no tokens, no scopes and no identifier space.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png",
      "score": 49.9,
      "band": "developing",
@@ -533,51 +533,6 @@
      "rank": 11
     },
     {
-     "name": "Zus Health",
-     "slug": "zus-health",
-     "description": "Zus Health is a next-generation shared health data platform that brings information speed to healthcare. Its flagship Zus Aggregated Profile (ZAP) consolidates a patient's longitudinal medical record — encounters, conditions, medications, labs, and transitions of care sourced from EHR, pharmacy, ADT, and lab networks plus TEFCA — into a single, deduplicated, FHIR R4-native view accessible via a standalone app, embeddable UI, or API. Zus exposes a FHIR R4 REST API and a read-only FHIR GraphQL Query Service (FQS) over 128 FHIR resource types, an Auth Service for machine-to-machine and user authentication, Patient History APIs for network enrollment and querying, Zushooks event webhooks, and SQL-friendly relational data marts on Snowflake and Databricks. The platform is SOC 2 Type 2 compliant and HIPAA-compliant.",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.0,
-      "governance": 12.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Interoperability & Health Data Networks",
-     "rank": 12
-    },
-    {
      "name": "Photon",
      "slug": "photon",
      "description": "Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.",
@@ -620,7 +575,7 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Ribbon Health",
@@ -666,7 +621,7 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Vim",
@@ -711,7 +666,7 @@
       "dry_run_mode": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Benchling",
@@ -757,12 +712,12 @@
       "dry_run_mode": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "H1",
      "slug": "h1",
-     "description": "H1 (h1.co) is a New York City-based healthcare data and technology company, founded in 2017, that combines deep healthcare provider data with agentic AI to power drug development, medical and commercial engagement, care navigation, and provider and network intelligence for life sciences, pharma, health plans, and digital health organizations across the United States. Its developer-facing API is the Ribbon Health API (H1 acquired Ribbon Health), a proprietary REST API served over HTTPS at https://api.ribbonhealth.com/v1 that provides accurate, comprehensive data on healthcare providers, locations, insurances, procedures, price transparency, cost estimates, and insurance eligibility. The API is not FHIR-based and does not expose a SMART-on-FHIR surface; it authenticates with a bearer API key and is segmented into provider, location, custom-filter, focus-area, price-transparency, cost-estimate/eligibility, organization, reference-data, and network-analysis product families. Access is gated behind a request-demo / API-key sign-up rather than fully self-serve.",
+     "description": "H1 (h1.co) is a New York City-based healthcare data and technology company, founded in 2017, that combines deep healthcare provider data with agentic AI to power drug development, medical and commercial engagement, care navigation, and provider and network intelligence for life sciences, pharma, health plans, and digital health organizations across the United States. Its developer-facing API is the Ribbon Health API (H1 acquired Ribbon Health), a proprietary REST API served over HTTPS at https://api.ribbonhealth.com that provides accurate, comprehensive data on healthcare providers, locations, insurances, procedures, price transparency, cost estimates, and insurance eligibility. Two OpenAPI 3.1 contracts are published - the 75-operation v1 API under /v1, and a newer 7-operation location-first Price Transparency v2 surface under /v2 that H1 tells new integrations to prefer over the legacy provider-first /v1/pricing endpoints. The API is not FHIR-based and does not expose a SMART-on-FHIR or Da Vinci PDEX Plan-Net surface; it authenticates with a bearer API key, has no OAuth scopes, and gates product families on per-account entitlement flags. It is segmented into provider, location, custom-filter, focus-area, price-transparency (v1 and v2), cost-estimate/eligibility, organization, reference-data, and network-analysis product families. Access is gated behind a request-demo / API-key sign-up rather than fully self-serve, and no pricing, plans, SDKs, sandbox, changelog or webhook surface is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/h1/refs/heads/main/screenshots/h1-2026-07-25T220500.png",
      "score": 48.2,
      "band": "developing",
@@ -803,7 +758,7 @@
       "dry_run_mode": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "NextGen Healthcare",
@@ -849,7 +804,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Practice Fusion",
@@ -894,12 +849,12 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Color",
      "slug": "color",
-     "description": "Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes a developer documentation surface at docs.color.com covering an Eligibility List API, Self-Reported Results and Vaccination Status APIs, SAML-based SSO, and SFTP/PGP file transfer for eligibility, claims, and member-event data.",
+     "description": "Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes an External API V1 at api.color.com/api/v1/external — 13 operations across eligibility entries, population reporting (participants, samples, results, self-reported results) and a lab/LIMS sample lifecycle — documented at docs.color.com/reference, alongside SAML-based SSO and SFTP/PGP file transfer for eligibility, claims, and member-event data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png",
      "score": 46.1,
      "band": "developing",
@@ -940,7 +895,7 @@
       "dry_run_mode": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Hint Health",
@@ -986,7 +941,7 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Human API",
@@ -1032,7 +987,7 @@
       "dry_run_mode": false
      },
      "tier": "Devices & Wearables",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Candid Health",
@@ -1078,7 +1033,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Commure",
@@ -1124,7 +1079,7 @@
       "dry_run_mode": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Luma Health",
@@ -1170,7 +1125,7 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Epic Systems",
@@ -1216,7 +1171,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 26
+     "rank": 25
     }
    ]
   },
@@ -1272,7 +1227,7 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Centers for Medicare and Medicaid Services",
@@ -1318,7 +1273,7 @@
       "dry_run_mode": false
      },
      "tier": "National Health System",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "MEDITECH",
@@ -1364,7 +1319,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Availity",
@@ -1403,12 +1358,12 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Komodo Health",
      "slug": "komodo-health",
-     "description": "Komodo Health is a healthcare technology company that combines a de-identified real-world data foundation — the Healthcare Map, over one trillion linked records covering 330M+ patients and refreshed daily — with a validated healthcare AI layer called Marmot, serving life sciences, payers, providers, financial services and consultancies. Its developer surface is the Marmot Development Kit: a first-party Python SDK and `komodo` CLI distributed on PyPI that authenticate with OAuth 2.0 (device flow for users, service-principal client credentials for machines) and broker access to a dedicated, per-account Komodo-managed Snowflake warehouse. The same package ships a first-party Model Context Protocol server that lets AI assistants explore warehouse schemas and drive the Komodo App Builder, plus a beta Cohort API for interactive patient-cohort exploration over ICD-10, CPT/HCPCS and NDC codes.",
+     "description": "Komodo Health is a healthcare technology company that combines a de-identified real-world data foundation — the Healthcare Map, over one trillion linked records covering 330M+ patients and refreshed daily — with a validated healthcare AI layer called Marmot, serving life sciences, payers, providers, financial services and consultancies. Its developer surface is the Marmot Development Kit: a first-party Python SDK and `komodo` CLI distributed on PyPI that authenticate with OAuth 2.0 (device flow for users, service-principal client credentials for machines) and broker access to a dedicated, per-account Komodo-managed Snowflake warehouse. The same package ships a first-party Model Context Protocol server that lets AI assistants explore warehouse schemas and drive the Komodo App Builder, a Marmot Analysis API reachable from `client.marmot` and `komodo marmot -c`, and a beta Cohort API for interactive patient-cohort exploration over ICD-10, CPT/HCPCS and NDC codes. Authentication runs against Komodo's own OpenID Connect authorization server at auth.komodohealth.com, which publishes anonymous OIDC and RFC 8414 discovery documents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komodo-health/refs/heads/main/screenshots/komodo-health-2026-07-25T224137.png",
      "score": 38.8,
      "band": "thin",
@@ -1449,7 +1404,7 @@
       "dry_run_mode": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Healthie",
@@ -1495,7 +1450,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Validic",
@@ -1540,12 +1495,12 @@
       "dry_run_mode": false
      },
      "tier": "Devices & Wearables",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Tebra",
      "slug": "tebra",
-     "description": "Tebra is a healthcare technology company providing an all-in-one operating system for independent medical practices - EHR, practice management, medical billing, patient engagement, and practice growth. Tebra was formed from the 2021 merger of Kareo (practice management and billing) and PatientPop (practice growth), and its developer surface reflects that lineage. Two documented API surfaces exist. The Tebra SOAP Practice Management API - the former Kareo Integration API, still served at webservice.kareo.com - covers patients, appointments, providers, practices, charges, encounters, payments, and transactions, and is partner / administrator gated. The Tebra Clinical Data API is a REST patient-access API published under tebra.com/macra (ONC / 21st Century Cures Act), exposing USCDI clinical data with an API Key the patient generates from the Tebra Patient Portal.",
+     "description": "Tebra is a healthcare technology company providing an all-in-one operating system for independent medical practices - EHR, practice management, medical billing, patient engagement, and practice growth. Tebra was formed from the 2021 merger of Kareo (practice management and billing) and PatientPop (practice growth), and its developer surface reflects that lineage. Three documented API surfaces exist. The Tebra SOAP Practice Management API - the former Kareo Integration API, still served at webservice.kareo.com - covers patients, appointments, providers, practices, charges, encounters, payments, and transactions, and is partner / administrator gated. The Tebra Clinical Data API is a REST patient-access API documented under tebra.com/macra (ONC / 21st Century Cures Act) with an API Key the patient generates from the Tebra Patient Portal; its documented host (api.tebra.com) no longer resolves in DNS as of this review. Tebra has since published a SMART on FHIR API (R4, US Core STU3 3.1.1, USCDI v1) at fhir.prd.cloud.tebra.com, built on the SmileCDR platform, offering no-charge patient read (GET) access to USCDI clinical resources over 2-legged or 3-legged OAuth 2.0.",
      "score": 37.4,
      "band": "thin",
      "band_label": "Thin",
@@ -1585,12 +1540,12 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Spruce Health",
      "slug": "spruce-health",
-     "description": "Spruce Health is a HIPAA-compliant healthcare communication platform that gives modern clinics secure messaging, voice, video, team chat, e-fax, secure payments, and phone lines in one system. The Spruce Public API is a RESTful, Bearer-token-authenticated interface (base https://api.sprucehealth.com/v1) that lets an organization manage Contacts, Conversations, conversation items and Messages, internal endpoints and phone lines, and register Webhook endpoints for real-time events. API access is gated - it is part of the Communicator plan and organizations must contact Spruce Support to have API access enabled before generating tokens.",
+     "description": "Spruce Health is a HIPAA-compliant healthcare communication platform that unifies phone, SMS, secure messaging, video, e-fax, team chat, mobile payments and VoIP phone lines into one system for medical practices, with AI-enabled voicemail transcription, summarization and call routing. Every eligible organization receives a signed HIPAA Business Associate Agreement as part of the terms of service, and since July 2026 that BAA also carries formal Qualified Service Organization support for 42 CFR Part 2. Spruce is SOC 2 Type II audited annually. The Spruce Public API is a RESTful, Bearer-token interface at https://api.sprucehealth.com/v1 spanning 47 operations across contacts, conversations, conversation items, internal endpoints and phone lines, media, organization members and teams, saved and scheduled messages, AI transcriptions, and webhook endpoint management. It ships a real OpenAPI 3.0 definition, a first-class s-idempotency-key on every mutating request, four rate-limit response headers across a 60-second and a 24-hour window, and 15 HMAC-signed webhook event types. API access is gated twice: it is part of the Communicator plan, and an organization must additionally contact Spruce Support to have API access enabled before an administrator can generate a token.",
      "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
@@ -1630,7 +1585,7 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Allscripts",
@@ -1676,12 +1631,12 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 36
+     "rank": 35
     },
     {
-     "name": "Cerner (Oracle Health)",
+     "name": "Oracle Health (Cerner)",
      "slug": "cerner",
-     "description": "Cerner is a global healthcare technology company that designs and develops electronic health record (EHR) and health information technology solutions for hospitals, clinics, and integrated delivery networks. Cerner was acquired by Oracle in June 2022 and is now branded as Oracle Health, with the Cerner Millennium EHR platform's developer program operating as the Oracle Health Developer Program. Millennium exposes HL7 FHIR R4 and DSTU2 APIs, SMART on FHIR app launching, Bulk FHIR, the CareAware device and integration APIs, and the Code Console developer portal for registering applications and obtaining sandbox and production credentials.",
+     "description": "Oracle Health, formerly Cerner, builds and operates Millennium — one of the two dominant electronic health record platforms in United States hospitals and health systems. Cerner was acquired by Oracle in June 2022 and its developer program now runs as the Oracle Health Developer Program. The public developer surface is HL7 FHIR R4: a multi-tenant, US Core-conformant FHIR server that serves a live CapabilityStatement at /metadata and a live SMART on FHIR discovery document at /.well-known/smart-configuration, advertising 303 OAuth scopes across patient, user and system personas in both SMART v1 and SMART v2 granular forms. It supports SMART App Launch (EHR and standalone), SMART Backend Services with private_key_jwt, FHIR Bulk Data Access export, and — unusually — an open, unauthenticated, read-only endpoint that serves real sandbox data with no registration at all. Alongside FHIR it operates proprietary Millennium EHR APIs, HL7 v2 messaging through Cerner Open Interface, and the CareAware device and integration platform. There is no OpenAPI, no GraphQL endpoint, no MCP server, no agent card, no published pricing, no published rate limits, no status page and no first-party SDK for the FHIR API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png",
      "score": 35.9,
      "band": "thin",
@@ -1722,7 +1677,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Metriport",
@@ -1768,12 +1723,13 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Redox",
      "slug": "redox",
      "description": "Redox is a healthcare data interoperability platform, founded in 2014 and headquartered in Madison, Wisconsin, that enables secure, real-time exchange of clinical and administrative data across the healthcare ecosystem. Through a single API and a network of 100+ EHR connections and 12,000+ connected healthcare organizations, Redox lets digital health vendors, providers, payers, EHRs, and life-sciences companies integrate once and reach the entire network. The platform offers a modern FHIR API, the legacy Redox Data Model (Redox Messages) event-based API, and a Platform API for managing organizations, sources, and destinations. Redox is HITRUST r2 and SOC 2 Type 2 certified and HIPAA, GDPR, and CCPA aligned, processing tens of billions of healthcare transactions annually.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/screenshots/redox-engine-2026-06-20T192731.png",
      "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1813,7 +1769,7 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "athenahealth",
@@ -1859,7 +1815,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Flexpa",
@@ -1905,7 +1861,7 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Health Gorilla",
@@ -1951,12 +1907,12 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "pVerify",
      "slug": "pverify",
-     "description": "pVerify provides real-time healthcare insurance eligibility verification and revenue-cycle APIs. Its RESTful API at https://api.pverify.com exchanges EDI 270/271 eligibility transactions, returns plan and benefit summaries, checks claim status (276/277), lists supported payers, and estimates patient financial responsibility, secured with OAuth2 bearer tokens.",
+     "description": "pVerify is a US healthcare insurance eligibility and revenue-cycle API company, part of DoseSpot (now Interra Health). Its REST API at https://api.pverify.com exchanges X12 270/271 eligibility transactions and returns parsed, practice-type-specific benefit summaries; runs 276/277 claim status inquiries; discovers unknown active coverage for self-pay patients; looks up Medicare Beneficiary Identifiers; validates patient demographics; publishes a supported-payer catalog with live per-payer up/down status; and estimates patient financial responsibility at the point of service. Authentication is an OAuth2 client-credentials bearer token plus a case-sensitive Client-API-Id header. pVerify publishes no OpenAPI — its machine-readable contract is a public Postman Collection v2.0.0 at https://postman.pverify.com/, from which the OpenAPI documents in this repository were derived operation-for-operation.",
      "score": 34.1,
      "band": "thin",
      "band_label": "Thin",
@@ -1996,7 +1952,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Kno2",
@@ -2042,7 +1998,7 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Medable",
@@ -2088,12 +2044,12 @@
       "dry_run_mode": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "DexCare",
      "slug": "dexcare",
-     "description": "DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand, Provider Data Management (PDM+), Optimize AI, and Acquire. DexCare exposes a RESTful API and native iOS, Android, and JavaScript SDKs that power search-and-schedule, virtual visits, patient records, provider data management, care-options discovery, omni search, and reporting for health systems. Public directory endpoints are open, while PHI/PII endpoints require OAuth 2.0-issued JWT bearer tokens. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare's public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).",
+     "description": "DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand, Provider Data Management (PDM+), Optimize AI, and Acquire. DexCare publishes six OpenAPI definitions on its own developer portal covering 27 operations across the Visit Service, Visit Booking, Care Options, Slots Availability, Omni Search and Provider Data Management services, alongside prose references for the Patient and Reporting APIs and native iOS, Android and JavaScript SDKs. There is no shared base URL: every health system is provisioned its own UAT and production hosts, and the published specifications use templated or per-tenant servers. Public directory, availability and search endpoints are open, while PHI/PII endpoints require an OAuth 2.0-issued JWT bearer token and server-to-server services require a DexCare-issued x-api-key. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare's public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png",
      "score": 32.2,
      "band": "thin",
@@ -2134,7 +2090,7 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Truepill",
@@ -2179,12 +2135,12 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "DoseSpot",
      "slug": "dosespot",
-     "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing (eRx) platform. Its REST API (v2) lets healthcare and EHR/EMR software embed the full prescription lifecycle - patient and clinician management, medication and drug search, pharmacy selection, e-prescribing, medication history, eligibility, and push notifications - using OAuth2 Bearer tokens scoped by clinic and clinician keys.",
+     "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing (eRx) platform that EHR, EMR, telehealth and digital-health vendors embed to add the full prescription lifecycle to their own software. The REST API v2 covers patients and demographics, allergies and allergen search, Medi-Span medication and supply search, drug-drug and drug-allergy interaction screening, the Surescripts pharmacy directory, prescription creation, signing and transmission including DEA-regulated EPCS for controlled substances, refill and RxChange queues, medication history, eligibility and real-time prescription benefit, electronic prior authorization, PDMP/Narx reports, and clinician, clinic and DEA-number administration. DoseSpot publishes two Swagger 2.0 contracts from its own SwaggerHub organization - Full + EPCS (171 operations) and JumpStart + EPCS (139 operations) - rendered at docs.dosespot.com, which DoseSpot calls the official source for its technical documentation. Access is sales-gated: credentials are issued by an assigned Integration Specialist. DoseSpot is part of Interra Health, alongside its subsidiary pVerify.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png",
      "score": 31.8,
      "band": "thin",
@@ -2225,12 +2181,12 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Optum",
      "slug": "optum",
-     "description": "Optum, part of UnitedHealth Group, is a health services and technology company that operates one of the largest medical and pharmacy networks in the United States. Its developer platform (developer.optum.com) exposes RESTful, JSON- and X12 EDI-based healthcare APIs for eligibility verification, professional and institutional claims validation and submission, claim status, ERA/remittance reports, prior authorization, attachments, payer directory, dental pre-care and claims, pharmacy solutions, and FHIR-based Data Access and Interoperability (Patient Access) endpoints. APIs are secured with OAuth2 client-credentials bearer tokens over TLS 1.2+, with free sandbox access, interactive \"Try It\" documentation, and downloadable OpenAPI specifications.",
+     "description": "Optum, part of UnitedHealth Group, is a health services and technology company that operates one of the largest medical, dental and pharmacy networks in the United States and runs the clearinghouse formerly known as Change Healthcare. Its developer platform (developer.optum.com) publishes eight product lines of RESTful JSON, native X12 EDI and HL7 FHIR R4 APIs: eligibility and coverage discovery, professional and institutional claim validation and submission, claim status, ERA/remittance reports, attachments, payer directory and outage feeds, prior authorization in both X12 278 and FHIR Da Vinci PAS/DTR/CRD form, provider access and bulk member match, dental pre-care estimates and claims, pharmacy formatting and submitter services, payer enrollment and document tracking, and Optum Insight Platform data, code-search and analytics services. Every API is secured with an OAuth2 client-credentials JWT bearer token over TLS 1.2+, with a free canned-response sandbox on a separate host. Optum also publishes an RFC 9727 API catalog at /.well-known/api-catalog, which is how the 59 OpenAPI documents in this repo were harvested.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png",
      "score": 31.8,
      "band": "thin",
@@ -2271,7 +2227,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Teladoc",
@@ -2316,12 +2272,12 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Cohere Health",
      "slug": "cohere-health",
-     "description": "Cohere Health is a United States clinical-intelligence and utilization-management company that digitizes prior authorization for health plans. Its Unify platform applies clinical AI and evidence-based policy to streamline authorization intake, review, and decisioning, and its API suite implements the HL7 Da Vinci Burden Reduction guides — Coverage Requirements Discovery (CRD), Documentation Templates and Rules (DTR), and Prior Authorization Support (PAS) — to help payers meet the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F). The FHIR R4 APIs support SMART on FHIR applications and are sold to and embedded with health plans rather than offered through a self-serve public developer portal; the documented product surface is real but the API endpoints are partner/health-plan gated.",
+     "description": "Cohere Health is a United States clinical-intelligence and utilization-management company that digitizes prior authorization for health plans. Its Unify platform applies clinical AI and evidence-based policy to streamline authorization intake, review, and decisioning, and its API suite implements the HL7 Da Vinci Burden Reduction guides — Coverage Requirements Discovery (CRD), Documentation Templates and Rules (DTR), and Prior Authorization Support (PAS) — to help payers meet the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F). The FHIR R4 APIs support SMART on FHIR applications and are sold to and embedded with health plans rather than offered through a self-serve public developer portal; the documented product surface is real but the API endpoints are partner/health-plan gated. The API-based offering is branded Cohere Connect™ and sits alongside the Cohere Unify platform (utilization management, payment integrity, appeals, care management, claims operations and quality), with in-workflow submission via Epic's Payer Platform. The company reports more than 15 million authorizations processed through the APIs and over 4,000 digitized policies.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png",
      "score": 29.4,
      "band": "thin",
@@ -2362,7 +2318,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 51
+     "rank": 50
     }
    ]
   },
@@ -2377,7 +2333,7 @@
     {
      "name": "Rhapsody",
      "slug": "rhapsody",
-     "description": "Rhapsody Health Solutions is a US-headquartered (Boston, Massachusetts) healthcare interoperability company trusted by more than 1,900 healthcare organizations across 31 countries, and recognized as Best in KLAS for integration engines for 17 consecutive years. Formed from the lineage of Orion Health's Rhapsody Integration Engine (2000), the 2019 merger with Corepoint Health, and acquisitions of Datica, NextGate EMPI, and CareCom, Rhapsody delivers a single interoperability platform spanning integration engines (Rhapsody and Corepoint), enterprise master patient index (EMPI / Rhapsody Identity), semantic terminology management, data governance (Guardian), and automated integrations (Envoy, Image Director). The platform supports FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and Model Context Protocol (MCP) from a single deployment, with embedded AI (Rhapsody Axon). Its home market is the United States, aligned to ONC/CMS interoperability mandates. Rhapsody's product REST/administration and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification.",
+     "description": "Rhapsody Health Solutions is a US-headquartered (Boston, Massachusetts) healthcare interoperability company trusted by more than 1,900 healthcare organizations across 31 countries, and recognized as Best in KLAS for integration engines for 17 consecutive years. Formed from the lineage of Orion Health's Rhapsody Integration Engine (2000), the 2019 merger with Corepoint Health, and acquisitions of Datica, NextGate EMPI, and CareCom, Rhapsody delivers a single interoperability platform spanning integration engines (Rhapsody and Corepoint), enterprise master patient index (EMPI / Rhapsody Identity), semantic terminology management, data governance (Guardian), and automated integrations (Envoy, Image Director). The platform supports FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and Model Context Protocol (MCP) from a single deployment, with embedded AI (Rhapsody Axon). Its home market is the United States, aligned to ONC/CMS interoperability mandates. Rhapsody added Guardian, a healthcare-purpose-built API gateway (OAuth 2.0, SMART on FHIR, Basic Auth), in October 2025. Rhapsody's product REST/administration and FHIR APIs are documented in a developer documentation portal (docs.rhapsody.health) that sits behind an AWS Cognito single-sign-on gate; there is no public self-serve API host or downloadable specification. The one machine-readable document Rhapsody does publish is an authoritative llms.txt at rhapsody.health/llms.txt.",
      "score": 26.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2417,12 +2373,12 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Amwell",
      "slug": "amwell",
-     "description": "Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, and government programs. Converge is built on an open architecture whose APIs leverage HL7 FHIR, single sign-on, and embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships verified embedded-telehealth integrations with the Epic and Oracle Cerner EHRs and connects software-enabled Carepoint devices. The developer surface is a gated partner developer portal (developers.amwell.com) — the REST/FHIR API reference, SDKs, and sandbox sit behind a partner login rather than an anonymous public spec.",
+     "description": "Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, employers, and government programs. Amwell describes Converge as an open architecture whose APIs leverage HL7 FHIR and single sign-on, with embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships a verified embedded-telehealth integration with Epic through the Epic App Orchard and an embedded telehealth solution inside Oracle Cerner Millennium, and connects software-enabled Carepoint devices. Amwell publishes no public developer portal, API reference, or machine-readable specification of any kind — SDK and API access is arranged through a partner and sales conversation (SDK@americanwell.com), so the integration contract is not readable before a deal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amwell/refs/heads/main/screenshots/amwell-2026-07-25T200143.png",
      "score": 25.6,
      "band": "emerging",
@@ -2463,7 +2419,7 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Innovaccer",
@@ -2509,7 +2465,7 @@
       "dry_run_mode": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Fasten Health",
@@ -2555,12 +2511,12 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "eClinicalWorks",
      "slug": "eclinicalworks",
-     "description": "eClinicalWorks is a cloud-based EHR and practice management platform serving more than 180,000 physicians and 850,000 medical professionals. It provides REST and FHIR-compliant APIs for accessing patient data, appointments, clinical notes, billing, and health information exchange. Third-party developers can build patient-facing apps via the healow developer portal and provider-facing or backend service apps via the eClinicalWorks FHIR developer portal, using SMART on FHIR and OAuth 2.0 authentication.",
+     "description": "eClinicalWorks is a cloud-based EHR and practice-management platform serving more than 180,000 physicians and 850,000 medical professionals. Its API surface is standards-based rather than proprietary: FHIR R4 served by the eCW FHIR Facade behind SMART on FHIR and OAuth 2.0, split across a provider-facing facade (fhir4.eclinicalworks.com) and a patient-facing healow facade (fhir4.healow.com), each tenant-scoped by a six-character practice code. eClinicalWorks publishes no OpenAPI; the machine-readable contract is the FHIR CapabilityStatement at each tenant's /metadata plus the SMART configuration at /.well-known/smart-configuration, which advertises 486 scopes. Capabilities include SMART EHR Launch and Standalone Launch, Backend Services with Group/$export bulk data, CDS Hooks, a documented writeback catalogue, patient-facing healow Clinical and Scheduling APIs, and a bidirectional healow RPM Vendor (Tracker) API for remote-monitoring device orders and observations. APIs are certified to the ONC 45 CFR 170.315(g)(10) Standardized API for Patient and Population Services criterion.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png",
      "score": 23.3,
      "band": "emerging",
@@ -2601,12 +2557,12 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Turquoise Health",
      "slug": "turquoise-health",
-     "description": "Turquoise Health is a healthcare price transparency platform that provides REST APIs for accessing hospital and insurer negotiated rates, out-of-pocket cost estimates, and machine-readable files (MRF) data. The platform enables precision pricing and intelligent contracting for finance teams across healthcare, covering providers, payers, and life sciences organizations. Turquoise Health also offers the Turquoise Connector MCP server for AI-tool integration with healthcare pricing data, Standard Service Packages (SSP) APIs, and open-source toolkits for FHIR financial transaction standards.",
+     "description": "Turquoise Health is a healthcare price transparency platform. Its public developer surface is the Consumer Pricing API — a documented OpenAPI 3.1.0 REST API at api.turquoise.health covering providers, payers, networks, Standard Service Packages, and cash and insurer-negotiated rates for shoppable services, plus personalized out-of-pocket estimates computed by layering a member's live X12 270/271 eligibility and accumulators onto a negotiated rate. The same OAuth 2.0 client-credentials token also authenticates a hosted Model Context Protocol server at consumer-mcp.turquoise.health, which exposes five workflow-shaped pricing tools to AI agents. Turquoise also sells platform tiers for market intelligence, contract intelligence and precision contracting to providers, payers and life sciences organizations, generates CMS-compliant machine-readable files, and publishes free public tools including the Medicare Pricer, payer transparency scores and a hospital transparency tracker.",
      "score": 23.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2646,7 +2602,7 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Klara",
@@ -2692,12 +2648,12 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Tuva Health",
      "slug": "tuva-health",
-     "description": "Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer's own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not an HTTP or FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. The company pairs the open-source project with a commercial Core Platform. Home market is the United States.",
+     "description": "Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer's own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not a FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. It does ship one HTTP API - Tuva EMPI, an Apache-2.0 enterprise master patient index with a documented OpenAPI 3.0.3 contract - but that too is customer-deployed from OCI images, so there is no Tuva-operated API host. The company pairs the open-source project with a commercial Core Platform and named services. Home market is the United States.",
      "score": 20.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2737,12 +2693,12 @@
       "dry_run_mode": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Waystar",
      "slug": "waystar",
-     "description": "Waystar is a healthcare payments and revenue cycle management (RCM) software company that operates a national clearinghouse connecting providers to payers. Its cloud platform spans financial clearance (eligibility, prior authorization, patient estimation), claim management, payment and remittance management, and denial prevention and recovery. Waystar exposes integration through REST APIs, web services, HL7, sFTP/batch, RPA, and X12 EDI transactions (270/271 eligibility, 276/277 claim status, 837 claims, 835 remittance/ERA, 278 authorization). API access is delivered through a partner/developer program at developer.waystar.com; detailed endpoint specifications, sandbox credentials, and authentication (HMAC-SHA256 / OAuth 2.0) are gated behind registration and a signed partnership, so the API surface below is modeled from Waystar's public product and developer-portal descriptions and the underlying X12 standards rather than from a published OpenAPI definition.",
+     "description": "Waystar is a healthcare payments and revenue cycle management (RCM) software company that operates a national clearinghouse connecting providers to payers. Its cloud platform spans financial clearance (eligibility, prior authorization, patient estimation), claim management, payment and remittance management, and denial prevention and recovery. Waystar exposes integration through REST APIs, web services, HL7, sFTP/batch, RPA, and X12 EDI transactions (270/271 eligibility, 276/277 claim status, 837 claims, 835 remittance/ERA, 278 authorization). API access is delivered through a partner/developer program at developer.waystar.com; the portal renders its full documentation navigation to anyone but serves a login form in place of every document body, and sandbox accounts are provisioned by email rather than self-service. Waystar publishes no OpenAPI, no llms.txt, no MCP server, no agent card and no client SDK in any package registry. Authentication is six hand-rolled schemes rather than one - HMAC-SHA1 body signatures on the classic Developer Suite, HMAC-SHA256 Authorization headers on Patient Estimation, credentials in the POST body on the eligibility gateway, HTTP Basic, WS-Security UsernameToken inside CAQH CORE SOAP envelopes, and X.509 client certificates - with no OAuth 2.0 and no OpenID Connect anywhere. The API surface below is documented from Waystar's public product pages, its developer-portal structure and the underlying X12 standards rather than from a published machine-readable definition.",
      "score": 20.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2782,12 +2738,12 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Infinitus",
      "slug": "infinitus",
-     "description": "Infinitus Systems is a safety-first healthcare voice AI platform that automates outbound and inbound phone calls to patients, payors, and providers for clinical and administrative tasks including benefit verification, prior authorization, prescription follow-up, and patient engagement. Its products include AI Agents (autonomous call handling), AI Copilots (human-assisted tools), Studio (a no-code agent builder), and Lens (conversation analysis and real-time clinical risk detection), backed by a healthcare knowledge graph. Benefit verification can be invoked as individual or bulk requests through an API, and the platform offers a Salesforce integration, though Infinitus does not publish a public developer portal or OpenAPI. The company is backed by GV and Kleiner Perkins.",
+     "description": "Infinitus Systems is a safety-first healthcare voice AI platform that automates outbound and inbound phone calls to patients, payors, and providers for clinical and administrative tasks including benefit verification, prior authorization, prescription follow-up, and patient engagement. Its products include AI Agents (autonomous call handling), AI Copilots (human-assisted tools), Studio (a no-code agent builder), and Lens (conversation analysis and real-time clinical risk detection), backed by a healthcare knowledge graph. Benefit verifications are submitted individually or in bulk through the customer portal, CSV upload, or a customer-gated REST and GraphQL API at api.infinitusai.com, with a packaged Salesforce Life Sciences Cloud, Health Cloud, and Agentforce integration. Infinitus operates no public developer portal and publishes no OpenAPI: every API endpoint requires an authenticated customer account. It is SOC 2 Type II certified and signs HIPAA Business Associate Agreements. The company is backed by GV and Kleiner Perkins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/infinitus/refs/heads/main/screenshots/infinitus-2026-07-25T222407.png",
      "score": 19.9,
      "band": "emerging",
@@ -2828,12 +2784,12 @@
       "dry_run_mode": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Change Healthcare",
      "slug": "change-healthcare",
-     "description": "Change Healthcare is a major US corporation and Fortune 1000 company. The Change Healthcare API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "description": "Change Healthcare was one of the largest healthcare technology and clearinghouse companies in the United States, moving eligibility, claim, remittance and prior-authorization transactions between providers and payers over X12 EDI. UnitedHealth Group acquired it in October 2022 and folded it into Optum, and the brand has since been retired: www.changehealthcare.com redirects to business.optum.com, developers.changehealthcare.com redirects path-for-path to developer.optum.com, and the apis.changehealthcare.com API gateway is decommissioned and documented by Optum as \"an old domain and no longer supported\". The Change Healthcare Medical Network APIs — Eligibility v3, Professional Claims v3, Institutional Claims v1, Claim Status v2, Claims Responses and Reports v2, Attachments, PayerList v1 and Prior Authorization v1 — are still operated and documented, but on Optum infrastructure and under Optum hosts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/change-healthcare/refs/heads/main/screenshots/change-healthcare-2026-06-20T174215.png",
      "score": 18.7,
      "band": "emerging",
@@ -2874,7 +2830,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Abridge",
@@ -2920,12 +2876,12 @@
       "dry_run_mode": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "23andMe",
      "slug": "23andme",
-     "description": "23andMe is a consumer genetics and biotechnology company founded in 2006 that sells saliva-based DNA test kits and returns ancestry composition, DNA relative matching, genetic health-predisposition and carrier-status reports, wellness and trait insights, and pharmacogenetic results directly to consumers, alongside a research arm that studies aggregated, consented genetic data. 23andMe historically published a scope-gated, OAuth 2.0 Personal Genome API at api.23andme.com, but closed third-party developer API access in September 2018; the company entered Chapter 11 bankruptcy in 2025 and its consumer web presence and assets have since shifted to the 23andme.org domain. No public, live developer API surface remains, though the company maintains a trust center and a security disclosure program.",
+     "description": "23andMe is a consumer genetics company founded in 2006 that sells saliva-based DNA test kits and returns ancestry composition across 4,500+ regions, DNA relative matching, FDA-cleared genetic health predisposition and carrier-status reports, pharmacogenetics, polygenic risk scores, wellness and trait insights, plus a Total Health tier adding exome sequencing, biannual blood testing and genetics-informed telehealth. It is now operated by the 23andMe Research Institute, a non-profit, following the company's 2025 Chapter 11 bankruptcy; the canonical consumer domain migrated from 23andme.com to 23andme.org, which serves the company's llms.txt, trust center and shop. 23andMe published a scope-gated OAuth 2.0 Personal Genome API at api.23andme.com but closed general third-party developer access in September 2018. It still markets API and raw-data integration through the 23andMe Marketplace as a partner arrangement, though no machine-readable contract, API reference, pricing or rate limits are published publicly, and the developer portal host answers a Cloudflare bot challenge to anonymous requests.",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2965,7 +2921,7 @@
       "dry_run_mode": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "HealthVerity",
@@ -3011,7 +2967,7 @@
       "dry_run_mode": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Artera",
@@ -3057,12 +3013,12 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Notable",
      "slug": "notable",
-     "description": "Notable is an intelligent-automation company purpose-built for healthcare, applying AI agents to administrative and operational workflows across patient access, revenue cycle management, care operations, and contact-center automation. Its platform pairs a library of prebuilt AI Agents with Flow Builder, a low-code interface for designing, training, and deploying automations, and Sidekick, a natural-language assistant for staff. Deployed at more than 1,000 healthcare locations and used by health systems including Intermountain Healthcare and the Medical University of South Carolina, Notable is backed by Greylock and ICONIQ Capital. This profile has been enriched from the company's public trust, security, and developer surfaces.",
+     "description": "Notable is an intelligent-automation company purpose-built for healthcare, applying AI agents to administrative and operational workflows across patient access, revenue cycle management, care operations, and contact-center automation. Its platform pairs a library of prebuilt AI Agents with Flow Builder, a low-code interface for designing, training, and deploying automations, Sidekick, a human-in-the-loop AI co-pilot for clinically complex work such as prior authorization, and Flow AI, a conversational assistant for workflow builders. Integration runs bi-directionally against Epic, Oracle Health/Cerner, MEDITECH, athenahealth and eClinicalWorks over a mix of FHIR APIs, HL7 interfaces, RPA and third-party APIs. Notable reports deployment at 12,000+ sites of care serving 38M+ patients, with customers including Intermountain Health, MUSC Health, CommonSpirit Health and CityMD, and is backed by ICONIQ Growth, Greylock, F-Prime, Oak HC/FT, Maverick Ventures and 8VC. Notable publishes no public API contract; its developer documentation sits behind customer SSO. This profile is enriched from the company's public trust, security, and llms.txt surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/screenshots/notable-2026-08-07T185548.png",
      "score": 17.3,
      "band": "emerging",
@@ -3103,7 +3059,7 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Wheel",
@@ -3148,12 +3104,12 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Sesame",
      "slug": "sesame",
-     "description": "Sesame is a direct-to-consumer telehealth marketplace that connects patients with board-certified clinicians for affordable, transparent, cash-pay virtual and in-person care. Patients browse and book pay-per-visit appointments starting around $34 across urgent care, prescription refills, weight loss and GLP-1 treatment, mental health, women's health, dermatology, pediatrics and more, with no insurance required and up-front pricing. The company also offers a SesamePlus membership, a mobile app, provider tooling for listing a practice, and Sesame @ Work employer plans. Sesame is backed by General Catalyst, GV, Matrix Partners, Redpoint Ventures, Spark Capital and SV Angel. As of this enrichment pass Sesame publishes a consumer web and mobile experience but no public developer API, developer portal, SDKs, or OpenAPI surface; its public GitHub organization hosts internal utility libraries rather than first-party client SDKs.",
+     "description": "Sesame is a direct-to-consumer telehealth marketplace that connects patients with board-certified clinicians for affordable, transparent, cash-pay virtual and in-person care. Patients browse and book pay-per-visit appointments starting around $34 across urgent care, prescription refills, weight loss and GLP-1 treatment, mental health, women's health, dermatology, pediatrics and more, with no insurance required and up-front pricing. The company also offers a SesamePlus membership, a mobile app, provider tooling for listing a practice, and Sesame @ Work employer plans. Sesame is backed by General Catalyst, GV, Matrix Partners, Redpoint Ventures, Spark Capital and SV Angel. As of this enrichment pass Sesame publishes a consumer web and mobile experience but no public developer API, developer portal, SDKs, or OpenAPI surface. It operates a private Apollo GraphQL endpoint at api.sesamecare.com/graphql that backs its own apps — anonymous requests return 401 and introspection is disabled in production — and its public GitHub organization publishes 17 general-purpose Node/TypeScript utility packages under the @sesamecare-oss npm scope rather than first-party API client SDKs.",
      "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3193,12 +3149,12 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Datavant",
      "slug": "datavant",
-     "description": "Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a \"network of networks\" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US health systems. Its core capabilities are privacy-preserving record linkage using Datavant tokens, HIPAA Expert Determination and de-identification, medical record retrieval / release of information, and real-world evidence generation for life sciences, payers, providers, and government. Datavant's integration surface is enterprise and partner/contract gated - an access-controlled API host exists at api.datavant.com (returns HTTP 403 to anonymous callers) but Datavant does not publish a self-serve public developer portal, a downloadable OpenAPI specification, or a FHIR CapabilityStatement. Home market is the United States.",
+     "description": "Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a \"network of networks\" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US health systems. Its core capabilities are privacy-preserving record linkage using Datavant tokens, HIPAA Expert Determination and de-identification, medical record retrieval / release of information, and real-world evidence generation for life sciences, payers, providers, and government. Datavant publishes a real machine-readable contract for the retrieval side of that business: an OpenAPI 3.1.0 document for the Datavant REST API (36 paths, 54 operations, OAuth 2.0 client credentials, base https://api.datavant.io/v2) is served anonymously at https://developer.datavant.com/openapi.json, even though that host's root returns HTTP 404. Access is still enterprise and contract-gated - there is no self-serve sign-up, no published pricing beyond a single AWS Marketplace listing, no published scopes or rate limits, and no FHIR CapabilityStatement. Home market is the United States.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png",
      "score": 13.5,
      "band": "emerging",
@@ -3239,12 +3195,12 @@
       "dry_run_mode": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Invitae",
      "slug": "invitae",
-     "description": "Invitae (now Labcorp Invitae, following Labcorp's 2024 acquisition of select Invitae assets) is a United States medical genetics and healthcare-technology company that provides clinical-grade hereditary and somatic genetic testing across oncology, women's health, cardiology, neurology, pediatrics, and rare disease. It offers providers an online ordering portal, licensed genetic counseling, and the Gia digital assistant, and returns results into clinician workflows. Invitae's integration posture is enterprise and partner-gated rather than a self-serve public developer API: genetic test orders and results reach the electronic health record through Epic-certified interfaces and Epic Aura (Orders and Results Anywhere Network) and traditional HL7 order/result feeds delivered by a dedicated EHR integration team. As of this review no public developer portal, FHIR CapabilityStatement, SMART-on-FHIR configuration, or downloadable OpenAPI is published; programmatic access is arranged through a partnership/integration engagement in its United States home market.",
+     "description": "Invitae — operated as Labcorp Invitae / Labcorp Genetics since Labcorp acquired select Invitae assets out of the company's 2024 Chapter 11 — is a United States medical genetics and healthcare-technology company providing clinical-grade hereditary and somatic genetic testing across oncology, women's health, cardiology, neurology, pediatrics, and rare disease. Its laboratory is CLIA-certified and CAP-accredited, and it publishes a HIPAA Notice of Privacy Practices and state laboratory licensure. Clinicians order tests and receive results through a web portal with licensed genetic counseling and the Gia digital assistant. Invitae publishes no API: contract discovery across every Invitae host found no developer portal, no OpenAPI, no GraphQL endpoint, no MCP server, no A2A agent card, no FHIR CapabilityStatement, no SMART-on-FHIR configuration, no webhooks, no client SDK and no /.well-known document. api.invitae.com resolves but returns a blanket nginx 403 for every path, and the developer, docs and fhir subdomains do not resolve at all. The company's public GitHub organization is genuine but consists of forks of upstream bioinformatics projects, not first-party specifications or libraries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/invitae/refs/heads/main/screenshots/invitae-2026-07-25T222754.png",
      "score": 13.5,
      "band": "emerging",
@@ -3285,7 +3241,7 @@
       "dry_run_mode": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 71
+     "rank": 70
     }
    ]
   },
@@ -3340,7 +3296,7 @@
       "dry_run_mode": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Eligible",
@@ -3385,7 +3341,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Regard",
@@ -3430,7 +3386,7 @@
       "dry_run_mode": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Clarify Health",
@@ -3476,12 +3432,12 @@
       "dry_run_mode": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Surescripts",
      "slug": "surescripts",
-     "description": "Surescripts operates the largest health information network in the United States, connecting prescribers, pharmacies, pharmacy benefit managers (PBMs), health plans, and health systems for e-prescribing, medication history, benefit and eligibility verification, electronic prior authorization, and clinical interoperability. Surescripts is a network operator rather than a public API provider - its transaction services run over NCPDP SCRIPT (NewRx, RxRenewal, RxChange, RxTransfer, RxFill, CancelRx), NCPDP Telecommunication, and X12 (270/271 eligibility, 278 prior authorization) standards. There is no self-serve developer portal, no published OpenAPI, and no free API keys; access is gated behind a Surescripts certification process (conformance testing against current NCPDP standards, plus DEA third-party audit for EPCS) or through a certified middleware/EHR partner. The service surfaces below are honestly modeled from Surescripts' published solution descriptions and the underlying NCPDP/X12 transaction standards - endpoints are not publicly documented.",
+     "description": "Surescripts operates the largest health information network in the United States, connecting prescribers, pharmacies, pharmacy benefit managers (PBMs), health plans, and health systems for e-prescribing, medication history, benefit and eligibility verification, electronic prior authorization, and clinical interoperability. Transaction services run over NCPDP SCRIPT (NewRx, RxRenewal, RxChange, RxTransfer, RxFill, CancelRx), NCPDP Real-Time Prescription Benefit, NCPDP Formulary and Benefit, X12 (270/271 eligibility, 278 prior authorization), the Direct Standard, and - since the Surescripts Developer Portal launched at docs.surescripts.com on 2026-08-06 - two publicly documented HTTP APIs - a Medication History for Populations API implemented in HL7 FHIR R4, and a four-endpoint Formulary Download REST API. Both authenticate the calling organization with a Surescripts-issued client certificate over mutual TLS plus a Participant ID header; Surescripts runs its own Certificate Authority. There is still no OpenAPI, no self-serve sign-up, no published pricing and no free API keys - production access requires Surescripts certification (conformance testing against current NCPDP standards, Certification Review Board contract approval, and a DEA third-party audit for EPCS) or integration through a certified middleware/EHR partner.",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3521,7 +3477,7 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 76
+     "rank": 75
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "total": 1114,
+ "total": 1108,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -109,8 +109,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "One Codex",
@@ -239,6 +239,44 @@
      "rank": 5
     },
     {
+     "name": "Veeva",
+     "slug": "veeva",
+     "description": "Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud whose REST API covers documents, binders, configurable Vault objects, workflows, users, groups, SCIM provisioning, sandbox management and the Direct Data API for high-speed bulk export, all queryable with VQL and extensible through the Vault Java SDK, Custom Pages and Spark Messaging. Veeva also ships two first-party MCP servers: a public Vault Documentation MCP and a tenant-scoped Vault MCP Server that exposes Vault AI agent actions as MCP tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 74.0,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
+    {
      "name": "Boltz",
      "slug": "boltz",
      "description": "Boltz (Boltz PBC) is a public-benefit AI research company building open-source and proprietary foundation models for biomolecular structure prediction, binding-affinity estimation, and generative protein and small-molecule design. Its open-source models (Boltz-1, Boltz-2, BoltzGen, all MIT-licensed) are used by 100,000+ scientists across pharma and biotech, and its commercial platform, Boltz Lab, pairs those models with managed compute and collaborative interfaces. The Boltz Compute API exposes these capabilities as asynchronous jobs - structure & binding prediction, ADME prediction, and small-molecule / protein design and library screening - with official Python, TypeScript, and Go SDKs, a CLI, and an MCP server for agentic drug-discovery workflows. Backed by a $28M seed round led by Amplify Partners, a16z, and Zetta Venture Partners.",
@@ -281,7 +319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "DNAnexus",
@@ -326,7 +364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Element Biosciences",
@@ -371,7 +409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Gencove",
@@ -416,7 +454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Predoc",
@@ -460,7 +498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Benchling",
@@ -505,7 +543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Roivant Sciences",
@@ -550,7 +588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "PubChem",
@@ -595,12 +633,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Color",
      "slug": "color",
-     "description": "Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes a developer documentation surface at docs.color.com covering an Eligibility List API, Self-Reported Results and Vaccination Status APIs, SAML-based SSO, and SFTP/PGP file transfer for eligibility, claims, and member-event data.",
+     "description": "Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes an External API V1 at api.color.com/api/v1/external — 13 operations across eligibility entries, population reporting (participants, samples, results, self-reported results) and a lab/LIMS sample lifecycle — documented at docs.color.com/reference, alongside SAML-based SSO and SFTP/PGP file transfer for eligibility, claims, and member-event data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png",
      "score": 46.1,
      "band": "developing",
@@ -640,7 +678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Dyno",
@@ -684,7 +722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "EvolutionaryScale",
@@ -729,7 +767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Science Exchange",
@@ -773,7 +811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Biodock",
@@ -818,7 +856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "National Institutes of Health (NIH)",
@@ -863,7 +901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     }
    ],
    "open": true
@@ -919,7 +957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "National Center for Biotechnology Information (NCBI)",
@@ -964,7 +1002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Huma",
@@ -1009,7 +1047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Varian Medical Systems",
@@ -1054,7 +1092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Labguru",
@@ -1099,7 +1137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Strand AI",
@@ -1143,7 +1181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Scispot",
@@ -1188,7 +1226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Harbinger Health",
@@ -1233,7 +1271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "A-Alpha Bio",
@@ -1278,7 +1316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Benchling",
@@ -1323,7 +1361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Castor",
@@ -1368,7 +1406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "STRING",
@@ -1413,7 +1451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "A2 Biotherapeutics",
@@ -1458,7 +1496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Perfect Day",
@@ -1495,7 +1533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Terrain Discovery Environment API",
@@ -1540,7 +1578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Guardant Health",
@@ -1585,7 +1623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "VivaLNK",
@@ -1629,7 +1667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "DP Technology (Bohrium)",
@@ -1667,7 +1705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Cresilon",
@@ -1712,7 +1750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Slingshot Biosciences",
@@ -1756,7 +1794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "UCSC Genomic Data",
@@ -1794,7 +1832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Empatica",
@@ -1838,7 +1876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "OpenClinica",
@@ -1883,7 +1921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Engrail Therapeutics",
@@ -1928,7 +1966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "ChEMBL",
@@ -1973,7 +2011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Yanyin Technology",
@@ -2017,7 +2055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Labstep",
@@ -2062,7 +2100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Neurable",
@@ -2106,7 +2144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "PubMed",
@@ -2151,7 +2189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "medRxiv",
@@ -2196,7 +2234,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Endeavor BioMedicines",
@@ -2240,7 +2278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Synthego",
@@ -2284,7 +2322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Alloplex Biotherapeutics",
@@ -2329,7 +2367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "myTomorrows",
@@ -2374,7 +2412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Lifebit Biotech",
@@ -2419,7 +2457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Medable",
@@ -2464,7 +2502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "JenaValve Technology",
@@ -2509,7 +2547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "LanzaTech",
@@ -2554,7 +2592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "CUTISS",
@@ -2598,7 +2636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Orakl",
@@ -2643,7 +2681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Leapcure",
@@ -2688,7 +2726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Ethyreal Bio",
@@ -2732,7 +2770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "ADARx Pharmaceuticals",
@@ -2777,7 +2815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "BioAegis Therapeutics",
@@ -2822,7 +2860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Brightseed",
@@ -2867,7 +2905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "CIONIC",
@@ -2911,7 +2949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "United States National Library of Medicine",
@@ -2956,7 +2994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Belharra Therapeutics",
@@ -3001,7 +3039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Circle Pharma",
@@ -3046,7 +3084,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "ClinicalTrials.gov",
@@ -3091,7 +3129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Life Biosciences",
@@ -3136,7 +3174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "RCSB PDB",
@@ -3181,7 +3219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Bond Pet Foods",
@@ -3218,7 +3256,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Flare Therapeutics",
@@ -3262,7 +3300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Star Therapeutics",
@@ -3306,7 +3344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Cancer.gov",
@@ -3351,7 +3389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Centrexion Therapeutics",
@@ -3395,7 +3433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "ReCode Therapeutics",
@@ -3439,7 +3477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Kriya Therapeutics",
@@ -3484,7 +3522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Nanome",
@@ -3529,7 +3567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Allay Therapeutics",
@@ -3574,7 +3612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Reactome",
@@ -3619,7 +3657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Life Sciences",
@@ -3664,7 +3702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Atsena Therapeutics",
@@ -3709,7 +3747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Kyoto Encyclopedia of Genes and Genomes (KEGG)",
@@ -3754,7 +3792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Dimensions",
@@ -3799,7 +3837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Dotmatics",
@@ -3844,7 +3882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "DalCor Pharmaceuticals",
@@ -3889,7 +3927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Genentech",
@@ -3934,7 +3972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Biogen",
@@ -3978,7 +4016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "AWAKENS",
@@ -4023,7 +4061,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "BenchSci",
@@ -4068,7 +4106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "GRIN Therapeutics",
@@ -4113,7 +4151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "BostonGene",
@@ -4158,7 +4196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Caris Life Sciences",
@@ -4203,7 +4241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     }
    ]
   },
@@ -4212,8 +4250,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 161,
-   "shown": 161,
+   "count": 160,
+   "shown": 160,
    "providers": [
     {
      "name": "Vestaron",
@@ -4257,7 +4295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "ChromaCode",
@@ -4302,7 +4340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Medrio",
@@ -4347,7 +4385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Ascend Advanced Therapies",
@@ -4392,7 +4430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Wugen",
@@ -4436,7 +4474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Mission Bio",
@@ -4481,7 +4519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "BEKHealth",
@@ -4526,7 +4564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Truveta",
@@ -4570,7 +4608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Proscia",
@@ -4614,7 +4652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Abcuro",
@@ -4659,7 +4697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Elephas Biosciences",
@@ -4703,7 +4741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Annexus Health",
@@ -4748,7 +4786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Chai Discovery",
@@ -4786,7 +4824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "piscesCSM",
@@ -4824,7 +4862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Alzheon",
@@ -4869,7 +4907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Colossal Biosciences",
@@ -4914,7 +4952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Diligent Pharma",
@@ -4958,7 +4996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Droplet Biosciences",
@@ -5002,7 +5040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Earable",
@@ -5047,7 +5085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Molecule",
@@ -5092,7 +5130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Paige",
@@ -5137,7 +5175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Strata Oncology",
@@ -5181,7 +5219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "DNA Script",
@@ -5226,7 +5264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Beacon Biosignals",
@@ -5271,7 +5309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "ConcertAI",
@@ -5315,7 +5353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Strateos",
@@ -5359,7 +5397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Tune Therapeutics",
@@ -5403,7 +5441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Enveda",
@@ -5448,7 +5486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Orionis Biosciences",
@@ -5493,7 +5531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Cellarity",
@@ -5537,7 +5575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Trilobio",
@@ -5581,7 +5619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Inato",
@@ -5626,7 +5664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Transcriptic",
@@ -5670,7 +5708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "UniProt",
@@ -5715,7 +5753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Boundless Bio",
@@ -5759,7 +5797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "TwinStrand Biosciences",
@@ -5803,7 +5841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Code Biotherapeutics",
@@ -5847,7 +5885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Condor",
@@ -5892,7 +5930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Colossal Laboratories & Biosciences",
@@ -5936,7 +5974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Metricwire",
@@ -5981,7 +6019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Ginkgo Bioworks",
@@ -6019,7 +6057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Debut",
@@ -6056,7 +6094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Milaboratories",
@@ -6101,7 +6139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Emulate",
@@ -6146,7 +6184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Predictive Oncology Model and Data Clearinghouse",
@@ -6191,7 +6229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Radical Health",
@@ -6235,7 +6273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Ensembl",
@@ -6280,7 +6318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Causaly",
@@ -6325,7 +6363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "American Gene Technologies",
@@ -6370,7 +6408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Evolved By Nature",
@@ -6407,7 +6445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Aro Biotherapeutics",
@@ -6452,7 +6490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Scene Health",
@@ -6496,7 +6534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Sapio Sciences",
@@ -6541,7 +6579,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "OWKIN",
@@ -6586,7 +6624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Vizgen",
@@ -6630,7 +6668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "HumanFirst",
@@ -6675,7 +6713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "LifeMine",
@@ -6720,7 +6758,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Elegen",
@@ -6765,7 +6803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Kartos Therapeutics",
@@ -6810,7 +6848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Runharbor",
@@ -6854,7 +6892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Leal Health (fka TrialJectory)",
@@ -6899,7 +6937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Curebase",
@@ -6944,7 +6982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Iomed",
@@ -6989,7 +7027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Tempus AI",
@@ -7033,7 +7071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Zetagen Therapeutics",
@@ -7077,7 +7115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Antares Therapeutics",
@@ -7122,7 +7160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "GSK",
@@ -7167,7 +7205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Onepot",
@@ -7212,7 +7250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "AccessHope",
@@ -7257,7 +7295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Champions Oncology",
@@ -7302,7 +7340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Arbor Biotechnologies",
@@ -7347,7 +7385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "CaaMTech",
@@ -7391,7 +7429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "EDDA Technology",
@@ -7436,7 +7474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Evidation Health",
@@ -7481,12 +7519,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "23andMe",
      "slug": "23andme",
-     "description": "23andMe is a consumer genetics and biotechnology company founded in 2006 that sells saliva-based DNA test kits and returns ancestry composition, DNA relative matching, genetic health-predisposition and carrier-status reports, wellness and trait insights, and pharmacogenetic results directly to consumers, alongside a research arm that studies aggregated, consented genetic data. 23andMe historically published a scope-gated, OAuth 2.0 Personal Genome API at api.23andme.com, but closed third-party developer API access in September 2018; the company entered Chapter 11 bankruptcy in 2025 and its consumer web presence and assets have since shifted to the 23andme.org domain. No public, live developer API surface remains, though the company maintains a trust center and a security disclosure program.",
+     "description": "23andMe is a consumer genetics company founded in 2006 that sells saliva-based DNA test kits and returns ancestry composition across 4,500+ regions, DNA relative matching, FDA-cleared genetic health predisposition and carrier-status reports, pharmacogenetics, polygenic risk scores, wellness and trait insights, plus a Total Health tier adding exome sequencing, biannual blood testing and genetics-informed telehealth. It is now operated by the 23andMe Research Institute, a non-profit, following the company's 2025 Chapter 11 bankruptcy; the canonical consumer domain migrated from 23andme.com to 23andme.org, which serves the company's llms.txt, trust center and shop. 23andMe published a scope-gated OAuth 2.0 Personal Genome API at api.23andme.com but closed general third-party developer access in September 2018. It still markets API and raw-data integration through the 23andMe Marketplace as a partner arrangement, though no machine-readable contract, API reference, pricing or rate limits are published publicly, and the developer portal host answers a Cloudflare bot challenge to anonymous requests.",
      "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7525,7 +7563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Tilda Research",
@@ -7569,7 +7607,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Amgen",
@@ -7614,7 +7652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Beaconcure",
@@ -7659,7 +7697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Biomodal",
@@ -7704,7 +7742,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Viome",
@@ -7748,7 +7786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Virgo",
@@ -7792,7 +7830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "QUIBIM",
@@ -7836,7 +7874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Lantern",
@@ -7881,7 +7919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Dragonfly Therapeutics",
@@ -7925,7 +7963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Caidya",
@@ -7969,7 +8007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Faro",
@@ -8014,7 +8052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Genalyte",
@@ -8059,7 +8097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "nference",
@@ -8104,7 +8142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "RefleXion Medical",
@@ -8148,7 +8186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "10x Genomics",
@@ -8193,7 +8231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Unlearn.AI",
@@ -8237,7 +8275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Infera",
@@ -8282,7 +8320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Rivia",
@@ -8326,7 +8364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Axsome Therapeutics",
@@ -8371,7 +8409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Regeneron Pharmaceuticals",
@@ -8416,7 +8454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Genome Medical",
@@ -8458,51 +8496,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 190
-    },
-    {
-     "name": "PathAI",
-     "slug": "path-ai",
-     "description": "PathAI is a Boston-based digital pathology company that builds AI-powered technology to improve the accuracy and efficiency of cancer and disease diagnosis. Its flagship AISight Image Management System is a cloud-native, open enterprise platform that laboratories and research centers use to power digital pathology workflows and run AI applications against whole-slide images. PathAI also develops proprietary machine-learning algorithms for biomarker analysis and biopharma research, backed by a network of 450+ pathologists who have contributed tens of millions of image annotations. For developers, PathAI publishes AISight Link, an open API framework that lets third-party algorithm developers integrate their solutions into the AISight workflow (AI Impressions, Fields of Interest, quantitative result reporting, and case-level tools). AISight Link is a partner-integration API without a public self-serve developer portal; access is arranged through PathAI (digitaldx@pathai.com).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/path-ai/refs/heads/main/screenshots/path-ai-2026-08-07T191544.png",
-     "score": 16.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 25.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -10782,7 +10775,7 @@
     {
      "name": "Invitae",
      "slug": "invitae",
-     "description": "Invitae (now Labcorp Invitae, following Labcorp's 2024 acquisition of select Invitae assets) is a United States medical genetics and healthcare-technology company that provides clinical-grade hereditary and somatic genetic testing across oncology, women's health, cardiology, neurology, pediatrics, and rare disease. It offers providers an online ordering portal, licensed genetic counseling, and the Gia digital assistant, and returns results into clinician workflows. Invitae's integration posture is enterprise and partner-gated rather than a self-serve public developer API: genetic test orders and results reach the electronic health record through Epic-certified interfaces and Epic Aura (Orders and Results Anywhere Network) and traditional HL7 order/result feeds delivered by a dedicated EHR integration team. As of this review no public developer portal, FHIR CapabilityStatement, SMART-on-FHIR configuration, or downloadable OpenAPI is published; programmatic access is arranged through a partnership/integration engagement in its United States home market.",
+     "description": "Invitae — operated as Labcorp Invitae / Labcorp Genetics since Labcorp acquired select Invitae assets out of the company's 2024 Chapter 11 — is a United States medical genetics and healthcare-technology company providing clinical-grade hereditary and somatic genetic testing across oncology, women's health, cardiology, neurology, pediatrics, and rare disease. Its laboratory is CLIA-certified and CAP-accredited, and it publishes a HIPAA Notice of Privacy Practices and state laboratory licensure. Clinicians order tests and receive results through a web portal with licensed genetic counseling and the Gia digital assistant. Invitae publishes no API: contract discovery across every Invitae host found no developer portal, no OpenAPI, no GraphQL endpoint, no MCP server, no A2A agent card, no FHIR CapabilityStatement, no SMART-on-FHIR configuration, no webhooks, no client SDK and no /.well-known document. api.invitae.com resolves but returns a blanket nginx 403 for every path, and the developer, docs and fhir subdomains do not resolve at all. The company's public GitHub organization is genuine but consists of forks of upstream bioinformatics projects, not first-party specifications or libraries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/invitae/refs/heads/main/screenshots/invitae-2026-07-25T222754.png",
      "score": 13.5,
      "band": "emerging",
@@ -11366,7 +11359,7 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 855,
+   "count": 849,
    "shown": 745,
    "providers": [
     {
@@ -14593,51 +14586,6 @@
      "rank": 327
     },
     {
-     "name": "eGenesis",
-     "slug": "egenesisbio",
-     "description": "eGenesis is a clinical-stage biotechnology company based in Cambridge, Massachusetts, developing human-compatible, genetically engineered organs to address the global organ shortage. Using a proprietary CRISPR-based multiplex genome-editing platform, eGenesis modifies the porcine genome to inactivate endogenous retroviruses and add protective human transgenes, producing pig kidneys, livers, and hearts intended for xenotransplantation. Its lead program, EGEN-2784, is a genetically engineered porcine kidney being evaluated in an expanded-access study. This API Evangelist profile tracks the company; eGenesis publishes no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/egenesisbio/refs/heads/main/screenshots/egenesisbio-2026-07-25T212952.png",
-     "score": 11.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 328
-    },
-    {
      "name": "Enveda",
      "slug": "enveda",
      "description": "Enveda is a Boulder, Colorado based drug discovery company that combines artificial intelligence with the chemistry of nature to accelerate the development of new medicines. Its platform mines the vast chemical diversity of plants and other natural sources, using machine learning to decode complex natural compounds, identify their chemical structures and biological activity, and surface novel drug candidates faster than traditional approaches. Enveda was surfaced as a portfolio company of True Ventures and added to the API Evangelist network. As a private biotechnology and drug discovery firm it publishes a corporate and scientific web presence rather than a public developer API, so this profile captures its identity, security posture, and web properties.",
@@ -14680,7 +14628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Erasca",
@@ -14725,7 +14673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Escient Pharmaceuticals",
@@ -14770,7 +14718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Feel Therapeutics",
@@ -14815,7 +14763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Frontage Laboratories",
@@ -14860,7 +14808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Ideaya Biosciences",
@@ -14905,7 +14853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Impelpharma",
@@ -14950,7 +14898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Iterative Health (fka Iterative Scopes)",
@@ -14995,7 +14943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Kailera Therapeutics",
@@ -15040,7 +14988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "Kirilys Therapeutics",
@@ -15085,7 +15033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Mirvie",
@@ -15130,7 +15078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Mural Health",
@@ -15175,7 +15123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "OriGene Technologies",
@@ -15219,7 +15167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Ossium Health",
@@ -15264,7 +15212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Outcomes4Me",
@@ -15309,7 +15257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "POMS",
@@ -15353,7 +15301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Pretzel Therapeutics",
@@ -15397,7 +15345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Profluent",
@@ -15435,7 +15383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Rénibus Therapeutics",
@@ -15479,7 +15427,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Sano",
@@ -15523,7 +15471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Science 37 *",
@@ -15567,7 +15515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Sidewinder Therapeutics",
@@ -15611,7 +15559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "SPT Labtech",
@@ -15655,7 +15603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "Tenaya Therapeutics *",
@@ -15699,7 +15647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Tigermed",
@@ -15743,7 +15691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Vibe Bio",
@@ -15787,7 +15735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Vilya",
@@ -15831,7 +15779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Vividion Therapeutics",
@@ -15875,7 +15823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "VivorCare",
@@ -15919,7 +15867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Zai Lab",
@@ -15963,7 +15911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Alleviant Medical",
@@ -16008,7 +15956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "Basking Biosciences",
@@ -16053,7 +16001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "BlossomHill Therapeutics",
@@ -16098,7 +16046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "Casma Therapeutics",
@@ -16143,7 +16091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Circular Genomics",
@@ -16187,7 +16135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "City Therapeutics",
@@ -16232,7 +16180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "DiscGenics",
@@ -16276,7 +16224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Electra Therapeutics",
@@ -16321,7 +16269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Florence Healthcare",
@@ -16366,7 +16314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Lycia Therapeutics",
@@ -16411,7 +16359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Nuvig Therapeutics",
@@ -16456,7 +16404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Triomics",
@@ -16500,7 +16448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Triveni Bio",
@@ -16544,7 +16492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Valence Discovery",
@@ -16588,7 +16536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Valo Health",
@@ -16632,7 +16580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "AbbVie",
@@ -16677,7 +16625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Ginkgo Bioworks",
@@ -16722,7 +16670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Manus Bio",
@@ -16767,7 +16715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "3T Biosciences",
@@ -16805,7 +16753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Calysta",
@@ -16842,7 +16790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Checkerspot",
@@ -16880,7 +16828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Modern Meadow",
@@ -16918,7 +16866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Mytos",
@@ -16963,7 +16911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "UPSIDE Foods",
@@ -17000,7 +16948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Aer Therapeutics",
@@ -17045,7 +16993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Aktis Oncology",
@@ -17090,7 +17038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Angitia Biopharmaceuticals",
@@ -17135,7 +17083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "ArriVent",
@@ -17180,7 +17128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Avalynpharma",
@@ -17225,7 +17173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "Beam Therapeutics *",
@@ -17270,7 +17218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "Compass Therapeutics",
@@ -17315,7 +17263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "CRISPR Therapeutics",
@@ -17360,7 +17308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Curie.Bio",
@@ -17405,7 +17353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Esperion Therapeutics",
@@ -17449,7 +17397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "Flex Pharma, Inc.",
@@ -17494,7 +17442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Fractyl Health",
@@ -17539,7 +17487,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Gan & Lee Pharmaceuticals",
@@ -17584,7 +17532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Glyphic Biotechnologies",
@@ -17629,7 +17577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "Insmed",
@@ -17674,7 +17622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Iterative Health",
@@ -17719,7 +17667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Probably Genetic",
@@ -17763,7 +17711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Sana Biotechnology *",
@@ -17807,7 +17755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Taxa",
@@ -17851,7 +17799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Transposon Therapeutics",
@@ -17895,7 +17843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "Tyra Biosciences",
@@ -17939,7 +17887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Vir",
@@ -17983,7 +17931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Acepodia",
@@ -18028,7 +17976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Adimab",
@@ -18073,7 +18021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "ARTBIO",
@@ -18118,7 +18066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Bright Peak Therapeutics",
@@ -18162,7 +18110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "CoRegen",
@@ -18206,7 +18154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "Evommune",
@@ -18250,7 +18198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "HistoSonics",
@@ -18295,7 +18243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Latus Bio",
@@ -18340,7 +18288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Rivus Pharmaceuticals",
@@ -18384,7 +18332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Trace Neuroscience",
@@ -18428,7 +18376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "Valar Labs",
@@ -18472,7 +18420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "Atlas5D",
@@ -18517,7 +18465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "Iambic Therapeutics",
@@ -18562,7 +18510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "Kiko Labs",
@@ -18600,7 +18548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "Roche",
@@ -18645,7 +18593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Conformal Medical",
@@ -18689,7 +18637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Ablative Solutions",
@@ -18734,7 +18682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Accent Therapeutics",
@@ -18779,7 +18727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "Aerska",
@@ -18824,7 +18772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "AIRNA",
@@ -18869,7 +18817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "Alamar Biosciences",
@@ -18914,7 +18862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "AminoChain",
@@ -18959,7 +18907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "antengene",
@@ -19004,7 +18952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "Asher Biotherapeutics",
@@ -19049,7 +18997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "Believer Meats",
@@ -19087,7 +19035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "BioNTech",
@@ -19132,7 +19080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 429
     },
     {
      "name": "Bitterroot Bio",
@@ -19177,7 +19125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "Cartography Biosciences",
@@ -19222,7 +19170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "Cellares",
@@ -19267,7 +19215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "Corsair Pharma",
@@ -19311,7 +19259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Cour Pharmaceuticals Development",
@@ -19355,7 +19303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "Covance (Fortrea)",
@@ -19400,7 +19348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Creyon Bio",
@@ -19445,7 +19393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "Evergreen Theragnostics",
@@ -19489,7 +19437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "insitro",
@@ -19533,7 +19481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "Karius",
@@ -19578,7 +19526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 439
     },
     {
      "name": "Parabilis Medicines",
@@ -19623,7 +19571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 440
     },
     {
      "name": "Protagonist Therapeutics",
@@ -19667,7 +19615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 441
     },
     {
      "name": "Qlaris Bio",
@@ -19711,7 +19659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 442
     },
     {
      "name": "Roivant",
@@ -19755,7 +19703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 443
     },
     {
      "name": "Spero Therapeutics",
@@ -19799,7 +19747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 444
     },
     {
      "name": "Switch Therapeutics",
@@ -19843,7 +19791,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 445
     },
     {
      "name": "Vertex Pharmaceuticals",
@@ -19888,7 +19836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 446
     },
     {
      "name": "Zencore Biologics",
@@ -19932,7 +19880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 447
     },
     {
      "name": "Procyrion",
@@ -19976,7 +19924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 448
     },
     {
      "name": "Verana Health",
@@ -20020,7 +19968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 449
     },
     {
      "name": "Adagio Therapeutics",
@@ -20065,7 +20013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 450
     },
     {
      "name": "Aera Therapeutics",
@@ -20110,7 +20058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 451
     },
     {
      "name": "Arvinas",
@@ -20155,7 +20103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 452
     },
     {
      "name": "Auron Therapeutics",
@@ -20200,7 +20148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 453
     },
     {
      "name": "C. R. Bard",
@@ -20245,7 +20193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 454
     },
     {
      "name": "Chemify",
@@ -20283,7 +20231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 455
     },
     {
      "name": "Chemify Limited",
@@ -20321,7 +20269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 456
     },
     {
      "name": "Dren Bio",
@@ -20359,7 +20307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 457
     },
     {
      "name": "Elo Life",
@@ -20397,7 +20345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 458
     },
     {
      "name": "Engrail",
@@ -20442,7 +20390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 459
     },
     {
      "name": "Enlaza Therapeutics",
@@ -20487,7 +20435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 460
     },
     {
      "name": "Gourmey",
@@ -20525,7 +20473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 461
     },
     {
      "name": "ltztherapeutics",
@@ -20563,7 +20511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 462
     },
     {
      "name": "MycoTechnology",
@@ -20601,7 +20549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 463
     },
     {
      "name": "Ollin Bio",
@@ -20646,7 +20594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 464
     },
     {
      "name": "Outpace Bio",
@@ -20683,7 +20631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 465
     },
     {
      "name": "Pelage Pharmaceuticals",
@@ -20727,7 +20675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 466
     },
     {
      "name": "Prime Medicine",
@@ -20771,7 +20719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 467
     },
     {
      "name": "Ray Therapeutics",
@@ -20815,7 +20763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 468
     },
     {
      "name": "Revalia Bio",
@@ -20859,7 +20807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 469
     },
     {
      "name": "Solu Therapeutics",
@@ -20903,7 +20851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 470
     },
     {
      "name": "Structure Therapeutics",
@@ -20947,7 +20895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 471
     },
     {
      "name": "Vera Therapeutics",
@@ -20991,52 +20939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
-    },
-    {
-     "name": "Alpha-9 Oncology",
-     "slug": "alpha9",
-     "description": "Alpha-9 Oncology is a clinical-stage radiopharmaceutical company developing targeted radioligand therapies and imaging agents to treat solid and hematologic cancers with high precision. Founded in 2019 and backed by Lightspeed Venture Partners, the company engineers each molecule — binder, linker, chelator, and radioisotope — through a bespoke, iterative optimization process, and is advancing a pipeline that includes the A9-3202 imaging agent and the Actinium-225-based therapeutic A9-3408 into clinical trials. Alpha-9 is a therapeutics company with no public developer API, developer portal, or SDKs; it was surfaced in the API Evangelist network as a venture-portfolio lead from Lightspeed Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpha9/refs/heads/main/screenshots/alpha9-2026-07-25T195753.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 10.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 474
+     "rank": 472
     },
     {
      "name": "Breezebio",
@@ -21081,7 +20984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 473
     },
     {
      "name": "Dewpoint Therapeutics",
@@ -21126,7 +21029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 474
     },
     {
      "name": "Frontier Medicines",
@@ -21171,7 +21074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 475
     },
     {
      "name": "MPIRIQ",
@@ -21216,7 +21119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 476
     },
     {
      "name": "Obsidian Therapeutics",
@@ -21261,7 +21164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 477
     },
     {
      "name": "Rallybio",
@@ -21305,7 +21208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 478
     },
     {
      "name": "Thyme Care",
@@ -21349,7 +21252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 479
     },
     {
      "name": "Unchained Labs",
@@ -21393,7 +21296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 480
     },
     {
      "name": "Zag Bio",
@@ -21437,7 +21340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 481
     },
     {
      "name": "Pathos",
@@ -21482,7 +21385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 482
     },
     {
      "name": "Prellis Biologics",
@@ -21526,7 +21429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 483
     },
     {
      "name": "Tierra Biosciences",
@@ -21570,7 +21473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 484
     },
     {
      "name": "Alta Resource Technologies",
@@ -21608,7 +21511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 485
     },
     {
      "name": "Anto Biosciences",
@@ -21653,7 +21556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 486
     },
     {
      "name": "Benson Hill *",
@@ -21691,7 +21594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 487
     },
     {
      "name": "EnerGaia",
@@ -21729,7 +21632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 488
     },
     {
      "name": "Inovia Bio",
@@ -21774,7 +21677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 489
     },
     {
      "name": "Iterum Therapeutics",
@@ -21819,7 +21722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 490
     },
     {
      "name": "Mission Barns",
@@ -21857,7 +21760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 491
     },
     {
      "name": "Oncimmune",
@@ -21902,7 +21805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 492
     },
     {
      "name": "Alexandria Real Estate Equities",
@@ -21947,7 +21850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 493
     },
     {
      "name": "BlueNalu",
@@ -21985,7 +21888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 494
     },
     {
      "name": "Schrödinger",
@@ -22030,7 +21933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 495
     },
     {
      "name": "Immunai",
@@ -22075,7 +21978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 496
     },
     {
      "name": "Medpace Holdings",
@@ -22120,7 +22023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 497
     },
     {
      "name": "Vivid Vision",
@@ -22164,7 +22067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 498
     },
     {
      "name": "Actio Biosciences",
@@ -22202,7 +22105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 499
     },
     {
      "name": "Alterome Therapeutics",
@@ -22247,7 +22150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 500
     },
     {
      "name": "Averna Therapeutics",
@@ -22292,7 +22195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 501
     },
     {
      "name": "Gandeeva",
@@ -22330,7 +22233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 502
     },
     {
      "name": "Ionis Pharmaceuticals",
@@ -22368,7 +22271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 503
     },
     {
      "name": "Merida Biosciences",
@@ -22413,7 +22316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 504
     },
     {
      "name": "Newleos Therapeutics",
@@ -22458,52 +22361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
-    },
-    {
-     "name": "Alamar Biosciences",
-     "slug": "alamarbio",
-     "description": "Alamar Biosciences is a precision proteomics company advancing early disease detection through its NULISA platform and ARGO HT System. NULISA (NUcleic acid Linked Immuno-Sandwich Assay) combines a sequential immunocomplex capture-and-release mechanism with next-generation sequencing readout to deliver attomolar sensitivity and high-plex multiplexing for protein biomarker discovery, validation, and translational research. The fully automated ARGO HT System processes up to 288 samples per batch with under 30 minutes of hands-on time, supporting large-cohort studies across neurology, immunology, and oncology. Alamar was surfaced as a portfolio company of Qiming and added to the API Evangelist network; it is a life-sciences instrument and assay provider rather than a public-API company, so this profile captures identity, published web surface, and domain-security posture. No public developer API, OpenAPI, or SDK surface was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alamarbio/refs/heads/main/screenshots/alamarbio-2026-07-25T195531.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 508
+     "rank": 505
     },
     {
      "name": "Bristol Myers Squibb",
@@ -22548,7 +22406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 506
     },
     {
      "name": "Cambrian Bio",
@@ -22592,7 +22450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 507
     },
     {
      "name": "ElevateBio",
@@ -22637,7 +22495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 508
     },
     {
      "name": "Elligo Health Research",
@@ -22682,7 +22540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 509
     },
     {
      "name": "Epic Bio",
@@ -22726,7 +22584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 510
     },
     {
      "name": "Experic",
@@ -22770,7 +22628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 511
     },
     {
      "name": "Healx",
@@ -22815,7 +22673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 515
+     "rank": 512
     },
     {
      "name": "Hongene Biotech",
@@ -22860,7 +22718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 513
     },
     {
      "name": "Pharmaron",
@@ -22904,7 +22762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 514
     },
     {
      "name": "Rakuten Medical",
@@ -22948,7 +22806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 515
     },
     {
      "name": "Vedana Therapeutics",
@@ -22992,7 +22850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 516
     },
     {
      "name": "VeriSIM Life",
@@ -23036,7 +22894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 517
     },
     {
      "name": "Enko Chem",
@@ -23080,51 +22938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
-    },
-    {
-     "name": "Formation Bio",
-     "slug": "trialspark",
-     "description": "Formation Bio (formerly TrialSpark, rebranded in December 2023) is a New York-based, tech-driven, AI-native pharmaceutical company co-founded by Ben Liu and Linhao Zhang. Rather than discovering molecules, Formation Bio in-licenses and acquires clinical-stage drug assets and runs them through a proprietary, software- and AI-driven development engine that compresses clinical planning, trial execution and regulatory work. That engine is a suite of internal platforms — Delphi (probability-of-technical-success and value modeling), Atlas (clinical-stage asset screening), Forge (autonomous trial design and scenario evaluation), Apollo (trial execution, study startup, enrollment and closeout), ARK (an AI orchestration layer connecting 80+ internal systems behind one governed interface) and a unified Data Platform spanning trial data, real-world patient data, literature and standardized ontologies. The company raised a $372M Series D led by Andreessen Horowitz with participation from Sanofi, and built Muse, an AI patient-recruitment system, with Sanofi and OpenAI. Formation Bio's technology is internal-facing: as of this profile the company publishes no public developer portal, API documentation, machine-readable API contract, or client SDKs.",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 522
+     "rank": 518
     },
     {
      "name": "Strand Therapeutics",
@@ -23168,7 +22982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 519
     },
     {
      "name": "TimeTrace Labs",
@@ -23212,7 +23026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 520
     },
     {
      "name": "Inscripta",
@@ -23257,7 +23071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 521
     },
     {
      "name": "Empirico",
@@ -23302,7 +23116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 522
     },
     {
      "name": "Jazz Pharmaceuticals",
@@ -23340,7 +23154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 523
     },
     {
      "name": "Radionetics Oncology",
@@ -23384,7 +23198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 524
     },
     {
      "name": "Totus Medicines",
@@ -23421,7 +23235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 525
     },
     {
      "name": "Aetion",
@@ -23466,7 +23280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 526
     },
     {
      "name": "Create",
@@ -23504,7 +23318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 527
     },
     {
      "name": "Generate Biomedicines",
@@ -23541,7 +23355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 528
     },
     {
      "name": "Nature's Fynd",
@@ -23579,7 +23393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 529
     },
     {
      "name": "Proteinea",
@@ -23623,7 +23437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 530
     },
     {
      "name": "Rondo Therapeutics",
@@ -23660,7 +23474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 531
     },
     {
      "name": "Santa Ana Bio",
@@ -23697,7 +23511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 532
     },
     {
      "name": "Visolis",
@@ -23734,7 +23548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 533
     },
     {
      "name": "Aspect Biosystems",
@@ -23779,7 +23593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 534
     },
     {
      "name": "Cajal Neuroscience",
@@ -23823,7 +23637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 535
     },
     {
      "name": "Cognito Therapeutics",
@@ -23868,7 +23682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 536
     },
     {
      "name": "Agomab Therapeutics",
@@ -23913,7 +23727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 537
     },
     {
      "name": "Alchemab Therapeutics",
@@ -23958,7 +23772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 538
     },
     {
      "name": "Autobahn Therapeutics",
@@ -24003,7 +23817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 539
     },
     {
      "name": "BreezeBio (formerly GenEdit)",
@@ -24048,7 +23862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 540
     },
     {
      "name": "Centivax",
@@ -24093,7 +23907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 541
     },
     {
      "name": "Comanche Biopharma",
@@ -24138,7 +23952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 542
     },
     {
      "name": "Contraline",
@@ -24183,7 +23997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 543
     },
     {
      "name": "Eikon",
@@ -24228,7 +24042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 544
     },
     {
      "name": "Granata Bio",
@@ -24273,7 +24087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 549
+     "rank": 545
     },
     {
      "name": "Grey Wolf Therapeutics",
@@ -24318,7 +24132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 546
     },
     {
      "name": "InterVenn",
@@ -24363,7 +24177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 547
     },
     {
      "name": "Kanvas Biosciences",
@@ -24408,7 +24222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 548
     },
     {
      "name": "Loyal",
@@ -24453,7 +24267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 549
     },
     {
      "name": "Matwings Technology",
@@ -24497,7 +24311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 550
     },
     {
      "name": "Mestag Therapeutics",
@@ -24542,7 +24356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 551
     },
     {
      "name": "Moonwalk Biosciences",
@@ -24587,7 +24401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 552
     },
     {
      "name": "Nchroma Bio",
@@ -24632,7 +24446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 553
     },
     {
      "name": "Octant Bio",
@@ -24677,7 +24491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 554
     },
     {
      "name": "PhaseV",
@@ -24721,7 +24535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 555
     },
     {
      "name": "Pheon Therapeutics",
@@ -24765,7 +24579,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 556
     },
     {
      "name": "Preveta",
@@ -24809,7 +24623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 557
     },
     {
      "name": "Quris",
@@ -24853,7 +24667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 558
     },
     {
      "name": "Reify Health",
@@ -24897,7 +24711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 559
     },
     {
      "name": "sanegenebio",
@@ -24941,7 +24755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 560
     },
     {
      "name": "Scribe Therapeutics",
@@ -24985,7 +24799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 561
     },
     {
      "name": "Sequence Bio",
@@ -25029,7 +24843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 562
     },
     {
      "name": "Vivodyne",
@@ -25073,7 +24887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 563
     },
     {
      "name": "Ashvattha Therapeutics",
@@ -25118,7 +24932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 564
     },
     {
      "name": "Celerion (H.I.G. Capital)",
@@ -25163,7 +24977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 565
     },
     {
      "name": "Clasp Therapeutics",
@@ -25207,7 +25021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 566
     },
     {
      "name": "Convergent Therapeutics",
@@ -25252,7 +25066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 567
     },
     {
      "name": "Evox Therapeutics",
@@ -25297,7 +25111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 568
     },
     {
      "name": "Formation Bio",
@@ -25342,7 +25156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 573
+     "rank": 569
     },
     {
      "name": "Kyverna Therapeutics",
@@ -25387,7 +25201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 570
     },
     {
      "name": "Leyden Labs",
@@ -25432,7 +25246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 571
     },
     {
      "name": "LifeMine Therapeutics",
@@ -25477,7 +25291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 572
     },
     {
      "name": "Noetik",
@@ -25522,7 +25336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 573
     },
     {
      "name": "OrsoBio",
@@ -25567,7 +25381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 574
     },
     {
      "name": "Treeline Biosciences",
@@ -25611,7 +25425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 575
     },
     {
      "name": "Turbine",
@@ -25655,7 +25469,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 576
     },
     {
      "name": "Amyris",
@@ -25700,7 +25514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 577
     },
     {
      "name": "Tahoe",
@@ -25744,7 +25558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 578
     },
     {
      "name": "Biostack Platforms",
@@ -25789,7 +25603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 579
     },
     {
      "name": "Clinflash",
@@ -25834,7 +25648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 580
     },
     {
      "name": "Orchestra Bio",
@@ -25879,7 +25693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 581
     },
     {
      "name": "PolyXLabs",
@@ -25916,7 +25730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 582
     },
     {
      "name": "Barinthus Biotherapeutics",
@@ -25961,7 +25775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 583
     },
     {
      "name": "biolink",
@@ -26006,7 +25820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 584
     },
     {
      "name": "dMed Global (Caidya)",
@@ -26051,7 +25865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 585
     },
     {
      "name": "Draig Therapeutics",
@@ -26096,7 +25910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 586
     },
     {
      "name": "Adcendo",
@@ -26141,7 +25955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 587
     },
     {
      "name": "Altos Labs",
@@ -26186,7 +26000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 588
     },
     {
      "name": "Arcus Biosciences",
@@ -26231,7 +26045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 589
     },
     {
      "name": "Candid Therapeutics",
@@ -26276,7 +26090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 590
     },
     {
      "name": "CorWave",
@@ -26320,7 +26134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 591
     },
     {
      "name": "Link Cell Therapies",
@@ -26365,7 +26179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 592
     },
     {
      "name": "Rejoni",
@@ -26409,7 +26223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 593
     },
     {
      "name": "Andes",
@@ -26447,7 +26261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 594
     },
     {
      "name": "Infinitopes",
@@ -26485,7 +26299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 595
     },
     {
      "name": "Insempra",
@@ -26523,7 +26337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 596
     },
     {
      "name": "Seismic Therapeutic",
@@ -26560,7 +26374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 597
     },
     {
      "name": "Ampersand Biomedicines",
@@ -26605,7 +26419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 598
     },
     {
      "name": "Atomic AI",
@@ -26650,7 +26464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 599
     },
     {
      "name": "Beacon Therapeutics",
@@ -26695,7 +26509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 600
     },
     {
      "name": "Berry Genomics",
@@ -26740,7 +26554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 601
     },
     {
      "name": "BioAge Labs",
@@ -26785,7 +26599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 602
     },
     {
      "name": "Braveheart Bio",
@@ -26830,7 +26644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 603
     },
     {
      "name": "CANbridge Pharmaceuticals",
@@ -26875,7 +26689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 604
     },
     {
      "name": "Carrick Therapeutics",
@@ -26920,7 +26734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 605
     },
     {
      "name": "CereVasc",
@@ -26964,7 +26778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 606
     },
     {
      "name": "Cofactor Genomics",
@@ -27009,7 +26823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 607
     },
     {
      "name": "Convoke",
@@ -27054,7 +26868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 608
     },
     {
      "name": "Deep Genomics",
@@ -27099,7 +26913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 609
     },
     {
      "name": "Delphia Therapeutics",
@@ -27144,7 +26958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 610
     },
     {
      "name": "Earli",
@@ -27189,52 +27003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
-    },
-    {
-     "name": "Formation Bio",
-     "slug": "formation",
-     "description": "Formation Bio is an AI-native pharmaceutical company building the pharma company of the future. Rather than applying AI to drug discovery, it focuses on drug development — acquiring and in-licensing clinical-stage drug candidates from pharma companies, universities, and biotech firms, then running them through clinical development far more efficiently than industry standards using its proprietary AI-native platform, data, and fine-tuned models. Led by CEO Benjamine Liu and CTO Linhao Zhang, the company raised a $372M Series D in 2024 led by a16z with participation from Sanofi, Sequoia, Thrive, Emerson Collective, and others, and partners with Sanofi and OpenAI on custom models for the drug development lifecycle. Formation Bio does not currently publish a public developer API; this profile tracks its identity and public web surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/formation/refs/heads/main/screenshots/formation-2026-07-25T214947.png",
-     "score": 8.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 616
+     "rank": 611
     },
     {
      "name": "Granza Bio",
@@ -27278,7 +27047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 612
     },
     {
      "name": "ImmuneBridge",
@@ -27323,7 +27092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 613
     },
     {
      "name": "Inari",
@@ -27361,7 +27130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 614
     },
     {
      "name": "Inceptive",
@@ -27406,7 +27175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 615
     },
     {
      "name": "Menten AI",
@@ -27451,7 +27220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 616
     },
     {
      "name": "Nava Therapeutics",
@@ -27496,7 +27265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 617
     },
     {
      "name": "Octant",
@@ -27541,7 +27310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 618
     },
     {
      "name": "Relation Rx",
@@ -27585,7 +27354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 619
     },
     {
      "name": "SpyBiotech",
@@ -27629,7 +27398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 620
     },
     {
      "name": "Trial Library",
@@ -27673,7 +27442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 621
     },
     {
      "name": "Umoja Biopharma",
@@ -27717,7 +27486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 622
     },
     {
      "name": "XellSmart Biomedical",
@@ -27761,7 +27530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 623
     },
     {
      "name": "Bindbridge",
@@ -27799,7 +27568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 624
     },
     {
      "name": "Color Health",
@@ -27844,7 +27613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 625
     },
     {
      "name": "Aqtual",
@@ -27889,7 +27658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 626
     },
     {
      "name": "BiVACOR",
@@ -27934,7 +27703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 627
     },
     {
      "name": "Conception",
@@ -27978,7 +27747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 628
     },
     {
      "name": "Helix",
@@ -28023,7 +27792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 629
     },
     {
      "name": "Bland Company",
@@ -28061,7 +27830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 630
     },
     {
      "name": "Spark Therapeutics",
@@ -28106,7 +27875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 631
     },
     {
      "name": "Twig",
@@ -28143,7 +27912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 632
     },
     {
      "name": "Windfall Bio",
@@ -28180,7 +27949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 633
     },
     {
      "name": "Abpro",
@@ -28225,7 +27994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 639
+     "rank": 634
     },
     {
      "name": "AI Medical Service",
@@ -28270,7 +28039,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 635
     },
     {
      "name": "Alumis",
@@ -28315,7 +28084,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 636
     },
     {
      "name": "Apreohealth",
@@ -28360,7 +28129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 637
     },
     {
      "name": "Bioyond Robotics",
@@ -28405,7 +28174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 638
     },
     {
      "name": "Cellinobio",
@@ -28449,7 +28218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 639
     },
     {
      "name": "Complete Omics",
@@ -28494,7 +28263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 640
     },
     {
      "name": "Eikon Therapeutics",
@@ -28539,7 +28308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 641
     },
     {
      "name": "Luminate",
@@ -28584,7 +28353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 642
     },
     {
      "name": "Mana.bio",
@@ -28622,7 +28391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 643
     },
     {
      "name": "Model Medicines",
@@ -28666,7 +28435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 644
     },
     {
      "name": "Numerion Labs",
@@ -28711,7 +28480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 645
     },
     {
      "name": "Rani Therapeutics",
@@ -28755,7 +28524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 646
     },
     {
      "name": "Revolution Medicines",
@@ -28799,7 +28568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 647
     },
     {
      "name": "Topos Bio",
@@ -28843,7 +28612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 648
     },
     {
      "name": "Ventus Therapeutics",
@@ -28887,7 +28656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 649
     },
     {
      "name": "Vial",
@@ -28931,7 +28700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 650
     },
     {
      "name": "Vitara",
@@ -28975,7 +28744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 651
     },
     {
      "name": "Varda Space Industries",
@@ -29012,7 +28781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 652
     },
     {
      "name": "Neuralink",
@@ -29057,7 +28826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 653
     },
     {
      "name": "Satellite Bio",
@@ -29101,7 +28870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 654
     },
     {
      "name": "Tahoe Therapeutics",
@@ -29138,7 +28907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 655
     },
     {
      "name": "10x Science",
@@ -29183,7 +28952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 656
     },
     {
      "name": "CAMP4 Therapeutics",
@@ -29228,7 +28997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 657
     },
     {
      "name": "Flowneuroscience",
@@ -29273,7 +29042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 658
     },
     {
      "name": "Myra Vision",
@@ -29318,7 +29087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 659
     },
     {
      "name": "Resolyst",
@@ -29362,7 +29131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 660
     },
     {
      "name": "Abogen",
@@ -29407,7 +29176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 661
     },
     {
      "name": "Alpine Bio",
@@ -29445,7 +29214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 662
     },
     {
      "name": "Formo",
@@ -29483,7 +29252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 663
     },
     {
      "name": "Infinimmune",
@@ -29521,7 +29290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 664
     },
     {
      "name": "Synthekine",
@@ -29558,7 +29327,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 665
     },
     {
      "name": "Tidal Vision",
@@ -29595,7 +29364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 666
     },
     {
      "name": "Variant Bio",
@@ -29632,7 +29401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 667
     },
     {
      "name": "Bio-Rad Laboratories",
@@ -29676,7 +29445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 668
     },
     {
      "name": "Cyrus Biotechnology",
@@ -29714,7 +29483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 669
     },
     {
      "name": "Bota Biosciences",
@@ -29751,7 +29520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 670
     },
     {
      "name": "Finless Foods",
@@ -29789,7 +29558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 671
     },
     {
      "name": "Acesion Pharma",
@@ -29834,7 +29603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 672
     },
     {
      "name": "Pivot Bio",
@@ -29872,7 +29641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 673
     },
     {
      "name": "Regeneron",
@@ -29917,7 +29686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 674
     },
     {
      "name": "Sanofi",
@@ -29962,7 +29731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 675
     },
     {
      "name": "aardaia",
@@ -30000,7 +29769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 676
     },
     {
      "name": "CatalYm",
@@ -30038,7 +29807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 677
     },
     {
      "name": "Samsara Eco",
@@ -30075,7 +29844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 678
     },
     {
      "name": "Arthrosi Therapeutics",
@@ -30120,7 +29889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 679
     },
     {
      "name": "BioConsortia",
@@ -30158,7 +29927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 680
     },
     {
      "name": "Enzymit",
@@ -30196,7 +29965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 681
     },
     {
      "name": "Peptone",
@@ -30233,7 +30002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 682
     },
     {
      "name": "Retro Biosciences",
@@ -30277,7 +30046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 683
     },
     {
      "name": "Avistone",
@@ -30322,7 +30091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 684
     },
     {
      "name": "Chroma Medicine",
@@ -30366,7 +30135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 685
     },
     {
      "name": "Shennon Biotechnologies",
@@ -30410,7 +30179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 686
     },
     {
      "name": "Astraea",
@@ -30455,7 +30224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 687
     },
     {
      "name": "DermBiont",
@@ -30499,7 +30268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 688
     },
     {
      "name": "858 Therapeutics",
@@ -30544,7 +30313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 689
     },
     {
      "name": "Arrakis",
@@ -30589,7 +30358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 690
     },
     {
      "name": "Arrakis Therapeutics",
@@ -30634,7 +30403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 691
     },
     {
      "name": "Aspen Neuroscience",
@@ -30679,7 +30448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 692
     },
     {
      "name": "Asymchem",
@@ -30724,7 +30493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 693
     },
     {
      "name": "Athos Therapeutics",
@@ -30769,7 +30538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 694
     },
     {
      "name": "Bexorg",
@@ -30814,7 +30583,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 695
     },
     {
      "name": "Biotree",
@@ -30859,7 +30628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 696
     },
     {
      "name": "Cure Genetics",
@@ -30904,7 +30673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 697
     },
     {
      "name": "CytomX Therapeutics",
@@ -30949,7 +30718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 698
     },
     {
      "name": "Inscinstech",
@@ -30994,7 +30763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 699
     },
     {
      "name": "InventisBio",
@@ -31039,7 +30808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 700
     },
     {
      "name": "Moonwalk Biosciences",
@@ -31084,7 +30853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 701
     },
     {
      "name": "NanoMosaic",
@@ -31129,7 +30898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 702
     },
     {
      "name": "Nectero Therapeutics",
@@ -31174,7 +30943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 703
     },
     {
      "name": "Nueclear",
@@ -31219,7 +30988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 704
     },
     {
      "name": "Orca Bio",
@@ -31264,7 +31033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 705
     },
     {
      "name": "Orchestra",
@@ -31309,7 +31078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 706
     },
     {
      "name": "Rubedo Life Sciences",
@@ -31353,7 +31122,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 707
     },
     {
      "name": "Tessera Therapeutics",
@@ -31397,7 +31166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 708
     },
     {
      "name": "Until",
@@ -31441,7 +31210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 709
     },
     {
      "name": "Alpha Biopharma",
@@ -31486,7 +31255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 710
     },
     {
      "name": "Alume Biosciences",
@@ -31531,7 +31300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 711
     },
     {
      "name": "Ankyra Therapeutics",
@@ -31576,7 +31345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 712
     },
     {
      "name": "Ansun Biopharma",
@@ -31621,7 +31390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 713
     },
     {
      "name": "BioTheryX",
@@ -31666,7 +31435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 714
     },
     {
      "name": "Cullgen",
@@ -31711,7 +31480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 715
     },
     {
      "name": "FindMeCure",
@@ -31756,7 +31525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 716
     },
     {
      "name": "Immune-Onc Therapeutics",
@@ -31801,7 +31570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 717
     },
     {
      "name": "ArrePath",
@@ -31839,7 +31608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 718
     },
     {
      "name": "Arzeda",
@@ -31884,7 +31653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 719
     },
     {
      "name": "Basecamp Research",
@@ -31929,7 +31698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 720
     },
     {
      "name": "BigHat Biosciences",
@@ -31974,7 +31743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 721
     },
     {
      "name": "DEM Bio",
@@ -32012,7 +31781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 722
     },
     {
      "name": "Ditto Biosciences",
@@ -32050,7 +31819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 723
     },
     {
      "name": "Insilico Medicine",
@@ -32095,7 +31864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 724
     },
     {
      "name": "Isomorphic Labs",
@@ -32140,7 +31909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 725
     },
     {
      "name": "Joes Future Food (Zhouzi Future)",
@@ -32178,7 +31947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 726
     },
     {
      "name": "Mendel AI",
@@ -32222,7 +31991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 727
     },
     {
      "name": "Recursion Pharmaceuticals",
@@ -32267,7 +32036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 733
+     "rank": 728
     },
     {
      "name": "Synonym",
@@ -32304,7 +32073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 729
     },
     {
      "name": "Until Labs",
@@ -32348,7 +32117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
+     "rank": 730
     },
     {
      "name": "BociMed",
@@ -32392,7 +32161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 736
+     "rank": 731
     },
     {
      "name": "Alexion Pharmaceuticals",
@@ -32437,7 +32206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 732
     },
     {
      "name": "Applied Cognition",
@@ -32482,7 +32251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 733
     },
     {
      "name": "Arc Institute",
@@ -32520,7 +32289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 734
     },
     {
      "name": "Auransa",
@@ -32565,7 +32334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
+     "rank": 735
     },
     {
      "name": "Cellanome",
@@ -32610,7 +32379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 741
+     "rank": 736
     },
     {
      "name": "EpiBiologics",
@@ -32655,7 +32424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 737
     },
     {
      "name": "Iambic Therapeutics",
@@ -32693,7 +32462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 738
     },
     {
      "name": "Ndata",
@@ -32738,7 +32507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 739
     },
     {
      "name": "Red RidgeBio",
@@ -32782,7 +32551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 740
     },
     {
      "name": "Allorion Therapeutics",
@@ -32827,7 +32596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 741
     },
     {
      "name": "Amber Bio",
@@ -32872,7 +32641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 742
     },
     {
      "name": "Avicenna Biosciences",
@@ -32917,7 +32686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 743
     },
     {
      "name": "Bionaut Labs",
@@ -32962,7 +32731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 744
     },
     {
      "name": "Celgene",
@@ -33007,7 +32776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 745
     },
     {
      "name": "Chiral Quest",
@@ -33052,7 +32821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 746
     },
     {
      "name": "Cirius Therapeutics",
@@ -33096,7 +32865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 747
     },
     {
      "name": "CivaTech Oncology",
@@ -33140,7 +32909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 748
     },
     {
      "name": "Denali Therapeutics",
@@ -33185,7 +32954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 749
     },
     {
      "name": "Elixiron Immunotherapeutics",
@@ -33229,7 +32998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 750
     },
     {
      "name": "Exscientia",
@@ -33274,7 +33043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 751
     },
     {
      "name": "IQVIA",
@@ -33319,7 +33088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 752
     },
     {
      "name": "Liberate Bio",
@@ -33364,7 +33133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 753
     },
     {
      "name": "Novartis",
@@ -33409,7 +33178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 754
     },
     {
      "name": "Novo Nordisk",
@@ -33454,7 +33223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 755
     },
     {
      "name": "Quanta Therapeutics",
@@ -33498,7 +33267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 756
     },
     {
      "name": "Quintiles Transnational Holdings",
@@ -33543,52 +33312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
-    },
-    {
-     "name": "Relay Therapeutics",
-     "slug": "relay-tx",
-     "description": "Relay Therapeutics is a Cambridge, Massachusetts clinical-stage precision medicines company (NASDAQ: RLAY) using protein motion to drug historically intractable oncology and genetic-disease targets. Its Dynamo platform combines full-length protein engineering, cryo-EM, ambient-temperature X-ray crystallography, long-timescale molecular dynamics, machine learning, virtual screening, activity- and ligand-based screening, and an ML-powered DNA-encoded library (REL-DEL) to design molecules against conformational states that static structures miss. The clinical pipeline is led by zovegalisib (RLY-2608), described as the first allosteric, pan-mutant, isoform-selective PI3K-alpha inhibitor, in Phase 3 for HR+/HER2- breast cancer and Phase 1/2 for vascular anomalies and PROS; RLY-8161, an NRAS- selective inhibitor, is in Phase 1/2 for NRAS-mutant solid tumors; an alpha-galactosidase A non-inhibitory chaperone for Fabry disease is in discovery; lirafugratinib (RLY-4008, FGFR2) was out-licensed to Elevar Therapeutics in December 2024. Relay has no public developer API, SDK, or open-source release; the Dynamo platform is proprietary internal R&D tooling, and the company's GitHub organization currently has no public repositories. The commercial surface is therapeutic candidates, clinical partnerships, and out-licensing rather than data products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/relay-tx/refs/heads/main/screenshots/relay-tx-2026-06-20T192825.png",
-     "score": 6.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 763
+     "rank": 757
     },
     {
      "name": "Scorpion Therapeutics",
@@ -33632,7 +33356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 758
     },
     {
      "name": "Smart Diagnostics Systems",
@@ -33676,7 +33400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 759
     },
     {
      "name": "uncommonbio",
@@ -33720,7 +33444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 760
     },
     {
      "name": "XtalPi",
@@ -33765,7 +33489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 761
     },
     {
      "name": "1yongcloud",
@@ -33810,7 +33534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 762
     },
     {
      "name": "AbCellera",
@@ -33848,7 +33572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 763
     },
     {
      "name": "Again",
@@ -33886,7 +33610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 764
     },
     {
      "name": "Akston Biosciences",
@@ -33931,7 +33655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 765
     },
     {
      "name": "Antiva Biosciences",
@@ -33976,7 +33700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 766
     },
     {
      "name": "Ark Biopharmaceutical",
@@ -34021,7 +33745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 767
     },
     {
      "name": "Atlas Discovery",
@@ -34066,7 +33790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 768
     },
     {
      "name": "Atomwise",
@@ -34104,7 +33828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 769
     },
     {
      "name": "Be Biopharma",
@@ -34148,7 +33872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 770
     },
     {
      "name": "DeepCell",
@@ -34193,7 +33917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 771
     },
     {
      "name": "Dizal Pharma",
@@ -34238,7 +33962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 772
     },
     {
      "name": "Elektrofi",
@@ -34283,7 +34007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 773
     },
     {
      "name": "Elion Therapeutics",
@@ -34327,7 +34051,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 774
     },
     {
      "name": "Entact Bio",
@@ -34371,7 +34095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 775
     },
     {
      "name": "Gate Bioscience",
@@ -34416,7 +34140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 776
     },
     {
      "name": "Hexagon Bio",
@@ -34461,7 +34185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 777
     },
     {
      "name": "M20 Genomics",
@@ -34506,7 +34230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 778
     },
     {
      "name": "Medra",
@@ -34551,7 +34275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 779
     },
     {
      "name": "Monsanto",
@@ -34588,7 +34312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 780
     },
     {
      "name": "Monte Rosa Therapeutics *",
@@ -34633,7 +34357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 781
     },
     {
      "name": "OMass Therapeutics",
@@ -34678,7 +34402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 782
     },
     {
      "name": "Ouro Medicines",
@@ -34723,7 +34447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 783
     },
     {
      "name": "Presidio Medical",
@@ -34767,7 +34491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 784
     },
     {
      "name": "Radical Numerics",
@@ -34811,12 +34535,13 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 785
     },
     {
      "name": "Relay Therapeutics",
      "slug": "relay-therapeutics",
      "description": "Relay Therapeutics is a clinical-stage precision-medicine company in Cambridge, Massachusetts that discovers and develops small-molecule therapeutics for cancer and genetic disease. Its proprietary Dynamo platform combines computational and experimental approaches — motion-based drug discovery, protein-motion simulation, structural biology, and biophysics — to drug targets that have historically been difficult to reach. The company advances a pipeline of oncology and precision-medicine candidates. Relay Therapeutics was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network. As a biotechnology / drug-discovery company it publishes no public developer API, SDK, or webhook surface; this profile captures its corporate identity and web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/screenshots/relay-tx-2026-06-20T192825.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -34855,7 +34580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 786
     },
     {
      "name": "Rome Therapeutics",
@@ -34899,7 +34624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 787
     },
     {
      "name": "Somite",
@@ -34943,7 +34668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 788
     },
     {
      "name": "Trishula Therapeutics",
@@ -34987,7 +34712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 789
     },
     {
      "name": "Ventus Therapeutics",
@@ -35031,7 +34756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 790
     },
     {
      "name": "Virtuoso Therapeutics",
@@ -35075,7 +34800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 791
     },
     {
      "name": "Soley Therapeutics",
@@ -35119,7 +34844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 792
     },
     {
      "name": "Revvity",
@@ -35163,7 +34888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 793
     },
     {
      "name": "abbisko",
@@ -35208,7 +34933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 794
     },
     {
      "name": "Acceleron",
@@ -35253,7 +34978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 795
     },
     {
      "name": "aceabio",
@@ -35298,7 +35023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 796
     },
     {
      "name": "aceatherapeutics",
@@ -35343,7 +35068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 797
     },
     {
      "name": "Achira",
@@ -35388,7 +35113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 798
     },
     {
      "name": "acxel",
@@ -35433,7 +35158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 799
     },
     {
      "name": "aistarfish",
@@ -35478,7 +35203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 800
     },
     {
      "name": "Allena Pharmaceuticals",
@@ -35522,7 +35247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 801
     },
     {
      "name": "AMPLY Discovery",
@@ -35560,7 +35285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 802
     },
     {
      "name": "Arda Therapeutics",
@@ -35605,7 +35330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 803
     },
     {
      "name": "Areteia Therapeutics",
@@ -35650,7 +35375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 804
     },
     {
      "name": "Aria Pharmaceuticals",
@@ -35694,7 +35419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 805
     },
     {
      "name": "Arpelos Biosciences",
@@ -35739,7 +35464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 806
     },
     {
      "name": "ArriVent Biopharma",
@@ -35784,7 +35509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 807
     },
     {
      "name": "ArsenalBio",
@@ -35829,7 +35554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 808
     },
     {
      "name": "atantares",
@@ -35874,7 +35599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 809
     },
     {
      "name": "Atara Bio",
@@ -35919,7 +35644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 810
     },
     {
      "name": "Autolus *",
@@ -35964,7 +35689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 811
     },
     {
      "name": "Aviceda Therapeutics",
@@ -36009,7 +35734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 812
     },
     {
      "name": "Axcelius I/II",
@@ -36054,7 +35779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 813
     },
     {
      "name": "bayomics",
@@ -36099,7 +35824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 814
     },
     {
      "name": "BeiGene",
@@ -36144,7 +35869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 815
     },
     {
      "name": "BioOrbit",
@@ -36189,7 +35914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 816
     },
     {
      "name": "BlackThorn Therapeutics *",
@@ -36234,7 +35959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 817
     },
     {
      "name": "cansinotech",
@@ -36279,7 +36004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 818
     },
     {
      "name": "Celltype",
@@ -36323,7 +36048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 819
     },
     {
      "name": "Centreherbs (Beijing Shengtaier Biotechnology)",
@@ -36368,7 +36093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 820
     },
     {
      "name": "Cerexa",
@@ -36412,7 +36137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 821
     },
     {
      "name": "Chimerix",
@@ -36457,7 +36182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 822
     },
     {
      "name": "ChronicleBio",
@@ -36502,7 +36227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 823
     },
     {
      "name": "Clinovas LTD",
@@ -36547,7 +36272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 824
     },
     {
      "name": "cn",
@@ -36592,7 +36317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 825
     },
     {
      "name": "CSR Biotech",
@@ -36637,7 +36362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 826
     },
     {
      "name": "CTRL Therapeutics",
@@ -36682,7 +36407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 827
     },
     {
      "name": "D2G Oncology",
@@ -36727,7 +36452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 828
     },
     {
      "name": "Damae Medical",
@@ -36772,7 +36497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 829
     },
     {
      "name": "Danaher",
@@ -36817,7 +36542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 830
     },
     {
      "name": "Data Driven Bioscience",
@@ -36862,7 +36587,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 831
     },
     {
      "name": "Decibel Therapeutics *",
@@ -36907,7 +36632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 832
     },
     {
      "name": "Deep 6 AI",
@@ -36951,7 +36676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 833
     },
     {
      "name": "Epiodyne",
@@ -36996,7 +36721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 834
     },
     {
      "name": "Epizyme",
@@ -37040,7 +36765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 835
     },
     {
      "name": "EQRx",
@@ -37084,7 +36809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 836
     },
     {
      "name": "Evelo Biosciences *",
@@ -37129,7 +36854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 837
     },
     {
      "name": "Everyone Medicines",
@@ -37173,7 +36898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 838
     },
     {
      "name": "Evonetix",
@@ -37218,7 +36943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 839
     },
     {
      "name": "Excision",
@@ -37262,7 +36987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 840
     },
     {
      "name": "Excision BioTherapeutics",
@@ -37306,7 +37031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 841
     },
     {
      "name": "Exo Therapeutics",
@@ -37351,7 +37076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 842
     },
     {
      "name": "Forty Seven *",
@@ -37396,7 +37121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 843
     },
     {
      "name": "Genesis Therapeutics",
@@ -37441,7 +37166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 844
     },
     {
      "name": "Genomics Medicine Ireland",
@@ -37485,7 +37210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 845
     },
     {
      "name": "Georgiamune",
@@ -37523,7 +37248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 846
     },
     {
      "name": "GigaCrop",
@@ -37561,7 +37286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 847
     },
     {
      "name": "Gritstone Oncology",
@@ -37606,7 +37331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 848
     },
     {
      "name": "healthgenetech",
@@ -37650,7 +37375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 849
     },
     {
      "name": "Helix Nano",
@@ -37695,7 +37420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 850
     },
     {
      "name": "Humane Genomics",
@@ -37733,7 +37458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 851
     },
     {
      "name": "Hyalex Orthopaedics",
@@ -37778,7 +37503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 852
     },
     {
      "name": "IconOVir Bio",
@@ -37823,7 +37548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 853
     },
     {
      "name": "Illume Labs",
@@ -37868,7 +37593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 854
     },
     {
      "name": "Immunos Therapeutics",
@@ -37913,7 +37638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 855
     },
     {
      "name": "IncreBio",
@@ -37958,7 +37683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 856
     },
     {
      "name": "Industrial Microbes",
@@ -37996,7 +37721,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 857
     },
     {
      "name": "Innovent",
@@ -38041,7 +37766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 858
     },
     {
      "name": "Invetx *",
@@ -38085,7 +37810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 859
     },
     {
      "name": "Jacobio Pharma",
@@ -38130,7 +37855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 860
     },
     {
      "name": "jfkbio",
@@ -38175,7 +37900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 861
     },
     {
      "name": "kechowpharma",
@@ -38220,7 +37945,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 862
     },
     {
      "name": "Kronos Bio *",
@@ -38265,7 +37990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 863
     },
     {
      "name": "Labrys Biologics",
@@ -38309,7 +38034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 864
     },
     {
      "name": "Lonza",
@@ -38354,7 +38079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 865
     },
     {
      "name": "Loyalfordogs",
@@ -38399,7 +38124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 866
     },
     {
      "name": "Mantis",
@@ -38444,7 +38169,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 867
     },
     {
      "name": "Marinus Pharmaceuticals",
@@ -38488,7 +38213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 868
     },
     {
      "name": "Maze Therapeutics",
@@ -38533,7 +38258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 869
     },
     {
      "name": "MBX Biosciences",
@@ -38578,7 +38303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 870
     },
     {
      "name": "medxtmc",
@@ -38623,7 +38348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 871
     },
     {
      "name": "Metsera *",
@@ -38667,7 +38392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 872
     },
     {
      "name": "micropointbio",
@@ -38712,7 +38437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 873
     },
     {
      "name": "Mindstate Design Labs",
@@ -38757,7 +38482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 874
     },
     {
      "name": "Modulo",
@@ -38802,7 +38527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 875
     },
     {
      "name": "Mosanna",
@@ -38847,7 +38572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 876
     },
     {
      "name": "Mycotech",
@@ -38885,7 +38610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 877
     },
     {
      "name": "Neoplants",
@@ -38923,7 +38648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 878
     },
     {
      "name": "Neuron23",
@@ -38968,7 +38693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 879
     },
     {
      "name": "Nilo Therapeutics",
@@ -39013,7 +38738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 880
     },
     {
      "name": "Nimbus Therapeutics",
@@ -39058,7 +38783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 881
     },
     {
      "name": "Nocion Therapeutics",
@@ -39103,7 +38828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 882
     },
     {
      "name": "novoprotein",
@@ -39148,7 +38873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 883
     },
     {
      "name": "Novotech",
@@ -39193,7 +38918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 884
     },
     {
      "name": "Oblenio Bio",
@@ -39238,7 +38963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 885
     },
     {
      "name": "Olema",
@@ -39283,7 +39008,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 886
     },
     {
      "name": "Origin Bio",
@@ -39328,7 +39053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 887
     },
     {
      "name": "Overture",
@@ -39373,7 +39098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 888
     },
     {
      "name": "PACT Pharma",
@@ -39417,7 +39142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 889
     },
     {
      "name": "Pandorum Technologies",
@@ -39462,7 +39187,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 890
     },
     {
      "name": "Parima",
@@ -39499,7 +39224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 891
     },
     {
      "name": "Perceive Bio",
@@ -39543,7 +39268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 892
     },
     {
      "name": "Personalis",
@@ -39587,7 +39312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 893
     },
     {
      "name": "PineTree Therapeutics",
@@ -39631,7 +39356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 894
     },
     {
      "name": "Pliant Therapeutics",
@@ -39675,7 +39400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 895
     },
     {
      "name": "prcxi",
@@ -39719,7 +39444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 896
     },
     {
      "name": "Predictive Oncology  (Precision Therapeutics)",
@@ -39763,7 +39488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 897
     },
     {
      "name": "Prime Life Science",
@@ -39807,7 +39532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 898
     },
     {
      "name": "Proxima",
@@ -39844,7 +39569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 899
     },
     {
      "name": "RAPT Therapeutics",
@@ -39888,7 +39613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 900
     },
     {
      "name": "rdbio (仁度生物 / Rendo Biotech)",
@@ -39932,7 +39657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 901
     },
     {
      "name": "Recursion",
@@ -39976,7 +39701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 902
     },
     {
      "name": "Resilience",
@@ -40020,7 +39745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 903
     },
     {
      "name": "Ritivel",
@@ -40064,7 +39789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 904
     },
     {
      "name": "Rodin Therapeutics *",
@@ -40108,7 +39833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 905
     },
     {
      "name": "SalioGen Therapeutics",
@@ -40152,7 +39877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 906
     },
     {
      "name": "Sayre Therapeutics",
@@ -40196,7 +39921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 907
     },
     {
      "name": "SCIWIND",
@@ -40240,7 +39965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 908
     },
     {
      "name": "Senti Biosciences",
@@ -40284,7 +40009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 909
     },
     {
      "name": "Shasqi",
@@ -40328,7 +40053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 910
     },
     {
      "name": "shsongli",
@@ -40372,7 +40097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 911
     },
     {
      "name": "Sino Biological",
@@ -40416,7 +40141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 912
     },
     {
      "name": "Sinotau",
@@ -40460,7 +40185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 913
     },
     {
      "name": "SQZ Biotech",
@@ -40504,7 +40229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 914
     },
     {
      "name": "Stilla Technologies",
@@ -40548,7 +40273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 915
     },
     {
      "name": "Stipple Bio",
@@ -40592,7 +40317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 916
     },
     {
      "name": "Stylus Medicine",
@@ -40636,7 +40361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 917
     },
     {
      "name": "Superluminal Medicines",
@@ -40680,7 +40405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 918
     },
     {
      "name": "SURGE Therapeutics",
@@ -40724,7 +40449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 919
     },
     {
      "name": "Syremis Therapeutics",
@@ -40768,7 +40493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 920
     },
     {
      "name": "Taysha Gene Therapies *",
@@ -40812,7 +40537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 921
     },
     {
      "name": "TenSixteen Bio",
@@ -40856,7 +40581,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 922
     },
     {
      "name": "TenSixty Bio",
@@ -40900,7 +40625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 923
     },
     {
      "name": "TRIANA Biomedicines",
@@ -40944,7 +40669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 930
+     "rank": 924
     },
     {
      "name": "tripod-glp",
@@ -40988,7 +40713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 931
+     "rank": 925
     },
     {
      "name": "Trisk Bio",
@@ -41032,7 +40757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 932
+     "rank": 926
     },
     {
      "name": "TScan Therapeutics",
@@ -41076,7 +40801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 933
+     "rank": 927
     },
     {
      "name": "Verge Labs",
@@ -41120,7 +40845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 934
+     "rank": 928
     },
     {
      "name": "Verobioscience",
@@ -41164,7 +40889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 935
+     "rank": 929
     },
     {
      "name": "Verve Therapeutics",
@@ -41208,7 +40933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 936
+     "rank": 930
     },
     {
      "name": "Vicinitas Therapeutics",
@@ -41252,7 +40977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 937
+     "rank": 931
     },
     {
      "name": "Vir Biotechnology",
@@ -41296,7 +41021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 938
+     "rank": 932
     },
     {
      "name": "Visterra",
@@ -41340,7 +41065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 939
+     "rank": 933
     },
     {
      "name": "Xilis",
@@ -41384,7 +41109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 940
+     "rank": 934
     },
     {
      "name": "Zenasbio",
@@ -41428,7 +41153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 941
+     "rank": 935
     },
     {
      "name": "Bolt Threads",
@@ -41465,7 +41190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 942
+     "rank": 936
     },
     {
      "name": "NewLimit",
@@ -41510,7 +41235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 943
+     "rank": 937
     },
     {
      "name": "Parexel International",
@@ -41555,7 +41280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 944
+     "rank": 938
     },
     {
      "name": "Adona Medical",
@@ -41600,7 +41325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 945
+     "rank": 939
     },
     {
      "name": "AllStripes",
@@ -41645,7 +41370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 946
+     "rank": 940
     },
     {
      "name": "Atia Vision",
@@ -41690,7 +41415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 947
+     "rank": 941
     },
     {
      "name": "Bambusa Therapeutics",
@@ -41735,7 +41460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 948
+     "rank": 942
     },
     {
      "name": "Cadence Neuroscience",
@@ -41779,7 +41504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 949
+     "rank": 943
     },
     {
      "name": "Epic Sciences",
@@ -41823,7 +41548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 950
+     "rank": 944
     },
     {
      "name": "Faraday Pharmaceuticals",
@@ -41867,7 +41592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 951
+     "rank": 945
     },
     {
      "name": "Abinitio Bio",
@@ -41905,7 +41630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 952
+     "rank": 946
     },
     {
      "name": "Absci",
@@ -41943,7 +41668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 953
+     "rank": 947
     },
     {
      "name": "AgroSpheres",
@@ -41981,7 +41706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 954
+     "rank": 948
     },
     {
      "name": "Amber Bio",
@@ -42019,7 +41744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 955
+     "rank": 949
     },
     {
      "name": "Aurora Therapeutics",
@@ -42057,7 +41782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 956
+     "rank": 950
     },
     {
      "name": "Brilliant Planet",
@@ -42095,7 +41820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 957
+     "rank": 951
     },
     {
      "name": "C16 Biosciences",
@@ -42133,7 +41858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 958
+     "rank": 952
     },
     {
      "name": "Capacity Bio",
@@ -42171,7 +41896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 959
+     "rank": 953
     },
     {
      "name": "Dvlp Medicines",
@@ -42216,7 +41941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 960
+     "rank": 954
     },
     {
      "name": "Elevation Pharmaceuticals",
@@ -42253,7 +41978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 961
+     "rank": 955
     },
     {
      "name": "Fable Therapeutics",
@@ -42291,7 +42016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 962
+     "rank": 956
     },
     {
      "name": "Faircraft",
@@ -42329,7 +42054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 963
+     "rank": 957
     },
     {
      "name": "Fyodor Biotechnologies",
@@ -42374,7 +42099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 964
+     "rank": 958
     },
     {
      "name": "Genvec",
@@ -42411,7 +42136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 965
+     "rank": 959
     },
     {
      "name": "Insamo",
@@ -42449,7 +42174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 966
+     "rank": 960
     },
     {
      "name": "Intrepida Bio",
@@ -42486,7 +42211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 967
+     "rank": 961
     },
     {
      "name": "Mammoth Biosciences",
@@ -42524,7 +42249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 968
+     "rank": 962
     },
     {
      "name": "Manifold Bio",
@@ -42562,7 +42287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 969
+     "rank": 963
     },
     {
      "name": "Maxion Therapeutics",
@@ -42600,7 +42325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 970
+     "rank": 964
     },
     {
      "name": "microTERRA",
@@ -42638,7 +42363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 971
+     "rank": 965
     },
     {
      "name": "Molagri",
@@ -42676,7 +42401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 972
+     "rank": 966
     },
     {
      "name": "Mycoworks",
@@ -42714,7 +42439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 973
+     "rank": 967
     },
     {
      "name": "Nobell Foods",
@@ -42751,7 +42476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 974
+     "rank": 968
     },
     {
      "name": "Nosh Bio",
@@ -42789,7 +42514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 975
+     "rank": 969
     },
     {
      "name": "Novira Therapeutics",
@@ -42826,7 +42551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 976
+     "rank": 970
     },
     {
      "name": "Odyssey Therapeutics",
@@ -42864,7 +42589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 977
+     "rank": 971
     },
     {
      "name": "Omeat",
@@ -42902,7 +42627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 978
+     "rank": 972
     },
     {
      "name": "Orbicle Bio",
@@ -42940,7 +42665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 979
+     "rank": 973
     },
     {
      "name": "Patch Biosciences",
@@ -42978,7 +42703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 980
+     "rank": 974
     },
     {
      "name": "Pearlbio",
@@ -43016,7 +42741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 981
+     "rank": 975
     },
     {
      "name": "Plantner Inc.",
@@ -43053,7 +42778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 982
+     "rank": 976
     },
     {
      "name": "Sample6",
@@ -43090,7 +42815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 983
+     "rank": 977
     },
     {
      "name": "SCiFi Foods",
@@ -43127,7 +42852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 984
+     "rank": 978
     },
     {
      "name": "sinocelltech",
@@ -43164,7 +42889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 985
+     "rank": 979
     },
     {
      "name": "Solugen",
@@ -43201,7 +42926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 986
+     "rank": 980
     },
     {
      "name": "Sonoma Biotherapeutics",
@@ -43238,7 +42963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 987
+     "rank": 981
     },
     {
      "name": "Soufflé Therapeutics",
@@ -43275,7 +43000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 988
+     "rank": 982
     },
     {
      "name": "Synthetic Design Lab",
@@ -43312,7 +43037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 989
+     "rank": 983
     },
     {
      "name": "Zymergen",
@@ -43349,7 +43074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 990
+     "rank": 984
     },
     {
      "name": "Arresto Biosciences",
@@ -43393,7 +43118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 991
+     "rank": 985
     },
     {
      "name": "Cambridge Cancer Genomics",
@@ -43438,7 +43163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 992
+     "rank": 986
     },
     {
      "name": "PRA Health Sciences",
@@ -43483,7 +43208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 993
+     "rank": 987
     },
     {
      "name": "Vineti",
@@ -43527,7 +43252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 994
+     "rank": 988
     },
     {
      "name": "Alphina Therapeutics",
@@ -43572,7 +43297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 995
+     "rank": 989
     },
     {
      "name": "General Proximity",
@@ -43617,7 +43342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 996
+     "rank": 990
     },
     {
      "name": "Gilead Sciences",
@@ -43662,7 +43387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 997
+     "rank": 991
     },
     {
      "name": "Grove Biopharma",
@@ -43707,7 +43432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 998
+     "rank": 992
     },
     {
      "name": "Terragia",
@@ -43751,7 +43476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 999
+     "rank": 993
     },
     {
      "name": "VectorY",
@@ -43766,6 +43491,272 @@
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 994
+    },
+    {
+     "name": "Vitalgen",
+     "slug": "vitalgen",
+     "description": "Shanghai Vitalgen BioPharma Co., Ltd. (Vitalgen), founded in March 2020 and headquartered in Shanghai, China, translates cutting-edge gene delivery and gene editing techniques into clinically effective treatments for patients with unmet medical needs. Vitalgen operates a GMP-compliant commercial production platform built on its proprietary ViCas CRISPR/Cas editing tools, ViLNP lipid nanoparticles, and ViVec AAV capsids, developing gene therapies for hereditary diseases and neurodegenerative disorders across a pipeline that includes Bietti Crystalline Dystrophy (VGR-R01), AADC Deficiency, Parkinson's Disease, Gaucher Disease, and Glutaric Acidemia Type I. Several candidates have entered clinical trials and secured U.S. FDA Orphan Drug Designations and an EMA PRIME designation. Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network. The company publishes a corporate marketing website only and exposes no public API, developer portal, or machine-readable surface.",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 995
+    },
+    {
+     "name": "Exact Sciences",
+     "slug": "exact-sciences",
+     "description": "Exact Sciences is a molecular diagnostics company and a Fortune 1000 firm best known for the Cologuard colorectal cancer screening test and the Oncotype DX family of cancer tests. The company develops, manufactures, and markets laboratory-based screening and precision oncology tests delivered to patients and providers through its Exact Labs operations. Exact Sciences does not publish a public developer portal or external API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exact-sciences/refs/heads/main/screenshots/exact-sciences-2026-06-20T180920.png",
+     "score": 4.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 996
+    },
+    {
+     "name": "Abata Therapeutics",
+     "slug": "abata-therapeutics",
+     "description": "Abata Therapeutics was a biotechnology company developing engineered regulatory T cell (Treg) therapies aimed at restoring immune tolerance in tissue-specific autoimmune and inflammatory diseases, with lead programs directed at progressive multiple sclerosis and type 1 diabetes. Founded in 2021 and based in the Boston/Cambridge area (Watertown, Massachusetts), the company was launched by Third Rock Ventures and counted Lightspeed Venture Partners among its backers. As a therapeutics developer it operated no public developer program, API, or documentation surface. As of this enrichment pass its corporate domains (abatatx.com and abatatherapeutics.com) resolve to a WP Engine host but serve an unconfigured \"Site Not Configured\" 404, indicating the public website has been deprovisioned and the company appears to have wound down.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 997
+    },
+    {
+     "name": "Advanced Biohealing",
+     "slug": "advanced-biohealing",
+     "description": "Advanced BioHealing, Inc. was a regenerative medicine company best known for Dermagraft, a cryopreserved human fibroblast-derived dermal substitute used to treat diabetic foot ulcers. The company acquired the Dermagraft assets from Smith & Nephew in 2006, was backed by Canaan Partners and other venture investors, and was acquired by Shire plc for $750 million in cash in June 2011 to seed Shire's regenerative medicine business unit. Dermagraft was later sold to Organogenesis in 2014. Advanced BioHealing no longer operates as an independent entity and publishes no public developer portal, API, or programmatic surface; this profile is retained in the API Evangelist network as a venture-portfolio company record.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 998
+    },
+    {
+     "name": "Agenovir",
+     "slug": "agenovir",
+     "description": "Agenovir Corporation was a biotechnology company founded in 2014 to develop a novel class of human therapeutics targeting diseases caused by latent or persistent viral reservoirs. Built on CRISPR/Cas9 and other nuclease technology from the Stephen Quake lab at Stanford, it designed and simulated nucleases in silico at scale to disrupt intracellular viral DNA. It raised a $10.6M Series A led by DCVC (Data Collective) with Celgene and Lightspeed Venture Partners, and was acquired by Vir Biotechnology in 2018. It is a therapeutics company with no public developer, API, or SDK surface.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 999
+    },
+    {
+     "name": "Ai Vivo",
+     "slug": "ai-vivo",
+     "description": "AI VIVO (AIVIVO LTD) is a Cambridge, England based drug-discovery company that combines systems pharmacology with artificial intelligence to accelerate the identification and de-risking of therapeutic candidates. Its \"Organome\" platform simulates biological processes at the target, cell, organ, and organism levels and ranks drug candidates by their phenotypic effects at the tissue level, without relying on prior knowledge of the disease or compounds. The approach gained recognition in 2020 when the platform ranked roughly 90,000 compounds for COVID-19 and surfaced dexamethasone as a top candidate weeks before its clinical benefit was widely reported. AI VIVO is backed by DCVC and other life-science and applied-AI investors. As of this profile the company publishes a minimal public web presence (a home and contact page) and exposes no public developer API, documentation, or SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ai-vivo/refs/heads/main/screenshots/ai-vivo-2026-07-25T195345.png",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-08-12",

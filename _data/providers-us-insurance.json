@@ -1,6 +1,6 @@
 {
- "total": 78,
- "shown": 78,
+ "total": 77,
+ "shown": 77,
  "limit": 1000,
  "bands": [
   {
@@ -1463,8 +1463,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 33,
-   "shown": 33,
+   "count": 32,
+   "shown": 32,
    "providers": [
     {
      "name": "AIG",
@@ -2293,52 +2293,6 @@
      "rank": 50
     },
     {
-     "name": "Reinsurance Group of America",
-     "slug": "reinsurance-of-america",
-     "description": "Reinsurance Group of America (RGA) is a leading global provider of life and health reinsurance and financial solutions, serving clients in more than 70 countries. RGA offers digital health data scoring APIs, underwriting automation, risk assessment tools, and client portal integrations for insurance carriers and reinsurers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/screenshots/reinsurance-of-america-2026-06-20T192808.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 10.4,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 15.8
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 16.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Reinsurance",
-     "rank": 51
-    },
-    {
      "name": "Ethos",
      "slug": "ethos-life",
      "description": "Ethos is a US digital life insurance company headquartered in San Francisco, founded in 2016, offering term life, whole life, and indexed universal life policies through an online, mostly no-medical-exam application flow. Ethos operates as a technology-driven insurance agency, distributing policies underwritten by carriers such as Ameritas, Banner Life (Legal & General America), Protective, and TruStage. Coverage is available in 49 states and Washington, D.C., with term policies offered for 10, 15, 20, 30, and 40 year durations and face amounts ranging from $15,000 to $3 million. The company has raised over $400 million from investors including Goldman Sachs, SoftBank, GV, Sequoia, and Accel, and is widely cited as one of the leading insurtech companies modernizing the life insurance buying experience. Ethos exposes a Partnership API that lets approved business partners embed quoting, identity validation, instant underwriting, application capture, billing, and signed policy issuance directly into their own products. The Partnership API uses bearer-token authentication tied to a partner API key and per-applicant session, and consolidates steps such as identity validation and quoting into combined endpoints to enable instant decisioning. There is no public, self-serve OpenAPI specification, SDK, or developer signup; access requires a partnership agreement with Ethos. Ethos's only material open-source footprint is the ethos-design-system React component library on GitHub.",
@@ -2382,7 +2336,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Newfront",
@@ -2428,7 +2382,7 @@
       "dry_run_mode": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Ebix",
@@ -2474,7 +2428,7 @@
       "dry_run_mode": false
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Federato",
@@ -2520,7 +2474,7 @@
       "dry_run_mode": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "ERGO NEXT Insurance",
@@ -2566,7 +2520,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Lockton",
@@ -2612,7 +2566,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Clearcover",
@@ -2658,7 +2612,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Root Insurance",
@@ -2704,7 +2658,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Vertafore",
@@ -2749,7 +2703,7 @@
       "dry_run_mode": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Chubb",
@@ -2795,7 +2749,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Brown & Brown",
@@ -2841,7 +2795,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Cowbell Cyber",
@@ -2887,7 +2841,7 @@
       "dry_run_mode": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -2933,7 +2887,7 @@
       "dry_run_mode": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Snapsheet",
@@ -2978,7 +2932,7 @@
       "dry_run_mode": false
      },
      "tier": "Claims Technology",
-     "rank": 65
+     "rank": 64
     }
    ]
   },
@@ -3033,7 +2987,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Hi Marley",
@@ -3079,7 +3033,7 @@
       "dry_run_mode": false
      },
      "tier": "Claims Technology",
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Nava Benefits",
@@ -3125,7 +3079,7 @@
       "dry_run_mode": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Cincinnati Financial",
@@ -3171,7 +3125,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "UnitedHealth Group",
@@ -3217,7 +3171,7 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "American Family Insurance",
@@ -3263,7 +3217,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Hartford Financial Services Group",
@@ -3309,7 +3263,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Marsh & McLennan",
@@ -3354,7 +3308,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "MetLife",
@@ -3400,7 +3354,7 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Nationwide",
@@ -3446,7 +3400,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Erie Insurance",
@@ -3492,7 +3446,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Farmers Insurance Exchange",
@@ -3538,7 +3492,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Principal Financial",
@@ -3577,7 +3531,7 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 78
+     "rank": 77
     }
    ]
   }

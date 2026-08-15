@@ -1,5 +1,5 @@
 {
- "total": 2957,
+ "total": 2958,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -38400,7 +38400,7 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 723,
+   "count": 724,
    "shown": 0,
    "providers": []
   },

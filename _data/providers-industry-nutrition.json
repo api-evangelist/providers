@@ -1,6 +1,6 @@
 {
- "total": 188,
- "shown": 188,
+ "total": 187,
+ "shown": 187,
  "limit": 1000,
  "bands": [
   {
@@ -102,8 +102,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "OpenMenu",
@@ -219,51 +219,6 @@
      "rank": 5
     },
     {
-     "name": "FoodData Central",
-     "slug": "fooddata",
-     "description": "USDA FoodData Central is a comprehensive food composition database and REST API providing nutritional data for over 600,000 foods. The service covers multiple distinct data types including Foundation Foods, SR Legacy, Survey Foods (FNDDS), Branded Foods, and Experimental Foods. All data is released under CC0 1.0 Universal (public domain) and the API is free to use with a data.gov API key. FoodData Central is operated by the USDA Agricultural Research Service (ARS) and receives twice-annual updates for Foundation Foods and monthly updates for Branded Foods.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png",
-     "score": 47.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 64.1,
-      "governance": 58.3,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
      "name": "TheMealDB",
      "slug": "mealdb",
      "description": "TheMealDB is an open, crowd-sourced database of recipes from around the world offering a free REST API with 669 meals, 927 ingredients, 300+ recipes complete with ingredients, step-by-step cooking instructions, categories, area cuisines, and meal images. The API and site will always remain free at point of access; a lifetime supporter upgrade unlocks premium V2 endpoints including multi-ingredient filtering, random sets, latest meals, and the ability to add custom meals and images.",
@@ -306,7 +261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Trustwell",
@@ -344,7 +299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Zestful",
@@ -382,7 +337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "USDA",
@@ -427,7 +382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Suggestic",
@@ -471,7 +426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Nutritionix",
@@ -516,7 +471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "BigOven",
@@ -554,7 +509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 12
     }
    ],
    "open": true
@@ -609,7 +564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "NutrientsDB",
@@ -653,7 +608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "CalorieNinjas",
@@ -691,7 +646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "MyFitnessPal",
@@ -736,7 +691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "AG1",
@@ -781,7 +736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Azumio",
@@ -826,7 +781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Food Info",
@@ -870,7 +825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Kate Farms",
@@ -915,7 +870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Bobbie",
@@ -960,7 +915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "BulletProof",
@@ -1004,7 +959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "United States Department of Agriculture",
@@ -1049,7 +1004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Cerebelly",
@@ -1086,7 +1041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "USDA Agricultural Research Service (ARS)",
@@ -1131,7 +1086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "LogMeal",
@@ -1169,7 +1124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Edamam",
@@ -1207,7 +1162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Elysium Health",
@@ -1252,7 +1207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Kitchen Stories",
@@ -1290,7 +1245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Beekeeper's Naturals",
@@ -1335,7 +1290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Cooklist",
@@ -1373,7 +1328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "David Protein",
@@ -1417,7 +1372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Daring Foods",
@@ -1455,7 +1410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Miri",
@@ -1500,7 +1455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Nutrical Solution Ltd",
@@ -1545,7 +1500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Brightseed",
@@ -1590,7 +1545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Bond Pet Foods",
@@ -1627,7 +1582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "TheMealDB",
@@ -1665,7 +1620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Archer Daniels Midland",
@@ -1703,7 +1658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "National Agricultural Library",
@@ -1748,7 +1703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Create Wellness",
@@ -1792,7 +1747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 41
     }
    ]
   },
@@ -1847,7 +1802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Everytable",
@@ -1885,7 +1840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "IM8 Health",
@@ -1930,7 +1885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Chill",
@@ -1975,7 +1930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Lark",
@@ -2020,7 +1975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Noom",
@@ -2065,7 +2020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "ByHeart",
@@ -2110,7 +2065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Open Food Facts",
@@ -2148,7 +2103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Soylent",
@@ -2185,7 +2140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Sworkit",
@@ -2229,12 +2184,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Parsley Health",
      "slug": "parsley-health",
-     "description": "Parsley Health is a physician-led virtual and in-person medical practice founded in 2016 by Dr. Robin Berzin, MD, headquartered at 126 5th Ave, New York, NY, that delivers functional medicine as a membership-based primary and specialty care service. Members are matched with board-certified MD, DO, NP or PA clinicians who hold additional functional medicine fellowship training through Parsley and the Institute for Functional Medicine, and are supported by functional nutrition coaches, an RN care manager and a care coordinator. Care programs cover gut and digestive health, hormone balance, autoimmune and inflammatory conditions, unexplained symptoms, mental and emotional health, heart and metabolic health, longevity, perimenopause and menopause, fertility, pregnancy and postpartum, and environmental exposure. The membership bundles five medical visits, two nutrition coaching sessions, advanced diagnostic lab testing, a personalized care plan, a symptom tracking dashboard and unlimited messaging, priced at $150/month or $1,500/year with insurance and $275/month or $2,750/year self-pay. Parsley is available nationwide via telehealth with in-person care in New York City and Los Angeles, is in network with major commercial insurers including Aetna, Cigna, UnitedHealthcare, BlueCross BlueShield, Humana and Centene, and also operates a direct-to-consumer supplement store. Parsley Health is a consumer healthcare service, not an API provider: it publishes no developer portal, no public API reference and no machine-readable API specification. Its public GitHub organization contains internal engineering tooling (Docker images, GitHub Actions, lint configs, an Apollo Router fork) rather than any client SDK, and its member application at my.parsleyhealth.com is an authenticated single-page app with no documented public API surface.",
+     "description": "Parsley Health is a physician-led virtual and in-person medical practice founded in 2016 by Dr. Robin Berzin, MD, headquartered at 126 5th Ave, New York, NY, that delivers functional medicine as a membership-based primary and specialty care service. Members are matched with board-certified MD, DO, NP or PA clinicians who hold additional functional medicine fellowship training through Parsley and the Institute for Functional Medicine, and are supported by functional nutrition coaches, an RN care manager and a care coordinator. Care programs cover gut and digestive health, hormone balance, autoimmune and inflammatory conditions, unexplained symptoms, mental and emotional health, heart and metabolic health, longevity, perimenopause and menopause, fertility, pregnancy and postpartum, and environmental exposure. The membership bundles five medical visits, two nutrition coaching sessions, advanced diagnostic lab testing, a personalized care plan, a symptom tracking dashboard and unlimited messaging, priced at $150/month or $1,500/year with insurance and $275/month or $2,750/year self-pay. Parsley is available nationwide via telehealth with in-person care in New York City and Los Angeles, is in network with major commercial insurers including Aetna, Cigna, UnitedHealthcare, BlueCross BlueShield, Humana and Centene, and also operates a direct-to-consumer supplement store. Parsley Health is a consumer healthcare service rather than a developer platform: it publishes no developer portal, no API reference, no API keys and no OpenAPI, and its public GitHub organization contains internal engineering tooling (Docker images, GitHub Actions, lint configs, an Apollo Router fork) rather than any client SDK. It does, however, serve real agent-callable surfaces on its supplement store at store.parsleyhealth.com: a live anonymous Universal Commerce Protocol MCP endpoint exposing thirteen catalog, cart, checkout and order tools, an anonymous Shopify Storefront GraphQL endpoint, an llms.txt and agents.md written for agents, and OAuth 2.0 / OpenID Connect discovery documents. Those surfaces are provided by the Shopify commerce platform under Parsley Health's own hostname, cover retail supplement purchase only, and are governed by a published rule that agents must not complete payment without contemporaneous human approval. No clinical data is reachable by machine: there is no FHIR endpoint, no patient-access API and no appointment, lab or medical-record surface, and the member application at my.parsleyhealth.com remains an authenticated single-page app with no documented public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/screenshots/parsley-health-2026-08-07T191503.png",
      "score": 22.2,
      "band": "emerging",
@@ -2274,7 +2229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "TrueCoach",
@@ -2318,7 +2273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Vivoo",
@@ -2362,7 +2317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Nutritics",
@@ -2407,7 +2362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Huel",
@@ -2452,7 +2407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Yummly",
@@ -2489,7 +2444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "9am Health",
@@ -2534,7 +2489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Viome",
@@ -2578,7 +2533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "NutriSense",
@@ -2623,7 +2578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Prenetics",
@@ -2667,7 +2622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Virta Health",
@@ -2711,7 +2666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Oviva",
@@ -2756,7 +2711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "8fit",
@@ -2801,7 +2756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Cookunity",
@@ -2839,7 +2794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "All In",
@@ -2877,7 +2832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Big Sky Health",
@@ -2922,7 +2877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Caliber Fitness",
@@ -2967,7 +2922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Calibrate",
@@ -3012,7 +2967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "MTN OPS",
@@ -3050,7 +3005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Pendulumlife",
@@ -3094,7 +3049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Caer",
@@ -3132,7 +3087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Gobble",
@@ -3170,7 +3125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Leaft Foods",
@@ -3208,7 +3163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Calo",
@@ -3253,7 +3208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "LabDoor",
@@ -3298,7 +3253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Linas Matkasse",
@@ -3336,7 +3291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Aspect Health",
@@ -3381,7 +3336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Digbi Health",
@@ -3426,7 +3381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "FitOn",
@@ -3471,7 +3426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Gousto",
@@ -3509,7 +3464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Bioniq",
@@ -3554,7 +3509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Purely B",
@@ -3591,7 +3546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "82 Labs",
@@ -3636,7 +3591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Berry Street",
@@ -3681,7 +3636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Fay",
@@ -3726,7 +3681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Foodsmart",
@@ -3771,7 +3726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Marley Spoon",
@@ -3809,7 +3764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Season Health",
@@ -3853,7 +3808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "ZOE",
@@ -3898,7 +3853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Bariendo Inc.",
@@ -3943,7 +3898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Pendulum",
@@ -3987,7 +3942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Ro",
@@ -4031,7 +3986,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "SuppCo",
@@ -4075,7 +4030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Citruslabs",
@@ -4120,7 +4075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Signos",
@@ -4164,7 +4119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Weekend Health (Found)",
@@ -4208,7 +4163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Womaness",
@@ -4252,7 +4207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Club Feast",
@@ -4290,7 +4245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Rex Inc",
@@ -4334,7 +4289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 100
     }
    ]
   },
@@ -4389,7 +4344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Cherrypick",
@@ -4427,7 +4382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Jinx",
@@ -4465,7 +4420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "MEAL PLANET HOLDING LTD",
@@ -4503,7 +4458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "The Fit Body Co",
@@ -4547,7 +4502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Numan",
@@ -4592,7 +4547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Gabit",
@@ -4637,7 +4592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Geltor",
@@ -4682,7 +4637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Infinant Health",
@@ -4726,7 +4681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Second Nature",
@@ -4770,7 +4725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "DietlyAPI",
@@ -4815,7 +4770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "ElCoach",
@@ -4860,7 +4815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Nutrisystem (Wellina by Nutrisystem)",
@@ -4905,7 +4860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Foodvisor",
@@ -4950,7 +4905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Alcresta Therapeutics",
@@ -4995,7 +4950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Heltia",
@@ -5040,7 +4995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Nourish",
@@ -5085,7 +5040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Calysta",
@@ -5122,7 +5077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Checkerspot",
@@ -5160,7 +5115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Eucalyptus",
@@ -5205,7 +5160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Hungryroot",
@@ -5243,7 +5198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Ritual",
@@ -5287,7 +5242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "truBrain",
@@ -5331,7 +5286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "GymNadz",
@@ -5376,7 +5331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "CHS Inc.",
@@ -5421,7 +5376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Blue Apron",
@@ -5459,7 +5414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "GNC Holdings",
@@ -5504,7 +5459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Jow",
@@ -5542,7 +5497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Little Freddie",
@@ -5580,7 +5535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Napkin Math",
@@ -5625,7 +5580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Notti",
@@ -5663,7 +5618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Encurate",
@@ -5708,7 +5663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "The Feed",
@@ -5745,7 +5700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Golden Child",
@@ -5783,7 +5738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "MealPal",
@@ -5821,7 +5776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Petual",
@@ -5865,7 +5820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Colgate-Palmolive",
@@ -5903,7 +5858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "1Balance",
@@ -5941,7 +5896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "DayDayCook",
@@ -5979,7 +5934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Campbell Soup",
@@ -6017,7 +5972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Flavrs",
@@ -6055,7 +6010,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Nutrition & Exercise API",
@@ -6100,7 +6055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Hims & Hers Health",
@@ -6144,7 +6099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Limbo",
@@ -6188,7 +6143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Chefs for Seniors",
@@ -6226,7 +6181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "DailyMealz",
@@ -6264,7 +6219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Campbell's",
@@ -6302,7 +6257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Revolution Foods",
@@ -6339,7 +6294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Ample",
@@ -6384,7 +6339,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "THG",
@@ -6421,7 +6376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Bota Biosciences",
@@ -6458,7 +6413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Monell Chemical Senses Center",
@@ -6496,7 +6451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Reckitt Benckiser",
@@ -6541,7 +6496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "LemonBox",
@@ -6586,7 +6541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Sun Basket",
@@ -6623,7 +6578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Yacob",
@@ -6667,7 +6622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Conagra Brands",
@@ -6704,7 +6659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "HelloFresh",
@@ -6742,7 +6697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Chomp",
@@ -6780,7 +6735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "ConAgra Foods",
@@ -6817,7 +6772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Edamam nutrition",
@@ -6855,7 +6810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Fruityvice",
@@ -6893,7 +6848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "NBTY",
@@ -6931,7 +6886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Purmeo",
@@ -6975,7 +6930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "RecipeAPI",
@@ -7013,7 +6968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Tasty",
@@ -7051,7 +7006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "besunyen",
@@ -7095,7 +7050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "Boohee",
@@ -7140,7 +7095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "PlateJoy",
@@ -7184,7 +7139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "SCIWIND",
@@ -7228,7 +7183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "CucumberTown",
@@ -7266,7 +7221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "FreshDish",
@@ -7303,7 +7258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Land O'Lakes",
@@ -7340,7 +7295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "McCormick",
@@ -7377,7 +7332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "plated",
@@ -7414,7 +7369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Simple Feast",
@@ -7451,7 +7406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "SimplyCook",
@@ -7488,7 +7443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Endo Health",
@@ -7533,7 +7488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Getsupp",
@@ -7577,7 +7532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "MycroFriends",
@@ -7621,7 +7576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Pine Medical",
@@ -7665,7 +7620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Wecare Probiotics",
@@ -7709,7 +7664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Weilos",
@@ -7753,7 +7708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Your Super",
@@ -7797,7 +7752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Mead Johnson Nutrition",
@@ -7835,7 +7790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Nu Skin Enterprises",
@@ -7873,7 +7828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Before Brands",
@@ -7917,7 +7872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 187
     }
    ]
   }

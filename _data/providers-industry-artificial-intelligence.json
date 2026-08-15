@@ -1,5 +1,5 @@
 {
- "total": 5193,
+ "total": 5189,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -4080,8 +4080,8 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 261,
-   "shown": 261,
+   "count": 262,
+   "shown": 262,
    "providers": [
     {
      "name": "Buffer",
@@ -6439,6 +6439,50 @@
      "rank": 166
     },
     {
+     "name": "Plinth US Grants Data",
+     "slug": "plinth-us-grants-data",
+     "description": "A JSON API over the entire US grantmaking universe — about 205,000 grantmaking foundations and 17.9 million grants, read from public IRS Form 990, 990-EZ and 990-PF e-file filings and the IRS Business Master File. The funder-grantee graph traverses in both directions: filter by funder_id for everything a foundation funded, or by recip_id for every funder behind a nonprofit. Offers REST endpoints for grants, organization profiles, an IRS compliance and OFAC screen, an ad-hoc read-only SQL endpoint over a 31-table warehouse, and a hosted OAuth 2.1 MCP connector for AI agents. Entity resolution is free and unmetered. Published by Plinth, trading name of Time to Spare Ltd (UK Companies House 11530023), which also operates plinth.org.uk in the UK.",
+     "score": 62.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.0,
+      "governance": 52.1,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 75.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 60.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 167
+    },
+    {
      "name": "Jasper",
      "slug": "jasper",
      "description": "Jasper is an AI platform purpose-built for marketing teams that orchestrates 100+ specialized AI agents and connected content pipelines to run end-to-end marketing workflows — content creation, campaign execution, personalization, and SEO/GEO optimization — while holding brand consistency at scale. Jasper IQ is the governance layer that embeds brand voice, style guides, and marketing context into every output. The Jasper API (https://api.jasper.ai/v1) exposes commands, agent tasks, documents, projects, tones, audiences, knowledge/retrieval, and a full image-editing suite, secured with workspace API keys (X-API-Key) or OAuth 2.0 (authorization code + PKCE, Dynamic Client Registration). Jasper also ships a hosted, remote Model Context Protocol (MCP) server at https://mcp.jasper.ai so agents in Claude, ChatGPT, Copilot Studio, OpenAI Agent Builder, and n8n can create on-brand content. API access is available on the Jasper Business plan.",
@@ -6474,7 +6518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "DroneDeploy",
@@ -6512,7 +6556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Kurrent",
@@ -6550,7 +6594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -6587,7 +6631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Anysphere",
@@ -6625,7 +6669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Auth0",
@@ -6663,7 +6707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "UVeye",
@@ -6700,7 +6744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Claude",
@@ -6738,7 +6782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "EventX",
@@ -6776,7 +6820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Vespa",
@@ -6814,7 +6858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Factiva",
@@ -6859,7 +6903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Gridspace",
@@ -6904,7 +6948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "NextRoll",
@@ -6942,7 +6986,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Coval",
@@ -6980,7 +7024,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Demodesk",
@@ -7018,7 +7062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Publer",
@@ -7055,7 +7099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Read AI",
@@ -7092,7 +7136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Amazon Rekognition",
@@ -7130,7 +7174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "APIMatic",
@@ -7168,7 +7212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "ezoic",
@@ -7206,7 +7250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Heidi Health",
@@ -7251,7 +7295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Replicate",
@@ -7289,7 +7333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Amazon Web Services (AWS)",
@@ -7327,7 +7371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "TheBrief",
@@ -7364,7 +7408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Amazon QuickSight",
@@ -7402,7 +7446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Amazon CodeGuru Reviewer",
@@ -7440,7 +7484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Clerk.io",
@@ -7478,7 +7522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Amazon Personalize",
@@ -7516,7 +7560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Amazon Q",
@@ -7554,7 +7598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Structify",
@@ -7591,7 +7635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "OutSystems",
@@ -7628,7 +7672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Anam.ai",
@@ -7666,7 +7710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Compresr",
@@ -7704,7 +7748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Vitally",
@@ -7741,7 +7785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "MaintainX",
@@ -7779,7 +7823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Convai",
@@ -7816,7 +7860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Cordial",
@@ -7861,7 +7905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Mixedbread",
@@ -7898,7 +7942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Navattic",
@@ -7936,7 +7980,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Bluma",
@@ -7974,7 +8018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Fastino Labs",
@@ -8012,7 +8056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "Lang.ai",
@@ -8050,7 +8094,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Pinecone",
@@ -8088,7 +8132,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "Prime Intellect",
@@ -8126,7 +8170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "Typeface",
@@ -8163,7 +8207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Treblle",
@@ -8201,7 +8245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "AWS HealthLake",
@@ -8246,7 +8290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "BigID",
@@ -8284,7 +8328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "Creatio",
@@ -8322,7 +8366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "VBOUT",
@@ -8359,7 +8403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "Amigo",
@@ -8404,7 +8448,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "Beyond Presence",
@@ -8442,7 +8486,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Funnel",
@@ -8480,7 +8524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "Amazon Forecast",
@@ -8518,7 +8562,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "D-ID",
@@ -8556,7 +8600,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "Lightricks",
@@ -8594,7 +8638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Nimbleway",
@@ -8632,7 +8676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "OpusClip",
@@ -8670,7 +8714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "rtcStats",
@@ -8707,7 +8751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Syllable",
@@ -8751,7 +8795,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "ThoughtSpot",
@@ -8788,7 +8832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "We > Ultrarich",
@@ -8832,7 +8876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Amazon GuardDuty",
@@ -8870,7 +8914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "SLNG",
@@ -8907,7 +8951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Archil",
@@ -8945,7 +8989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "Permutive",
@@ -8982,7 +9026,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "Amazon Fraud Detector",
@@ -9020,7 +9064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Martian",
@@ -9058,7 +9102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "WorkOS",
@@ -9096,7 +9140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "Dedalus Labs",
@@ -9134,7 +9178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Moveworks",
@@ -9172,7 +9216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "Kong",
@@ -9210,7 +9254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "Mezmo",
@@ -9247,7 +9291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "Parasail",
@@ -9285,7 +9329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Picsart",
@@ -9322,7 +9366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Poggio Labs",
@@ -9359,7 +9403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Roboflow",
@@ -9396,7 +9440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Unblocked",
@@ -9433,7 +9477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Brainfish",
@@ -9471,7 +9515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Bria",
@@ -9508,7 +9552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Browserbase",
@@ -9546,7 +9590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Browserless",
@@ -9584,7 +9628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "fatsecret",
@@ -9629,7 +9673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "ZenML",
@@ -9667,7 +9711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Anaconda",
@@ -9705,7 +9749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "Endgame",
@@ -9743,7 +9787,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Millimetric",
@@ -9781,7 +9825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Trigger.dev",
@@ -9819,7 +9863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Krisp",
@@ -9857,7 +9901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Ocrolus",
@@ -9902,7 +9946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "PDF.co",
@@ -9939,7 +9983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "ReadMe",
@@ -9977,7 +10021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "PicsArt (Socialin)",
@@ -10014,7 +10058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Crusoe",
@@ -10059,7 +10103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "Genesys",
@@ -10104,7 +10148,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "Amazon Glue DataBrew",
@@ -10142,7 +10186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -10179,7 +10223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "LangWatch",
@@ -10217,7 +10261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "Prismatic",
@@ -10255,7 +10299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Warp",
@@ -10293,7 +10337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "Amazon HealthImaging",
@@ -10338,7 +10382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "Microsoft Copilot",
@@ -10376,7 +10420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Omni",
@@ -10414,7 +10458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Sitefire",
@@ -10451,7 +10495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "AlphaSense",
@@ -10489,7 +10533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Amazon DevOps Guru",
@@ -10527,7 +10571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Chatsimple",
@@ -10565,7 +10609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "Decart",
@@ -10603,7 +10647,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "GC AI",
@@ -10641,7 +10685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Prezent",
@@ -10685,7 +10729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "RouterPlex",
@@ -10722,7 +10766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "Toolhouse",
@@ -10759,7 +10803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 279
     },
     {
      "name": "Unify",
@@ -10797,7 +10841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "Xbow",
@@ -10834,7 +10878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Bem",
@@ -10872,7 +10916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Descript",
@@ -10910,7 +10954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 283
     },
     {
      "name": "Indykite",
@@ -10948,7 +10992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 284
     },
     {
      "name": "Knostic",
@@ -10986,7 +11030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 285
     },
     {
      "name": "Amazon Macie",
@@ -11024,7 +11068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 286
     },
     {
      "name": "Amazon Transcribe",
@@ -11062,7 +11106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 287
     },
     {
      "name": "HeyMilo",
@@ -11100,7 +11144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "Robin AI",
@@ -11138,7 +11182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "Thoughtly",
@@ -11183,7 +11227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 290
     },
     {
      "name": "Modulate",
@@ -11221,7 +11265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 291
     },
     {
      "name": "OpenRouter",
@@ -11259,7 +11303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 292
     },
     {
      "name": "Reducto",
@@ -11297,7 +11341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 293
     },
     {
      "name": "Abnormal AI",
@@ -11335,7 +11379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 294
     },
     {
      "name": "Arcade",
@@ -11373,7 +11417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 295
     },
     {
      "name": "Conviva",
@@ -11411,7 +11455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 296
     },
     {
      "name": "LaserData",
@@ -11449,7 +11493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 297
     },
     {
      "name": "Smithery",
@@ -11486,7 +11530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 298
     },
     {
      "name": "SpAItial",
@@ -11523,7 +11567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 299
     },
     {
      "name": "Tray.ai",
@@ -11561,7 +11605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "Amazon Translate",
@@ -11599,7 +11643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 301
     },
     {
      "name": "Anam",
@@ -11637,7 +11681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 302
     },
     {
      "name": "Gumloop",
@@ -11675,7 +11719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 303
     },
     {
      "name": "LI.FI",
@@ -11720,7 +11764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 304
     },
     {
      "name": "LlamaParse",
@@ -11758,7 +11802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 305
     },
     {
      "name": "ZenRows",
@@ -11796,7 +11840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 306
     },
     {
      "name": "AmunCore",
@@ -11834,7 +11878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 307
     },
     {
      "name": "C1",
@@ -11872,7 +11916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 308
     },
     {
      "name": "Cloudflare AI Gateway",
@@ -11910,7 +11954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 309
     },
     {
      "name": "Jentic",
@@ -11948,7 +11992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 310
     },
     {
      "name": "Minicor",
@@ -11993,7 +12037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 311
     },
     {
      "name": "Starbridge",
@@ -12037,7 +12081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 312
     },
     {
      "name": "tl;dv",
@@ -12074,7 +12118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 313
     },
     {
      "name": "Amazon Panorama",
@@ -12112,7 +12156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 314
     },
     {
      "name": "Continue",
@@ -12150,7 +12194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 315
     },
     {
      "name": "Inference",
@@ -12188,7 +12232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 316
     },
     {
      "name": "SpotDraft",
@@ -12226,7 +12270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 317
     },
     {
      "name": "Amazon Kinesis Video Streams",
@@ -12264,7 +12308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 318
     },
     {
      "name": "Amazon Lookout for Equipment",
@@ -12302,7 +12346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 319
     },
     {
      "name": "FriendliAI",
@@ -12340,7 +12384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 320
     },
     {
      "name": "TrueFoundry",
@@ -12378,7 +12422,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 321
     },
     {
      "name": "Amazon IoT Greengrass",
@@ -12416,7 +12460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 322
     },
     {
      "name": "Nooks",
@@ -12454,7 +12498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 323
     },
     {
      "name": "PydanticAI",
@@ -12492,7 +12536,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "Transit",
@@ -12530,7 +12574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "Amazon Lookout for Vision",
@@ -12568,7 +12612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Choreo",
@@ -12606,7 +12650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "Corti",
@@ -12651,7 +12695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 328
     },
     {
      "name": "Datarails",
@@ -12689,7 +12733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 329
     },
     {
      "name": "Fiddler Labs",
@@ -12727,7 +12771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 330
     },
     {
      "name": "Ledge",
@@ -12772,7 +12816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 331
     },
     {
      "name": "Bolna",
@@ -12810,7 +12854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 332
     },
     {
      "name": "The Hog",
@@ -12847,7 +12891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 333
     },
     {
      "name": "Mithril",
@@ -12885,7 +12929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 334
     },
     {
      "name": "OpenRelay",
@@ -12923,7 +12967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 335
     },
     {
      "name": "Sprig",
@@ -12960,7 +13004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 336
     },
     {
      "name": "TinyFish",
@@ -12997,7 +13041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "Bloom",
@@ -13034,7 +13078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 338
     },
     {
      "name": "Chroma",
@@ -13072,7 +13116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 339
     },
     {
      "name": "Dataiku",
@@ -13110,7 +13154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 340
     },
     {
      "name": "GPTZero",
@@ -13148,7 +13192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 341
     },
     {
      "name": "The San Francisco Compute Company",
@@ -13185,7 +13229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 342
     },
     {
      "name": "useapi.net",
@@ -13222,7 +13266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 343
     },
     {
      "name": "Airweave",
@@ -13260,7 +13304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 344
     },
     {
      "name": "Beatoven.ai",
@@ -13297,7 +13341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 345
     },
     {
      "name": "Spekit",
@@ -13334,7 +13378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 346
     },
     {
      "name": "TetraScience",
@@ -13379,7 +13423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 347
     },
     {
      "name": "Visier",
@@ -13416,7 +13460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 348
     },
     {
      "name": "Agentcard",
@@ -13461,7 +13505,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 349
     },
     {
      "name": "MadKudu",
@@ -13499,7 +13543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 350
     },
     {
      "name": "WorkBoard",
@@ -13536,7 +13580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 351
     },
     {
      "name": "Civic",
@@ -13581,7 +13625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 352
     },
     {
      "name": "Veryfi",
@@ -13619,7 +13663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 353
     },
     {
      "name": "Amazon Lookout for Metrics",
@@ -13657,7 +13701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "Astronomer",
@@ -13695,7 +13739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 355
     },
     {
      "name": "Golden Recursion",
@@ -13733,7 +13777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 356
     },
     {
      "name": "Leadpages",
@@ -13770,7 +13814,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "Transcend",
@@ -13808,7 +13852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "DataLoop",
@@ -13846,7 +13890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "Lambda",
@@ -13884,7 +13928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "SAP",
@@ -13922,7 +13966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "Seekr",
@@ -13966,7 +14010,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Speechmatics",
@@ -14004,7 +14048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "Band AI",
@@ -14042,7 +14086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "Inception",
@@ -14080,7 +14124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "Knownwell",
@@ -14118,7 +14162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Speakeasy",
@@ -14155,7 +14199,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 367
     }
    ],
    "open": true
@@ -14165,8 +14209,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 694,
-   "shown": 634,
+   "count": 696,
+   "shown": 633,
    "providers": [
     {
      "name": "Amazon DeepRacer",
@@ -14204,7 +14248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 368
     },
     {
      "name": "Amperity",
@@ -14242,7 +14286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 369
     },
     {
      "name": "Lambda",
@@ -14280,7 +14324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Tower",
@@ -14317,7 +14361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "The Mobile First Company",
@@ -14361,7 +14405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "VoiceGenie",
@@ -14398,7 +14442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "Fellow",
@@ -14436,7 +14480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Runway",
@@ -14474,7 +14518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "SambaNova Systems",
@@ -14511,7 +14555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "Antimetal",
@@ -14549,7 +14593,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Gradium",
@@ -14587,7 +14631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "H Company",
@@ -14625,7 +14669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 379
     },
     {
      "name": "Hex",
@@ -14663,7 +14707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 380
     },
     {
      "name": "RTB House",
@@ -14701,7 +14745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 381
     },
     {
      "name": "Instabug (Luciq)",
@@ -14739,7 +14783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 382
     },
     {
      "name": "Reevo",
@@ -14776,7 +14820,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 383
     },
     {
      "name": "RunPod",
@@ -14814,7 +14858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 383
+     "rank": 384
     },
     {
      "name": "Uniform",
@@ -14851,7 +14895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 384
+     "rank": 385
     },
     {
      "name": "Blng",
@@ -14889,7 +14933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 385
+     "rank": 386
     },
     {
      "name": "Evermuse",
@@ -14927,7 +14971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 386
+     "rank": 387
     },
     {
      "name": "LinqAlpha",
@@ -14972,7 +15016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 387
+     "rank": 388
     },
     {
      "name": "Morning Consult",
@@ -15010,7 +15054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 388
+     "rank": 389
     },
     {
      "name": "Amazon Mechanical Turk",
@@ -15048,7 +15092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 389
+     "rank": 390
     },
     {
      "name": "Fireflies.ai",
@@ -15086,7 +15130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 390
+     "rank": 391
     },
     {
      "name": "Newscatcher",
@@ -15124,7 +15168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 391
+     "rank": 392
     },
     {
      "name": "Nixtla",
@@ -15162,7 +15206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 392
+     "rank": 393
     },
     {
      "name": "Paradox",
@@ -15207,7 +15251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 394
     },
     {
      "name": "Sail Research",
@@ -15244,7 +15288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 395
     },
     {
      "name": "Speko",
@@ -15281,7 +15325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 396
     },
     {
      "name": "Spektr",
@@ -15318,7 +15362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 397
     },
     {
      "name": "VOYGR",
@@ -15355,7 +15399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 398
     },
     {
      "name": "Weaviate",
@@ -15393,7 +15437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 399
     },
     {
      "name": "Klaus",
@@ -15431,7 +15475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 400
     },
     {
      "name": "Android",
@@ -15469,7 +15513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 401
     },
     {
      "name": "ASAPP",
@@ -15507,7 +15551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "Constructor.io",
@@ -15545,7 +15589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "Flowise",
@@ -15583,7 +15627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "Agentuity",
@@ -15621,7 +15665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Oracle APEX",
@@ -15659,7 +15703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "Scorecard",
@@ -15696,7 +15740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "SnapLogic",
@@ -15734,7 +15778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "Amazon Compute Optimizer",
@@ -15772,7 +15816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "Gojiberry AI",
@@ -15810,7 +15854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "Invoca",
@@ -15848,7 +15892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "RightNow AI",
@@ -15885,7 +15929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Suki AI",
@@ -15930,7 +15974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "Super.ai",
@@ -15967,7 +16011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "Demostack",
@@ -16005,7 +16049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "Zavu",
@@ -16049,7 +16093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "Instabase",
@@ -16094,7 +16138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Nash",
@@ -16132,7 +16176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "Superblocks",
@@ -16170,7 +16214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "Unstructured",
@@ -16208,7 +16252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "Neuphonic",
@@ -16246,7 +16290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Parcha",
@@ -16284,7 +16328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "Advanced Micro Devices",
@@ -16322,7 +16366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "Amazon Comprehend",
@@ -16360,7 +16404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Edge Delta",
@@ -16398,7 +16442,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "Lightup",
@@ -16436,7 +16480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "Qubiqle",
@@ -16480,7 +16524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "Replicas",
@@ -16517,7 +16561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Revnu",
@@ -16554,7 +16598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "VerbIT",
@@ -16591,7 +16635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Corelayer",
@@ -16629,7 +16673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "Coveo",
@@ -16667,7 +16711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Mem",
@@ -16705,7 +16749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "Mist",
@@ -16743,7 +16787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Phonely",
@@ -16788,7 +16832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Pixc",
@@ -16825,7 +16869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Spot",
@@ -16862,7 +16906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Tidio",
@@ -16900,7 +16944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "Coactive",
@@ -16938,7 +16982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "Kernel",
@@ -16976,7 +17020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "Reload",
@@ -17013,7 +17057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "Sweep",
@@ -17050,7 +17094,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "ToolJet",
@@ -17088,7 +17132,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 443
     },
     {
      "name": "Bifrost",
@@ -17126,7 +17170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 444
     },
     {
      "name": "Dashbot",
@@ -17164,7 +17208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 445
     },
     {
      "name": "Flux",
@@ -17202,7 +17246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 446
     },
     {
      "name": "Google Vertex AI",
@@ -17240,7 +17284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 447
     },
     {
      "name": "H2O.ai",
@@ -17278,7 +17322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 448
     },
     {
      "name": "Sarvam",
@@ -17315,7 +17359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 449
     },
     {
      "name": "Turso",
@@ -17353,7 +17397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 450
     },
     {
      "name": "Anthropic Claude",
@@ -17391,7 +17435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "Athelas",
@@ -17436,7 +17480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "IronCore Labs",
@@ -17474,7 +17518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "Ledger Investing",
@@ -17519,7 +17563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "Method Security",
@@ -17564,7 +17608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "Tether",
@@ -17608,7 +17652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "Allowance",
@@ -17653,7 +17697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "AnyImageDetector",
@@ -17690,7 +17734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "Cognee",
@@ -17728,7 +17772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "Definite",
@@ -17766,7 +17810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "Opik",
@@ -17804,7 +17848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "Pimloc",
@@ -17841,7 +17885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "AgentMail",
@@ -17879,7 +17923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "Aligned News",
@@ -17917,7 +17961,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "Amazon Redshift",
@@ -17955,7 +17999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "Augment",
@@ -17993,7 +18037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "Devrev",
@@ -18031,7 +18075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "Lucent",
@@ -18069,7 +18113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "Rox",
@@ -18106,7 +18150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "Sideko",
@@ -18144,7 +18188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "accessiBe",
@@ -18182,7 +18226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "Aito Technologies",
@@ -18220,7 +18264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "Ando",
@@ -18258,7 +18302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Google Cloud Vision",
@@ -18296,7 +18340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "DeepL",
@@ -18334,7 +18378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "Google Cloud Contact Center AI",
@@ -18372,7 +18416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Google Cloud Dialogflow CX",
@@ -18410,7 +18454,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "MINE",
@@ -18448,7 +18492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "Sifflet",
@@ -18485,7 +18529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "Signal AI",
@@ -18522,7 +18566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "Amazon Connect",
@@ -18560,7 +18604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "DetectLanguage",
@@ -18598,7 +18642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "Yutori",
@@ -18635,7 +18679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Agno",
@@ -18673,7 +18717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "Clawvisor",
@@ -18711,7 +18755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "Google Cloud Natural Language",
@@ -18749,7 +18793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Jinba",
@@ -18787,7 +18831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "Tako",
@@ -18824,7 +18868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "Amazon App Studio",
@@ -18862,7 +18906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "Google Cloud AutoML",
@@ -18900,7 +18944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "Google Cloud Text-To-Speech",
@@ -18938,7 +18982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "Google Cloud Translation",
@@ -18976,7 +19020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "Google Cloud Video Intelligence",
@@ -19014,7 +19058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "Netomi",
@@ -19052,7 +19096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 493
+     "rank": 494
     },
     {
      "name": "Nextiva",
@@ -19097,7 +19141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 494
+     "rank": 495
     },
     {
      "name": "DualEntry",
@@ -19135,7 +19179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 495
+     "rank": 496
     },
     {
      "name": "Akkio",
@@ -19173,7 +19217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 496
+     "rank": 497
     },
     {
      "name": "ByKaranteli",
@@ -19217,7 +19261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 497
+     "rank": 498
     },
     {
      "name": "Cartesia",
@@ -19255,7 +19299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 498
+     "rank": 499
     },
     {
      "name": "Memories",
@@ -19293,7 +19337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 499
+     "rank": 500
     },
     {
      "name": "Replicant",
@@ -19330,7 +19374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 500
+     "rank": 501
     },
     {
      "name": "Sail",
@@ -19367,7 +19411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 501
+     "rank": 502
     },
     {
      "name": "Vast.ai",
@@ -19405,7 +19449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 502
+     "rank": 503
     },
     {
      "name": "Bitvore",
@@ -19450,7 +19494,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 503
+     "rank": 504
     },
     {
      "name": "Flock Safety",
@@ -19488,7 +19532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "IBM Language Translator",
@@ -19526,7 +19570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Kaedim",
@@ -19564,7 +19608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "Simplismart",
@@ -19601,7 +19645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Vic.ai",
@@ -19645,7 +19689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "Frontline",
@@ -19683,7 +19727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "Google Cloud Document AI",
@@ -19721,7 +19765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Pixee",
@@ -19758,7 +19802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "Plerion",
@@ -19795,7 +19839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "Clearspeed",
@@ -19840,7 +19884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Moondream",
@@ -19878,7 +19922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Zoca",
@@ -19915,7 +19959,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Blockade Games",
@@ -19953,7 +19997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Comet",
@@ -19991,7 +20035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Deepgram",
@@ -20029,7 +20073,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 518
+     "rank": 519
+    },
+    {
+     "name": "DreamThreads",
+     "slug": "dreamthreads",
+     "description": "DreamThreads exposes the DreamGraph API, a context-first dream interpretation and structured parsing platform. It offers a keyless public dream parser, gated partner interpretation endpoints, a hosted MCP server, and full machine-readable contracts. Interpretations are framed as reflective, not diagnostic or predictive.",
+     "score": 52.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 32.3,
+      "governance": 31.3,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-14",
+     "schema_version": "0.11.0",
+     "agent_score": 57.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 520
     },
     {
      "name": "Scribe",
@@ -20066,7 +20147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 519
+     "rank": 521
     },
     {
      "name": "Agnost AI",
@@ -20104,7 +20185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 520
+     "rank": 522
     },
     {
      "name": "Artlist",
@@ -20142,7 +20223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 521
+     "rank": 523
     },
     {
      "name": "Azure Databricks",
@@ -20180,7 +20261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 522
+     "rank": 524
     },
     {
      "name": "Deepdub",
@@ -20218,7 +20299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 523
+     "rank": 525
     },
     {
      "name": "Gitpod",
@@ -20256,7 +20337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 524
+     "rank": 526
     },
     {
      "name": "Goethena",
@@ -20294,7 +20375,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 525
+     "rank": 527
     },
     {
      "name": "Google Cloud Translation API",
@@ -20332,7 +20413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 526
+     "rank": 528
     },
     {
      "name": "Govly",
@@ -20377,7 +20458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 527
+     "rank": 529
     },
     {
      "name": "Osmosis",
@@ -20415,7 +20496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 528
+     "rank": 530
     },
     {
      "name": "Novita AI",
@@ -20453,7 +20534,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 529
+     "rank": 531
     },
     {
      "name": "SandboxAQ",
@@ -20490,7 +20571,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 530
+     "rank": 532
     },
     {
      "name": "Alteryx",
@@ -20528,7 +20609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 531
+     "rank": 533
     },
     {
      "name": "LeO",
@@ -20573,7 +20654,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 532
+     "rank": 534
+    },
+    {
+     "name": "Veeva",
+     "slug": "veeva",
+     "description": "Veeva Systems is the leading cloud software provider for the global life sciences industry, serving pharmaceutical, biotechnology, medical device and CRO customers across commercial, clinical, quality, regulatory, medical and safety operations. Its Vault platform is a single content-and-data cloud whose REST API covers documents, binders, configurable Vault objects, workflows, users, groups, SCIM provisioning, sandbox management and the Direct Data API for high-speed bulk export, all queryable with VQL and extensible through the Vault Java SDK, Custom Pages and Spark Messaging. Veeva also ships two first-party MCP servers: a public Vault Documentation MCP and a tenant-scoped Vault MCP Server that exposes Vault AI agent actions as MCP tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 74.0,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-12",
+     "schema_version": "0.11.0",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 535
     },
     {
      "name": "Diligent",
@@ -20611,7 +20730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 533
+     "rank": 536
     },
     {
      "name": "Google Cloud Speech-To-Text",
@@ -20649,7 +20768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 534
+     "rank": 537
     },
     {
      "name": "Hatchet",
@@ -20687,7 +20806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 535
+     "rank": 538
     },
     {
      "name": "Higgsfield",
@@ -20725,7 +20844,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 536
+     "rank": 539
     },
     {
      "name": "DataStax",
@@ -20763,7 +20882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 537
+     "rank": 540
     },
     {
      "name": "Limitless",
@@ -20801,7 +20920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 538
+     "rank": 541
     },
     {
      "name": "LMNT",
@@ -20839,7 +20958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 539
+     "rank": 542
     },
     {
      "name": "Seam AI",
@@ -20876,7 +20995,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 540
+     "rank": 543
     },
     {
      "name": "Serval",
@@ -20913,7 +21032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 541
+     "rank": 544
     },
     {
      "name": "ZenZap",
@@ -20950,7 +21069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 542
+     "rank": 545
     },
     {
      "name": "AskUI",
@@ -20988,7 +21107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 543
+     "rank": 546
     },
     {
      "name": "Leena AI",
@@ -21026,7 +21145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 544
+     "rank": 547
     },
     {
      "name": "Scaleway",
@@ -21063,7 +21182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 545
+     "rank": 548
     },
     {
      "name": "Semantic Scholar",
@@ -21101,7 +21220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 546
+     "rank": 549
     },
     {
      "name": "Theneo",
@@ -21139,7 +21258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 547
+     "rank": 550
     },
     {
      "name": "Altimate AI",
@@ -21177,7 +21296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 548
+     "rank": 551
     },
     {
      "name": "Duvo Ai",
@@ -21215,7 +21334,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 549
+     "rank": 552
     },
     {
      "name": "Fieldguide",
@@ -21253,7 +21372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 550
+     "rank": 553
     },
     {
      "name": "Golden",
@@ -21291,7 +21410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 551
+     "rank": 554
     },
     {
      "name": "AYLIEN",
@@ -21328,7 +21447,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 552
+     "rank": 555
     },
     {
      "name": "BuyWhere",
@@ -21366,7 +21485,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 553
+     "rank": 556
     },
     {
      "name": "Let's Enhance",
@@ -21404,7 +21523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 554
+     "rank": 557
     },
     {
      "name": "Opkey",
@@ -21442,7 +21561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 555
+     "rank": 558
     },
     {
      "name": "Opus",
@@ -21480,7 +21599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 556
+     "rank": 559
     },
     {
      "name": "Papago",
@@ -21518,7 +21637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 557
+     "rank": 560
     },
     {
      "name": "SAS Institute",
@@ -21556,7 +21675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 558
+     "rank": 561
     },
     {
      "name": "Graphy",
@@ -21594,7 +21713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 559
+     "rank": 562
     },
     {
      "name": "Pruna AI",
@@ -21631,7 +21750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 560
+     "rank": 563
     },
     {
      "name": "Voyant.io",
@@ -21668,7 +21787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 561
+     "rank": 564
     },
     {
      "name": "BigML",
@@ -21706,7 +21825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 562
+     "rank": 565
     },
     {
      "name": "Datasaur",
@@ -21744,7 +21863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 563
+     "rank": 566
     },
     {
      "name": "Forethought",
@@ -21782,7 +21901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 564
+     "rank": 567
     },
     {
      "name": "Gitar",
@@ -21820,7 +21939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 565
+     "rank": 568
     },
     {
      "name": "Merit Systems",
@@ -21865,7 +21984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 566
+     "rank": 569
     },
     {
      "name": "Oxen",
@@ -21903,7 +22022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 567
+     "rank": 570
     },
     {
      "name": "Skymerse",
@@ -21940,7 +22059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 568
+     "rank": 571
     },
     {
      "name": "Uthana",
@@ -21977,7 +22096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 569
+     "rank": 572
     },
     {
      "name": "VISO Trust",
@@ -22014,7 +22133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 570
+     "rank": 573
     },
     {
      "name": "Amazon Textract",
@@ -22052,7 +22171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 571
+     "rank": 574
     },
     {
      "name": "Chord",
@@ -22090,7 +22209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 572
+     "rank": 575
     },
     {
      "name": "Codag",
@@ -22128,7 +22247,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 573
+     "rank": 576
     },
     {
      "name": "Larridin",
@@ -22166,7 +22285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 574
+     "rank": 577
     },
     {
      "name": "Log10",
@@ -22204,7 +22323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 575
+     "rank": 578
     },
     {
      "name": "Coinbase Global",
@@ -22249,7 +22368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 576
+     "rank": 579
     },
     {
      "name": "Smartcat",
@@ -22286,7 +22405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 577
+     "rank": 580
     },
     {
      "name": "Streamlit",
@@ -22324,7 +22443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 578
+     "rank": 581
     },
     {
      "name": "AIMLAPI",
@@ -22362,7 +22481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 579
+     "rank": 582
     },
     {
      "name": "ArangoDB",
@@ -22400,7 +22519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 580
+     "rank": 583
     },
     {
      "name": "Fama",
@@ -22438,7 +22557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 581
+     "rank": 584
     },
     {
      "name": "Genderize.io",
@@ -22476,7 +22595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 582
+     "rank": 585
     },
     {
      "name": "ManyChat",
@@ -22521,7 +22640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 583
+     "rank": 586
     },
     {
      "name": "Fixie",
@@ -22559,7 +22678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 584
+     "rank": 587
     },
     {
      "name": "LinkAGI Model API",
@@ -22596,7 +22715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 585
+     "rank": 588
     },
     {
      "name": "Ocient",
@@ -22634,7 +22753,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 586
+     "rank": 589
     },
     {
      "name": "SpAItial",
@@ -22671,7 +22790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 587
+     "rank": 590
     },
     {
      "name": "Movable Ink",
@@ -22709,7 +22828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 588
+     "rank": 591
     },
     {
      "name": "Orthogonal",
@@ -22754,7 +22873,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 589
+     "rank": 592
     },
     {
      "name": "Stability AI",
@@ -22792,7 +22911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 590
+     "rank": 593
     },
     {
      "name": "StarTree (Cortexdata)",
@@ -22829,7 +22948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 591
+     "rank": 594
     },
     {
      "name": "Testerarmy",
@@ -22866,7 +22985,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 592
+     "rank": 595
     },
     {
      "name": "Twenty",
@@ -22904,7 +23023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 593
+     "rank": 596
     },
     {
      "name": "Boltz",
@@ -22949,7 +23068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 594
+     "rank": 597
     },
     {
      "name": "Capy",
@@ -22987,7 +23106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 595
+     "rank": 598
     },
     {
      "name": "Orum",
@@ -23025,7 +23144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 596
+     "rank": 599
     },
     {
      "name": "Paid",
@@ -23070,7 +23189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 597
+     "rank": 600
     },
     {
      "name": "Seltz",
@@ -23107,7 +23226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 598
+     "rank": 601
     },
     {
      "name": "Spider",
@@ -23145,7 +23264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 599
+     "rank": 602
     },
     {
      "name": "Cofactr",
@@ -23183,7 +23302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 600
+     "rank": 603
     },
     {
      "name": "Mend",
@@ -23221,7 +23340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 601
+     "rank": 604
     },
     {
      "name": "Avoca",
@@ -23259,7 +23378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 602
+     "rank": 605
     },
     {
      "name": "Hedra",
@@ -23297,7 +23416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 603
+     "rank": 606
     },
     {
      "name": "Klutch",
@@ -23342,7 +23461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 604
+     "rank": 607
     },
     {
      "name": "Pika",
@@ -23380,7 +23499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 605
+     "rank": 608
     },
     {
      "name": "Relace",
@@ -23417,7 +23536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 606
+     "rank": 609
     },
     {
      "name": "Atomicwork",
@@ -23455,7 +23574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 607
+     "rank": 610
     },
     {
      "name": "Bluejay",
@@ -23493,7 +23612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 608
+     "rank": 611
     },
     {
      "name": "Brave",
@@ -23531,7 +23650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 609
+     "rank": 612
     },
     {
      "name": "Clarifeye",
@@ -23569,7 +23688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 610
+     "rank": 613
     },
     {
      "name": "Yandex Translate API",
@@ -23607,7 +23726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 611
+     "rank": 614
     },
     {
      "name": "Depict.AI",
@@ -23645,7 +23764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 612
+     "rank": 615
     },
     {
      "name": "ELBO AI, INC",
@@ -23683,7 +23802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 613
+     "rank": 616
     },
     {
      "name": "MCP Manager",
@@ -23721,7 +23840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 614
+     "rank": 617
     },
     {
      "name": "Sanas",
@@ -23758,7 +23877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 615
+     "rank": 618
     },
     {
      "name": "tessl.io",
@@ -23795,7 +23914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 616
+     "rank": 619
     },
     {
      "name": "Vyond",
@@ -23832,7 +23951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 617
+     "rank": 620
     },
     {
      "name": "Weld",
@@ -23869,7 +23988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 618
+     "rank": 621
     },
     {
      "name": "0G Labs",
@@ -23907,7 +24026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 619
+     "rank": 622
     },
     {
      "name": "Adsmom Inc.",
@@ -23945,7 +24064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 620
+     "rank": 623
     },
     {
      "name": "ArthurAI",
@@ -23983,7 +24102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 621
+     "rank": 624
     },
     {
      "name": "Depositphotos",
@@ -24021,7 +24140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 622
+     "rank": 625
     },
     {
      "name": "Kairos AR",
@@ -24059,7 +24178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 623
+     "rank": 626
     },
     {
      "name": "KugelAudio",
@@ -24097,7 +24216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 624
+     "rank": 627
     },
     {
      "name": "Numerai",
@@ -24135,7 +24254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 625
+     "rank": 628
     },
     {
      "name": "Reson8",
@@ -24172,7 +24291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 626
+     "rank": 629
     },
     {
      "name": "Wealth.com",
@@ -24209,7 +24328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 627
+     "rank": 630
     },
     {
      "name": "Galileo Technologies",
@@ -24247,7 +24366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 628
+     "rank": 631
     },
     {
      "name": "N8n",
@@ -24285,7 +24404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 629
+     "rank": 632
     },
     {
      "name": "Quadratic",
@@ -24322,7 +24441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 630
+     "rank": 633
     },
     {
      "name": "Rentahuman",
@@ -24366,7 +24485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 631
+     "rank": 634
     },
     {
      "name": "Samu",
@@ -24403,7 +24522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 632
+     "rank": 635
     },
     {
      "name": "Sift Science",
@@ -24447,7 +24566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 633
+     "rank": 636
     },
     {
      "name": "Syncly",
@@ -24484,7 +24603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 634
+     "rank": 637
     },
     {
      "name": "Traceloop",
@@ -24522,7 +24641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 635
+     "rank": 638
     },
     {
      "name": "Waniwani",
@@ -24566,7 +24685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 636
+     "rank": 639
     },
     {
      "name": "Campfire",
@@ -24604,7 +24723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 637
+     "rank": 640
     },
     {
      "name": "Channel99",
@@ -24642,7 +24761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 638
+     "rank": 641
     },
     {
      "name": "duvo.ai",
@@ -24680,7 +24799,7 @@
       "agent_card": "flavored",
       "dry_run_mode": true
      },
-     "rank": 639
+     "rank": 642
     },
     {
      "name": "Microsoft Azure Cloud",
@@ -24718,7 +24837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 640
+     "rank": 643
     },
     {
      "name": "Mob.ly",
@@ -24756,7 +24875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 641
+     "rank": 644
     },
     {
      "name": "Openwork",
@@ -24793,7 +24912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 642
+     "rank": 645
     },
     {
      "name": "Parea AI",
@@ -24831,7 +24950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 643
+     "rank": 646
     },
     {
      "name": "Udesk",
@@ -24868,7 +24987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 644
+     "rank": 647
     },
     {
      "name": "Databricks Asset Bundles",
@@ -24906,7 +25025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 645
+     "rank": 648
     },
     {
      "name": "Mason",
@@ -24944,7 +25063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 646
+     "rank": 649
     },
     {
      "name": "AppNeta (Broadcom Software)",
@@ -24982,7 +25101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 647
+     "rank": 650
     },
     {
      "name": "Coalesce",
@@ -25020,7 +25139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 648
+     "rank": 651
     },
     {
      "name": "IncidentFox (Brownie)",
@@ -25058,7 +25177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 649
+     "rank": 652
     },
     {
      "name": "Lithium Technologies",
@@ -25096,7 +25215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 650
+     "rank": 653
     },
     {
      "name": "Velaris",
@@ -25133,7 +25252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 651
+     "rank": 654
     },
     {
      "name": "Akia",
@@ -25171,7 +25290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 652
+     "rank": 655
     },
     {
      "name": "Coder",
@@ -25209,7 +25328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 653
+     "rank": 656
     },
     {
      "name": "Dark Sky",
@@ -25247,7 +25366,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 654
+     "rank": 657
     },
     {
      "name": "Interfaze",
@@ -25285,7 +25404,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 655
+     "rank": 658
     },
     {
      "name": "OpenAI APIs",
@@ -25323,7 +25442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 656
+     "rank": 659
     },
     {
      "name": "Prior Labs",
@@ -25360,7 +25479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 657
+     "rank": 660
     },
     {
      "name": "StepFun",
@@ -25397,7 +25516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 658
+     "rank": 661
     },
     {
      "name": "Tadeus API",
@@ -25434,7 +25553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 659
+     "rank": 662
     },
     {
      "name": "AssemblyAI",
@@ -25472,7 +25591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 660
+     "rank": 663
     },
     {
      "name": "Atera",
@@ -25510,7 +25629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 661
+     "rank": 664
     },
     {
      "name": "Cast Corporation",
@@ -25548,7 +25667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 662
+     "rank": 665
     },
     {
      "name": "fiddler.ai",
@@ -25586,7 +25705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 663
+     "rank": 666
     },
     {
      "name": "Glean",
@@ -25624,7 +25743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 664
+     "rank": 667
     },
     {
      "name": "Indico Data",
@@ -25669,7 +25788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 665
+     "rank": 668
     },
     {
      "name": "Kili Technology",
@@ -25707,7 +25826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 666
+     "rank": 669
     },
     {
      "name": "Revefi",
@@ -25744,7 +25863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 667
+     "rank": 670
     },
     {
      "name": "Siro",
@@ -25781,7 +25900,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 668
+     "rank": 671
     },
     {
      "name": "Truto",
@@ -25819,7 +25938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 669
+     "rank": 672
     },
     {
      "name": "Ask Sage",
@@ -25864,7 +25983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 670
+     "rank": 673
     },
     {
      "name": "Defakto Security",
@@ -25901,7 +26020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 671
+     "rank": 674
     },
     {
      "name": "Dialect",
@@ -25946,7 +26065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 672
+     "rank": 675
     },
     {
      "name": "Gist",
@@ -25984,7 +26103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 673
+     "rank": 676
     },
     {
      "name": "Kensho",
@@ -26022,7 +26141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 674
+     "rank": 677
     },
     {
      "name": "Spectro Cloud",
@@ -26059,7 +26178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 675
+     "rank": 678
     },
     {
      "name": "AgentPhone",
@@ -26104,7 +26223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 676
+     "rank": 679
     },
     {
      "name": "Evari",
@@ -26149,7 +26268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 677
+     "rank": 680
     },
     {
      "name": "Gleap",
@@ -26187,7 +26306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 678
+     "rank": 681
     },
     {
      "name": "Precog",
@@ -26224,7 +26343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 679
+     "rank": 682
     },
     {
      "name": "Runautomat",
@@ -26261,7 +26380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 680
+     "rank": 683
     },
     {
      "name": "Tettra",
@@ -26299,7 +26418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 681
+     "rank": 684
     },
     {
      "name": "Workist",
@@ -26336,7 +26455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 682
+     "rank": 685
     },
     {
      "name": "BentoML",
@@ -26374,7 +26493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 683
+     "rank": 686
     },
     {
      "name": "Listen Labs",
@@ -26412,7 +26531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 684
+     "rank": 687
     },
     {
      "name": "Session AI",
@@ -26449,7 +26568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 685
+     "rank": 688
     },
     {
      "name": "Soul Machines",
@@ -26486,7 +26605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 686
+     "rank": 689
     },
     {
      "name": "Integration.app (Membrane)",
@@ -26524,7 +26643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 690
     },
     {
      "name": "LanceDB",
@@ -26562,7 +26681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 691
     },
     {
      "name": "Mireye",
@@ -26607,7 +26726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 692
     },
     {
      "name": "Uniphore",
@@ -26644,7 +26763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 693
     },
     {
      "name": "Glue",
@@ -26682,7 +26801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 694
     },
     {
      "name": "Hatch",
@@ -26727,7 +26846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 695
     },
     {
      "name": "Onecli",
@@ -26765,7 +26884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 696
     },
     {
      "name": "KeepFace",
@@ -26803,7 +26922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 697
     },
     {
      "name": "Matik",
@@ -26841,7 +26960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 698
     },
     {
      "name": "PackageX",
@@ -26879,7 +26998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 699
     },
     {
      "name": "Yardi Canada",
@@ -26923,7 +27042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 700
     },
     {
      "name": "Anchor Browser",
@@ -26961,7 +27080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 701
     },
     {
      "name": "Appgain",
@@ -27006,7 +27125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 702
     },
     {
      "name": "Rows",
@@ -27043,7 +27162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 703
     },
     {
      "name": "Sobot",
@@ -27080,7 +27199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 704
     },
     {
      "name": "Superlog",
@@ -27117,7 +27236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 705
     },
     {
      "name": "Understudy Labs",
@@ -27154,7 +27273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 706
     },
     {
      "name": "Algebras AI Inc.",
@@ -27192,7 +27311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 707
     },
     {
      "name": "Aptly",
@@ -27230,7 +27349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 708
     },
     {
      "name": "AutoLeadStar",
@@ -27268,7 +27387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 709
     },
     {
      "name": "DeepSeek",
@@ -27306,7 +27425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 710
     },
     {
      "name": "Facilio",
@@ -27344,7 +27463,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 711
     },
     {
      "name": "Google Cloud Platform",
@@ -27382,7 +27501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 712
     },
     {
      "name": "Hailuo AI / MiniMax",
@@ -27420,7 +27539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 713
     },
     {
      "name": "Karumi",
@@ -27458,7 +27577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 714
     },
     {
      "name": "Napkin",
@@ -27496,7 +27615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 715
     },
     {
      "name": "Napkin.AI",
@@ -27534,7 +27653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 716
     },
     {
      "name": "Sponge",
@@ -27578,7 +27697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 717
     },
     {
      "name": "Vooma",
@@ -27622,7 +27741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 718
     },
     {
      "name": "WanAPIs",
@@ -27660,7 +27779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 719
     },
     {
      "name": "Aquant",
@@ -27705,7 +27824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 720
     },
     {
      "name": "Moonbounce",
@@ -27750,7 +27869,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 721
     },
     {
      "name": "Prophecy.io",
@@ -27787,7 +27906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 722
     },
     {
      "name": "Reflect",
@@ -27825,7 +27944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 723
     },
     {
      "name": "PlayHT",
@@ -27862,7 +27981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 724
     },
     {
      "name": "Predoc",
@@ -27906,7 +28025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 725
     },
     {
      "name": "Salesforce Einstein",
@@ -27944,7 +28063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 726
     },
     {
      "name": "ZeroEntropy",
@@ -27981,7 +28100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 727
     },
     {
      "name": "Chatwoot",
@@ -28019,7 +28138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 728
     },
     {
      "name": "Tollbit",
@@ -28056,7 +28175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 729
     },
     {
      "name": "Walrus Protocol",
@@ -28093,7 +28212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 730
     },
     {
      "name": "AI21 Labs",
@@ -28131,7 +28250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 731
     },
     {
      "name": "Aleph Alpha",
@@ -28176,7 +28295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 732
     },
     {
      "name": "Cleanlab",
@@ -28214,7 +28333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 733
     },
     {
      "name": "Google Gemini",
@@ -28252,7 +28371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 734
     },
     {
      "name": "Hivemapper",
@@ -28290,7 +28409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 735
     },
     {
      "name": "Letta",
@@ -28328,7 +28447,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 733
+     "rank": 736
     },
     {
      "name": "Runway",
@@ -28366,7 +28485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 737
     },
     {
      "name": "Swap",
@@ -28410,7 +28529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
+     "rank": 738
     },
     {
      "name": "Arpeggi Labs",
@@ -28448,7 +28567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 736
+     "rank": 739
     },
     {
      "name": "CoreWeave",
@@ -28486,7 +28605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 740
     },
     {
      "name": "FlexAI",
@@ -28524,7 +28643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 741
     },
     {
      "name": "Monaco",
@@ -28562,7 +28681,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 742
     },
     {
      "name": "OutRival",
@@ -28607,7 +28726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
+     "rank": 743
     },
     {
      "name": "Smithery",
@@ -28644,7 +28763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 741
+     "rank": 744
     },
     {
      "name": "Stellar Cyber",
@@ -28682,7 +28801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 745
     },
     {
      "name": "Constellation Space",
@@ -28720,7 +28839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 746
     },
     {
      "name": "Shoppable",
@@ -28764,7 +28883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 747
     },
     {
      "name": "Smol Machines",
@@ -28801,7 +28920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 748
     },
     {
      "name": "Sonarly",
@@ -28838,7 +28957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 749
     },
     {
      "name": "Arthur AI",
@@ -28876,7 +28995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 750
     },
     {
      "name": "Phenom",
@@ -28913,7 +29032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 751
     },
     {
      "name": "SafetyKit",
@@ -28950,7 +29069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 752
     },
     {
      "name": "Teradata",
@@ -28988,7 +29107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 753
     },
     {
      "name": "Eraser",
@@ -29026,7 +29145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 754
     },
     {
      "name": "Inception Labs",
@@ -29064,7 +29183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 755
     },
     {
      "name": "Smallest AI",
@@ -29101,7 +29220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 756
     },
     {
      "name": "Cognigy",
@@ -29139,7 +29258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 757
     },
     {
      "name": "Inkeep",
@@ -29177,7 +29296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 758
     },
     {
      "name": "Phonic",
@@ -29214,7 +29333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 759
     },
     {
      "name": "Quadrillion",
@@ -29251,7 +29370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 760
     },
     {
      "name": "Reactor",
@@ -29288,7 +29407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 761
     },
     {
      "name": "Recipe API",
@@ -29325,7 +29444,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 759
+     "rank": 762
     },
     {
      "name": "VideoSDK",
@@ -29363,7 +29482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 763
     },
     {
      "name": "Depict",
@@ -29401,7 +29520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 764
     },
     {
      "name": "Fini",
@@ -29439,7 +29558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 765
     },
     {
      "name": "Scott Ai",
@@ -29476,7 +29595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 766
     },
     {
      "name": "NVIDIA Run:ai",
@@ -29513,7 +29632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 767
     },
     {
      "name": "Ondemand",
@@ -29551,7 +29670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 768
     },
     {
      "name": "Ryft",
@@ -29588,7 +29707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 769
     },
     {
      "name": "Scalarr",
@@ -29625,7 +29744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 770
     },
     {
      "name": "Hey API",
@@ -29663,7 +29782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 771
     },
     {
      "name": "Mirage",
@@ -29701,7 +29820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 772
     },
     {
      "name": "Nuclia",
@@ -29739,7 +29858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 773
     },
     {
      "name": "Posit",
@@ -29776,7 +29895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 774
     },
     {
      "name": "Requesty",
@@ -29814,7 +29933,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 775
     },
     {
      "name": "Vijil",
@@ -29851,7 +29970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 776
     },
     {
      "name": "Loop",
@@ -29896,7 +30015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 777
     },
     {
      "name": "Tenyks",
@@ -29933,7 +30052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 778
     },
     {
      "name": "Impossible Cloud",
@@ -29971,7 +30090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 779
     },
     {
      "name": "Kotoba",
@@ -30009,7 +30128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 780
     },
     {
      "name": "Nex",
@@ -30047,7 +30166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 781
     },
     {
      "name": "Argilla",
@@ -30085,7 +30204,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 782
     },
     {
      "name": "languagelayer",
@@ -30123,7 +30242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 783
     },
     {
      "name": "Nayya",
@@ -30168,7 +30287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 784
     },
     {
      "name": "Octane AI",
@@ -30206,7 +30325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 785
     },
     {
      "name": "Qomplement",
@@ -30243,7 +30362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 786
     },
     {
      "name": "Recursal AI, Inc.",
@@ -30280,7 +30399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 787
     },
     {
      "name": "Stacks Ai",
@@ -30317,7 +30436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 788
     },
     {
      "name": "Light",
@@ -30362,7 +30481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 789
     },
     {
      "name": "Sync Labs",
@@ -30400,7 +30519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 790
     },
     {
      "name": "Bud Financial",
@@ -30445,7 +30564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 791
     },
     {
      "name": "D3",
@@ -30483,7 +30602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 792
     },
     {
      "name": "Feathery",
@@ -30528,7 +30647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 793
     },
     {
      "name": "Keywords AI",
@@ -30566,7 +30685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 794
     },
     {
      "name": "Pryon",
@@ -30603,7 +30722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 795
     },
     {
      "name": "Featherless AI",
@@ -30641,7 +30760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 796
     },
     {
      "name": "Kive",
@@ -30679,7 +30798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 797
     },
     {
      "name": "Lakera",
@@ -30717,7 +30836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 798
     },
     {
      "name": "Linktree",
@@ -30755,7 +30874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 799
     },
     {
      "name": "Sarvam AI",
@@ -30792,7 +30911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 800
     },
     {
      "name": "Seldon",
@@ -30830,7 +30949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 801
     },
     {
      "name": "Swimlane",
@@ -30868,7 +30987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 802
     },
     {
      "name": "toksta",
@@ -30905,7 +31024,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 803
     },
     {
      "name": "CharacterQuilt",
@@ -30943,7 +31062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 804
     },
     {
      "name": "Injective",
@@ -30988,7 +31107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 805
     },
     {
      "name": "Lingopal",
@@ -31026,7 +31145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 806
     },
     {
      "name": "Gray Swan",
@@ -31064,7 +31183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 807
     },
     {
      "name": "Slite",
@@ -31102,7 +31221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 808
     },
     {
      "name": "Superscale",
@@ -31139,7 +31258,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 809
     },
     {
      "name": "Tavus",
@@ -31177,7 +31296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 810
     },
     {
      "name": "Z League",
@@ -31214,7 +31333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 811
     },
     {
      "name": "Cubby",
@@ -31258,7 +31377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 812
     },
     {
      "name": "HockeyStack",
@@ -31296,7 +31415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 813
     },
     {
      "name": "Motion Elements",
@@ -31334,7 +31453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 814
     },
     {
      "name": "Fixture",
@@ -31372,7 +31491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 815
     },
     {
      "name": "Chamber",
@@ -31410,7 +31529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 816
     },
     {
      "name": "ColdSnap",
@@ -31448,7 +31567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 817
     },
     {
      "name": "LangDB",
@@ -31486,7 +31605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 818
     },
     {
      "name": "Learnosity",
@@ -31524,7 +31643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 819
     },
     {
      "name": "Limrun",
@@ -31562,7 +31681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 820
     },
     {
      "name": "miso.ai",
@@ -31600,7 +31719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 821
     },
     {
      "name": "Patsnap",
@@ -31645,7 +31764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 822
     },
     {
      "name": "Usercentrics",
@@ -31683,7 +31802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 823
     },
     {
      "name": "AppsMax",
@@ -31720,7 +31839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 824
     },
     {
      "name": "Lemma",
@@ -31757,7 +31876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 825
     },
     {
      "name": "Pinkfish",
@@ -31794,7 +31913,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 826
     },
     {
      "name": "Qubrid AI",
@@ -31832,7 +31951,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 827
     },
     {
      "name": "SUTRA (Two AI)",
@@ -31869,7 +31988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 828
     },
     {
      "name": "TensorWave",
@@ -31906,7 +32025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 829
     },
     {
      "name": "Camb.AI",
@@ -31944,7 +32063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 830
     },
     {
      "name": "Nscale",
@@ -31982,7 +32101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 831
     },
     {
      "name": "Rapidfolio",
@@ -32019,7 +32138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 832
     },
     {
      "name": "Sana",
@@ -32056,7 +32175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 833
     },
     {
      "name": "SegmentStream",
@@ -32093,7 +32212,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 834
     },
     {
      "name": "Traversal",
@@ -32130,7 +32249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 835
     },
     {
      "name": "Voiceitt",
@@ -32167,7 +32286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 836
     },
     {
      "name": "WunderGraph",
@@ -32205,7 +32324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 837
     },
     {
      "name": ".txt",
@@ -32242,7 +32361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 838
     },
     {
      "name": "Chutes",
@@ -32280,7 +32399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 839
     },
     {
      "name": "Coram Ai",
@@ -32318,7 +32437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 840
     },
     {
      "name": "Greptile",
@@ -32356,7 +32475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 841
     },
     {
      "name": "Rainbird Technologies",
@@ -32393,7 +32512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 842
     },
     {
      "name": "Resistant AI",
@@ -32430,7 +32549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 843
     },
     {
      "name": "Amika",
@@ -32468,7 +32587,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 844
     },
     {
      "name": "Databook",
@@ -32506,7 +32625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 845
     },
     {
      "name": "HeyGen",
@@ -32544,7 +32663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 846
     },
     {
      "name": "Rapidata",
@@ -32581,7 +32700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 847
     },
     {
      "name": "The Guild",
@@ -32619,7 +32738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 848
     },
     {
      "name": "Archastro",
@@ -32657,7 +32776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 849
     },
     {
      "name": "Butterpayments",
@@ -32702,7 +32821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 850
     },
     {
      "name": "Cakewalk",
@@ -32740,7 +32859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 851
     },
     {
      "name": "Fern",
@@ -32778,7 +32897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 852
     },
     {
      "name": "Google Colab",
@@ -32816,7 +32935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 853
     },
     {
      "name": "Humaans",
@@ -32854,7 +32973,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 854
     },
     {
      "name": "Cedarai",
@@ -32892,7 +33011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 855
     },
     {
      "name": "Ex-Human",
@@ -32930,7 +33049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 856
     },
     {
      "name": "Mem0",
@@ -32968,7 +33087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 857
     },
     {
      "name": "Contextual AI",
@@ -33006,7 +33125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 858
     },
     {
      "name": "Eigenpal",
@@ -33044,7 +33163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 859
     },
     {
      "name": "Harmony",
@@ -33082,7 +33201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 860
     },
     {
      "name": "Laminar",
@@ -33120,7 +33239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 861
     },
     {
      "name": "Microsoft Azure",
@@ -33158,7 +33277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 862
     },
     {
      "name": "Shapes",
@@ -33195,7 +33314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 863
     },
     {
      "name": "TabTabTab",
@@ -33232,7 +33351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 864
     },
     {
      "name": "Acceldata",
@@ -33270,7 +33389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 865
     },
     {
      "name": "Adaptive ML",
@@ -33308,7 +33427,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 866
     },
     {
      "name": "Ardent",
@@ -33346,7 +33465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 867
     },
     {
      "name": "ATOM",
@@ -33384,7 +33503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 868
     },
     {
      "name": "DigitalGenius",
@@ -33422,7 +33541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 869
     },
     {
      "name": "Instant Commerce",
@@ -33460,7 +33579,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 870
     },
     {
      "name": "Jupyter Notebook",
@@ -33498,7 +33617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 871
     },
     {
      "name": "Zenlytic",
@@ -33535,7 +33654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 872
     },
     {
      "name": "Adaptive Security",
@@ -33573,7 +33692,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 873
     },
     {
      "name": "Britive",
@@ -33610,7 +33729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 874
     },
     {
      "name": "CentML",
@@ -33648,7 +33767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 875
     },
     {
      "name": "Docling",
@@ -33686,7 +33805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 876
     },
     {
      "name": "Golem",
@@ -33724,7 +33843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 877
     },
     {
      "name": "Hugging Face Transformers",
@@ -33762,7 +33881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 878
     },
     {
      "name": "PredictHQ",
@@ -33800,7 +33919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 879
     },
     {
      "name": "Tana",
@@ -33837,7 +33956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 880
     },
     {
      "name": "Voyc",
@@ -33874,7 +33993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 881
     },
     {
      "name": "Wispr AI",
@@ -33911,7 +34030,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 882
     },
     {
      "name": "10Web",
@@ -33949,7 +34068,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 883
     },
     {
      "name": "Develop Health",
@@ -33994,7 +34113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 884
     },
     {
      "name": "Exactly Ai",
@@ -34032,7 +34151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 885
     },
     {
      "name": "Juniper Networks",
@@ -34070,7 +34189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 886
     },
     {
      "name": "Macrometa",
@@ -34108,7 +34227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 887
     },
     {
      "name": "Rasa",
@@ -34145,7 +34264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 888
     },
     {
      "name": "Sahara AI",
@@ -34182,7 +34301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 889
     },
     {
      "name": "Trellis",
@@ -34219,7 +34338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 890
     },
     {
      "name": "Agrio",
@@ -34257,7 +34376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 891
     },
     {
      "name": "Caretta",
@@ -34295,7 +34414,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 892
     },
     {
      "name": "Elementum",
@@ -34333,7 +34452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 893
     },
     {
      "name": "Gemini",
@@ -34371,7 +34490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 894
     },
     {
      "name": "Ludo.ai",
@@ -34409,7 +34528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 895
     },
     {
      "name": "Luminance",
@@ -34447,7 +34566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 896
     },
     {
      "name": "Prosper AI",
@@ -34491,7 +34610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 897
     },
     {
      "name": "Ravelin",
@@ -34536,7 +34655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 898
     },
     {
      "name": "Rhizome Ai",
@@ -34580,7 +34699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 899
     },
     {
      "name": "Tavily",
@@ -34618,7 +34737,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 900
     },
     {
      "name": "WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)",
@@ -34655,7 +34774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 901
     },
     {
      "name": "Momento",
@@ -34693,7 +34812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 902
     },
     {
      "name": "Narrative Sports",
@@ -34730,7 +34849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 903
     },
     {
      "name": "True Fit",
@@ -34767,7 +34886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 904
     },
     {
      "name": "vLex",
@@ -34805,7 +34924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 905
     },
     {
      "name": "AlterEstate",
@@ -34843,7 +34962,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 906
     },
     {
      "name": "Conxai",
@@ -34881,7 +35000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 907
     },
     {
      "name": "Dyno",
@@ -34925,7 +35044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 908
     },
     {
      "name": "Redocly",
@@ -34963,7 +35082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 909
     },
     {
      "name": "Result",
@@ -35007,7 +35126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 910
     },
     {
      "name": "Agora Data",
@@ -35045,7 +35164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 911
     },
     {
      "name": "Daytona",
@@ -35083,7 +35202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 912
     },
     {
      "name": "Scalar",
@@ -35121,7 +35240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 913
     },
     {
      "name": "Tachyus",
@@ -35165,7 +35284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 914
     },
     {
      "name": "TwelveLabs",
@@ -35203,7 +35322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 915
     },
     {
      "name": "Unitlab AI",
@@ -35240,7 +35359,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 916
     },
     {
      "name": "Activepieces",
@@ -35278,7 +35397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 917
     },
     {
      "name": "CometAPI",
@@ -35316,7 +35435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 918
     },
     {
      "name": "Fermat",
@@ -35354,7 +35473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 919
     },
     {
      "name": "Klavis AI",
@@ -35392,7 +35511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 920
     },
     {
      "name": "Noded AI",
@@ -35430,7 +35549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 921
     },
     {
      "name": "Recurrency",
@@ -35467,7 +35586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 922
     },
     {
      "name": "StakPak",
@@ -35504,7 +35623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 923
     },
     {
      "name": "Suggestic",
@@ -35548,7 +35667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 924
     },
     {
      "name": "Aisera",
@@ -35586,7 +35705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 925
     },
     {
      "name": "Bounti",
@@ -35624,7 +35743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 926
     },
     {
      "name": "Bytez",
@@ -35662,7 +35781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 927
     },
     {
      "name": "RunWhen",
@@ -35699,7 +35818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 928
     },
     {
      "name": "Spyne",
@@ -35736,7 +35855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 929
     },
     {
      "name": "Amazon Supply Chain",
@@ -35774,7 +35893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 930
     },
     {
      "name": "Notyfi",
@@ -35812,7 +35931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 931
     },
     {
      "name": "Predibase",
@@ -35850,7 +35969,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 932
     },
     {
      "name": "TextGears",
@@ -35888,7 +36007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 930
+     "rank": 933
     },
     {
      "name": "Accept",
@@ -35926,7 +36045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 931
+     "rank": 934
     },
     {
      "name": "Alation",
@@ -35964,7 +36083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 932
+     "rank": 935
     },
     {
      "name": "Arcee AI",
@@ -36002,7 +36121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 933
+     "rank": 936
     },
     {
      "name": "Argo Workflows",
@@ -36040,7 +36159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 934
+     "rank": 937
     },
     {
      "name": "Beam",
@@ -36078,7 +36197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 935
+     "rank": 938
     },
     {
      "name": "Botanalytics",
@@ -36116,7 +36235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 936
+     "rank": 939
     },
     {
      "name": "Reclaim.ai",
@@ -36154,7 +36273,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 937
+     "rank": 940
     },
     {
      "name": "Telemetron",
@@ -36191,7 +36310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 938
+     "rank": 941
     },
     {
      "name": "Veritus",
@@ -36228,7 +36347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 939
+     "rank": 942
     },
     {
      "name": "E2B",
@@ -36266,7 +36385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 940
+     "rank": 943
     },
     {
      "name": "JupyterLab",
@@ -36304,7 +36423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 941
+     "rank": 944
     },
     {
      "name": "Laurel",
@@ -36342,7 +36461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 942
+     "rank": 945
     },
     {
      "name": "Teammates",
@@ -36379,7 +36498,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 943
+     "rank": 946
     },
     {
      "name": "ZotGPT (UC Irvine)",
@@ -36416,7 +36535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 944
+     "rank": 947
     },
     {
      "name": "AgentGateway",
@@ -36454,7 +36573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 945
+     "rank": 948
     },
     {
      "name": "Agno",
@@ -36492,7 +36611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 946
+     "rank": 949
     },
     {
      "name": "Ava Protocol",
@@ -36537,7 +36656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 947
+     "rank": 950
     },
     {
      "name": "Catnip",
@@ -36575,7 +36694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 948
+     "rank": 951
     },
     {
      "name": "Densify",
@@ -36613,7 +36732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 949
+     "rank": 952
     },
     {
      "name": "Firecrawl",
@@ -36651,7 +36770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 950
+     "rank": 953
     },
     {
      "name": "Replay",
@@ -36688,7 +36807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 951
+     "rank": 954
     },
     {
      "name": "Budibase",
@@ -36726,7 +36845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 952
+     "rank": 955
     },
     {
      "name": "EvolutionaryScale",
@@ -36771,7 +36890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 953
+     "rank": 956
     },
     {
      "name": "fabric",
@@ -36815,7 +36934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 954
+     "rank": 957
     },
     {
      "name": "Strangeworks",
@@ -36852,7 +36971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 955
+     "rank": 958
     },
     {
      "name": "APIPark",
@@ -36890,7 +37009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 956
+     "rank": 959
     },
     {
      "name": "CoreStory",
@@ -36928,7 +37047,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 957
+     "rank": 960
     },
     {
      "name": "Dexterity",
@@ -36966,7 +37085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 958
+     "rank": 961
     },
     {
      "name": "Dremio",
@@ -37004,7 +37123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 959
+     "rank": 962
     },
     {
      "name": "Intercom",
@@ -37042,7 +37161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 960
+     "rank": 963
     },
     {
      "name": "Pomo",
@@ -37079,7 +37198,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 961
+     "rank": 964
     },
     {
      "name": "Screenpipe",
@@ -37116,7 +37235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 962
+     "rank": 965
     },
     {
      "name": "UrbanFox",
@@ -37160,7 +37279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 963
+     "rank": 966
     },
     {
      "name": "Agent Diff",
@@ -37198,7 +37317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 964
+     "rank": 967
     },
     {
      "name": "Braintrust",
@@ -37236,7 +37355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 965
+     "rank": 968
     },
     {
      "name": "Causa Prima",
@@ -37281,7 +37400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 966
+     "rank": 969
     },
     {
      "name": "Moises",
@@ -37319,7 +37438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 967
+     "rank": 970
     },
     {
      "name": "Vellum AI",
@@ -37357,7 +37476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 968
+     "rank": 971
     },
     {
      "name": "VISO Trust (Protecht)",
@@ -37394,7 +37513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 969
+     "rank": 972
     },
     {
      "name": "Anything",
@@ -37432,7 +37551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 970
+     "rank": 973
     },
     {
      "name": "Expanso",
@@ -37470,7 +37589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 971
+     "rank": 974
     },
     {
      "name": "Fluence",
@@ -37508,7 +37627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 972
+     "rank": 975
     },
     {
      "name": "Gloat",
@@ -37546,7 +37665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 973
+     "rank": 976
     },
     {
      "name": "Hilos",
@@ -37584,7 +37703,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 974
+     "rank": 977
     },
     {
      "name": "Klaus AI",
@@ -37622,7 +37741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 975
+     "rank": 978
     },
     {
      "name": "Sentrial",
@@ -37659,7 +37778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 976
+     "rank": 979
     },
     {
      "name": "Relay App",
@@ -37697,7 +37816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 977
+     "rank": 980
     },
     {
      "name": "TensorFlow",
@@ -37735,7 +37854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 978
+     "rank": 981
     },
     {
      "name": "Cure Hydration",
@@ -37779,7 +37898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 979
+     "rank": 982
     },
     {
      "name": "Element5",
@@ -37824,7 +37943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 980
+     "rank": 983
     },
     {
      "name": "Galileo",
@@ -37862,7 +37981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 981
+     "rank": 984
     },
     {
      "name": "Hyperice",
@@ -37907,7 +38026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 982
+     "rank": 985
     },
     {
      "name": "Linguatools",
@@ -37945,7 +38064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 983
+     "rank": 986
     },
     {
      "name": "OpenHands",
@@ -37983,7 +38102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 984
+     "rank": 987
     },
     {
      "name": "Cosmo Tech",
@@ -38021,7 +38140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 985
+     "rank": 988
     },
     {
      "name": "JupyterHub",
@@ -38059,7 +38178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 986
+     "rank": 989
     },
     {
      "name": "Alice",
@@ -38097,7 +38216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 987
+     "rank": 990
     },
     {
      "name": "Dog CEO",
@@ -38135,7 +38254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 988
+     "rank": 991
     },
     {
      "name": "Glio",
@@ -38173,7 +38292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 989
+     "rank": 992
     },
     {
      "name": "Restack",
@@ -38211,7 +38330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 990
+     "rank": 993
     },
     {
      "name": "Braintrust",
@@ -38249,7 +38368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 991
+     "rank": 994
     },
     {
      "name": "Nexad",
@@ -38287,7 +38406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 992
+     "rank": 995
     },
     {
      "name": "Also",
@@ -38325,7 +38444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 993
+     "rank": 996
     },
     {
      "name": "Chatfuel",
@@ -38363,7 +38482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 994
+     "rank": 997
     },
     {
      "name": "CloudSight",
@@ -38400,7 +38519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 995
+     "rank": 998
     },
     {
      "name": "Height",
@@ -38438,7 +38557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 996
+     "rank": 999
     },
     {
      "name": "Amboras",
@@ -38483,126 +38602,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 997
-    },
-    {
-     "name": "Anomaly Detection",
-     "slug": "anomaly-detection",
-     "description": "A curated collection of APIs, tools, and platforms for detecting anomalies in data streams, time series, and multivariate metrics. Covers cloud ML services, observability platforms, and open-source frameworks used for fraud detection, predictive maintenance, IoT monitoring, and security analytics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/screenshots/anomaly-detection-2026-06-20T172012.png",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.4,
-      "governance": 68.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 15.8
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 998
-    },
-    {
-     "name": "Digger",
-     "slug": "digger",
-     "description": "Digger (diggerhq), backed by Initialized Capital, builds developer infrastructure across two open-source-rooted product lines. OpenTaco (formerly the Digger CE project) is an Infrastructure-as-Code orchestration and Terraform/OpenTofu state-management platform that runs plan/apply inside your existing CI pipeline, with PR automation, PR-level locks, drift detection and remediation, RBAC via Open Policy Agent, and FIPS 140 support; it is self-hostable via Docker Compose, Railway, and Kubernetes. OpenComputer is the company's flagship agent-infrastructure product: persistent, long-running cloud VMs for AI agents — real Linux machines that hibernate when idle and wake in seconds, with checkpoints, preview URLs, per-tenant package control, a REST API, TypeScript and Python SDKs, the oc CLI, durable agent sessions, and signed, retriable webhooks for sandbox lifecycle events.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/screenshots/digger-2026-07-25T212000.png",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 999
-    },
-    {
-     "name": "Recall Labs",
-     "slug": "recall-labs",
-     "description": "Recall is a decentralized platform for verifying AI performance through community-driven evaluation, competition, and staking. Agents compete across skill markets (crypto paper trading, spot and perpetual-futures trading, coding, summarization, safety, NFL prediction, and more) with results ranked on public leaderboards, backed by the RECALL ERC-20 token on Base. Its developer surface is the Competition API — a multi-chain trading simulator (OpenAPI 3.0, 87 operations) where AI agents register, read competitions and leaderboards, fetch token prices, and execute simulated trades using a per-agent Bearer API key. Recall Labs is backed by Northzone.",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 57.1,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 41.7,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 1000
     }
    ]
@@ -38621,7 +38620,7 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 1472,
+   "count": 1471,
    "shown": 0,
    "providers": []
   },
@@ -38630,7 +38629,7 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1755,
+   "count": 1751,
    "shown": 0,
    "providers": []
   },
@@ -38639,7 +38638,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 95,
+   "count": 93,
    "shown": 0,
    "providers": []
   }
