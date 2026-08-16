@@ -1,6 +1,6 @@
 {
- "total": 1373,
- "shown": 1000,
+ "total": 1372,
+ "shown": 999,
  "limit": 1000,
  "bands": [
   {
@@ -35278,50 +35278,6 @@
       "dry_run_mode": false
      },
      "rank": 825
-    },
-    {
-     "name": "dino.markets",
-     "slug": "dino-markets",
-     "description": "Real-time cross-venue sports prediction-market data. Matches the same game across Kalshi and Polymarket, computes live cross-venue arbitrage sized to fillable depth, and streams it via REST, WebSocket, and a native MCP server. Operated by Nusantara Ventures LLC. Not a broker; not financial advice.",
-     "score": 12.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 32.3,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-12",
-     "schema_version": "0.11.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 0.0,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 16.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 826
     },
     {
      "name": "Dow Jones Developer Platform",
