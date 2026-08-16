@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5189
+  "count": 5191
  },
  {
   "slug": "automotive",
@@ -39,7 +39,7 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1108
+  "count": 1109
  },
  {
   "slug": "blockchain-crypto",
@@ -60,7 +60,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1002
+  "count": 1003
  },
  {
   "slug": "cloud-data-platform",
@@ -137,7 +137,7 @@
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1733
+  "count": 1735
  },
  {
   "slug": "e-commerce-platform",
@@ -277,7 +277,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 861
+  "count": 863
  },
  {
   "slug": "legal-compliance",
@@ -333,7 +333,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 625
+  "count": 627
  },
  {
   "slug": "creator-economy",
@@ -431,7 +431,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1190
+  "count": 1191
  },
  {
   "slug": "tax-compliance-software",
@@ -452,7 +452,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1253
+  "count": 1254
  },
  {
   "slug": "transportation",

@@ -2,9 +2,9 @@
      Do not put a literal include tag in a comment here - Jekyll parses Liquid inside
      HTML comments and will try to execute it.
      Fields on p: slug, title, blurb, price, kind (eyebrow), gets (what-you-get line). -->
-<a class="paper-promo" href="https://papers.apievangelist.com/papers/{{ include.p.slug }}/" style="text-decoration:none;">
+<a class="paper-promo" href="{{ include.p.url }}" style="text-decoration:none;">
   <div class="paper-promo-cover">
-    <img src="https://papers.apievangelist.com/assets/covers/{{ include.p.slug }}.png" alt="{{ include.p.title }} cover" loading="lazy">
+    <img src="{{ include.p.cover }}" alt="{{ include.p.title }} cover" loading="lazy">
   </div>
   <div class="paper-promo-body">
     <div class="paper-promo-eyebrow">{{ include.p.kind | default: "API Evangelist Sector Report" }}</div>

@@ -50,6 +50,7 @@ ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 APISIO = os.path.join(ROOT, "api-search", "providers", "_providers")
 PAPERS = os.path.join(ROOT, "api-evangelist", "papers", "_papers")
+REPORTS_DIR = os.path.join(ROOT, "api-evangelist", "reports", "_reports")
 OUT = os.path.join(SITE, "_providers")
 DATA = os.path.join(SITE, "_data")
 DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
@@ -144,24 +145,50 @@ def read_frontmatter(path):
 
 
 def load_papers():
-    """Build the white-paper catalogue used by the random-paper sidebar feature."""
-    papers = []
-    for path in sorted(glob.glob(os.path.join(PAPERS, "*.md"))):
-        fm = read_frontmatter(path)
-        if not fm or not fm.get("slug"):
+    """The catalogue behind the random-paper sidebar feature.
+
+    Reads BOTH storefronts. Papers and reports split on 2026-08-16 onto separate
+    repos and domains, and a promo card that builds its own href from a slug will
+    send 99 of these to the wrong host — so each entry carries an absolute `url`
+    and `cover`, and the template links what it is given rather than guessing.
+    """
+    out = []
+    for base, src, kind in (
+        ("https://papers.apievangelist.com/papers", PAPERS, "paper"),
+        ("https://reports.apievangelist.com/reports", REPORTS_DIR, "report"),
+    ):
+        if not src or not os.path.isdir(src):
             continue
-        cover = fm.get("cover") or "/assets/covers/%s.png" % fm["slug"]
-        if cover.startswith("/"):
-            cover = "https://papers.apievangelist.com" + cover
-        papers.append({
-            "slug": fm["slug"],
-            "title": fm.get("title", fm["slug"]),
-            "tagline": (fm.get("tagline") or fm.get("summary") or "").strip(),
-            "area": fm.get("area", "White Paper"),
-            "price": str(fm.get("price", "")).replace(".00", ""),
-            "cover": cover,
-        })
-    return papers
+        host = base.rsplit("/", 1)[0]
+        for path in sorted(glob.glob(os.path.join(src, "*.md"))):
+            fm = read_frontmatter(path)
+            if not fm or not fm.get("slug"):
+                continue
+            if fm.get("published") is False:
+                continue          # withdrawn — keep the slug on record, off the site
+            cover = fm.get("cover") or "/assets/covers/%s.png" % fm["slug"]
+            if cover.startswith("/"):
+                cover = host + cover
+            out.append({
+                "slug": fm["slug"],
+                "kind": kind,
+                "url": "%s/%s/" % (base, fm["slug"]),
+                "title": fm.get("title", fm["slug"]),
+                "tagline": (fm.get("tagline") or fm.get("summary") or "").strip(),
+                "area": fm.get("area", "White Paper"),
+                "price": str(fm.get("price", "")).replace(".00", ""),
+                "cover": cover,
+            })
+    # During the phased split a slug can appear in both storefronts — papers has
+    # not been trimmed yet and reports already holds the copy. The report is the
+    # live one, so it wins; after papers is trimmed this is a no-op.
+    seen, deduped = set(), []
+    for e in sorted(out, key=lambda e: 0 if e["kind"] == "report" else 1):
+        if e["slug"] in seen:
+            continue
+        seen.add(e["slug"])
+        deduped.append(e)
+    return sorted(deduped, key=lambda e: e["slug"])
 
 
 def artifact_summary(fm):
@@ -297,7 +324,10 @@ def main():
     paper_index = {p["slug"]: i for i, p in enumerate(papers)}
     with open(os.path.join(DATA, "papers.json"), "w", encoding="utf-8") as fh:
         json.dump(papers, fh, ensure_ascii=False, indent=2)
-    print("papers.json: %d white papers" % len(papers))
+    print("papers.json: %d entries (%d papers, %d reports)"
+          % (len(papers),
+             sum(1 for p in papers if p["kind"] == "paper"),
+             sum(1 for p in papers if p["kind"] == "report")))
 
     slugs = sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(ALL, "*", "apis.yml")))
     delisted = delisted_slugs()

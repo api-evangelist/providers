@@ -1,6 +1,6 @@
 {
- "total": 625,
- "shown": 625,
+ "total": 627,
+ "shown": 627,
  "limit": 1000,
  "bands": [
   {
@@ -25084,8 +25084,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Energy and Utilities",
@@ -25093,6 +25093,18 @@
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
      "rank": 625
+    },
+    {
+     "name": "Flashparking",
+     "slug": "flashparking",
+     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
+     "rank": 626
+    },
+    {
+     "name": "Fluid Truck",
+     "slug": "fluid-truck",
+     "description": "Fluid Truck was a Denver, Colorado peer-to-peer commercial vehicle sharing platform founded in 2016 by James Eberhard and Jenifer Snyder, often described as \"the Zipcar of commercial vehicles\". It operated an app-based, self-service rental marketplace for cargo vans, box trucks and flatbeds across roughly 400 cities in 32 US states, and ran the Fluid Vehicle Investor Program (FVIP) through which individuals and small businesses bought fleets that Fluid managed and rented out. The company raised over $80 million in venture funding, filed for Chapter 11 bankruptcy in Delaware in October 2024 after an $20.6 million cash loss in 2023, sold substantially all assets to Kingbee Rentals in December 2024, and the case converted to Chapter 7 liquidation in September 2025. The company is wound down: no developer program, API documentation, or machine-readable contract was ever published, and its own web properties no longer serve a valid TLS certificate.",
+     "rank": 627
     }
    ]
   }

@@ -1,38 +1,48 @@
 [
   {
     "slug": "500-global-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/500-global-api-portfolio/",
     "title": "The 500 Global API Portfolio",
     "tagline": "Every 500 Global company that ships an API, scored the way a machine reads it — a global seed book that is agent-native at the edges and governance-empty at the core, with five borrowed exemplars standing in for a thesis its own companies have not yet proven.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/500-global-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/500-global-api-portfolio.png"
   },
   {
     "slug": "a16z-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/a16z-api-portfolio/",
     "title": "The a16z API Portfolio",
     "tagline": "Every Andreessen Horowitz company that ships an API, scored the way a machine reads it — and what the book says about the fund's real bet.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/a16z-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/a16z-api-portfolio.png"
   },
   {
     "slug": "accel-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/accel-api-portfolio/",
     "title": "The Accel API Portfolio",
     "tagline": "Every Accel company that ships an API, scored the way a machine reads it — the infrastructure fund whose contracts are the broadest in venture and whose agent-execution layer is the thinnest.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/accel-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/accel-api-portfolio.png"
   },
   {
     "slug": "agentic-readiness-of-venture",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/agentic-readiness-of-venture/",
     "title": "The Agentic Readiness of Venture",
     "tagline": "The twenty-five most important venture funds, ranked on one axis — whether their portfolios are ready for agents that act.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/agentic-readiness-of-venture.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/agentic-readiness-of-venture.png"
   },
   {
     "slug": "arazzo-api-integration-page",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/arazzo-api-integration-page/",
     "title": "Delivering a Modern API Integration Page with Arazzo",
     "tagline": "Turn your integrations page from a gallery of connectors into a directory of forkable workflows.",
     "area": "Fundamentals",
@@ -41,46 +51,58 @@
   },
   {
     "slug": "bain-capital-ventures-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/bain-capital-ventures-api-portfolio/",
     "title": "The Bain Capital Ventures API Portfolio",
     "tagline": "Every Bain Capital Ventures company that ships an API, scored the way a machine reads it — a broad, enterprise-mature book whose one exemplar already exited, and whose live agent-native edge sits in its newest fintech leads.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/bain-capital-ventures-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/bain-capital-ventures-api-portfolio.png"
   },
   {
     "slug": "battery-ventures-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/battery-ventures-api-portfolio/",
     "title": "The Battery Ventures API Portfolio",
     "tagline": "Every Battery Ventures company that ships an API, scored the way a machine reads it — a deep-contract infrastructure book whose OpenAPI surface outruns its governance.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/battery-ventures-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/battery-ventures-api-portfolio.png"
   },
   {
     "slug": "bessemer-venture-partners-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/bessemer-venture-partners-api-portfolio/",
     "title": "The Bessemer Venture Partners API Portfolio",
     "tagline": "Every Bessemer company that ships an API, scored the way a machine reads it — the highest mean in venture, and the softest peak behind it.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/bessemer-venture-partners-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/bessemer-venture-partners-api-portfolio.png"
   },
   {
     "slug": "bloomberg-beta-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/bloomberg-beta-api-portfolio/",
     "title": "The Bloomberg Beta API Portfolio",
     "tagline": "A small, focused seed book of the infrastructure agents will consume, scored the way a machine reads it — that has not yet been packaged for agents itself.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/bloomberg-beta-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/bloomberg-beta-api-portfolio.png"
   },
   {
     "slug": "canaan-partners-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/canaan-partners-api-portfolio/",
     "title": "The Canaan Partners API Portfolio",
     "tagline": "Every Canaan Partners company that ships an API, scored the way a machine reads it — and why a broad, long-vintage generalist book still has no reference-grade API.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/canaan-partners-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/canaan-partners-api-portfolio.png"
   },
   {
     "slug": "change-on-the-agent-surface",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/change-on-the-agent-surface/",
     "title": "Change on the Agent Surface",
     "tagline": "Governing versioning, breaking changes, and deprecation for the MCP tools an agent binds to.",
     "area": "Fundamentals",
@@ -89,6 +111,8 @@
   },
   {
     "slug": "conversational-api-governance",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/conversational-api-governance/",
     "title": "Making API Governance Conversational",
     "tagline": "Publish an MCP server for your Spectral rules so copilots and agents can govern APIs the way you do.",
     "area": "Fundamentals",
@@ -97,14 +121,18 @@
   },
   {
     "slug": "dcvc-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/dcvc-api-portfolio/",
     "title": "The DCVC API Portfolio",
     "tagline": "Every DCVC company that ships an API, scored the way a machine reads it — a small deep-tech book that instruments its own agents but builds almost nothing at the top.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/dcvc-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/dcvc-api-portfolio.png"
   },
   {
     "slug": "explicit-agent-boundaries",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/explicit-agent-boundaries/",
     "title": "Explicit Agent Boundaries",
     "tagline": "Govern the Markdown that now drives your agents — a declared, machine-checkable contract for what an agent may change, may not change, and may not do.",
     "area": "Fundamentals",
@@ -113,6 +141,8 @@
   },
   {
     "slug": "fundamentals-of-api-discovery",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-api-discovery/",
     "title": "The Fundamentals of API Discovery",
     "tagline": "Why you can't govern, secure, or automate what you can't find.",
     "area": "Fundamentals",
@@ -121,6 +151,8 @@
   },
   {
     "slug": "fundamentals-of-api-evangelism",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-api-evangelism/",
     "title": "The Fundamentals of API Evangelism",
     "tagline": "The storytelling and human persuasion that decides whether your API gets used at all.",
     "area": "Fundamentals",
@@ -129,6 +161,8 @@
   },
   {
     "slug": "fundamentals-of-api-governance",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-api-governance/",
     "title": "The Fundamentals of API Governance",
     "tagline": "The status-quo stack for governing APIs, from someone who stood one up at scale.",
     "area": "Fundamentals",
@@ -137,6 +171,8 @@
   },
   {
     "slug": "fundamentals-of-api-reusability",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-api-reusability/",
     "title": "The Fundamentals of API Reusability",
     "tagline": "Why three teams keep building the same API, and how to make reuse measurable instead of aspirational.",
     "area": "Fundamentals",
@@ -145,6 +181,8 @@
   },
   {
     "slug": "fundamentals-of-context-engineering",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-context-engineering/",
     "title": "The Fundamentals of Context Engineering",
     "tagline": "Curating what an agent needs to reliably discover, understand, and use your API.",
     "area": "Fundamentals",
@@ -153,6 +191,8 @@
   },
   {
     "slug": "fundamentals-of-markdown",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-markdown/",
     "title": "The Fundamentals of Markdown",
     "tagline": "Every .md file that matters, where it came from, who is behind it, and why a twenty-two-year-old formatting convention became the interface layer of the agentic era.",
     "area": "Fundamentals",
@@ -161,6 +201,8 @@
   },
   {
     "slug": "fundamentals-of-the-api-lifecycle",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/fundamentals-of-the-api-lifecycle/",
     "title": "The Fundamentals of the API Lifecycle",
     "tagline": "The end-to-end arc every API moves through, threaded by one machine-readable definition.",
     "area": "Fundamentals",
@@ -169,142 +211,168 @@
   },
   {
     "slug": "general-catalyst-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/general-catalyst-api-portfolio/",
     "title": "The General Catalyst API Portfolio",
     "tagline": "Every General Catalyst company that ships an API, scored the way a machine reads it — and why a book that shipped agent front doors on banking and health APIs never shipped the governance behind them.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/general-catalyst-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/general-catalyst-api-portfolio.png"
   },
   {
     "slug": "gv-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/gv-api-portfolio/",
     "title": "The GV (Google Ventures) API Portfolio",
     "tagline": "Every Google Ventures company that ships an API, scored the way a machine reads it — and why a book of category-defining logos still reads agent-shallow behind Stripe.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/gv-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/gv-api-portfolio.png"
   },
   {
     "slug": "index-ventures-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/index-ventures-api-portfolio/",
     "title": "The Index Ventures API Portfolio",
     "tagline": "Every Index Ventures company that ships an API, scored the way a machine reads it — a small, dense, enterprise-SaaS book with real agent depth at the top and a diligence-grade gap underneath.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/index-ventures-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/index-ventures-api-portfolio.png"
   },
   {
     "slug": "insight-partners-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insight-partners-api-portfolio/",
     "title": "The Insight Partners API Portfolio",
     "tagline": "The largest growth-equity API book after a16z, scored the way a machine reads it — and why the estate that discovers best is the one least ready for agents.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/insight-partners-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insight-partners-api-portfolio.png"
   },
   {
     "slug": "insights-adobe",
-    "title": "Adobe — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-adobe/",
+    "title": "Adobe — Profile Report",
     "tagline": "The Fortune 1000's single heaviest AI buyer, read from 1,187 of its own job postings — and the API surface behind it.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-adobe.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-adobe.png"
   },
   {
     "slug": "insights-autodesk",
-    "title": "Autodesk — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-autodesk/",
+    "title": "Autodesk — Profile Report",
     "tagline": "What Autodesk is actually buying, read from 632 of its own job postings — and the exemplar API surface behind it.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-autodesk.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-autodesk.png"
   },
   {
     "slug": "insights-avalara",
-    "title": "Avalara — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-avalara/",
+    "title": "Avalara — Profile Report",
     "tagline": "What Avalara is actually buying, read from all 108 of its own job postings — and why a company that publishes 2,469 markdown documents for AI agents has machine-readable contracts for barely a third of them.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-avalara.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-avalara.png"
   },
   {
     "slug": "insights-jp-morgan-chase",
-    "title": "JPMorgan Chase — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-jp-morgan-chase/",
+    "title": "JPMorgan Chase — Profile Report",
     "tagline": "What JPMorgan Chase is actually buying, read from 7,799 of its own job postings — and what its API surface says back.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-jp-morgan-chase.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-jp-morgan-chase.png"
   },
   {
     "slug": "insights-oracle",
-    "title": "Oracle — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-oracle/",
+    "title": "Oracle — Profile Report",
     "tagline": "What Oracle is actually buying, read from its own job postings — and why one of the largest published API surfaces in the Fortune 1000 was effectively invisible to machines.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-oracle.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-oracle.png"
   },
   {
     "slug": "insights-palo-alto-networks",
-    "title": "Palo Alto Networks — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-palo-alto-networks/",
+    "title": "Palo Alto Networks — Profile Report",
     "tagline": "What Palo Alto Networks is actually buying, read from 1,207 of its own job postings — and why the product line it hires hardest around is the one it publishes no contract for.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-palo-alto-networks.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-palo-alto-networks.png"
   },
   {
     "slug": "insights-postman",
-    "title": "Postman — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-postman/",
+    "title": "Postman — Profile Report",
     "tagline": "What Postman is actually buying, read from all 116 of its own job postings — and why the company whose product is API specification tooling publishes a specification of its own API with no examples in it.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-postman.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-postman.png"
   },
   {
     "slug": "insights-salesforce",
-    "title": "Salesforce — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-salesforce/",
+    "title": "Salesforce — Profile Report",
     "tagline": "What Salesforce is actually buying, read from 1,434 of its own job postings — and the exemplar API surface it will judge yours against.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-salesforce.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-salesforce.png"
   },
   {
     "slug": "insights-servicenow",
-    "title": "ServiceNow — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-servicenow/",
+    "title": "ServiceNow — Profile Report",
     "tagline": "What ServiceNow is actually buying, read from 343 of its own job postings — and why a platform this API-heavy has no downloadable contract for you to design against.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-servicenow.png"
-  },
-  {
-    "slug": "insights-splunk",
-    "title": "Splunk — Enterprise Insights Bundle",
-    "tagline": "What Splunk is actually buying, read from 955 of its own job postings — and why a platform this API-heavy publishes machine-readable contracts for only three of its fourteen APIs.",
-    "area": "Insights Bundle",
-    "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-splunk.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-servicenow.png"
   },
   {
     "slug": "insights-workday",
-    "title": "Workday — Enterprise Insights Bundle",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/insights-workday/",
+    "title": "Workday — Profile Report",
     "tagline": "What Workday is actually buying, read from all 341 of its own job postings — and why the only machine-readable contract you can download from it without a login is SOAP.",
-    "area": "Insights Bundle",
+    "area": "Profile Report",
     "price": "1,500",
-    "cover": "https://papers.apievangelist.com/assets/covers/insights-workday.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/insights-workday.png"
   },
   {
     "slug": "kleiner-perkins-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/kleiner-perkins-api-portfolio/",
     "title": "The Kleiner Perkins API Portfolio",
     "tagline": "A small book with the densest top end measured in this series, where every exemplar is a frontier AI or design-infra bet and the mature franchises ship breadth but no agent surface.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/kleiner-perkins-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/kleiner-perkins-api-portfolio.png"
   },
   {
     "slug": "lightspeed-venture-partners-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/lightspeed-venture-partners-api-portfolio/",
     "title": "The Lightspeed API Portfolio",
     "tagline": "Every Lightspeed company that ships an API, scored the way a machine reads it — and why the top of the book and its real agent leaders are two different lists.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/lightspeed-venture-partners-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/lightspeed-venture-partners-api-portfolio.png"
   },
   {
     "slug": "mcp-documentation-beyond-reference",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/mcp-documentation-beyond-reference/",
     "title": "MCP Documentation Beyond Reference",
     "tagline": "Reference docs describe the interface; agents fail on the behavior — document the operational layer.",
     "area": "Fundamentals",
@@ -313,30 +381,38 @@
   },
   {
     "slug": "menlo-ventures-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/menlo-ventures-api-portfolio/",
     "title": "The Menlo Ventures API Portfolio",
     "tagline": "Every Menlo Ventures company that ships an API, scored the way a machine reads it — and why a fund that backed the author of the agentic protocol has barely shipped it in its own book.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/menlo-ventures-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/menlo-ventures-api-portfolio.png"
   },
   {
     "slug": "norwest-venture-partners-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/norwest-venture-partners-api-portfolio/",
     "title": "The Norwest Venture Partners API Portfolio",
     "tagline": "Every Norwest Venture Partners company that ships an API, scored the way a machine reads it — a growth-stage barbell of Fortune-100 incumbents and a thin agent-native forward layer.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/norwest-venture-partners-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/norwest-venture-partners-api-portfolio.png"
   },
   {
     "slug": "partech-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/partech-api-portfolio/",
     "title": "The Partech API Portfolio",
     "tagline": "Every Partech company that ships an API, scored the way a machine reads it — a European operator's book that went agent-native before it built a single exemplar.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/partech-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/partech-api-portfolio.png"
   },
   {
     "slug": "publishing-a-public-mcp-server",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/publishing-a-public-mcp-server/",
     "title": "Publishing a Public MCP Server",
     "tagline": "A provider's guide to shipping Model Context Protocol as part of API operations.",
     "area": "Fundamentals",
@@ -345,6 +421,8 @@
   },
   {
     "slug": "publishing-an-api-portal",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/publishing-an-api-portal/",
     "title": "Publishing an API Portal",
     "tagline": "A provider's guide to standing up the human-readable front door to your API.",
     "area": "Fundamentals",
@@ -353,22 +431,28 @@
   },
   {
     "slug": "qiming-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/qiming-api-portfolio/",
     "title": "The Qiming Venture Partners API Portfolio",
     "tagline": "Every Qiming company that ships an API, scored the way a machine reads it — and why a competent China deep-tech book publishes APIs but has not yet operationalized trust.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/qiming-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/qiming-api-portfolio.png"
   },
   {
     "slug": "redpoint-ventures-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/redpoint-ventures-api-portfolio/",
     "title": "The Redpoint Ventures API Portfolio",
     "tagline": "Every Redpoint Ventures company that ships an API, scored the way a machine reads it — and why a book that scores near the top of the mean ships almost no agents at all.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/redpoint-ventures-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/redpoint-ventures-api-portfolio.png"
   },
   {
     "slug": "running-a-local-food-business-on-apis",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/running-a-local-food-business-on-apis/",
     "title": "Running a Local Food Business on APIs",
     "tagline": "The services a small food producer actually needs — shipped with the working APIs.json artifact that describes them.",
     "area": "Fundamentals",
@@ -377,438 +461,848 @@
   },
   {
     "slug": "seedcamp-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/seedcamp-api-portfolio/",
     "title": "The Seedcamp API Portfolio",
     "tagline": "Europe's most agent-native seed book, scored the way a machine reads it — the highest agent-native rate of any fund measured, built on authored skills over shipped MCP, with a regulated-fintech spine and a top almost nobody has reached yet.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/seedcamp-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/seedcamp-api-portfolio.png"
   },
   {
     "slug": "sequoia-capital-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/sequoia-capital-api-portfolio/",
     "title": "The Sequoia Capital API Portfolio",
     "tagline": "A curated winners' slice of Sequoia Capital's book, scored the way a machine reads it — the highest quality and exemplar rate in the series, and the one that trails it on frontier agent-readiness.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/sequoia-capital-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/sequoia-capital-api-portfolio.png"
   },
   {
     "slug": "softbank-vision-fund-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/softbank-vision-fund-api-portfolio/",
     "title": "The SoftBank Vision Fund API Portfolio",
     "tagline": "Every SoftBank Vision Fund company that ships an API, scored the way a machine reads it — and why the biggest checks in venture buy the thinnest ceiling on the board.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/softbank-vision-fund-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/softbank-vision-fund-api-portfolio.png"
   },
   {
     "slug": "speedinvest-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/speedinvest-api-portfolio/",
     "title": "The Speedinvest API Portfolio",
     "tagline": "Every Speedinvest company that ships an API, scored the way a machine reads it — a European seed book that learned to publish contracts before it learned to govern or prove them.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/speedinvest-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/speedinvest-api-portfolio.png"
   },
   {
     "slug": "state-of-api-clients",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-api-clients/",
     "title": "The State of API Clients",
     "tagline": "The market that consumes APIs rather than publishing them — why only three of thirty-five publish an API of their own, and why that is a deliberate market movement rather than a measurement failure.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-api-clients.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-api-clients.png"
   },
   {
     "slug": "state-of-artificial-intelligence-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/",
     "title": "The State of Artificial Intelligence APIs",
-    "tagline": "4,904 AI companies scored — the industry selling agents produces a machine-readability distribution indistinguishable from the average of every other industry in the catalog.",
-    "area": "Market Report",
+    "tagline": "The AI industry adopted the protocol it invented and none of the safety rails that make it drivable. It shipped the door and skipped the locks.",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-artificial-intelligence-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-artificial-intelligence-apis.png"
+  },
+  {
+    "slug": "state-of-audience-measurement-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-audience-measurement-apis/",
+    "title": "The State of Audience and Measurement APIs",
+    "tagline": "One of marketing's strongest areas, with an eleven-point buy/sell split inside a single function. The same capability, measured differently depending on who pays for it.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-audience-measurement-apis.png"
   },
   {
     "slug": "state-of-australian-banking-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-banking-apis/",
     "title": "The State of Australian Banking APIs",
     "tagline": "What fifty Consumer Data Right banks actually publish, scored — and what it means for the operators who run them and the investors who back them.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-banking-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-banking-apis.png"
   },
   {
     "slug": "state-of-australian-energy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-energy-apis/",
     "title": "The State of Australian Energy APIs",
     "tagline": "What twenty-four Australian energy organizations actually publish, scored — proof that a statutory data mandate transplants from one industry to another, and what it costs to verify one.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-energy-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-energy-apis.png"
   },
   {
     "slug": "state-of-australian-healthcare-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-healthcare-apis/",
     "title": "The State of Australian Healthcare APIs",
     "tagline": "What twelve Australian healthcare organizations actually publish, scored — where the challengers out-execute the national agency, and one built the incumbents' FHIR.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-healthcare-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-healthcare-apis.png"
   },
   {
     "slug": "state-of-australian-insurance-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-insurance-apis/",
     "title": "The State of Australian Insurance APIs",
     "tagline": "What twenty Australian insurance organizations actually publish, scored — the country with the machinery for open insurance and no obligation to use it.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-insurance-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-insurance-apis.png"
   },
   {
     "slug": "state-of-australian-payments-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-payments-apis/",
     "title": "The State of Australian Payments APIs",
     "tagline": "What twenty Australian payment companies actually publish, scored — the NPP-native market where the signature resource is PayID, and the agent surface is almost entirely synthetic.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-payments-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-payments-apis.png"
   },
   {
     "slug": "state-of-australian-real-estate-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-real-estate-apis/",
     "title": "The State of Australian Real Estate APIs",
     "tagline": "What eighteen Australian real estate organizations actually publish, scored — the market that mandated the rail instead of the schema, and got an API that carries production traffic.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-real-estate-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-real-estate-apis.png"
   },
   {
     "slug": "state-of-australian-travel-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-australian-travel-apis/",
     "title": "The State of Australian Travel APIs",
     "tagline": "What eleven Australian travel and aviation organizations actually publish, scored — the control group, and the lowest contract-quality reading in this entire research programme.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-travel-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-australian-travel-apis.png"
   },
   {
     "slug": "state-of-authentication-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-authentication-apis/",
     "title": "The State of API Authentication",
     "tagline": "What forty identity, authentication and authorization providers actually publish, scored — the strongest-publishing market in this series, and the one where the scarcest artifact is the thing it sells.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-authentication-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-authentication-apis.png"
+  },
+  {
+    "slug": "state-of-biotechnology-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-biotechnology-apis/",
+    "title": "The State of Biotechnology APIs",
+    "tagline": "An industry that built three workflow languages and published zero workflow contracts. Biotechnology solved sequencing, orchestration and reproducibility for compute pipelines over twenty years, and never once pointed that machinery at its own interfaces.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-biotechnology-apis.png"
   },
   {
     "slug": "state-of-blockchain-crypto-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/",
     "title": "The State of Blockchain & Crypto APIs",
-    "tagline": "One of the highest-publishing large markets in the catalog — median 26.3 against 15.0, idempotency at nearly three times the catalog rate — and OAuth scopes published by 13.3% of its leaders.",
-    "area": "Market Report",
+    "tagline": "One of the highest-publishing large markets in the catalog — median 26.4 against 15.0, idempotency at nearly three times the catalog rate — and OAuth scopes published by 13.3% of its leaders.",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-blockchain-crypto-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-blockchain-crypto-apis.png"
   },
   {
     "slug": "state-of-canadian-banking-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-banking-apis/",
     "title": "The State of Canadian Banking APIs",
     "tagline": "What 42 Canadian banks, credit unions, caisses, and fintechs actually publish, scored — the emptiest banking market measured, where the rails outrank the banks.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-banking-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-banking-apis.png"
   },
   {
     "slug": "state-of-canadian-energy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-energy-apis/",
     "title": "The State of Canadian Energy APIs",
     "tagline": "What eighteen Canadian energy organizations actually publish, scored — one province mandated Green Button, and the country's best API belongs to a utility nobody compelled.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-energy-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-energy-apis.png"
   },
   {
     "slug": "state-of-canadian-healthcare-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-healthcare-apis/",
     "title": "The State of Canadian Healthcare APIs",
     "tagline": "What ten Canadian healthcare organizations actually publish, scored — the market with no FHIR-native challenger class, where a practice-management vendor tops the field.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-healthcare-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-healthcare-apis.png"
   },
   {
     "slug": "state-of-canadian-insurance-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/",
     "title": "The State of Canadian Insurance APIs",
     "tagline": "What twenty Canadian insurance organizations actually publish, scored — the only market with a real API certification programme, and its largest carrier is Not Yet Rated.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-insurance-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-insurance-apis.png"
   },
   {
     "slug": "state-of-canadian-payments-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-payments-apis/",
     "title": "The State of Canadian Payments APIs",
     "tagline": "What fourteen Canadian payment companies actually publish, scored — the thinnest, most concentrated market, where the fintechs out-API the incumbents and the rails.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-payments-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-payments-apis.png"
   },
   {
     "slug": "state-of-canadian-real-estate-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-real-estate-apis/",
     "title": "The State of Canadian Real Estate APIs",
     "tagline": "What fourteen Canadian real estate organizations actually publish, scored — four facets at a clean sweep of zeros, and the fifth consecutive sector in which Canada finishes last.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-real-estate-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-real-estate-apis.png"
   },
   {
     "slug": "state-of-canadian-travel-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-canadian-travel-apis/",
     "title": "The State of Canadian Travel APIs",
     "tagline": "What nine Canadian travel and aviation organizations actually publish, scored — the country that authored the travel industry's flagship standard, and the market where its author is among the worst-published organizations in it.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-travel-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-canadian-travel-apis.png"
+  },
+  {
+    "slug": "state-of-climate-sustainability-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-climate-sustainability-apis/",
+    "title": "The State of Climate, Energy and Sustainability APIs",
+    "tagline": "98% of the upper band publishes a contract — the highest rate measured anywhere — and it is mostly weather APIs. The software that climate regulation created is seventeen companies.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-climate-sustainability-apis.png"
   },
   {
     "slug": "state-of-compute-hardware-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/",
     "title": "The State of Compute & Hardware APIs",
     "tagline": "The companies that rent the chips score 36.5. The companies that design and fabricate those same chips score 10.7. NVIDIA scores 24.0 and NVIDIA NIM scores 78.7.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-compute-hardware-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-compute-hardware-apis.png"
+  },
+  {
+    "slug": "state-of-content-brand-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-content-brand-apis/",
+    "title": "The State of Content and Brand APIs",
+    "tagline": "The lowest governance figure in marketing, in the area whose entire product is an asset other systems depend on retrieving.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-content-brand-apis.png"
+  },
+  {
+    "slug": "state-of-conversation-coaching-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-conversation-coaching-apis/",
+    "title": "The State of Conversation and Coaching APIs",
+    "tagline": "The weakest area in revenue software, and it holds at full coverage. Governance averages 18.1 in the market that holds recordings of every customer conversation.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-conversation-coaching-apis.png"
+  },
+  {
+    "slug": "state-of-creator-economy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-creator-economy-apis/",
+    "title": "The State of Creator Economy APIs",
+    "tagline": "The market everyone describes as dependent on platforms turns out to be the one best equipped to survive them.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-creator-economy-apis.png"
   },
   {
     "slug": "state-of-cybersecurity-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/",
     "title": "The State of Cybersecurity APIs",
     "tagline": "The second-best-scoring market in the catalog — and 72% of it will not tell you how to report a vulnerability, now that the EU Cyber Resilience Act requires exactly that.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-cybersecurity-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-cybersecurity-apis.png"
   },
   {
     "slug": "state-of-data-analytics-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-data-analytics-apis/",
     "title": "The State of Data & Analytics APIs",
     "tagline": "One of the best-scoring markets in the catalog — and the segment selling \"know your data\" is the worst-scoring segment inside it, publishing a contract 16.5% of the time against the warehouses' 49.0%.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-data-analytics-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-data-analytics-apis.png"
+  },
+  {
+    "slug": "state-of-data-prospecting-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-data-prospecting-apis/",
+    "title": "The State of Data and Prospecting APIs",
+    "tagline": "This area publishes contracts at a higher rate than the market around it and still fails every delegation dimension. The data moves; the permission to act on it does not.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-data-prospecting-apis.png"
+  },
+  {
+    "slug": "state-of-demand-capture-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-demand-capture-apis/",
+    "title": "The State of Demand Capture APIs",
+    "tagline": "The second-strongest area in marketing, and the one where the product only works if the handoff works. Programmability here is not a virtue, it is the business model.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-demand-capture-apis.png"
   },
   {
     "slug": "state-of-developer-tools-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-developer-tools-apis/",
     "title": "The State of Developer Tools APIs",
     "tagline": "The best-scoring industry in the catalog — first of twenty-five — and it publishes idempotency at the same 2.8% rate as the worst. The gap was never competence.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-developer-tools-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-developer-tools-apis.png"
   },
   {
     "slug": "state-of-digital-health-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-digital-health-apis/",
     "title": "The State of Digital Health APIs",
     "tagline": "The market with the best standard and the most mandates publishes consent as a machine-readable surface at 3.4% — the same rate as the rest of the catalog, in the one market built on it.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-digital-health-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-digital-health-apis.png"
   },
   {
     "slug": "state-of-documentation-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-documentation-apis/",
     "title": "The State of API Documentation",
     "tagline": "What twenty-nine documentation platforms, reference renderers and docs-as-code frameworks actually publish, scored — the market whose entire job is making APIs legible, measured on whether its own products are.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-documentation-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-documentation-apis.png"
+  },
+  {
+    "slug": "state-of-earned-social-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-earned-social-apis/",
+    "title": "The State of Earned and Social APIs",
+    "tagline": "The one area in this report where a low score is partly not the company's fault — and one of only two where the sell side outscores the buy side.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-earned-social-apis.png"
   },
   {
     "slug": "state-of-education-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-education-apis/",
     "title": "The State of Education & EdTech APIs",
     "tagline": "The library out-publishes the classroom — scholarly infrastructure publishes a contract 51.0% of the time, corporate learning 0% — and thirty-four organizations in 810 run an MCP server, the lowest of any market scored.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-education-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-education-apis.png"
+  },
+  {
+    "slug": "state-of-engagement-outreach-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-engagement-outreach-apis/",
+    "title": "The State of Engagement and Outreach APIs",
+    "tagline": "Sixty-seven percent publish a contract — the highest of any large area in this report. Ninety percent cannot tell an agent whether a call was already made.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-engagement-outreach-apis.png"
+  },
+  {
+    "slug": "state-of-gaming-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-gaming-apis/",
+    "title": "The State of Gaming APIs",
+    "tagline": "The product is deliberately closed and the supply chain is wide open. Heroic Labs scores 78.8; Take-Two scores 7.1.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-gaming-apis.png"
+  },
+  {
+    "slug": "state-of-government-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-government-apis/",
+    "title": "The State of Government APIs",
+    "tagline": "The most consistently contract-publishing market measured anywhere in this research is also one of the least operable. Government did the part the policy named and stopped precisely there.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-government-apis.png"
   },
   {
     "slug": "state-of-headless-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-headless-apis/",
     "title": "The State of Headless APIs",
-    "tagline": "What one hundred and eight headless CMS, commerce and browser providers actually publish, scored — the architecture whose entire promise is that the API is the product, tested against the evidence, where the monoliths keep the promise better than the disruptors.",
-    "area": "Market Report",
+    "tagline": "What one hundred and six headless CMS, commerce and browser providers actually publish, scored — the architecture whose entire promise is that the API is the product, tested against the evidence, where the monoliths keep the promise better than the disruptors.",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-headless-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-headless-apis.png"
+  },
+  {
+    "slug": "state-of-human-capital-management-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-human-capital-management-apis/",
+    "title": "The State of HR and Workforce APIs",
+    "tagline": "This market proved it will adopt an API standard when one exists at the right layer. It has done that exactly once, for the narrowest problem in the stack.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-human-capital-management-apis.png"
+  },
+  {
+    "slug": "state-of-iot-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-iot-apis/",
+    "title": "The State of IoT APIs",
+    "tagline": "This market solved interoperability where devices meet networks and left it unsolved where customers and agents meet platforms. The best contracts in the research series; the lowest MCP adoption.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-iot-apis.png"
   },
   {
     "slug": "state-of-legal-compliance-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-legal-compliance-apis/",
     "title": "The State of Legal & Compliance APIs",
     "tagline": "The contract lifecycle management segment publishes the fewest contracts in its own market — 18.2% against e-signature's 55.0% — and the market that sells governance scores 9.4 on it.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-legal-compliance-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-legal-compliance-apis.png"
   },
   {
     "slug": "state-of-management-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-management-apis/",
     "title": "The State of API Management",
     "tagline": "What thirty-six API management platforms, gateways and data planes actually publish, scored — the market that sells other people their API practice, measured on its own rubric, where five agentic primitives come back at absolute zero.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-management-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-management-apis.png"
   },
   {
     "slug": "state-of-market-data-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-market-data-apis/",
     "title": "The State of Market Data APIs",
     "tagline": "What the market data providers actually publish, scored — and where the durable value hides in a commoditizing feed.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-market-data-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-market-data-apis.png"
   },
   {
     "slug": "state-of-marketing-advertising-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/",
     "title": "The State of Marketing & Advertising APIs",
-    "tagline": "The industry whose tracking wrote the world's consent laws describes consent in its own APIs at 3.1% — below the whole-catalog rate, and at zero across the consent-management segment itself.",
-    "area": "Market Report",
+    "tagline": "The industry whose tracking wrote the world's consent laws describes consent in its own APIs at 4.4% — below the whole-catalog rate, and at zero across the consent-management segment itself.",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-marketing-advertising-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-marketing-advertising-apis.png"
+  },
+  {
+    "slug": "state-of-marketing-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-marketing-apis/",
+    "title": "The State of Marketing APIs",
+    "tagline": "The strongest divide in marketing software is not category, it is customer. Software sold to the advertiser scores 53.3; software sold to the publisher scores 39.0. Both sides run the same real-time auctions against each other. One of them documents how.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-marketing-apis.png"
+  },
+  {
+    "slug": "state-of-mobility-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-mobility-apis/",
+    "title": "The State of Mobility APIs",
+    "tagline": "The best-documented market in this research is the least agent-ready one. Mobility built excellent interfaces for a world of scheduled integrations and webhooks, and that is precisely the investment that does not carry forward.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-mobility-apis.png"
+  },
+  {
+    "slug": "state-of-orchestration-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-orchestration-apis/",
+    "title": "The State of Marketing Orchestration APIs",
+    "tagline": "The area that automates marketing scores at the marketing average. Orchestration software that cannot itself be orchestrated is the clearest irony in this research.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-orchestration-apis.png"
+  },
+  {
+    "slug": "state-of-owned-channels-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-owned-channels-apis/",
+    "title": "The State of Owned Channel APIs",
+    "tagline": "The strongest area in marketing, built by companies whose product was always an interface. Even here, delegation is missing at over eighty percent.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-owned-channels-apis.png"
+  },
+  {
+    "slug": "state-of-paid-media-buy-side-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-paid-media-buy-side-apis/",
+    "title": "The State of Paid Media APIs — The Buy Side",
+    "tagline": "This market transacts entirely by machine and describes itself to the outside world less than almost any other. The bid stream is a specification. The platform is not.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-paid-media-buy-side-apis.png"
+  },
+  {
+    "slug": "state-of-paid-media-sell-side-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-paid-media-sell-side-apis/",
+    "title": "The State of Paid Media APIs — The Sell Side",
+    "tagline": "The lowest scores in either cohort, and the clearest single finding in this research: the side of the transaction with no customer demanding transparency did not build any.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-paid-media-sell-side-apis.png"
+  },
+  {
+    "slug": "state-of-pipeline-forecast-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-pipeline-forecast-apis/",
+    "title": "The State of Pipeline and Forecast APIs",
+    "tagline": "This is the most connected software in go-to-market and it sits 1.2 points below the market median on Agent Readiness. Being integrated by everyone is not the same as being operable by anything.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-pipeline-forecast-apis.png"
+  },
+  {
+    "slug": "state-of-plumbing-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-plumbing-apis/",
+    "title": "The State of Revenue Plumbing APIs",
+    "tagline": "The best-scoring area in revenue software on every artifact measure, and it fails consent and idempotency at 91% each. Even the market's integration specialists have not built for a caller that acts on someone else's behalf.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-plumbing-apis.png"
+  },
+  {
+    "slug": "state-of-quote-to-cash-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-quote-to-cash-apis/",
+    "title": "The State of Quote-to-Cash APIs",
+    "tagline": "Twenty-three companies, scoring above the market on every artifact measure and failing consent at 96%. The step immediately before money moves is the step least prepared to be delegated.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-quote-to-cash-apis.png"
+  },
+  {
+    "slug": "state-of-retention-advocacy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-retention-advocacy-apis/",
+    "title": "The State of Retention and Advocacy APIs",
+    "tagline": "The tightest Kin-to-Agent-Readiness gap in either cohort. What these companies publish, an agent can mostly use — there is simply not very much of it.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-retention-advocacy-apis.png"
+  },
+  {
+    "slug": "state-of-retention-expansion-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-retention-expansion-apis/",
+    "title": "The State of Retention and Expansion APIs",
+    "tagline": "Twenty companies, and four of the market's own core terms carry no company at all. This is the one area in the report where coverage is a live question.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-retention-expansion-apis.png"
+  },
+  {
+    "slug": "state-of-revenue-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-revenue-apis/",
+    "title": "The State of Revenue APIs",
+    "tagline": "This market has made itself readable by machines and has not made itself operable by them. Fifty-eight percent publish a contract and forty-six percent run their own MCP server, both high figures by any standard in the catalog. Zero describe a workflow. The distance between those two facts is the whole opportunity.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-revenue-apis.png"
   },
   {
     "slug": "state-of-robotics-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-robotics-apis/",
     "title": "The State of Robotics & Autonomous Systems APIs",
     "tagline": "This market is not short of APIs — it is short of public ones. 5.8% publish a contract, and the most likely reason is a security posture that treats a documented interface as an attack surface.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-robotics-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-robotics-apis.png"
+  },
+  {
+    "slug": "state-of-space-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-space-apis/",
+    "title": "The State of Space and Aerospace APIs",
+    "tagline": "Forty years of machine-to-machine standards produced spacecraft that talk to each other across agencies and almost nothing a customer's agent can operate.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-space-apis.png"
   },
   {
     "slug": "state-of-supply-chain-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-supply-chain-apis/",
     "title": "The State of Supply Chain APIs",
     "tagline": "The industry that moves the physical economy publishes idempotency at 1.3% — fifteen companies out of 1,154 — in the one market where a retried request dispatches a second truck.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-supply-chain-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-supply-chain-apis.png"
   },
   {
     "slug": "state-of-telecom-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-telecom-apis/",
     "title": "The State of Telecom APIs",
     "tagline": "What eighty-three telecom organizations worldwide actually publish, scored — the industry that built a real open standard and then published 351 specifications with no hosts in them.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-telecom-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-telecom-apis.png"
   },
   {
     "slug": "state-of-testing-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-testing-apis/",
     "title": "The State of API Testing",
     "tagline": "What thirty-seven API testing platforms, mocking tools, load generators, contract frameworks and scanners actually publish, scored — the first market in this series that is genuinely building for agents, and the weakest-scoring one measured.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-testing-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-testing-apis.png"
+  },
+  {
+    "slug": "state-of-the-sales-handoff-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-the-sales-handoff-apis/",
+    "title": "The State of the Sales Handoff APIs",
+    "tagline": "The area that connects the two cohorts in this research scores like the stronger one. Software defined by a handoff gets good at handing off.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-the-sales-handoff-apis.png"
   },
   {
     "slug": "state-of-uk-banking-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-banking-apis/",
     "title": "The State of UK Banking APIs",
     "tagline": "What sixty UK banks and building societies actually publish, scored — from the CMA9 Open Banking mandate to the challengers, building societies, and private banks around it.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-banking-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-banking-apis.png"
   },
   {
     "slug": "state-of-uk-energy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-energy-apis/",
     "title": "The State of UK Energy APIs",
     "tagline": "What twenty-six UK energy organizations actually publish, scored — the market that mandated the pipes instead of the data, and got exactly what it compelled.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-energy-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-energy-apis.png"
   },
   {
     "slug": "state-of-uk-healthcare-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-healthcare-apis/",
     "title": "The State of UK Healthcare APIs",
     "tagline": "What thirteen UK healthcare organizations actually publish, scored — the single-payer market where the incumbent leads and the challengers orbit.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-healthcare-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-healthcare-apis.png"
   },
   {
     "slug": "state-of-uk-insurance-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-insurance-apis/",
     "title": "The State of UK Insurance APIs",
     "tagline": "What thirty-five UK insurance organizations and the London Market actually publish, scored — where a 337-year-old market beat every regulator to open APIs.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-insurance-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-insurance-apis.png"
   },
   {
     "slug": "state-of-uk-payments-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-payments-apis/",
     "title": "The State of UK Payments APIs",
     "tagline": "What thirty-two UK payment companies actually publish, scored — the open-banking payment-initiation heartland, and the market that hides its own crown jewels.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-payments-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-payments-apis.png"
   },
   {
     "slug": "state-of-uk-real-estate-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-real-estate-apis/",
     "title": "The State of UK Real Estate APIs",
     "tagline": "What twenty-four UK real estate organizations actually publish, scored — the market with no MLS, no standard and no mandate, and the best-published real estate sector in the world.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-real-estate-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-real-estate-apis.png"
   },
   {
     "slug": "state-of-uk-travel-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-uk-travel-apis/",
     "title": "The State of UK Travel APIs",
     "tagline": "What fourteen UK travel and aviation organizations actually publish, scored — the country that proved mandates work, in the one sector it never mandated.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-travel-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-uk-travel-apis.png"
   },
   {
     "slug": "state-of-us-banking-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-banking-apis/",
     "title": "The State of US Banking APIs",
     "tagline": "What 113 US banks, credit unions, neobanks, and banking-rails providers actually publish, scored — the one open-finance market with no mandate, and the widest split in banking.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-banking-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-banking-apis.png"
   },
   {
     "slug": "state-of-us-energy-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-energy-apis/",
     "title": "The State of US Energy APIs",
     "tagline": "What sixty US energy organizations actually publish, scored — the market with the best standard, the largest scale, no obligation, and the lowest average of the four.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-energy-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-energy-apis.png"
   },
   {
     "slug": "state-of-us-healthcare-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/",
     "title": "The State of US Healthcare APIs",
-    "tagline": "What seventy-seven US healthcare companies actually publish, scored — the FHIR mandate that inverted the market, and the sector where consent is invisible.",
-    "area": "Market Report",
+    "tagline": "Thirty years of mandated machine-to-machine standards produced clearinghouses, not APIs. The most standardised market measured here is the least programmable one.",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-healthcare-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-healthcare-apis.png"
   },
   {
     "slug": "state-of-us-insurance-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-insurance-apis/",
     "title": "The State of US Insurance APIs",
     "tagline": "What seventy-nine US insurance organizations actually publish, scored — the market with no mandate, where one company in the country publishes bind.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-insurance-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-insurance-apis.png"
   },
   {
     "slug": "state-of-us-payments-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-payments-apis/",
     "title": "The State of US Payments APIs",
     "tagline": "What sixty-eight US payment companies actually publish, scored — the deepest, most agent-instrumented payments estate on earth, and the market with no mandate and no floor.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-payments-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-payments-apis.png"
   },
   {
     "slug": "state-of-us-real-estate-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/",
     "title": "The State of US Real Estate APIs",
     "tagline": "What forty-five US real estate organizations actually publish, scored — the only industry that successfully mandated a machine-readable contract on itself, and the two points it bought.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-real-estate-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-real-estate-apis.png"
   },
   {
     "slug": "state-of-us-travel-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-us-travel-apis/",
     "title": "The State of US Travel APIs",
     "tagline": "What thirty US travel and aviation organizations actually publish, scored — the sector where switching cost IS the commercial structure, and the published surface is inversely related to market power.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-travel-apis.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-us-travel-apis.png"
+  },
+  {
+    "slug": "state-of-weather-geospatial-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-weather-geospatial-apis/",
+    "title": "The State of Weather and Geospatial APIs",
+    "tagline": "The best-governed market in this research scores badly on an instrument built for agents that write. That is a finding about the instrument as much as the market.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-weather-geospatial-apis.png"
+  },
+  {
+    "slug": "state-of-where-the-spend-lands-apis",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/state-of-where-the-spend-lands-apis/",
+    "title": "The State of Where the Spend Lands",
+    "tagline": "The newest money in marketing arrives on the least described surfaces. Retail media grew into a major channel without building a public interface layer.",
+    "area": "Trend Report",
+    "price": "500",
+    "cover": "https://reports.apievangelist.com/assets/covers/state-of-where-the-spend-lands-apis.png"
   },
   {
     "slug": "techstars-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/techstars-api-portfolio/",
     "title": "The Techstars API Portfolio",
     "tagline": "Every Techstars company that ships an API, scored the way a machine reads it — a broad accelerator book of clean early-2010s contracts with a thin exemplar ceiling and an unfinished agent story.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/techstars-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/techstars-api-portfolio.png"
   },
   {
     "slug": "the-a2a-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-a2a-standard/",
     "title": "The A2A Standard",
     "tagline": "65 organizations publish an Agent Card. Ten publish one a conformant client can read. And the ten that got it right score lower on API maturity than the forty-one that got it wrong.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-a2a-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-a2a-standard.png"
   },
   {
     "slug": "the-agent-era-standards-onramp",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-agent-era-standards-onramp/",
     "title": "The Agent-Era API Standards Onramp",
     "tagline": "A sequenced path through the standards a first public API now has to speak — one rung at a time, in order.",
     "area": "Fundamentals",
@@ -817,6 +1311,8 @@
   },
   {
     "slug": "the-api-rating-rubric-explained",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-api-rating-rubric-explained/",
     "title": "The API Rating Rubric, Explained",
     "tagline": "What the apis.io score measures, why it's weighted the way it is, and how to move it.",
     "area": "Fundamentals",
@@ -825,54 +1321,68 @@
   },
   {
     "slug": "the-arazzo-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-arazzo-standard/",
     "title": "The Arazzo Standard",
     "tagline": "812 Arazzo documents exist across all of public GitHub. API Evangelist holds 5,276. And the market adopted the specification as a test format, not a description format.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-arazzo-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-arazzo-standard.png"
   },
   {
     "slug": "the-ard-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-ard-standard/",
     "title": "The ARD Standard",
     "tagline": "Eleven of the largest agent builders specified the discovery layer. Nine companies publish it, seven of them are outsiders, none is fully conformant — and two fail on the specification's own stale documentation.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-ard-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-ard-standard.png"
   },
   {
     "slug": "the-asyncapi-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-asyncapi-standard/",
     "title": "The AsyncAPI Standard",
     "tagline": "Across 26,722 providers, exactly one publishes an AsyncAPI document — and 159 describe their events in OpenAPI instead. In its own strongest segment, AsyncAPI is losing 159 to one.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-asyncapi-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-asyncapi-standard.png"
   },
   {
     "slug": "the-camara-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-camara-standard/",
     "title": "The CAMARA Standard",
     "tagline": "The industry that standardised itself without being told to — 1,369 participants, 487 organizations, 93 repositories, nothing graduated, and exactly one operator on earth publishing a contract you can call.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-camara-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-camara-standard.png"
   },
   {
     "slug": "the-graphql-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-graphql-standard/",
     "title": "The GraphQL Standard",
     "tagline": "793 providers publish a GraphQL schema defining 69,521 types — the second-largest description corpus measured here, and the one JSON Schema cannot reach.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-graphql-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-graphql-standard.png"
   },
   {
     "slug": "the-json-schema-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-json-schema-standard/",
     "title": "The JSON Schema Standard",
     "tagline": "9,439,146 schema objects measured inside published API contracts — and an industry still writing with the vocabulary it had in 2013.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-json-schema-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-json-schema-standard.png"
   },
   {
     "slug": "the-list-of-list-sellers",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-list-of-list-sellers/",
     "title": "The List of List Sellers",
     "tagline": "The people who email me to sell other people's contact data, recorded as contact data — with the machine-readable file attached.",
     "area": "Fundamentals",
@@ -881,46 +1391,58 @@
   },
   {
     "slug": "the-mcp-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-mcp-standard/",
     "title": "The Model Context Protocol Standard",
     "tagline": "3,060 providers carry an MCP artifact. 672 publish a server you can actually reach. And the median server exposes 11 tools while the largest exposes 588.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-mcp-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-mcp-standard.png"
   },
   {
     "slug": "the-oauth-2-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-oauth-2-standard/",
     "title": "The OAuth 2.0 Standard",
     "tagline": "775 published contracts still declare the implicit flow — 28.9% of every OAuth-using contract in the corpus, for a flow removed from OAuth 2.1.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-oauth-2-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-oauth-2-standard.png"
   },
   {
     "slug": "the-openapi-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-openapi-standard/",
     "title": "The OpenAPI Standard",
     "tagline": "14,257 real OpenAPI documents, read as published. One in three carries no callable address, and OAS 3.2.0 reached four of them in ten months.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-openapi-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-openapi-standard.png"
   },
   {
     "slug": "the-openid-connect-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-openid-connect-standard/",
     "title": "The OpenID Connect Standard",
     "tagline": "The identity layer under everything, declared in 102 of 14,195 published API contracts — 0.72%.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-openid-connect-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-openid-connect-standard.png"
   },
   {
     "slug": "the-overlay-standard",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-overlay-standard/",
     "title": "The OpenAPI Overlay Standard",
     "tagline": "122 stars, 21 contributors, two people writing four fifths of it — and Elastic, MongoDB, Cloudinary and Vercel running it in production. Attention and adoption have come apart.",
     "area": "Standard Report",
     "price": "0",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-overlay-standard.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-overlay-standard.png"
   },
   {
     "slug": "the-pricing-of-ai-apis",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-pricing-of-ai-apis/",
     "title": "The Pricing of AI APIs",
     "tagline": "How the model labs price inference — and what every API provider can learn about pricing their own.",
     "area": "Fundamentals",
@@ -929,6 +1451,8 @@
   },
   {
     "slug": "the-pricing-of-communication-apis",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-pricing-of-communication-apis/",
     "title": "The Pricing of Communication APIs",
     "tagline": "How SMS, email, and voice APIs are priced — and the pass-through fees the headline rate hides.",
     "area": "Fundamentals",
@@ -937,6 +1461,8 @@
   },
   {
     "slug": "the-pricing-of-payment-apis",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/the-pricing-of-payment-apis/",
     "title": "The Pricing of Payment APIs",
     "tagline": "How payment APIs price a slice of value, not a cost of service — the original take-rate model.",
     "area": "Fundamentals",
@@ -945,18 +1471,22 @@
   },
   {
     "slug": "the-state-of-spectral-in-api-pipelines",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/the-state-of-spectral-in-api-pipelines/",
     "title": "The State of Spectral in API Pipelines",
     "tagline": "What 1,005 real public pipelines reveal about how teams actually govern their APIs — and the blueprint almost none of them have reached.",
-    "area": "Market Report",
+    "area": "Trend Report",
     "price": "500",
-    "cover": "https://papers.apievangelist.com/assets/covers/the-state-of-spectral-in-api-pipelines.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/the-state-of-spectral-in-api-pipelines.png"
   },
   {
     "slug": "y-combinator-api-portfolio",
+    "kind": "report",
+    "url": "https://reports.apievangelist.com/reports/y-combinator-api-portfolio/",
     "title": "The Y Combinator API Portfolio",
     "tagline": "Every Y Combinator company that ships an API, scored the way a machine reads it — and why the batch is agent-native and governance-empty at the same time.",
     "area": "Portfolio Report",
     "price": "750",
-    "cover": "https://papers.apievangelist.com/assets/covers/y-combinator-api-portfolio.png"
+    "cover": "https://reports.apievangelist.com/assets/covers/y-combinator-api-portfolio.png"
   }
 ]

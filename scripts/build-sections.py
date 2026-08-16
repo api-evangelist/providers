@@ -1190,7 +1190,7 @@ SECTION_TOOLS = {
                      "shortlist of 36 re-sorts underneath you.",
             "note": "36 providers · one public rubric",
             "url": "/management/priorities.html",
-            "report": "https://papers.apievangelist.com/papers/state-of-management-apis/",
+            "report": "https://reports.apievangelist.com/reports/state-of-management-apis/",
         },
         {
             "side": "For providers",
@@ -1200,7 +1200,7 @@ SECTION_TOOLS = {
                      "passes it, and what shipping it is worth to your score.",
             "note": "14 checks · 20 points nobody holds",
             "url": "/management/opportunities.html",
-            "report": "https://papers.apievangelist.com/papers/state-of-management-apis/",
+            "report": "https://reports.apievangelist.com/reports/state-of-management-apis/",
         },
     ],
 }

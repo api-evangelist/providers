@@ -1,6 +1,6 @@
 {
- "total": 861,
- "shown": 861,
+ "total": 863,
+ "shown": 863,
  "limit": 1000,
  "bands": [
   {
@@ -34584,22 +34584,34 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "Flashparking",
+     "slug": "flashparking",
+     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
+     "rank": 860
+    },
+    {
+     "name": "FlexGen Power Systems",
+     "slug": "flexgen-power-systems",
+     "description": "FlexGen Power Systems is a Durham, North Carolina energy storage technology company founded in 2009 that designs, integrates and operates grid-scale battery energy storage systems (BESS) and the software that runs them. Its flagship product is HybridOS, a hardware-agnostic energy management system (EMS) for multi-source, multi-site battery and solar portfolios, alongside HybridOS Control BMS (a US-built battery management system), a solar power plant controller (PPC), EMS retrofit, activation and lifecycle services, and data-center power solutions. FlexGen has been named a BloombergNEF Tier 1 energy storage company, acquired Clean Energy Services (CES) and the assets of Powin, and states that HybridOS exposes automated APIs and historian data API access to customers. No public developer portal, API reference or machine-readable specification is published; the HybridOS API surface is reached only through customer deployments and the login-gated FlexGen customer portal.",
+     "rank": 861
+    },
     {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 860
+     "rank": 862
     },
     {
      "name": "RFID",
      "slug": "rfid",
      "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png",
-     "rank": 861
+     "rank": 863
     }
    ]
   }
